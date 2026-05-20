@@ -590,5 +590,37 @@
     ],
     "answer": "-1",
     "explanation": ""
+  },
+  {
+    "id": 8210,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "$^{10}C_2+^{10}C_3+^{10}C_4+…..+^{10}C_{10}=?$",
+    "options": [
+      "$2^{10}+1$",
+      "$2^{10}$",
+      "$2^{10}-1$",
+      "$2^{10}-11$"
+    ],
+    "answer": "$2^{10}-11$",
+    "explanation": ""
+  },
+  {
+    "id": 8365,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$(2x-{1\\over x^2})^{15}$ এর বিস্তারে $x^{12}$ এর সহগ কোনটি?",
+    "options": [
+      "-30",
+      "-24",
+      "24",
+      "$-2^{14}.15$"
+    ],
+    "answer": "$-2^{14}.15$",
+    "explanation": ""
   }
 ]

@@ -2398,5 +2398,53 @@
     ],
     "answer": "$0.667\\times10^{-10}Nm^{2}kg^{-2}$",
     "explanation": "<p><br></p>"
+  },
+  {
+    "id": 1135,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><br></p><p>\nপৃথিবীর ভর M এবং ব্যাসার্ধ R হলে পৃথিবীপৃষ্ঠে ${g\\over G}$ এর অনুপাত হবে—</p>",
+    "options": [
+      "MR<sup>2</sup>",
+      "${R\\over M}$",
+      "${M\\over R^2}$",
+      "${M^2\\over R}$"
+    ],
+    "answer": "${M\\over R^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 1385,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>G এর মাত্রা কোনটি?</p>",
+    "options": [
+      "L<sup>3</sup>T<sup>-2</sup>M<sup>2</sup>",
+      "L<sup>2</sup>T<sup>-2</sup>M<sup>-1</sup>",
+      "L<sup>3</sup>T<sup>-2</sup>M<sup>-2</sup>",
+      "L<sup>3</sup>T<sup>-2</sup>M<sup>-1</sup>"
+    ],
+    "answer": "L<sup>3</sup>T<sup>-2</sup>M<sup>-1</sup>",
+    "explanation": "<p>  </p>"
+  },
+  {
+    "id": 1521,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>পৃথিবীর ঘূর্ণন বদ্ধ হলে বিষুব রেখায় g এর মান-</p>",
+    "options": [
+      "বৃদ্ধি পাবে",
+      "হ্রাস পাবে",
+      "একই থাকবে",
+      "শুণ্য হবে"
+    ],
+    "answer": "বৃদ্ধি পাবে",
+    "explanation": "<p>বিষুব রেখায় R এর মান কম তাই g  এর মান বেশি ।</p>"
   }
 ]

@@ -526,5 +526,37 @@
     ],
     "answer": "2519",
     "explanation": "ব্যাখ্যাঃ$\\mathrm{AMERICA}\\;\\mathrm{শব্দের}\\;\\mathrm{পুনর্বিন্যাস}\\;=\\;\\frac{7!}{2!}-1=2519$"
+  },
+  {
+    "id": 6862,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$^nC_{10}=^nC_6$ হলে n = ?</p>",
+    "options": [
+      "16",
+      "10",
+      "6",
+      "4"
+    ],
+    "answer": "16",
+    "explanation": "<p>এখানে, ${ }^n C_{10}={ }^n C_6$ বা, ${ }^n C_{n-10}={ }^n C_6$</p><p>বা, $n-10=6$ বা, $n=6+10 \\therefore n=16$</p>"
+  },
+  {
+    "id": 7057,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$^{12}C_0$এর মান-",
+    "options": [
+      "0",
+      "1",
+      "12",
+      "144"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\mathrm{আমরা}\\;\\mathrm{জানি}\\;,\\;\\;{\\mathrm n}_{{\\mathrm C}_0}=\\;1\\;,\\\\\\mathrm n=\\;12\\;\\mathrm{হলে}\\;,\\;{12}_{{\\mathrm C}_0}=\\frac{12!}{(12-0)!\\;0!}=\\frac{12!}{12!\\;\\times\\;1}=\\frac{12!}{12!}=\\;1$</p>"
   }
 ]

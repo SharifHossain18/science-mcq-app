@@ -1,0 +1,242 @@
+[
+  {
+    "id": 393,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "5",
+    "context": "<p>তিনটি ভেক্টর রাশি যথাক্রমে</p><p>$\\bar{A}=4 i+3+5 k, B=21+j+2 k$ এবং $c=x^2 y i+y^2 z j+z^2 x k$ </p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>আয়ত একক ভেক্টর কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">ত্রিমাত্রিক স্থানাঙ্ক ব্যবস্থায় পরস্পর লম্ব তিনটি ধনাত্মক অক্ষ বরাবর যে তিনটি একক ভেক্টর বিবেচনা করা হয়, তাদেরকে আয়ত একক ভেক্টর বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p style=\"text-align: justify;\">ডানহাতি স্ক্রু নিয়মের সাহায্যে বোতলের মুখ খোলা বা বন্ধ করা যায়- ব্যাখ্যা করো।</p>",
+        "answer": "<p style=\"text-align: justify;\">ডানহাতি স্ক্রু নিয়ম অনুযায়ী, দুটি ভেক্টর যে সমতলে অবস্থিত, সেই সমতলের উপর লম্বভাবে একটি ডানহাতি স্কুকে রেখে প্রথম ভেক্টর হতে দ্বিতীয় ভেক্টরের দিকে ক্ষুদ্রতম কোণে ঘুরালে ত্রুটি যেদিকে অগ্রসর হবে সে দিক হবে ভেক্টরদ্বয়ের ক্রস গুণফলের দিক। একটি ডানহাতি স্কুকে সমতলে রেখে ডানদিকে ঘুরালে এটি নিচের দিকে যাবে এবং বামদিকে ঘুরালে এটি উপরের দিকে যাবে। তাই ডানহাতি স্ক্রু নিয়মের সাহায্যে দেখানো যায় যে, বোতলের মুখ ডানদিকে ঘুরালে বোতলের মুখ বন্ধ হয়ে যাবে আর বাম দিকে ঘুরালে বোতলের মুখ খুলে যাবে।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের <strong>A </strong>ও <strong>B </strong>ভেক্টরদ্বয়ের লম্ব দিকে একটি একক ভেক্টর<strong> </strong>নির্ণয় কর।</p>",
+        "answer": "<p>এখানে,</p>\n<p>$ \\vec{A}=4 \\hat{i}+3 \\hat{j}+5 \\hat{k} $</p>\n<p>$ \\vec{B}=2 \\hat{i}+\\hat{j}+2 \\hat{k}$</p>\n<p>&nbsp;</p>\n<p>$\\vec{A} \\times \\vec{B}=\\left|\\begin{array}{ccc}\\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ 4 &amp; 3 &amp; 5 \\\\ 2 &amp; 1 &amp; 2\\end{array}\\right|$</p>\n<p>$\\begin{aligned} &amp; =\\hat{\\mathrm{i}}(6-5)-\\hat{\\mathrm{j}}(8-10)+\\hat{\\mathrm{k}}(4-6) \\\\ &amp; =\\hat{\\mathrm{i}}+2 \\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}}\\end{aligned}$</p>\n<p>$ \\therefore|\\overrightarrow{\\mathrm{A}} \\times \\overrightarrow{\\mathrm{B}}|=\\sqrt{1^2+(2)^2+(-2)^2}$ $=\\sqrt{1+4+4}=3$</p>\n<p>সুতরাং $\\overrightarrow{\\mathrm{A}}$ ও $\\overrightarrow{\\mathrm{B}}$ এর লম্ব দিকে একক ভেক্টর,</p>\n<p>$\\hat{\\eta} = \\pm \\frac{\\vec{A} \\times \\vec{B}}{|\\vec{A} \\times \\vec{B}|}= \\pm \\frac{\\hat{i}+2 \\hat{j}-2 \\hat{k}}{3} $</p>\n<p>$ =\\frac{1}{3}(\\hat{i}+2 \\hat{j}-2 \\hat{k}) $ অথবা $-\\frac{1}{3}(\\hat{i}+2 \\hat{j}-2 \\hat{k}) \\text { (Ans.) }$</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের <strong>Č </strong>ভেক্টরের কার্লের ডাইভারজেন্স শূন্য হবে কি<strong>? </strong>গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>এখানে,</p>\n<p>$ \\vec{C}=x^2 y \\hat{i}+y^2 z \\hat{j}+z^2 x \\hat{k}$</p>\n<p>$\\overrightarrow{\\mathrm{C}}$ এর কার্ল $=\\vec{\\nabla} \\times \\overrightarrow{\\mathrm{C}}=\\left|\\begin{array}{ccc}\\hat{i} &amp; \\hat{j} &amp; \\hat{k} \\\\ \\frac{\\partial}{\\partial x} &amp; \\frac{\\partial}{\\partial y} &amp; \\frac{\\partial}{\\partial z} \\\\ x^2 y &amp; y^2 z &amp; z^2 x\\end{array}\\right|$</p>\n<p>$=\\hat{\\mathrm{i}}\\left\\{\\frac{\\partial}{\\partial \\mathrm{y}}\\left(\\mathrm{z}^2 \\mathrm{x}\\right)-\\frac{\\partial}{\\partial \\mathrm{z}}\\left(\\mathrm{y}^2 \\mathrm{z}\\right)\\right\\}-\\hat{\\mathrm{j}}\\left\\{\\frac{\\partial}{\\partial \\mathrm{x}}\\left(\\mathrm{z}^2 \\mathrm{x}\\right)\\right.\\left.-\\frac{\\partial}{\\partial \\mathrm{z}}\\left(\\mathrm{x}^2 \\mathrm{y}\\right)\\right\\} $</p>\n<p>$+\\hat{\\mathrm{k}}\\left\\{\\frac{\\partial}{\\partial \\mathrm{x}}\\left(\\mathrm{y}^2 \\mathrm{z}\\right)-\\frac{\\partial}{\\partial \\mathrm{y}}\\left(\\mathrm{x}^2 \\mathrm{y}\\right)\\right\\} $</p>\n<p>$=\\hat{\\mathrm{i}}\\left(0-\\mathrm{y}^2\\right)-\\hat{\\mathrm{j}}\\left(\\mathrm{z}^2-0\\right)+\\hat{\\mathrm{k}}\\left(0-\\mathrm{x}^2\\right)$ $=-\\mathrm{y}^2 \\hat{\\mathrm{i}}-\\mathrm{z}^2 \\hat{\\mathrm{j}}-\\mathrm{x}^2 \\hat{\\mathrm{k}}$</p>\n<p>$\\therefore$ কার্ল $(\\vec{\\nabla} \\times \\overrightarrow{\\mathrm{C}})$ এর ডাইভারজেন্স,</p>\n<p>$\\vec{\\nabla} \\cdot(\\vec{\\nabla} \\times \\vec{C}) $</p>\n<p>$=\\left(\\hat{i} \\frac{\\partial}{\\partial x}+\\hat{j} \\frac{\\partial}{\\partial y}+\\hat{k} \\frac{\\partial}{\\partial z}\\right) \\cdot\\left(-y^2 \\hat{i}-z^2 \\hat{j}-x^2 \\hat{k}\\right) $</p>\n<p>$ =-\\frac{\\partial}{\\partial x}\\left(y^2\\right)-\\frac{\\partial}{\\partial y}\\left(z^2\\right)-\\frac{\\partial}{\\partial z}\\left(x^2\\right)=0$</p>\n<p>সুতরাং, দেখা যায় যে, উদ্দীপকের $\\vec{C}$ ভেক্টরের কার্লের ডাইভারজেন্স শূন্য।</p>"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2019",
+    "board": "5",
+    "context": "<p>বিজ্ঞান মেলাকে আকর্ষণীয় করার জন্য প্রবেশ পথের দু পাশে পানির ফোয়ারা স্থাপন করা হলো। তাদের মধ্যে একটির পানির ফোঁটাগুলো 5 ms<sup>-1</sup> &nbsp;বেগে এবং 60° কোণে ছড়িয়ে পড়ছে। অপর ফোয়ারার পানির ফোঁটাগুলো 6 ms<sup>-1</sup> এবং 30° কোণে ছড়িয়ে পড়ছে।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>প্রক্ষেপক কাকে বলে?</p>",
+        "answer": "<p>কোনো একটি বস্তুকে অনুভূমিকের সাথে তীর্যকভাবে উলম্বতলে শূন্যে নিক্ষেপ করা হলে তাকে প্রক্ষেপক বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>বৃত্তাকার ট্র্যাকে কোনো দৌড়বিদ সমবেগে দৌড়াতে পারে না কেন? ব্যাখ্যা কর।</p>",
+        "answer": "<p style=\"text-align: justify;\">বৃত্তাকার ট্র্যাকে কোনো বস্তু ঘুরতে থাকলে তা অনবরত দিক পরিবর্তন করে। বস্তুটি সমদ্রুতিতে যদি চলে সেক্ষেত্রে বেগের মান অপরিবর্তিত থাকলেও দিক পরিবর্তনের ফলে বেগের পরিবর্তন যেকোনো বিন্দুতে তার 'লম্ব রেখা বরাবর ক্রিয়া করে। ফলে বস্তুটিতে ত্বরণ ক্রিয়া করে। অর্থাৎ বস্তুর বৃত্তাকার ট্র্যাকে সমবেগে চলা সম্ভব নয়। এ কারণেই বৃত্তাকার ট্র্যাকে কোনো দৌড়বিদ সমবেগে দৌড়াতে পারে না।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>0.6 sec সময়ে ১ম ফোয়ারার পানির ফোঁটার বেগ নির্ণয় কর।</p>",
+        "answer": "<p>এখানে, ১ম ফোয়ারার পানির প্রক্ষেপণ বেগ, V<sub>0</sub>= 5ms-1</p>\n<p>প্রক্ষেপণ কোণ, &theta;<sub> 0</sub>= 60&deg;</p>\n<p>সময়, t = 0.6 s</p>\n<p>অভিকর্ষজ ত্বরণ, g = 9.8 ms-2</p>\n<p>&nbsp;</p>\n<p>আমরা জানি,</p>\n<p>$v_x=v_{x_0}+a_x t$</p>\n<p>$=\\mathrm{v}_0 \\cos \\theta_0+0 \\times \\mathrm{t}$</p>\n<p>$=5 \\times \\cos 60^{\\circ} \\mathrm{m} \\mathrm{s}^{-1}$</p>\n<p>$=2.5 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>এবং</p>\n<p>$v_y=v_{y_0}+a_y t$</p>\n<p>$=v_0 \\sin \\theta_0-\\mathrm{gt}$</p>\n<p>$=\\left(5 \\times \\sin 60^{\\circ}-9.8 \\times 0.6\\right) \\mathrm{ms}^{-1}$</p>\n<p>$=-1.55 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>$v=\\sqrt{v_x^2+v_y^2}$</p>\n<p>$=\\sqrt{2.5^2+(-1.55)^2} \\mathrm{~m} \\mathrm{~s}^{-1}=2.94 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>&nbsp;</p>\n<p>অতএব, 0.6sec সময় ১ম ফোয়ারার পানির ফোটার বেগ 2.94ms<sup>-1</sup></p>\n<p>&nbsp;</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের কোন ফোয়ারার পানির ফোঁটাগুলো বেশি অঞ্চল জুড়ে ছড়িয়ে পড়বে? গাণিতিকভাবে বিশ্লেষণ কর।&nbsp;</p>",
+        "answer": "<p>১ম ফোয়ারার ক্ষেত্রে,</p>\n<p>প্রক্ষেপণ বেগ, v<sub>0</sub>=5ms<sup>-1</sup></p>\n<p>প্রক্ষেপণ কোণ, &theta;<sub>0</sub>=60<sup>∘</sup></p>\n<p>অভিকর্ষজ ত্বরণ, g=9.8ms<sup>-2</sup></p>\n<p>&nbsp;ফোঁটার পাল্লা = R</p>\n<p>$\\begin{aligned} &amp; R=\\frac{\\mathrm{v}_0^2 \\sin 2 \\theta_0}{\\mathrm{~g}} \\\\ &amp; \\text { বা, } \\mathrm{R}=\\frac{5^2 \\times \\sin \\left(2 \\times 60^{\\circ}\\right)}{9.8} \\mathrm{~m} \\\\ &amp; \\therefore \\mathrm{R}=2.21 \\mathrm{~m}\\end{aligned}$</p>\n<p>&nbsp;</p>\n<p>২য় ফোয়ারার ক্ষেত্র,</p>\n<p>প্রক্ষেপণ বেগ, v<sub>0</sub>'=6ms<sup>-1</sup></p>\n<p>প্রক্ষেপণ কোণ, &theta;<sub>0</sub>'=30<sup>∘</sup></p>\n<p>অভিকর্ষজ ত্বরণ, g=9.8ms<sup>-2</sup></p>\n<p>ফোঁটার পাল্লা</p>\n<p>$R^{\\prime}=\\frac{v_0^{\\prime 2} \\sin 2 \\theta_0^{\\prime}}{g}$</p>\n<p>$\\mathrm{R}=\\frac{6^2 \\times \\sin \\left(2 \\times 30^{\\circ}\\right)}{9.8} \\mathrm{~m}$</p>\n<p>&there4; R' = 3.18 m</p>\n<p>উপরোক্ত গাণিতিক বিশ্লেষণ হতে দেখা যাচ্ছে, R' &gt; R. অতএব, উদ্দীপকের ২য় ফোয়ারার পানির ফোটাগুলো বেশি অঞ্চল জুড়ে ছড়িয়ে পড়বে।</p>"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2019",
+    "board": "5",
+    "context": "<p style=\"text-align: justify;\">রহিম 80 cm দৈর্ঘ্যের একখণ্ড সুতার এক প্রান্তে &nbsp;200 g ভরের একটি বস্তু বেঁধে বৃত্তাকার পথে প্রতি মিনিটে 90 বার ঘুরাচ্ছে। অপরদিকে করিম 60 cm দৈর্ঘ্যের অপর একখণ্ড সুতার এক প্রান্তে 150 g ভরের একটি বস্তু বেঁধে একইভাবে প্রতি মিনিটে 120 বার ঘুরাচ্ছে।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>জড়তার ভ্রামক কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">একটি নির্দিষ্ট অক্ষের চারদিকে ঘূর্ণায়মান দৃঢ় বস্তুর প্রত্যেকটি কণার ভর এবং ঘূর্ণন অক্ষ থেকে প্রত্যেকটি কণার দূরত্বের বর্গের গুণফলের সমষ্টিকে জড়তার ভ্রামক বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>দুটি বস্তু সংঘর্ষের পর এক সঙ্গে আটকে গেলে সংঘর্ষটি স্থিতিস্থাপক হবে কি? ব্যাখ্যা কর।</p>",
+        "answer": "<p style=\"text-align: justify;\">যে সংঘর্ষে গতিশক্তি সংরক্ষিত থাকে অর্থাৎ সংঘর্ষের আগে ও পরে মোট গতিশক্তি সমান থাকে তাকে স্থিতিস্থাপক সংঘর্ষ বলে। দুটি বস্তু সংঘর্ষের পর এক সঙ্গে আটকে গেলে সংঘর্ষের পর বস্তু দুটির আপেক্ষিক বেগ শূন্য হয় এবং সংঘর্ষের পর বস্তুদ্বয়ের মোট গতিশক্তি সংরক্ষিত হয় না। অতএব, সংঘর্ষটি স্থিতিস্থাপক হবে না।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>রহিমের দ্বারা ঘুরানো বস্তুটির কৌণিক ভরবেগ নির্ণয় কর।&nbsp;</p>",
+        "answer": "<p>ঘূর্ণনের ব্যাসার্ধ,, r<sub>1 </sub>= 80cm = 0.8m</p>\n<p>ভর, m<sub>1</sub>=200\" \" g=0.2kg</p>\n<p>ঘূর্ণন সংখ্যা, n<sub>1</sub>=90,</p>\n<p>সময় t=1\" min=60s</p>\n<p>&there4; রৈখিক বেগ,&nbsp;</p>\n<p>$v_1 =\\frac{n_1 \\times 2 \\pi r_1}{t} $</p>\n<p>$ =\\frac{90 \\times 3.1416 \\times 0.8}{60} \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>$=7.54 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>&nbsp;</p>\n<p>রৈখিক বেগ,</p>\n<p>$\\mathrm{V}_1 =\\omega \\mathrm{r} $</p>\n<p>$ =\\frac{2 \\pi \\mathrm{n}_1}{\\mathrm{t}} \\mathrm{r}_1 $</p>\n<p>$ =\\frac{2 \\times 3.1416 \\times 90}{60} \\times 0.8 $</p>\n<p>$=7.54 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>কৌণিক ভরবেগ, L= ?</p>\n<p>&nbsp;</p>\n<p>আমরা জানি,</p>\n<p>$\\mathrm{L}=\\mathrm{m}_1 v_1 \\mathrm{r}_1=0.2 \\times 7.54 \\times 0.8 \\mathrm{~kg} \\mathrm{~m}^2 \\mathrm{~s}^{-1} $</p>\n<p>$ \\therefore L=1.21 \\mathrm{~kg} \\mathrm{~m}^2 \\mathrm{~s}^{-1}$</p>\n<p>অতএব, রহিমের দ্বারা ঘুরানো বস্তুটির কৌণিক ভরবেগ 1.21kgm<sup>2</sup> s<sup>-1</sup>।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের ঘটনায় রহিম ও করিম সুতায় সমান টান পেয়েছিল কি? গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>রহিমের ক্ষেত্রে :&nbsp;</p>\n<p>ঘূর্ণন ব্যাসার্ধ, r<sub>1</sub>=0.8 m</p>\n<p>ভর, m<sub>1</sub>=0.2 kg</p>\n<p>&nbsp;</p>\n<p>'গ' হতে পাই,</p>\n<p>রৈখিক বেগ, $\\mathrm{v}_1=7.54 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>&nbsp;</p>\n<p>রহিমের সুতার টান,</p>\n<p>$\\begin{aligned} &amp; \\mathrm{T}_1=\\mathrm{m}_1 \\frac{\\mathrm{v}_1^2}{\\mathrm{r}_1} \\\\ &amp; =0.2 \\times \\frac{7.54^2}{0.8} \\mathrm{~N} \\\\ &amp; \\therefore \\mathrm{T}_1=14.21 \\mathrm{~N}\\end{aligned}$</p>\n<p>&nbsp;</p>\n<p>করিমের ক্ষেত্রে :</p>\n<p>ঘূর্ণন ব্যাসার্ধ r<sub>2</sub>=60\" cm=0.6m</p>\n<p>ভর , m<sub>2</sub>=150 g=0.15kg</p>\n<p>ঘূর্ণন সংখ্যা, n<sub>2</sub>=120</p>\n<p>সময় , t= min = 60 s</p>\n<p>রৈখিক বেগ v<sub>2</sub>&nbsp;হলে,</p>\n<p>$ \\mathrm{v}_2=\\frac{\\mathrm{n}_2 \\times 2 \\pi \\mathrm{r}_2}{\\mathrm{t}} $</p>\n<p>$ \\frac{120 \\times 2 \\times 3.1416 \\times 0.6}{60} \\mathrm{~m} \\mathrm{~s}^{-1} $</p>\n<p>$=7.54 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>\n<p>টান, $ \\mathrm{T}_2=\\mathrm{m}_2 \\frac{\\mathrm{v}_3^2}{\\mathrm{r}_2}=0.15 \\times \\frac{7.54^2}{0.6} \\mathrm{~N} $</p>\n<p>$ \\therefore \\mathrm{T}_2=14.21 \\mathrm{~N}$</p>\n<p>উপরিউক্ত গাণিতিক বিশ্লেষণ হতে দেখা যাচ্ছে, $T_1=T_2$</p>\n<p>অতএব, উদ্দীপকের ঘটনায় রহিম ও করিম সুতার সমান টান পেয়েছিল ।</p>"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2019",
+    "board": "5",
+    "context": "<p style=\"text-align: justify;\">পৃথিবীর ভর ও ব্যাসার্ধ যথাক্রমে $6 \\times 10^{24} \\mathrm{~kg}$ এবং 6400 km। এর পৃষ্ঠে অভিকর্ষজ ত্বরণ $9.8 \\mathrm{~ms}^{-1}$। মহাকর্ষীয় ধ্রুবক $6.673 \\times 10^{-11} \\mathrm{Nm}^2 \\mathrm{~kg}^{-2}$ । এর পৃষ্ঠ থেকে একটি উপগ্রহকে 700 km উচ্চতায় তোলা হলো।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>ভূস্থির উপগ্রহ কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">কোনো কৃত্রিম উপগ্রহের আবর্তনকাল পৃথিবীর আবর্তনকালের সমান হলে ঐ উপগ্রহকে ভূস্থির উপগ্রহ বলে ।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>পৃথিবীর ঘনত্বের পরিবর্তনে অভিকর্ষজ ত্বরণ পরিবর্তন হবে কি? ব্যাখ্যা কর ।</p>",
+        "answer": "<p style=\"text-align: justify;\">পৃথিবীর ঘনত্বের পরিবর্তনে অভিকর্ষীয় ত্বরণ পরিবর্তন হবে পরিবর্তন হবে। পৃথিবীর ঘনত্ব বাড়লে অভিকর্ষীয় ত্বরণ বাড়ে এবং ঘনত্ব কমলে অভিকর্ষীয় ত্বরণ কমে।</p>\n<p style=\"text-align: justify;\">পৃথিবীর ব্যাসার্ধ্য R,ঘনত্ব &rho; এবং অভিকর্ষজ ত্বরণ g হলে,</p>\n<p style=\"text-align: justify;\">আমরা জানি, $g=\\frac{4}{3} G \\pi R \\rho$</p>\n<p style=\"text-align: justify;\"><span style=\"background-color: hsla(var(--b1) / var(--tw-bg-opacity, 1)); color: hsla(var(--bc) / var(--tw-text-opacity, 1));\">অর্থাৎ, g &prop;&rho;,&nbsp; তাই পৃথিবীর ঘনত্বের সাথে অভিকর্ষজ ত্বরণের সম্পর্ক সমানুপাতিক। পৃথিবীর ঘনত্ব বাড়লে অভিকর্ষীয় ত্বরণ বাড়ে এবং ঘনত্ব কমলে অভিকর্ষীয় ত্বরণ কমে।</span></p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>পৃথিবীর পৃষ্ঠ থেকে কত উচ্চতায় উপগ্রহের ওজন পৃথিবী পৃষ্ঠের ওজনের ৪০% হবে? নির্ণয় কর ।</p>",
+        "answer": "<p style=\"text-align: justify;\"><span style=\"color: rgb(33, 37, 41);\">পৃথিবীর পৃষ্ঠ থেকে যত উচ্চতায় অভিকর্ষজ ত্বরণ পৃষ্ঠের অভিকর্ষজ ত্বরণের ৪০% হবে তত উচ্চতায় ।</span></p>\n<p style=\"text-align: justify;\"><span style=\"color: rgb(33, 37, 41);\">ধরি, h উচ্চতায় অভিকর্ষজ ত্বরণ পৃথিবী পৃষ্ঠে অভিকর্ষজ ত্বরণের ৪০%।</span></p>\n<p>দেওয়া আছে,</p>\n<p>$\\begin{aligned} &amp; \\mathrm{g}=9.8 \\mathrm{~m} \\mathrm{~s}^{-2} \\\\ &amp; \\mathrm{~g}_{\\mathrm{h}}=0.8 \\mathrm{~g} \\\\ &amp; \\mathrm{R}=6400 \\mathrm{~km}=6.4 \\times 10^6 \\mathrm{~m}\\end{aligned}$</p>\n<p>$\\therefore \\frac{g_h}{g}=\\frac{R^2}{(R+h)^2} $</p>\n<p>বা, $\\left(\\frac{R+h}{R}\\right)^2=\\frac{g}{g_h} $</p>\n<p>বা, $ \\frac{R+h}{R}=\\sqrt{\\frac{g}{g_h}} $</p>\n<p>বা, $ h=\\sqrt{\\frac{g}{g_h}} \\times R-R $</p>\n<p>বা, $ h=\\left(\\sqrt{\\frac{g}{g_h}}-1\\right) R=\\left(\\sqrt{\\frac{g}{0.8 g}}-1\\right) R $</p>\n<p>$=\\left(\\sqrt{\\frac{1}{0.8}}-1\\right) \\times 6.4 \\times 10^6 \\mathrm{~m}=755417 \\mathrm{~m} $</p>\n<p>$ \\therefore \\mathrm{h}=755.42 \\mathrm{~km}$</p>\n<p><span style=\"color: rgb(33, 37, 41);\">অতএব, পৃথিবী পৃষ্ঠ হতে 755.42 km উচ্চতায় উপগ্রহের ওজন পৃথিবী পৃষ্ঠে ওজনের ৪০% হবে ।</span></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের উৎক্ষেপিত উপগ্রহটি চাঁদের মতো উপগ্রহ হবে কি? গাণিতিক বিশ্লেষণ কর।</p>",
+        "answer": "<p>এখানে, , পৃথিবীর ভর, M=6&times;10<sup>24</sup>kg</p>\n<p>পৃথিবীর ব্যাসার্ধ, R=6.4&times;10<sup>6</sup>m</p>\n<p>মহাকর্ষীয় ধ্রুবক, G=6.673&times;10<sup>-11</sup>Nm<sup>2</sup> kg<sup>2</sup></p>\n<p>উপগ্রহের উচ্চতা, h=700 km=7&times;10<sup>5</sup>m</p>\n<p><span style=\"color: rgb(33, 37, 41);\">আমরা জানি</span>,</p>\n<p>$T=2 \\pi(R+\\mathrm{H}) \\times \\sqrt{\\frac{R+\\mathrm{H}}{\\mathrm{GM}}} $</p>\n<p>বা , $ T=2 \\times 3.1416 \\times\\left(6.4 \\times 10^6+7 \\times 10^5\\right) $</p>\n<p>$ \\times \\sqrt{\\frac{6.4 \\times 10^6+7 \\times 10^5}{6.673 \\times 10^{-11} \\times 6 \\times 10^{24}}} $</p>\n<p>বা, $ \\mathrm{T}=5940.63 \\mathrm{~s} $</p>\n<p>$ \\therefore \\mathrm{T}=1.65 \\mathrm{hr} $</p>\n<p style=\"text-align: justify;\"><span style=\"color: rgb(33, 37, 41);\">অর্থাৎ উপগ্রহটি পৃথিবীকে 1.65 ঘণ্টায় একবার আবর্তন করবে। চাঁদের পর্যায়কাল 27 দিন ফলে আমরা দিনে একবার চাঁদকে দেখতে পাই। কিন্তু উদ্দীপকের উপগ্রহটি 1.65 ঘণ্টা পর পর একটি আবর্তন সম্পন্ন করারয় দিনে একাধিকবার আমরা একে দেখতে পাব। সেই বিবেচনায় উদ্দীপকের উৎক্ষেপিত উপগ্রহটি চাঁদের মতো উপগ্রহ হবে না।</span></p>"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2019",
+    "board": "5",
+    "context": "<p style=\"text-align: justify;\">রাফি পরীক্ষাগারে একটি তার ইস্পাতের তৈরি কি না যাচাই করছিল। এজন্য সে 2m দীর্ঘ এবং 1.12mm ব্যাসবিশিষ্ট একটি তার নিল। তারটিতে 25 J বিভবশক্তি প্রয়োগ করায় তারটির দৈর্ঘ্য 3 cm বৃদ্ধি পায় এবং ব্যাস 5 &times; 10<sup>-3</sup> mm হ্রাস পায়। বিশুদ্ধ ইস্পাতের ইয়ং-এর গুণাঙ্ক $2 \\times 10^{11} \\mathrm{Nm}^{-2}$ ।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>সান্দ্রতা কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">যে ধর্মের জন্য প্রবাহী এর অভ্যন্তরীণ বিভিন্ন স্তরের মধ্যকার আপেক্ষিক গতির বিপরীতে (স্পর্শীয়ভাবে) বাধার সৃষ্টি করে তাকে প্রবাহীর সান্দ্রতা বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>কাচ পৃষ্ঠে সমপরিমাণ তেল ও গ্লিসারিন রাখলে কোনটি বেশি জায়গা জুড়ে থাকবে? ব্যাখ্যা কর ।</p>",
+        "answer": "<p style=\"text-align: justify;\">আমরা জানি, যার ঘনত্ব যত কম একই বস্তুর সংস্পর্শে সে তত বেশি ছড়ায়। এখানে তেল ও গ্লিসারিনের মধ্যে তেলের ঘনত্ব গ্লিসারিন অপেক্ষা কম বলে একই বস্তুর সংস্পর্শে তেল বেশি ছড়াবে । এজন্য কাচ পৃষ্ঠে সমপরিমাণ তেল ও গ্লিসারিন রাখলে তেল বেশি জায়গা জুড়ে থাকবে।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p style=\"text-align: justify;\">উদ্দীপকের তারটির পঁয়সনের অনুপাত নির্ণয় কর।</p>",
+        "answer": "<p>দেওয়া আছে, ব্যাস, D=1.1mm=1.12&times;10<sup>-3</sup>m&nbsp;</p>\n<p>ব্যাস পরিবর্তন, &Delta;d=-5&times;10<sup>-3</sup>mm=-5&times;10<sup>-6</sup> m</p>\n<p>&nbsp;দৈর্ঘ্য, L=2m</p>\n<p>দৈর্ঘ্য পরিবর্তন, &Delta;l=3cm=3&times;10<sup>-2</sup>m&nbsp;</p>\n<p>&nbsp;</p>\n<p>আমরা জানি,</p>\n<p>$\\begin{aligned} \\sigma &amp; =\\frac{\\frac{\\Delta d}{D}}{\\frac{\\Delta l}{L}}=\\frac{\\Delta d \\times L}{D \\times \\Delta l}=\\frac{-5 \\times 10^{-6} \\times 2}{1.12 \\times 10^{-3} \\times 3 \\times 10^{-2}} \\\\ \\therefore \\sigma &amp; =-0.298\\end{aligned}$</p>\n<p>অতএব, উদ্দীপকের তারটির পয়সনের অনুপাত - 0.298</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>রাফির ব্যবহৃত তারটি ইস্পাতের ছিল কি? গাণিতিকভাবে বিশ্লেষণ কর ।</p>",
+        "answer": "<p>বিভব শক্তি, U=25J&nbsp;</p>\n<p>আদি দৈর্ঘ্য, L=2m</p>\n<p>দৈর্ঘ্য বৃদ্ধি, l=3 cm=3&times;10<sup>-2</sup>m</p>\n<p>ব্যাসার্ধ, $r=\\frac{1.12}{2} \\mathrm{~mm}=5.6 \\times 10^{-4} \\mathrm{~m}$</p>\n<p>&nbsp;</p>\n<p>প্রস্থচ্ছেদের ক্ষেত্রফল,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n<p>$\\begin{aligned} \\mathrm{A} &amp; =\\pi r^2 \\\\ &amp; =3.1416 \\times\\left(5.6 \\times 10^{-4}\\right)^2 \\mathrm{~m}^2=9.85 \\times 10^{-7} \\mathrm{~m}^2\\end{aligned}$</p>\n<p>ইস্পাতের ইয়ং-এর গুণাঙ্ক&nbsp; $Y_s=2 \\times 10^{11} \\mathrm{Nm}^{-2}$</p>\n<p>ধরি, রাফির ব্যবহৃত তারটির ইয়ং গুণাঙ্ক Y</p>\n<p>এখন,</p>\n<p>$\\mathrm{U}= \\frac{1}{2} \\frac{\\mathrm{YAl}^2}{\\mathrm{~L}} $</p>\n<p>বা, $ \\mathrm{Y}=\\frac{2 \\mathrm{UL}}{\\mathrm{Al}^2}=\\frac{2 \\times 25 \\times 2}{9.85 \\times 10^{-7} \\times\\left(3 \\times 10^{-2}\\right)^2} \\mathrm{Nm}^{-2} $</p>\n<p>$ \\therefore \\mathrm{Y}=1.13 \\times 10^{11} \\mathrm{Nm}^{-2}$</p>\n<p>উপরিউক্ত গাণিতিক বিশ্লেষণ হতে দেখা যাচ্ছে, Y &ne; Ys&nbsp;</p>\n<p>অর্থাৎ রাফির তারের ইয়ং গুণাঙ্ক এবং ইস্পাতের ইয়ং গুণাঙ্ক এক নয় ।</p>"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2019",
+    "board": "5",
+    "context": "<p style=\"text-align: justify;\">কোনো স্থানে একটি সরল দোলকের দোলনকাল 1.8 sec। উক্ত স্থানে অভিকর্ষজ ত্বরণ 9.8 ms<sup>-2</sup> এবং পৃথিবীর ব্যাসার্ধ 6400km। এরপর দোলকটিকে 712 km উচ্চতাবিশিষ্ট একটি পাহাড়ের চূড়ায় নেয়া হলো।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>স্প্রিং ধ্রুবক কী?</p>",
+        "answer": "<p style=\"text-align: justify;\">কোনো স্প্রিং-এর মুক্ত প্রান্তের একক সরণ ঘটালে স্প্রিংটি সরণের বিপরীত দিকে যে বল প্রয়োগ করে তাই ঐ স্প্রিং-এর স্প্রিং ধ্রুবক।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>“বল ধ্রুবক 2500 Nm<sup>-1</sup> – এর অর্থ ব্যাখ্যা কর।</p>",
+        "answer": "<p style=\"text-align: justify;\">যে কোনো স্প্রিং এর বল ধ্রুবক 2500Nm এর অর্থ হলো কোনো স্প্রিং এর মুক্তপ্রান্তের 1 m সরণ ঘটালে স্প্রিংটি সরণের বিপরীত দিকে 2500 N বল প্রয়োগ করে।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের দোলকটির কার্যকরী দৈর্ঘ্য 40% বৃদ্ধি করলে দোলনকাল কত হবে? নির্ণয় কর।</p>",
+        "answer": "<p>দেওয়া আছে, প্রাথমিক দোলনকাল, T<sub>1</sub>=1.8 s&nbsp;</p>\n<p>চূড়ান্ত দোলনকাল, T<sub>2</sub>= ?</p>\n<p>ধরি, প্রাথমিক কার্যকরী দৈর্ঘ্য, L<sub>1</sub>&nbsp;</p>\n<p>&there4; চূড়ান্ত কার্যকরী দৈর্ঘ্য, L<sub>2</sub>=L<sub>1</sub>+ L<sub>1</sub> এর 40%</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1.4 L<sub>1</sub></p>\n<p>আমরা জানি,</p>\n<p>$ \\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}=\\sqrt{\\frac{\\mathrm{L}_2}{\\mathrm{~L}_1}}$</p>\n<p>বা, $\\mathrm{T}_2=\\mathrm{T}_1 \\times \\sqrt{\\frac{\\mathrm{L}_2}{\\mathrm{~L}_1}}=1.8 \\times \\sqrt{\\frac{1.4 \\mathrm{~L}_1}{\\mathrm{~L}_1}} \\mathrm{~s} $</p>\n<p>$=1.8 \\times \\sqrt{1.4 \\mathrm{~s}} $</p>\n<p>$ \\therefore \\mathrm{T}_2=2.13 \\mathrm{~s}$</p>\n<p>অতএব, উদ্দীপকের দোলকটির কার্যকরী দৈর্ঘ্য 40% বৃদ্ধি করলে দোলনকাল 2.13 s হবে।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের পাহাড়ের চূড়ায় দোলকটি সেকেন্ড দোলক হবে কি? গাণিতিক মতামত দাও৷</p>",
+        "answer": "<p>এখানে, পৃথিবীর ব্যাসার্ধ, R=6400 km=6.4&times;10<sup>6</sup>m</p>\n<p>পাহাড়ের উচ্চতা, h=712km=7.12&times;10<sup>5</sup> m&nbsp;</p>\n<p>পরীক্ষণীয় স্থানে দোলনকাল, T<sub>1</sub>=1.<sup>8 </sup>s&nbsp;</p>\n<p>পাহাড়ে দোলনকাল, T<sub>2</sub>= ?</p>\n<p>আমরা জানি,</p>\n<p>&nbsp;</p>\n<p>$ \\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}=\\sqrt{\\frac{\\mathrm{g}_1}{\\mathrm{~g}_2}} =\\sqrt{\\left(\\frac{\\mathrm{R}+\\mathrm{h}}{\\mathrm{R}}\\right)^2}=\\frac{\\mathrm{R}+\\mathrm{h}}{\\mathrm{R}} $</p>\n<p>বা, $ \\mathrm{T}_2 =\\frac{\\mathrm{R}+\\mathrm{h}}{\\mathrm{R}} \\times \\mathrm{T}_1 $</p>\n<p>$=\\frac{6.4 \\times 10^6+7.12 \\times 10^5}{6.4 \\times 10^6} \\times 1.8 \\mathrm{~s} $</p>\n<p>$=2 \\mathrm{~s}$</p>\n<p>অতএব, উদ্দীপকের পাহাড়ের চূড়ায় দোলকটি সেকেন্ড দোলক হবে।</p>"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ ℹ️",
+    "year": "2019",
+    "board": "5",
+    "context": "<p>P, Q ও R তিনটি সুরশলাকা একটি নির্দিষ্ট মাধ্যমে রাখা হলো। P সুরশলাকা এটি পূর্ণ তরঙ্গদৈর্ঘ্য Q-এর 5টি পূর্ণ তরঙ্গদৈর্ঘ্যের সমান। তাদের মধ্যে কম্পাঙ্কের পার্থক্য 60 Hz। কিন্তু R সুরশলাকা দ্বারা সৃষ্ট অগ্রগামী তরঙ্গের সমীকরণ,</p>\n<p>$\\mathrm{Y}=0.2 \\sin 2 \\pi\\left(10 \\mathrm{t}-\\frac{x}{15}\\right) m$</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>অনুনাদ কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">কোনো বস্তুর নিজস্ব কম্পাঙ্ক আর তার উপর আরোপিত পর্যাবৃত্ত স্পন্দনের কম্পাঙ্ক সমান হলে বস্তুটি সর্বোচ্চ বিস্তার সহকারে কম্পিত হতে থাকে। এ ধরনের কম্পনকে অনুনাদ বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>সঙ্গীতগুণ শব্দ মানুষের মনে প্রশান্তি সৃষ্টি করে নিরাপদেরাখে- ব্যাখ্যা কর।</p>",
+        "answer": "<p style=\"text-align: justify;\">বেসুরো শব্দ যেগুলোকে আমরা নয়েজ বলি মানুষের মনকে খিটখিটে করে তোলে। এই ধরনের শব্দে দীর্ঘদিন অবস্থান করলে মানুষের রক্তচাপ বেড়ে যেতে পারে। অপরদিকে, সঙ্গীতগুণ শব্দ মানুষের মনে প্রশান্তি সৃষ্টি করে রক্তচাপ স্বাভাবিক রাখতে সাহায্য করে। যার ফলে মানুষ নিরাপদে থাকে । অতএব বলা যায়, সঙ্গীতগুণ শব্দ মানুষের মনে প্রশান্তি সৃষ্টি করে নিরাপদে রাখে।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের P ও Q সুরশলাকার কম্পাঙ্ক নির্ণয় কর।</p>",
+        "answer": "<p>ধরি, P ও Q এর তরঙ্গদৈর্ঘ্য যথাক্রমে &lambda;<sub>1 </sub>ও &lambda;<sub>2</sub> এবং</p>\n<p>কম্পাঙ্ক যথাক্রমে f<sub>1</sub>&nbsp;&nbsp;ও&nbsp;f<sub>2</sub></p>\n<p>উদ্দীপক অনুসারে,&nbsp;</p>\n<p>$4 \\lambda_1=5 \\lambda_2 $</p>\n<p>বা, $\\lambda_1=\\frac{5}{4} \\lambda_2 $</p>\n<p>অর্থাৎ, $ \\lambda_1&gt;\\lambda_2 $</p>\n<p>$ \\therefore \\mathrm{f}_2&gt;\\mathrm{f}_1 $</p>\n<p>$ \\therefore \\mathrm{f}_2-\\mathrm{f}_1=60 \\mathrm{~Hz} $</p>\n<p>বা, $ \\mathrm{f}_2=\\mathrm{f}_1+60$</p>\n<p>আবার, $ \\mathrm{f}_1 \\lambda_1=\\mathrm{f}_2 \\lambda_2 $</p>\n<p>বা, $ \\mathrm{f}_1 \\times \\frac{5}{4} \\lambda_2=\\mathrm{f}_2 \\lambda_2 $</p>\n<p>বা, $\\mathrm{f}_2=\\frac{5}{4} \\mathrm{f}_1$</p>\n<p>বা, $ 4 \\mathrm{f}_1+240=5 \\mathrm{f}_1 $</p>\n<p>$ \\therefore \\mathrm{f}_1=240 \\mathrm{~Hz} $</p>\n<p>$ \\therefore \\mathrm{f}_2=(240+60) \\mathrm{Hz}=300 \\mathrm{~Hz}$</p>\n<p>অতএব, P ও Q সুরশলাকার কম্পাঙ্ক যথাক্রম 240 Hz 3 300 Hz I</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>কী পদক্ষেপ নিলে R সুরশলাকার তরঙ্গ দ্বারা স্থির তরঙ্গ পাওয়া যাবে? গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>এখানে, $\\mathrm{Y}=0.2 \\sin 2 \\pi\\left(100 \\mathrm{t}-\\frac{\\mathrm{x}}{15}\\right) \\mathrm{m}$</p>\n<p>Y-কে অগ্রগামী তরঙ্গের আদর্শ সমীকরণ&nbsp; $y=a \\sin \\frac{2 \\pi}{\\lambda}(v t-x)$</p>\n<p>এর সাথে তুলনা করে পাই,</p>\n<p>$\\begin{aligned} &amp; \\frac{1}{\\lambda}=\\frac{1}{15} \\\\ \\therefore \\lambda \\quad= &amp; 15 \\mathrm{~m}\\end{aligned}$</p>\n<p>আবার,</p>\n<p>$\\begin{gathered}\\frac{v}{\\lambda}=100 \\\\ \\therefore f \\quad=100 \\mathrm{~Hz}\\end{gathered}$</p>\n<p>&nbsp;</p>\n<p>বিস্তার, a = 0.2m</p>\n<p style=\"text-align: justify;\">দেখা যাচ্ছে যে, R সুরশলাকার তরঙ্গের বিস্তার তরঙ্গ দৈর্ঘ্য এবং কম্পাঙ্ক যথাক্রমে 0.2 m, 15m&nbsp;,100 Hz এবং তরঙ্গটি ধনাত্মক X অক্ষ বরাবর অগ্রসরমান।</p>\n<p style=\"text-align: justify;\">আমরা জানি, সমান বিস্তার তরঙ্গ দৈর্ঘ্য এবং কম্পাঙ্কের দুটি, অগ্রগামী তরঙ্গ বিপরীত দিক থেকে পরস্পর উপরিপাতিত হলে স্থির তরঙ্গ সৃষ্টি হয়।</p>\n<p style=\"text-align: justify;\">অতএব, যদি 0.2 m বিস্তার, 15 m তরঙ্গদৈর্ঘ্য এবং 100 Hz কম্পাঙ্কের একটি অগ্রগামী তরঙ্গ ঋণাত্মক x অক্ষ বরাবর চালনা করা যায় তবে R সুরশলাকার তরঙ্গ দ্বারা স্থির তরঙ্গ পাওয়া যাবে।</p>"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2019",
+    "board": "5",
+    "context": "<p style=\"text-align: justify;\">$30^{\\circ} \\mathrm{C}$ তাপমাত্রায় এবং 2 atm চাপে একটি বেলুনের মধ্যে 24 g অক্সিজেন গ্যাস আছে। এক মোল অক্সিজেনের ভর 32 gm , অপরদিকে কোনো একটি পুকুরের উপরিদেশে বায়ুমণ্ডলের চাপ 1.5 atm., পানির ঘনত্ব $1050 \\mathrm{~kg} \\mathrm{~m}^{-3}$ ও গভীরতা 20 m এবং অন্য একটি পুকুরের উপরিদেশে বায়ুমণ্ডলের চাপ 1.2 atm. পানির ঘনত্ব $1000 \\mathrm{kgm}^{-3}$ ও গভীরতা $25 \\mathrm{~m}\\left[1 \\mathrm{~atm}=1.013 \\times 10^5 \\mathrm{~Pa}\\right.$, $\\mathrm{R}=8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1}$ এবং $\\left.\\mathrm{g}=9.8 \\mathrm{~ms}^{-2}\\right]$</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>সম্পৃক্ত বাষ্পচাপ কাকে বলে?</p>",
+        "answer": "<p style=\"text-align: justify;\">কোনো নির্দিষ্ট তাপমাত্রায় কোনো আবদ্ধ স্থানের বাষ্প সর্বাধিক যে চাপ দিতে পারে তাকে সম্পৃক্ত বাষ্পচাপ বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>নির্দিষ্ট ভরের গ্যাসের ঘনত্ব তার পরম তাপমাত্রার উপর নির্ভরশীল – ব্যাখ্যা কর ।</p>",
+        "answer": "<p>&nbsp;আমরা জানি,</p>\n<p>$\\mathrm{PV}=\\mathrm{nRT}$</p>\n<p>বা, $\\mathrm{PV}=\\frac{m}{M} \\mathrm{RT}$</p>\n<p>বা, $\\mathrm{P}=\\frac{\\rho}{M} \\mathrm{RT}$</p>\n<p>বা, $\\rho=\\frac{P M}{R T}$</p>\n<p>বা, $\\rho \\propto \\frac{1}{T}$</p>\n<p style=\"text-align: justify;\">অর্থাৎ গ্যাসের ঘনত্ব পরম তাপমাত্রার ব্যস্তানুপাতিক। যার অর্থ পরম তাপমাত্রা কমলে গ্যাসের ঘনত্ব বৃদ্ধি পায় এবং পরম তাপমাত্রা বাড়লে গ্যাসের ঘনত্ব হ্রাস পায়।</p>\n<p style=\"text-align: justify;\">অতএব বলা যায়, নির্দিষ্ট ভরের গ্যাসের ঘনত্ব তার পরম তাপমাত্রার উপর নির্ভরশীল।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের বেলুনের গ্যাসের আয়তন নির্ণয় কর।</p>",
+        "answer": "<p>তাপমাত্রা, T=30^∘ C=303\" \" K</p><p>&nbsp;চাপ, P=2 atm=2×1.013×10<sup>5</sup>  Pa=202600 Pa&nbsp;=</p><p>অক্সিজেনের মোল সংখ্যা, $\\mathrm{n}=\\frac{24}{32} \\mathrm{~mole}=0.75 \\mathrm{~mole}$</p><p>মোলার&nbsp;গ্যাস ধ্রুবক,&nbsp;$\\mathrm{R}=8.314 \\mathrm{~J} \\mathrm{~mole}^{-1} \\mathrm{~K}^{-1}$</p><p><br></p><p>আমরা জানি, PV =nRT</p><p>বা,$\\begin{aligned} &amp; \\begin{aligned} \\mathrm{V}=\\frac{\\mathrm{nRT}}{\\mathrm{P}} \\quad=\\frac{0.75 \\times 8.314 \\times 303}{202600} \\mathrm{~m}^3 \\\\ \\quad=9.33 \\times 10^{-3} \\mathrm{~m}^3\\end{aligned} \\\\ &amp; \\begin{aligned} \\therefore \\mathrm{V} &amp; =9.33 \\mathrm{~L}\\end{aligned}\\end{aligned}$</p><p>অতএব, উদ্দীপকের বেলুনের গ্যাসের আয়তন 9.33L।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের কোন পুকুরের তলদেশে গ্যাস ভর্তি বেলুনের আয়তন কম হবে? গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>১ম পুকুরের ক্ষেত্রে,</p>\n<p>$\\mathrm{h}_1=20 \\mathrm{~m} $</p>\n<p>$ \\mathrm{P}_1=1.5 \\mathrm{~atm}=151950 \\mathrm{~Pa},$</p>\n<p>$\\rho_1=1050 \\mathrm{~kg} \\mathrm{~m}^{-3} ; g=9.8 \\mathrm{~m} \\mathrm{~s}^{-2} $</p>\n<p>$ \\mathrm{~V}_1=\\mathrm{V} $</p>\n<p>$\\mathrm{P}_1 \\mathrm{~V}_1=\\mathrm{P}_1^{\\prime} \\mathrm{V}^{\\prime} $</p>\n<p>বা, $ \\mathrm{P}_1 \\mathrm{~V}_1=\\left(\\mathrm{P}_1+\\mathrm{h}_1 \\mathrm{p}_1 \\mathrm{~g}\\right) \\mathrm{V}_1^{\\prime} $</p>\n<p>বা, $ \\mathrm{V}_1^{\\prime}=\\frac{\\mathrm{P}_1 \\mathrm{~V}_1}{\\mathrm{P}_1+\\mathrm{h}_1 \\rho_1 g}=\\frac{151950 \\times \\mathrm{V}}{151950+20 \\times 1050 \\times 9.8}$</p>\n<p>$\\therefore \\mathrm{V}_1^{\\prime}=0.425 \\mathrm{Vm}^3$ &hellip;&hellip;&hellip;&hellip;&hellip;(i)</p>\n<p>&nbsp;</p>\n<p>২য় পুকুরের ক্ষেত্রে,</p>\n<p>$\\mathrm{h}_2=25 \\mathrm{~m} ; \\mathrm{P}_2=1000 \\mathrm{~kg} \\mathrm{~m}^{-3} ; $</p>\n<p>$\\mathrm{P}_2=1.2 \\mathrm{~atm}=121560 \\mathrm{~Pa} $</p>\n<p>$ \\mathrm{~V}_2=\\mathrm{V} $</p>\n<p>$ \\mathrm{P}_2 \\mathrm{~V}_2=\\mathrm{P}_2^{\\prime} \\mathrm{V}_2^{\\prime} $</p>\n<p>বা, $ \\mathrm{V}_2^{\\prime}=\\frac{\\mathrm{P}_2 \\mathrm{~V}_2}{\\mathrm{P}_2^{\\prime}}=\\frac{\\mathrm{P}_3 \\mathrm{~V}_2}{\\mathrm{P}_2+\\mathrm{h}_2 \\rho_2 \\mathrm{~B}} $</p>\n<p>বা, $ V_2^{\\prime}=\\frac{121560 \\times V}{121560+25 \\times 1000 \\times 9.8} \\mathrm{~m}^3$</p>\n<p>$\\therefore \\mathrm{V}_2{ }^{\\prime}=0.332 \\mathrm{~V} \\mathrm{~m}^3$ &hellip;&hellip;&hellip;&hellip;&hellip;(ii)</p>\n<p>&nbsp;</p>\n<p>(i) &divide; (ii) করে পাই,</p>\n<p>$\\frac{\\mathrm{V}_1^{\\prime}}{\\mathrm{V}_2^{\\prime}}=\\frac{0.425 \\mathrm{~V}}{0.332 \\mathrm{~V}} $</p>\n<p>বা, $\\frac{\\mathrm{V}_1^{\\prime}}{\\mathrm{V}_2^{\\prime}}=1.28 \\therefore \\frac{\\mathrm{V}_1^{\\prime}}{\\mathrm{V}_2^{\\prime}}&gt;1 $</p>\n<p>বা, $ \\mathrm{V}_1^{\\prime}&gt;\\mathrm{V}_2^{\\prime}$</p>\n<p>অতএব, উদ্দীপকের ২য় পুকুরের তলদেশে গ্যাস ভর্তি বেলুনের আয়তন কম হবে।</p>"
+      }
+    ]
+  }
+]

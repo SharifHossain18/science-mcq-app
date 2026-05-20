@@ -3550,5 +3550,37 @@
     ],
     "answer": "-4",
     "explanation": "<p>$4 x^3+12 x^2-3 x+52=0$</p><p>সমীকরণের একটি মূল $\\frac{1}{2}-\\sqrt{3} \\mathrm{i}$ </p><p>সমীকরণের অপর একটি মূল $\\frac{1}{2}+\\sqrt{3} \\mathrm{i}$</p><p>$\\therefore$ সমীকরণটির বাস্তব মূল $\\gamma$ হলে, </p><p>$\\frac{1}{2}-\\sqrt{3} i+\\frac{1}{2}+\\sqrt{3} i+\\gamma=-\\frac{12}{4}$</p><p>বা, $\\gamma+1=-3$</p><p>বা, $\\gamma=-3-1$</p><p>$\\therefore \\gamma=-4$</p>"
+  },
+  {
+    "id": 8312,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "k এর কোন মানের জন্য $x^2-6x+k=0$সমীকরণের মূলদ্বয় সমান হবে?",
+    "options": [
+      "-36",
+      "-9",
+      "9",
+      "36"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 8371,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$13x^2-6x-7=0$ এর মূলদ্বয় $\\alpha $ ও $\\beta $ হলে, $\\alpha^{-1}+1$ ও $\\beta^{-1}+1$ মূলবিশিষ্ট সমীকরণ কোনটি?",
+    "options": [
+      "$7x^2-8x-12=0$",
+      "$7x^2-20x=0$",
+      "$7x^2+8x-12=0$",
+      "$7x^2+8x=0$"
+    ],
+    "answer": "$7x^2-8x-12=0$",
+    "explanation": ""
   }
 ]

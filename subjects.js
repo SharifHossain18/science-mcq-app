@@ -3,6 +3,7 @@ let metaData = {};
 // Local state representation synced with localStorage
 let state = {
     mode: localStorage.getItem('practiceMode') || 'chapter',
+    cqSubMode: localStorage.getItem('cqSubMode') || null,
     subject: localStorage.getItem('selectedSubject') || null,
     year: localStorage.getItem('selectedYear') || null,
     board: localStorage.getItem('selectedBoard') || null,
@@ -39,8 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
-
     // Header Back button click
     document.getElementById('back-btn').addEventListener('click', handleBackAction);
 
@@ -64,6 +63,21 @@ document.addEventListener('DOMContentLoaded', () => {
         renderCurrentState();
         updateSidebarActiveItem();
     });
+
+    const sideCq = document.getElementById('side-cq');
+    if (sideCq) {
+        sideCq.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeSidebarOnMobile();
+            localStorage.setItem('practiceMode', 'cq');
+            localStorage.removeItem('cqSubMode');
+            clearSelections();
+            state.mode = 'cq';
+            state.cqSubMode = null;
+            renderCurrentState();
+            updateSidebarActiveItem();
+        });
+    }
 
     // Mobile Sidebar Drawer Toggles
     const sidebar = document.getElementById('sidebar');
@@ -99,6 +113,9 @@ function updateSidebarActiveItem() {
     } else if (state.mode === 'board') {
         const bdLink = document.getElementById('side-board');
         if (bdLink) bdLink.classList.add('active');
+    } else if (state.mode === 'cq') {
+        const cqLink = document.getElementById('side-cq');
+        if (cqLink) cqLink.classList.add('active');
     }
 }
 
@@ -123,20 +140,26 @@ function renderCurrentState() {
 
     renderBreadcrumbs();
 
+    if (state.mode === 'cq' && !state.cqSubMode) {
+        renderCqSubModeSelector();
+        document.getElementById('chapter-year-view').classList.add('active');
+        return;
+    }
+
     if (!state.subject) {
         // Show Subject selection grid
         document.getElementById('subject-view').classList.add('active');
         return;
     }
 
-    if (state.mode === 'chapter') {
+    if (state.mode === 'chapter' || (state.mode === 'cq' && state.cqSubMode === 'chapter')) {
         if (!state.chapter) {
             // Show Chapters Selection list
             renderChapterList();
             document.getElementById('chapter-year-view').classList.add('active');
         }
     } else {
-        // Board mode
+        // Board mode or CQ Board-wise
         if (!state.year) {
             // Show Years Selection list
             renderYearList();
@@ -151,7 +174,7 @@ function renderCurrentState() {
 
 // Back action handler
 function handleBackAction() {
-    if (state.mode === 'board') {
+    if (state.mode === 'board' || (state.mode === 'cq' && state.cqSubMode === 'board')) {
         if (state.board) {
             state.board = null;
             localStorage.removeItem('selectedBoard');
@@ -161,22 +184,31 @@ function handleBackAction() {
         } else if (state.subject) {
             state.subject = null;
             localStorage.removeItem('selectedSubject');
+        } else if (state.mode === 'cq') {
+            state.cqSubMode = null;
+            localStorage.removeItem('cqSubMode');
         } else {
             window.location.href = 'index.html';
             return;
         }
-    } else {
-        // Chapter mode
+    } else if (state.mode === 'chapter' || (state.mode === 'cq' && state.cqSubMode === 'chapter')) {
         if (state.chapter) {
             state.chapter = null;
             localStorage.removeItem('selectedChapter');
         } else if (state.subject) {
             state.subject = null;
             localStorage.removeItem('selectedSubject');
+        } else if (state.mode === 'cq') {
+            state.cqSubMode = null;
+            localStorage.removeItem('cqSubMode');
         } else {
             window.location.href = 'index.html';
             return;
         }
+    } else {
+        // CQ Mode without submode selected
+        window.location.href = 'index.html';
+        return;
     }
     renderCurrentState();
 }
@@ -198,6 +230,9 @@ function renderChapterList() {
 
     subjectMeta.chapters.forEach(ch => {
         if (!ch || !ch.name) return;
+        // Skip empty "General" category from user-facing practice since all general questions are sorted
+        if (ch.id === 'ch_1' || ch.name.toLowerCase() === 'general') return;
+
         const btn = document.createElement('div');
         btn.className = 'list-item';
         
@@ -223,7 +258,11 @@ function renderChapterList() {
             state.chapter = ch.name;
             localStorage.setItem('selectedChapter', ch.name);
             localStorage.setItem('selectedChapterId', ch.id);
-            window.location.href = 'mcq.html';
+            if (state.mode === 'cq') {
+                window.location.href = 'cq.html';
+            } else {
+                window.location.href = 'mcq.html';
+            }
         });
         listEl.appendChild(btn);
     });
@@ -291,7 +330,46 @@ function renderBoardList() {
         btn.addEventListener('click', () => {
             state.board = bd;
             localStorage.setItem('selectedBoard', bd);
-            window.location.href = 'mcq.html';
+            if (state.mode === 'cq') {
+                window.location.href = 'cq.html';
+            } else {
+                window.location.href = 'mcq.html';
+            }
+        });
+        listEl.appendChild(btn);
+    });
+}
+
+// Render CQ Submode selection menu
+function renderCqSubModeSelector() {
+    const listEl = document.getElementById('chapter-year-list');
+    const titleEl = document.getElementById('chapter-year-title');
+    
+    titleEl.textContent = 'সৃজনশীল প্রশ্নের ধরণ নির্বাচন করুন (Select CQ Type)';
+    listEl.innerHTML = '';
+    listEl.className = 'board-grid';
+
+    const submodes = [
+        { id: 'chapter', name: 'অধ্যায়ভিত্তিক প্রস্তুতি', icon: 'fa-regular fa-folder-open', desc: 'Chapter-wise CQs' },
+        { id: 'board', name: 'বোর্ড প্রশ্ন প্রস্তুতি', icon: 'fa-solid fa-building-columns', desc: 'Board-wise CQs' }
+    ];
+
+    submodes.forEach(sub => {
+        const btn = document.createElement('div');
+        btn.className = 'board-card';
+        btn.style.height = '120px';
+        btn.style.flexDirection = 'column';
+        btn.style.justifyContent = 'center';
+        btn.style.gap = '8px';
+        btn.innerHTML = `
+            <i class="${sub.icon} board-card-icon" style="font-size: 1.8rem; margin: 0; color: var(--primary-blue);"></i>
+            <span style="font-weight: 700; font-size: 1rem;">${sub.name}</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500;">${sub.desc}</span>
+        `;
+        btn.addEventListener('click', () => {
+            state.cqSubMode = sub.id;
+            localStorage.setItem('cqSubMode', sub.id);
+            renderCurrentState();
         });
         listEl.appendChild(btn);
     });
@@ -335,19 +413,48 @@ function renderBreadcrumbs() {
         window.location.href = 'index.html';
     });
 
-    const modeLabel = state.mode === 'chapter' ? 'অধ্যায়ভিত্তিক প্রস্তুতি' : 'বোর্ড প্রশ্ন প্রস্তুতি';
+    let modeLabel = 'প্রস্তুতি';
+    if (state.mode === 'chapter') {
+        modeLabel = 'অধ্যায়ভিত্তিক প্রস্তুতি';
+    } else if (state.mode === 'board') {
+        modeLabel = 'বোর্ড প্রশ্ন প্রস্তুতি';
+    } else if (state.mode === 'cq') {
+        modeLabel = 'সৃজনশীল প্রশ্ন প্রস্তুতি (CQ)';
+    }
     
-    if (!state.subject) {
+    if (state.mode === 'cq' && !state.cqSubMode) {
         addBreadcrumb(modeLabel, null, true);
         return;
     }
 
     addBreadcrumb(modeLabel, () => {
+        const oldMode = state.mode;
         clearSelections();
+        if (oldMode === 'cq') {
+            state.cqSubMode = null;
+            localStorage.removeItem('cqSubMode');
+        }
         renderCurrentState();
     });
 
-    if (state.mode === 'chapter') {
+    if (state.mode === 'cq' && state.cqSubMode) {
+        const subModeLabel = state.cqSubMode === 'chapter' ? 'অধ্যায়ভিত্তিক' : 'বোর্ড ভিত্তিক';
+        if (!state.subject) {
+            addBreadcrumb(subModeLabel, null, true);
+            return;
+        }
+        addBreadcrumb(subModeLabel, () => {
+            state.subject = null;
+            localStorage.removeItem('selectedSubject');
+            renderCurrentState();
+        });
+    }
+
+    if (!state.subject) {
+        return;
+    }
+
+    if (state.mode === 'chapter' || (state.mode === 'cq' && state.cqSubMode === 'chapter')) {
         addBreadcrumb(state.subject, null, true);
     } else {
         // Board mode

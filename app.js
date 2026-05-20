@@ -33,6 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const sideCq = document.getElementById('side-cq');
+    if (sideCq) {
+        sideCq.addEventListener('click', () => {
+            localStorage.setItem('practiceMode', 'cq');
+            localStorage.removeItem('selectedSubject');
+        });
+    }
+
     // 3. Mobile Sidebar Hamburger Menu Toggle
     const sidebar = document.getElementById('sidebar');
     const menuToggle = document.getElementById('menu-toggle');

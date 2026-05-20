@@ -238,5 +238,21 @@
     ],
     "answer": "[-1,1]",
     "explanation": ""
+  },
+  {
+    "id": 6931,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$cosec(-2580^o)$ এর মান কোনটি?</p>",
+    "options": [
+      "$-\\frac{\\sqrt3}2$",
+      "$-\\frac2{\\sqrt3}$",
+      "$\\frac2{\\sqrt3}$",
+      "$\\frac{\\sqrt3}2$"
+    ],
+    "answer": "$-\\frac2{\\sqrt3}$",
+    "explanation": "<p>$\\begin{aligned} \\operatorname{cosec}\\left(-2580^{\\circ}\\right) &amp; =-\\operatorname{cosec} 2580^{\\circ} \\\\ &amp; =-\\operatorname{cosec}\\left(2890^{\\circ}+60^{\\circ}\\right) \\\\ &amp; =-\\operatorname{cosec} 60^{\\circ}=-\\frac{2}{\\sqrt{3}}\\end{aligned}$</p>"
   }
 ]

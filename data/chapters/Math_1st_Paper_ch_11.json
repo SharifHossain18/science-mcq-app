@@ -3118,5 +3118,69 @@
     ],
     "answer": "x ln x - x",
     "explanation": ""
+  },
+  {
+    "id": 6476,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>$\\int_0^1\\frac{\\sin^{-1}x}{\\sqrt{1-x^2}}dx$ এর মান কত ?</p>",
+    "options": [
+      "$\\frac{\\pi^2}{16}$",
+      "$\\frac{\\pi^2}{8}$",
+      "$\\frac{\\pi^2}{4}$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "answer": "$\\frac{\\pi^2}{8}$",
+    "explanation": ""
+  },
+  {
+    "id": 6871,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\int\\sin x^odx$ = কত?</p>",
+    "options": [
+      "$\\cos x^o+c$",
+      "$-\\cos x^o+c$",
+      "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+      "$\\frac{180}{\\mathrm\\pi}\\cos x^o$"
+    ],
+    "answer": "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+    "explanation": ""
+  },
+  {
+    "id": 6934,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$f(x)$ ধ্রুবক না হলে, $\\int\\frac{f'(x)}{f(x)}dx$ এর সমান কোনটি?</p>",
+    "options": [
+      "$f'(x)+C$",
+      "$f(x)+C$",
+      "$ln|x|+C$",
+      "$ln|f(x)|+C$"
+    ],
+    "answer": "$ln|f(x)|+C$",
+    "explanation": ""
+  },
+  {
+    "id": 7020,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$\\int\\cos ec\\;x\\;dx$ এর মান কোনটি?</p>",
+    "options": [
+      "ln |sin x| + c",
+      "ln |sec x| + c",
+      "$\\ln\\;\\left|\\tan\\frac x2\\right|\\;+\\;c$",
+      "$\\ln\\;\\left|\\tan\\left(\\frac{\\mathrm\\pi}4+\\frac x2\\right)\\right|\\;+\\;c$"
+    ],
+    "answer": "$\\ln\\;\\left|\\tan\\frac x2\\right|\\;+\\;c$",
+    "explanation": ""
   }
 ]

@@ -3278,5 +3278,517 @@
     ],
     "answer": "+1.5V",
     "explanation": "<p>শুষ্ক কোষ হল Dry Cell Battery. </p>"
+  },
+  {
+    "id": 4707,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>তড়িৎ বিশ্লেষণকালে কোন আয়নটি প্রথমে চার্জমুক্ত হবে?</p>",
+    "options": [
+      "$Br^{-}$",
+      "$NO_{3}^{-}$",
+      "$OH^{-}$",
+      "$Cl^{-}$"
+    ],
+    "answer": "$OH^{-}$",
+    "explanation": "<p>অ্যানায়নের চার্জ মুক্ত হওয়ার ক্রমঃ $\\mathrm{OH}^{-}&gt;\\mathrm{I}^{-}&gt;\\mathrm{Br}&gt;\\mathrm{Cl}^{-}&gt;\\mathrm{SO}_4^{2-}&gt;\\mathrm{NO}_3^{-}$</p>"
+  },
+  {
+    "id": 4709,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>স্টোরেজ ব্যাটারীর মাধ্যমে কোন ভারী ধাতু খাদ্য শৃঙ্খলে প্রবেশ করে ?</p>",
+    "options": [
+      "Cd",
+      "As",
+      "Cr",
+      "Pb"
+    ],
+    "answer": "Pb",
+    "explanation": ""
+  },
+  {
+    "id": 4883,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "কোনটি সঠিক?\r\n",
+    "options": [
+      "<p>E°<sub>কোষ </sub>= E°<sub>অ্যানোড (জারণ)</sub> + E°<sub>ক্যাথোড (জারণ)</sub></p>",
+      "<p>E°<sub>কোষ</sub> = E°<sub>অ্যানোড (বিজারণ) </sub>E°<sub>ক্যাথোড (বিজারণ)</sub></p>",
+      "<p>E°<sub>কোষ </sub>= E°<sub>অ্যানোড (জারণ)</sub> + E°<sub>ক্যাথোড (বিজারণ)</sub></p>",
+      "<p>E°<sub>কোষ</sub> = E°<sub>ক্যাথোড (জারণ) </sub>+ E°<sub>অ্যানোড (বিজারণ)</sub></p>"
+    ],
+    "answer": "<p>E°<sub>কোষ </sub>= E°<sub>অ্যানোড (জারণ)</sub> + E°<sub>ক্যাথোড (বিজারণ)</sub></p>",
+    "explanation": ""
+  },
+  {
+    "id": 5024,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "ব্রাইনের তড়িৎ বিশ্লেষণ করলে কী উৎপন্ন হয়?",
+    "options": [
+      "NaCl",
+      "$NaHCO_3$",
+      "NaOH",
+      "NaClO"
+    ],
+    "answer": "NaOH",
+    "explanation": ""
+  },
+  {
+    "id": 5067,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "কোনটির তড়িৎ রাসায়নিক তুল্যাঙ্ক বেশি?",
+    "options": [
+      "Zn",
+      "Cu",
+      "Fe",
+      "Ag"
+    ],
+    "answer": "Ag",
+    "explanation": ""
+  },
+  {
+    "id": 5068,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "নিচের কোন তড়িৎদ্বার জারণ প্রক্রিয়া বোঝায়?",
+    "options": [
+      "$Cu^{2+}/ Cu$",
+      "$Zn^{2+}/ Zn$",
+      "$Zn/ Zn^{2+}$",
+      "$Cr^{3+}/ Cr$"
+    ],
+    "answer": "$Zn/ Zn^{2+}$",
+    "explanation": ""
+  },
+  {
+    "id": 5083,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>সেমিকন্ডান্টর হিসেবে ব্যবহৃত হয়</p>",
+    "options": [
+      "Cu",
+      "Al",
+      "Zn",
+      "Ge"
+    ],
+    "answer": "Ge",
+    "explanation": ""
+  },
+  {
+    "id": 5129,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>NaCl এর জলীয় দ্রবণের তড়িৎ বিশ্লেষণে উৎপন্ন হয়-</p><p><br/>i. NaOH</p><p><br/>ii. Cl<sub>2</sub></p><p><br/>iii. H<sub>2</sub></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 5221,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "জিংক (Zn) এর তড়িৎ রাসায়নিক তুল্যাঙ্ক কত?",
+    "options": [
+      "0.0000208 gC$^{-1}$",
+      "0.000339 gC$^{-1}$",
+      "0.000367 gC$^{-1}$",
+      "0.00118 gC$^{-1}$"
+    ],
+    "answer": "0.000339 gC$^{-1}$",
+    "explanation": "<p>এখানে,</p><p>Zn এর পারমাণবিক ভর = 65.4 </p><p>যোজনী = 2</p><p><br></p><p>আমরা জানি,</p><p>তড়িৎ রাসায়নিক তুল্যাঙ্ক</p><p><img src=\"data:image/png;base64,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\"></p>"
+  },
+  {
+    "id": 5245,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>Zn/Zn<sup>2+</sup> (E° = 0.76 V) অ্যানোড হলে নিম্নের কোনটি ক্যাথোডরূপে ব্যবহার করা যাবে?</p>",
+    "options": [
+      "Co/Co$^{2+}$ (E$^\\circ$ = + 0.28 V)",
+      "Mg/Mg$^{2+}$ (E$^\\circ$ = + 2.36 V)",
+      "Ca/Ca$^{2+}$ (E$^\\circ$ = + 2.87 V)",
+      "Al/AI$^{3+}$ (E$^\\circ$ = +1.66 V)"
+    ],
+    "answer": "Co/Co$^{2+}$ (E$^\\circ$ = + 0.28 V)",
+    "explanation": "<p>যে ধাতুর জারণ মান বেশি সেটি অ্যানোড হয়। Zn/Zn<sup>2+</sup> (E° = 0.76 V) অ্যানোড হলে এর চেয়ে কম জারণ মান যুক্ত ধাতু Co/Co<sup>2+</sup> (E° = + 0.28 V) ক্যাথোডরূপে ব্যবহার করা যাবে।</p>"
+  },
+  {
+    "id": 5246,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>তড়িদদ্বার বিভব নির্ভর করে -</p><p><br/>i. ধাতব দূরে প্রকৃতির উপর </p><p><br/>ii. তড়িৎবিশ্লেষ্যের ঘনমাত্রার উপর</p><p><br/>iii. দ্রবণের তাপমাত্রার উপর </p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 5287,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "প্রমাণ হাইড্রোজেন তড়িৎদ্বারের বিভব মান কত?",
+    "options": [
+      "+ 0.30 V",
+      "+ 0.0 V",
+      "+ 0.10 V",
+      "+ 0.20 V"
+    ],
+    "answer": "+ 0.0 V",
+    "explanation": ""
+  },
+  {
+    "id": 5300,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>A<sup>+</sup>, B<sup>2+</sup>, C<sup>3+</sup> আয়নের দ্রবণে পৃথকভাবে 1F বিদ্যুৎ চালনা করলে</p><p><br/>i. 1 mol A<sup>+</sup> চার্জমুক্ত হবে</p><p><br/>ii. $\\frac12$ mol B ক্যাথোডে জমা হবে</p><p><br/>iii. $\\frac13$ mol C<sup>3+ </sup>দ্রবণ থেকে তড়িদদ্বারে জমা হবে</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 5301,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "কোনটির তড়িৎ রাসায়নিক তুল্যাঙ্ক বেশি?",
+    "options": [
+      "Cu",
+      "Ag",
+      "Ni",
+      "Al"
+    ],
+    "answer": "Ag",
+    "explanation": "<p>তড়িৎ রাসায়নিক তুল্যাংক,</p><p>$\\mathrm{Z}=\\frac{\\mathrm{M}}{\\mathrm{nF}}$</p><p>অর্থাৎ যার আণবিক ভর বেশি তার তড়িৎ রাসায়নিক তুল্যাংকের মানও বেশি। Cu(63.5), Ag(108), Ni(28.3) ও Al(27) ধাতু চারটির মধ্যে Ag এর ভর বেশি। এজন্য এর তড়িৎ রাসায়নিক তুল্যাংক বেশি।</p>"
+  },
+  {
+    "id": 5369,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "সোডিয়াম ক্লোরাইডের গলিত অবস্থায় তড়িৎ চালনা করলে ক্যাথোডে কোনটি জমা হবে?",
+    "options": [
+      "সোডিয়াম ধাতু",
+      "হাইড্রোজেন গ্যাস",
+      "সোডিয়াম হাইড্রোক্সাইড",
+      "ক্লোরিন গ্যাস"
+    ],
+    "answer": "সোডিয়াম ধাতু",
+    "explanation": ""
+  },
+  {
+    "id": 5375,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>এক মোল Al<sub>2</sub>O<sub>3</sub> হতে এক মোল অ্যালুমিনিয়াম পেতে কত পরিমাণ তড়িৎ প্রয়োজন?</p>",
+    "options": [
+      "1 F",
+      "1.5 F",
+      "3 F",
+      "6 F"
+    ],
+    "answer": "3 F",
+    "explanation": ""
+  },
+  {
+    "id": 5421,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>FeSO<sub>4</sub> এর মধ্যে 5A তড়িৎ 10 min চালনা করলে ক্যাথোডে কী পরিমাণ আয়রন জমা হবে?</p>",
+    "options": [
+      "0.0144 g",
+      "0.404 g",
+      "0.578 g",
+      "0.868 g"
+    ],
+    "answer": "0.868 g",
+    "explanation": "<p>এখানে, </p><p>M = 55.85 (Fe এর আণবিক ভর)</p><p>$\\begin{aligned} &amp; \\mathrm{I}=5 \\mathrm{~A} ; \\quad \\mathrm{t}=10 \\mathrm{~min}=10 \\times 60 \\mathrm{sec} \\\\ &amp; \\mathrm{F}=96500 \\mathrm{C} ; \\quad \\mathrm{x}=2 \\\\ &amp; \\alpha=\\frac{\\mathrm{MIt}}{\\mathrm{Ex}}=\\frac{55.85 \\times 5 \\times 10 \\times 60}{96500 \\times 2}=0.868 \\mathrm{~g}\\end{aligned}$</p>"
+  },
+  {
+    "id": 5441,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>ক্যাথোডে 1 mol H<sub>2</sub> গ্যাস উৎপন্ন হতে কি পরিমাণ বিদ্যুৎ প্রয়োজন?</p>",
+    "options": [
+      "1 F",
+      "2 F",
+      "3 F",
+      "4 F"
+    ],
+    "answer": "2 F",
+    "explanation": ""
+  },
+  {
+    "id": 5447,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>কোনটি ক্রায়োলাইট</p>",
+    "options": [
+      "3Al<sub>2</sub>O<sub>3</sub>. 2SiO<sub>2</sub>",
+      "Na<sub>3</sub>O.2SiO<sub>2</sub>",
+      "Al<sub>2</sub>O<sub>3</sub>.2SiO<sub>2</sub>.2H<sub>2</sub>O",
+      "3NaF.AIF<sub>3</sub>"
+    ],
+    "answer": "3NaF.AIF<sub>3</sub>",
+    "explanation": ""
+  },
+  {
+    "id": 5448,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>ক্যালোমেলে কোন ধাতু থাকে?</p>",
+    "options": [
+      "তামা",
+      "দস্তা",
+      "নিকেল",
+      "পারদ"
+    ],
+    "answer": "পারদ",
+    "explanation": ""
+  },
+  {
+    "id": 5462,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "কোন আয়নটি সহজে চার্জমুক্ত হয়?",
+    "options": [
+      "<p>Cu<sup>2+</sup></p>",
+      "<p>H<sup>+</sup></p>",
+      "<p>Au<sup>3+</sup></p>",
+      "<p>Ag<sup>+</sup></p>"
+    ],
+    "answer": "<p>Au<sup>3+</sup></p>",
+    "explanation": ""
+  },
+  {
+    "id": 5495,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>H<sub>2</sub>(g) Cu<sup>2+</sup>(aq) → 2H<sup>+</sup>(aq) + Cu(s)E<sup>o</sup><sub>cell</sub>=0.34V</p><p>উদ্দীপকের কোষ বিক্রিয়াটিতে অ্যানোডের জারণ বিক্রিয়া কোনটি?</p>",
+    "options": [
+      "<p>Cu<sup>2+</sup> + 2e<sup>-</sup> → Cu</p>",
+      "<p>Cu → Cu<sup>2+</sup> + 2e<sup>-</sup></p>",
+      "<p>H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>-</sup></p>",
+      "<p>2H<sup>+</sup> + 2e → H<sub>2</sub></p>"
+    ],
+    "answer": "<p>H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>-</sup></p>",
+    "explanation": ""
+  },
+  {
+    "id": 5502,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>Fe/ Fe<sup>2+</sup> অ্যানোড হলে, নিচের কোনটি ক্যাথোড হিসেবে ব্যবহার করা যাবে?</p>",
+    "options": [
+      "<p>Zn/Zn<sup>2+</sup></p>",
+      "<p>Mg/Mg<sup>2+</sup></p>",
+      "<p>Al/Al<sup>3+</sup></p>",
+      "<p>Au/Au<sup>3+</sup></p>"
+    ],
+    "answer": "<p>Au/Au<sup>3+</sup></p>",
+    "explanation": ""
+  },
+  {
+    "id": 5518,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>সাধারণ তাপমাত্রায় H<sub>2</sub>O থেকে H<sub>2</sub> প্রতিস্থাপন করতে পারে-</p>",
+    "options": [
+      "Ca",
+      "Mg",
+      "Zn",
+      "Pb"
+    ],
+    "answer": "Mg",
+    "explanation": ""
+  },
+  {
+    "id": 5534,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>লেড সঞ্চয়ক কোষে-</p><p><br/>i. Pb পাত অ্যানোড</p><p><br/>ii. $PbO_2$ প্রলেপযুক্ত Pb পাত ক্যাথোড</p><p><br/>iii. 30% $H_2SP_4$ তড়িৎবিশ্লেষ্য</p><p><br></p><p>নিচের কোনটি সঠিক</p><p><br></p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 5555,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>শুষ্ক কোষের বিভবের মান কত?</p>",
+    "options": [
+      "+0.34V",
+      "+0.76V",
+      "+1.00V",
+      "+1.5V"
+    ],
+    "answer": "+1.5V",
+    "explanation": "<p>Dry Cell Voltage 1.5 V</p>"
+  },
+  {
+    "id": 5565,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>নিচের কোনটি অ্যানোড হিসাবে কাজ করে?</p>",
+    "options": [
+      "$Ag^+/Ag$",
+      "$Fe^{2+}/Fe$",
+      "$Zn^{2+}/Zn$",
+      "$H^+/H_2(g),Pt$"
+    ],
+    "answer": "$Zn^{2+}/Zn$",
+    "explanation": "<p>যার জারন বিভবের মান বেশি, সেটি আনোড</p>"
+  },
+  {
+    "id": 5567,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>যদি 5 অ্যাম্পিয়ার কারেন্ট 30 সেকেন্ড সময় ধরে একটি ইলেকট্রোডের মধ্যদিয়ে প্রবাহিত করা হয়, তবে চার্জ কত হবে?</p>",
+    "options": [
+      "60C",
+      "95.52C",
+      "120C",
+      "150C"
+    ],
+    "answer": "150C",
+    "explanation": "<p>তড়িৎ প্রবাহ, $I$ = 5 A</p><p>সময়, t=30 s; চার্জ</p><p>$\\mathrm{Q}=\\mathrm{It}=5 \\times 30=150 \\mathrm{C}$</p>"
+  },
+  {
+    "id": 5631,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>সক্রিয়তা সিরিজে কোনটির অবস্থান উপরে?</p>",
+    "options": [
+      "Pb",
+      "Cu",
+      "Ag",
+      "Ca"
+    ],
+    "answer": "Ca",
+    "explanation": "<p>সক্রিয়তা অনুসারে ক্রমটি হলো-</p><p>$\\mathrm{Ca}&gt;\\mathrm{Cu}&gt;\\mathrm{Ag}&gt;\\mathrm{Pb}$</p>"
+  },
+  {
+    "id": 5694,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>কোন আয়নটি সহজে চার্জমুক্ত হবে?</p>",
+    "options": [
+      "$Cu^{2+}$",
+      "$H^{+}$",
+      "$Au^{3+}$",
+      "$Ag^{+}$"
+    ],
+    "answer": "$Ag^{+}$",
+    "explanation": "<p>যার বিজারন বিভবের মান বেশি, সে সহজে চার্জমুক্ত হয়</p>"
+  },
+  {
+    "id": 5720,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>Zn এর তড়িৎ রাসায়নিক তুল্যাংক কত?</p>",
+    "options": [
+      "$3.388\\times10^{-4}$",
+      "$3.30\\times10^{-4}$",
+      "$3.29\\times10^{-4}$",
+      "$3.22\\times10^{-4}$"
+    ],
+    "answer": "$3.388\\times10^{-4}$",
+    "explanation": ""
+  },
+  {
+    "id": 5735,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>M (III) সালফেট দ্রবণে 0.1 A বিদ্যুৎ প্রবাহিত করলে ক্যাথোডে 1.0 g M জমা হয়। (ধাতু M এর পারমাণবিক ভর 40)</p><p>1.0 g M ধাতু জমা হতে কি পরিমাণ সময় লাগবে?</p>",
+    "options": [
+      "20s",
+      "1206s",
+      "24125s",
+      "72375s"
+    ],
+    "answer": "72375s",
+    "explanation": ""
   }
 ]

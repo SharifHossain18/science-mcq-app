@@ -2894,5 +2894,37 @@
     ],
     "answer": "$T=\\sqrt{3} P$",
     "explanation": "<p>$\\mathrm{T}^2=\\mathrm{P}^2+\\mathrm{P}^2+2 \\cdot \\mathrm{P} \\cdot \\mathrm{P} \\cdot \\cos60^{\\circ}$</p><p>বা, $\\mathrm{T}^2=2 \\mathrm{P}^2+2 \\mathrm{P}^2 \\times \\frac{1}{2}$</p><p>বা, $\\mathrm{T}^2=2 \\mathrm{P}^2+\\mathrm{P}^2=3 \\mathrm{P}^2$</p><p>বা, $\\mathrm{T}=\\sqrt{3 \\mathrm{P}^2} \\quad \\therefore \\mathrm{~T}=\\sqrt{3} \\mathrm{P}$</p>"
+  },
+  {
+    "id": 7291,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>কোনো বিন্দুতে  P মানের দুটি সমান বল 60° কোণে ক্রিয়া করে।</p><p><br></p><p>Q. বলদ্বয়ের  লব্ধি P বলের সাথে কত কোণ উৎপন্ন করে? </p>",
+    "options": [
+      "$0^{\\circ}$",
+      "$15^{\\circ}$",
+      "$30^{\\circ}$",
+      "$45^{\\circ}$"
+    ],
+    "answer": "$30^{\\circ}$",
+    "explanation": "<p>লব্ধি, $\\mathrm{R}=\\sqrt{\\mathrm{P}^2+\\mathrm{P}^2+2 \\cdot \\mathrm{P} \\cdot \\mathrm{P} \\cdot \\cos 60^{\\circ}}=\\sqrt{2 \\mathrm{P}^2+2 \\mathrm{P}^2 \\times \\frac{1}{2}}=\\sqrt{3 \\mathrm{P}^2}=\\mathrm{P} \\sqrt{3}$ লব্ধি R ও P বলের মধ্যবর্তী কোণ, $\\theta$ হলে, \n$\\begin{aligned} &amp; \\tan \\theta=\\frac{P \\sin 60^{\\circ}}{P+P \\cos 60^{\\circ}}=\\frac{P \\times \\frac{\\sqrt{3}}{2}}{P+P \\times \\frac{1}{2}}=\\frac{P \\times \\frac{\\sqrt{3}}{2}}{P\\left(1+\\frac{1}{2}\\right)}=\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{3}{2}}=\\frac{\\sqrt{3}}{3}=\\frac{1}{\\sqrt{3}} \\\\ &amp; \\therefore \\theta=\\tan ^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=30^{\\circ} .\\end{aligned}$ \n</p>"
+  },
+  {
+    "id": 8288,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "ত্রিভুজের বাহুত্রয়ের লম্ব সমদ্বিখন্ডক তিনটির ছেদবিন্দু হলো-",
+    "options": [
+      "অন্তঃকেন্দ্র",
+      "পরিকেন্দ্র",
+      "ভরকেন্দ্র",
+      "লম্বকেন্দ্র"
+    ],
+    "answer": "পরিকেন্দ্র",
+    "explanation": ""
   }
 ]

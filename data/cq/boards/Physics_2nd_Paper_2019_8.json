@@ -1,0 +1,242 @@
+[
+  {
+    "id": 914,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 1: তাপগতিবিদ্যা",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>একটি কার্নো ইঞ্জিন সমোষ্ণ প্রসারণ, রূদ্ধতাপীয় প্রসারণ, সমোষ্ণ সংকোচন ও রূদ্ধতাপীয় সংকোচন এ চারটি ধাপে কাজ করে। ইঞ্জিনের তাপ উৎস ও তাপ গ্রাহকের তাপমাত্রা যথাক্রমে 1000 °C ও 500 °C।ধাপ চারটিতে সম্পাদিত কাজের পরিমাণ যথাক্রমে 900 J,800 J,500 J ও 250 J।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>ধারকত্বের সংজ্ঞা দাও?</p>",
+        "answer": "<p>ধারকত্ব হল কোন নির্দিষ্ট বিভব পার্থক্যে সঞ্চিত তড়িৎ আধানের পরিমাপ।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>গোলকের অভ্যন্তরে সকল বিন্দুতে বিভব সমান ব্যাখা করো।</p>",
+        "answer": "<p>চার্জিত গোলকের অভ্যন্তরে কোনো বলরেখা এবং তড়িৎ প্রাবল্য থাকে না। তাই অসীম হতে গোলকের পৃষ্ঠ পর্যন্ত ধনাত্মক চার্জকে আনতে যে পরিমাণ কাজ করতে হয়, অসীম হতে গোলকের অভ্যন্তরে যে কোনো বিন্দুতে নিতে একই পরিমাণ কাজ করতে হয়। এই কারণেই তড়িৎ বিভবের সংজ্ঞানুসারে, কোনো গোলকের অভ্যন্তরে যে কোনো বিন্দুর বিভব পৃষ্ঠের বিভবের সমান।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>ইঞ্জিন কর্তৃক সম্পাদিত কাজের পরিমাণ নির্ণয় করো।</p>",
+        "answer": "<p>এখানে, </p><p>ইঞ্জিন সমোষ্ণ প্রসারণ,W<sub>1 </sub>= 900 J </p><p>রূদ্ধতাপীয় প্রসারণ,&nbsp;W<sub>2 </sub>= 800 J </p><p>&nbsp;সমোষ্ণ সংকোচন,W<sub>3 </sub>= 500 J </p><p>ও রূদ্ধতাপীয় সংকোচন,W<sub>4</sub>=250 J</p><p>সম্পাদিত কাজ, W = W<sub>1</sub>+W<sub>2</sub>-W<sub>3</sub>-W<sub>4</sub></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 900+800-(500+250)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 950 J</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের ইঞ্জিনটির তাপ উৎসের তাপমাত্রা বাড়ানোর চেয়ে তাপ গ্রাহকের তাপমাত্রা সমপরিমাণ কমালে দক্ষতা আরও বৃদ্ধি পাবে গাণিতিক বিশ্লেষণ করে যাচাই করো।</p>",
+        "answer": "<p>দেওয়া আছে,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: rgb(31, 41, 55);\">T</span><sub>1</sub>=1273k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T<sub>2</sub>=773k </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;আমরা জানি,</p><p>                   $\\begin{aligned} \\eta_1 &amp; =\\left(1-\\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}\\right) \\times 100 \\% \\\\ &amp; =\\left(1-\\frac{773}{1273}\\right) \\times 100 \\% \\\\ &amp; =39.2 \\%\\end{aligned}$</p><p>উৎসের তাপমাত্রা 100℃ বাড়ালে,</p><p>               $\\begin{aligned} \\eta_2 &amp; =\\left(1-\\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}\\right) \\times 100 \\% \\\\ &amp; =\\left(1-\\frac{773}{1373}\\right) \\times 100 \\% \\\\ &amp; =43.7 \\%\\end{aligned}$</p><p>গ্রাহকের তাপমাত্রা 100℃ কমলে,</p><p>         $\\begin{aligned} \\eta_3 &amp; =\\left(1-\\frac{\\mathrm{T}_2}{\\mathrm{~T}_1}\\right) \\times 100 \\% \\\\ &amp; =\\left(1-\\frac{673}{1273}\\right) \\times 100 \\% \\\\ &amp; =47.13 \\%\\end{aligned}$</p>"
+      }
+    ]
+  },
+  {
+    "id": 915,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2019",
+    "board": "8",
+    "context": "<p><img src=\"data:image/png;base64,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\"></p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>এন্ট্রপি কি?</p>",
+        "answer": "<p>রুদ্ধতাপীয় প্রত্যাবর্তী প্রক্রিয়ায় কোনো সিস্টেমে যে তাপগতীয় চলরাশি ধ্রুব থাকে তাকে এনট্রপি বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>বডি স্প্রে ব্যবহারের সময় ঠান্ডা অনুভূত হয় কেন ব্যাখা করো।</p>",
+        "answer": "<p>বডিস্প্রে যখন স্প্রে করা হয় তখন বডি স্প্রে-এর রাসায়নিক পদার্থগুলো তরল থাকে কিন্ত শরীরের সংস্পর্শে এসে শরীর থেকে তাপ গ্রহণ করে তরল রাসায়নিক পদার্থগুলো গ্যাসে পরিণত হয়। তাই বডি স্প্রে ব্যবহারের সময় ঠান্ডা অনুভূত হয়।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>বর্তনীর প্রবাহ মাত্রা নির্ণয় করো।</p>",
+        "answer": "<p>এখানে,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;R=15Ω</p><p>&nbsp;&nbsp;&nbsp;&nbsp;r = 0.2Ω</p><p>&nbsp;&nbsp;&nbsp;&nbsp;E = 9 V</p><p>&nbsp;&nbsp;&nbsp;আমরা জানি,</p><p>              $\\begin{aligned} I &amp; =\\frac{E}{R+r} \\\\ &amp; =\\frac{E}{R+r} \\\\ &amp; =\\frac{9}{15+0.2} \\\\ &amp; =0.5921 \\mathrm{~A}\\end{aligned}$ </p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>বর্তনীতে অনুরূপ আরও একটি কোষ শ্রেণিতে যুক্ত করলে রোধ R এ উৎপন্ন তাপ শক্তির হার কেমন হবে গাণিতিক বিশ্লেষণ করো।</p>",
+        "answer": "<p>P<sub>1</sub>=I<sub>1</sub><sup>2</sup>R</p><p class=\"ql-align-justify\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0.5921<sup>2</sup>x15=5.258 Js<sup>-1</sup></p><p class=\"ql-align-justify\">আরেকটি কোষ শ্রেণিতে যুক্ত করলে,</p><p>                                                        $\\begin{aligned} I^{\\prime} &amp; =\\frac{2 \\mathrm{E}}{\\mathrm{R}+\\mathrm{r}+\\mathrm{r}} \\\\ &amp; =\\frac{2 \\times 9}{15+0.4} \\\\ &amp; =1.17 \\mathrm{~A}\\end{aligned}$</p><p>P<sub>2</sub>=I<sub>1</sub><sup>2</sup>R</p><p class=\"ql-align-justify\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=1.17<sup>2</sup>x15=20.5 Js<sup>-1</sup></p><p>$\\frac{\\mathrm{P} 2}{\\mathrm{P} 1}=3.9$</p>"
+      }
+    ]
+  },
+  {
+    "id": 916,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>একখন্ড ধাতুর উপর 2800 A° তরঙ্গ দৈর্ঘ্যের এবং 5.55×10¹⁴ Hz সূচন‌ কম্পাঙ্কের আলো আপতিত হলে ধাতু থেকে ফটোইলেকট্রন নির্গত হয়</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>অপবর্তনের সংজ্ঞা দাও?</p>",
+        "answer": "<p class=\"ql-align-justify\">কোনো প্রতিবন্ধকের কিনারা বা ধার ঘেষে বা সরু চিড়ের মধ্য দিয়ে যাওয়ার সময় জ্যামিতিক ছায়া অঞ্চলের মধ্যে আলোর বেঁকে যাওয়ার ঘটনাকে আলোর অপবর্তন(Diffraction of light) বলে।&nbsp;</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p class=\"ql-align-justify\">Reverse Bias এ বিভব প্রাচীরের উচ্চতা বৃদ্ধি পায় ব্যাখা করো।</p>",
+        "answer": "<p>এক্ষেত্রে বাহ্যিক ভোল্টেজ এমনভাবে প্রয়োগ করা হয় যাতে বিভব প্রাচীরের উচ্চতা বা প্রশস্থতা বৃদ্ধি পায়। এ ধরনের ঝোঁক প্রয়োগকে বিপরীত ঝোঁক প্রয়োগ (reverse biasing) বলে। বিপরীত ঝোঁক প্রয়োগের জন্য ব্যাটারির&nbsp;ঋণাত্মক প্রান্ত p-টাইপ প্রান্তের সঙ্গে এবং ধনাত্মক প্রান্ত n-টাইপ প্রান্তের সঙ্গে সংযোগ দেয়া হয়। প্রযুক্ত বিপরীত ভোল্টেজের জন্য সৃষ্ট বৈদ্যুতিক ক্ষেত্র বিভব প্রাচীরের বৈদ্যুতিক ক্ষেত্রের দিকে কাজ করে। ফলে জাংশনে লদ্ধি ক্ষেত্র বৃদ্ধি পায় এবং বিভব প্রাচীরের উচ্চতা বেড়ে যায়। বিভব প্রাচীর বৃদ্ধির ফলে বাহকের চলাচলে বাধা বা রোধ অনেক বেড়ে যায় এবং বর্তনীতে তড়িৎ প্রবাহ হয়না।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p class=\"ql-align-justify\">নির্গত ফটোইলেকট্রনের সর্বোচ্চ গতিবেগ নির্ণয় করো।</p>",
+        "answer": "<p>আমরা জানি,</p><p>$\\begin{aligned} &amp; \\frac{1}{2} \\mathrm{mv}_{\\mathrm{m}}^2=\\frac{\\mathrm{hc}}{\\lambda}-\\mathrm{hf}_0 \\\\ &amp; =\\frac{6.63 \\times 10^{-34} \\times 3 \\times 10^8}{2.8 \\times 10^{-7}}-6.63 \\times 10^{-34} \\times 5.55 \\times 10^{14} \\\\ &amp; \\mathrm{~V}_{\\mathrm{m}}=8.67 \\times 10^5 \\mathrm{~ms}^{-1}\\end{aligned}$</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p class=\"ql-align-justify\">ধাতু খন্ডের উপর 3800 A° তরঙ্গ দৈর্ঘ্যের আলো আপতিত হলে ইলেকট্রন নির্গত হবে কিনা গাণিতিক বিশ্লেষণ করো।</p>",
+        "answer": "<p class=\"ql-align-justify\">ধাতুটির কাজাপেখক,</p><p>                     $\\begin{aligned} &amp; \\emptyset=\\mathrm{hf}_0 \\\\ &amp; =6.63 \\times 10^{-34} \\times 5.55 \\times 10^{14} \\\\ &amp; =3.67 \\times 10^{-19} \\mathrm{~J} \\\\ &amp; \\mathrm{E}=\\frac{\\mathrm{hc}}{\\lambda}=\\frac{6.63 \\times 10^{-34} \\times 3 \\times 10^8}{3800 \\times 10^{-10}}=5.23 \\times 10^{-19} \\mathrm{~J} \\\\ &amp; \\end{aligned}$  </p>"
+      }
+    ]
+  },
+  {
+    "id": 917,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>2.26 ঘন্টা অর্ধায়ু বিশিষ্ট তেজস্ক্রিয় আয়োডিন আইসোটোপ চিকিৎসা বিদ্যায় রোগ নির্ণয়ে ব্যবহৃত হয়। কোনো একজন রোগীর রোগ নির্ণয়ের জন্য তার শরীরে 15 g তেজস্ক্রিয় আয়োডিন প্রবেশ করানো হলো।ঠিক 24 ঘন্টা পরে আবার তার শরীরে আয়োডিনের উপস্থিতি নির্ণয় করা হলো</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p class=\"ql-align-justify\">ডিজিটাল ভোল্টেজ সংকেত কী?</p>",
+        "answer": "<p>যদি কোনো ডিজিটাল বর্তনীর ভোল্টেজ নিরবিচ্ছিন্নভাবে পরিবর্তিত না হয়ে দুটি নির্দিষ্ট মান গ্রহণ করে যথাঃ এবং তবে এ ধরনের ভোল্টেজ সংকেতকে ডিজিটাল ভোল্টেজ সংকেত বলে।&nbsp;</p><p><br></p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>অণুবীক্ষণ যন্ত্রে চূড়ান্ত বিবর্ধন ঋণাত্মক কেন ব্যাখা করো।</p>",
+        "answer": "<p>আমরা জানি, অণুবীক্ষণযন্ত্রে দুটি লেন্স আছে। যথাক্রমে অভিলক্ষ ও অভিনেত্র। অভিলক্ষ্যে বিশ্ব বাস্তব ও উল্টো হয় ফলে এর বিবর্ধনঋণাত্মক কিন্তু অভিনেত্রের চূড়ান্ত বিশ্ব অবাস্তব হয় ফলে এর বিবর্ধন ধনাত্মক হয় । ফলে অণুবীক্ষণযন্ত্রের চূড়ান্ত বিবর্ধন, M= (-m1) (m2) = mm2 অর্থাৎ ঋণাত্মক হয়।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p class=\"ql-align-justify\">আয়োডিনের ক্ষয় ধ্রূবক নির্ণয় করো।</p>",
+        "answer": "<p>এখানে, </p><p>অর্ধায়ু,$\\begin{aligned} &amp; \\mathrm{T}_{1 / 2}=2.26 \\mathrm{~h} \\\\ &amp; \\mathrm{~T}_{1 / 2}=\\frac{0.693}{\\lambda} \\\\ &amp; \\lambda=\\frac{0.693}{2.26}=0.307 \\mathrm{~h}^{-1}\\end{aligned}$ </p>"
+      },
+      {
+        "type": "d",
+        "question": "<p class=\"ql-align-justify\">24 ঘন্টা পরে রোগীর শরীরে শতকরা কত অংশ আয়োডিন থাকবে গাণিতিক বিশ্লেষণ করো।</p>",
+        "answer": "<p class=\"ql-align-justify\">আমরা জানি,</p><p>                 $\\begin{aligned} \\mathrm{N}=\\mathrm{N}_0 \\mathrm{e}^{-\\lambda \\mathrm{t}} &amp; \\\\ \\mathrm{N} &amp; =\\mathrm{N}_0 \\mathrm{e}^{-0.307 \\times 24} \\\\ \\mathrm{~N} &amp; =\\mathrm{N}_0 \\times 6.37 \\times 10^{-4} \\\\ \\frac{\\mathrm{N}}{\\mathrm{N}_0} &amp; =1570.72 \\\\ \\mathrm{~N} &amp; =\\frac{15}{1570.72}=9.55 \\times 10^{-3} \\mathrm{gm}\\end{aligned}$</p>"
+      }
+    ]
+  },
+  {
+    "id": 918,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2019",
+    "board": "8",
+    "context": "<p><img src=\"data:image/png;base64,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\"></p><p>চিত্রে  $\\mathrm{I}_{\\mathrm{E}}=3 \\mathrm{~mA}, \\mathrm{I}_{\\mathrm{B}}=15 \\mu \\mathrm{A}$</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p class=\"ql-align-justify\">ডার্ক এনার্জি কাকে বলে?</p>",
+        "answer": "<p>&nbsp;মহাবিশ্বের ত্বরান্বিত সম্প্রসারণ কোণ এক অদৃশ্য শক্তির কারণেই হচ্ছে। এই অদৃশ্য শক্তিকেই ডার্ক এনার্জী বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>বঙ্গবন্ধু স্যাটেলাইট -১ এর মাধ্যমে কি কি সেবা পাওয়া যায়।</p>",
+        "answer": "<p>বঙ্গবন্ধু স্যাটেলাইট-১ এর মাধ্যমে নিম্নোক্ত সেবাসমূহ পাওয়া যাবে— প্রথমত- এ স্যাটেলাইটের সক্ষমতা বিক্রি করে বাংলাদেশ বৈদেশিক মুদ্রা ও সাশ্রয় দুটোই করতে পারবে।</p><p>দ্বিতীয়ত— দেশের প্রত্যন্ত অঞ্চলে স্যাটেলাইটের মাধ্যমে ইন্টারনেট ও টেলিযোগাযোগ সেবার সম্প্রসারণ সম্ভব হবে।</p><p>তৃতীয়ত— দুর্যোগ ব্যবস্থাপনায় ও জাতীয় নিরাপত্তা নিশ্চিত করার কাজও এ স্যাটেলাইটের ব্যবহার সম্ভব হবে।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>প্রবাহ লাভ নির্ণয় করো।</p>",
+        "answer": "<p>দেওয়া আছে,</p><p>$\\begin{aligned} &amp; \\mathrm{I}_{\\mathrm{E}}=3 \\mathrm{~mA} \\\\ &amp; \\mathrm{I}_{\\mathrm{B}}=15 \\mu \\mathrm{A}=0.015 \\mathrm{~mA} \\\\ &amp; \\beta=\\frac{\\mathrm{I}_{\\mathrm{C}}}{\\mathrm{I}_{\\mathrm{B}}}=\\frac{\\mathrm{I}_{\\mathrm{B}}-\\mathrm{I}_{\\mathrm{B}}}{\\mathrm{I}_{\\mathrm{B}}}=\\frac{3-0.015}{0.015}=199\\end{aligned}$</p><p><br></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের ডিভাইসটি ইলেকট্রিক সুইচ হিসেবে খুবই জনপ্রিয় বিশ্লেষণ করো।</p>",
+        "answer": "<p>উদ্দীপকের বর্তনীটিকে ইলেকট্রনিক সুইচ হিসেবে ব্যবহার করা যায়।সংগ্রাহক বায়াস বিভব প্রয়োগ করা হয় এবং নিঃসারককে ভূ সংযুক্ত করা হয়।</p><p>পীঠ বিভব&nbsp;শূন্য বা নূন্যতম একটি মানের কম হলে সংগ্রাহক ও নিঃসারকের কোন তড়িৎ প্রবাহ চলে না। একটি সিলিকন ট্রানজিস্টরের ক্ষেত্রে এ ন্যূনতম মান হচ্ছে 0.7 V।একে ট্রানজিস্টরের কাট অফ অবস্থা বলে।আবার পীঠ বিভবে একটি নির্দিষ্ট মান অপেক্ষা বেশি বিভব প্রয়োগ করা হলে নিঃসারক ও সংগ্রাহকের মধ্যে কোনো রোধ থাকে না বলেলেই চলে ফলে বর্তনীতে তড়িৎ প্রবাহ চলে একে ট্রানজিস্টরের সম্পৃক্ত অবস্থা বলে। সিলিকন ট্রানজিস্টরের পীঠ বিভব 1.4 এর বেশি হলে ট্রানজিস্টর সম্পৃক্ত অবস্থা প্রাপ্ত হয়।উপর্যুক্ত আলোচনা থেকে আমরা বলতে পারি পীঠ নিম্ন হলে সুইচ অফ এবং উচ্চ হলে সুইচ অন।</p>"
+      }
+    ]
+  },
+  {
+    "id": 919,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>চিত্রে, PQ = RS = 0.1m; QR = PS = 0.05m; পাকসংখ্যা, N = 50; প্রবাহমাত্রা, I = 1 A; চৌম্বক ক্ষেত্র, B = 0.2T। </p><p><img src=\"data:image/png;base64,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\"></p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p><span style=\"color: rgb(31, 41, 55);\">বিন্দুচার্জ কি?</span></p>",
+        "answer": "<p><span style=\"color: rgb(31, 41, 55);\">কোনো আধান যদি খুব ছোট বিন্দুর ন্যায় হয় তবে তাকে বিন্দু আধান বা বিন্দু চার্জ বলে।&nbsp;</span></p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>তড়িৎ দ্বিমেরু অক্ষের লম্ব সমদ্বিখন্ডকের উপর একটি চার্জ গতিশীল রাখতে কোনো কাজ করতে হয় না- ব্যাখ্যা কর।</p>",
+        "answer": "<p>তড়িৎ দ্বিমেরুর লম্ব দ্বিখণ্ডক বরাবর তড়িৎ বিভব শূন্য থাকে । ফলে কোনো কণা লম্ব দ্বিখণ্ডক বরাবর গতিশীল হলে কোনো বিভব লাভ করে না। </p><p>তাই তড়িৎ দ্বিমেরুর অক্ষের লম্ব দ্বিখণ্ডক বরাবর একটি চার্জ গতিশীল রাখতে কোনো কাজ করতে হয় না৷</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>আয়তাকার কয়েলটির চৌম্বক মোমেন্ট কত হবে?</p>",
+        "answer": "<p>এখানে, পাক সংখ্যা, N = 50 </p><p>প্রবাহমাত্রা, I = 1 A </p><p>ক্ষেত্রফল, A = PQ × PS = (0.1 × 0.05) m<sup>2</sup> = 0.005m<sup>2</sup></p><p>$\\therefore$ কুণ্ডলীর চৌম্বক মোমেন্ট, </p><p>M = NIA = 50 × 1 × 0.005Am<sup>2</sup> = 0.25 Am<sup>2</sup></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>আয়তাকার কয়েলটি সমান সংখ্যক পাকবিশিষ্ট বৃত্তাকার কয়েলে পরিণত করা হলে টর্কের মান বাড়বে কি না- বিশ্লেষণপূর্বক মতামত দাও।</p>",
+        "answer": "<p>বর্তমান অবস্থায় টর্ক, </p><p>$\\begin{aligned} &amp; \\tau=\\text { NIAB } \\sin \\theta \\\\ &amp; =50 \\times 1 \\times 0.005 \\times 0.2 \\times \\sin 90^{\\circ}=0.05 \\mathrm{Nm}\\end{aligned}$</p><p>এখানে, </p><p>N = 50</p><p>I=1A </p><p>A = 0.005m<sup>2</sup> </p><p>B = 0.2 T </p><p>$\\theta$ = 90°</p><p>কুণ্ডলীটিকে সমান সংখ্যক পাকবিশিষ্ট বৃত্তাকার</p><p>কুণ্ডলী বানালে আয়তাকার কুণ্ডলীর মোট পরিসীমা </p><p>= বৃত্তাকার কুণ্ডলীর মোট পরিধি</p><p>বা,&nbsp;$\\mathrm{N} \\times 2(\\mathrm{PQ}+\\mathrm{PS})=\\mathrm{N} \\times 2 \\pi \\mathrm{r}$</p><p>বা,&nbsp;$\\mathrm{r}=\\frac{2(\\mathrm{PQ}+\\mathrm{PS})}{2 \\pi}=\\frac{0.1+0.05}{\\pi}=0.048 \\mathrm{~m}$</p><p>$\\therefore$বৃত্তাকার কুণ্ডলীর ক্ষেত্রফল,&nbsp;</p><p>$\\mathrm{A}=\\pi \\mathrm{r}^2=\\pi(0.048)^2=7.16 \\times 10^{-3} \\mathrm{~m}^2$</p><p><span style=\"color: rgb(31, 41, 55);\">$\\therefore$ </span>বৃত্তাকার কুণ্ডলীর জন্য টর্ক,&nbsp;</p><p>$\\begin{aligned} &amp; \\mathrm{t} 2=\\mathrm{NLAB} \\sin 90^{\\circ} \\\\ &amp; =50 \\times 1 \\times 7.16 \\times 10^{-3} \\times 0.2 \\times 1 \\mathrm{Nm}=0.0716 \\mathrm{Nm}\\end{aligned}$</p><p>যেহেতু&nbsp; $\\tau_2&gt;\\tau_1$</p><p>অতএব টর্ক বাড়বে।&nbsp;</p>"
+      }
+    ]
+  },
+  {
+    "id": 920,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 4: তড়িৎ প্রবাহের চুম্বকক্রিয়া ℹ️",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>একটি স্টেপআপ ট্রান্সফরমারে 220V সরবরাহ করে 2200 V পাওয়া যায়। ট্রান্সফরমারটির মুখ্য কুণ্ডলীর পাকসংখ্যা 500 এবং রোধ 0.5 5 Ω।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>চৌম্বক ফ্লাক্স কি?</p>",
+        "answer": "<p>কোনো তলের ক্ষেত্রফল এবং ঐ তলের লম্ব বরাবর চৌম্বক ক্ষেত্রের উপাংশের গুণফলই ঐ তলের সাথে সংশ্লিষ্ট চৌম্বক ফ্লাক্স।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>ডিসি উৎসের সাথে ট্রান্সফরমার যুক্ত করলে এটি কাজ করে না কেন?</p>",
+        "answer": "<p>তাড়িত চৌম্বক আবেশের উপর ভিত্তি করে ট্রান্সফরমার তৈরি করা হয়। ট্রান্সফরমার কেবল এ.সি. লাইনে ব্যবহার করা হয়। কারণ ট্রান্সফরমার ডি.সি. লাইনে কাজ করে না। মুখ্য কুণ্ডলীতে ডি.সি. ভোল্টেজ বা প্রবাহ প্রয়োগ করলে ট্রান্সফরমারের মজ্জার মধ্য দিয়ে ধ্রুবমানের চৌম্বক ফ্লাক্স গমন করে। এ ধ্রুবমানের চৌম্বক ফ্লাক্স গৌণ কুণ্ডলীতে কোনো তড়িচ্চালক বল আবিষ্ট করতে পারে না। ফলে ইনপুট ডি.সি. ভোল্টেজের মান যাই হোক না কেন, আউটপুট গৌণ কুণ্ডলীর ভোল্টেজ সর্বদাই শূন্য হয়। তাই ট্রান্সফরমার ডিসি প্রবাহে কাজ করে না।&nbsp;</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>গৌণ কুণ্ডলীর পাকসংখ্যা নির্ণয় কর।</p>",
+        "answer": "<p>এখানে, মুখ্য কুণ্ডলীর ভোল্টেজ, Ep = 220 v </p><p>গৌণ কুণ্ডলীর ভোল্টেজ, E = 2200 V </p><p>মুখ্য কুণ্ডলীর পাকসংখ্যা, Np = 500 </p><p>গৌণ কুণ্ডলীর পাকসংখ্যা, Ns = ?&nbsp;</p><p>আমরা জানি,</p><p>$\\begin{aligned} &amp; \\frac{E_p}{E_S}=\\frac{N_p}{N_S} \\\\ &amp; \\text { বা, } N_{\\mathrm{S}}=\\frac{N_{\\mathrm{P}} \\times E_{\\mathrm{S}}}{E_{\\mathrm{P}}}=\\frac{500 \\times 2200}{220}=5000\\end{aligned}$</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপক অনুসারে কুণ্ডলীদ্বয়ের রোধের অনুপাত নির্ণয় করা যাবে কি-না- বিশ্লেষণপূর্বক মতামত দাও।</p>",
+        "answer": "<p>এখানে, মুখ্য কুণ্ডলীর রোধ, R<sub>P</sub>=0.5Ω&nbsp;</p><p>আমরা জানি,</p><p>মুখ্য কুণ্ডলীতে প্রদত্ত শক্তি = গৌগ কুগ্ডলীতে আবিষ্ট শক্তি উভয়পক্ষে সময় t - বারা ভাগ করে পাই,</p><p>মুখ্য কুণ্ডলীর ক্ষমতা = গৌণ কুণ্ডলীতে আবিষ্ট ক্ষমতা&nbsp;</p><p>বা, $P_P=P_S$</p><p>বা, $\\frac{E_P^2}{R_P}=\\frac{E_S^2}{R_S}\\left[\\because P=\\frac{V^2}{R}\\right]$</p><p>বা, $\\frac{R_P}{R_S}=\\frac{E_p^2}{R_S^2}=\\left(\\frac{220}{2200}\\right)^2$</p><p>$\\therefore R_P: R_S=1: 100$</p>"
+      }
+    ]
+  },
+  {
+    "id": 921,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2019",
+    "board": "8",
+    "context": "<p>একটি উভোত্তল লেন্সের বক্রতার ব্যাসার্ধ যথাক্রমে 30 সে.মি. ও 40 সে.মি.। বায়ু সাপেক্ষে কাচ ও পানির প্রতিসরাঙ্ক যথাক্রমে 1.5 ও 1.33।&nbsp;</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>প্রিজম কোণ কি?&nbsp;</p>",
+        "answer": "<p>প্রতিসারক তলদ্বয় যে কোণে পরস্পরকে ছেদ করে তাই প্রিজম কোণ।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>খালি চোখে পানিতে ডুব দিলে পানির ভিতরে বস্তুর প্রতিচ্ছবি ঘোলাটে দেখায় কেন?</p>",
+        "answer": "<p>খালি চোখে পানিতে ডুব দিলে পানির ভিতরে বস্তুর প্রতিচ্ছবি ঘোলাটে দেখায়। এক্ষেত্রে পানির প্রতিসরণাঙ্কের কারণে চোখের ফোকাস দূরত্ব পরিবর্তন হয়ে যায় এতে বস্তু থেকে আলোকরশ্মি চোখের রেটিনার সামনে বা পিছনে মিলিত হয় ফলে পানির ভিতরে বস্তুর প্রতিচ্ছবি ঘোলাটে দেখায়।&nbsp;</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>বায়ুতে লেন্সটির ফোকাস দূরত্ব নির্ণয় কর।</p>",
+        "answer": "<p>এখানে, লেঙের ১ম পৃষ্ঠের বক্রতার ব্যাসার্ধ, r<sub>1</sub>=+30cm&nbsp;</p><p>লেন্সের ২য় পৃষ্ঠের বক্রতার ব্যাসার, r<sub>2</sub>=-40 cm&nbsp;</p><p>বায়ুর সাপেক্ষে কাচের প্রতিসরণাঙ্ক,&nbsp;<sub>a</sub>μ<sub>g</sub>=1.5&nbsp;</p><p>বায়ুর সাপেক্ষে পানির প্রতিসরণাঙ্ক,&nbsp;<sub>a</sub>μ<sub>w</sub>=1.33&nbsp;</p><p>লেনের ফোকাস দূরত্ব, f= ? </p><p>আমরা জানি,</p><p>$\\frac{1}{f}=\\left(\\mu_{\\mathrm{a}}-1\\right)\\left(\\frac{1}{r_1}-\\frac{1}{r_2}\\right)=(1.5-1)\\left(\\frac{1}{30}+\\frac{1}{40}\\right)=0.5 \\times \\frac{4+3}{120}$</p><p>বা, $\\frac{1}{f}=\\frac{3.5}{120}$</p><p><span style=\"color: rgb(31, 41, 55);\">বা, </span>$f=\\frac{120}{3.5} \\mathrm{~cm}=34.28 \\mathrm{~cm}$</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>লেন্সটিকে পানিতে নিমজ্জিত করলে ফোকাস দূরত্বের কীরূপ পরিবর্তন হবে? গাণিতিক বিশ্লেষণ কর।</p>",
+        "answer": "<p>এখানে,&nbsp;</p><p>$\\mathrm{r}_1=+30 \\mathrm{~cm} ; \\mathrm{r}_2=-40 \\mathrm{~cm} ; \\mathrm{a} \\mu_{\\mathrm{g}}=1.5 ;{ }_{\\mathrm{a}} \\mu_{\\mathrm{w}}=1.33$</p><p><br></p><p>বায়ুর ক্ষেত্রে,&nbsp;$\\left(\\frac{1}{f_{\\mathrm{a}}}={ }_{\\mathrm{a}} \\mu_{\\mathrm{g}}-1\\right)\\left(\\frac{1}{\\mathrm{r}_1}-\\frac{1}{\\mathrm{r}_2}\\right) \\ldots \\ldots \\ldots$ (i) </p><p>পানির ক্ষেত্রে,&nbsp;$\\left(\\frac{1}{f_{\\mathrm{w}}}={ }_{\\mathrm{w}} \\mu_{\\mathrm{g}}-1\\right)\\left(\\frac{1}{\\mathrm{r}_1}-\\frac{1}{\\mathrm{r}_2}\\right)$ ......... (ii)</p><p>(i) ÷ (ii) করে পাই,</p><p>$\\begin{aligned} &amp; \\frac{f_{\\mathrm{w}}}{f_{\\mathrm{a}}}=\\frac{\\left(\\mathrm{a} \\mu_{\\mathrm{g}}-1\\right)}{\\left(\\mathrm{w} \\mu_{\\mathrm{g}}-1\\right)}=\\frac{\\left(\\mathrm{a} \\mu_{\\mathrm{g}}-1\\right)}{\\left(\\frac{\\mathrm{a} \\mu_{\\mathrm{g}}}{\\mathrm{a}_{\\mathrm{w}}}-1\\right)}=\\frac{(1.5-1)}{\\left(\\frac{1.5}{1.33}-1\\right)} \\\\ &amp; \\frac{f_{\\mathrm{w}}}{f_{\\mathrm{a}}}=\\frac{0.5}{1.13-1}=3.85\\end{aligned}$</p><p>বা, f<sub>w</sub>=3.85×f<sub>a</sub></p><p><span class=\"ql-cursor\">﻿</span>অর্ধাৎ পানিতে লেসটির ফোকাস দূরত্ বায়ুতে ফোকাস দূরত্বের 3.85 গুণ।&nbsp;</p>"
+      }
+    ]
+  }
+]

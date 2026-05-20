@@ -3438,5 +3438,85 @@
     ],
     "answer": "i ও ii",
     "explanation": ""
+  },
+  {
+    "id": 6849,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>A ম্যাট্রিক্সের ক্রম $2\\times4$ এবং B ম্যাট্রিক্সের ক্রম $4\\times3$ হলে, AB এর ক্রম কোনটি?</p>",
+    "options": [
+      "<p>$2\\times4$</p>",
+      "$2\\times3$",
+      "$3\\times2$",
+      "$4\\times4$"
+    ],
+    "answer": "$2\\times3$",
+    "explanation": ""
+  },
+  {
+    "id": 6892,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>A ও B ম্যাট্রিক্সদ্বয়ের ক্রম যথাক্রমে $4\\times5$ এবং $5\\times4$ হলে AB ম্যাট্রিক্সের ক্রম-</p>",
+    "options": [
+      "$4\\times5$",
+      "$5\\times4$",
+      "$4\\times4$",
+      "$5\\times5$"
+    ],
+    "answer": "$4\\times4$",
+    "explanation": ""
+  },
+  {
+    "id": 6992,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>যদি $I_3$ একটি তিন ক্রমের ম্যাট্রিক্স হয় তবে $(I_3)^{-1}$ = ?</p>",
+    "options": [
+      "0",
+      "$I_3$",
+      "${1 \\over 3}I_3$",
+      "$3I_3$"
+    ],
+    "answer": "$I_3$",
+    "explanation": ""
+  },
+  {
+    "id": 6993,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>A ও B দুটো $3 \\times 3$ ক্রমের ম্যাট্রিক্স হলে-</p><p>|A-B|=0 এর সমার্থক-</p>",
+    "options": [
+      "$A=0_{mat}$ বা $B=0_{mat}$",
+      "|A|=0 বা |B|=0",
+      "|A|=0 এবং |B|=0",
+      "$A=0_{mat}$ এবং $B=0_{mat}$"
+    ],
+    "answer": "$A=0_{mat}$ এবং $B=0_{mat}$",
+    "explanation": ""
+  },
+  {
+    "id": 7010,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>A ম্যাট্রিক্সের ক্রম $2\\times3$ এবং B ম্যাট্রিক্সের ক্রম $4\\times2$ হলে BA ম্যাট্রিক্সের ক্রম কত?</p>",
+    "options": [
+      "$2\\times4$",
+      "$3\\times4$",
+      "$4\\times3$",
+      "$3\\times2$"
+    ],
+    "answer": "$4\\times3$",
+    "explanation": ""
   }
 ]

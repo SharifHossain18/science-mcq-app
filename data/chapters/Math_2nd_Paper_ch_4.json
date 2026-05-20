@@ -2462,5 +2462,101 @@
     ],
     "answer": "$\\pm {1\\over \\sqrt 2}(1+i)$",
     "explanation": "<p>$\\sqrt i=\\sqrt{\\frac12\\left(1+2.1.i+i^2\\right)}=\\pm\\frac1{\\sqrt2}\\left(1+i\\right)$</p>"
+  },
+  {
+    "id": 7265,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>z দ্বারা কার্তেসীয় সমতলে যে বিন্দু নির্দেশ করে তার স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "$\\left(-\\frac{3}{2}, \\frac{1}{2}\\right)$",
+      "$\\left(\\frac{1}{2},-\\frac{3}{2}\\right)$",
+      "$\\left(\\frac{1}{2}, \\frac{3}{2}\\right)$",
+      "$\\left(\\frac{3}{2}, \\frac{1}{2}\\right)$"
+    ],
+    "answer": "$\\left(\\frac{1}{2},-\\frac{3}{2}\\right)$",
+    "explanation": "<p>$z=\\frac{2-i}{1+i}=\\frac{1}{2}+\\left(-\\frac{3}{2}\\right) i$</p><p>$\\therefore z$ দ্বারা কার্তেসীয় সমতলে $\\left(\\frac{1}{2},-\\frac{3}{2}\\right)$ বিন্দু নির্দেশ করে। </p>"
+  },
+  {
+    "id": 7428,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>কোনো বিন্দুর পরামিতিক স্থানাংক (2cosθ,$\\sqrt{3}$sinθ)</p><p><br></p><p>Q. কেন্দ্রের স্থানাংক কত?&nbsp;</p>",
+    "options": [
+      "$\\left ( 2, \\sqrt{3} \\right )$",
+      "(0, 0)",
+      "(2, 0)",
+      "\\left ( 0, \\sqrt{3} \\right )"
+    ],
+    "answer": "(0, 0)",
+    "explanation": ""
+  },
+  {
+    "id": 8284,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>z=x+iy; x ও y বাস্তব সংখ্যা হলে, $\\vert z\\vert ^2=1$ দ্বারা কি নির্দেশিত হয়?</p>",
+    "options": [
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "অধবিৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>$z=x+iy\\\\\\vert z\\vert^2=1\\\\\\Rightarrow\\left|x+iy\\right|^2=1\\\\\\Rightarrow\\left(\\sqrt{x^2+y^2}\\right)^2=1\\\\so\\;x^2+y^2=1\\;\\;\\;\\;which\\;is\\;a\\;circle$</p>"
+  },
+  {
+    "id": 8309,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>z=-4-3i হলে,$\\left|\\overline z\\right|$ =?</p>",
+    "options": [
+      "$\\sqrt 7$",
+      "5",
+      "7",
+      "25"
+    ],
+    "answer": "5",
+    "explanation": "<p>$z=-4-3i\\\\\\overline z=-4+3i\\\\\\left|\\overline z\\right|=\\sqrt{\\left(-4\\right)^2+3^2}=5$</p>"
+  },
+  {
+    "id": 8319,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "${2-i\\over 2+i}=A+iB$ হলে, A=?",
+    "options": [
+      "1",
+      "$4\\over 5$",
+      "$3\\over 5$",
+      "$-4\\over 5$"
+    ],
+    "answer": "$3\\over 5$",
+    "explanation": ""
+  },
+  {
+    "id": 8397,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$\\alpha = {-1+\\sqrt 3i\\over 2}$ এবং এর অনুবন্ধী $\\bar {\\alpha}$ হলে কোনটি সত্য?</p>",
+    "options": [
+      "$\\alpha \\bar {\\alpha}= \\alpha^2$",
+      "$\\alpha +\\bar {\\alpha}= 2\\alpha$",
+      "$\\alpha +\\bar {\\alpha}= -1$",
+      "$\\bar {\\alpha}+\\alpha^2=-1$"
+    ],
+    "answer": "$\\alpha +\\bar {\\alpha}= -1$",
+    "explanation": ""
   }
 ]

@@ -4062,5 +4062,53 @@
     ],
     "answer": "kgms<sup>-1</sup>",
     "explanation": "<p>বলের ঘাত হচ্ছে ভরবেগের পরিবর্তনের সমান আর ভরবেগের পরিবর্তন এর একক হল kgms<sup>-1 </sup></p><p>তাই বলের ঘাতের একক ও  kgms<sup>-1</sup></p>"
+  },
+  {
+    "id": 1164,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>চিত্রটি লক্ষ্য করো এবং  প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAABWCAYAAAC+TRixAAAYa0lEQVR4Ae2dB7AURRBAMeeACgbEiCIGDJgQQQUDCJgRxYRZEEURsyBQgIoZsyCCAcEcEBVUTKiYwJwwBwyYMMexXlf11f5jd2/z7v2brrp/9+92d2a6p3t6Ok0DExBOO+00s+GGG5ovv/yydAefN9hgA7PZZpuZr7/+uvR9+Yd///3XPPPMM+a4444zHTp0MPvss4+5/PLLzbx588ovtf9bDFQVBhoE7e3NN99sVl11VfP666+XboExRo4cabbddltfBirdYD9YDNQzDARmoB9//FGYZebMmXVQ8M8//5jJkyebH374oc739h+LgVrAQGAGqgVk2DFaDITFgGWgsBiz11sMODBgGciBDPvRYiAsBiwDhcVYzOv//PNPs99++5mnn3465pPs7XEx8Nprr5k99tgj1v69XjAQhoyff/45Lj4zud8yUCZoDtQIFuU999yzdhmIyThx4kSz9dZbmyFDhrgi7bbbbjNrrbWWWX311U3Tpk3N4MGDXa/L6staZqCi0aLmGejDDz80EyZMMKuttpoZNGjQfDyAaf3oo482l1xyiZjgr7nmGvPxxx/Pd12SX/z+++/myiuvNKeffnqd19ixY6WZWmWgPGjx0UcfmYEDB9ahA3RRqHkGAhHffPON2XzzzV0Z6Pbbb5eIB0VYEd5rlYGKSItcGeiLL74Q9enWW281n376qfnjjz/MQw89ZIhYeP755wPP1ccee8zcdNNNnq/777/fINW9AAbaYost5mMg9kS77LKLadWqlUghpJEfEFVBv0eMGGG++uor8+CDD5r+/fsb2ue3t99+25xzzjnmwgsvNN9//708ijauu+46c+aZZ8r3DzzwgF8T8hsb12222cZcddVVgrOKNyRwQd60CkuLX375xdx5551m9OjRBgc+K/pZZ51l3nrrLaHFpEmTzMknnyzXsP8F3n//fTN06FBz9tlni9CEXn6AILvllltk7jz33HN+l/r+FsuI8PDDD5uVVlrJ3HvvvdII8XBMWNSmIMDEBFFMWq/XmDFjzK+//ur5OC8GmjNnjux32CQut9xyouaNHz/e8zlIo27dupnGjRsLQ5x00kmma9eupmHDhuaCCy6QMUE0fj/xxBMNhDvllFNEhYQY5513nuGeokKetApDi7//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\"></p><p><br></p><p>Q. সংঘর্ষের ফলে বস্তুদ্বয় মিলিত হলে মিলিত বেগ কত হবে?</p>",
+    "options": [
+      "$ {5 \\over 3}$ms<sup>-1</sup>",
+      "$ {7 \\over 3}$ms<sup>-1</sup>",
+      "$ {8 \\over 3}$ms<sup>-1</sup>",
+      "$ {10 \\over 3}$ms<sup>-1</sup>"
+    ],
+    "answer": "$ {5 \\over 3}$ms<sup>-1</sup>",
+    "explanation": "<p>$v=\\frac{m_1 u_1-m_2 u_2}{m_1+g_2}=\\frac{15 \\times 10-20 \\times 5}{10+20} \\mathrm{~m} \\mathrm{~s}^{-1}=\\frac{5}{3} \\mathrm{~m} \\mathrm{~s}^{-1}$</p>"
+  },
+  {
+    "id": 1466,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "সবল নিউক্লিয় বল কোন কণার বিনিময়ে\nউৎপন্ন হয়?",
+    "options": [
+      "গ্রাভিটন",
+      "বোসন",
+      "ফোটন",
+      "মেসন"
+    ],
+    "answer": "মেসন",
+    "explanation": ""
+  },
+  {
+    "id": 1508,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>কৌণিক ভরবেগ হলো-</p>",
+    "options": [
+      "ব্যাসার্ধ ভেক্টর ও রৈখিক ভরবেগের ভেক্টর গুণনের সমান",
+      "জড়তার ভ্রামক ও রৈখিক বেগের গুণনের সমান",
+      "রৈখিক ভরবেগ ও কৌনিক ভরবেগের ভেক্টর গুণনের সমান",
+      "রৈখিক বেগ ও ব্যাসার্ধ ভেক্টরের গুণনের সমান"
+    ],
+    "answer": "ব্যাসার্ধ ভেক্টর ও রৈখিক ভরবেগের ভেক্টর গুণনের সমান",
+    "explanation": ""
   }
 ]
