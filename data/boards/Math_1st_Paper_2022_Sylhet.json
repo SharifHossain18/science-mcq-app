@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6349,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>বর্গ ম্যাট্রিক্স A এর ক্ষেত্রে $A^2= 1$  হলে, $A^{-1}$ = ?.</p>",
+    "options": [
+      "24",
+      "A",
+      "0",
+      "A+I"
+    ],
+    "answer": "A",
+    "explanation": "<p>$A^2=\\mathrm{I}$</p><p>বা, $A^{-1} \\cdot A^2=I \\cdot A^{-1}$</p><p>বা, $\\mathbf{A}^{-1} \\cdot \\mathbf{A} \\cdot \\mathbf{A}=\\mathbf{A}^{-1} \\quad \\therefore \\quad \\mathbf{A}=\\mathbf{A}^{-1}$.</p>"
+  },
+  {
+    "id": 6350,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$\\left[\\begin{matrix}1&amp;3&amp;\\lambda +2&amp;\\\\2&amp;4&amp;8\\\\3&amp;5&amp;10\\\\\\end{matrix}\\right]$ একটি ব্যাতিক্রমী ম্যাট্রিক্স হলে $\\lambda$ এর মান -",
+    "options": [
+      "-2",
+      "2",
+      "4",
+      "-4"
+    ],
+    "answer": "4",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left|\\begin{array}{ccc}1 &amp; 3 &amp; \\lambda+2 \\\\ -2 &amp; 4 &amp; 8 \\\\ 3 &amp; 5 &amp; 10\\end{array}\\right|=0 \\\\ &amp; \\text { বা, } 1(40-40)-3(20-24)+(\\lambda+2)(10-12)=0 \\\\ &amp; \\text { বা, } 12-2 \\lambda-4=0 \\\\ &amp; \\text { বা, } 2 \\lambda=8 \\\\ &amp; \\therefore \\lambda=4 \\text {. } \\\\ &amp; \\end{aligned}$</p>"
+  },
+  {
+    "id": 6351,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$A^{-1}=\\left[\\begin{matrix}2&amp;0\\\\0&amp;2\\\\\\end{matrix}\\right]$, $B^{-1}=\\left[\\begin{matrix}0&amp;1\\\\1&amp;0\\\\\\end{matrix}\\right]$ হলে $(AB)^{-1}$ এর মান কত?",
+    "options": [
+      "$\\left[\\begin{matrix}0&2\\\\2&0\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&0\\\\0&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&0\\\\0&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}0&1\\\\1&0\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}0&2\\\\2&0\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6352,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>A একটি বর্গ ম্যাট্রিক্স এবং K একটি স্কেলার হলে —</p><p><br/>i. $(A^l)^l=A$</p><p><br/>ii. $(KA)^l=KA$</p><p><br/>iii. যদি $|A|\\neq 0$ হয়, তবে $|A^{-1}|={1\\over |A|}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6353,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$A=\\left[\\begin{matrix}1&amp;1&amp;1\\\\e&amp;\\pi &amp;\\sqrt3\\\\3&amp;3&amp;3\\\\\\end{matrix}\\right]$ হলে $|A|$=?",
+    "options": [
+      "e",
+      "$\\pi $",
+      "$2(e-\\pi +\\sqrt 3)$",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6354,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$(\\sqrt{3}, 1)$ বিন্দু হতে $\\sqrt{3} x-y+8=0$ সরলরেখার উপর অংকিত লম্বের দৈর্ঘ্য P এবং লম্ব রেখাটি x অক্ষের সাথে $\\theta $ কোণ উৎপন্ন করলে—</p><p><br></p><p><strong>Q. </strong>P এর মান কত?</p>",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "$5\\sqrt 2$"
+    ],
+    "answer": "5",
+    "explanation": "<p>$P=\\frac{|\\sqrt{3} \\cdot \\sqrt{3}-1+8|}{\\sqrt{3+1}}=\\frac{10}{2}=5$.</p>"
+  },
+  {
+    "id": 6355,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$5x+3y-7=0$ এবং $15x+9y+14=0$ এর মধ্যবর্তী দুরত্ব -",
+    "options": [
+      "$7\\over \\sqrt {34}$",
+      "$15\\over 2\\sqrt {34}$",
+      "$35\\over 3\\sqrt {34}$",
+      "$47\\over 4\\sqrt {34}$"
+    ],
+    "answer": "$35\\over 3\\sqrt {34}$",
+    "explanation": ""
+  },
+  {
+    "id": 6356,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>2x + 3y = 8 রেখা দ্বারা-</p><p><br/><br/>i. x-অক্ষের গণ্ডিতাংশ 4</p><p><br/><br/>ii. অক্ষময়ের সাথে গঠিত ত্রিভুজের ক্ষেত্রফল $16\\over 3$ বর্গ একক</p><p><br/><br/>iii. y অক্ষকে (0, 8) বিন্দুতে ছেদ করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6357,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>$x^2+y^2-4x - 6y + c = 0$ বৃত্তটি y- অক্ষকে স্পর্শ করে।</p><p><br></p><p><strong>Q.</strong> c এর মান কত?</p>",
+    "options": [
+      "9",
+      "3",
+      "4",
+      "2"
+    ],
+    "answer": "9",
+    "explanation": "<p>প্রদত্ত বৃত্ত, $x^2+y^2-4 x-6 y+c=0$</p><p>বা, $x^2+y^2+2 \\cdot(-2) \\cdot x+2 \\cdot(-3) \\cdot y+c=0$</p><p>বৃত্তটির ক্ষেত্রে, $\\mathrm{g}=-2, f=-3$</p><p>বৃত্তটি y অক্ষকে স্পর্শ করলে c = f<sup>2</sup></p><p> বা, $c=(-3)^2 \\quad \\therefore c=9$</p>"
+  },
+  {
+    "id": 6358,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>$x^2+y^2-4x - 6y + c = 0$ বৃত্তটি y- অক্ষকে স্পর্শ করে।</p><p><br></p><p><strong>Q. </strong>স্পর্শ বিন্দুর স্থানাংক কত?</p>",
+    "options": [
+      "(3,0)",
+      "(0,3)",
+      "(2,0)",
+      "(0,2)"
+    ],
+    "answer": "(0,3)",
+    "explanation": "<p>$y$ অক্ষকে স্পর্শ করলে স্পর্শবিন্দুতে $x=0$</p><p>$y^2-6 y+9=0$</p><p>বা, $(y-3)^2=0$ वा, $y=3$</p><p>$\\therefore$ স্পর্শ বিন্দুর স্থানাংক $(0,3)$.</p>"
+  },
+  {
+    "id": 6359,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>(-1,-3) বিন্দু হতে অঙ্কিত $x^2+y^2 - 2x - y-7=0$ বৃত্তের স্পর্শকের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "4",
+      "$2\\sqrt 3$",
+      "$2\\sqrt 2$",
+      "8"
+    ],
+    "answer": "$2\\sqrt 2$",
+    "explanation": "<p>প্রদও বৃত্ত : $x^2+y^2-2 x-y-7=0$</p><p>$(-1,-3)$ বিন্দু হতে অঙ্কিত স্পর্শকের দৈর্ঘ্য</p><p>$\\begin{aligned}&amp; =\\sqrt{x_1^2+y_1^2+2 g x_1+2 f y_1+c} \\\\&amp; =\\sqrt{(-1)^2+(-3)^2-2(-1)-1(-3)-7} \\\\&amp; =\\sqrt{1+9+2+3-7}=\\sqrt{8}=2 \\sqrt{2} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6360,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$3x - 4y +4 = 0$ এবং $6x - 8y- 7=0$ সরলরেখায় একই বৃত্তের স্পর্শক হলে, বৃত্তটির ব্যাসার্ধ-",
+    "options": [
+      "$3\\over 5$",
+      "$5\\over 7$",
+      "$3\\over 4$",
+      "$5\\over 6$"
+    ],
+    "answer": "$3\\over 4$",
+    "explanation": "<p>$3 x-4 y+4=0$</p><p>বা, $6 x-8 y+8=0$ $\\qquad$</p><p>এবং $6 x-8 y-7=0$. $\\qquad$</p><p>$\\mathrm{d}=\\frac{|8+7|}{\\sqrt{6^2+8^2}}=\\frac{15}{10}=\\frac{3}{2}$</p><p>$\\therefore \\quad r=\\frac{3}{2 \\times 2}=\\frac{3}{4}$ একক।.</p>"
+  },
+  {
+    "id": 6361,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "${cot54^0\\over tan36^0}+{tan20^0\\over cot70^0}$ এর মান কত?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6362,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "যদি $cos\\theta = {1\\over 2} (a+{1\\over a})$ হয়, তবে $cos\\theta $ এর মান -",
+    "options": [
+      "${1\\over 8}(a^3+{1\\over a^3})$",
+      "${1\\over 3}(a^3+{1\\over a^3})$",
+      "${1\\over 2}(a^3+{1\\over a^3})$",
+      "${3\\over 2}(a^3+{1\\over a^3})$"
+    ],
+    "answer": "${1\\over 2}(a^3+{1\\over a^3})$",
+    "explanation": ""
+  },
+  {
+    "id": 6363,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>$y= x^3 + 2x^2 + 4$ বক্ররেখার (1,7) বিন্দুতে -</p><p><br/>i. স্পর্শকের ঢাল 7</p><p><br/>ii. স্পর্শকের সমীকরণ 7x - y + 5 = 0</p><p><br/>iii. অভিলম্বের সমীকরণ x + 7y = 50</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>$y=x^3+2 x^2+4 \\quad \\therefore y_1=3 x^2+4 x$</p><p>$(1,7)$ বিন্দুতে, $y_1=3.1^2+4.1=7$</p><p>স্পর্শকের সমীকরণ, $y-7=7(x-1)$</p><p>বা, $7 x-y=0$.</p>"
+  },
+  {
+    "id": 6364,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>দূরত্ব $S = 5t^3 - 9t^2+ 3t+2$ হলে t=4 সময় পর বেগ কত একক হবে?</p>",
+    "options": [
+      "71",
+      "171",
+      "243",
+      "343"
+    ],
+    "answer": "171",
+    "explanation": "<p>$\\begin{aligned} &amp; \\frac{d S}{d t}=15 t^2-18 t+3 \\\\ &amp; t=4 \\text { হলে, } v=15.4^2-18.4+3=171\\end{aligned}$</p>"
+  },
+  {
+    "id": 6365,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$f(x) = x^2 - 2x$ ফাংশনটি ক্রমহ্রাসমান হওয়ার শর্ত-",
+    "options": [
+      "x>1",
+      "x>2",
+      "x<1",
+      "x<2"
+    ],
+    "answer": "x<1",
+    "explanation": "<p>$f(x)=x^2-2 x \\text { বা, } f^{\\prime}(x)=2 x-2$</p><p>ক্রমহ্রাসমান হলে, $2 x-2&lt;0$</p><p>বা, $x-1&lt;0 \\therefore x&lt;1$.</p>"
+  },
+  {
+    "id": 6366,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$lt_{x\\to 0}{\\sqrt {1+sin x}-\\sqrt {1-sin x}\\over x}$ এর মান কত?",
+    "options": [
+      "$1\\over 2$",
+      "-2",
+      "2",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\begin{aligned} &amp; \\lim _{x \\rightarrow 0} \\frac{\\sqrt{1+\\sin x}-\\sqrt{1-\\sin x}}{x} \\\\ &amp; =\\lim _{x \\rightarrow 0} \\frac{2 \\sin x}{x(\\sqrt{1+\\sin x}+\\sqrt{1-\\sin x})}=\\frac{2}{1+1}=1 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6367,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$\\int {cot x\\over \\sqrt {sinx}}dx$ = কত?",
+    "options": [
+      "${-2\\over \\sqrt {sinx}}+c$",
+      "${-1\\over 2\\sqrt {sinx}}+c$",
+      "${1\\over 2\\sqrt {sinx}}+c$",
+      "$2\\sqrt {sinx}+c$"
+    ],
+    "answer": "$2\\sqrt {sinx}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6368,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$\\int e^x cos x (1+tan x)dx$ &nbsp;এর মান কত?",
+    "options": [
+      "$e^x cos x +c$",
+      "$e^x tan x +c$",
+      "$e^x sec x +c$",
+      "$e^x sin x +c$"
+    ],
+    "answer": "$e^x sin x +c$",
+    "explanation": ""
+  },
+  {
+    "id": 6369,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$\\int ^3_0f(x)=4$ হলে $\\int ^5_2f(x-2)$ =কত?",
+    "options": [
+      "0",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 6370,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "y অক্ষ এবং $x = 4-y^2$ পরাবৃত্ত দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+    "options": [
+      "$3\\over 32$বর্গ একক",
+      "$2\\over 33$বর্গ একক",
+      "$32\\over 3$বর্গ একক",
+      "$33\\over 2$বর্গ একক"
+    ],
+    "answer": "$32\\over 3$বর্গ একক",
+    "explanation": ""
+  },
+  {
+    "id": 6371,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$(\\sqrt{3}, 1)$ বিন্দু হতে $\\sqrt{3} x-y+8=0$ সরলরেখার উপর অংকিত লম্বের দৈর্ঘ্য P এবং লম্ব রেখাটি x অক্ষের সাথে&nbsp;θ&nbsp;কোণ উৎপন্ন করলে—</p><p>Q. $\\theta $ এর মান -</p>",
+    "options": [
+      "$30^0$",
+      "$120^0$",
+      "$60^0$",
+      "$150^0$"
+    ],
+    "answer": "$150^0$",
+    "explanation": "<p>$\\sqrt{3} x-y+8=0$ রেখার ঢাল $=\\sqrt{3}$</p><p>$\\therefore$ লম্বরেখার ঢাল, $\\tan \\theta=\\frac{-1}{\\sqrt{3}}$</p><p>বা, $\\tan \\theta=\\tan 150^{\\circ}$</p><p>$\\therefore \\quad \\theta=150^{\\circ}$.</p>"
+  },
+  {
+    "id": 6372,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p><span style=\"background-color: transparent;\">নিচের চিত্রের আলোকে  </span><span style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </span><span style=\"background-color: transparent;\">প্রশ্নের উত্তর দাও :</span></p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $\\angle A = 60°$<span style=\"background-color: transparent;\">, b = 2 এবং c = 1 হলে, a- এর মান কত?</span></p>",
+    "options": [
+      "$2\\sqrt 2$",
+      "$2\\sqrt 3$",
+      "$\\sqrt 3$",
+      "$\\sqrt 6$"
+    ],
+    "answer": "$2\\sqrt 3$",
+    "explanation": ""
+  },
+  {
+    "id": 6373,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>নিচের চিত্রের আলোকে  <span style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </span>প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $\\angle A : \\angle B: \\angle C= 1:2:3$ হলে a:b:c =<span style=\"background-color: transparent;\">কত?</span></p>",
+    "options": [
+      "$2:\\sqrt 3:1$",
+      "$\\sqrt 3:2:1$",
+      "$2:3:1$",
+      "$1:\\sqrt 3:2$"
+    ],
+    "answer": "$1:\\sqrt 3:2$",
+    "explanation": ""
+  }
+]

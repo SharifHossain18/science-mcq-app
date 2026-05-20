@@ -1,0 +1,2338 @@
+[
+  {
+    "id": 7095,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$8 - 6i$ এর বর্গমূল কোনটি?</p>",
+    "options": [
+      "$\\pm(1+3 i)$",
+      "$\\pm(1-3 i)$",
+      "$\\pm(3+i)$",
+      "$\\pm(3-i)$"
+    ],
+    "answer": "$\\pm(3-i)$",
+    "explanation": "<p>$8-6 \\mathrm{i}$ এর বর্গমূল $ =\\sqrt{8-6 i} $</p><p>$ =\\sqrt{3^2-2 \\cdot 3 \\cdot i+i^2}=\\sqrt{(3-i)^2}= \\pm(3-i) $</p>"
+  },
+  {
+    "id": 7096,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$i^{16 n+15}$ এর মান কত?</p>",
+    "options": [
+      "$-1$",
+      "$1$",
+      "$-i$",
+      "$i$"
+    ],
+    "answer": "$-i$",
+    "explanation": "<p>$i^{16 \\mathrm{n}+15} =i^{16 \\mathrm{n}} \\cdot i^{15} $</p><p>$=\\left(i^2\\right)^{8 \\mathrm{n}} \\cdot\\left(\\mathrm{i}^2\\right)^7 \\cdot i$</p><p>$=(-1)^{8 \\mathrm{n}} \\cdot(-1)^7 \\cdot i$</p><p>$=1 \\cdot(-1) \\cdot i=-i$</p>"
+  },
+  {
+    "id": 7097,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>এককের কাল্পনিক ঘনমূল a ও b হলে-</p><p><br/>i. $a^2=b$</p><p><br/>ii. $a^2+b^2=i^2$</p><p><br/>iii. $\\quad a b=i^3$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>i. আমরা জানি, এককের কাল্পনিক ঘনমূল দুইটির একটি অপরটির বর্গ। $\\therefore \\mathrm{a}^2=\\mathrm{b}$</p><p>ii. (i) নং হতে, $\\mathrm{a}^2=\\mathrm{b}$ হলে, $\\mathrm{b}^2=\\mathrm{a} \\quad \\therefore \\mathrm{a}^2+\\mathrm{b}^2=\\mathrm{a}+\\mathrm{b}$</p><p><br></p><p>$=\\frac{-1+\\sqrt{-3}}{2}+\\frac{-1-\\sqrt{-3}}{2}=-1=i^2$</p><p><br></p><p>iii. এককের কাল্পনিক ঘনমূল দুইটির গুণফল = 1</p><p><br></p><p>সুতরাং (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 7098,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$z=2 x-3 i y \\quad$  হলে, $\\quad z \\bar{z}=36$ এর সঞ্চারপথ একটি-</p>",
+    "options": [
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "<p>এখানে, $\\mathrm{z}=2 \\mathrm{x}-3 \\mathrm{iy}$</p><p>$\\therefore \\bar{z}=2 x+3 i y$</p><p>এখানে, $\\mathrm{z} \\overline{\\mathrm{z}}=36$</p><p>বা, $(2 x-3 i y)(2 x+3 i y)=36$</p><p>বা, $(2 x)^2-(3 i y)^2=36$</p><p>বা, $4 x^2+9 y^2=36$ বা, $\\frac{x^2}{9}+\\frac{y^2}{4}=1$,</p><p>বা, $\\frac{x^2}{3^2}+\\frac{y^2}{2^2}=1$ যা একটি উপবৃত্তের সমীকরণ।</p>"
+  },
+  {
+    "id": 7111,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x+i y=-2+i^7$ হলে $y$ এর মান কত? </p>",
+    "options": [
+      "$-i$",
+      "<p>$-1$</p>",
+      "$i$",
+      "$1$"
+    ],
+    "answer": "<p>$-1$</p>",
+    "explanation": "<p>$x+i y=-2+i^7$</p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2+\\left(i^2\\right)^3 \\cdot i$ </p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2+(-1)^3 \\cdot i$ </p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2-i$ </p><p>উভয় পক্ষ হতে কাল্পনিক অংশ সমীকৃত করে পাই, $\\mathrm{y}=-1$.</p>"
+  },
+  {
+    "id": 7112,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$z=-3+2 i$ একটি জটিল সংখ্যা হলে $z \\bar{z}$ এর মান- </p><p><br/>i. বাস্তব সংখ্যা</p><p><br/>ii. ধনাত্মক সংখ্যা</p><p><br/>iii. জটিল সংখ্যা</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>$ \\mathrm{z}=-3+2 i \\quad \\therefore \\overline{\\mathrm{z}}=-3-2 i $</p><p>$ \\therefore \\mathrm{z} \\overline{\\mathrm{z}}=(-3+2 i)(-3-2 i) $</p><p>$ \\quad=(-3)^2-(2 i)^2=9-4(-1)=9+4=13$</p><p>যা ধনাত্মক ও বাস্তব সংখ্যা।</p><p>সুতরাং (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 7113,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\sqrt{2 i}$ এর মান নিচের কোনটি?</p><p><br></p>",
+    "options": [
+      "$\\pm \\sqrt{2} i$",
+      "$\\pm \\sqrt{2}(1-i)$",
+      "$\\pm(1+i)$",
+      "$\\pm \\sqrt{2}(1+i)$"
+    ],
+    "answer": "$\\pm(1+i)$",
+    "explanation": "<p>$\\sqrt{2 i}=\\sqrt{1^2+2 \\cdot 1 \\cdot i+i^2}=\\sqrt{(1+i)^2}= \\pm(1+i)$.</p>"
+  },
+  {
+    "id": 7114,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x=\\frac{1-i}{\\sqrt{2}}$ হলে $x^2$ এর মান-</p><p><br></p>",
+    "options": [
+      "$i$",
+      "$-i$",
+      "$2(1+i)$",
+      "$2(1-i)$"
+    ],
+    "answer": "$-i$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{x}=\\frac{1-i}{\\sqrt{2}} \\text { বা, } \\mathrm{x}^2=\\left(\\frac{1-i}{\\sqrt{2}}\\right)^2 \\\\ &amp; \\text { বা, } \\mathrm{x}^2=\\frac{1}{2}(1-i)^2=\\frac{1}{2}\\left(1-2 i+i^2\\right)=\\frac{1}{2} \\times(-2 i)=-i . \\\\ &amp; \\therefore \\mathrm{x}^2=-i .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7119,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$z_1=1-2 i$ এবং $z_2=2+3 i$ হলে $\\left(z_1-\\bar{z}_2\\right)$ এর আর্গুমেন্ট কোনটি? </p>",
+    "options": [
+      "$-\\frac{3 \\pi}{7}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$",
+      "$\\pi$"
+    ],
+    "answer": "$\\frac{3 \\pi}{4}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{z}_1=1-2 i, \\mathrm{z}_2=2+3 i \\quad \\therefore \\bar{z}_2=2-3 i \\\\ &amp; \\therefore \\mathrm{z}_1-\\bar{z}_2=1-2 i-(2-3 i)=1-2 i-2+3 i=-1+i \\\\ &amp; \\therefore(-1+i) \\text { এর আর্গুমেন্ট }=\\pi-\\tan ^{-1}\\left(\\frac{1}{1}\\right)=\\pi-\\tan ^{-1} 1=\\pi-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7129,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$\\sqrt[3]{-i}$ এর মূলত্রয়ের সমষ্টি কত?</p>",
+    "options": [
+      "$-2$",
+      "$-2i$",
+      "$0$",
+      "$2i$"
+    ],
+    "answer": "$0$",
+    "explanation": "<p>ধরি, $x=\\sqrt[3]{-i}$</p><p>বা, $x^3=-i$</p><p>বা, $x^3+i=0$</p><p>বা, $x^3-i(-1)=0$</p><p>বা, $x^3-i . i^2=0$</p><p>বা, $x^3-i^3=0$</p><p>বা, $(x-i)\\left(x^2+x i+i^2\\right)=0$</p><p>বা, $(x-i)\\left(x^2+x i-1\\right)=0$</p><p>হয়, $\\quad \\mathbf{x}-\\mathbf{i}=0$</p><p>বা, $x = i$</p><p>অথবা, $x =\\frac{-\\mathrm{i} \\pm \\sqrt{(\\mathrm{i})^2-4 \\cdot 1(-1)}}{2 \\cdot 1}$</p><p>$=\\frac{-\\mathrm{i} \\pm \\sqrt{-1+4}}{2}=\\frac{-\\mathrm{i} \\pm \\sqrt{3}}{2}$</p><p>∴ যোগফল $=i+\\frac{-i+\\sqrt{3}}{2}+\\frac{-i-\\sqrt{3}}{2}$</p><p>$=i-\\frac{i}{2}+\\frac{\\sqrt{3}}{2}-\\frac{i}{2}-\\frac{\\sqrt{3}}{2}=\\frac{2 i-i+\\sqrt{3}-i-\\sqrt{3}}{2}=\\frac{0}{2}=0$</p>"
+  },
+  {
+    "id": 7132,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$\\frac{-1-\\sqrt{-3}}{2}$ জটিল সংখ্যাটির-</p><p><br/>i. মডুলাস 1</p><p><br/>ii. মুখ্য আর্গুমেন্ট $\\frac{-2 \\pi}{3}$</p><p><br/>iii. পোলার আকার $e^{-2 \\pi / 3}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i, ও ii",
+      "i, ও iii",
+      "ii, ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i, ও ii",
+    "explanation": "<p>$\\frac{-1-\\sqrt{-3}}{2}=-\\frac{1}{2}-\\frac{\\sqrt{-3}}{2}=-\\frac{1}{2}-\\frac{\\sqrt{3 i^2}}{2}=-\\frac{1}{2}-i \\frac{\\sqrt{3}}{2}$</p><p>(i) মডুলাস, $r=\\sqrt{\\left(-\\frac{1}{2}\\right)^2+\\left(-\\frac{\\sqrt{3}}{2}\\right)^2}=\\sqrt{\\frac{1}{4}+\\frac{3}{4}}=\\sqrt{\\frac{4}{4}}=1$</p><p>(ii) মুখ্য আর্গুমেন্ট, $\\theta=-\\pi+\\tan ^{-1}\\left|\\frac{-\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}\\right|=-\\pi+\\tan ^{-1}(\\sqrt{3})$</p><p>$=-\\pi+\\frac{\\pi}{3}=\\frac{-2 \\pi}{3}$</p><p>(iii) $r(\\cos \\theta+i \\sin \\theta)=1\\left\\{\\cos \\left(-\\frac{2 \\pi}{3}\\right)+i \\sin \\left(\\frac{-2 \\pi}{3}\\right)\\right\\}$</p><p>$=\\cos \\left(-\\frac{2 \\pi}{3}\\right)+\\mathrm{i} \\sin \\left(-\\frac{2 \\pi}{3}\\right)=\\mathrm{e}^{-\\mathrm{i} \\frac{2 \\pi}{3}}$</p><p>∴ (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 7135,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$n \\in \\mathbb{N}$ হলে $i^{16 n+5}$ এর মান কোনটি?</p>",
+    "options": [
+      "$-i$",
+      "$i$",
+      "1",
+      "-1"
+    ],
+    "answer": "$i$",
+    "explanation": "<p>$i^{16 \\mathrm{n}+5}=i^{16 \\mathrm{n}} \\cdot i^5=\\mathrm{i}^{4 \\times 4 \\mathrm{n}} \\cdot i^4 \\cdot \\mathrm{i}=1 \\times 1 \\times i=i$</p>"
+  },
+  {
+    "id": 7145,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$-13-13 i$ এর সাধারণ আর্গুমেন্ট কোনটি?</p>",
+    "options": [
+      "$2 n \\pi+\\frac{3 \\pi}{4} ; n \\in \\mathbb{Z}$",
+      "$2 n \\pi-\\frac{3 \\pi}{4} ; n \\in \\mathbb{Z}$",
+      "$2 n \\pi-\\frac{\\pi}{4} ; n \\in \\mathbb{Z}$",
+      "$2 n \\pi+\\frac{\\pi}{4} ; n \\in \\mathbb{Z}$"
+    ],
+    "answer": "$2 n \\pi-\\frac{3 \\pi}{4} ; n \\in \\mathbb{Z}$",
+    "explanation": "<p>$-13-13 i$ এর মুখ্য আর্গুমেন্ট $=-\\pi+\\tan ^{-1}\\left|\\frac{-13}{-13}\\right|$</p><p>$=-\\pi+\\tan ^{-1}(1)=-\\pi+\\frac{\\pi}{4}=-\\frac{3 \\pi}{4}$</p><p>$\\therefore$ সাধারণ আর্গুমেন্ট $=2 n \\pi-\\frac{3 \\pi}{4}$</p>"
+  },
+  {
+    "id": 7149,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$-1-i$ এর মুখ্য আর্গুমেন্ট কোনটি?</p>",
+    "options": [
+      "$-135^{\\circ}$",
+      "$45^{\\circ}$",
+      "$135^{\\circ}$",
+      "$225^{\\circ}$"
+    ],
+    "answer": "$-135^{\\circ}$",
+    "explanation": "<p>$-1-i$ এর মুখ্য আর্গুমেন্ট $=-\\pi+\\tan ^{-1}\\left|\\frac{-1}{-1}\\right|=-\\pi+\\tan ^{-1} 1 $</p><p>$ =-\\pi+\\frac{\\pi}{4}=-\\frac{3 \\pi}{4}=-135^{\\circ} .$</p>"
+  },
+  {
+    "id": 7150,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$z_1$ এবং $z_2$ দুটি জটিল সংখ্যা হলে-</p><p><br/>i. $\\left|z_1-z_2\\right| \\leq\\left|z_1\\right|+\\left|z_2\\right|$</p><p><br/>ii. $\\arg \\left(\\frac{z_1}{z_2}\\right)=\\arg \\left(z_1\\right)-\\arg \\left(z_2\\right)$</p><p><br/>iii. $\\left|\\frac{z_1}{z_2}\\right|=\\frac{\\left|z_1\\right|}{\\left|z_2\\right|}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>জটিল সংখ্যার পরম মান (মডুলাস) এবং নতি (আর্গুমেন্ট) সংক্রান্ত ধর্মানুযায়ী- (i), (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 7151,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$i$ এর ঘনমূল-</p>",
+    "options": [
+      "$i, \\frac{1}{2}(i+\\sqrt{3}), \\frac{1}{2}(i-\\sqrt{3})$",
+      "$-i, \\frac{1}{2}(i+\\sqrt{3}), \\frac{1}{2}(i-\\sqrt{3})$",
+      "$-i, \\frac{1}{2}(i+\\sqrt{3}), \\frac{1}{2}(-i-\\sqrt{3})$",
+      "$i, \\frac{1}{2}(-i+\\sqrt{3}), \\frac{1}{2}(-i-\\sqrt{3})$"
+    ],
+    "answer": "$i, \\frac{1}{2}(-i+\\sqrt{3}), \\frac{1}{2}(-i-\\sqrt{3})$",
+    "explanation": "<p>ধরি, $x=\\sqrt[3]{i}$</p><p>বা, $\\mathrm{x}^3=i^3$</p><p>বা, $x^3-i^3=0$</p><p>বা, $(\\mathrm{x}-i)\\left(\\mathrm{x}^2+\\mathrm{x} i+i^2\\right)=0$</p><p>হয়, $\\mathrm{x}-i=0 $</p><p>$ \\therefore \\mathrm{x}=i$</p><p>অথবা, $x^2+x i+i^2=0 $</p><p> বা, $x^2+x i-1=0 $ </p><p>$\\therefore $ $x  =\\frac{-i \\pm \\sqrt{i^2-4 \\cdot 1 \\cdot(-1)}}{2 \\cdot 1}=\\frac{-i \\pm \\sqrt{-1+4}}{2} $</p><p>$ =\\frac{-1 \\pm \\sqrt{3}}{2}=\\frac{-1+\\sqrt{3}}{2}, \\frac{-1-\\sqrt{3}}{2}$</p>"
+  },
+  {
+    "id": 7152,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$4+3 i$ এর বর্গমূল-</p>",
+    "options": [
+      "$\\pm \\frac{1}{\\sqrt{2}}(2+i)$",
+      "$\\pm(3+i)$",
+      "$\\pm(2+i)$",
+      "$\\pm \\frac{1}{\\sqrt{2}}(3+i)$"
+    ],
+    "answer": "$\\pm \\frac{1}{\\sqrt{2}}(3+i)$",
+    "explanation": "<p>$\\mathrm{u}+3 i$ এর বর্গমূল $=\\sqrt{\\mathrm{u}+3 i}=\\sqrt{\\frac{1}{2}(8+6 i)}$ </p><p>$ =\\sqrt{\\frac{1}{2}\\left(3^2+2 \\cdot 3 \\cdot i+i^2\\right)}=\\sqrt{\\frac{1}{2}(3+i)^2} $</p><p>$= \\pm \\frac{1}{\\sqrt{2}}(3+i)$</p>"
+  },
+  {
+    "id": 7153,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$\\left|\\frac{1-i}{1+i}\\right|$ এর মান কোনটি?</p>",
+    "options": [
+      "O",
+      "1",
+      "$\\sqrt{2}$",
+      "$i$"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\left|\\frac{1-i}{1+i}\\right|=\\frac{|1-i|}{|1+i|}=\\frac{\\sqrt{1^2+(-1)^2}}{\\sqrt{1^2+1^2}}=\\frac{\\sqrt{2}}{\\sqrt{2}}=1$</p>"
+  },
+  {
+    "id": 7184,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$z=x+i y$ হলে, $|z-3|=3$ দ্বারা নির্দেশিত সঞ্চারপথ কীরূপ হবে? </p>",
+    "options": [
+      "বৃত্ত",
+      "উপবৃত্ত",
+      "পরাবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>দেওয়া আছে, $z=x+iy$</p><p><br></p><p>এখানে, $|z-3|=3$ বা, $|x+i y-3|=3$</p><p><br></p><p>বা, $|x-3+i y|=3$ বা, $\\sqrt{(x-3)^2+y^2}=3$</p><p><br></p><p>বা, $(x-3)^2+y^2=3^2$; যা একটি বৃত্ত নির্দেশ করে।</p><p><br></p><p>বৃত্তটির কেন্দ্র $(3,0)$ এবং ব্যাসার্ধ 3 একক।</p>"
+  },
+  {
+    "id": 7193,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$\\frac{1}{2+i}$ এর জটিল অনুবন্ধী রাশি নিচের কোনটি?</p>",
+    "options": [
+      "$\\frac{2-i}{5}$",
+      "$\\frac{2-2 i}{5}$",
+      "$\\frac{2+.2 i}{5}$",
+      "$\\frac{2+i}{5}$"
+    ],
+    "answer": "$\\frac{2+i}{5}$",
+    "explanation": "<p>প্রদত্ত জটিল রাশি $=\\frac{1}{2+i}$</p><p><br></p><p>$=\\frac{2-i}{(2+i)(2-i)}=\\frac{2-i}{2^2-i^2}=\\frac{2-i}{4-(-1)}=\\frac{2-i}{4+1}=\\frac{2-i}{5}$</p><p><br></p><p>$\\therefore$ জটিল রাশিটির জটিল অনুবন্ধী রাশি $=\\frac{2+i}{5}$</p>"
+  },
+  {
+    "id": 7198,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>এককের একটি কাল্পনিক ঘনমূল $\\omega$ হলে $\\left(\\omega+\\omega^2\\right)^{-12 m}$ এর মান কোনটি?</p>",
+    "options": [
+      "0",
+      "$-1$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": "1",
+    "explanation": "<p>এককের একটি কাল্পনিক ঘনমূল $\\omega$</p><p>$\\therefore 1+\\omega+\\omega^2=0$</p><p>প্রদত্ত রাশি $=\\left(\\omega+\\omega^2\\right)^{-12 m}=(-1)^{-12 m} $</p><p>$\\left[\\because 1+\\omega+\\omega^2=0\\right] $</p><p>$=\\frac{1}{(-1)^{12 m}}=\\frac{1}{1}=1 .$</p>"
+  },
+  {
+    "id": 7204,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>$3-\\sqrt{3} i$ এর সাধারণ আর্গুমেন্ট কোনটি? যেখানে, $n \\in N$.</p>",
+    "options": [
+      "$2 n \\pi-\\frac{\\pi}{3}$",
+      "$2 n \\pi-\\frac{\\pi}{6}$",
+      "$2 n \\pi+\\frac{\\pi}{6}$",
+      "$2 n \\pi+\\frac{\\pi}{3}$"
+    ],
+    "answer": "$2 n \\pi-\\frac{\\pi}{6}$",
+    "explanation": "<p>$(3,-\\sqrt{3})$ বিন্দুটি চতুর্থ চতুর্ভাগে অবস্থিত।</p><p>$\\therefore$ আর্গুমেন্ট, $\\theta=-\\tan ^{-1}\\left|\\frac{-\\sqrt{3}}{3}\\right|=-\\tan ^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=-\\frac{\\pi}{6}$</p><p>$\\therefore$ সাধারণ আর্গুমেন্ট $=2 n \\pi-\\frac{\\pi}{6}$</p>"
+  },
+  {
+    "id": 7205,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>'8' এর জটিল ঘনমূল $z_1$ এবং $z_2$</p><p>Q. $\\frac{1}{2}\\left(z_1+z_2\\right)=\\text { কত? }$</p>",
+    "options": [
+      "$-2$",
+      "$-1$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": "$-1$",
+    "explanation": "<p>ধরি, $x=\\sqrt[3]{8}$\nবা, $x^3=8$ বা, $x^3-2^3=0$ বা, $(x-2)\\left(x^2+2 x+4\\right)=0$</p><p>$\\therefore \\mathrm{x}=2$</p><p>$\\begin{aligned} &amp; \\text { অথবা, } x^2+2 x+4=0 \\\\ &amp; \\begin{aligned} \\therefore x &amp; =\\frac{-2 \\pm \\sqrt{2^2-4.1 .4}}{2.1} \\\\ &amp; =\\frac{-2 \\pm \\sqrt{-12}}{2}=\\frac{2(-1 \\pm \\sqrt{-3})}{2}=-1 \\pm i \\sqrt{3}\\end{aligned}\\end{aligned}$</p><p>$\\therefore 8$ এর জটিল ঘনমূলদ্বয়, $z_1=-1+i \\sqrt{3}$ এবং $z_2=-1-i \\sqrt{3}$</p><p>$\\therefore \\frac{1}{2}\\left(z_1+z_2\\right)=\\frac{1}{2}(-1+i \\sqrt{3}-1-i \\sqrt{3})=\\frac{1}{2} \\times(-2)=-1$</p>"
+  },
+  {
+    "id": 7206,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>'8' এর জটিল ঘনমূল $z_1$ এবং $z_2$</p><p><br></p><p style=\"margin-bottom: 0px;\">Q. উদ্দীপকের আলোকে-</p><p style=\"margin-bottom: 0px;\"><br/>i. $\\operatorname{Arg}\\left(z_1\\right)+\\operatorname{Arg}\\left(z_2\\right)=0$</p><p style=\"margin-bottom: 0px;\"><br/>ii. $\\quad\\left|\\frac{z_1}{z_2}\\right|=1$</p><p style=\"margin-bottom: 0px;\"><br/>iii. $=_1=2$ একটি বান্তব সংখ্যা</p><p style=\"margin-bottom: 0px;\">\nনিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>এখানে, $Z_1=-1+i \\sqrt{3}$ এবং $z_2=-1-i \\sqrt{3}$</p><p>(i) $\\operatorname{Arg}\\left(z_1\\right)+\\operatorname{Arg}\\left(z_2\\right)=\\left\\{\\pi-\\tan ^{-1}\\left|\\frac{\\sqrt{3}}{-1}\\right|\\right\\}+\\left\\{-\\pi+\\tan ^{-1}\\left|\\frac{-\\sqrt{3}}{-1}\\right|\\right\\}$</p><p>$=\\pi-\\tan ^{-1} \\sqrt{3}-\\pi+\\tan ^{-1} \\sqrt{3}=0$</p><p>(ii) $\\left|\\frac{z_1}{z_2}\\right|=\\frac{\\left|z_1\\right|}{\\left|z_2\\right|}=\\frac{\\sqrt{(-1)^2+(\\sqrt{3})^2}}{\\sqrt{(-1)^2+(-\\sqrt{3})^2}}=\\frac{\\sqrt{1+3}}{\\sqrt{1+3}}=\\frac{\\sqrt{4}}{\\sqrt{4}}=1$</p><p>(iii) $\\mathrm{z}_1 \\mathrm{z}_2=(-1+\\mathrm{i} \\sqrt{3})(-1-\\mathrm{i} \\sqrt{3})=(-1)^2-(\\mathrm{i} \\sqrt{3})^2=1+3=4$</p><p>$\\therefore$ (i), (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 7209,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>$x=\\frac{1}{2}(-1-\\sqrt{3} i) \\text { হলে } \\frac{x^3+1}{x}=\\text { কত? }$</p>",
+    "options": [
+      "2",
+      "$-1+\\sqrt{3} i$",
+      "$\\quad-1-\\sqrt{3} i$",
+      "-2"
+    ],
+    "answer": "$-1+\\sqrt{3} i$",
+    "explanation": "<p>আমরা জানি, $\\omega^2=\\frac{1}{2}(-1-\\sqrt{-3})=\\frac{1}{2}(-1-\\sqrt{3} \\mathrm{i})=\\mathrm{x}$</p><p>$\\therefore x=\\omega^2$</p><p>প্রদত্ত রাশি $=\\frac{x^3+1}{x}=\\frac{\\left(\\omega^2\\right)^3+1}{x}=\\frac{\\omega^6+1}{\\frac{1}{2}(-1-\\sqrt{3} i)}=\\frac{1+1}{\\frac{1}{2}(-1-\\sqrt{3} i)}$</p><p>$ =\\frac{2.2}{-1-\\sqrt{3} i}=\\frac{4(-1+\\sqrt{3} i)}{(-1-\\sqrt{3} i)(-1+\\sqrt{3} i)} $</p><p>$ =\\frac{4(-1+\\sqrt{3} i)}{(-1)^2-(\\sqrt{3} i)^2}=\\frac{4(-1+\\sqrt{3} i)}{1+B}=-1+\\sqrt{3} i$</p>"
+  },
+  {
+    "id": 7235,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>i কাল্পনিক সংখ্যার একক হলে $i^{-29}$ = কত?</p>",
+    "options": [
+      "-i",
+      "i",
+      "-1",
+      "1"
+    ],
+    "answer": "-i",
+    "explanation": "<p>$i^{-29}=\\frac{1}{i^{29}}=\\frac{1}{\\left(i^4\\right)^7 \\cdot i}=\\frac{1}{1^7 \\cdot i}=\\frac{1}{1 \\cdot i}=\\frac{1}{i}=\\frac{i}{i \\cdot i}=\\frac{i}{i^2}=\\frac{i}{-1}=-i$</p>"
+  },
+  {
+    "id": 7236,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>5 + 12i এর বর্গমূল কোনটি?</p>",
+    "options": [
+      "$\\pm(3+2 i)$",
+      "$\\pm(2+3 i)$",
+      "$\\pm(3-2 i)$",
+      "$\\pm(2-3 i)$"
+    ],
+    "answer": "$\\pm(3+2 i)$",
+    "explanation": "<p>$\\begin{aligned} &amp; 5+12 \\mathrm{i}=9+12 \\mathrm{i}-4=3^2+2 \\cdot 3 \\cdot 2 \\mathrm{i}+(2 \\mathrm{i})^2=(3+2 \\mathrm{i})^2 \\\\ &amp; \\therefore 5+12 \\mathrm{i} \\text { এর বর্গমূল }= \\pm(3+2 \\mathrm{i})\\end{aligned}$</p>"
+  },
+  {
+    "id": 7237,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$z = 1 - i$ এর আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$-\\frac{3 \\pi}{4}$",
+      "$-\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$",
+      "$\\frac{7 \\pi}{4}$"
+    ],
+    "answer": "$-\\frac{\\pi}{4}$",
+    "explanation": "<p>$(1,-1)$ বিন্দুটি চতুর্থ চতুর্ভাগে অবস্থিত।</p><p><br></p><p>$ \\therefore z=1-i $ এর আর্গুমেন্ট $=\\tan ^{-1}\\left|\\frac{y}{x}\\right|=-\\tan ^{-1}\\left|\\frac{-1}{1}\\right|$</p><p>$ =-\\tan ^{-1}|-1|=-\\tan ^{-1} 1=-\\frac{\\pi}{4} $</p>"
+  },
+  {
+    "id": 7238,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>জটিল সংখ্যা $\\sqrt{3}+i$ এর </p><p><br/>i. মডুলাস = 2</p><p><br/>ii. আর্গুমেন্ট $\\frac{\\pi}{6}$</p><p><br/>iii. অনুবন্ধী জটিল সংখ্যা $-\\sqrt{3}+i$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) প্রদত্ত জটিল সংখ্যা $=\\sqrt{3}+\\mathrm{i}$</p><p><br></p><p>জটিল সংখ্যাটির মডুলাস $=\\sqrt{(\\sqrt{3})^2+1^2}=\\sqrt{3+1}=\\sqrt{4}=2$</p><p>(ii) $(\\sqrt{3}, 1)$ বিন্দুটি প্রথম চতুর্ভাগে অবস্থিত।</p><p><br></p><p>$\\therefore$ আর্গুমেন্ট $=\\tan ^{-1}\\left|\\frac{y}{x}\\right|=\\tan ^{-1}\\left|\\frac{1}{\\sqrt{3}}\\right|=\\tan ^{-1} \\frac{1}{\\sqrt{3}}=\\frac{\\pi}{6}$</p><p><br></p><p>(iii) অনুবন্ধী জটিল সংখ্যা $=\\sqrt{3}+\\mathrm{i}=\\sqrt{3}-\\mathrm{i}$</p><p><br></p><p>সুতরাং i ও ii সঠিক ।</p>"
+  },
+  {
+    "id": 7261,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$z=5+12 i$ হলে $\\bar{z}$ এর বর্গমূল কত?</p>",
+    "options": [
+      "$\\pm(3+2 i)$",
+      "$\\pm(2+3 i)$",
+      "$\\pm(3-2 i)$",
+      "$\\pm(-2+3 i)$"
+    ],
+    "answer": "$\\pm(3-2 i)$",
+    "explanation": "<p>$ z=5+12 i$</p><p>$ \\therefore \\bar{z}=\\overline{5+12 i} =5-12 i=9-12 i-4 $</p><p>$ =3^2-2 \\cdot 3 \\cdot 2 i+(2 i)^2=(3-2 i)^2$</p>"
+  },
+  {
+    "id": 7262,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>যদি $z = 2 + 3i$ হয় তবে $\\bar{z}-z$ এর মুখ্য আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$-\\frac{3 \\pi}{2}$",
+      "$-\\frac{\\pi}{2}$",
+      "$\\frac{3 \\pi}{2}$",
+      "$\\pi$"
+    ],
+    "answer": "$-\\frac{\\pi}{2}$",
+    "explanation": "<p>দেওয়া আছে, $z=2+3 i$</p><p>$\\begin{aligned} &amp; \\therefore \\bar{z}=\\overline{z+3 i}=2-3 i \\\\ &amp; \\therefore \\bar{z}-z=2-3 i-2-3 i=-6 i=0-6 i\\end{aligned}$</p><p>$\\therefore \\bar{z}-z$ এর মুখ্য আর্গুমেন্ট $=-\\tan ^{-1}\\left|\\frac{-6}{0}\\right|=-\\tan ^{-1} \\propto=-\\frac{\\pi}{2}$ </p>"
+  },
+  {
+    "id": 7263,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\omega$ এককের জটিল ঘনমূল হলে $\\frac{3}{\\omega^{16}+\\omega^{29}-2}=$ কত?</p>",
+    "options": [
+      "$-1$",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": "$-1$",
+    "explanation": "<p>প্রদত্ত রাশি $=\\frac{3}{\\omega^{16}+\\omega^{29}-2}$</p><p>$=\\frac{3}{\\left(\\omega^3\\right)^5 \\cdot \\omega+\\left(\\omega^3\\right)^9 \\cdot \\omega^2-2}=\\frac{3}{\\omega+\\omega^2-2}\\left[\\because \\omega^3=1\\right] $</p><p>$=\\frac{3}{1+\\omega+\\omega^2-3}=\\frac{3}{0-3}\\left[\\because 1+\\omega+\\omega^2=0\\right] $</p><p>$ =\\frac{3}{-3}=-1$</p>"
+  },
+  {
+    "id": 7274,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$i^{-47}$ এর আর্গুমেন্ট কত? </p>",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$-\\frac{\\pi}{2}$",
+      "$\\frac{3 \\pi}{2}$",
+      "$-\\frac{3 \\pi}{2}$"
+    ],
+    "answer": "$\\frac{\\pi}{2}$",
+    "explanation": "<p>$I^{-47}=\\frac{1}{I^{-47}}=\\frac{1}{\\left(i^2\\right)^{23} i}=\\frac{1}{-i}=\\frac{i}{-i, i}=\\frac{i}{-i^2}=i$. </p><p><br></p><p>$\\therefore$ আর্গুমেন্ট $=\\tan ^{-1}\\left(\\frac{1}{0}\\right)=\\tan ^{-1}\\left(\\tan \\frac{\\pi}{2}\\right)=\\frac{\\pi}{2}$. </p>"
+  },
+  {
+    "id": 7275,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$|x-2 i y|=\\sqrt{3}$ দ্বারা নির্দেশিত সঞ্চারপথ কোনটি? </p>",
+    "options": [
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "<p>$|x-2 i y|=\\sqrt{3}$</p><p>বা, $\\left|x-i2 y|=\\sqrt{3}\\right.$ বা, $\\sqrt{x^2+(-2 y)^2}=\\sqrt{3}$ বা, $x^2+4 y^2=3$ [বর্গ করে ]</p><p>$\\therefore \\frac{x^2}{(\\sqrt{3})^2}+\\frac{y^2}{\\left(\\frac{\\sqrt{3}}{2}\\right)^2}=1$ যা উপবৃত্তের সমীকরণ নির্দেশ করে </p>"
+  },
+  {
+    "id": 7276,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p> $z=\\frac{\\sqrt{3}-i}{i}$ হলে $\\bar{z}$ কোনটি? </p>",
+    "options": [
+      "$-1-\\sqrt{3} i$",
+      "$-1+\\sqrt{3} i$",
+      "$1-\\sqrt{3} i$",
+      "$1+\\sqrt{3} i$"
+    ],
+    "answer": "$-1+\\sqrt{3} i$",
+    "explanation": "<p>$z=\\frac{\\sqrt{3}-i}{i}=\\frac{(\\sqrt{3}-i) i}{i}=\\frac{i \\sqrt{3}-i^2}{-1}=\\frac{1+i \\sqrt{3}}{-1}=-1-\\sqrt{3}$</p><p>$\\therefore \\bar{z}=-1+\\sqrt{3}$. </p>"
+  },
+  {
+    "id": 7277,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$p$ ও $q$ এককের দুটি কাল্পনিক ঘনমূল হলে- </p><p><br/>i. $\\quad p=\\bar{q}$</p><p><br/>ii. $\\quad p=\\frac{1}{q}$</p><p><br/>iii. $p+q=-1$</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>ধরি, এককের কাল্পনিক ঘনমূল, $\\mathrm{p}=\\omega=\\frac{-1}{2}+i \\frac{\\sqrt{3}}{2}$</p><p>এবং $q=\\omega^2=-\\frac{1}{2}-i\\frac{\\sqrt{3}}{2}=p$</p><p>(i) $\\overline{\\mathrm{q}}=-\\frac{1}{2}+i \\frac{\\sqrt{3}}{2}=\\mathrm{p} \\therefore \\mathrm{p}=\\overline{\\mathrm{q}}$</p><p>(ii) আমরা জানি. $\\omega^3=1$ বা. $\\omega \\cdot \\omega^2=1$ বা, $p \\cdot q=1 \\therefore p=\\frac{1}{q}$</p><p>(iii) আমরা জানি, $1+\\omega+\\omega^2=0$ বা, $\\omega+\\omega^2=-1 \\quad \\therefore p+q=-1 \\therefore$ (i), (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 7299,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>z = $\\frac{2-3i}{2+i}$ হলে Re(z) = ?</p>",
+    "options": [
+      "$-\\frac{8}{5}$",
+      "$-\\frac{1}{5}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{8}{5}$"
+    ],
+    "answer": "$\\frac{1}{5}$",
+    "explanation": "<p>$\\begin{aligned} &amp; z=\\frac{(2-3 i)(2-i)}{(2+i)(2-i)}=\\frac{4-2 i-6 i+3 i^2}{4-i^2}=\\frac{1-8 i}{5}=\\frac{1}{5}+\\left(-\\frac{8}{5}\\right) i \\\\ &amp; \\operatorname{Re}(z)=\\frac{1}{5}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7301,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "$\\sqrt{-6i}$ এর মান-",
+    "options": [
+      "$\\pm \\sqrt{3}(1+i)$",
+      "$\\pm\\frac{\\sqrt{3}}{2}(1+i)$",
+      "$\\pm \\sqrt{3}(1-i)$",
+      "$\\frac{\\sqrt{3}}{2}(1+i)$"
+    ],
+    "answer": "$\\pm \\sqrt{3}(1-i)$",
+    "explanation": "<p>\n$\\begin{aligned} &amp; -6 i=3(-2 i)=3(1-2 i-1)=3\\left(1-2 i+i^2\\right) \\\\ &amp; -6 i=3(1-i)^2 \\\\ &amp; \\therefore \\sqrt{-6 i}= \\pm \\sqrt{3}(1-i) .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7303,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>z = (1-i)3 হলে arg(z) হবে-</p>",
+    "options": [
+      "$-\\frac{3\\pi }{4}$",
+      "$-\\frac{\\pi }{4}$",
+      "$\\frac{\\pi }{4}$",
+      "$\\frac{3\\pi }{4}$"
+    ],
+    "answer": "$-\\frac{3\\pi }{4}$",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; z=1^3-3 \\cdot 1^2 \\cdot i+3 \\cdot 1 \\cdot i^2-i^3 \\\\ &amp; =1-3 \\mathrm{i}-3+\\mathrm{i}=-2-2 \\mathrm{i} \\\\ &amp; \\operatorname{Arg}(z)=-\\pi+\\tan ^{-1} \\frac{2}{2} \\\\ &amp; =-\\pi+\\tan ^{-1} \\\\ &amp; =-\\pi+\\frac{\\pi}{4}=-\\frac{3 \\pi}{4} \\\\ &amp; \\end{aligned}$</p>"
+  },
+  {
+    "id": 7311,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>$n\\epsilon \\mathbb{Z}$ হলে-</p><p><br/>i. $i^{4n}$ = 1</p><p><br/>ii. $(i))^{2n+1}$ = -1</p><p><br/>iii. $(i))^{8n+4}$ = 1</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>(i) $\\left(i^4\\right)^n=1^n=1$</p><p>(ii) $i^{2 n} \\cdot i=(-1)^n \\cdot i$</p><p>(iii) $i^{8_0} \\cdot i^4=1.1=1$.</p>"
+  },
+  {
+    "id": 7332,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "z = $\\frac{1}{2}(-1-i\\sqrt{7}$ হলে z - $\\bar{z}$ এর মান কত?",
+    "options": [
+      "-i$\\sqrt{7}$",
+      "-1",
+      "i$\\sqrt{7}$",
+      "1"
+    ],
+    "answer": "-i$\\sqrt{7}$",
+    "explanation": "<p>$\\begin{aligned} &amp; Z-\\bar{Z}=\\frac{1}{2}(1-1 i \\sqrt{7})-\\frac{1}{2}(-1+i \\sqrt{7}) \\\\ &amp; =\\frac{1}{2}(-1-i \\sqrt{7}+1-i \\sqrt{7})=-i \\sqrt{7} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7333,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\frac{1+i}{i}$ = p + iq হলে q এর মান কত?",
+    "options": [
+      "-i",
+      "-1",
+      "i",
+      "1"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$ \\frac{1+i}{i}=P+i q$</p><p>বা, $ \\frac{i+i^2}{i^2}=P+i q $ </p><p>বা, $\\frac{i-1}{-1} $</p><p>বা, $-i+1=p+i q $  </p><p>$\\therefore q=-1$</p>"
+  },
+  {
+    "id": 7334,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "i এর বর্গমূল কোনটি?",
+    "options": [
+      "$\\pm\\frac{1}{2}(1+i)$",
+      "$\\pm\\frac{1}{2}(1-i)$",
+      "$\\pm\\frac{1}{\\sqrt{2}}(1-i)$",
+      "$\\pm\\frac{1}{\\sqrt{2}}(1+i)$"
+    ],
+    "answer": "$\\pm\\frac{1}{\\sqrt{2}}(1+i)$",
+    "explanation": "<p>$\\mathrm{i}=\\frac{1}{2}\\left(1+2 \\cdot \\mathrm{i} \\cdot 1+\\mathrm{i}^2\\right)=\\frac{1}{2}(1+\\mathrm{i})^2$ এর বর্গমূল $= \\pm \\frac{1}{\\sqrt{2}}(1+\\mathrm{i})$.</p>"
+  },
+  {
+    "id": 7336,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>z = -1 - i জটিল সংখ্যাটির-</p><p><br/>i. আর্গুমেণ্ট -$\\frac{3\\pi}{4}$</p><p><br/>ii. বাস্তব অংশ -1</p><p><br/>iii. অনুবন্ধি জটিল সংখ্যা 1 - i</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>$ z=-1-i $</p><p> বা,$ x+i y=-1-i $</p><p>$ \\therefore x=-1, y=-1$</p><p>আর্গুমেন্ট=$\\tan ^{-1}\\left(\\frac{y}{x}\\right)-\\pi=\\tan ^{-1} 1-\\pi=\\frac{\\pi}{4}-\\pi=-\\frac{3 \\pi}{4}$</p><p>$z=-1-i$ এর অনুবন্ধি জটিল সংখ্যা $\\bar{z}=-1+i$.</p>"
+  },
+  {
+    "id": 7356,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\frac{-1-\\sqrt{-3}}{2}$ এর মূখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$-\\frac{2\\pi}{3}$",
+      "$-\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2\\pi}{3}$"
+    ],
+    "answer": "$-\\frac{2\\pi}{3}$",
+    "explanation": "<p>$\\frac{-1}{2}-\\frac{\\sqrt{3}}{2} i$</p><p>মুখ্য আর্গুমেন্ট, $\\theta=-\\pi+\\tan ^{-1} \\frac{\\frac{\\sqrt{3}}{2}}{\\frac{1}{2}}$ </p><p>$=-\\pi+\\tan ^{-1} \\sqrt{3}=-\\pi+\\frac{\\pi}{3}=\\frac{-2 \\pi}{3}$</p>"
+  },
+  {
+    "id": 7363,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\frac{1}{i}$ এর বর্গমূল কত?",
+    "options": [
+      "$\\pm \\frac{1}{\\sqrt{2}}(1+i)$",
+      "$\\pm \\frac{1}{\\sqrt{2}}(1-i)$",
+      "$\\pm (1+i)$",
+      "$\\pm (1-i)$"
+    ],
+    "answer": "$\\pm \\frac{1}{\\sqrt{2}}(1-i)$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\frac{1}{i}=\\frac{i}{i^2}=-i \\\\ &amp; \\therefore-i=\\frac{1}{2}(-2 i)=\\frac{1}{2}\\left(1-2 i+i^2\\right)=\\frac{1}{2}(1-i)^2 \\\\ &amp; \\therefore \\sqrt{-i}= \\pm \\frac{1}{\\sqrt{2}}(1-i)\\end{aligned}$</p>"
+  },
+  {
+    "id": 7369,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$i^{5}+i^{6}+i^{7}+i^{8}+i^{9}$ এর মান কত?",
+    "options": [
+      "-1",
+      "-i",
+      "1",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": "<p>$i^5+i^6+i^7+i^4+i^6=i-1-i+1+i=i$</p>"
+  },
+  {
+    "id": 7371,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>z = 2-2i হলে -</p><p><br/>i. Re(z) + Im (z) = 0</p><p><br/>ii. z$\\bar{z}$ = 8</p><p><br/>iii. z এর পোলার আকার $2\\sqrt{2}\\left ( cos\\frac{\\pi}{4}=isin\\frac{\\pi}{4} \\right )$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও ii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>$\\begin{aligned}&amp; \\text { (i) } \\operatorname{Re}(z)=2 ; \\operatorname{lm}(z)=-2 \\\\&amp; \\therefore \\operatorname{Re}(z)+\\operatorname{lm}(z)=0 . \\\\&amp; \\text { (ii) } z=2-2 i \\\\&amp; \\bar{z}=2+2 i \\\\&amp; \\bar{z}=2^2-4 i^2=8\\end{aligned}$</p><p>(iii) $\\mathrm{r}=\\sqrt{2^2+(-2)^2}=\\sqrt{8}=2 \\sqrt{2}$</p><p>মুখ্য আর্গুমেন্ট, $\\theta=-\\tan ^{-1}\\left|\\frac{-2}{2}\\right|=-\\frac{\\pi}{4}$</p><p>পোলার আকার $=2 \\sqrt{2}\\left\\{\\cos \\left(-\\frac{\\pi}{4}\\right)+i \\sin \\left(-\\frac{\\pi}{4}\\right)\\right\\} $</p><p>$ =2 \\sqrt{2}\\left(\\cos \\frac{\\pi}{4}-i \\sin \\frac{\\pi}{4}\\right)$</p>"
+  },
+  {
+    "id": 7374,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "$\\sqrt[3]{2^{3}}$ এর মূলত্রয়ের যোগফল কত?",
+    "options": [
+      "0",
+      "2",
+      "2ω",
+      "2ω"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7375,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "z = x + iy&nbsp;হলে&nbsp;|z+1|&nbsp;= |z−2|&nbsp;দ্বারা নির্দেশিত সঞ্চারপথ কোনটি?",
+    "options": [
+      "সরলরেখা",
+      "পরাবৃত্ত",
+      "বৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "সরলরেখা",
+    "explanation": ""
+  },
+  {
+    "id": 7382,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "<p>z = i - 1 এর -</p><p><br/>i. মডুলাস = $\\sqrt{2}$</p><p><br/>ii. আর্গুমেন্ট = $\\frac{\\pi}{4}$</p><p><br/>iii. z$\\bar{z}$ একটি বাস্তব সংখ্যা</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7390,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "z = x + iy হলে $\\sqrt{z-\\bar{z}}$ এর মান কত?",
+    "options": [
+      "$\\sqrt{y}$(1+i)",
+      "$\\sqrt{y}$(1-i)",
+      "$\\sqrt{x}$(1+i)",
+      "$\\sqrt{x}$(1-i)"
+    ],
+    "answer": "$\\sqrt{y}$(1+i)",
+    "explanation": "<p>$\\begin{aligned} &amp; z=x+i y \\\\ &amp; \\therefore \\overline{\\mathbf{z}}=\\mathrm{x}-\\mathrm{i} \\mathbf{y} \\\\ &amp; \\sqrt{z-\\bar{z}}=\\sqrt{x+i y-x+i y} \\\\ &amp; =\\sqrt{2 i y}=\\sqrt{y} \\sqrt{\\left(1+2 i+i^2\\right)}=\\sqrt{y}(1+i) \\\\ &amp; \\end{aligned}$</p>"
+  },
+  {
+    "id": 7392,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "এককের জটিল ঘনমূলদ্বয় p ও q হলে p5 + q5 = কত?",
+    "options": [
+      "-1",
+      "1",
+      "ω",
+      "$ω^{2}$"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$p^5+q^5=\\omega^5+\\left(\\omega^2\\right)^5=\\omega^3 \\cdot \\omega^2+\\left(\\omega^3\\right)^3 \\cdot \\omega=\\omega^2+\\omega=-1$.</p>"
+  },
+  {
+    "id": 7399,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "z = $\\frac{1}{2+i}$ হলে x এর মান হবে-",
+    "options": [
+      "$\\frac{3}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{5}$"
+    ],
+    "answer": "$\\frac{2}{5}$",
+    "explanation": ""
+  },
+  {
+    "id": 7400,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "$i^{4n+4}$ এর মান কত?",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-1"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7404,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "z = 2x + i3y হলে |z| = 1 কী নির্দেশ করে-",
+    "options": [
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "<p>$ Z=2 x+3 y i $ </p><p>$ |Z|=\\sqrt{4 x^2+9 y^2}=1 $</p><p>$ \\therefore 4 x^2+9 y^2=1 $ যা উপবৃতের সমীকরণ </p>"
+  },
+  {
+    "id": 7405,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "<p>z = -i + 1</p><p><br/>i. z এর মডুলাস $\\sqrt{2}$</p><p><br/>ii. z এর আর্গুমেন্ট $\\frac{-\\pi}{4}$</p><p><br/>iii. $z\\bar{z} = z + \\bar{z}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7436,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "z = 3 − 4i এবং $\\sqrt{z}$ = x + iy হলে নিচের কোনটি সঠিক ?",
+    "options": [
+      "$x^{2} - y^{2}$ = 5",
+      "$x^{2} + y^{2}$ = 5",
+      "$x^{2} + y^{2}$ = 3",
+      "$x^{2} + y^{2}$ = 4"
+    ],
+    "answer": "$x^{2} + y^{2}$ = 5",
+    "explanation": "<p>$\\begin{aligned}&amp; z=3-4 i=2^2-2 \\cdot 2 \\cdot i+i^2=(2-i)^2 \\\\&amp; \\sqrt{z}= \\pm(2-i)\\end{aligned}$</p><p>বা, $x+i y= \\pm(2-i)$</p><p>$\\begin{aligned}&amp; x= \\pm 2, \\quad y= \\pm(-1) \\\\&amp; x^2+y^2=2^2+1^2 \\\\&amp; \\therefore x^2+y^2=5\\end{aligned}$</p>"
+  },
+  {
+    "id": 7437,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>যদি z = x + iy, z<sub>1</sub> = x<sub>1</sub> + iy<sub>1</sub>, z<sub>2</sub> = x<sub>2</sub> + iy<sub>2</sub>তিনটি জটিল সংখ্যা হয়, তবে-</p><p><br/>i. Re(z) ≤ |z|</p><p><br/>ii. arg(z<sub>1</sub>z<sub>2</sub>) ≤ argz<sub>1</sub> + argz<sub>2</sub></p><p><br/>iii. |z<sub>1</sub>−z<sub>2</sub>| ≥ |z<sub>1</sub>| − |z<sub>2</sub>|</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7438,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><br></p><p>P = $\\frac{1}{2}\\left (-1+\\sqrt{-3} \\right )$ একটি জটিল সংখ্যা।</p><p><br></p><p>Q. $(p = \\bar{p})^{2}$ = কত?</p>",
+    "options": [
+      "1",
+      "p",
+      "-1",
+      "$\\bar{p}$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7439,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><br></p><p>P = $\\frac{1}{2}\\left (-1+\\sqrt{-3} \\right )$ একটি জটিল সংখ্যা।</p><p><br></p><p>Q. $\\sqrt{p^{2}+\\bar{p}^{2}}$ = কত?</p>",
+    "options": [
+      "i",
+      "-i",
+      "-1",
+      "1"
+    ],
+    "answer": "i",
+    "explanation": "<p>$\\sqrt{p^2+p^2}=\\sqrt{-1}=1$</p>"
+  },
+  {
+    "id": 7460,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "$\\frac{i^{-5}}{1+i^{-9}}$ এর বাস্তব ও কাল্পনিক অংশের সমষ্টি কত?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": "-1",
+    "explanation": ""
+  },
+  {
+    "id": 7461,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "p = x + iy হলে |p-2| = 3 সমীকরণটি নির্দেশ করে-",
+    "options": [
+      "বৃত্ত",
+      "সরলরেখা",
+      "বিন্দুবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>$(x-2)^2+y^2=9$ যা বৃত্তের সমীকরণ নির্দেশ করে।</p>"
+  },
+  {
+    "id": 7462,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "<p>এককের জটিল ঘনমূল&nbsp;$\\alpha, \\beta$ হলে-</p><p><br/>i. $\\alpha\\beta =1$</p><p><br/>ii. $\\alpha^{2} = \\beta$</p><p><br/>iii. $\\alpha + \\beta = -1$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>$\\omega^3=1, \\omega^2=\\omega, \\omega+\\omega^2=-1$</p>"
+  },
+  {
+    "id": 7474,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "A + iB = $\\frac{2-i3}{3-14}$ হলে, B এর মান কোনটি?",
+    "options": [
+      "$-\\frac{7}{9}$",
+      "$-\\frac{7}{41}$",
+      "$\\frac{22}{41}$",
+      "$\\frac{3}{4}$"
+    ],
+    "answer": "$-\\frac{7}{41}$",
+    "explanation": "<p>$\\begin{aligned} &amp; A+i B=\\frac{(2-i 3)(5+i 4)}{(5-i 4)(5+i 4)}=\\frac{10+i 8-i 15-i^2 12}{5^2-i^2 16} \\\\ &amp; A+i B=\\frac{22-i 7}{4!} \\\\ &amp; \\therefore B=-\\frac{7}{41}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7475,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "Z = x + iy হলে, |z-7| = 9 নির্দেশ করে-",
+    "options": [
+      "অধিবৃত্ত",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 7476,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "$-i\\sqrt{3}$ এর আর্গুমেন্ট কত?",
+    "options": [
+      "0",
+      "$\\frac{\\pi}{2}$",
+      "$-\\frac{\\pi}{2}$",
+      "$-\\frac{\\pi}{3}$"
+    ],
+    "answer": "$-\\frac{\\pi}{2}$",
+    "explanation": "<p>আর্গুমেন্ট, $\\theta=-\\tan ^{-1} \\frac{\\sqrt{3}}{0}=-\\frac{\\pi}{2}$</p>"
+  },
+  {
+    "id": 7482,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "ω&nbsp;এককের কাল্পনিক ঘনমূল হলে,&nbsp;(ω5 +&nbsp;ω6&nbsp;+&nbsp;ω7&nbsp;+&nbsp;ω8)&nbsp;(ω−1&nbsp;+&nbsp;ω−3&nbsp;+&nbsp;ω−5&nbsp;+&nbsp;ω−7) এর মান-",
+    "options": [
+      "ω",
+      "ω$^{2}$",
+      "1",
+      "0"
+    ],
+    "answer": "ω",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left(\\omega^5+\\omega^6+\\omega^7+\\omega^8\\right)\\left(\\frac{1}{\\omega}+\\frac{1}{\\omega^3}+\\frac{1}{\\omega^5}+\\frac{1}{\\omega^7}\\right) \\\\ &amp; =\\left(\\omega^2+1+\\omega+\\omega^2\\right)\\left(\\frac{\\omega^3}{\\omega}+\\frac{\\omega^3}{\\omega^3}+\\frac{\\omega^6}{\\omega^5}+\\frac{\\omega^9}{\\omega^7}\\right)\\left[\\because \\omega^3=1\\right] \\\\ &amp; =\\omega^2\\left(\\omega^2+1+\\omega+\\omega^2\\right)=\\omega^2 \\cdot \\omega^2\\left[\\because 1+\\omega+\\omega^2=0\\right] \\\\ &amp; =\\omega^4=\\omega\\end{aligned}$</p>"
+  },
+  {
+    "id": 7519,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "−2 + i$\\sqrt{5}$&nbsp;এর মডুলাস কোনটি?",
+    "options": [
+      "-2",
+      "$\\sqrt{5}$",
+      "3",
+      "9"
+    ],
+    "answer": "3",
+    "explanation": "<p>$\\begin{aligned} &amp; -2+i \\sqrt{5} \\\\ &amp; \\text { modulus }=\\sqrt{(-1)^2+(\\sqrt{5})^2}=3\\end{aligned}$</p>"
+  },
+  {
+    "id": 7520,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "z = 2 + 3i&nbsp;একটি জটিল সংখ্যা হলে&nbsp;z − $\\bar{z}$&nbsp;এর মুখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "0",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$\\frac{3\\pi }{2}$"
+    ],
+    "answer": "$\\frac{\\pi}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7521,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>একটি জটিল সংখ্যা&nbsp;z = $\\frac{1}{2+i}$</p><p><br></p><p>Q. z এর অনুবন্ধি ঘাটিল সংখ্যা কোনটি?&nbsp;</p>",
+    "options": [
+      "$\\frac{2-i}{3}$",
+      "$\\frac{2+i}{3}$",
+      "$\\frac{2+i}{5}$",
+      "$\\frac{2-i}{5}$"
+    ],
+    "answer": "$\\frac{2+i}{5}$",
+    "explanation": ""
+  },
+  {
+    "id": 7522,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>একটি জটিল সংখ্যা&nbsp;z = $\\frac{1}{2+i}$</p><p><br></p><p>Q. জটিল সংখ্যাটি কার্তেসীয় সমতলে যে বিন্দু নির্দেশ করে, তার স্থানাঙ্ক-</p>",
+    "options": [
+      "$\\left(-\\frac{1}{5},\\frac{2}{5}\\right)$",
+      "$\\left(\\frac{1}{5},\\frac{2}{5}\\right)$",
+      "$\\left(\\frac{2}{5},-\\frac{1}{5}\\right)$",
+      "$\\left(\\frac{2}{5},\\frac{1}{5}\\right)$"
+    ],
+    "answer": "$\\left(\\frac{2}{5},-\\frac{1}{5}\\right)$",
+    "explanation": "<p>$z=\\frac{2-i}{5}=\\frac{2}{5}-\\frac{1}{5 i} \\therefore\\left(\\frac{2}{5},-\\frac{1}{5}\\right)$</p>"
+  },
+  {
+    "id": 7523,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>z একটি জটিল সংখ্যা হলে,</p><p><br/>i. $\\frac{\\left | Z \\right |}{\\left | \\overline{z} \\right |}=1$</p><p><br/>ii. $z.\\bar{z}= |\\bar{z}|^{2}$</p><p><br/>iii. arg$\\left(\\frac{z}{z} \\right )$ = arg(z) + arg$(\\bar{z})$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) $\\frac{|Z|}{|Z|}=1$</p><p>(ii) $Z . \\bar{Z}=|\\bar{Z}|^2$ (iii) $\\arg \\left(\\frac{Z}{Z}\\right) \\neq \\arg (Z)+\\arg (\\bar{Z})$</p>"
+  },
+  {
+    "id": 7538,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "$z_1 = 1+2i$ এবং $ z_2 = 3+i$ হলে $\\bar {z_1}-z_2$ এর মডুলাস হল- ",
+    "options": [
+      "$\\sqrt 5$",
+      "$\\sqrt {13}$",
+      "$\\sqrt {25}$",
+      "$5\\sqrt 2$"
+    ],
+    "answer": "$\\sqrt {13}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\overline{z_1}-z_2=1-2 i-(3+i)=1-2 i-3-i=-2-3 i \\\\ &amp; \\left|\\overline{z_1}--z_2\\right|=\\sqrt{(-2)^2+(-3)^2}=\\sqrt{4+9}=\\sqrt{13}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7539,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "z = 1-i হলে $z - \\bar z$ এর বর্গমূল কত?",
+    "options": [
+      "-1-i",
+      "$\\pm (1+i)$",
+      "$\\pm (1-i)$",
+      "$\\pm {1\\over \\sqrt 2}(1-i)$"
+    ],
+    "answer": "$\\pm (1-i)$",
+    "explanation": "<p>$\\begin{aligned} &amp; z-\\bar{z}=1-i-(1+i)=-2 i \\\\ &amp; \\sqrt{z-\\bar{z}}=\\sqrt{-2 i}=\\sqrt{1^2-2 \\cdot 1 \\cdot i+i^2}=\\sqrt{(1-i)^2}= \\pm(1-i)\\end{aligned}$</p>"
+  },
+  {
+    "id": 7540,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "$1-\\sqrt 3i$ এর মুখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$2\\pi \\over 3$",
+      "$\\pi \\over 3$",
+      "$-\\pi \\over 3$",
+      "$-2\\pi \\over 3$"
+    ],
+    "answer": "$-\\pi \\over 3$",
+    "explanation": "<p>আর্গুমেন্ট,$ \\theta=\\tan ^{-1}\\left|\\frac{y}{x}\\right|=\\tan ^{-1}\\left|\\frac{\\sqrt{-3}}{1}\\right|=\\tan ^{-1}(\\sqrt{3}) $</p><p>$ \\therefore$মুখ্য আর্গুমেন্ট =$-\\theta=-\\tan ^{-1} \\sqrt{3}=-\\frac{\\pi}{3}.$</p>"
+  },
+  {
+    "id": 7541,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "$\\sqrt [4]{-49}$ এর মান কোনটি?",
+    "options": [
+      "$\\pm \\sqrt {7i}$",
+      "$\\pm \\sqrt {7\\over 2}(1\\pm i)$",
+      "$\\pm {7\\over 2}(1\\pm i)$",
+      "$\\sqrt {7\\over \\sqrt 2}(1\\pm 2i)$"
+    ],
+    "answer": "$\\pm \\sqrt {7\\over 2}(1\\pm i)$",
+    "explanation": ""
+  },
+  {
+    "id": 7556,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "$x + iy = i^{-2021} + 2 (w)^{-2019}$ হলে $y\\over x$ =?",
+    "options": [
+      "$1\\over 2$",
+      "$-{1\\over 2}$",
+      "2",
+      "-2"
+    ],
+    "answer": "$-{1\\over 2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7560,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "-1-i√3 এর অনুবন্ধি রাশির আর্গুমেন্ট কত?",
+    "options": [
+      "$-{\\pi \\over 3}$",
+      "${\\pi \\over 3}$",
+      "$-{2\\pi \\over 3}$",
+      "${2\\pi \\over 3}$"
+    ],
+    "answer": "${2\\pi \\over 3}$",
+    "explanation": "<p>$ -1-\\mathrm{i} \\sqrt{3}$ এর অনুবন্ধি =$\\overline{-1-\\mathrm{i} \\sqrt{3}}=-1+\\mathrm{i} \\sqrt{3}$</p><p> আর্গুমেন্ট =$\\pi-\\tan ^{-1}\\left|\\frac{\\sqrt{3}}{-1}\\right|=\\pi-\\tan ^{-1} \\sqrt{3}=\\pi-\\frac{\\pi}{3}=\\frac{2 \\pi}{3}$</p>"
+  },
+  {
+    "id": 7569,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "<p> উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও : $z = 3i$.</p><p><br></p><p>Q. $\\bar z$ &nbsp;দ্বারা গঠিত বিন্দু কোনটি?</p>",
+    "options": [
+      "(0,-3)",
+      "(0, 3)",
+      "(-3,0)",
+      "(3,0)"
+    ],
+    "answer": "(0,-3)",
+    "explanation": "<p>$\\mathrm{z}=3 \\mathrm{i} \\quad \\therefore \\overline{\\mathrm{z}}_1=-3 \\mathrm{i}=0-3 \\mathrm{i}$</p><p>$\\therefore$ গঠিত বিন্দু $(0,-3)$</p>"
+  },
+  {
+    "id": 7570,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "<p> উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও : $z = 3i$.</p><p><br></p><p>Q. $\\bar z$ এর সাধারণ আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$2n\\pi +{\\pi \\over 2}$",
+      "$2n\\pi -{\\pi \\over 2}$",
+      "$n\\pi +{\\pi \\over 2}$",
+      "$n\\pi -{\\pi \\over 2}$"
+    ],
+    "answer": "$2n\\pi -{\\pi \\over 2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7572,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "$\\sqrt {-3}\\times \\sqrt {-1}$ এর মান কোনটি?",
+    "options": [
+      "$\\sqrt {3i}$",
+      "$\\pm \\sqrt 3$",
+      "$-\\sqrt 3$",
+      "$\\sqrt 3$"
+    ],
+    "answer": "$-\\sqrt 3$",
+    "explanation": "<p>$\\sqrt{-3} \\cdot \\sqrt{-1}=\\sqrt{3} \\cdot \\mathrm{i}, \\mathrm{i}=-\\sqrt{3}$</p>"
+  },
+  {
+    "id": 7579,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$z = x + iy$ হলে $|z-1|=5$ সমীকরণটি কি নির্দেশ করে?",
+    "options": [
+      "সরলরেখা",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>$|z-1|=5 \\text { বা. }|x+i y-1|=5$</p><p>বা, $|(x-1)+i y|=5$</p><p>$\\therefore(x+1)^2+y^2=25$ যা একটি বৃতের সমীকরণ ।</p>"
+  },
+  {
+    "id": 7581,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$-1-i\\sqrt 3$ এর মুখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$-{2\\pi \\over 3}$",
+      "${2\\pi \\over 3}$",
+      "$-{4\\pi \\over 3}$",
+      "${4\\pi \\over 3}$"
+    ],
+    "answer": "$-{2\\pi \\over 3}$",
+    "explanation": ""
+  },
+  {
+    "id": 7595,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$i^{-49}$ এর মান কোনটি?",
+    "options": [
+      "-i",
+      "i",
+      "-1",
+      "1"
+    ],
+    "answer": "-i",
+    "explanation": "<p>$i^{-49}=\\frac{1}{i^{49}}=\\frac{1}{\\left(i^2\\right)^{24} \\cdot i}=\\frac{1}{i}=\\frac{i}{i^2}=-i$</p>"
+  },
+  {
+    "id": 7596,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "-1+i এর পোলার আকার-",
+    "options": [
+      "$\\sqrt 2(cos{\\pi \\over 4}+isin{\\pi \\over 4})$",
+      "$\\sqrt 2(cos{\\pi \\over 4}- i sin{\\pi \\over 4})$",
+      "$\\sqrt 2(cos{3\\pi \\over 4}- i sin{3\\pi \\over 4})$",
+      "$\\sqrt 2(cos{3\\pi \\over 4} + i sin{3\\pi \\over 4})$"
+    ],
+    "answer": "$\\sqrt 2(cos{3\\pi \\over 4} + i sin{3\\pi \\over 4})$",
+    "explanation": "<p>ধরি, $z=-1+i$</p><p>$\\therefore r=\\sqrt{(-1)^2+1^2}=\\sqrt{2}$</p><p>এবং $\\theta=\\pi-\\tan ^{-1} \\frac{y}{x}=\\pi-\\tan ^{-1} \\frac{1}{-1}=\\pi-\\tan ^{-1} 1=\\pi-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}$</p><p>$\\therefore-1+i=r(\\cos \\theta+i \\sin \\theta)=\\sqrt{2}\\left(\\cos \\frac{3 \\pi}{4}+i \\sin \\frac{3 \\pi}{4}\\right)$</p>"
+  },
+  {
+    "id": 7601,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$z = x + iy$ হলে | z | = 5 সমীকরণটি প্রকাশ করে-",
+    "options": [
+      "সরলরেখা",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 7613,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$-\\sqrt 3-i$ এর মুখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$-{\\pi \\over 6}$",
+      "${\\pi \\over 6}$",
+      "$-{5\\pi \\over 6}$",
+      "${7\\pi \\over 6}$"
+    ],
+    "answer": "$-{5\\pi \\over 6}$",
+    "explanation": ""
+  },
+  {
+    "id": 7618,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$i^2 = -1$&nbsp;হলে $i^{-39}$ এর মান-",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": ""
+  },
+  {
+    "id": 7620,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$z= i - 1$ হলে-</p><p><br/>i. $\\bar z = -i -1$</p><p><br/>ii. $|z|= \\sqrt 2$</p><p><br/>iii. z এর পোলার আকার $cos{\\pi \\over 4} - i sin{\\pi \\over 4}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 7625,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$i^2= -1$ হলে  $i - i^{-5}\\over 2i^{-5} + i$ এর মান -",
+    "options": [
+      "-2",
+      "0",
+      "$1\\over 2$",
+      "2"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\begin{aligned} \\frac{-i-i^{-5}}{2 i^{-5}+i} &amp; =\\frac{-i-\\frac{1}{i}}{\\frac{2}{i^5}+i}=\\frac{-i^2-\\frac{1}{i^4}}{\\frac{2}{i^4}+i^2}=\\frac{1-\\frac{1}{1}}{\\frac{2}{1}-1}\\left[\\because i^2=-1\\right] \\\\ &amp; =\\frac{0}{1}=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 7630,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>$\\sqrt [3]{1}$ এর মূলত্রয়ের -</p><p><br/>i. যোগফল শূন্য</p><p><br/>ii. দুইটি জটিল</p><p><br/>iii. একটি মূল অপর একটি মূলের বর্গের সমান</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7646,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "-i এর মড্যুলাস ও আর্গুমেন্ট -",
+    "options": [
+      "1 ও 0",
+      "1 ও -$\\pi \\over 2$",
+      "1 ও $\\pi $",
+      "1 ও $\\pi \\over 2$"
+    ],
+    "answer": "1 ও -$\\pi \\over 2$",
+    "explanation": "<p>$|-i|=\\sqrt{1^2}=1$</p><p><br></p><p>আর্গুমেন্ট$\\theta=-\\tan ^{-1}\\left|\\frac{-1}{0}\\right|=\\frac{-\\pi}{2}$</p>"
+  },
+  {
+    "id": 7648,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "এককের একটি জটিল ঘনমূল $\\omega $ হলে $2\\over \\omega ^{13}+\\omega ^{26}$ এর মান -",
+    "options": [
+      "-2",
+      "-1",
+      "0",
+      "2"
+    ],
+    "answer": "-2",
+    "explanation": "<p>$\\begin{aligned} \\frac{2}{\\omega^{13}+\\omega^{26}} &amp; =\\frac{2}{\\left(\\omega^3\\right)^4 \\cdot \\omega+\\left(\\omega^3\\right)^8 \\cdot \\omega^2}=\\frac{2}{\\omega+\\omega^2}\\left[\\because \\omega^3=1\\right] \\\\ &amp; =\\frac{2}{-1}=-2 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7649,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "- 1 + i এর আর্গুমেন্ট কত?",
+    "options": [
+      "${\\pi \\over 4}$",
+      "$-{\\pi \\over 4}$",
+      "${3\\pi \\over 4}$",
+      "${5\\pi \\over 4}$"
+    ],
+    "answer": "${3\\pi \\over 4}$",
+    "explanation": "<p>$-1+\\mathrm{i}$ এর আর্গুমেন্ট, $\\theta=\\pi-\\tan ^{-1}\\left|\\frac{1}{-1}\\right|=\\pi-\\tan ^{-1} 1=\\pi-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}$</p>"
+  },
+  {
+    "id": 7650,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>$x ={1\\over 2}(-1+ \\sqrt {-3})$ এবং $y = {1\\over 2} (-1-\\sqrt {-3})$ হলে $1 - x - y + xy$ এর মান কত?</p>",
+    "options": [
+      "-2",
+      "2",
+      "3",
+      "-3"
+    ],
+    "answer": "3",
+    "explanation": "<p>ধরি, $x=\\frac{1}{2}(-1+\\sqrt{-3})=\\omega$ এবং $y=\\frac{1}{2}(-1-\\sqrt{-3})=\\omega^2$.</p><p>প্রদত্ত রাশি $=1-x-y+x y=1-\\omega-\\omega^2+\\omega \\cdot \\omega^2 $</p><p>$ =1-\\left(\\omega+\\omega^2\\right)+\\omega^3=1-(-1)+1=1+1+1=3$</p>"
+  },
+  {
+    "id": 7651,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$8+ 4\\sqrt 5i$ এর বর্গমূল কোনটি?",
+    "options": [
+      "$\\pm (3-2i)$",
+      "$\\pm (\\sqrt {10}-\\sqrt 2i)$",
+      "$\\pm (\\sqrt {10}+\\sqrt 2i)$",
+      "$\\pm (3+2i)$"
+    ],
+    "answer": "$\\pm (\\sqrt {10}+\\sqrt 2i)$",
+    "explanation": "<p>$\\begin{aligned} &amp; 8+4 \\sqrt{5} i=10+2 \\cdot \\sqrt{10} \\cdot \\sqrt{2} i-2 \\\\ &amp; =(\\sqrt{10})^2+2 \\cdot \\sqrt{10} \\cdot \\sqrt{2} i+(\\sqrt{2} i)^2=(\\sqrt{10}+\\sqrt{2} i)^2 \\\\ &amp; \\therefore \\sqrt{8+4 \\sqrt{5} i}= \\pm(\\sqrt{10}+\\sqrt{2} i)\\end{aligned}$</p>"
+  },
+  {
+    "id": 7674,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$n \\epsilon \\Bbb N$ হলে $i^{8n+5}$ এর মান কত?",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-i"
+    ],
+    "answer": "i",
+    "explanation": "<p>$i^{8_n+5}=i^{8 n} \\cdot i^5=i^{8 n} \\cdot i^4 \\cdot i=1 \\cdot 1 \\cdot i=i$</p>"
+  },
+  {
+    "id": 7675,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "${1\\over 3}i$ এর বর্গমূল কোনটি?",
+    "options": [
+      "$\\pm {1\\over \\sqrt 3}(1+i)$",
+      "$\\pm {1\\over \\sqrt 3}(1-i)$",
+      "$\\pm {1\\over \\sqrt 6}(1+i)$",
+      "$\\pm {1\\over \\sqrt 6}(1-i)$"
+    ],
+    "answer": "$\\pm {1\\over \\sqrt 6}(1+i)$",
+    "explanation": ""
+  },
+  {
+    "id": 7676,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>অনুবন্ধী জটিল সংখ্যার ক্ষেত্রে—</p><p><br/>i. $\\bar {z_1+z_2}=\\bar {z_1}+\\bar {z_2}$</p><p><br/>ii. $\\bar {\\bar z} = z$</p><p><br/>iii. $\\bar {z_1z_2}= \\bar {z_1}.\\bar {z_2}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7677,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "এককের একটি কাল্পনিক ঘনমূল $\\omega $ হলে, $(1+\\omega -\\omega ^2) (\\omega +\\omega ^2 -1) (\\omega ^2 + 1-\\omega )$ এর মান কত?",
+    "options": [
+      "-8",
+      "8",
+      "0",
+      "1"
+    ],
+    "answer": "-8",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left(1+\\omega-\\omega^2\\right)\\left(\\omega+\\omega^2-1\\right)\\left(\\omega^2+1-\\omega\\right) \\\\ &amp; =\\left(-\\omega^2-\\omega^2\\right)(-1-1)(-\\omega-\\omega)\\left(-2 \\omega^2\\right)(-2)(-2 \\omega)=-8 \\omega^3=-8 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7716,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$i^7+i^9+i^{11}+i^{13}$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\mathrm{i}^7+\\mathrm{i}^9+\\mathrm{i}^{11}+\\mathrm{i}^{13}=\\mathrm{i}^3+\\mathrm{i}+\\mathrm{i}^3+\\mathrm{i}=-\\mathrm{i}+\\mathrm{i}-\\mathrm{i}+\\mathrm{i}=0$</p>"
+  },
+  {
+    "id": 7717,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$x=\\sqrt [3]1$ একটি সমীকরণ।</p><p><br></p><p>Q. সমীকরণের মূলগুলোর যোগফল—</p>",
+    "options": [
+      "$\\omega $",
+      "$\\omega ^2$",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7718,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$x=\\sqrt [3]1$ একটি সমীকরণ।</p><p><br></p><p>Q. সমীকরণের মূলগুলোর গুণফল—</p>",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "1+i"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7719,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$z_1 = 1+i$ এবং $z_2 = 2+i$ হলে, $z_1\\bar {z_2}$ এর মডুলাস -",
+    "options": [
+      "$tan^{-1}$",
+      "$2\\sqrt 5$",
+      "$5\\sqrt 2$",
+      "$\\sqrt {10}$"
+    ],
+    "answer": "$\\sqrt {10}$",
+    "explanation": "<p>$\\begin{aligned} &amp; z_1=1+i \\overline{z_2}=2-i \\\\ &amp; \\therefore z_1 \\overline{z_2}=(1+i)(2-i)=2+i-i^2=3+i \\\\ &amp; \\therefore\\left|z_1 \\overline{z_2}\\right|=\\sqrt{3^2+1^2}=\\sqrt{10}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7724,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$i^{-65}$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "i"
+    ],
+    "answer": "-i",
+    "explanation": "<p>$i^{-65}=\\frac{1}{i^{63}}=\\frac{1}{\\left(i^4\\right)^{16} \\cdot i}=i^{-1}=\\frac{1}{i}=\\frac{i}{i^2}=-i$</p>"
+  },
+  {
+    "id": 7725,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$-3-\\sqrt 3 i$ জটিল সংখ্যাটির আর্গুমেন্ট কত?",
+    "options": [
+      "$\\pi\\over 6$",
+      "$\\pi\\over 3$",
+      "$4\\pi\\over 3$",
+      "$7\\pi\\over 6$"
+    ],
+    "answer": "$7\\pi\\over 6$",
+    "explanation": "<p>$\\theta=\\pi+\\tan \\left|\\frac{-\\sqrt{3}}{-3}\\right|=\\pi+\\frac{\\pi}{6}=\\frac{7 \\pi}{6}$.</p>"
+  },
+  {
+    "id": 7726,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>z = x+iy হলে - </p><p><br/>i. $|z|=|\\bar z|$</p><p><br/>ii. $z.\\bar z=|z|^2$</p><p><br/>iii. $arg(\\bar z)=arg(z)$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 7727,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$x=1+\\sqrt 2i$&nbsp;হলে $2x^3 - 3x^2 + 4x+1$ এর মান কত?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "-2"
+    ],
+    "answer": "-2",
+    "explanation": ""
+  },
+  {
+    "id": 7977,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "-3-3i এর মূখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$\\frac{3 \\pi}{4}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{-\\pi}{4}$",
+      "$\\frac{-3 \\pi}{4}$"
+    ],
+    "answer": "$\\frac{-3 \\pi}{4}$",
+    "explanation": "$\\theta=\\tan^{-1}\\left(\\frac{-3}{-3}\\right)=-\\mathrm\\pi-\\frac{\\mathrm\\pi}4=\\frac{-3\\mathrm\\pi}4\\\\$"
+  },
+  {
+    "id": 7987,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>$\\mathbf{Z}=2 \\mathrm{x}+\\mathrm{i} .3 \\mathrm{y} ; \\mathrm{x}$ ও y বাস্তব সংখ্যা হলে, $\\vert z\\vert =1$ দ্বারা কি নির্দেশিত হয়?</p>",
+    "options": [
+      "বৃত্ত",
+      "উপবৃত্ত",
+      "পরাবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "$\\left|z\\right|=1\\\\\\left(2x\\right)^2+\\left(3y\\right)^2=1\\\\4x^2+9y^2=1\\;\\\\$ যা উপবৃও"
+  },
+  {
+    "id": 7988,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>এককের জটিল ঘনমূল xও y হলে- </p><p><br/>i. $x^2=y$</p><p><br/>ii. $x^2+y^2=i^2$ </p><p><br/>iii. $x^2y^2=i^4$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8009,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$z=-2i$ একটি জটিল সংখ্যা। </p><p><br></p><p>Q. $\\bar z$এর প্রতিরূপী বিন্দু কোনটি?</p>",
+    "options": [
+      "(-2,0)",
+      "(0,-2)",
+      "(2,0)",
+      "(0,2)"
+    ],
+    "answer": "(0,2)",
+    "explanation": "$z=-2i\\\\\\overline z=2i\\;=\\left(0,2\\right)$"
+  },
+  {
+    "id": 8010,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$z=-2i$ একটি জটিল সংখ্যা। </p><p><br></p><p>Q. z এর মুখ্য আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$-\\pi$",
+      "$-\\frac{\\pi}{2}$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$"
+    ],
+    "answer": "$-\\frac{\\pi}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8011,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$z=x+iy$ হলে-</p><p><br/>i. $z-\\bar z$ একটি কাল্পনিক সংখ্যা</p><p><br/>ii. $z.\\bar z$ একটি বাস্তব সংখ্যা</p><p><br/>iii. $z^n$ একটি বাস্তব সংখ্যা; যেখানে, $n\\in N$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8028,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>1 এর ঘনমূল তিনটির যোগফল-</p><p><br/>i. $0$</p><p><br/>ii. $\\omega ^3$</p><p><br/>iii. $1+\\omega+\\omega ^2$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8038,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>$Z=x+iy$ হলে,$z\\bar z=1$ সমীকরণের জ্যামিতিক রূপ কোনটি?</p>",
+    "options": [
+      "অধিবৃত্ত",
+      "বৃত্ত",
+      "উপবৃত্ত",
+      "পরাবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 8042,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "${1\\over 3}i$এর বর্গমূল কোনটি?",
+    "options": [
+      "$\\pm {1\\over \\sqrt 3}(1+i)$",
+      "$\\pm {1\\over \\sqrt 3}(1-i)$",
+      "$\\pm {1\\over \\sqrt 6}(1+i)$",
+      "$\\pm {1\\over \\sqrt 6}(1-i)$"
+    ],
+    "answer": "$\\pm {1\\over \\sqrt 6}(1+i)$",
+    "explanation": "$\\sqrt{\\frac13i}=\\;\\sqrt{\\frac16.2i}=\\frac1{\\sqrt6}\\left(1+i\\right)$"
+  },
+  {
+    "id": 8056,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>$z=-1+i$ হলে,$ \\bar z$ এর আর্গুমেন্ট কত?</p>",
+    "options": [
+      "<p>$-\\frac{3 \\pi}{4}$</p>",
+      "$-\\frac{5 \\pi}{4}$",
+      "${\\Pi \\over 4}$",
+      "$-{\\Pi \\over 4}$"
+    ],
+    "answer": "<p>$-\\frac{3 \\pi}{4}$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 8057,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>$(2i)^{-{1\\over 2}}+(-2i)^{-{1\\over 2}}$ এর মান কত?</p>",
+    "options": [
+      "1/2",
+      "1",
+      "0",
+      "$\\infty$"
+    ],
+    "answer": "1",
+    "explanation": "$\\frac1{\\sqrt{2i}}+\\frac1{\\sqrt{-2i}}=\\frac1{1+i}+\\frac1{1-i}=\\frac{1-i+1-i}{\\left(1+i\\right)\\left(1-i\\right)}=1$"
+  },
+  {
+    "id": 8077,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\omega$ এককের কাল্পনিক ঘনমূল হলে, $(1-\\omega^4)(1-\\omega^8)(1-\\omega^{10}) (1-\\omega^{14})$এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "3",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 8079,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$2\\sqrt 3+2i$ জটিল সংখ্যার আর্গুমেন্ট-",
+    "options": [
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{2 \\pi}{3}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "answer": "$\\frac{\\pi}{6}$",
+    "explanation": ""
+  },
+  {
+    "id": 8091,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$z=x-2iy$ হলে,$z\\overline z\\;=7$এর সঞ্চারপথ একটি-",
+    "options": [
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "$\\left(x+2iy\\right)\\left(x-2iy\\right)=7\\\\\\Rightarrow x^2+4y^2=7\\;\\;যা\\;উপবৃও$"
+  },
+  {
+    "id": 8108,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>1 এর ঘনমূল তিনটির -</p><p><br/>i. যোগফল=0</p><p><br/>ii. গুণফল=1 </p><p><br/>iii. জটিল মূল দুটির একটি অপরিহার্য বর্গ</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8114,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$x={-1+\\sqrt {-3}\\over 2}\\ হলে, x+{1\\over x}$ এর মান কত?",
+    "options": [
+      "-1",
+      "$-\\sqrt 3i$",
+      "$\\sqrt 3i$",
+      "1"
+    ],
+    "answer": "-1",
+    "explanation": "$x=\\omega\\\\\\omega+\\frac1\\omega=\\frac{\\omega^2+1}\\omega=\\frac{-\\omega}\\omega=-1$"
+  },
+  {
+    "id": 8117,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>যদি $2+3i\\over 2-i$=A+iB এবং Aও B বাস্তব সংখ্যা হয়, তবে, B=?</p>",
+    "options": [
+      "$-8\\over 5$",
+      "$1\\over 5$",
+      "$-1\\over 5$",
+      "$8\\over 5$"
+    ],
+    "answer": "$8\\over 5$",
+    "explanation": "$\\frac{2+3i}{2-i}=\\frac{\\left(2+3i\\right)\\left(2+i\\right)}{\\left(2+i\\right)\\left(2-i\\right)}=\\frac{1+8i}{4+1}=\\frac15+\\frac85i=A+Bi\\\\B=\\frac85$"
+  },
+  {
+    "id": 8137,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>1+i জটিল সংখ্যার মডুলাস ও আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$2, \\frac{\\pi}{4}$",
+      "$\\sqrt{2}, \\frac{\\pi}{4}$",
+      "$\\sqrt{2}, \\frac{\\pi}{2}$",
+      "$2, \\frac{\\pi}{2}$"
+    ],
+    "answer": "$\\sqrt{2}, \\frac{\\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8138,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "2i এর বর্গমূল কত?",
+    "options": [
+      "$1+i$",
+      "$-(1+i)$",
+      "$\\pm(1+i)$",
+      "$\\pm(1-i)$"
+    ],
+    "answer": "$\\pm(1+i)$",
+    "explanation": ""
+  },
+  {
+    "id": 8149,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$-\\sqrt 3+3i$ এর আর্গুমেন্ট কোনটি?",
+    "options": [
+      "$-\\frac{2 \\pi}{3}$",
+      "$-{\\Pi\\over 3}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2 \\pi}{3}$"
+    ],
+    "answer": "$\\frac{2 \\pi}{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 8152,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$p=x+iy , \\vert p+2\\vert=3$ নির্দেশ করে-",
+    "options": [
+      "বৃত্ত",
+      "সরলরেখা",
+      "প্যারাবোলা",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 8153,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$11-60i$ এর বর্গমূল কত?",
+    "options": [
+      "$\\pm(5-6i)$",
+      "$\\pm(6+5i)$",
+      "$\\pm(6-5i)$",
+      "$\\pm(-5+6i)$"
+    ],
+    "answer": "$\\pm(6-5i)$",
+    "explanation": ""
+  },
+  {
+    "id": 8176,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "এককের কাল্পনিক ঘনমূল দুইটির গুণফল কত?",
+    "options": [
+      "-1",
+      "-(1/2)",
+      "(1/2)",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 8194,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "i এর আর্গুমেন্ট কত?",
+    "options": [
+      "0",
+      "$\\frac{\\pi}{2}$",
+      "1",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "answer": "$\\frac{\\pi}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8199,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$i^m+i^{m+1}+i^{m+2}+i^{m+3}=?$</p>",
+    "options": [
+      "-1",
+      "-I",
+      "0",
+      "i"
+    ],
+    "answer": "0",
+    "explanation": "<p>$i^m+i^{m+1}+i^{m+2}+i^{m+3}\\\\=i^m+i^m.i+i^m.i^2+i^m.i^3\\\\=i^m+i^m.i-i^m-i^m.i\\\\=0$</p>"
+  },
+  {
+    "id": 8206,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "-2-2i এর মূখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$-\\frac{3 \\pi}{4}$",
+      "$-{\\Pi \\over 4}$",
+      "${\\Pi \\over 4}$",
+      "$\\frac{3 \\pi}{4}$"
+    ],
+    "answer": "$-\\frac{3 \\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8228,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>এককের জটিল ঘনমূল দুইটি a ও b হলে -</p><p><br/>i. 1+a+b=0</p><p><br/>ii. ab=1</p><p><br/>iii. $b=a^2$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8229,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$z={1\\over 1+i}$ এর আর্গুমেন্ট কোনটি?",
+    "options": [
+      "$\\frac{-3 \\pi}{4}$",
+      "$\\frac{-\\pi}{4}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$"
+    ],
+    "answer": "$\\frac{-\\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8254,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "-1+i এর মূখ্য আর্গুমেন্ট কোনটি?",
+    "options": [
+      "$-\\frac{3 \\pi}{4}$",
+      "$-\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$",
+      "$\\frac{5 \\pi}{4}$"
+    ],
+    "answer": "$\\frac{3 \\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8267,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$i^{-70}+1$এর মান কোনটি?</p>",
+    "options": [
+      "0",
+      "2",
+      "1-i",
+      "1+I"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\mathrm{i}^{-70}+1=\\frac{1}{\\mathrm{i} 70}+1=\\frac{1}{-1}+1=-1+1=0$</p>"
+  },
+  {
+    "id": 8271,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$\\omega$এককের একটি কাল্পনিক ঘনমূল হলে, $\\omega^{92}+\\omega^{16}$ এর মান কত?</p>",
+    "options": [
+      "-1",
+      "$-\\omega$",
+      "$-\\omega^2$",
+      "$2\\omega$"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$\\omega^{92}+\\omega^{16}\\\\=\\omega^{90}.\\omega^2+\\omega^{15}.\\omega=1.\\omega^2+1.\\omega=-1$</p>"
+  },
+  {
+    "id": 8282,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$i^{4n+3},n\\in N$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "i"
+    ],
+    "answer": "-i",
+    "explanation": "<p>$i^{4n+3}=i^{4n\\;}.i^3=\\left(i^4\\right)^n.i^3=1.\\left(-i\\right)=-i$</p>"
+  },
+  {
+    "id": 8292,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$-\\sqrt 3+i$ এর আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$\\frac{-\\pi}{6}$",
+      "$\\frac{-5 \\pi}{6}$",
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{5 \\pi}{6}$"
+    ],
+    "answer": "$\\frac{5 \\pi}{6}$",
+    "explanation": ""
+  },
+  {
+    "id": 8310,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "এককের একটি জটিল ঘনমূল $\\omega\\ হলে,\\ \\omega^{6n+3}=?$",
+    "options": [
+      "-1",
+      "1",
+      "$\\omega$",
+      "$\\omega^2$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 8351,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "${1\\over \\omega ^{2015}}+{1\\over \\omega ^{2016}}+{1\\over \\omega ^{2017}}$ এর মান কত?",
+    "options": [
+      "$-2\\omega^2$",
+      "$-2\\omega$",
+      "0",
+      "3"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\begin{aligned} \\frac{1}{w^{2015}} &amp; +\\frac{1}{w^{2016}}+\\frac{1}{w^{2017}} \\\\ &amp; =\\frac{1}{\\left(w^3\\right)^{678} \\cdot w^3}+\\frac{1}{\\left(w^3\\right)^{672}}+\\frac{1}{\\left(w^3\\right)^{672} \\cdot w} \\\\ &amp; =\\frac{1}{1 \\cdot w^2}+\\frac{1}{1}+\\frac{1}{1 \\cdot w}=\\frac{1+w^2+w}{w^2}=\\frac{0}{w^2}=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 8372,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$z=-1+i\\sqrt 3$ হলে, </p><p><br/>i. $z^9=64$</p><p><br/>ii. z এর আর্গুমেন্ট $120^0$</p><p><br/>iii. z এর র্বগমূল $\\pm {1\\over \\sqrt 2}(1-i\\sqrt 3)$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii",
+    "explanation": ""
+  },
+  {
+    "id": 8374,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "কাল্পনিক সংখ্যা i এবং $n\\in N$ এর জন্য$i^{4n}-i+i^{4n+1}-1$ এর মান কত?",
+    "options": [
+      "-i",
+      "i",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": "$i^{4n}-i+i^{4n}.i-1\\\\=1-i+i-1=0$"
+  }
+]

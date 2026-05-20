@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7924,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>2x<sup>3</sup> - x<sup>2</sup> - 5x - 2 = 0 সমীকরণের মূলত্রয়ের সমষ্টি কত?</p>",
+    "options": [
+      "-5/2",
+      "1/2",
+      "-2",
+      "2"
+    ],
+    "answer": "1/2",
+    "explanation": ""
+  },
+  {
+    "id": 7925,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>x<sup>3</sup> - px<sup>2</sup> + q = 0 সমীকরণের মূলত্রয় $\\alpha, \\beta$ ও $\\gamma$ হলে  $\\sum \\alpha ^2$ এর মান কত?</p>",
+    "options": [
+      "$p^2$",
+      "$p^2-2p$",
+      "$-p^2$",
+      "$-q$"
+    ],
+    "answer": "$p^2$",
+    "explanation": "<p>$ x^3-p x^2+q=0 $সমীকরণের মূলত্রয়$ \\alpha, \\beta $ ও $ \\gamma $ হলে $ \\alpha+\\beta+\\gamma=p,$ </p><p>$ \\alpha \\beta+\\beta \\gamma+\\gamma \\alpha=0$ </p><p>$ \\sum \\alpha^2=\\alpha^2+\\beta^2+\\gamma^2=(\\alpha+\\beta+\\gamma)^2-2(\\alpha \\beta+\\beta \\gamma+\\gamma \\alpha)=p^2$</p>"
+  },
+  {
+    "id": 7926,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><br></p><p>3x<sup>2 </sup>– 4y + 6x – 5 = 0 একটি পরাবৃত্ত।﻿</p><p><br></p><p>Q. পরাবৃত্তটির ফোকাস কোনটি?</p>",
+    "options": [
+      "$(-1,\\ -{5\\over 3})$",
+      "$(0,\\ -{1\\over 3})$",
+      "$(0,\\ {1\\over 3})$",
+      "(-1, -2)"
+    ],
+    "answer": "$(-1,\\ -{5\\over 3})$",
+    "explanation": ""
+  },
+  {
+    "id": 7927,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><br></p><p>$3x^2 – 4y + 6x – 5 = 0$ একটি পরাবৃত্ত।﻿</p><p><br></p><p>Q. পরাবৃত্তটির নিয়ামক রেখা কোনটি?</p>",
+    "options": [
+      "3y+2=0",
+      "3y+5=0",
+      "3y+7=0",
+      "3y-7=0"
+    ],
+    "answer": "3y+7=0",
+    "explanation": "<p>নিয়ামক রেখা, $\\mathrm{y}+2+\\frac{1}{3}=0 \\quad \\therefore 3 \\mathrm{y}+7=0$</p>"
+  },
+  {
+    "id": 7928,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>3x<sup>2</sup> + 4y<sup>2</sup> = 1 উপবৃত্তের-</p><p><br/><br/>i. উৎকেন্দ্রিকতা = $1\\over 2$</p><p><br/><br/>ii. উপকেন্দ্র $(\\pm 2 \\sqrt 3,\\ 0)$</p><p><br/><br/>iii. উপকেন্দ্রিক লম্বের দৈর্ঘ্য = $\\sqrt 3\\over 2$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": "<p>$3 x^2+4 y^2=1$</p><p>বা, $\\frac{\\mathrm{x}^2}{\\frac{1}{3}}+\\frac{\\mathrm{y}^2}{\\frac{1}{4}}=1 \\therefore \\frac{\\mathrm{x}^2}{\\left(\\frac{1}{\\sqrt{3}}\\right)^2}+\\frac{\\mathrm{y}^2}{\\left(\\frac{1}{2}\\right)^2}=1 \\therefore \\mathrm{e}=\\sqrt{1-\\frac{\\frac{1}{4}}{\\frac{1}{3}}}=\\frac{1}{2}$</p><p>$\\therefore $ উপকেন্দ্র,$( \\pm \\mathrm{ae}, 0) \\equiv\\left( \\pm \\frac{1}{\\sqrt{3}} \\times \\frac{1}{2}, 0\\right) \\equiv\\left( \\pm \\frac{1}{2 \\sqrt{3}}, 0\\right)$</p><p>$\\therefore$ (ii) নং তথ্যটি সঠিক নয়।</p>"
+  },
+  {
+    "id": 7929,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>9x<sup>2</sup> + 16y<sup>2</sup> = 144 উপবৃত্তের নিয়ামক রেখা কোনটি?</p>",
+    "options": [
+      "$\\sqrt 7 x \\pm 16=0$",
+      "$\\sqrt 7 x \\pm 12=0$",
+      "$\\sqrt 7 y \\pm 16=0$",
+      "$\\sqrt 7 y\\pm 12=0$"
+    ],
+    "answer": "$\\sqrt 7 x \\pm 16=0$",
+    "explanation": "<p> $9 x^2+16 y^2=144$ বা, $\\frac{x^2}{16}+\\frac{y^2}{9}=1 \\therefore \\frac{x^2}{4^2}+\\frac{y^2}{3^2}=1$</p><p>$\\therefore e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac{9}{16}}=\\frac{\\sqrt{7}}{4}$</p><p>$\\therefore$ নিয়ামক রেখা, $x= \\pm \\frac{\\mathrm{a}}{\\mathrm{e}}$ বা, $x= \\pm \\frac{4}{\\frac{\\sqrt{7}}{4}}$ বা, $x= \\pm \\frac{16}{\\sqrt{7}} \\therefore \\sqrt{7} x \\pm 16=0$</p>"
+  },
+  {
+    "id": 7930,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>y = 3x + c রেখাটি 3x<sup>2</sup> + 4y<sup>2</sup> = 12 উপবৃত্তটিকে স্পর্শ করলে, c এর মান কত?</p>",
+    "options": [
+      "$\\pm 5$",
+      "$\\pm 7$",
+      "$\\pm {31}$",
+      "$\\pm {39}$"
+    ],
+    "answer": "$\\pm {39}$",
+    "explanation": "<p>উপবৃত্তটি $3 x^2+4 y^2=12$</p><p>বা, $\\frac{x^2}{4}+\\frac{y^2}{3}=1$; এটি $y=3 x+c$ রেখাকে স্পর্শ করলে $\\mathrm{c}^2=4.3^2+3$ বা, $\\mathrm{c}^2=39 \\therefore \\mathrm{c}= \\pm \\sqrt{39}$</p>"
+  },
+  {
+    "id": 7931,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>x<sup>2</sup>-8y<sup>2</sup> = 2 অধিবৃত্তের উৎকেন্দ্রিকতা কোনটি?</p>",
+    "options": [
+      "$3\\over \\sqrt 2$",
+      "$3\\over 2\\sqrt 2$",
+      "$\\sqrt 3\\over \\sqrt 2$",
+      "$\\sqrt 7\\over 2\\sqrt 2$"
+    ],
+    "answer": "$3\\over 2\\sqrt 2$",
+    "explanation": ""
+  },
+  {
+    "id": 7932,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>4x<sup>2</sup>&nbsp;- 9y<sup>2</sup> - 1 = 0 অধিবৃত্তের উপকেন্দ্রিক লম্বের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "9",
+      "4/9",
+      "3/2",
+      "8/3"
+    ],
+    "answer": "4/9",
+    "explanation": "<p>$ 4 x^2-9 y^2=1$  </p><p>বা,$ \\frac{x^2}{\\frac{1}{4}}-\\frac{y^2}{\\frac{1}{9}}=1$ </p><p>$\\therefore \\frac{x^2}{\\left(\\frac{1}{2}\\right)^2}-\\frac{y^2}{\\left(\\frac{1}{3}\\right)^2}=1 $</p><p>উপকেন্দ্রিক লষ্বের দৈর্ঘ্য $=\\frac{2 \\cdot \\frac{1}{9}}{\\frac{1}{2}}=\\frac{2}{9} \\times 2=\\frac{4}{9}$</p>"
+  },
+  {
+    "id": 7933,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>যদি f(x) = tan<sup>-1</sup> x হলে-</p><p><br/>i. $2 f( x ) = tan^{-1}{2x\\over 1-x^2}$</p><p><br/>ii. $2 f( x ) = sin^{-1}{2x\\over 1-x^2}$</p><p><br/>iii. $2 f( x ) = cos^{-1}{1-x^2\\over 1+x^2}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7934,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "$tan(tan^{-1}{1\\over 3}+tan^{-1}{1\\over 5})$ = কত?",
+    "options": [
+      "$1\\over 8$",
+      "$1\\over 2$",
+      "$8\\over 15$",
+      "$4\\over 7$"
+    ],
+    "answer": "$4\\over 7$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\tan \\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{5}\\right)=\\tan \\left(\\tan ^{-1} \\frac{\\frac{1}{3}+\\frac{1}{5}}{1-\\frac{1}{3} \\frac{1}{5}}\\right) \\\\ &amp; =\\tan \\tan ^{-1} \\frac{\\frac{8}{15}}{\\frac{14}{15}}=\\frac{8}{15} \\times \\frac{15}{14}=\\frac{4}{7}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7935,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>sec<sup>2</sup> (tan<sup>-1</sup>2) + cosec<sup>2</sup> (cot<sup>-1</sup> 3) = কত?</p>",
+    "options": [
+      "5",
+      "7",
+      "11",
+      "15"
+    ],
+    "answer": "15",
+    "explanation": ""
+  },
+  {
+    "id": 7936,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>sin<sup>-1</sup> x + cos<sup>-1 </sup>x = $theta$ হলে sin$theta$ এর মান কত?</p>",
+    "options": [
+      "0",
+      "1",
+      "2x",
+      "$2x\\sqrt {1-x^2}$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7937,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "$cos2\\theta ={1\\over 2}$ সমীকরণের সাধারণ সমাধান কোনটি? (n একটি পূর্ণসংখ্যা)",
+    "options": [
+      "$2n\\pi \\pm {\\pi\\over 6}$",
+      "$2n\\pi \\pm {\\pi\\over 3}$",
+      "$n\\pi \\pm {\\pi\\over 6}$",
+      "$n\\pi \\pm {\\pi\\over 3}$"
+    ],
+    "answer": "$n\\pi \\pm {\\pi\\over 6}$",
+    "explanation": ""
+  },
+  {
+    "id": 7938,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "cot2x cotx = 1 হলে x = কত?",
+    "options": [
+      "$(2n+1){\\pi\\over 2}$",
+      "$(2n+1){\\pi\\over 6}$",
+      "$(2n+1){\\pi\\over 3}$",
+      "$(2n\\pm1){\\pi\\over 2}$"
+    ],
+    "answer": "$(2n+1){\\pi\\over 6}$",
+    "explanation": ""
+  },
+  {
+    "id": 7939,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "দুটি সমান বল P পরস্পর 60° কোণে কোনো বিন্দুতে ক্রিয়া করলে এদের লব্ধি কত হবে?",
+    "options": [
+      "3P",
+      "2P",
+      "$\\sqrt 3 P$",
+      "$\\sqrt 2 P$"
+    ],
+    "answer": "$\\sqrt 3 P$",
+    "explanation": ""
+  },
+  {
+    "id": 7940,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "P ও Q মানের দুটি বল পরস্পর 45° কোণে কোনো একটি বিন্দুতে ক্লিয়ারত। এদের লব্ধি 16N, P বলের সাথে 30° কোণ উৎপন্ন করে। Q বলের মান কত?",
+    "options": [
+      "$8\\sqrt 2 N$",
+      "$4\\sqrt 2 N$",
+      "$32\\sqrt 2 N$",
+      "$8 N$"
+    ],
+    "answer": "$8\\sqrt 2 N$",
+    "explanation": "<p>বলের সাইন সূত্র  প্রয়োগ করে পাই,$\\frac{Q}{\\sin 30^{\\circ}}=\\frac{16}{\\sin 45^{\\circ}}$ </p><p>বা, $\\mathrm{Q}=16 \\times \\frac{\\sin 30^{\\circ}}{\\sin 45^{\\circ}}=8 \\sqrt{2} \\mathrm{~N}$</p>"
+  },
+  {
+    "id": 7941,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "দুটি সমান বল P এর লব্ধি √2 P. বল দুটির মধ্যবর্তী কোণ কত?",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": "90°",
+    "explanation": ""
+  },
+  {
+    "id": 7942,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "$\\sqrt {37}$ N, 3N এবং 4N মানের তিনটি বল একটি বস্তুর উপর ক্রিয়া করে ভারসাম্য সৃষ্টি করে। 3N ও 4N বলদ্বয়ের মধ্যবর্তী কোণ কত ?",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "180°"
+    ],
+    "answer": "60°",
+    "explanation": ""
+  },
+  {
+    "id": 7943,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\">Q. C বিন্দুতে দণ্ডটি অনুভূমিকভাবে ভারসাম্যে থাকলে BC এর দৈর্ঘ্য কত মিটার?</p>",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 7944,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\">Q. A ও B বিন্দুতে ক্রিয়ারত বলদ্বয় বিসদৃশ হলে বলদ্বয়ের লম্বি A বিন্দু হতে কত মিটার দূরে ক্রিয়া করবে?</p>",
+    "options": [
+      "4",
+      "5",
+      "8",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "<p>লব্ধি $A$ বিন্দু থেকে $x$ দূরত্বে ক্রিয়া করলে, $15 \\times x=10 \\times(5+x)$ </p><p>বা, $15 x=50+10 x$ বা, $5 x=50 \\quad \\therefore x=10 m$</p>"
+  },
+  {
+    "id": 7945,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "(√3 - 1) মূলবিশিষ্ট দ্বিঘাত সমীকরণ কোনটি?",
+    "options": [
+      "$x^2-2x-2=0$",
+      "$x^2+2x-2=0$",
+      "$x^2-2\\sqrt 3x+2=0$",
+      "$x^2+2\\sqrt 3x+2=0$"
+    ],
+    "answer": "$x^2+2x-2=0$",
+    "explanation": "<p>একটি মূল $\\sqrt{3}-1$ হলে অপর মূল $-\\sqrt{3}-1$.</p><p>$\\therefore$ সমীকরণ: $\\mathrm{x}^2-(\\sqrt{3}-1-\\sqrt{3}-1) \\mathrm{x}+(\\sqrt{3}-1)(-\\sqrt{3}-1)=0$</p><p>বা, $x^2-(-2) x+\\left\\{(-1)^2-(\\sqrt{3})^2\\right\\}=0$</p><p>বা, $x^2+2 x+(1-3)=0 \\quad \\therefore x^2+2 x-2=0$</p>"
+  },
+  {
+    "id": 7946,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>দ্বিঘাত সমীকরণের মূলগুলো বাস্তব হবে যদি-</p><p><br/>i. পৃথায়ক শূন্য হয়</p><p><br/>ii. পৃথায়ক ধনাত্মক হয়</p><p><br/>iii. পৃথায়ক ঋণাত্মক হয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 7947,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>x<sup>2</sup>+5x -7=0 সমীকরণের মুলগুলো-</p>",
+    "options": [
+      "বাস্তব ও মূলদ",
+      "জটিল",
+      "বাস্তব ও সমান",
+      "বাস্তব ও অমূলদ"
+    ],
+    "answer": "বাস্তব ও অমূলদ",
+    "explanation": ""
+  },
+  {
+    "id": 7948,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>2x<sup>2</sup>-5x+c=0 সমীকরণের মূলদ্বয় পরস্পর গুণাত্মক বিপরীত হলে c এর মান কত?</p>",
+    "options": [
+      "1/2",
+      "-1/2",
+      "-2",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": ""
+  }
+]

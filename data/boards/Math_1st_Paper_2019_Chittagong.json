@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6749,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "A ও B ম্যাট্রিক্স এর ক্রম যথাক্রমে $4\\times 5$  ও $5\\times 4$ হলে, AB ম্যাট্রিক্সের ক্রম কত?",
+    "options": [
+      "$5\\times 4$",
+      "$4\\times 5$",
+      "$5\\times 5$",
+      "$4\\times 4$"
+    ],
+    "answer": "$4\\times 4$",
+    "explanation": ""
+  },
+  {
+    "id": 6750,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>Q(2,3,-1)এবং P(4,-3,2) হলে, $\\overrightarrow{\\left|PQ\\right|}$ এর মান কত?</p>",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "answer": "7",
+    "explanation": "ব্যাখ্যাঃ$\\overrightarrow{\\left|PQ\\right|}=\\sqrt{{(2-4)}^2+{(3+3)}^2+{(-1-2)}^2}=\\sqrt{4+36+9}=\\;7$"
+  },
+  {
+    "id": 6751,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>$x+y+3=0 $</p><p><br></p><p>Q. উপরোক্ত সরলরেখাটি x অক্ষের ধনাত্মক দিকের সাথে কত ডিগ্রি কোণ উৎপন্ন করে?</p>",
+    "options": [
+      "$45^0$",
+      "$60^0$",
+      "$90^0$",
+      "$135^0$"
+    ],
+    "answer": "$135^0$",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm x+\\mathrm y+3=0\\;,\\;\\mathrm{রেখার}\\;\\mathrm{ঢাল}\\;=\\;-1\\\\.^..\\;\\tan\\;\\mathrm\\theta\\;=\\;-1\\;;\\Rightarrow\\;\\mathrm\\theta=\\;135^\\circ$"
+  },
+  {
+    "id": 6752,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>$x+y+3=0 $</p><p><br></p><p>Q. উপরোক্ত সরলরেখাটি দ্বারা y-অক্ষের খন্ডিতাংশের পরিমাণ কত?</p>",
+    "options": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm x+\\mathrm y+3=0\\;\\\\\\Rightarrow\\frac{\\mathrm x}{-3}+\\frac{\\mathrm y}{-3}=1\\;\\\\.^..\\;\\mathrm y\\;\\mathrm{অক্ষের}\\;\\mathrm{খন্ডিত}\\;\\mathrm{অংশ}\\;=\\;\\begin{vmatrix}-3\\end{vmatrix}=\\;3$"
+  },
+  {
+    "id": 6753,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$x^2+y^2-4x-6y=0$ বৃত্তটি-</p><p><br/>i. মূল বিন্দুগামী</p><p><br/>ii. x–অক্ষ থেকে 4 একক অংশ খন্ডন করে</p><p><br/>iii. y–অক্ষকে (0,-6) বিন্দুতে ছেদ করে</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm x^2+\\mathrm y^2-4\\mathrm x-6\\mathrm y=0\\;\\mathrm{সমীকরনে}\\;\\;\\;\\mathrm g=-2\\;,\\;\\mathrm f=-3\\;;\\\\\\mathrm{ধ্রুবক}\\;\\mathrm{পদ}\\;\\mathrm{নেই}\\;\\mathrm{সুতরাং}\\;\\mathrm{মূলবিন্দু}\\;\\mathrm{দিয়ে}\\;\\mathrm{যাবে},\\;\\\\\\mathrm x\\;\\mathrm{অক্ষের}\\;\\mathrm{খন্ডিত}\\;\\mathrm{অংশ}\\;=2\\sqrt{\\mathrm g^2-\\mathrm c}=2\\sqrt{{(-2)}^2-0}=4\\;;\\\\\\mathrm y\\;\\mathrm{অক্ষকে}\\;\\mathrm{ছেদ}\\;\\mathrm{করলে}\\;,\\mathrm x=0\\;\\\\\\mathrm y^2-6\\mathrm y=0\\;\\;\\Rightarrow\\mathrm y(\\mathrm y-6)=0\\;\\Rightarrow\\mathrm y=0,6\\\\\\mathrm{সুতরাং}\\;\\mathrm y\\;\\mathrm{অক্ষের}\\;\\mathrm{ছেদকৃত}\\;\\mathrm{বিন্দুর}\\;\\mathrm{স্থানংক}\\;=\\;(0,0)\\;,\\;(0,6)\\;\\\\\\\\$"
+  },
+  {
+    "id": 6754,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>(2,3)কেন্দ্রবিশিষ্ট একটি বৃত্ত x-অক্ষকে স্পর্শ করে বৃত্তটি দ্বারা y-অক্ষ এর খন্ডিতাংশের পরিমাণ কত একক?</p>",
+    "options": [
+      "$\\sqrt 5\\over 2$",
+      "$\\sqrt 5$",
+      "$2\\sqrt 5$",
+      "5"
+    ],
+    "answer": "$2\\sqrt 5$",
+    "explanation": "ব্যাখ্যাঃ$(-\\mathrm g,\\;-\\mathrm f)\\;=(2,3)\\;\\\\\\Rightarrow\\mathrm g=-2\\;\\;\\mathrm{এবং}\\;\\mathrm f=-3\\\\\\mathrm x\\;\\mathrm{অক্ষকে}\\;\\mathrm{স্পরর্শ}\\;\\mathrm{করলে},\\\\\\Rightarrow\\;\\mathrm g^2=\\mathrm c\\\\\\Rightarrow\\mathrm c=\\;4\\\\\\mathrm y-\\mathrm{অক্ষের}\\;\\mathrm{খন্ডিত}\\;\\mathrm{অংশ}=2\\;\\sqrt{\\mathrm f^2-\\mathrm c}=2\\sqrt{{(-3)}^2-4}=2\\sqrt5\\\\\\\\$"
+  },
+  {
+    "id": 6755,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "sin2x এর পর্যায় কত?",
+    "options": [
+      "$\\frac\\pi2\\\\$",
+      "$\\pi\\\\$",
+      "$2\\pi\\\\$",
+      "$4\\pi\\\\$"
+    ],
+    "answer": "$\\Pi$",
+    "explanation": "ব্যাখ্যাঃ$\\sin\\mathrm{nx}\\;\\mathrm{এর}\\;\\mathrm{পর্যায়}\\;\\mathrm{কাল}\\;=\\;\\frac{2\\mathrm\\pi}{\\mathrm n}\\;$"
+  },
+  {
+    "id": 6756,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$cos2\\theta$এর মান-</p><p><br/>i. $1-2sin^2\\theta$</p><p><br/>ii. $1-tan^2\\theta \\over sec^2\\theta$ </p><p><br/>iii. $1+tan^2\\theta \\over 1-tan^2\\theta $</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 6757,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\int sin^4xcosx dx=f(x)+c$যেখানে, c একটি ধ্রুবক হলে, f(x)=?",
+    "options": [
+      "${1\\over 5}cos^5x$",
+      "${1\\over 5}sin^5x$",
+      "$-sin^5xcos^2x\\over 10$",
+      "${-1\\over 5}cos^5x$"
+    ],
+    "answer": "${1\\over 5}sin^5x$",
+    "explanation": "ব্যাখ্যাঃ$\\;\\;\\int\\sin^4\\mathrm x\\;\\cos\\;\\mathrm x\\;\\mathrm{dx}\\\\\\Rightarrow\\int\\mathrm z^4\\;\\mathrm{dz}\\;\\;\\;\\;\\;\\;\\mathrm{ধরি},\\;\\sin\\;\\mathrm x\\;=\\mathrm z\\\\\\Rightarrow\\frac{\\mathrm z^5}5\\;+\\;\\mathrm c\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\Rightarrow\\cos\\;\\mathrm x\\;\\mathrm{dx}=\\;\\mathrm{dz}\\\\\\Rightarrow\\frac{\\sin^5\\mathrm x}5+\\mathrm c$"
+  },
+  {
+    "id": 6758,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$y=2x^2$ বক্ররেখার (-1,-2) বিন্দুতে স্পর্শকের ঢাল কোনটি?",
+    "options": [
+      "-4",
+      "-2",
+      "2",
+      "4"
+    ],
+    "answer": "-4",
+    "explanation": "ব্যাখ্যাঃ$\\;\\;\\mathrm y=\\;2\\mathrm x^2\\\\\\Rightarrow{\\mathrm y}_1=4\\mathrm x\\\\(-1,-2)\\;\\mathrm{বিন্দুতে}\\;\\mathrm{ঢাল}\\;=\\;4\\times-1=\\;-4$"
+  },
+  {
+    "id": 6759,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\int xe^ {x^2}dx$=?",
+    "options": [
+      "$2e^{x^2}+c$",
+      "$e^{x^2}+c$",
+      "$xe^{x^2}+c$",
+      "${1\\over 2}e^{x^2}+c$"
+    ],
+    "answer": "${1\\over 2}e^{x^2}+c$",
+    "explanation": "ব্যাখ্যাঃ$\\;\\int\\mathrm x\\;\\mathrm e^{\\mathrm x^2}\\;\\mathrm{dx}\\;\\\\\\Rightarrow\\;\\frac12\\int\\;\\;\\mathrm e^{\\mathrm z}\\;\\mathrm{dz}\\;\\;\\;\\;\\;\\;\\mathrm{ধরি},\\;\\mathrm x^2=\\mathrm z\\\\\\Rightarrow\\frac12\\;\\mathrm e^{\\mathrm z}\\;+\\mathrm c=\\;\\frac{\\mathrm e^{\\mathrm x^2}}2+\\mathrm c$"
+  },
+  {
+    "id": 6760,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$3 \\hat{i}+2 \\hat{j}+a \\hat{k}$ এবং $4 \\hat{i}-3 \\hat{j}+\\hat{k}$ ভেক্টরদ্বয় পরস্পর লম্ব হলে a এর মান কত?</p>",
+    "options": [
+      "-6",
+      "1",
+      "6",
+      "12"
+    ],
+    "answer": "-6",
+    "explanation": "ব্যাখ্যাঃ$\\;\\mathrm{লম্ব}\\;\\mathrm{হলে}\\;\\mathrm{ডট}\\;\\mathrm{গুনফল}\\;\\mathrm{শূন্য}\\;\\mathrm{হয়}\\;,\\;\\\\\\mathrm{সুতরাং},\\\\\\;\\;\\;\\;\\;3.4\\;+\\;2.(-3)\\;+\\;\\mathrm a.\\;1\\;=\\;0\\\\\\Rightarrow\\;\\mathrm a\\;=\\;-6$"
+  },
+  {
+    "id": 6761,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$f(x)=x+3$ হলে, $f(f(-3))$ এর মান কত?</p>",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "9"
+    ],
+    "answer": "3",
+    "explanation": "ব্যাখ্যাঃ$f(x)\\;=\\;x+3\\;\\\\f(f(x))=f(x)\\;+\\;3=\\;x+3+3=x+6\\;;\\\\.^..\\;f(f(-3))=\\;-3+6=3$"
+  },
+  {
+    "id": 6762,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\begin{bmatrix}3&amp;-2\\\\2&amp;2\\end{bmatrix}$, D=$\\begin{bmatrix}x&amp;0&amp;0\\\\2&amp;4&amp;1\\\\3&amp;-2&amp;0\\end{bmatrix}$</p><p><br></p><p>Q. x এর কোন মানের জন্য $\\vert A\\vert =\\left|D\\right|$ হবে?</p>",
+    "options": [
+      "-5",
+      "-1",
+      "1",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "ব্যাখ্যাঃ$\\left|A\\right|=\\left|D\\right|\\\\\\Rightarrow6+4=x\\{0-\\;(-2)\\}\\\\\\Rightarrow x=5$"
+  },
+  {
+    "id": 6763,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\begin{bmatrix}3&amp;-2\\\\2&amp;2\\end{bmatrix}$, D=$\\begin{bmatrix}x&amp;0&amp;0\\\\2&amp;4&amp;1\\\\3&amp;-2&amp;0\\end{bmatrix}$</p><p><br></p><p>Q. $A^{-1}=?$</p>",
+    "options": [
+      "${1\\over 10}\\begin{bmatrix}2&2\\\\-2&3\\end{bmatrix}$",
+      "${1\\over 10}\\begin{bmatrix}2&-2\\\\2&3\\end{bmatrix}$",
+      "${1\\over 10}\\begin{bmatrix}3&2\\\\-2&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-2&3\\\\2&2\\end{bmatrix}$"
+    ],
+    "answer": "${1\\over 10}\\begin{bmatrix}2&2\\\\-2&3\\end{bmatrix}$",
+    "explanation": "ব্যাখ্যাঃ${যেকোনো}\\;\\mathrm{ম্যাট্রিক্স}\\;\\mathrm{এর}\\;\\mathrm{ক্ষেত্রে}\\;,\\;\\mathrm A=\\begin{bmatrix}\\mathrm a&amp;\\mathrm b\\\\\\mathrm c&amp;\\mathrm d\\end{bmatrix}\\;\\mathrm{হলে},\\;\\\\\\mathrm A^{-1}=\\frac1{\\begin{vmatrix}\\mathrm A\\end{vmatrix}}\\begin{bmatrix}\\mathrm d&amp;-\\mathrm b\\\\-\\mathrm c&amp;\\mathrm a\\end{bmatrix}$"
+  },
+  {
+    "id": 6764,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$4y=3(x-4)$ এবং $4y=3(x-1)$ রেখা দুইটির মধ্যবর্তী লম্বদূরত্ব=?</p>",
+    "options": [
+      "$15\\over 9$",
+      "$9\\over 5$",
+      "$9\\over 4$",
+      "3"
+    ],
+    "answer": "$9\\over 5$",
+    "explanation": "ব্যাখ্যাঃ$3\\mathrm x-4\\mathrm y-12=0\\\\3\\mathrm x-4\\mathrm y-3=0\\\\\\mathrm{লম্ব}\\;\\mathrm{দূরত্ব}=\\;\\frac{\\begin{vmatrix}-12-(-3)\\end{vmatrix}}{\\sqrt{3^2+{(-4)}^2}}=\\frac{\\begin{vmatrix}-9\\end{vmatrix}}5=\\frac95$"
+  },
+  {
+    "id": 6765,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$lim_{x\\to 0}{sin4x\\over tan7x}$=?",
+    "options": [
+      "0",
+      "$4\\over 7$",
+      "$7\\over 4$",
+      "$\\infty$"
+    ],
+    "answer": "$4\\over 7$",
+    "explanation": "ব্যাখ্যাঃ$\\;\\;\\lim_{\\mathrm x\\rightarrow0}\\frac{\\sin\\;\\mathrm{ax}}{\\tan\\;\\mathrm{bx}}=\\;\\frac{\\mathrm a}{\\mathrm b}\\;\\mathrm{হবে}...$"
+  },
+  {
+    "id": 6766,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "6 বাহুবিশিস্ট একটি বহুভুজের কতটি কর্ণ আছে?",
+    "options": [
+      "2",
+      "4",
+      "9",
+      "12"
+    ],
+    "answer": "9",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm n\\;\\mathrm{ভূজের}\\;\\mathrm{কর্ণ}\\;\\;\\mathrm{সংখ্যা}\\;={\\mathrm n}_{{\\mathrm C}_2}-\\mathrm n\\\\6\\;\\mathrm{ভূজের}\\;\\mathrm{কর্ণ}\\;\\;\\mathrm{সংখ্যা}=6_{{\\mathrm C}_2}-6=9$"
+  },
+  {
+    "id": 6767,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$\\int_0^1({cos^{-1}x\\over \\sqrt {1-x^2}})dx$এর মান কত?</p>",
+    "options": [
+      "$\\frac{\\pi^2}{8}$",
+      "$\\frac{\\pi}{2}$",
+      "$\\frac{\\pi}{8}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "answer": "$\\frac{\\pi^2}{8}$",
+    "explanation": ""
+  },
+  {
+    "id": 6768,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$y=e^{\\sqrt x}$হলে,$dy\\over dx$=?",
+    "options": [
+      "$2e^{\\sqrt x}$",
+      "${1\\over 2\\sqrt x}e^{\\sqrt x}$",
+      "${1\\over 2\\sqrt x}$",
+      "$2\\sqrt x\\over e^{\\sqrt x}$"
+    ],
+    "answer": "${1\\over 2\\sqrt x}e^{\\sqrt x}$",
+    "explanation": ""
+  },
+  {
+    "id": 6769,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p><img src=\"data:image/png;base64,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\"></p><p>Q. 2AB=BC হলে , $sin\\theta=?$</p>",
+    "options": [
+      "$sin\\varphi$",
+      "$2sin\\varphi$",
+      "${1\\over 2}sin\\varphi$",
+      "${1\\over 4}sin\\varphi$"
+    ],
+    "answer": "$2sin\\varphi$",
+    "explanation": "ব্যাখ্যাঃ$\\sin\\;\\mathrm{এর}\\;\\mathrm{সুত্র}\\;\\frac{\\mathrm a}{\\sin\\;\\mathrm A}=\\frac{\\mathrm b}{\\sin\\;\\mathrm B}=\\frac{\\mathrm c}{\\sin\\;\\mathrm C}\\\\\\mathrm{এখানে},\\;\\frac{\\mathrm{AB}}{\\sin\\;\\mathrm\\varphi}=\\frac{\\mathrm{BC}}{\\sin\\;\\mathrm\\theta}\\\\\\;\\;\\Rightarrow\\;\\;\\frac{\\mathrm{AB}}{\\sin\\;\\mathrm\\varphi}=\\frac{2\\mathrm{AB}}{\\sin\\;\\mathrm\\theta}\\\\\\Rightarrow\\;\\sin\\;\\mathrm\\theta=\\;2\\sin\\;\\mathrm\\varphi$"
+  },
+  {
+    "id": 6770,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $AB=3,BC=4$ হলে, $cos\\theta+cos\\varphi$=?</p>",
+    "options": [
+      "$5\\over 8$",
+      "$5\\over 7$",
+      "$7\\over 5$",
+      "$8\\over 5$"
+    ],
+    "answer": "$7\\over 5$",
+    "explanation": "ব্যাখ্যাঃ$\\cos\\;\\mathrm\\theta+\\cos\\;\\mathrm\\varphi\\;=\\frac35+\\frac45=\\frac75\\\\$"
+  },
+  {
+    "id": 6771,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$y=\\sqrt {(x-1)(x-2)}$ ফাংশনটির ডোমেন কত?",
+    "options": [
+      "x",
+      "x>2",
+      "$1\\leq x ",
+      "R-(1,2)"
+    ],
+    "answer": "R-(1,2)",
+    "explanation": ""
+  },
+  {
+    "id": 6772,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$^nC_5=^nC_7$ হলে, nএর মান কত?",
+    "options": [
+      "2",
+      "7",
+      "12",
+      "35"
+    ],
+    "answer": "12",
+    "explanation": "ব্যাখ্যাঃ$\\;\\;\\;\\;{\\mathrm n}_{{\\mathrm c}_5}={\\mathrm n}_{{\\mathrm c}_7}\\\\\\Rightarrow\\frac{\\mathrm n!}{5!\\;(\\mathrm n-5)!}=\\;\\frac{\\mathrm n!}{7!\\;(\\mathrm n-7)!}\\\\\\Rightarrow\\frac{7!}{5!\\;}=\\;\\frac{(\\mathrm n-5)!}{\\;(\\mathrm n-7)!}\\\\\\Rightarrow\\frac{7!}{5!\\;}=\\;\\frac{(\\mathrm n-5)(\\mathrm n-6)(\\mathrm n-7)!}{\\;(\\mathrm n-7)\\;!}\\\\\\Rightarrow\\frac{7!}{5!\\;}=(\\mathrm n-5)(\\mathrm n-6)\\\\\\Rightarrow\\mathrm n^2-11\\mathrm n+30=42\\\\\\Rightarrow\\mathrm n^2-11\\mathrm n-12=0\\\\\\Rightarrow\\mathrm n=12\\\\\\mathrm{অথবা},\\;\\\\{\\mathrm n}_{{\\mathrm C}_5}=\\;{\\mathrm n}_{{\\mathrm C}_7}\\\\\\mathrm{বা},\\;{\\mathrm n}_{{\\mathrm C}_{\\mathrm n-5}}={\\mathrm n}_{{\\mathrm C}_7}\\\\\\mathrm{বা},\\;\\mathrm n-5=7\\\\\\mathrm{বা},\\;\\mathrm n=12$"
+  },
+  {
+    "id": 6773,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>একটি গাড়ির চাকার ব্যাসার্ধ 20 সে.মি.। চাকাটি প্রতি সেকেন্ডে 10 বার আবর্তিত হলে-</p><p><br/>i. চাকাটির পরিধি $40 \\pi$ সে. মি.</p><p><br/>ii. চাকাটি একবার ঘুরে প্রায় 125.66 সে. মি. পথ অতিক্রম করে</p><p><br/>iii. চাকাটির গতিবেগ প্রায় 12.57 মি./সে.</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      " ii ও iii",
+      "i ও iii",
+      "i , ii ও iii"
+    ],
+    "answer": "i , ii ও iii",
+    "explanation": ""
+  }
+]

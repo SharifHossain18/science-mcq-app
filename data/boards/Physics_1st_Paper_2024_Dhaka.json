@@ -1,0 +1,402 @@
+[
+  {
+    "id": 226,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>10 gm ভরের একটি বল 100 cms<sup>-1</sup> যেগে একটি উল্লম্ব দেয়ালে অনুভূমিকভাবে আগাত করে একই বেগে ফিরে গেলো। দেয়াল কর্তৃক প্রযুক্ত যলের খাত কত dyne-sec?</p>",
+    "options": [
+      "0",
+      "100",
+      "1000",
+      "2000"
+    ],
+    "answer": "2000",
+    "explanation": "<p>বেগের পরিবর্তন&nbsp; $=\\{100-(-100)\\} \\mathrm{cm} \\mathrm{s}^{-1}=200 \\mathrm{~cm} \\mathrm{~s}^{-1}$</p><p>বলের ঘাত = ভরবেগের পরিবর্তন = ভর × বেগের পরিবর্তন&nbsp; </p><p>$=10 \\times 200$ dyne-sec $=2000$ dyne-sec</p>"
+  },
+  {
+    "id": 227,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>একটি রকেট উড্ডয়নের ১ম সেকেন্ডে এর স্তরের$\\frac{1}{60}$ ভাগ গ্যাস 2400 ms<sup>-1</sup> বেগে নির্গমন করে। রকেটটির ত্বরণ কত ms<sup>-2 </sup>?</p>",
+    "options": [
+      "49.8",
+      "40.8",
+      "30.2",
+      "4.08"
+    ],
+    "answer": "30.2",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{a}_{\\text {net }}=\\frac{\\mathrm{v}_{\\mathrm{r}}}{\\mathrm{M}} \\cdot \\frac{\\mathrm{dm}}{\\mathrm{dt}}-\\mathrm{g}=\\frac{2400}{\\mathrm{M}} \\cdot \\frac{1}{60} \\mathrm{M}-\\mathrm{g} \\\\ &amp; \\mathrm{a}_{\\text {net }}=40 \\mathrm{~ms}^{-2}-9.8 \\mathrm{~m} \\mathrm{~s}^{-2}=30.2 \\mathrm{~m} \\mathrm{~s}^{-2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 228,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>$5 \\frac{d^2 x}{d t^2}+125 x=0$ সমীকরণ অনুযায়ী সংশ্লিষ্ট কণাটির ক্ষেত্রে প্রযোজ্য রাশিসমূহ হল-</p><p><br/>i. কম্পাংক ১ একক</p><p><br/>ii. কৌণিক বেগ ১ একক</p><p><br/>iii. কৌণিক কম্পাংক ১ একক</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 229,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং পরবর্তী প্রশ্নের উত্তর দাও।</p><p>100 gm ভর ও 1 cm পুরুত্বের একটি মিটার স্কেল খাড়া অবস্থা হতে ভূমিতে পড়ে গেলো। [8<sup>-9</sup>.8ms<sup>-2</sup>]</p><p><strong>Q. স্কেলটির ভরকেন্দ্রের সরণ কত cim?</strong></p>",
+    "options": [
+      "100.0",
+      "99.5",
+      "50.5",
+      "49.5"
+    ],
+    "answer": "49.5",
+    "explanation": ""
+  },
+  {
+    "id": 230,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং পরবর্তী প্রশ্নের উত্তর দাও।</p><p>100 gm ভর ও 1 cm পুরুত্বের একটি মিটার স্কেল খাড়া অবস্থা হতে ভূমিতে পড়ে গেলো। -9.8ms-2]</p><p>Q. অভিকর্ষজ বল দ্বারা কৃতকাজ কত ?</p>",
+    "options": [
+      "0.4851",
+      "0.9751",
+      "0.4900",
+      "0.9800"
+    ],
+    "answer": "0.4851",
+    "explanation": "<p>$\\mathrm{W}=\\mathrm{mgh}=0.1 \\times 9.8 \\times 0.495 \\mathrm{~J}=0.4851 \\mathrm{~J}$</p>"
+  },
+  {
+    "id": 231,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>একটি বস্তুকণাকে সুতায় বেঁধে বৃত্তাকার পথে ঘুরালে কাজের পরিমাণ হবে-</p>",
+    "options": [
+      "ঋণাত্মক",
+      "শূন্য",
+      "ধনাত্মক",
+      "অসীম"
+    ],
+    "answer": "শূন্য",
+    "explanation": "<p>কেন্দ্রমুখী বল দ্বারা কৃতকাজের ক্ষেত্রের বল ও সরণের মধ্যবর্তী কোণ, θ = 90° হয়।&nbsp; </p><p>$\\therefore \\mathrm{W}=\\mathrm{Fs} \\cos \\theta=\\mathrm{Fs} \\cos 90^{\\circ}=0$</p>"
+  },
+  {
+    "id": 232,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>ভূ-পৃষ্ঠে একটি দোলক ঘড়ি। sec-এ একবার টিক শব্দ করে। দোলকটির কার্যকর দৈর্ঘ্য কত ?</p>",
+    "options": [
+      "0.248",
+      "0.745",
+      "0.993",
+      "1.241"
+    ],
+    "answer": "0.993",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{T}=1 \\times 2 \\mathrm{~s}=2 \\mathrm{~s} \\\\ &amp; \\mathrm{~L}=\\frac{\\mathrm{T}^2 \\mathrm{~g}}{4 \\pi^2}=\\frac{2^2 \\times 9.8}{4 \\times(3.14)^2} \\mathrm{~m}=0.9939 \\mathrm{~m}\\end{aligned}$</p>"
+  },
+  {
+    "id": 233,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নির্দিষ্ট সময় পর পর যে গতির পুনরাবৃত্তি ঘটে তাকে বলে-</p>",
+    "options": [
+      "রৈখিক গতি",
+      "বৃত্তীয় গতি",
+      "কৌণিক গতি",
+      "পর্যাবৃত্ত গতি"
+    ],
+    "answer": "পর্যাবৃত্ত গতি",
+    "explanation": ""
+  },
+  {
+    "id": 234,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>পরম শূন্য তাপমাত্রায় কোনো গ্যাসের গতিশক্তি-</p>",
+    "options": [
+      "শূন্য",
+      "সর্বনিম্ন",
+      "সর্বোচ্চ",
+      "অসীম"
+    ],
+    "answer": "শূন্য",
+    "explanation": "<p>পরমশূন্য তাপমাত্রা, $\\theta=-273^{\\circ} \\mathrm{C}$</p><p>চার্লসের সূত্রানুসারে, $V_0=V_0\\left(1+\\frac{\\theta}{273}\\right)=V_0\\left(1+\\frac{-273}{273}\\right)=0$ </p><p>∴ পরমশূন্য তাপমাত্রায় কোনো গ্যাসের আয়তন তাত্ত্বিকভাবে শূন্য হয়।&nbsp; </p>"
+  },
+  {
+    "id": 235,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>27°C তাপমাত্রায় একটি গ্যাসের আয়তন স্থির রেখে চাপ দ্বিগুণ করা হলো</p><p><strong>Q. উদ্দীপকের ঘটনা নিচের কোন সূত্রকে সমর্থন করে?</strong>।</p>",
+    "options": [
+      "বয়েলের সূত্র",
+      "চার্লসের সূত্র",
+      "চাপীয় সূত্র",
+      "এ্যাভোগ্যাড্রোর সূত্র"
+    ],
+    "answer": "চাপীয় সূত্র",
+    "explanation": ""
+  },
+  {
+    "id": 236,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>27°C তাপমাত্রায় একটি গ্যাসের আয়তন স্থির রেখে চাপ দ্বিগুণ করা হলো</p><p><strong>Q. গ্যাসটির চূড়ান্ত তাপমাত্রা কত?</strong></p>",
+    "options": [
+      "600 K",
+      "300 K",
+      "200 K",
+      "150 K"
+    ],
+    "answer": "600 K",
+    "explanation": ""
+  },
+  {
+    "id": 237,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>একটি দ্বি-পরমাণুক গ্যাসের স্বাধীনতার মাত্রা হলো-</p>",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 238,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>কোনো নির্দিষ্ট ভরের বস্তুর গতিশক্তি এর ভরবেগের-</p>",
+    "options": [
+      "বর্গের সমানুপাতিক",
+      "বর্গমূলের সমানুপাতিক",
+      "বর্গের ব্যস্তানুপাতিক",
+      "বর্গমূলের ব্যস্তানুপাতিক"
+    ],
+    "answer": "বর্গের সমানুপাতিক",
+    "explanation": ""
+  },
+  {
+    "id": 239,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের কোনটিতে সবগুলো ভেক্টর রাশি?</p>",
+    "options": [
+      "ভর, সময়, বেগ",
+      "বিদ্যুৎ প্রবাহমাত্রা, ত্বরণ, কৌণিক ভরবেগ",
+      "চৌম্বক ক্ষেত্র, টর্ক, কৌণিক সরণ",
+      "চাপ, বল, তাপমাত্রা"
+    ],
+    "answer": "চৌম্বক ক্ষেত্র, টর্ক, কৌণিক সরণ",
+    "explanation": "<p>কৌণিক সরণকে অতি ক্ষুদ্র কৌণিক সরণ বিবেচনা করা হয়েছে। অতি ক্ষুদ্র কৌণিক সরণ ভেক্টর রাশি কিন্তু বৃহৎ কৌণিক সরণ স্কেলার রাশির ন্যায় কাজ করে।&nbsp;।</p>"
+  },
+  {
+    "id": 240,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও: </p><p>একটি দেয়াল ঘড়ি পশ্চিমদেয়ালে টাঙানো আছে। যদি ঘণ্টার কাটাকে ট এবং মিনিটের কাটাকে নির্দেশ করা হয়, তাহলে-</p><p><strong>Q. ১২টা ১৫ মিনিটে $\\overrightarrow{\\mathrm{P}} \\times \\overrightarrow{\\mathrm{Q}}$ এর দিক হবে-</strong></p>",
+    "options": [
+      "পূর্ব দিকে",
+      "পশ্চিম দিকে",
+      "উত্তর দিকে",
+      "দক্ষিণ দিকে"
+    ],
+    "answer": "পশ্চিম দিকে",
+    "explanation": ""
+  },
+  {
+    "id": 241,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>একটি দেয়াল ঘড়ি পশ্চিমদেয়ালে টাঙানো আছে। যদি ঘণ্টার কাটাকে ট এবং মিনিটের কাটাকে নির্দেশ করা হয়, তাহলে-</p><p>Q. ঘড়িতে যখন ১২টা বাজে ঐ মুহূর্তে-</p>",
+    "options": [
+      "$ \\vec{P} \\times \\vec{Q}=0$",
+      "$\\vec{P} \\cdot \\vec{Q}=0$",
+      "$|\\overrightarrow{\\mathrm{P}} \\times \\overrightarrow{\\mathrm{Q}}|=\\mathrm{PQ}$",
+      "$\\overrightarrow{\\mathrm{P}} \\cdot \\overrightarrow{\\mathrm{Q}}=-\\mathrm{PQ}$"
+    ],
+    "answer": "$ \\vec{P} \\times \\vec{Q}=0$",
+    "explanation": "<p>ঘড়িতে 12 টা বাজার&nbsp; ক্ষেত্রে $\\overrightarrow{\\mathrm{P}}$ ও $\\overrightarrow{\\mathrm{Q}}$ এর মধ্যবর্তী কোণ $0^{\\circ}$ হয় । </p><p>$\\vec{P} \\times \\vec{Q}=P Q \\sin \\theta \\eta=P Q \\eta \\sin 0^{\\circ}=0$ </p>"
+  },
+  {
+    "id": 242,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>$\\vec{\\nabla} \\times \\vec{A}=0$ হলে-</p><p><br/>i. $\\vec{A}$ ভেক্টর ক্ষেত্রটি অঘূর্ণনশীল</p><p><br/>ii. $\\vec{A}$ ভেক্টর ক্ষেত্রটি সংরক্ষণশীল</p><p><br/>iii. $\\vec{A}$ ভেক্টর ক্ষেত্রটি সলিনয়েডাল</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) + (ii) $\\rightarrow \\vec{\\nabla} \\times \\vec{A}=0$ হলে ভেক্টর ক্ষেত্রের ঘূর্ণন গতির মান শূন্য হয় ফলে ভেক্টর ক্ষেত্রটি সংরক্ষণশীল এবং অঘূর্ণনশীল।&nbsp; </p>"
+  },
+  {
+    "id": 243,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>একটি গাড়ি 10 ms<sup>-1</sup> সমবেগে চলছে। নিচের কোনটি সত্য?</p>",
+    "options": [
+      "গাড়িটির উপর কোনো বলই ক্রিয়া করছে না",
+      "গাড়ি দ্বারা প্রযুক্ত বল ঘর্ষণ বলের সমান",
+      "গাড়ি দ্বারা প্রযুক্ত বল ঘর্ষণ বলের চেয়ে বেশি",
+      "গাড়ি দ্বারা প্রযুক্ত বল ঘর্ষণ বলের চেয়ে কম"
+    ],
+    "answer": "গাড়ি দ্বারা প্রযুক্ত বল ঘর্ষণ বলের সমান",
+    "explanation": ""
+  },
+  {
+    "id": 244,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>বস্তুর গতি জড়তা কোনটির সমানুপাতিক?</p>",
+    "options": [
+      "ভের",
+      "বেগ",
+      "ভরবেগ",
+      "বল"
+    ],
+    "answer": "ভরবেগ",
+    "explanation": "<p>জড়তার পরিমাপক হলো ভর। গতি জড়তা গতিশীল বস্তুর ক্ষেত্রে ক্রিয়া করে বলে এটি ভরবেগের উপর নির্ভর করে।</p>"
+  },
+  {
+    "id": 245,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>মহাকর্ষীয় বিভবের একক হলো-</p>",
+    "options": [
+      "Volt",
+      "$\\mathrm{Jkg}^{-1}$",
+      "$\\mathrm{N}-\\mathrm{kg}^{-1}$",
+      "$\\mathrm{N}-\\mathrm{m}^{-1}$"
+    ],
+    "answer": "$\\mathrm{Jkg}^{-1}$",
+    "explanation": ""
+  },
+  {
+    "id": 246,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>একজন ব্যক্তি লিফটে ওজনহীনতা অনুভব করবে, যখন লিফটটি-</p>",
+    "options": [
+      "সমবেগে উপরে উঠে",
+      "সমবেগে নিচে নামে",
+      "'g' ত্বরণে উপরে উঠে",
+      "'g' ত্বরণে নিচে নামে"
+    ],
+    "answer": "'g' ত্বরণে নিচে নামে",
+    "explanation": "<p>লিফট ৪ ত্বরণে নিচে নামলে ক্রিয়া বল&nbsp; </p><p>$\\begin{aligned} \\mathrm{W} &amp; =\\mathrm{mg}^{\\prime}=\\mathrm{m}(\\mathrm{g}-\\mathrm{g}) \\\\ &amp; =\\mathrm{m} \\times 0=0 \\mathrm{~N}\\end{aligned}$ </p><p>ক্রিয়া বল শূন্য হওয়ায় প্রতিক্রিয়া বলও শূন্য হয়। ফলে ব্যক্তি ওজনহীনতা অনুভব করে।&nbsp;</p><p><br></p>"
+  },
+  {
+    "id": 247,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>ভূ-পৃষ্ঠ হতে কত kim উচ্চতায় অভিকর্ষজ ত্বরণের মান ভূ-পৃষ্ঠের মানের 25% হবে? [R = 6400 km]</p>",
+    "options": [
+      "6400",
+      "640",
+      "250",
+      "100"
+    ],
+    "answer": "6400",
+    "explanation": ""
+  },
+  {
+    "id": 248,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>কোনো বস্তুর একক মাত্রার পরিবর্তনকে বলে-</p>",
+    "options": [
+      "পীড়ন",
+      "বিকৃতি",
+      "অসহ ভার",
+      "স্থিতিস্থাপক ক্লান্তি"
+    ],
+    "answer": "বিকৃতি",
+    "explanation": "<p>বিকৃতি স্কেলার রাশি। বিকৃতি একই জাতীয় রাশির অনুপাত হওয়ায় এর কোনো একক ও মাত্রা নেই।&nbsp;</p>"
+  },
+  {
+    "id": 249,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>পয়সনের অনুপাত $\\sigma$ -এর ক্ষেত্রে নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "$1<\\sigma<0.5$",
+      "$-1<\\sigma<0.5$",
+      "$-1<\\sigma<1$",
+      "$-1<\\sigma<-0.5$"
+    ],
+    "answer": "$-1<\\sigma<0.5$",
+    "explanation": "<p>পয়সনের অনুপাত ($\\sigma$) হলো পার্শ্ব বিকৃতি ও দৈর্ঘ্য বিকৃতির অনুপাত।</p><p><br></p><p>\nস্থিতিস্থাপকতার গাণিতিক তত্ত্ব অনুযায়ী,</p><p>একটি সমজাতীয় এবং আইসোট্রোপিক পদার্থের জন্য পয়সনের অনুপাতের তাত্ত্বিক সীমা হলো:</p><p>\n$-1 &lt; \\sigma &lt; 0.5$</p><p>\nতবে বাস্তব ক্ষেত্রে অধিকাংশ পদার্থের জন্য এই মান ০ থেকে ০.৫-এর মধ্যে থাকে।</p><p>তবে অপশনে তাত্ত্বিক সীমাটি দেওয়া আছে, যেখানে  'খ' সঠিক।\n</p>"
+  },
+  {
+    "id": 250,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2024",
+    "board": "Dhaka",
+    "question": "<p>সরল দোলগতি সম্পন্ন কোনো বস্তুর বার বার দোল দেয়ার কারণ-</p><p><br/>i. স্থিতিজড়তা</p><p><br/>ii. গতি জড়তা</p><p><br/>iii. প্রত্যয়নী বল</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "<p>সরলদোলকের ক্ষেত্রে mgsin $\\theta$ প্রত্যয়নী বল কাজ করে। দোলকটি সাম্যাবস্থায় থাকলে, তার বেগ সর্বোচ্চ হয়। এই বেগ/গতিজড়তার জন্য সরলদোলক সাম্যাবস্থা থেকে ডানে-বামে গতিশীল হতে পারে। সর্বোচ্চ অবস্থানে দোলকের বর্ষ থেমে যাওয়া অবস্থান থেকে গতিশীল হওয়ার কারণ প্রত্যয়ণী বল, স্থিতি জড়তা নয়। কারণ স্থিতিজড়তা স্থির বস্তুকে শুধুমাত্র স্থির রাখতে চায়।</p>"
+  }
+]

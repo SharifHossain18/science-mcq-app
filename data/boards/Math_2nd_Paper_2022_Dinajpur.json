@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7699,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$3x^2 -1=0$ এর মূলগুলো $\\alpha , \\beta , \\gamma $ হলে $\\alpha ^3+ \\beta ^3+ \\gamma ^3 $ এর মান —",
+    "options": [
+      "-1",
+      "0",
+      "$1\\over 3$",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\begin{aligned} &amp; 3 \\mathrm{x}^3-1=0 \\text { বা, } \\mathrm{x}^3=\\frac{1}{3} \\\\ &amp; \\therefore \\alpha^3+\\beta^3+\\gamma^3=\\frac{1}{3}+\\frac{1}{3}+\\frac{1}{3}=1\\end{aligned}$</p>"
+  },
+  {
+    "id": 7700,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$sin ({\\pi \\over 2}-cos^{-1}x)$ = কত?",
+    "options": [
+      "sin x",
+      "x",
+      "1-x",
+      "1+x"
+    ],
+    "answer": "x",
+    "explanation": ""
+  },
+  {
+    "id": 7701,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$2sin^{-1} x = sin^{-1}y$ সমীকরণে $x ={\\sqrt 3\\over 2}$ হলে y এর মান কত?",
+    "options": [
+      "${1\\over 2}$",
+      "${1\\over \\sqrt 2}$",
+      "$\\sqrt 3\\over 2$",
+      "1"
+    ],
+    "answer": "$\\sqrt 3\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 7702,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও : </p><p><br></p><p>$cot\\theta = k$ সমীকরণটির সমাধান $\\theta =n\\pi +\\alpha $</p><p><br></p><p>Q. $k={1\\over \\sqrt 3}$ হলে $\\alpha $= কত?</p>",
+    "options": [
+      "$\\pi \\over 6$",
+      "$\\pi \\over 4$",
+      "$\\pi \\over 3$",
+      "$\\pi \\over 2$"
+    ],
+    "answer": "$\\pi \\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 7703,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও : </p><p><br></p><p>$cot\\theta = k$ সমীকরণটির সমাধান $\\theta =n\\pi +\\alpha $</p><p><br></p><p>Q. k = 1 এবং ${\\pi \\over 4} &lt;\\theta &lt; 2\\pi $ হলে $\\theta $ এর মান কত?</p>",
+    "options": [
+      "$3\\pi \\over 2$",
+      "$5\\pi \\over 4$",
+      "$3\\pi \\over 4$",
+      "$\\pi \\over 2$"
+    ],
+    "answer": "$5\\pi \\over 4$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\cot \\theta=k=1 \\\\ &amp; \\therefore \\cot \\theta=1=\\cot \\frac{\\pi}{4} \\quad \\therefore \\theta=n \\pi+\\frac{\\pi}{4} \\\\ &amp; n=1 \\text { হলে, } \\theta=\\pi+\\frac{\\pi}{4}=\\frac{5 \\pi}{4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7704,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "${y^2\\over 16}-{x^2\\over 25} = 1$ অধিবৃত্তের আড় অক্ষ নিচের কোনটি?",
+    "options": [
+      "x অক্ষ",
+      "y অক্ষ",
+      "x অক্ষের সমান্তরাল",
+      "y অক্ষের সমান্তরাল"
+    ],
+    "answer": "y অক্ষ",
+    "explanation": ""
+  },
+  {
+    "id": 7705,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$x^2 = 16y$ কণিকের উৎকেন্দ্রিকতা কত হবে?",
+    "options": [
+      "e=1",
+      "e=0",
+      "e>1",
+      "0"
+    ],
+    "answer": "e=1",
+    "explanation": "<p>$\\mathrm{x}^2=16 \\mathrm{y}$ কণিকটি একটি উপবৃত্ত। উৎকেন্দ্রিকতা, $\\mathrm{e}=1$</p>"
+  },
+  {
+    "id": 7706,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>${x^2\\over 100}+{y^2\\over 36} = 1$ উপবৃত্তটির -</p><p><br/>i. উৎকেন্দ্রিকতা =$4\\over 5$</p><p><br/>ii. উপকেন্দ্রদ্বয়ের স্থানাঙ্ক = $(0, \\pm {24\\over 5})$</p><p><br/>iii. নিয়ামক দুইটির দূরত্ব = 25</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7707,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>স্থানাঙ্কের অক্ষদ্বয়কে উপবৃত্তের অক্ষ ধরে ক্ষুদ্রাক্ষের দৈর্ঘ্য 2 একক এবং উৎকেন্দ্রিকতা $1\\over \\sqrt 5$ |</p><p><br></p><p>Q. বৃহৎ অক্ষের দৈর্ঘ্য কত একক?</p>",
+    "options": [
+      "$\\sqrt 5$",
+      "$3\\over \\sqrt 5$",
+      "$2\\over \\sqrt 5$",
+      "$1\\over \\sqrt 5$"
+    ],
+    "answer": "$\\sqrt 5$",
+    "explanation": ""
+  },
+  {
+    "id": 7708,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>স্থানাঙ্কের অক্ষদ্বয়কে উপবৃত্তের অক্ষ ধরে ক্ষুদ্রাক্ষের দৈর্ঘ্য 2 একক এবং উৎকেন্দ্রিকতা $1\\over \\sqrt 5$ |</p><p><br></p><p>Q. উপবৃত্তের সমীকরণ নিচের কোনটি?</p>",
+    "options": [
+      "$3x^2+5y^2=5$",
+      "$4x^2 + 3y^2=5$",
+      "$2x^2+3y^2=5$",
+      "$4x^2+5y^2=5$"
+    ],
+    "answer": "$4x^2+5y^2=5$",
+    "explanation": "<p>$\\frac{x^2}{\\frac{5}{4}}+\\frac{y^2}{1^2}=1$ $\\frac{x^2}{\\frac{5}{4}}+\\frac{y^2}{1^2}=1$ বা, $\\frac{4 x^2}{5}+y^2=1 \\therefore 4 x^2+5 y^2=5$বা, $\\frac{4 x^2}{5}+y^2=1 \\therefore 4 x^2+5 y^2=5$</p>"
+  },
+  {
+    "id": 7709,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "P মানের দুইটি সমান বলের লব্ধি P হলে বলদ্বয়ের মধ্যবর্তী কোণ কত?",
+    "options": [
+      "0°",
+      "30°",
+      "60°",
+      "120°"
+    ],
+    "answer": "120°",
+    "explanation": "<p>$ P=\\sqrt{P^2+P^2+2 P^2 \\cos \\alpha}$ </p><p> বা, $ P^2=2 P^2+2 P^2 \\cos \\alpha$</p><p>বা, $2 \\mathrm{P}^2 \\cos \\alpha=-\\mathrm{P}^2$ বा, $\\cos \\alpha=-\\frac{1}{2} \\therefore \\alpha=120^{\\circ}$</p>"
+  },
+  {
+    "id": 7710,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>120° কোণে আনত $\\sqrt{7}$ এককের দুইটি সমান বল একই বিন্দু হতে ক্রিয়ারত — </p><p><br/>i. লব্ধির মান $\\sqrt{7}$ একক</p><p><br/>ii. লব্ধি $\\sqrt{7}$ একক বলের সাথে 60° কোণ উৎপন্ন করে।</p><p><br/>iii. লব্ধি বলদ্বয়ের যোগফল অপেক্ষা ক্ষুদ্রতর</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i,  ii ও iii"
+    ],
+    "answer": "i,  ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7711,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "8 ও 6 একক মানের দুইটি সমমুখী সমান্তরাল বল 21 একক দূরত্বে একটি অনড় বস্তুর উপর ক্রিয়ারত। বলদ্বয় অবস্থান বিনিময় করলে লব্ধির ক্রিয়াবিন্দু কত একক দূরত্বে সরে যাবে?",
+    "options": [
+      "1 একক",
+      "2 একক",
+      "3 একক",
+      "4 একক"
+    ],
+    "answer": "3 একক",
+    "explanation": ""
+  },
+  {
+    "id": 7712,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "একটি ট্রেন 30 মি / সে. বেগে চলা অবস্থায় ব্রেক করে 5.মি./$সে.^2$ মন্দন সৃষ্টি করা হলো। চতুর্থ সেকেন্ডে এটি কত দূরত্ব অতিক্রম করবে?",
+    "options": [
+      "12.5 মি.",
+      "14.5 মি.",
+      "16.5 মি.",
+      "18.5  মি."
+    ],
+    "answer": "12.5 মি.",
+    "explanation": "<p>$ S_4  =4+\\frac{1}{2} a(2 t-1)$</p><p>$ =30+\\frac{1}{2}(-5)(2 \\times 4-1)=30+\\frac{1}{2} \\times(-5) \\times 7=12.5 $সে.মি.</p>"
+  },
+  {
+    "id": 7713,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "u বেগে খাড়া উপরের দিকে নিক্ষিপ্ত একটি বস্তু h উচ্চতায় আসার দুটি সময়ের পার্থক্য কত?",
+    "options": [
+      "$\\sqrt {u^2 - 2gh}$",
+      "${2\\over g}\\sqrt {u^2 - 2gh}$",
+      "${g\\over 2}\\sqrt {u^2 - 2gh}$",
+      "$g\\sqrt {u^2 - 2gh}$"
+    ],
+    "answer": "${2\\over g}\\sqrt {u^2 - 2gh}$",
+    "explanation": ""
+  },
+  {
+    "id": 7714,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>কোনো প্রক্ষেপকের আনুভূমিক পাল্লা R, বিচরণকাল T, সর্বাধিক উচ্চতা H এবং প্রক্ষেপ কোণ $\\alpha $ হলে -</p><p><br/>i. $R = 4 H cot \\alpha $</p><p><br/>ii. $H={gT^2\\over g}$</p><p><br/>iii. $\\alpha = tan^{-1}({gT^2\\over 2R})$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i,  ii ও iii"
+    ],
+    "answer": "i,  ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7715,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "একটি পাথরকে ভূমি থেকে খাড়া উপরের দিকে নিক্ষেপ করা হলে এটি 5 সেকেন্ড পরে নিক্ষেপণ বিন্দুতে ফিরে আসে। পাথরটির ভূমিতে পতন বেগ কত?",
+    "options": [
+      "$18.56ms^{-1}$",
+      "$24.5ms^{-1}$",
+      "$25.57ms^{-1}$",
+      "$22.40ms^{-1}$"
+    ],
+    "answer": "$24.5ms^{-1}$",
+    "explanation": ""
+  },
+  {
+    "id": 7716,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$i^7+i^9+i^{11}+i^{13}$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\mathrm{i}^7+\\mathrm{i}^9+\\mathrm{i}^{11}+\\mathrm{i}^{13}=\\mathrm{i}^3+\\mathrm{i}+\\mathrm{i}^3+\\mathrm{i}=-\\mathrm{i}+\\mathrm{i}-\\mathrm{i}+\\mathrm{i}=0$</p>"
+  },
+  {
+    "id": 7717,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$x=\\sqrt [3]1$ একটি সমীকরণ।</p><p><br></p><p>Q. সমীকরণের মূলগুলোর যোগফল—</p>",
+    "options": [
+      "$\\omega $",
+      "$\\omega ^2$",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7718,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$x=\\sqrt [3]1$ একটি সমীকরণ।</p><p><br></p><p>Q. সমীকরণের মূলগুলোর গুণফল—</p>",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "1+i"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7719,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$z_1 = 1+i$ এবং $z_2 = 2+i$ হলে, $z_1\\bar {z_2}$ এর মডুলাস -",
+    "options": [
+      "$tan^{-1}$",
+      "$2\\sqrt 5$",
+      "$5\\sqrt 2$",
+      "$\\sqrt {10}$"
+    ],
+    "answer": "$\\sqrt {10}$",
+    "explanation": "<p>$\\begin{aligned} &amp; z_1=1+i \\overline{z_2}=2-i \\\\ &amp; \\therefore z_1 \\overline{z_2}=(1+i)(2-i)=2+i-i^2=3+i \\\\ &amp; \\therefore\\left|z_1 \\overline{z_2}\\right|=\\sqrt{3^2+1^2}=\\sqrt{10}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7720,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "নিচের কোনটি বহুপদী রাশি?",
+    "options": [
+      "$x^{-2} + x^{-3}$",
+      "$\\sqrt [3]{x^2} + \\sqrt {x^3}$",
+      "<p>$x^{1\\over 4}$</p>",
+      "<p>$x$</p>"
+    ],
+    "answer": "<p>$x$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 7721,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>কোনো দ্বিঘাত সমীকরণের মূলদ্বয় মূলদ ও অসমান হলে পৃথায়ক হবে—</p><p><br/>i. পূর্ণবর্গ</p><p><br/>ii. ধনাত্মক সংখ্যা</p><p><br/>iii. ঋণাত্মক সংখ্যা</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i,  ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 7722,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$3x^2-5x+1=0$ সমীকরণের মূল $\\alpha $ ও $\\beta $.</p><p><br></p><p>Q. ${1\\over \\alpha }+{1\\over \\beta }$ এর মান —</p>",
+    "options": [
+      "$5\\over 3$",
+      "$-{5\\over 3}$",
+      "5",
+      "-5"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 7723,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$x=\\sqrt [3]1$ একটি সমীকরণ।</p><p><br></p><p>Q. $\\alpha ^2$ ও $\\beta ^2$ মূলবিশিষ্ট সমীকরণ-</p>",
+    "options": [
+      "$9x^2+19x+1=0$",
+      "$9x^2-19x+1=0$",
+      "$9x^2+19x-1=0$",
+      "$9x^2-19x-1=0$"
+    ],
+    "answer": "$9x^2-19x+1=0$",
+    "explanation": "<p>$\\alpha^2$ ও $\\beta^2$ মূলবিশিষ্ট সমীকরণ,</p><p>$বা, x^2-\\left(\\alpha^2+\\beta^2\\right) x+\\alpha^2 \\beta^2=0$</p><p>$বা, x^2-\\left\\{(\\alpha+\\beta)^2-2 \\alpha \\beta\\right\\} x+(\\alpha \\beta)^2=0$</p><p>$বা x^2-\\left(\\frac{25}{9}-\\frac{2}{3}\\right) x+\\frac{1}{9}=0$</p><p>$ বা x^2-\\frac{19}{9} x+\\frac{1}{9}=0$</p><p>$ \\therefore 9 x^2-19 x+1=0 .$</p>"
+  }
+]

@@ -6,7 +6,7 @@
     <title>LUMEN MCQ Hub - Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -101,20 +101,62 @@
             <main class="app-container">
                 <!-- View 1: Dashboard -->
                 <div id="dashboard-view" class="app-view active">
-                    <div class="welcome-section">
-                        <h2>স্বাগতম, সুজন (Welcome, Sujon)</h2>
-                        <p>আপনার পছন্দের প্র্যাকটিস মোডটি নির্বাচন করুন</p>
-                    </div>
-                    <div class="mode-grid">
-                        <div class="mode-card" data-mode="chapter">
-                            <div class="mode-icon"><i class="fa-regular fa-folder-open"></i></div>
-                            <h3>অধ্যায়ভিত্তিক প্র্যাকটিস</h3>
-                            <p>Chapter-wise Practice</p>
+                    <!-- Profile Banner -->
+                    <div class="profile-banner">
+                        <div class="profile-header-left">
+                            <div class="profile-avatar-circle">S</div>
+                            <div class="profile-user-info">
+                                <span class="profile-user-name">Sujon <span class="pro-badge">PRO</span></span>
+                                <span class="profile-user-class">Science • HSC 2026</span>
+                            </div>
                         </div>
-                        <div class="mode-card" data-mode="board">
-                            <div class="mode-icon"><i class="fa-solid fa-building-columns"></i></div>
-                            <h3>বোর্ড প্রশ্ন প্র্যাকটিস</h3>
-                            <p>Board Question Practice</p>
+                        <div class="profile-header-right">
+                            <div class="bell-notification-btn">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Two Premium Mode Cards -->
+                    <div class="mode-cards-grid">
+                        <!-- Chapter-wise Practice -->
+                        <div class="mode-gradient-card" data-mode="chapter">
+                            <div class="mode-card-header">
+                                <div class="mode-card-icon-circle">
+                                    <i class="fa-regular fa-folder-open"></i>
+                                </div>
+                                <span class="mode-card-badge">Chapter-wise</span>
+                            </div>
+                            <div class="mode-card-body">
+                                <h3 class="mode-card-title">অধ্যায়ভিত্তিক প্রস্তুতি</h3>
+                                <p class="mode-card-description">অধ্যায় অনুসারে প্রতিটি টপিকের MCQ প্র্যাকটিস করুন</p>
+                            </div>
+                            <div class="mode-card-footer">
+                                <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
+                                <div class="mode-chevron-circle">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Board Question Practice -->
+                        <div class="mode-gradient-card" data-mode="board">
+                            <div class="mode-card-header">
+                                <div class="mode-card-icon-circle">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <span class="mode-card-badge">Board Questions</span>
+                            </div>
+                            <div class="mode-card-body">
+                                <h3 class="mode-card-title">বোর্ড প্রশ্ন প্রস্তুতি</h3>
+                                <p class="mode-card-description">বিগত বছরের সকল বোর্ডের MCQ সমাধান করুন</p>
+                            </div>
+                            <div class="mode-card-footer">
+                                <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
+                                <div class="mode-chevron-circle">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

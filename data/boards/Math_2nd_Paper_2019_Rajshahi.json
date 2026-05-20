@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7998,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>30মি/সে বেগে একটি বস্তুকণা $30^0$ কোণে প্রক্ষিপ্ত হলে প্রক্ষিপ্ত হলে প্রক্ষেপকটির-  </p><p><br/>i. আনুভূমিক পাল্লা: 79.53 মিটার</p><p><br/>ii. সার্বাধিক উচ্চতা:11.48 মিটার </p><p><br/>iii. বিচরণকাল: 3.06 সেকেন্ড </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 7999,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "u বেগে এবং $\\alpha$ কোণে প্রক্ষিপ্ত বস্তুকণার $\\alpha$ এর কোন মানের জন্য আনুভুমিক পাল্লা সার্বাধিক হবে?",
+    "options": [
+      "$30^0$",
+      "$45^0$",
+      "$60^0$",
+      "$90^0$"
+    ],
+    "answer": "$45^0$",
+    "explanation": ""
+  },
+  {
+    "id": 8000,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "যোগাশ্রয়ী প্রেগ্রাম সমস্যা গঠনে- <br/>i. সসীম সম্পদ থাকতে হবে<br/>ii. সিদ্ধান্ত চলক থাকতে হবে<br/>iii. সিদ্ধান্ত চলক ধনাত্মক হতে পারবে না নিচের কোনটি সঠিক?",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8001,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "A এবং B দুইটি ঘটনা এবং $P(A\\cap B)=P(A).P(B)$ হলে ঘটনাদ্বয়-",
+    "options": [
+      "স্বাধীন",
+      "অধীন",
+      "বর্জনশীল",
+      "নিশ্চিত"
+    ],
+    "answer": "স্বাধীন",
+    "explanation": ""
+  },
+  {
+    "id": 8002,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "একটি ছক্কা নিক্ষেপ করলে ছক্কায় মৌলিক সংখ্যা উঠার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8003,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$S=\\{x:x\\in Z\\ এবং\\ x\\leq x^2 \\leq 27 \\}$ এর গরিষ্ঠ নিম্নসীমা নিচের কোনটি?",
+    "options": [
+      "-5",
+      "-3",
+      "3",
+      "5"
+    ],
+    "answer": "-5",
+    "explanation": "$S=\\{x:x\\in Z\\;এবং\\;x\\leq x^2\\leq27\\}=\\{-5,-4,-3,,3,4,5\\}\\\\Inf\\;S=-5$"
+  },
+  {
+    "id": 8004,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$ax-b&gt;0$ এর সমাধান-</p><p><br/>i. $[{b\\over a},\\infty) \\ when\\ , a\\geq 0$</p><p><br/>ii. $(-\\infty,{b\\over a}); \\ when\\ , a$</p><p><br/>iii. কোন সমাধান নেই, a=0 </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8005,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$x^2+4x+13=0$ সমীকরণের মূলদ্বয় $\\alpha\\ ও \\beta $ হলে $\\alpha+1$ এবং $\\beta+1$মূলবিশিষ্ট সমীকরণ নিচের কোনটি?",
+    "options": [
+      "$x^2+2x+10=0$",
+      "$x^2+6x+18=0$",
+      "$x^2-2x+10=0$",
+      "$x^2-6x+18=0$"
+    ],
+    "answer": "$x^2+2x+10=0$",
+    "explanation": ""
+  },
+  {
+    "id": 8006,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$({1\\over x^2}+x^2-2)^7$ এর বিস্তৃতি মধ্যপদটি কত তম?",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "$\\;তম(\\frac1{x^2}+x^2-2{)^7=\\left(x-\\frac1x\\right)^{14}\\;\\;}\\\\মধ্যপদ\\;=\\left(\\frac n2+1\\right)\\;তম\\;পদ\\;\\;=\\left(\\frac{14}2+1\\right)\\;\\;\\;পদ\\;\\;\\;=8\\;\\;\\;তম\\;পদ\\\\$"
+  },
+  {
+    "id": 8007,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$(1+x)^{-3}$এর বিস্তৃতির 5 তম পদের সহগ কত?",
+    "options": [
+      "-15",
+      "-10",
+      "10",
+      "15"
+    ],
+    "answer": "15",
+    "explanation": "$\\left(1+x\\right)^{-3}এর\\;\\left(r+1\\right)\\;তম\\;পদের\\;সহগ\\;=\\left(-1\\right)^r\\frac12\\left(r+1\\right)\\left(r+2\\right)\\\\\\left(4+1\\right)\\;or\\;5\\;\\;তম\\;পদের\\;সহগ\\;\\;=\\left(-1\\right)^4\\frac12\\left(4+1\\right)\\left(4+2\\right)\\;=15$"
+  },
+  {
+    "id": 8008,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$tan^{-1}{1\\over 3}$=?",
+    "options": [
+      "${1\\over 2}tan^{-1}{3\\over 5}$",
+      "${1\\over 2}sin^{-1}{3\\over 5}$",
+      "$sin^{-1}{3\\over 5}$",
+      "$cos^{-1}{4\\over 5}$"
+    ],
+    "answer": "${1\\over 2}sin^{-1}{3\\over 5}$",
+    "explanation": ""
+  },
+  {
+    "id": 8009,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$z=-2i$ একটি জটিল সংখ্যা। </p><p><br></p><p>Q. $\\bar z$এর প্রতিরূপী বিন্দু কোনটি?</p>",
+    "options": [
+      "(-2,0)",
+      "(0,-2)",
+      "(2,0)",
+      "(0,2)"
+    ],
+    "answer": "(0,2)",
+    "explanation": "$z=-2i\\\\\\overline z=2i\\;=\\left(0,2\\right)$"
+  },
+  {
+    "id": 8010,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$z=-2i$ একটি জটিল সংখ্যা। </p><p><br></p><p>Q. z এর মুখ্য আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$-\\pi$",
+      "$-\\frac{\\pi}{2}$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$"
+    ],
+    "answer": "$-\\frac{\\pi}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8011,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$z=x+iy$ হলে-</p><p><br/>i. $z-\\bar z$ একটি কাল্পনিক সংখ্যা</p><p><br/>ii. $z.\\bar z$ একটি বাস্তব সংখ্যা</p><p><br/>iii. $z^n$ একটি বাস্তব সংখ্যা; যেখানে, $n\\in N$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8012,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "24 মিটার দীর্ঘ একটি দন্ডের দুই প্রান্তে 12 নিউটন এবং 8 নিউটন মানর দুইটি সদৃম সমান্তরাল বল ক্রিয়ারত হলে তাদের লব্ধি 8নিউটন বল হতে কত দূরে অবস্থান করবে?",
+    "options": [
+      "8মিটার",
+      "9.6মিটার",
+      "14.4মিটার",
+      "20মিটার"
+    ],
+    "answer": "14.4মিটার",
+    "explanation": ""
+  },
+  {
+    "id": 8013,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>${x^2\\over 9}-{y^2\\over 16}=1$ একটি কণিকের সমীকরণ। </p><p><br></p><p>Q. কণিকটির উপকেন্দ্রের স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "$(\\pm\\sqrt 7,0)$",
+      "$(\\pm\\sqrt 5,0)$",
+      "$(0,\\pm\\sqrt 7)$",
+      "$(0,\\pm\\sqrt 5)$"
+    ],
+    "answer": "$(\\pm\\sqrt 5,0)$",
+    "explanation": "$e=\\sqrt{\\frac{9+16}9}=\\frac53\\\\\\;উপকেন্দ্রের\\;স্থানাঙ্ক\\;=\\left(\\pm ae,0\\right)=\\left(\\pm5,0\\right)$"
+  },
+  {
+    "id": 8014,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>${x^2\\over 9}-{y^2\\over 16}=1$ একটি কণিকের সমীকরণ। </p><p><br></p><p>Q. কণিকটির-</p><p><br/>i. অসীমতট রেখার সমীকরণ, $y=\\pm{3\\over 4}x$</p><p><br/>ii. নিয়ামক রেখার সমীকরণ, $5x\\pm9=0$</p><p><br/>iii. পরামিতিক সমীকরণ, $x=3sec\\theta,y=4tan\\theta$ </p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8015,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$sin\\theta+1=0, \\theta=?$",
+    "options": [
+      "$(4n-1){\\Pi\\over 2},n\\in z$",
+      "$(4n+1){\\Pi\\over 2},n\\in z$",
+      "$(2n+1){\\Pi\\over 2},n\\in z$",
+      "$(2n-1)\\Pi,n\\in z$"
+    ],
+    "answer": "$(4n-1){\\Pi\\over 2},n\\in z$",
+    "explanation": ""
+  },
+  {
+    "id": 8016,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "দুইটি অসম রাশির গাণিতিক গড় ও ভেদাঙ্ক যথাক্রমে 15 ও16 হলে রাশি দুইটি কত?",
+    "options": [
+      "7,23",
+      "8,22",
+      "9,21",
+      "10,20"
+    ],
+    "answer": "9,21",
+    "explanation": ""
+  },
+  {
+    "id": 8017,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>চিত্রে একটি ABCD বর্গক্ষেত্র্ . A বিন্দুতে ক্রিয়ারত বলত্রয়ের লব্ধি কত?</p>",
+    "options": [
+      "-4",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 8018,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$\\vert 2x-9\\vert>7$ অসমতাটির সমাধান-",
+    "options": [
+      "$(-\\infty,1)$",
+      "$(8,\\infty)$",
+      "$(-\\infty,1)\\cup(8,\\infty)$",
+      "$(-\\infty,1)\\cap(8,\\infty)$"
+    ],
+    "answer": "$(-\\infty,1)\\cup(8,\\infty)$",
+    "explanation": ""
+  },
+  {
+    "id": 8019,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$2x+y\\leq 8,2x+3y\\leq 12,x\\geq 0,y\\geq 0$ শর্ত সাপেক্ষে $z=4x+3y$ এর সর্বোচ্চ মান কোনটি?</p>",
+    "options": [
+      "12",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "18",
+    "explanation": ""
+  },
+  {
+    "id": 8020,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$y=ax^2+bx+c(a\\neq0)$ বক্ররেখাটি একটি পরাবৃত্তের সমীকরণ। </p><p><br></p><p>Q. পরাবৃত্তটির অক্ষরেখা হলো-</p>",
+    "options": [
+      "x-অক্ষের সমান্তরাল",
+      "y-অক্ষের সমান্তরাল",
+      "x-অক্ষ",
+      "y-অক্ষ"
+    ],
+    "answer": "y-অক্ষের সমান্তরাল",
+    "explanation": ""
+  },
+  {
+    "id": 8021,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$y=ax^2+bx+c(a\\neq0)$ বক্ররেখাটি একটি পরাবৃত্তের সমীকরণ। </p><p><br></p><p>Q. পরাবৃত্তটির x-অক্ষকে স্পর্শ করলে $ax^2+bx+c=0$ সমীকরণের মূলদ্বয়-</p>",
+    "options": [
+      "বাস্তব ও সমান",
+      "মূলদ ও অসমান",
+      "অমূলদ ও অসমান",
+      "জটিল ও অসমান"
+    ],
+    "answer": "বাস্তব ও সমান",
+    "explanation": ""
+  },
+  {
+    "id": 8022,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>ত্রিভুজের অন্তঃস্থ কোণত্রয়ের সমদ্বিখণ্ডক ত্রয়ের ছেদবিন্দুকে কী বলা হয়?</p>",
+    "options": [
+      "অন্তঃকেন্দ্র",
+      "পরিকেন্দ্র",
+      "ভরকেন্দ্র",
+      "লম্বকেন্দ্র"
+    ],
+    "answer": "অন্তঃকেন্দ্র",
+    "explanation": ""
+  }
+]

@@ -6,7 +6,7 @@
     <title>LUMEN MCQ Hub - Select</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -105,50 +105,101 @@
                 
                 <!-- View 1: Subject Selector -->
                 <div id="subject-view" class="app-view">
-                    <div class="view-header">
-                        <h3>বিষয় নির্বাচন করুন (Select Subject)</h3>
+                    <!-- Profile Banner -->
+                    <div class="profile-banner">
+                        <div class="profile-header-left">
+                            <div class="profile-avatar-circle">S</div>
+                            <div class="profile-user-info">
+                                <span class="profile-user-name">Sujon <span class="pro-badge">PRO</span></span>
+                                <span class="profile-user-class">Science • HSC 2026</span>
+                            </div>
+                        </div>
+                        <div class="profile-header-right">
+                            <div class="bell-notification-btn">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                        </div>
                     </div>
+
+
+
+                    <!-- Vibrant Subject Grid -->
                     <div class="subject-grid">
+                        <!-- Physics 1st Paper -->
                         <div class="subject-card" data-subject="Physics 1st Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-atom"></i></div>
-                            <div class="subject-info">
-                                <h4>Physics 1st Paper</h4>
-                                <p>পদার্থবিজ্ঞান ১ম পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Physics 1st Paper</h4>
+                                <p class="subject-card-subtitle">পদার্থবিজ্ঞান ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <!-- Physics 2nd Paper -->
                         <div class="subject-card" data-subject="Physics 2nd Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-atom"></i></div>
-                            <div class="subject-info">
-                                <h4>Physics 2nd Paper</h4>
-                                <p>পদার্থবিজ্ঞান ২য় পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Physics 2nd Paper</h4>
+                                <p class="subject-card-subtitle">পদার্থবিজ্ঞান ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <!-- Chemistry 1st Paper -->
                         <div class="subject-card" data-subject="Chemistry 1st Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-flask"></i></div>
-                            <div class="subject-info">
-                                <h4>Chemistry 1st Paper</h4>
-                                <p>রসায়ন ১ম পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Chemistry 1st Paper</h4>
+                                <p class="subject-card-subtitle">রসায়ন ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <!-- Chemistry 2nd Paper -->
                         <div class="subject-card" data-subject="Chemistry 2nd Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-flask"></i></div>
-                            <div class="subject-info">
-                                <h4>Chemistry 2nd Paper</h4>
-                                <p>রসায়ন ২য় পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Chemistry 2nd Paper</h4>
+                                <p class="subject-card-subtitle">রসায়ন ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <!-- Math 1st Paper -->
                         <div class="subject-card" data-subject="Math 1st Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-square-root-variable"></i></div>
-                            <div class="subject-info">
-                                <h4>Math 1st Paper</h4>
-                                <p>উচ্চতর গণিত ১ম পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Math 1st Paper</h4>
+                                <p class="subject-card-subtitle">উচ্চতর গণিত ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
+                        
+                        <!-- Math 2nd Paper -->
                         <div class="subject-card" data-subject="Math 2nd Paper">
-                            <div class="subject-icon"><i class="fa-solid fa-square-root-variable"></i></div>
-                            <div class="subject-info">
-                                <h4>Math 2nd Paper</h4>
-                                <p>উচ্চতর গণিত ২য় পত্র</p>
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Math 2nd Paper</h4>
+                                <p class="subject-card-subtitle">উচ্চতর গণিত ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7599,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>19.6 মিটার উঁচু দালানের ছাদ থেকে একটি পাথর ছেড়ে দিলে ভূমিতে পড়তে কত সময় লাগবে?</p>",
+    "options": [
+      "1 sec",
+      "1.41 sec",
+      "2 sec",
+      "2.82 sec"
+    ],
+    "answer": "2 sec",
+    "explanation": "<p>$h=\\frac{1}{2} \\mathrm{gt}^2$ বা, $t=\\sqrt{\\frac{2 h}{g}}=\\sqrt{\\frac{2 \\times 19.6}{9.8}}=2 \\mathrm{sec}$</p>"
+  },
+  {
+    "id": 7600,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "10N এবং 5N দুইটি সদৃশ সমান্তরাল বল 15 মিটার লম্বা একটি হালকা দণ্ডের দুই প্রান্তে কার্যরত হলে ক্ষুদ্রতর বল থেকে লব্ধি কত দূরে ক্রিয়া করবে?",
+    "options": [
+      "5 মিটার",
+      "10 মিটার",
+      "15 মিটার",
+      "30 মিটার"
+    ],
+    "answer": "10 মিটার",
+    "explanation": ""
+  },
+  {
+    "id": 7601,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$z = x + iy$ হলে | z | = 5 সমীকরণটি প্রকাশ করে-",
+    "options": [
+      "সরলরেখা",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 7602,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$y^2 = 16x$ পরাবৃত্তের উপরস্থ (4, 8) বিন্দুর উপকেন্দ্রিক দূরত্ব কত?",
+    "options": [
+      "20",
+      "16",
+      "12",
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "<p>$y^2=16 x=4.4 . x \\quad \\therefore a=4$</p><p>$\\therefore$ উপকেন্দ্র $(a, 0)=(4,0)$ এবং $P=(4,8)$ </p><p>$S P=a+x=4+4=8$ একক $\\cdot$</p>"
+  },
+  {
+    "id": 7603,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$tan\\theta + 1 = 0$ এর সাধারণ সমাধান কোনটি?",
+    "options": [
+      "$(4n - 1){\\pi \\over 4}; n \\epsilon \\Bbb Z$",
+      "$(4n + 1){\\pi \\over 4}; n \\epsilon \\Bbb Z$",
+      "$(8n - 1){\\pi \\over 4}; n \\epsilon \\Bbb Z$",
+      "$(8n + 1){\\pi \\over 4}; n \\epsilon \\Bbb Z$"
+    ],
+    "answer": "$(4n - 1){\\pi \\over 4}; n \\epsilon \\Bbb Z$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\tan \\theta=-1=-\\tan \\frac{\\pi}{4}=\\tan \\left(-\\frac{\\pi}{4}\\right) \\\\ &amp; \\therefore \\theta=n \\pi+\\left(-\\frac{\\pi}{4}\\right)=(4 n-1) \\frac{\\pi}{4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7604,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "স্থিরাবস্থা থেকে যাত্রা করে একটি কণা 2 সেকেন্ডে 6 মিটার অতিক্রম করলে তৃতীয় সেকেন্ডে কত পথ অতিক্রম করবে?",
+    "options": [
+      "4.5 মিটার",
+      "7.5 মিটার",
+      "13.5 মিটার",
+      "15 মিটার"
+    ],
+    "answer": "7.5 মিটার",
+    "explanation": ""
+  },
+  {
+    "id": 7605,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$9.8ms^{-1}$ আদিবেগে ভূমির সাথে 30° কোণে একটি বস্তুকণা নিক্ষেপ করা হলো। কণাটির সর্বোচ্চ উচ্চতা কত?",
+    "options": [
+      "0.25m",
+      "1.225m",
+      "2.45m",
+      "4.9m"
+    ],
+    "answer": "1.225m",
+    "explanation": "<p>$\\mathrm{u}=9.8 \\mathrm{~ms}^{-1}, \\alpha=30^{\\circ} \\text { এবং } \\mathrm{g}=9.8 \\mathrm{~ms}^{-2}$</p><p><br></p><p>সর্বোচ্চ উচ্চতা, $\\mathrm{H}=\\frac{\\mathrm{u}^2 \\sin ^2 \\alpha}{2 \\mathrm{~g}}-\\frac{9.8^2 \\times \\sin ^2 30}{2 \\times 9.8}=1.225 \\mathrm{~m}$.</p>"
+  },
+  {
+    "id": 7606,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$2y^2 - x^2 = 1$ অধিবৃত্তের উৎকেন্দ্রিকতা কোনটি?",
+    "options": [
+      "$\\sqrt {3\\over 2}$",
+      "$\\sqrt 3$",
+      "${3\\over 2}$",
+      "3"
+    ],
+    "answer": "$\\sqrt 3$",
+    "explanation": ""
+  },
+  {
+    "id": 7607,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "একটি কণার উপর $3ms^{-1}, 4ms^{-1}$ এবং $5ms^{-1}$ বেগ তিনটি ক্রিয়া করায় কণাটি সাম্যাবস্থায় আছে। ক্ষুদ্রতর বেগ দুইটির মধ্যবর্তী কোণ কত?",
+    "options": [
+      "0°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": "90°",
+    "explanation": ""
+  },
+  {
+    "id": 7608,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\sqrt 2sin\\theta + 1 = 0$ এর সাধারণ সমাধান কোনটি?",
+    "options": [
+      "$n\\pi +(- 1)^n{\\pi \\over 6}; n \\epsilon \\Bbb Z$",
+      "<p>$n\\pi -(- 1)^n{\\pi \\over 4}; n \\epsilon \\Bbb Z$</p>",
+      "$2n\\pi \\pm {\\pi \\over 3}; n\\epsilon \\Bbb Z$",
+      "$2n\\pi \\pm {2\\pi \\over 3}; n\\epsilon \\Bbb Z$"
+    ],
+    "answer": "<p>$n\\pi -(- 1)^n{\\pi \\over 4}; n \\epsilon \\Bbb Z$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 7609,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>$P(x) = x^2 - Kx + 9$ একটি দ্বিঘাত বহুপদী, যেখানে K একটি ধ্রুবক।</p><p><br></p><p>Q. K = 2 হলে P(x) এর ক্ষুদ্রতম মান কত?</p>",
+    "options": [
+      "-10",
+      "-8",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": ""
+  },
+  {
+    "id": 7610,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>$P(x) = x^2 - Kx + 9$ একটি দ্বিঘাত বহুপদী, যেখানে K একটি ধ্রুবক।</p><p><br></p><p>Q. P(x)= 0 সমীকরণের মূলদ্বয় বাস্তব ও সমান হবে যদি -</p>",
+    "options": [
+      "K>6",
+      "K",
+      "$K= \\pm 6i$",
+      "$K= \\pm 6$"
+    ],
+    "answer": "$K= \\pm 6$",
+    "explanation": "<p>$x^2-\\mathrm{kx}+9=0$ সমীকরণের</p><p>মূলদ্বয় বাস্তব ও সমান হলে নিশ্চায়ক $b^2-4 a c=0$</p><p>বা, $b^2=4 a c$ বা, $(-k)^2=4.1 .9$ বা, $k^2=46$</p><p>$\\therefore k= \\pm 6$</p>"
+  },
+  {
+    "id": 7611,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$cosec^{-1}2$ এর মান কত?",
+    "options": [
+      "$1\\over 2$",
+      "$2\\over \\sqrt 5$",
+      "$\\sqrt 5\\over 2$",
+      "$1\\over \\sqrt 5$"
+    ],
+    "answer": "$2\\over \\sqrt 5$",
+    "explanation": ""
+  },
+  {
+    "id": 7612,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$3x^3- 6x + 8 =0$সমীকরণের মূলত্রয় $\\alpha , \\beta ,\\gamma $ হলে $\\sum \\alpha $ এর মান কত?",
+    "options": [
+      "-6",
+      "-2",
+      "0",
+      "2"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7613,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$-\\sqrt 3-i$ এর মুখ্য আর্গুমেন্ট কত?",
+    "options": [
+      "$-{\\pi \\over 6}$",
+      "${\\pi \\over 6}$",
+      "$-{5\\pi \\over 6}$",
+      "${7\\pi \\over 6}$"
+    ],
+    "answer": "$-{5\\pi \\over 6}$",
+    "explanation": ""
+  },
+  {
+    "id": 7614,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$4x^2 + y^2 = 4$ উপবৃত্তের ক্ষেত্রে -</p><p><br/>i. বৃহৎ অক্ষের দৈর্ঘ্য 4 </p><p><br/>ii. উপকেন্দ্রিক লম্বের দৈর্ঘ্য 1</p><p><br/>iii. উপকেন্দ্রদ্বয়ের স্থানাঙ্ক $(0, 1√2 )$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 7615,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>2N ও 3N মানের বলদ্বয় 60° কোণে একটি বিন্দুতে ক্রিয়ারত।</p><p><br></p><p>Q. বলদ্বয়ের লব্ধির মান কত?</p>",
+    "options": [
+      "$\\sqrt 7N$",
+      "$\\sqrt {19}N$",
+      "7N",
+      "19N"
+    ],
+    "answer": "$\\sqrt {19}N$",
+    "explanation": "<p>বলদ্বয়ের লব্ধি R হলে,</p><p>$\\begin{aligned}&amp; R^2=2^2+3^2+2.2 .3 \\cdot \\cos 60^{\\circ}=4+9+12 \\times \\frac{1}{2}=19 \\\\&amp; \\therefore R=\\sqrt{19} N .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7616,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>2N ও 3N মানের বলদ্বয় 60° কোণে একটি বিন্দুতে ক্রিয়ারত।</p><p><br></p><p>Q. লব্ধির বলের ক্রিয়ারেখা ক্ষুদ্রতর বলটির সাথে কত কোণ তৈরি করবো?</p>",
+    "options": [
+      "$tan^{-1}({\\sqrt 3\\over 4})$",
+      "$tan^{-1}({3\\sqrt 3\\over 7})$",
+      "$tan^{-1}({3\\over 4+3\\sqrt 3})$",
+      "$tan^{-1}({1\\over 4+3\\sqrt 3})$"
+    ],
+    "answer": "$tan^{-1}({3\\sqrt 3\\over 7})$",
+    "explanation": ""
+  },
+  {
+    "id": 7617,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$tan^{-1}2+tan^{-1}3$ এর মান কত?",
+    "options": [
+      "$-{\\pi \\over 4}$",
+      "${\\pi \\over 4}$",
+      "${3\\pi \\over 4}$",
+      "${5\\pi \\over 4}$"
+    ],
+    "answer": "${3\\pi \\over 4}$",
+    "explanation": "'ক' ও 'গ' উভয়ই সঠিক।"
+  },
+  {
+    "id": 7618,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$i^2 = -1$&nbsp;হলে $i^{-39}$ এর মান-",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "i"
+    ],
+    "answer": "i",
+    "explanation": ""
+  },
+  {
+    "id": 7619,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$1-\\sqrt {-3}$ মূলবিশিষ্ট দ্বিঘাত সমীকরণ কোনটি?</p>",
+    "options": [
+      "$x^2 -2x - 4 = 0$",
+      "$x^2 -2x + 4 = 0$",
+      "$x^2 + 2x - 4 = 0$",
+      "$x^2 + 2x +4 = 0$"
+    ],
+    "answer": "$x^2 -2x + 4 = 0$",
+    "explanation": ""
+  },
+  {
+    "id": 7620,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$z= i - 1$ হলে-</p><p><br/>i. $\\bar z = -i -1$</p><p><br/>ii. $|z|= \\sqrt 2$</p><p><br/>iii. z এর পোলার আকার $cos{\\pi \\over 4} - i sin{\\pi \\over 4}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 7621,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>$y^2 - 1- x$ একটি পরাবৃত্তের সমীকরণ।</p><p><br></p><p>Q. পরাবৃত্তটির শীর্ষবিন্দু কোনটি?</p>",
+    "options": [
+      "(-1,0)",
+      "(1,0)",
+      "(0,-1)",
+      "(0,1)"
+    ],
+    "answer": "(1,0)",
+    "explanation": "<p>$y^2=-(x-1) \\text { वा, } y^2=4 \\cdot\\left(-\\frac{1}{4}\\right)(x-1)$</p><p><br></p><p>শীর্ষবিন্দুর জন্য, $x-1=0, \\quad y=0$</p><p>$\\therefore \\mathrm{x}=1 \\text {. }$</p><p>$\\therefore$ শীর্ষবিন্দু $(1,0)$</p>"
+  },
+  {
+    "id": 7622,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>$y^2 - 1- x$ একটি পরাবৃত্তের সমীকরণ।</p><p><br></p><p>Q. পরাবৃত্তটির নিয়ামক রেখা কোনটি?</p>",
+    "options": [
+      "x = 0",
+      "x - 2 = 0",
+      "4x - 3 = 0",
+      "<p>4x - 5 = 0</p>"
+    ],
+    "answer": "<p>4x - 5 = 0</p>",
+    "explanation": "<p>নিয়ামকরেখা : $x-1=-\\left(-\\frac{1}{4}\\right)$ </p><p>বা, $x-1=\\frac{1}{4}$</p><p>বা, $4 x-4=1$</p><p>$\\therefore 4 x-5=0$</p>"
+  },
+  {
+    "id": 7623,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "একটি বিন্দুতে একই সময়ে ক্রিয়ারত নিচের কোন বলত্রয়কে তাদের সাম্যাবস্থার জন্য একটি ত্রিভুজের তিনটি বাহু দ্বারা একই ক্রমে মানে ও দিকে প্রকাশ করা সম্ভব নয়?",
+    "options": [
+      "1N, 2N ও 3N",
+      "2N, 3Nও 4N",
+      "3N, 4Nও 5N",
+      "3N, 5Nও 7N"
+    ],
+    "answer": "1N, 2N ও 3N",
+    "explanation": ""
+  }
+]

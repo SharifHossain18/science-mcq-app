@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-mcq-v1';
+const CACHE_NAME = 'lumen-mcq-v22';
 const urlsToCache = [
     './',
     './index.html',
@@ -9,6 +9,7 @@ const urlsToCache = [
     './subjects.js',
     './mcq.js',
     './manifest.json',
+    './data/meta.json',
     'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
 ];
@@ -24,8 +25,8 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
-    // If fetching the massive data.json, we try cache first, fallback to network
-    if (event.request.url.includes('data.json')) {
+    // Cache split JSON data files dynamically (stale-while-revalidate strategy)
+    if (event.request.url.includes('/data/')) {
         event.respondWith(
             caches.match(event.request).then(cachedResponse => {
                 if (cachedResponse) {

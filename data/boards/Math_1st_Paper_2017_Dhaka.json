@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6849,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>A ম্যাট্রিক্সের ক্রম $2\\times4$ এবং B ম্যাট্রিক্সের ক্রম $4\\times3$ হলে, AB এর ক্রম কোনটি?</p>",
+    "options": [
+      "<p>$2\\times4$</p>",
+      "$2\\times3$",
+      "$3\\times2$",
+      "$4\\times4$"
+    ],
+    "answer": "$2\\times3$",
+    "explanation": ""
+  },
+  {
+    "id": 6850,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\begin{vmatrix}5&amp;0&amp;1\\\\-3&amp;2&amp;3\\\\6&amp;7&amp;-1\\end{vmatrix}$ নির্ণায়কে (2, 1) তম ভুক্তির সহগুণক কত?</p>",
+    "options": [
+      "-7",
+      "-3",
+      "3",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "<p>(2,1) ভূক্তির সহগুনক $\\begin{vmatrix}0&amp;1\\\\7&amp;-1\\end{vmatrix}\\;=-(0-7)=7$</p>"
+  },
+  {
+    "id": 6851,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\overline a=2\\widehat i+4\\widehat j-\\widehat k$ ভেক্টরের দিক বরাবর $\\overline b=\\widehat i+\\widehat j+3\\widehat k$ এর অংশক কত?</p>",
+    "options": [
+      "$\\frac3{21}\\widehat a$",
+      "$-\\frac3{21}\\widehat a$",
+      "$-\\frac3{\\sqrt{21}}\\widehat a$",
+      "$\\frac3{\\sqrt{21}}\\widehat a$"
+    ],
+    "answer": "$\\frac3{\\sqrt{21}}\\widehat a$",
+    "explanation": ""
+  },
+  {
+    "id": 6852,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\overline A=2\\widehat i-\\widehat j+2\\widehat k$ ভেক্টরটি Z-অক্ষের সাথে যে কোণ উৎপন্ন করে তা হলো-</p>",
+    "options": [
+      "$cos^{-1}(-{2\\over3})$",
+      "$cos^{-1}(-{2\\over9})$",
+      "$cos^{-1}({2\\over3})$",
+      "$cos^{-1}({2\\over\\sqrt3})$"
+    ],
+    "answer": "$cos^{-1}({2\\over3})$",
+    "explanation": "<p>z-অক্ষের সাথে উৎপন্ন কোণ,</p><p>$ \\theta=\\cos ^{-1} \\frac{\\vec{A} \\cdot \\hat{k}}{|\\overrightarrow{\\mathrm{A}}| \\cdot|\\hat{k}|} =\\cos ^{-1} \\frac{(2 \\hat{i}-\\hat{j}+2 \\hat{k}) \\cdot \\hat{k}}{\\sqrt{2^2+(-1)^2+2^2} \\cdot 1} $</p><p>$=\\cos ^{-1} \\frac{2}{\\sqrt{4+1+4}} $</p><p>$ =\\cos ^{-1} \\frac{2}{\\sqrt{9}}=\\cos ^{-1} \\frac{2}{3}.$</p>"
+  },
+  {
+    "id": 6853,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>কোনো বিন্দুর কার্তেসীয় স্থানাঙ্ক $(-1,\\sqrt3)$ হলে, বিন্দুটির পোলার স্থানাঙ্ক হবে-</p>",
+    "options": [
+      "$(2,{\\pi \\over 3})$",
+      "$(2,{2\\pi \\over 3})$",
+      "$(2,{-\\pi \\over 3})$",
+      "$(4,{2\\pi \\over 3})$"
+    ],
+    "answer": "$(2,{2\\pi \\over 3})$",
+    "explanation": "<p>$(-1, \\sqrt{3})$ বিন্দুর পোলার স্থানাঙ্ক $(r, \\theta)$ হলে, </p><p>$r=\\sqrt{(-1)^2+(\\sqrt{3})^2}=\\sqrt{1+3}=\\sqrt{4}=2$</p><p>এবং $\\theta=\\tan ^{-1} \\frac{\\sqrt{3}}{-1}=\\pi-\\tan ^{-1} \\sqrt{3}=\\pi-\\frac{\\pi}{3}=\\frac{2 \\pi}{3}$</p><p>$\\therefore$ বিন্দুটির পোলার স্থানাঙ্ক $\\left(2, \\frac{2 \\pi}{3}\\right)$.</p>"
+  },
+  {
+    "id": 6854,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$y=-7x+9$ রেখার সাথে লম্ব রেখার নতি কত?</p>",
+    "options": [
+      "${1\\over7}$",
+      "$-{1\\over7}$",
+      "-7",
+      "7"
+    ],
+    "answer": "${1\\over7}$",
+    "explanation": ""
+  },
+  {
+    "id": 6855,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাওঃ</p><p><strong>$3x-4y-12=0$ রেখাটি x ও y-অক্ষকে যথাক্রমে A ও B বিন্দুতে ছেদ করে।</strong></p><p>Q. B বিন্দুর স্থানাঙ্ক কত?</p>",
+    "options": [
+      "(4, 0)",
+      "(0, 4)",
+      "(0, -3)",
+      "(0, 3)"
+    ],
+    "answer": "(0, -3)",
+    "explanation": ""
+  },
+  {
+    "id": 6856,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাওঃ</p><p><strong>$3x-4y-12=0$ রেখাটি x ও y-অক্ষকে যথাক্রমে A ও B বিন্দুতে ছেদ করে।</strong></p><p><strong>Q. </strong>প্রদত্ত রেখার উপর লম্ব এবং (1, 2) বিন্দুগামী সরলরেখার সমীকরণ হল-</p>",
+    "options": [
+      "4x+3y-12=0",
+      "4x+3y-10=0",
+      "3x-4y+12=0",
+      "4x-3y-10=0"
+    ],
+    "answer": "4x+3y-10=0",
+    "explanation": ""
+  },
+  {
+    "id": 6857,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>(2, -3) কেন্দ্রবিশিষ্ট বৃত্তটি x-অক্ষকে স্পর্শ করলে তার সমীকরণ কোনটি?</p>",
+    "options": [
+      "$(x-2)^2+(y-3)^2=3^2$",
+      "$(x+2)^2+(y+3)^2=2^2$",
+      "$(x+2)^2+(y-3)^2=2^2$",
+      "$(x-2)^2+(y+3)^2=3^2$"
+    ],
+    "answer": "$(x-2)^2+(y+3)^2=3^2$",
+    "explanation": "<p>$(2,-3)$ কেন্দ্রবিশিষ্ট বৃত্ত x-অক্ষকে স্পর্শ করলে বৃত্তটির ব্যাসার্ধ হবে 3 একক।</p><p>$\\therefore(2,-3)$ কেন্দ্র এবং $\\mathrm{r}$ ব্যাসার্ধবিশিষ্ট বৃত্তের সমীকরণ $(\\mathrm{x}-$ $2)^2+(y+3)^2=3^2$.</p>"
+  },
+  {
+    "id": 6858,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$x^2+y^2-3x-4y+5=0$ এবং $3x^2+3y^2-6x-9y-3=0$ দুইটি বৃত্তের সমীকরণ।</p><p><strong>Q. দ্বিতীয় বৃত্ত দ্বারা x-অক্ষের ছেদিত অংশের দৈর্ঘ্য কত?</strong></p>",
+    "options": [
+      "$2\\sqrt2$",
+      "$\\sqrt{13}$",
+      "$\\sqrt2$",
+      "$\\sqrt{13} \\over 2$"
+    ],
+    "answer": "$2\\sqrt2$",
+    "explanation": "<p>দ্বিতীয় বৃত্ত $3 x^2+3 y^2-6 x-9 y-3=0$</p><p>বা, $3\\left(x^2+y^2-2 x-3 y-1\\right)=0$</p><p>বা, $x^2+y^2-2 x-3 y-1=0$</p><p>বৃত্তটিকে বৃত্তের সাধারণ সমীকরণ $x^2+y^2+2 g x+2 f y+c=0$</p><p>এর সাথে তুলনা করে পাই,</p><p>$ \\mathrm{g}=-1, \\mathrm{c}=-1 $</p><p><br></p><p>বৃত্তটি দ্বরা $x$-অক্ষের ছেদিত অংশের দৈর্ঘ্য</p><p>$ =2 \\sqrt{g^2-c} $</p><p>$ =2 \\sqrt{(-1)^2-(-1)}=2 \\sqrt{1+1}=2 \\sqrt{2}.$</p>"
+  },
+  {
+    "id": 6859,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$x^2+y^2-3x-4y+5=0$ এবং $3x^2+3y^2-6x-9y-3=0$ দুইটি বৃত্তের সমীকরণ।</p><p><strong>Q. বৃত্তের সাধারণ জ্যা এর সমীকরণ কোনটি?</strong></p>",
+    "options": [
+      "x-y-6=0",
+      "x+y+6=0",
+      "x+y-6=0",
+      "x-y+6=0"
+    ],
+    "answer": "x+y-6=0",
+    "explanation": "<p>প্রথম বৃত্ত, $x^2+y^2-3 x-4 y+5=0$ ... (i)</p><p>দ্বিতীয় বৃত্ত, $x^2+y^2-2 x-3 y-1=0$ .... (ii)</p><p>(ii) নং হতে (i) নং বিয়োগ করে পাই,</p><p>$ x+y-6=0 $</p><p>$\\therefore$ বৃত্তদ্বযের সাধারণ জ্যা এর সমীকরণ</p><p>$ x+y-6=0 $</p>"
+  },
+  {
+    "id": 6860,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>বিন্যাস ও সমাবেশের ক্ষেত্রে-</p><p><br/>i. $^nC_r=^nC_{n-r}$</p><p><br/>ii. $^nC_r+^nC_{r-1}=^{n+1}C_r$</p><p><br/>iii. $r!\\times ^nC_r=^nP_r$</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6861,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p><strong>BANANA</strong> শব্দটির সবগুলি বর্ণ ব্যবহার করে কতগুলি শব্দ গঠন করা যায়?</p>",
+    "options": [
+      "720",
+      "120",
+      "60",
+      "6"
+    ],
+    "answer": "60",
+    "explanation": ""
+  },
+  {
+    "id": 6862,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$^nC_{10}=^nC_6$ হলে n = ?</p>",
+    "options": [
+      "16",
+      "10",
+      "6",
+      "4"
+    ],
+    "answer": "16",
+    "explanation": "<p>এখানে, ${ }^n C_{10}={ }^n C_6$ বা, ${ }^n C_{n-10}={ }^n C_6$</p><p>বা, $n-10=6$ বা, $n=6+10 \\therefore n=16$</p>"
+  },
+  {
+    "id": 6863,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>sin 3x এর পর্যায় কত?</p>",
+    "options": [
+      "$2\\pi\\over3$",
+      "$3\\pi$",
+      "$\\pi\\over3$",
+      "$2\\pi$"
+    ],
+    "answer": "$2\\pi\\over3$",
+    "explanation": ""
+  },
+  {
+    "id": 6864,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$f:\\mathfrak R\\rightarrow\\mathfrak R$ এবং $f(x)=\\frac{3x+2}{4x+5}$ হলে $f^{-1}(x)=?$</p>",
+    "options": [
+      "$\\frac{5x+2}{4x+3}$",
+      "$\\frac{-5x+2}{4x-3}$",
+      "$\\frac{5x-2}{4x+3}$",
+      "$\\frac{5x-2}{4x-3}$"
+    ],
+    "answer": "$\\frac{-5x+2}{4x-3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6865,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$f(x)=\\sqrt{x-2}$ ফাংশনের ডোমেন কত?</p>",
+    "options": [
+      "$(-2,\\infty)$",
+      "$(2,\\infty)$",
+      "$[2,\\infty]$",
+      "$[2,\\infty)$"
+    ],
+    "answer": "$[2,\\infty)$",
+    "explanation": "<p>$f(x)=\\sqrt{x-2}$. ফাংশনের বাস্তব মান পাওয়া যাবে যদি $x-2 \\geq$ 0 বা, $x \\geq 2$ হয়</p><p>$\\therefore$ ফাংশনটির ডোমেন $=\\{x \\in R: x \\geq 2\\}=[2, \\infty)$</p>"
+  },
+  {
+    "id": 6866,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$cos(7{1\\over2})^o=?$</p>",
+    "options": [
+      "$\\sqrt{2+\\sqrt{2+\\sqrt{3}}}$",
+      "${1\\over2}\\sqrt{2+\\sqrt{2+\\sqrt{3}}}$",
+      "${1\\over2}\\sqrt{2-\\sqrt{2+\\sqrt{3}}}$",
+      "$\\sqrt{2-\\sqrt{2+\\sqrt{3}}}$"
+    ],
+    "answer": "${1\\over2}\\sqrt{2+\\sqrt{2+\\sqrt{3}}}$",
+    "explanation": ""
+  },
+  {
+    "id": 6867,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$sin5^o=p$ হলে $sin10^0$ এর মান কোনটি?</p>",
+    "options": [
+      "$2p$",
+      "$2p\\sqrt{p^2-1}$",
+      "$2\\sqrt{1-p^2}$",
+      "$2p\\sqrt{1-p^2}$"
+    ],
+    "answer": "$2p\\sqrt{1-p^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 6868,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$f(x)=sin2x$ হলে-</p><p><br/>i. $\\lim_{x\\rightarrow0}\\frac{f(x)}{2x}=1$</p><p><br/>ii. $ f'(x)=2\\cos2x$</p><p><br/>iii. $\\int f(x)dx=\\cos2x+c$</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6869,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\frac d{dx}\\left(\\cos\\sqrt x\\right)$ এর মান কোনটি?</p>",
+    "options": [
+      "$-\\sin\\sqrt x$",
+      "$-\\frac{\\sin\\sqrt x}{2\\sqrt x}$",
+      "$-\\frac{\\sin\\sqrt x}{\\sqrt x}$",
+      "$\\frac{\\sin\\sqrt x}{2\\sqrt x}$"
+    ],
+    "answer": "$-\\frac{\\sin\\sqrt x}{2\\sqrt x}$",
+    "explanation": "<p>$\\frac{d}{d x}(\\cos \\sqrt{x})=-\\sin \\sqrt{x} \\cdot \\frac{1}{2 \\sqrt{x}}=-\\frac{\\sin \\sqrt{x}}{2 \\sqrt{x}}$</p>"
+  },
+  {
+    "id": 6870,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$f(x)=4x$ হলে-</p><p><br/>i. $\\int\\frac{dx}{f(x)}=\\frac14\\ln x+c$</p><p><br/>ii. $\\int e^{f(x)}dx=\\frac14e^{4x}+c$</p><p><br/>iii. $\\int_0^2f(x)dx=8$</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6871,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\int\\sin x^odx$ = কত?</p>",
+    "options": [
+      "$\\cos x^o+c$",
+      "$-\\cos x^o+c$",
+      "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+      "$\\frac{180}{\\mathrm\\pi}\\cos x^o$"
+    ],
+    "answer": "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+    "explanation": ""
+  },
+  {
+    "id": 6872,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$A=\\begin{pmatrix}3&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;5\\end{pmatrix}$ একটি ম্যাট্রিক্স।</p><p><strong>Q. A একটি-</strong></p><p><strong><br/>i. প্রতিসম ম্যাট্রিক্স</strong></p><p><strong><br/>ii. স্কেলার ম্যাট্রিক্স</strong></p><p><strong><br/>iii. কর্ণ ম্যাট্রিক্স</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6873,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$A=\\begin{pmatrix}3&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;5\\end{pmatrix}$ একটি ম্যাট্রিক্স।</p><p>Q. নিচের কোনটি $A^{-1}$?</p>",
+    "options": [
+      "$\\frac1{\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}}$",
+      "$\\frac1{60}\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}$",
+      "$60\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}$",
+      "$\\begin{pmatrix}\\frac13&0&0\\\\0&\\frac14&0\\\\0&0&\\frac15\\end{pmatrix}$"
+    ],
+    "answer": "$\\begin{pmatrix}\\frac13&0&0\\\\0&\\frac14&0\\\\0&0&\\frac15\\end{pmatrix}$",
+    "explanation": ""
+  }
+]

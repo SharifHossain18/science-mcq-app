@@ -1,0 +1,610 @@
+[
+  {
+    "id": 6663,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "$\\overset\\wedge i+\\overset\\wedge j-\\overset\\wedge k,\\;\\overset\\wedge i-\\overset\\wedge j+\\overset\\wedge k\\;,\\;-\\overset\\wedge i+\\overset\\wedge j+a\\overset\\wedge k\\\\$ ভেক্টর তিনটি একই সমতলে অবস্থিত হলে ধ্রুবক a এর মান কত?",
+    "options": [
+      "-2",
+      "-1",
+      "0",
+      "2"
+    ],
+    "answer": "-1",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm{ভেক্টর}\\;\\mathrm{তিনটি}\\;\\mathrm{সমতলীয়}\\;\\mathrm{হওয়ায়}\\;,\\\\\\Rightarrow\\;\\begin{vmatrix}1&amp;1&amp;-1\\\\1&amp;-1&amp;1\\\\-1&amp;1&amp;\\mathrm a\\end{vmatrix}=0\\\\\\Rightarrow(-\\mathrm a-1)+(-1-\\mathrm a)+0\\;=\\;0\\\\\\\\\\Rightarrow-2\\mathrm a\\;-2\\;=\\;0\\\\\\Rightarrow\\mathrm a=-1$"
+  },
+  {
+    "id": 6667,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "$\\overrightarrow{\\mathrm A}=2\\widehat{\\mathrm i}+4\\widehat{\\mathrm j}+5\\widehat{\\mathrm k}\\;\\;\\mathrm{এবং}\\;\\overrightarrow{\\mathrm B}=\\widehat{\\mathrm i}-\\mathrm\\lambda\\widehat{\\mathrm j}+10\\;\\widehat{\\mathrm k}\\;$ ভেক্টরদ্বয় পরস্পর লম্ব হয় তবে, $\\lambda$এর মান কত?",
+    "options": [
+      "-13",
+      "-12",
+      "12",
+      "13"
+    ],
+    "answer": "13",
+    "explanation": ""
+  },
+  {
+    "id": 6674,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$\\vec a=2\\hat i+3\\hat j+5\\hat k$ ভেক্টরটি দ্বারা z-অক্ষের সাথে উৎপন্ন কোণের পরিমাপ-",
+    "options": [
+      "$cos^{-1}{4\\over \\sqrt {38}}$",
+      "$cos^{-1}{5\\over \\sqrt {38}}$",
+      "$cos^{-1}{2\\over \\sqrt {38}}$",
+      "$cos^{-1}{3\\over \\sqrt {38}}$"
+    ],
+    "answer": "$cos^{-1}{5\\over \\sqrt {38}}$",
+    "explanation": ""
+  },
+  {
+    "id": 6695,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$\\vec P= 3\\overset\\wedge i+2\\overset\\wedge j-2\\overset\\wedge k$ এবং $\\vec Q=-\\overset\\wedge i+\\overset\\wedge j-6\\overset\\wedge k$ হলে, $\\vec P \\ ও\\ \\vec Q$ এর লব্ধি ভেক্টর কোনটি?",
+    "options": [
+      "$-2\\overset\\wedge i+3\\overset\\wedge j+4\\overset\\wedge k$",
+      "$2\\overset\\wedge i+3\\overset\\wedge j-8\\overset\\wedge k$",
+      "$4\\overset\\wedge i+\\overset\\wedge j+4\\overset\\wedge k$",
+      "$4\\overset\\wedge i+\\overset\\wedge j-4\\overset\\wedge k$"
+    ],
+    "answer": "$2\\overset\\wedge i+3\\overset\\wedge j-8\\overset\\wedge k$",
+    "explanation": "ব্যাখ্যাঃ$\\overrightarrow P\\;+\\;\\overrightarrow{Q\\;}=\\;3\\widehat i\\;+\\;2\\widehat j\\;-2\\widehat k\\;-\\widehat i+\\widehat j-6\\widehat k=\\;2\\widehat i+3\\widehat j-8\\widehat k$"
+  },
+  {
+    "id": 6713,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</span></p><p><span style=\"background-color: rgb(243, 244, 246);\"></span>$\\overrightarrow{\\mathrm A}=\\;\\overset\\wedge i-\\overset\\wedge j+\\overset\\wedge k$ এবং $\\overrightarrow{\\mathrm B}=\\;\\overset\\wedge i+2\\overset\\wedge j-\\overset\\wedge k$ </p><p><br></p><p>Q. $\\vec B\\times \\vec A$ নিচের কোনটি?</p>",
+    "options": [
+      "$\\overset\\wedge i-2\\overset\\wedge j-3\\overset\\wedge k$",
+      "$3\\overset\\wedge i-2\\overset\\wedge j+3\\overset\\wedge k$",
+      "$-\\overset\\wedge i+2\\overset\\wedge j+3\\overset\\wedge k$",
+      "$-\\overset\\wedge i-2\\overset\\wedge j+3\\overset\\wedge k$"
+    ],
+    "answer": "$\\overset\\wedge i-2\\overset\\wedge j-3\\overset\\wedge k$",
+    "explanation": ""
+  },
+  {
+    "id": 6714,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</span></p><p>$\\overrightarrow{\\mathrm A}=\\;\\overset\\wedge i-\\overset\\wedge j+\\overset\\wedge k$ এবং $\\overrightarrow{\\mathrm B}=\\;\\overset\\wedge i+2\\overset\\wedge j-\\overset\\wedge k$ </p><p><br></p><p>Q. $\\vec {AB}$= এর মান কত ?</p>",
+    "options": [
+      "$\\sqrt 5$",
+      "$\\sqrt 9$",
+      "$\\sqrt {13}$",
+      "$\\sqrt {17}$"
+    ],
+    "answer": "$\\sqrt {13}$",
+    "explanation": ""
+  },
+  {
+    "id": 6727,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "$\\overset\\wedge i+\\;\\lambda\\overset\\wedge j+2\\overset\\wedge k$ এবং $2\\overset\\wedge i+\\overset\\wedge j-2\\overset\\wedge k$ ভেক্টরদ্বয় পরস্পর লম্ব হলে, $\\lambda$ এর মান কোনটি?",
+    "options": [
+      "-6",
+      "-2",
+      "0",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm{পরস্পর}\\;\\mathrm{লম্ব}\\;\\mathrm{হওয়ায়}\\;\\mathrm{ডট}\\;\\mathrm{গুনফল}\\;\\mathrm{শূন্য}\\;\\mathrm{হবে}\\;...\\\\\\Rightarrow1.2\\;+\\;\\mathrm\\lambda\\;-4\\;=\\;0\\\\\\Rightarrow\\mathrm\\lambda\\;=\\;2$"
+  },
+  {
+    "id": 6728,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "$\\overset-P=\\;\\sqrt2\\overset\\wedge i+\\alpha\\overset\\wedge j$ এবং $\\overset-Q=\\;\\overset\\wedge i+\\sqrt2\\overset\\wedge j$ ভেক্টরদ্বয় পরস্পর সমান্তরাল হলে, $\\alpha$ এর মান কত হবে?",
+    "options": [
+      "-2",
+      "-1",
+      "$\\sqrt 2$",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm{পরস্পর}\\;\\mathrm{সমান্তরাল}\\;\\mathrm{হলে}\\;\\mathrm{তাদের}\\;\\;\\mathrm{সহগ}\\;\\mathrm{এর}\\;\\mathrm{অনুপাত}\\;\\mathrm{সমান}\\;\\mathrm{হবে}...\\\\\\Rightarrow\\frac{\\sqrt2}1=\\;\\frac{\\mathrm\\alpha}{\\sqrt2}\\\\\\Rightarrow\\;\\;\\mathrm\\alpha\\;=\\;2$"
+  },
+  {
+    "id": 6750,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>Q(2,3,-1)এবং P(4,-3,2) হলে, $\\overrightarrow{\\left|PQ\\right|}$ এর মান কত?</p>",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "10"
+    ],
+    "answer": "7",
+    "explanation": "ব্যাখ্যাঃ$\\overrightarrow{\\left|PQ\\right|}=\\sqrt{{(2-4)}^2+{(3+3)}^2+{(-1-2)}^2}=\\sqrt{4+36+9}=\\;7$"
+  },
+  {
+    "id": 6760,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>$3 \\hat{i}+2 \\hat{j}+a \\hat{k}$ এবং $4 \\hat{i}-3 \\hat{j}+\\hat{k}$ ভেক্টরদ্বয় পরস্পর লম্ব হলে a এর মান কত?</p>",
+    "options": [
+      "-6",
+      "1",
+      "6",
+      "12"
+    ],
+    "answer": "-6",
+    "explanation": "ব্যাখ্যাঃ$\\;\\mathrm{লম্ব}\\;\\mathrm{হলে}\\;\\mathrm{ডট}\\;\\mathrm{গুনফল}\\;\\mathrm{শূন্য}\\;\\mathrm{হয়}\\;,\\;\\\\\\mathrm{সুতরাং},\\\\\\;\\;\\;\\;\\;3.4\\;+\\;2.(-3)\\;+\\;\\mathrm a.\\;1\\;=\\;0\\\\\\Rightarrow\\;\\mathrm a\\;=\\;-6$"
+  },
+  {
+    "id": 6794,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$\\bar A=\\hat i-\\hat j+\\hat k$ এবং $\\bar B=3\\hat i-2\\hat j+3\\hat k$ দুইটি ভেক্টর হলে,-</p><p><br/>i. $\\bar A$ভেক্টরের মান $\\sqrt 3$</p><p><br/>ii. $\\bar A$ ভেক্টরের উপর $\\bar B$ভেক্টরের অভিক্ষেপ $8\\over \\sqrt 3$</p><p><br/>iii. ভেক্টর দুইটির অন্তর্গত কোণ $cos^{-1}{8\\over \\sqrt {66}}$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6795,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=\\hat i+2\\hat j$, $\\bar b=-\\hat i+3\\hat j+\\hat k$ ভেক্টর দুইটি কোনো সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে। </p><p>Q. সমান্তবিকটির ক্ষেত্রফল কত বর্গ একক?</p>",
+    "options": [
+      "30",
+      "15",
+      "${1\\over 2}\\sqrt {30}$",
+      "$\\sqrt {30}$"
+    ],
+    "answer": "$\\sqrt {30}$",
+    "explanation": "<p>$\\begin{vmatrix}\\widehat{\\mathrm i}&amp;\\widehat{\\mathrm j}&amp;\\widehat{\\mathrm k}\\\\1&amp;2&amp;0\\\\-1&amp;3&amp;1\\end{vmatrix}=\\widehat{\\mathrm i}\\;.\\;(2-0)\\;-\\widehat{\\mathrm j}\\;.\\;(1-0)\\;+\\;\\widehat{\\mathrm k}\\;.\\;(3+2)=2\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+5\\widehat{\\mathrm k}\\\\\\mathrm{ক্ষেত্রফল}\\;=\\;\\sqrt{4+1+25}=\\sqrt{30}$</p>"
+  },
+  {
+    "id": 6796,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=\\hat i+2\\hat j$, $\\bar b=-\\hat i+3\\hat j+\\hat k$ ভেক্টর দুইটি কোনো সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে। </p><p>Q. সামান্তনিকটির কর্ণের সমান্তরাল একক ভেক্টর কোনটি?</p>",
+    "options": [
+      "${1 \\over 26}(5\\hat j+\\hat k)$",
+      "${1 \\over \\sqrt 26}(5\\hat j+\\hat k)$",
+      "${1 \\over \\sqrt 3}(\\hat i+2\\hat j)$",
+      "${1 \\over \\sqrt {11}}(-\\hat i+3\\hat j+\\hat k)$"
+    ],
+    "answer": "${1 \\over \\sqrt 26}(5\\hat j+\\hat k)$",
+    "explanation": "<p>$\\mathrm{কর্ণ}\\;\\mathrm{ভেক্টর}\\;\\;\\overline{\\mathrm a}+\\overline{\\mathrm b}\\;=\\;5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}\\\\\\mathrm{কর্ণের}\\;\\mathrm{একক}\\;\\mathrm{ভেক্টর}\\;=\\;\\frac{\\;5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}}{\\sqrt{25+1}}=\\frac{5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}}{\\sqrt{26}}$</p>"
+  },
+  {
+    "id": 6822,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$\\overset-a=\\overset\\wedge i+2\\overset\\wedge j-\\overset\\wedge k\\;,\\;\\overset-b=-\\overset\\wedge i+\\overset\\wedge j+\\lambda\\overset\\wedge k$ভেক্টরদ্বয় পরস্পর লম্ব হলে, $\\lambda$ এর মান নিচের কোনটি?",
+    "options": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": "ব্যাখ্যাঃ$\\;\\;\\;\\widehat a.\\widehat b=\\;0\\\\\\Rightarrow1(-1)+2(1)+(-1)\\lambda=0\\\\\\Rightarrow\\;\\lambda=1$"
+  },
+  {
+    "id": 6823,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$\\overset-A=2\\overset\\wedge i+\\overset\\wedge j+\\overset\\wedge k\\;,\\;\\overset-B=\\overset\\wedge i-\\overset\\wedge j+2\\overset\\wedge k$ হলে, $\\overset-A\\;$ এর উপর $\\overset-B\\;$ এর লম্ব অভিক্ষেপ কত?",
+    "options": [
+      "$\\sqrt {3\\over 2}$",
+      "${3\\over 2}$",
+      "$1\\over \\sqrt 6$",
+      "$\\sqrt 6$"
+    ],
+    "answer": "$\\sqrt {3\\over 2}$",
+    "explanation": "ব্যাখ্যাঃ$\\overrightarrow{\\mathrm B}=\\;\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+2\\widehat{\\mathrm k}\\\\\\widehat{\\mathrm b}=\\frac{\\overrightarrow{\\mathrm B}}{\\left|\\overrightarrow{\\mathrm B}\\right|}=\\frac{\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+2\\widehat{\\mathrm k}}{\\sqrt{1+1+4}}=\\frac1{\\sqrt6}(\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+2\\widehat{\\mathrm k})\\\\\\mathrm{লম্ব}\\;\\mathrm{অভিক্ষেপ}\\;=\\overrightarrow{\\mathrm A}.\\widehat{\\mathrm b}\\;=(2\\widehat{\\mathrm i}+\\widehat{\\mathrm j}+\\widehat{\\mathrm k}).\\frac1{\\sqrt6}(\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+2\\widehat{\\mathrm k})\\\\=\\frac1{\\sqrt6}\\left[(2\\widehat{\\mathrm i}+\\widehat{\\mathrm j}+\\widehat{\\mathrm k}).(\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+2\\widehat{\\mathrm k})\\right]\\\\=\\frac1{\\sqrt6}\\lbrack2.1+(1)(-1)+1.2\\rbrack=\\frac3{\\sqrt6}=\\frac3{\\sqrt3\\sqrt2}=\\frac{\\sqrt3}{\\sqrt2}=\\sqrt{\\frac32}$"
+  },
+  {
+    "id": 6847,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=2\\hat i-3\\hat j+4\\hat k$ ও $\\bar b=4\\hat i+\\hat j-3\\hat k$ দুইটি ভেক্টর। </p><p>Q. $\\bar a , \\bar b$ এর লব্ধি ভেক্টরের সমান্তরাল একক ভেক্টর কোনটি?</p>",
+    "options": [
+      "${1\\over \\sqrt {41}}(6\\hat i-2\\hat j+\\hat k)$",
+      "${1\\over \\sqrt {69}}(-2\\hat i-4\\hat j+7\\hat k)$",
+      "${1\\over \\sqrt {29}}(2\\hat i-3\\hat j-4\\hat k)$",
+      "${1\\over \\sqrt {417}}(5\\hat i+14\\hat j+14\\hat k)$"
+    ],
+    "answer": "${1\\over \\sqrt {41}}(6\\hat i-2\\hat j+\\hat k)$",
+    "explanation": "ব্যাখ্যাঃ$\\overline{\\mathrm a}\\;\\mathrm ও\\;\\overline{\\mathrm b}\\;\\mathrm{এর}\\;\\mathrm{লব্ধি}\\;\\mathrm{ভেক্টরের}\\;\\mathrm{সমান্তরাল}\\;\\mathrm{একক}\\;\\mathrm{ভেক্টর}\\;=\\;\\frac{\\overline{\\mathrm a}\\;+\\;\\overline{\\mathrm b}\\;}{\\begin{vmatrix}\\overline{\\mathrm a}\\;+\\;\\overline{\\mathrm b}\\;\\end{vmatrix}}\\\\=\\frac{(6\\widehat i-2\\widehat j+\\widehat k)}{\\sqrt{6^2+{(-2)}^2+1^2}}=\\;\\frac{(6\\widehat i-2\\widehat j+\\widehat k)}{\\sqrt{41}}$"
+  },
+  {
+    "id": 6848,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=2\\hat i-3\\hat j+4\\hat k$ ও $\\bar b=4\\hat i+\\hat j-3\\hat k$ দুইটি ভেক্টর। </p><p>Q. $\\vec b$ বরাবর $\\vec a$ এর উপাংশ কোনটি?</p>",
+    "options": [
+      " ${-7\\over 26}(4\\hat i+\\hat j-3\\hat k)$",
+      "${7\\over \\sqrt {26}}(-4\\hat i-\\hat j+3\\hat k)$",
+      "${-7\\over \\sqrt {29}}(2\\hat i-3\\hat j+4\\hat k)$",
+      "${7\\over 29}(2\\hat i-3\\hat j+4\\hat k)$"
+    ],
+    "answer": " ${-7\\over 26}(4\\hat i+\\hat j-3\\hat k)$",
+    "explanation": ""
+  },
+  {
+    "id": 6851,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\overline a=2\\widehat i+4\\widehat j-\\widehat k$ ভেক্টরের দিক বরাবর $\\overline b=\\widehat i+\\widehat j+3\\widehat k$ এর অংশক কত?</p>",
+    "options": [
+      "$\\frac3{21}\\widehat a$",
+      "$-\\frac3{21}\\widehat a$",
+      "$-\\frac3{\\sqrt{21}}\\widehat a$",
+      "$\\frac3{\\sqrt{21}}\\widehat a$"
+    ],
+    "answer": "$\\frac3{\\sqrt{21}}\\widehat a$",
+    "explanation": ""
+  },
+  {
+    "id": 6852,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\overline A=2\\widehat i-\\widehat j+2\\widehat k$ ভেক্টরটি Z-অক্ষের সাথে যে কোণ উৎপন্ন করে তা হলো-</p>",
+    "options": [
+      "$cos^{-1}(-{2\\over3})$",
+      "$cos^{-1}(-{2\\over9})$",
+      "$cos^{-1}({2\\over3})$",
+      "$cos^{-1}({2\\over\\sqrt3})$"
+    ],
+    "answer": "$cos^{-1}({2\\over3})$",
+    "explanation": "<p>z-অক্ষের সাথে উৎপন্ন কোণ,</p><p>$ \\theta=\\cos ^{-1} \\frac{\\vec{A} \\cdot \\hat{k}}{|\\overrightarrow{\\mathrm{A}}| \\cdot|\\hat{k}|} =\\cos ^{-1} \\frac{(2 \\hat{i}-\\hat{j}+2 \\hat{k}) \\cdot \\hat{k}}{\\sqrt{2^2+(-1)^2+2^2} \\cdot 1} $</p><p>$=\\cos ^{-1} \\frac{2}{\\sqrt{4+1+4}} $</p><p>$ =\\cos ^{-1} \\frac{2}{\\sqrt{9}}=\\cos ^{-1} \\frac{2}{3}.$</p>"
+  },
+  {
+    "id": 6883,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$\\overset\\rightharpoonup a=\\widehat i+\\widehat k$, $\\overset\\rightharpoonup b=3\\widehat j-2\\widehat k$ হলে $\\overset\\rightharpoonup a.\\overset\\rightharpoonup b$ এর মান কত?</p>",
+    "options": [
+      "-2",
+      "2",
+      "4",
+      "8"
+    ],
+    "answer": "-2",
+    "explanation": "<p>$\\vec{a} \\cdot \\vec{b}=(\\hat{\\imath}+\\hat{k}) \\cdot(3 \\hat{\\jmath}-2 \\hat{k})=0+0-2=-2$</p>"
+  },
+  {
+    "id": 6897,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>(-4, 3, 0) বিন্দুর অবস্থান ভেক্টর $\\overset\\rightharpoonup r$ হলে-</p><p><br/>i. $\\overset\\rightharpoonup r=4\\widehat i-3\\widehat j$</p><p><br/>ii. $\\left|\\overset\\rightharpoonup r\\right|=5$</p><p><br/>iii. $\\overset\\rightharpoonup r$, z-অক্ষের উপর লম্ব</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6899,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$\\overset\\rightharpoonup A$ ও $\\overset\\rightharpoonup B$ উভয়ের উপর লম্ব ভেক্টর কোনটি?</p>",
+    "options": [
+      "$\\overset\\rightharpoonup A+\\overset\\rightharpoonup B$",
+      "$\\frac{\\overset\\rightharpoonup A+\\overset\\rightharpoonup B}{\\left|\\overset\\rightharpoonup A+\\overset\\rightharpoonup B\\right|}$",
+      "$\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B$",
+      "$\\frac{\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B}{\\left|\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B\\right|}$"
+    ],
+    "answer": "$\\frac{\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B}{\\left|\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B\\right|}$",
+    "explanation": ""
+  },
+  {
+    "id": 6906,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$\\underline a=\\widehat i-2\\widehat j-2\\widehat k$ এবং $\\underline b=2\\widehat i+3\\widehat j-6\\widehat k$ হলে $\\underline b$ এর উপর $\\underline a$ এর অভিক্ষেপ কত?</p>",
+    "options": [
+      "$8 \\over 3$",
+      "$8 \\over 7$",
+      "$20 \\over 3$",
+      "$20 \\over 7$"
+    ],
+    "answer": "$8 \\over 7$",
+    "explanation": "<p>$ \\mathrm{b} $ এর উপর $  \\mathrm{a} $  এর অভিক্ষে $ =\\frac{\\mathrm{a} \\cdot \\mathrm{b}}{|\\mathrm{b}|} $ $ =\\frac{(\\hat{i}-2 \\hat{j}-2 \\hat{k}) \\cdot(2 \\hat{i}+3 \\hat{j}-6 \\hat{k})}{\\mid 2 \\hat{i}+3 \\hat{j}-6 \\hat{k}}$  $ =\\frac{2-6+12}{\\sqrt{2^2+3^2+(-6)^2}} $  </p><p>$ =\\frac{14-6}{\\sqrt{4+9+36}}=\\frac{8}{\\sqrt{49}}=\\frac{8}{7} $</p>"
+  },
+  {
+    "id": 6914,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$\\overset\\rightharpoonup A=\\widehat i-\\widehat j+\\widehat k$ এবং $\\overset\\rightharpoonup B=-3\\widehat i+2\\widehat j+\\widehat k$ হলে তাদের অন্তর্গত কোণ কোনটি?</p>",
+    "options": [
+      "$\\cos^{-1}\\left(\\frac{-6}{\\sqrt{42}}\\right)$",
+      "$\\cos^{-1}\\left(\\frac{6}{\\sqrt{42}}\\right)$",
+      "$\\cos^{-1}\\left(\\frac{4}{\\sqrt{42}}\\right)$",
+      "$\\cos^{-1}\\left(\\frac{-4}{\\sqrt{42}}\\right)$"
+    ],
+    "answer": "$\\cos^{-1}\\left(\\frac{-4}{\\sqrt{42}}\\right)$",
+    "explanation": "<p>$\\overrightarrow{\\mathrm{A}}$ ও $\\overrightarrow{\\mathrm{B}}$ এর অন্তর্গত কোণ $\\theta$ হলে, $\\overrightarrow{\\mathrm{A}} \\cdot \\overrightarrow{\\mathrm{B}}=|\\overrightarrow{\\mathrm{A}}| \\cdot|\\overrightarrow{\\mathrm{B}}| \\cos \\theta$</p><p>বা, $(\\hat{i}-\\hat{j}+\\hat{k}) \\cdot(-3 \\hat{i}+2 \\hat{j}+\\hat{k})=\\sqrt{1^2+(-1)^2+1^2}$. $\\sqrt{(-3)^2+2^2+1^2} \\cos \\theta$</p><p>বা, $-3-2+1=\\sqrt{1+1+1} \\cdot \\sqrt{9+4+1} \\cos \\theta$</p><p>বা, $-5+1=\\sqrt{3} \\cdot \\sqrt{14} \\cos \\theta$</p><p>বা, $-4=\\sqrt{42} \\cos \\theta$</p><p>বা, $\\cos \\theta=\\frac{-4}{\\sqrt{42}}$</p><p>$\\therefore \\quad \\theta=\\cos ^{-1}\\left(\\frac{-4}{\\sqrt{42}}\\right)$</p>"
+  },
+  {
+    "id": 6933,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$\\frac12\\widehat i+\\frac13\\widehat j+\\widehat k$ এর মান কোনটি?</p>",
+    "options": [
+      "$\\frac76$",
+      "$\\frac{49}{36}$",
+      "$\\frac{11}{6}$",
+      "$\\sqrt{\\frac{11}6}$"
+    ],
+    "answer": "$\\frac76$",
+    "explanation": "<p>$\\frac{1}{2} \\hat{i}+\\frac{1}{3} \\hat{j}+\\hat{k} $ এর মান $=\\sqrt{\\left(\\frac{1}{2}\\right)^2+\\left(\\frac{1}{3}\\right)^2+1^2} $</p><p>$=\\sqrt{\\frac{1}{4}+\\frac{1}{9}+1} $</p><p>$ =\\sqrt{\\frac{9+4+36}{36}}=\\sqrt{\\frac{49}{36}}=\\frac{7}{6}$</p>"
+  },
+  {
+    "id": 6944,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$\\widehat i-\\widehat j+\\widehat k$ বরাবর একক ভেক্টর কোনটি?</p>",
+    "options": [
+      "$\\frac{\\widehat i+\\widehat j+\\widehat k}{\\sqrt3}$",
+      "$\\frac{\\widehat i-\\widehat j+\\widehat k}3$",
+      "$\\widehat i-\\widehat j+\\widehat k$",
+      "$\\frac{\\widehat i-\\widehat j+\\widehat k}{\\sqrt3}$"
+    ],
+    "answer": "$\\frac{\\widehat i-\\widehat j+\\widehat k}{\\sqrt3}$",
+    "explanation": "<p>$ \\hat{i}-\\hat{j}+\\hat{k} $ ধরার একক ভেক্টর $ =\\frac{\\hat{i}-\\hat{j}+\\hat{k}}{\\sqrt{1^2+(-1)^2+1^2}} $</p><p>$ =\\frac{\\hat{i}-\\hat{j}+\\hat{k}}{\\sqrt{1+1+1}} $</p><p>$ =\\frac{\\hat{i}-\\hat{j}+\\hat{k}}{\\sqrt{3}}$</p>"
+  },
+  {
+    "id": 6951,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>a এর মান কত হলে $2\\widehat i-3\\widehat j+a\\widehat k$ ও $3\\widehat i-4\\widehat j+3\\widehat k$ পরস্পর লম্ব হবে?</p>",
+    "options": [
+      "-6",
+      "-2",
+      "2",
+      "6"
+    ],
+    "answer": "-6",
+    "explanation": "<p>ভেক্টরদ্বয় পরস্পর লম্ব হলে,</p><p>$(2 \\hat{i}-3 \\hat{j}+a \\widehat{k}) \\cdot(3 \\hat{i}-4 \\hat{j}+3 \\widehat{k})=0$</p><p>বা, $6+12+3 \\mathrm{a}=0$</p><p>বা, $3 a+18=0$</p><p>বা, $a=-6$</p>"
+  },
+  {
+    "id": 6971,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>P(1, 3, 4) ও Q(2, -3, 5) হলে-</p><p><br/>i. Q বিন্দুর অবস্থান ভেক্টর $2\\widehat i-3\\widehat j+5\\widehat k$</p><p><br/>ii. $\\overset\\rightharpoonup{OP}$ এর একক ভেক্টর $\\frac1{\\sqrt{26}}\\left(\\widehat i+3\\widehat j+4\\widehat k\\right)$</p><p><br/>iii. $\\overset\\rightharpoonup{OP}$ বরাবর $\\overset\\rightharpoonup{OQ}$ এর অভিক্ষেপ =$1\\over2$</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6977,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\overline a=\\widehat i+\\widehat j$ এবং $\\overline b=\\widehat j+\\widehat k$ হলে $\\left|\\overline a\\times\\overline b\\right|$ -</p>",
+    "options": [
+      "1",
+      "$\\sqrt{-1}$",
+      "$\\sqrt{3}$",
+      "$\\sqrt{-3}$"
+    ],
+    "answer": "$\\sqrt{3}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\bar{a} \\times \\bar{b}=\\left|\\begin{array}{ccc}\\hat{i} &amp; \\widehat{j} &amp; \\widehat{k} \\\\ 1 &amp; 1 &amp; 0 \\\\ 0 &amp; 1 &amp; 1\\end{array}\\right|=\\hat{i}(1-0)+\\widehat{j}(0-1)+\\widehat{k}(1-0)=\\hat{i}-\\widehat{j}+\\widehat{k} \\\\ &amp; |\\bar{a} \\times \\bar{b}|=\\sqrt{1^2+(-1)^2+1^2}=\\sqrt{1+1+1}=\\sqrt{3}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6978,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\overline a=a_1\\widehat i+a_2\\widehat j+a_3\\widehat k$ এর একক ভেক্টরের জন্য-</p><p><br/>i. $\\widehat a=\\frac{\\overline a}{\\left|\\overline a\\right|}$</p><p><br/>ii. $\\widehat a=1$</p><p><br/>iii. $\\left|\\overline a\\right|\\neq0$</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "i",
+      "ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7001,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$\\overset\\rightharpoonup{OA}=\\underline a,\\;\\overset\\rightharpoonup{OB}=\\underline b$ হলে $\\overset\\rightharpoonup{BA}$ কত?</p>",
+    "options": [
+      "$\\underline a-\\underline b$",
+      "$\\underline a+\\underline b$",
+      "$\\underline b+\\underline a$",
+      "$\\underline b-\\underline a$"
+    ],
+    "answer": "$\\underline a-\\underline b$",
+    "explanation": "<p>$\\overrightarrow{\\mathrm{OB}}+\\overrightarrow{\\mathrm{BA}}=\\overrightarrow{\\mathrm{OA}}$</p><p>বা, $\\overline{\\mathrm{b}}+\\overrightarrow{\\mathrm{BA}}=\\overline{\\mathrm{a}}$</p><p>বা, $\\overrightarrow{\\mathrm{BA}}=\\overline{\\mathrm{a}}-\\overline{\\mathrm{b}}$</p>"
+  },
+  {
+    "id": 7008,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>একটি সামান্তরিকের দুইটি সন্নিহিত বাহু $\\overset\\rightharpoonup P$ ও $\\overset\\rightharpoonup Q$ হলে উহার প্রধান কর্ণের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "$\\left|\\overset\\rightharpoonup P+\\overset\\rightharpoonup Q\\right|$",
+      "$\\frac12\\left|\\overset\\rightharpoonup P+\\overset\\rightharpoonup Q\\right|$",
+      "$\\left|\\overset\\rightharpoonup P\\times\\overset\\rightharpoonup Q\\right|$",
+      "$\\frac12\\left|\\overset\\rightharpoonup P\\times\\overset\\rightharpoonup Q\\right|$"
+    ],
+    "answer": "$\\left|\\overset\\rightharpoonup P+\\overset\\rightharpoonup Q\\right|$",
+    "explanation": ""
+  },
+  {
+    "id": 7021,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$\\left(\\widehat j\\times\\widehat i\\right).\\widehat k$ = কত?</p>",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "k"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$(\\hat{j} \\times \\hat{i}) \\cdot \\hat{k}=-\\hat{k} \\cdot \\hat{k}=-1$</p>"
+  },
+  {
+    "id": 7031,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$2\\widehat i+3\\widehat j-6\\widehat k$ ভেক্টরটির সাথে y অক্ষরেখার উৎপন্ন কোণের মান কোনটি?</p>",
+    "options": [
+      "$\\cos^{-1}\\left(\\frac27\\right)$",
+      "$\\cos^{-1}\\left(-\\frac27\\right)$",
+      "$\\cos^{-1}\\left(\\frac37\\right)$",
+      "$\\cos^{-1}\\left(-\\frac67\\right)$"
+    ],
+    "answer": "$\\cos^{-1}\\left(\\frac37\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 7040,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>m এর মান কত হলে $\\overset\\rightharpoonup P=4\\widehat i+m\\widehat j$ এবং $\\overset\\rightharpoonup Q=6\\widehat i-4\\widehat j+3\\widehat k$ ভেক্টর দুইটি পরস্পর লম্ব হবে?</p>",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "-6"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 7044,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\overset\\rightharpoonup A$ ও $\\overset\\rightharpoonup B$ দুইটি ভেক্টরের ক্ষেত্রে-</p><p><br/>i. $\\overset\\rightharpoonup A+\\overset\\rightharpoonup B=\\overset\\rightharpoonup B+\\overset\\rightharpoonup A$</p><p><br/>ii. $\\overset\\rightharpoonup A.\\overset\\rightharpoonup B=\\overset\\rightharpoonup B.\\overset\\rightharpoonup A$</p><p><br/>iii. $\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B=\\overset\\rightharpoonup B\\times\\overset\\rightharpoonup A$</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 7062,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$-2\\hat i+2\\hat j-\\hat k$ ভেক্টরটি y-অক্ষের সাথে যে কোণ উৎপন্ন করে তার মান-",
+    "options": [
+      "$cos^{-1}({-2\\over 3})$",
+      "$cos^{-1}({-1\\over 3})$",
+      "$cos^{-1}({2\\over 3})$",
+      "$cos^{-1}(-1)$"
+    ],
+    "answer": "$cos^{-1}({2\\over 3})$",
+    "explanation": "<p>$\\theta=\\cos^{-1}\\left(\\frac{(-2\\widehat i+2\\widehat j-\\widehat k).\\;\\widehat j}{\\sqrt{{(-2)}^2+2^2+{(-1)}^2}\\sqrt{1^2}}\\right)\\\\\\;\\;=\\cos^{-1}\\left(\\frac2{\\sqrt9\\sqrt1}\\right)=\\cos^{-1}\\left(\\frac23\\right)$</p>"
+  },
+  {
+    "id": 7063,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$\\vec A=2\\hat i-\\hat j+\\hat k$ ভেক্টরের উপর $\\vec B=\\hat i+2\\hat j+\\hat k$ ভেক্টরের অভিক্ষেপ কোনটি?",
+    "options": [
+      "$-1\\over 6$",
+      "$-1\\over \\sqrt 6$",
+      "$1\\over 6$",
+      "$1\\over \\sqrt 6$"
+    ],
+    "answer": "$1\\over \\sqrt 6$",
+    "explanation": ""
+  }
+]

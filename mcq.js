@@ -7,6 +7,7 @@ let state = {
     year: localStorage.getItem('selectedYear') || null,
     board: localStorage.getItem('selectedBoard') || null,
     chapter: localStorage.getItem('selectedChapter') || null,
+    chapterId: localStorage.getItem('selectedChapterId') || null,
     showAnswers: false // Checked ON/OFF status of global toggle
 };
 
@@ -27,8 +28,37 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render breadcrumbs pathway
     renderBreadcrumbs();
 
-    // Fetch question bank JSON
-    fetch('data.json?t=' + new Date().getTime())
+    // Set up dynamic loading path for the small targeted question file
+    let fetchPromise;
+    const cleanSubject = state.subject.replace(/\s+/g, '_');
+
+    if (state.mode === 'board') {
+        const cleanBoard = state.board.replace(/\s+/g, '_');
+        const dataUrl = `data/boards/${cleanSubject}_${state.year}_${cleanBoard}.json?t=` + new Date().getTime();
+        fetchPromise = fetch(dataUrl);
+    } else {
+        if (state.chapterId) {
+            const dataUrl = `data/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
+            fetchPromise = fetch(dataUrl);
+        } else {
+            // Resolve chapterId dynamically from metadata if not present in storage
+            fetchPromise = fetch('data/meta.json?t=' + new Date().getTime())
+                .then(res => {
+                    if (!res.ok) throw new Error("Metadata request failed");
+                    return res.json();
+                })
+                .then(meta => {
+                    const subjectMeta = meta[state.subject];
+                    const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name === state.chapter) : null;
+                    if (!chapterObj) throw new Error("Chapter not found in metadata");
+                    state.chapterId = chapterObj.id;
+                    localStorage.setItem('selectedChapterId', chapterObj.id);
+                    return fetch(`data/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime());
+                });
+        }
+    }
+
+    fetchPromise
         .then(response => {
             if (!response.ok) throw new Error("HTTP error " + response.status);
             return response.json();
@@ -92,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function clearSelections() {
     localStorage.removeItem('selectedSubject');
     localStorage.removeItem('selectedChapter');
+    localStorage.removeItem('selectedChapterId');
     localStorage.removeItem('selectedYear');
     localStorage.removeItem('selectedBoard');
 }

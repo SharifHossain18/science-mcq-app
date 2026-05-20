@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6024,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADLCAYAAAABfC2fAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA+PSURBVHhe7Z0hcBRNEIUpFJI45E/FIBEROHChCoMLEkkcgiqoGCQVhUwcEolKIRERSOJQKSQmVUjk/fWO66PT7N3t3s7sdM+8r2qKZHdzd9zs257p7um5MSOETA6FR0gBKDxCCkDhEVIACo+QAlB4hBSAwiOkABReUPb29mZXV1eL30g0KLyAnJ+fz27cuDE7PT1dHCHRoPACsr+/Pxfe7u7u4giJBoUXjIuLi9nOzs5ceGgfP35cnCGRoPCCcXh4ODs6Opr/C+HB+pF4UHiBuLy8nIsN/8o8Dw0/k1hQeIE4Pj6eHRwcLH7749mE8GD9SCwovCAgdIC5nbZumN+J1YMVJHGg8IKA0IH1YooYITzM+0gcKLwgQHRdHkwIDsKDABlQjwOFFwA9pFzXGFCPA4UXADhR1g0lGVCPB4XnHDhTNg0jdWjh7OxscZR4hsJzDqxZH8eJhBbwL/EPhecUWDjE7SAmCG+dxcM5xPfE6iGuR0eLbyg8p8i8TbeuDBU9zLSN+IW9Q0gBsgvv9evXi58IIQItHiEFoPAIKQCFF5CTk5PFTyQqFF4wvn37NvdYfvr0aXGERITCC8aDBw/mwvvvv/9mv3//Xhwl0aDwAmGTpd+9e7c4Q6JB4QUB1u3OnTvXhHfr1q3Zz58/F1eQSFB4QXj79u010Ul79uzZ4goSCQovALBqsG4itjdv3lwTHxwuJBYUXgCePn26FNn9+/fnx16+fPnPMRIHCs85X758WQoMTawbrODt27eXxz98+DA/TmJA4TkH1kzE9fz588XRP7x//355Do4XhhfiQOE5BhkqIqwuDyaEpoWJuR+JAYXnlF+/fl0LH8C6dYEMFrkG4vzx48fiDPEMhecU7TzZlKWinS/4mfiHwnPI9+/fr4UPNuVl2us/f/68OEO8QuE5RFuwx48fL46uh+GFWFB4ztBzNrS+wXGbUrZqTkh8QOE5AuK5d+/eUjywYkPQXlCIkHmcfqHwHGHjctsIR4cXhgqXTAeF5wSbibLtUPHr16/L10BjHqdPKDwnvHjxYimWsc6RbZwzZFooPAdIOQdpY8MBsJ5DwhFkeig8Bzx69GgpklQBcL1+j2Ui/EHhFSZXyhfDC76h8ApixZHaC2lFzfCCHyi8gqBYkQgDAswxHJSqZGh2WREpB4VXCOsAybWQ1TpuGF7wAYVXCBQpEjHkzq1MGaogaaDwCjB1kNtaV9TnJGWh8Aqg07qmKs9n09EYXigLhTcxmMuJAKb0NEJoOgGbZSLKQuFNiA0fTF2CPVfMkAyHwpsQvVi11HCPZSJ8QOFNBKyLdnCUyp+EI0d/DtTtJNND4U2EtjTIzSwJy0SUh8KbAKw2kBsdrXQQu2/pQJIPCi8zmMfp8IGXVeE2vAAxkumg8DKjb3CsMPeUqOzxgdAKFF5GIDLPQzq9IQocLszjnA4KLyPWieExW4RlIspA4WUC1kNuaDSv5Re8hDlag8LLBKyH3MzeA9V6h1mklXm0zLVB4WXApmZhbwPP2FQ2hhfyQ+ElBjcxigvJTRzFW4ilQvKZ8bDw5H2tEQovMbacQ6T4mA4vsExEXii8hNgFp9jLIBLWIcTwQj4ovITASshNGzUHUv8fUCiJ5IHCS4S1FijvEBFrtVkmIg8UXiL0/Cj6Orcpyg62DoWXgNo8gtYzi3LwJC0U3khsDKyWm9TGIhleSAuFNxKd9VHbsCxS9k00KLwR2DzH2hwR1mHEMhHpoPBGoDP7a3W9s0xEHii8LdFr2dBqDTZjbqfnsNGSArxC4W2JDh9gb4KaYZmI9FB4W6BvxBY8fnAY6QcNy0SMh8IbSKsVunSlNDxsmMc5DgpvINrZ0NqiUe1MYnhhHBTeAPCU1+GD1soksExEOii8AegnfquFgVq2+Cmh8HpiU6hanePYFDmWidgOCq8HuNn03nKte/X0Hn/eivRGIbzwjo+PZ7u7u/ObYGdnZ3Z0dDS7urpanE0D41j/0lIcMwehhbe/vz9vEN/h4eFceLgRDg4OFleMB09z7VDg0OoPU+/jXhthhYeEZJuUfHFxsbwRLi8vF0fHgae5vCZzFa+D/dvlu2GZiGGEFR5E1gUsIG6EVeeHgKe43FhozM6/jh0NMLzQn+qcK3t7e/OWAjzF5aZiwLgblonYjqqEh6En5nkprJ0NH3Cj/m5seIFlIvpRhfAgNDhX0PGnp6eLo9tjbyasMiersQ8phhc2E1545+fny06XBhGOAU9teS0On/qBfd3lO+OwfDPVDDXPzs6WjhU0hBi2wToMaivnkAvriIpaV3QqqnOuyJATQfVt0PmYDB8Mg6GX/lQnPGStSCB9KAwKjwOjBaSQyffHMhGrqU54AENOiG8oOg2Ku+Vsh02v4/y4m2qFN9TBgqez3DD0zG0PhMaE8s1UJzyEFobG8mz4AEFhsj02vOB9R9wShBUexIUG76XkZSK0AKfKUE+kXtyJPQM4PBqPdlIxvPAvYYWH5T/iREFDmhiODU2OxtNYhw+Yb5gGfq/rqXKONwT9ZEYQmKRDjyTguOJI4i9NC0/PRdAYPkhLq6UQ+9Cs8PD01eEDet/yoL3FLBPxl2aFZ+NNvCHyoR9wLBPxhyaFZzMsOATKSysbvAyhSeFx0j89dGJdpznh2Sx67AlA8oNRBsMLf2lOeFw3Vg6uc/xLU8JjKlNZIDSm5v2hGeGh05EOJp3O8EEZkM4nfYCHX6ve5GaEx2pYftDV21Cbs0WaEJ6d2KP2PykHy0Q0Ijxd8RjhA1IeLDRuuU+qFx6frj5pfRRSvfB0ulKr8wmvtFwmomrh6X3cWvageQVCa7VMRLXCszEjlhb3Saux1WqFh7Lr0qEMH/gG+8lLX7WSTVSl8LDBiJ64s+yAb+AA0/3VQv5slcJjJnw8WlsxUp3w8LSUDkTj2q8YwPGl5+S1r5GsTng6fMDVzrFoqSpAVcLTHcf6HjHRD86awwvVCK+1oUqttFImohrh6ck5grIMH8SlBedYFcKz7miGD2LTQjioCuG1GICtHZ0AUeN+FuGFx3IOdWJT/morExFaeOgclnOol5qT3EML79WrV8uOwdMRtfpJXdS6rCus8PD0u3nz5rJT7t69O5/f5V5Qif34sAcf3hPbhGFrMOy7vgqcw+60sqXYwcHByq3EsJkmdrPt+9otYBcy1xJeCCs8XTrANgw/cwgQokCD+KyYuoBoIFLs3QexaRHaHWtlJ9vT09P577ger4v3a50aS3eEFJ59Cq5qEODQ3WFXgdexrwWxyHt1WTGxXvocxAeBQYwaiAwWTiPXDtlWukYwutHhhRrKRIQUni4PJ+ED1FLBYle9GYm0FDmbq25+EZc9j22hcbzLGsLq4ZwWMl4Hf2NZdbw1aivPGE54mwqiwsGCdDHtikZDBkQO5wssl7VeQMSFYalF/g9alLR467EebMT5IhNKeDa2s+7Lx7U69QgNqWTIikgFBLRKGOKAOTs7Wxz5i1hD/K2A18DvnOOtxsZsU/bl1IQS3jblHPTfoEF8Yy0fRCIWTYRikffrGiaK8NA0eF0ZukKE9Gr+Sy2bzoQRnp1gW0fHOnCt/tsxHaZFIw0itMi5TcLjMHIY1rEWtUxEGOHpYSOcK0Oxy03GLhvCEFKsE5qdy8nxTcLr8oaS9dgyEREJIbxUa7T0/mxoeN2xyJATczqNvMcm4ZHhYPQTfSvtED2v04YQOB+DtpyYJ1qv6FDE84jX08ixdcLTzhUyDF1tIEU/To174Z2cnCy/4K7wwVDgWEmdWI0hpxURPJJ4/S7nC47hXFeMj/QDjrXIZSJcCw8i0eGDVEMK65YeK2YIzzpYMAfE63eJS4anXaEG0p/IFeVcC09PomGl+oQP+qKflmO8nBJ/6/JOiiXUIQEZmnYF3clw9NQBC6Kj4FZ4WNCqQwCpl/9rq4e26WkJsaDBeymeSMzV4FRZFdoQUcLCQXD4OxEjwwhpyH2f5MKt8KZ4kg0pGYFgNgQj18Ni4dimcIBkoOBvtAhJOnKOjHLhUnh2DpZr7K6DsXifHLmcJD8QWg5fQE7cCQ9f4pR7pukUpBqWm7RKau93btwJb+r4jO6wSJNz8i8p4725cSU8iGzqjAS8p56ce39SktVgTab0I5rn8IIr4WHBqnxpU+bgaScLLCCJS5QyEW6Epx0daFNmnesyctxPLzZ2BDNkFcuUuBFeyXVW8GbKe6PTSGx0Mjz8BB7DCy6EZ8MHJVYW64m557kB2YwNL3gsE1FceF6+JF0ukPO8+Hh4mK+juPC8DAt0GIM7ydZBVzU6LxQVnp0Ilwxga1e0Z28Y6Y912KVY+JyKosLz5PqFpdWd5HFCToZTKkS1iWLC8xjs1A6WyKXjyF9KJGX0YaPwsAxGPvSqhqUxyMAfEjPRN7mXXWB0SMPTsISMw6YhekiG72XxsIxFlragabDsBYKTJTNYb7Zp2YsOWGOO5yVNSy9FovDqAdOGMYn3WHeJ5VxSpBhNLwvD2squiuHr6D3UlFIGaF3gA4j4bClyjQ0feNrpU4cUuFKhLrZZagYDAkOCv4HwdOEq3O8Qm9zz2YQnlbHQVgHB4Tw+zCo8L1rUn43Cq48hi6shOlg1XLtuCgUBwhJCmENIKjyZD64Snvdl+jqmiJ9JXcDK9b3/tKXbBLSB64eQTHh4QsgYeNWH1U8cfAG4uT21J0+eLD/fw4cPO69hi930XA8/d4249L0Oi9aHSYaa1nmiy5nDPHc5V2wpNjY2D60rvCCORBiSXGwlvFVtlUcTTxUdPmBj89K6vOpyrqsmaipGDzVhijH5lGEm5ne2UCvmdl1mn43NQ0Myh0bu86HDxyGMFp6gvUBofcfGhHhD7uEQwgP6mnWxPEI8M8U9nFR4QK4Z6l4lxAsycst5DycVHoaXcg0tHomKxKPRupyFKegtvE0pY0Dnc3KOR6ICsfVJf9QMNTS9hIcPokVlN9yANdTnvVZ2igiSEfCdkmnRI7xN97PN4+zDxh7VZnddw7gYH4C74KSjzyiD5ANiEsuH+R76Q4ae+Be/w+DY8Fkf2KNOwVBdL0MhZYDAsIOvZGZJg6GBURIhDoU96hR0LC1evbBHHYInqUzWKbw6YY86A/MKWDsZwlB4dcIedQTEhnmddlBReHXCHnUEPGTWdU3h1Ql71AnwnHUtIKbw6oQ96gAMLfW8TkPh1Ql71AE662dTG5ohQXxC4TkAoQMEaLuaCE5+Z2ZQHVB4zhHhkbpgjzqHwqsT9qhzKLw6YY86h8KrE/YoIQWg8AgpAIVHSAEoPEIKQOERUgAKj5ACUHiEFIDCI6QAFB4hkzOb/Q+7eOBRbsU8EQAAAABJRU5ErkJggg==\"></p><p><br></p><p>উদ্দীপকে ত্রিভুজটির ক্ষেত্রফল কত বর্গ একক?</p>",
+    "options": [
+      "6$\\sqrt{3}$",
+      "6",
+      "3$\\sqrt{3}$",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "<p>$\\triangle A B C=\\frac{1}{2} \\operatorname{ca} \\sin B=\\frac{1}{2} \\cdot 3 \\cdot 4 \\sin 30^{\\circ}=3$</p>"
+  },
+  {
+    "id": 6025,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\lim_{x\\rightarrow 0}\\frac{tan^{-1}\\frac{x}{2}}{3x}$ = কত?",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{2}$"
+    ],
+    "answer": "$\\frac{1}{6}$",
+    "explanation": "<p>$\\lim _{x \\rightarrow 0} \\frac{\\tan ^{-1} \\frac{x}{2}}{3 x}=\\frac{1}{6} \\lim _{x \\rightarrow 0} \\frac{\\tan ^{-1} \\frac{x}{2}}{\\frac{x}{2}}=\\frac{1}{6}$</p>"
+  },
+  {
+    "id": 6026,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\begin{bmatrix}4 &amp; 0 &amp; -2\\\\ 0 &amp; 5 &amp; m\\\\ -2 &amp; 4 &amp; 5\\end{bmatrix}$ ম্যাট্রিক্সটি প্রতিসম হলে m = কত?",
+    "options": [
+      "-2",
+      "0",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 6027,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>x<sup>2</sup> + y<sup>2</sup> + ay = 0 এর পোলার সমীকরণ কোনটি?</p>",
+    "options": [
+      "r + a = 0",
+      "r$^{2}$ + a = 0",
+      "r + a sin$\\theta $ = 0",
+      "$r^{2} + a sin\\theta $ = 0"
+    ],
+    "answer": "r + a sin$\\theta $ = 0",
+    "explanation": "<p>$x^2+y^2+a y=0$</p><p>বা, $r^2+a r \\sin \\theta=0$ বা, $r+a \\sin \\theta=0$</p>"
+  },
+  {
+    "id": 6028,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p><strong>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</strong></p><p>$8x - by - 9 = 0$ এবং $4x + 3y + 2 = 0$ দুটি সরলরেখার সমীকরণ-</p><p><br></p><p>Q. রেখাদ্বয় সমান্তরাল হলে b এর মান কত?</p>",
+    "options": [
+      "-6",
+      "-3",
+      "3",
+      "6"
+    ],
+    "answer": "-6",
+    "explanation": "<p>$8 x-b y-9=0$ রেখার ঢাল $m_1=\\frac{8}{b}$ </p><p><br></p><p>$4 x+3 y+2=0$ রেখার ঢাল $m_2=-\\frac{4}{3}$ </p><p><br></p><p>শর্তমতে $\\mathrm{m}_1=\\mathrm{m}_2$ বা, $\\frac{8}{4}=\\frac{-\\mathrm{b}}{3}$ বা, $\\mathrm{b}=-6$.</p>"
+  },
+  {
+    "id": 6029,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p><strong>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</strong></p><p>$8x - by - 9 = 0$ এবং $4x + 3y + 2 = 0$ দুটি সরলরেখার সমীকরণ-</p><p><br></p><p>Q. (0,1) বিন্দু থেকে ২য় রেখার উপর অঙ্কিত লম্বের সমীকরণ কোনটি?</p>",
+    "options": [
+      "3x - 4y -4 = 0",
+      "3x - 4y + 4 = 0",
+      "3x - 4y + 2 = 0",
+      "3x - 4y -2 = 0"
+    ],
+    "answer": "3x - 4y + 4 = 0",
+    "explanation": "<p>$4 x+3 y+2=0$ রেখার লম্ব রেখার সমীকরণ </p><p><br></p><p>$3 \\mathrm{x}-4 \\mathrm{y}+\\mathrm{k}=0$ যা $(0,1)$ বিন্দুগামী ।</p><p><br></p><p>$\\therefore 0-4.1+\\mathrm{k}=0$ বা, $\\mathrm{k}=4$</p><p><br></p><p>নির্ণয় সমীকরণ, $3 x-4 y+4=0$</p>"
+  },
+  {
+    "id": 6030,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "যদি  y = secx হয় তবে y$_{2}$ + y এর মান কোনটি?",
+    "options": [
+      "2",
+      "2y",
+      "2y$^{2}$",
+      "2y$^{3}$"
+    ],
+    "answer": "2y$^{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6031,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\int_{0}^{1} \\frac{1-x}{1+x}dx$ এর মান কোনটি? ",
+    "options": [
+      "2In 2 + 1",
+      "2In 2 - 1",
+      "In 2 + 1",
+      "In 2 - 2"
+    ],
+    "answer": "2In 2 - 1",
+    "explanation": ""
+  },
+  {
+    "id": 6032,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "(m, 0), (0, n), (1,1) বিন্দু তিনটি সমরেখ হওয়ার শর্ত কোনটি?",
+    "options": [
+      "m - m = mn",
+      "m - n + mn = 0",
+      "m + n = 0",
+      "m + n = mn"
+    ],
+    "answer": "m + n = mn",
+    "explanation": "<p>$ \\frac{0-n}{m-0}=\\frac{n-1}{0-1} $</p><p>&nbsp;</p><p>বা, $ n=m n-m $</p><p>&nbsp;</p><p>বা, $ m+n=m n $</p><p>&nbsp;</p><p>বা, $ \\frac{1}{m}=\\frac{1}{n}=1 $</p><p>&nbsp;</p><p>বা, $ \\frac{m+n}{m n}=1 $</p><p>&nbsp;</p><p>$ \\therefore m+n=m n $</p>"
+  },
+  {
+    "id": 6033,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>g(x) = $\\sqrt{x}$ হলে-</p><p><br/>i. $\\int \\frac{1}{g(x)}dx = 2\\sqrt{x} + c$</p><p><br/>ii. $\\int_{0}^{1}{g(x)}dx = \\frac{2}{3}$</p><p><br/>iii. $\\int \\frac{sec^{2}x dx}{g(tanx)} = 2\\sqrt{tanx} + c$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6034,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\int_{1}^{\\sqrt{e}} In x dx$ এর মান কোনটি?",
+    "options": [
+      "-1 - $\\frac{1}{2}\\sqrt{e}$",
+      "1 - $\\frac{1}{2}\\sqrt{e}$",
+      "1 +$\\frac{1}{2}\\sqrt{e}$",
+      "-1 + $\\frac{1}{2}\\sqrt{e}$"
+    ],
+    "answer": "1 - $\\frac{1}{2}\\sqrt{e}$",
+    "explanation": "<p>$\\begin{aligned} \\int_1^{\\sqrt{e}} \\ln x d x &amp; =[x \\ln x-x]_1^{\\sqrt{e}} \\\\ &amp; =(\\sqrt{e} \\cdot \\ln \\sqrt{e}-\\sqrt{e})-(\\ln 1-1) \\\\ &amp; =\\frac{1}{2} \\sqrt{e}-\\sqrt{e}+1=1-\\frac{1}{2} \\sqrt{e}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6035,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>2x - 3y = 0 একটি সরলরেখার সমীকরণ-</p><p><br/>i. রেখাটি মূলবিন্দুগামী</p><p><br/>ii. (3,2) বিন্দুটি রেখাটির উপর অবস্থিত</p><p><br/>iii. (2, -3) বিন্দু থেকে রেখাটির লম্ব দূরত্ব $\\frac{1}{\\sqrt{13}}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6036,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\begin{bmatrix}+7 &amp; -7 &amp; 0\\\\ -1 &amp; 2 &amp; -1\\\\ 5 &amp; P &amp; 3\\end{bmatrix}$ এ P এর সহগণক কোনটি?",
+    "options": [
+      "-7",
+      "-6",
+      "6",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "$P$ এর সহগুণক $=-\\left|\\begin{array}{rr}7 & 0 \\\\ -1 & -1\\end{array}\\right|=-(-7-0)=7$."
+  },
+  {
+    "id": 6037,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "x$^{y}=e^{x+y}$ হলে $\\frac{dy}{dx}$ = ?",
+    "options": [
+      "$\\frac{x-y}{x(1-Inx)}$",
+      "$\\frac{x-y}{x(Inx-1)}$",
+      "$\\frac{y-x}{x(Inx-1)}$",
+      "$\\frac{x-y}{Inx-1}$"
+    ],
+    "answer": "$\\frac{x-y}{x(Inx-1)}$",
+    "explanation": ""
+  },
+  {
+    "id": 6038,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>কোন শর্তে y = mx + c সরলরেখাটি $x^2 + y^2 = r^2$ বৃত্তকে স্পর্শ করবে?</p>",
+    "options": [
+      "$r^{2}=m^{2} + c^{2}$",
+      "$c^{2}=r^{2}(1+ m^{2}) $",
+      "$m^{2}r^{2}=r^{2}-c^{2} $",
+      "$c^{2}+r^{2}=m^{2} $"
+    ],
+    "answer": "$c^{2}=r^{2}(1+ m^{2}) $",
+    "explanation": "<p>কেন্দু হতে রেখার্র দূবত্য ব্যাসার্ধের সমান $\\frac{|0+0+c|}{\\sqrt{1+m^2}}=r$ </p><p><br></p><p>বা, $c^2=r^2\\left(1+m^2\\right)$.</p>"
+  },
+  {
+    "id": 6039,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$f(x) = e^{-2x}$</p><p>Q. $\\lim_{x\\rightarrow 0} \\frac{f(x)-1}{x}$ = কত?</p>",
+    "options": [
+      "-2",
+      "0",
+      "2",
+      "$\\infty $"
+    ],
+    "answer": "-2",
+    "explanation": "<p>$\\lim _{x \\rightarrow 0} \\frac{e^{-2 x}-1}{x}=-2$</p>"
+  },
+  {
+    "id": 6040,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$f(x) = e^{-2x}$</p><p>Q. $\\frac{d}{dx}$ {f(x).cosx} = কত?</p>",
+    "options": [
+      "-e$^{-2x}$(sinx + 2cosx)",
+      "-e$^{-2x}$(sinx - 2cosx)",
+      "e$^{-2x}$(sinx + 2cosx)",
+      "e$^{-2x}$(sinx - 2cosx)"
+    ],
+    "answer": "-e$^{-2x}$(sinx + 2cosx)",
+    "explanation": "<p>$\\begin{aligned} \\frac{d}{d x} e^{-2 x} \\cdot \\cos x &amp; =-e^{-2 x} \\cdot \\sin x-2 e^{-2 x} \\cdot \\cos x \\\\ &amp; =-e^{-2 x}(\\sin x+2 \\cos x)\\end{aligned}$</p>"
+  },
+  {
+    "id": 6041,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>$\\begin{bmatrix}6 &amp; 0 &amp; -3\\\\ 0 &amp; 7 &amp; 0\\\\ -3 &amp; 0 &amp; 5\\end{bmatrix}$ একটি-</p><p><br/>i. বর্গ ম্যাট্রিক্স </p><p><br/>ii. প্রতিসম ম্যাট্রিক্স</p><p><br/>iii. ব্যতিক্রমী ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6042,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>x<sup>2</sup> + y<sup>2</sup> -12x -30 একটি বৃত্তের সমীকরণ।</p><p><br></p><p>Q. বৃত্তটির কেন্দ্রের স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "(-6,0)",
+      "(-3,0)",
+      "(3,0)",
+      "(6,0)"
+    ],
+    "answer": "(6,0)",
+    "explanation": ""
+  },
+  {
+    "id": 6043,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$x^2 + y^2 -12x -30$ একটি বৃত্তের সমীকরণ।</p><p><br></p><p>Q. (1,-1) বিন্দু হতে বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?</p>",
+    "options": [
+      "$2\\sqrt{11}$",
+      "$2\\sqrt{5}$",
+      "$2\\sqrt{6}$",
+      "$2\\sqrt{2}$"
+    ],
+    "answer": "$2\\sqrt{5}$",
+    "explanation": "<p>$x^2+y^2-12 x+30=0$</p><p class=\"ql-align-center\">&nbsp;</p><p>(1,-1) বিন্দুতে স্পর্শকের দৈর্ঘ্য $ =\\sqrt{1+1-12+30} $</p><p><br></p><p>$ =\\sqrt{20}=2 \\sqrt{5}$</p>"
+  },
+  {
+    "id": 6044,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\int xsec^{2}x dx$ = কত?",
+    "options": [
+      "$x tanx + In | sinx | + c$",
+      "$x tanx - In | sinx | + c$",
+      "$x tanx + In | cosx | + c$",
+      "$x tanx - In | cosx | + c$"
+    ],
+    "answer": "$x tanx + In | cosx | + c$",
+    "explanation": "<p>$\\begin{aligned} \\int x \\sec ^2 x d x &amp; =x \\int \\sec ^2 x d x-\\int\\left\\{\\frac{d}{d x} x \\int \\sec ^2 x d x\\right\\} d x \\\\ &amp; =x \\tan x-\\int \\cdot \\tan x d x \\\\ &amp; =x \\tan x-\\ln |\\sec x|+c \\\\ &amp; =x \\tan x-\\ln \\left|\\frac{1}{\\cos x}\\right|+c \\\\ &amp; =x \\tan x+\\ln |\\cos x|+c\\end{aligned}$</p>"
+  },
+  {
+    "id": 6045,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "B = $\\begin{bmatrix}3 &amp; 2\\\\ -5 &amp; -2\\end{bmatrix}$ হলে, B$^{-1}$ = ?",
+    "options": [
+      "$\\frac{1}{4}\\begin{bmatrix}-2 & -2\\\\5 &3\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}2 &2\\\\-5 &-3\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}-3 &-5\\\\2 &2\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}-3 &-2\\\\5&2\\end{bmatrix} $"
+    ],
+    "answer": "$\\frac{1}{4}\\begin{bmatrix}-2 & -2\\\\5 &3\\end{bmatrix} $",
+    "explanation": "<p>$B^{-1}=\\frac{1}{-6+10}\\left[\\begin{array}{rr}-2 &amp; -3 \\\\ 5 &amp; 3\\end{array}\\right]=\\frac{1}{4}\\left[\\begin{array}{rr}-2 &amp; -2 \\\\ 5 &amp; 3\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 6046,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "sin$\\theta = \\frac{1}{3} হলে sin30&nbsp;$ এর মান কত?",
+    "options": [
+      "$\\frac{27}{31}$",
+      "$\\frac{-23}{27}$",
+      "$\\frac{23}{27}$",
+      "$\\frac{9}{11}$"
+    ],
+    "answer": "$\\frac{23}{27}$",
+    "explanation": "<p>$\\sin 3 \\theta=3 \\sin \\theta-4 \\sin ^3 \\theta=3 \\cdot \\frac{1}{3}-4\\left(\\frac{1}{3}\\right)^3=1-\\frac{4}{27}=\\frac{23}{27}$</p>"
+  },
+  {
+    "id": 6047,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>cos$\\theta&nbsp;$ = -$\\frac{12}{13}$ এবং $\\pi &lt; 0 &lt; \\frac{3\\pi }{2}$ হলে tan$\\theta&nbsp;$ এর মান কত?</p>",
+    "options": [
+      "$\\frac{-5}{12}$",
+      "$\\frac{-12}{5}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{12}{5}$"
+    ],
+    "answer": "$\\frac{5}{12}$",
+    "explanation": ""
+  },
+  {
+    "id": 6048,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>tan$\\frac{\\theta }{2}$ = $\\frac{3}{4}$ হলে cos$\\theta&nbsp;$ এর মান কত?</p>",
+    "options": [
+      "$\\frac{9}{16}$",
+      "$\\frac{7}{25}$",
+      "$\\frac{24}{25}$",
+      "$\\frac{25}{7}$"
+    ],
+    "answer": "$\\frac{7}{25}$",
+    "explanation": "<p>$\\cos \\theta=\\frac{1-\\tan ^2 \\frac{\\theta}{2}}{1+\\tan ^2 \\frac{\\theta}{2}}=\\frac{1-\\frac{9}{16}}{1+\\frac{9}{16}}=\\frac{16-9}{16+9}=\\frac{7}{25}$</p>"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 3199,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>জাল টাকা শনাক্তকরণে কোনটি ব্যবহৃত হয়?</p>",
+    "options": [
+      "মহাজাগতিক রশ্মি",
+      "গামা রশ্মি",
+      "রঞ্জন রশ্মি",
+      "অতিবেগুনি রশ্মি"
+    ],
+    "answer": "অতিবেগুনি রশ্মি",
+    "explanation": ""
+  },
+  {
+    "id": 3200,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোনটির পোলারায়ন ক্ষমতা বেশি?</p>",
+    "options": [
+      "$\\mathrm{Mg}^{2+}$",
+      "$\\mathrm{Ca}^{2+}$",
+      "$\\mathrm{Sr}^{2+}$",
+      "$\\mathrm{Ba}^{2+}$"
+    ],
+    "answer": "$\\mathrm{Mg}^{2+}$",
+    "explanation": "<p>ক্যাটায়নের আকার যত ছোট হয় পোলারায়ন তত অধিক হয়। ক্যাটায়নগুলোর আকারের ক্রম:</p><p>$\\mathrm{Mg}^{2+}&lt;\\mathrm{Ca}^{2+}&lt;\\mathrm{Sr}^{2+}&lt;\\mathrm{Ba}^{2+}$ </p><p>$\\therefore$ পোলারায়নের ক্রম : $\\mathrm{Mg}^{2+}&gt;\\mathrm{Ca}^{2+}&gt;\\mathrm{Sr}^{2+}&gt;\\mathrm{Ba}^{2+}$ </p>"
+  },
+  {
+    "id": 3201,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$0.4 \\%$ $\\mathrm{NaOH}$ দ্রবণের $\\mathrm{pH}$ কত?</p>",
+    "options": [
+      "0",
+      "1",
+      "13",
+      "14"
+    ],
+    "answer": "13",
+    "explanation": "<p>M = 40</p><p><br></p><p>$\\begin{aligned} &amp; \\mathrm{S}=\\frac{0.4 \\times 10}{\\mathrm{M}} \\\\ &amp; \\begin{aligned}=\\frac{4}{40} &amp; =0.1 \\mathrm{M} \\\\ \\therefore \\mathrm{pOH} &amp; =-\\log \\left[\\mathrm{OH}^{-}\\right] \\\\ &amp; =-\\log (0.1) \\\\ &amp; =1\\end{aligned} \\\\ &amp; \\begin{aligned} \\therefore \\mathrm{pH} &amp; =14-1=13\\end{aligned}\\end{aligned}$ </p>"
+  },
+  {
+    "id": 3202,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোনটি কৃত্রিম খাদ্য সংরক্ষক?</p>",
+    "options": [
+      "সোডিয়াম ক্লোরাইড",
+      "সোডিয়াম বেনজোয়েট",
+      "চিনি",
+      "হলুদ"
+    ],
+    "answer": "সোডিয়াম বেনজোয়েট",
+    "explanation": "<p>$NaCl$, চিনি, হলুদ, তেল, ভিনেগার, রসুন ইত্যাদি প্রাকৃতিক খাদ্য সংরক্ষক। সোডিয়াম বেনজোয়েট $\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COONa}\\right)$ একটি কৃত্রিম খাদ্য সংরক্ষক। </p>"
+  },
+  {
+    "id": 3203,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>দ্রাব্যতা গুণফল-</p><p><br/><br/>i. দ্রবণের তাপমাত্রার উপর নির্ভরশীল</p><p><br/><br/>ii. স্বল্প দ্রবণীয় তড়িৎবিশ্লেষ্যের ক্ষেত্রে প্রযোজ্য</p><p><br/><br/>iii. সম্পৃক্ত বা অসম্পৃক্ত উভয় দ্রবণের জন্যই প্রযোজ্য</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>দ্রাব্যতা গুণফল  $\\left(K_{s p}\\right)$ তাপমাত্রার উপর নির্ভরশীল। এটি কেবল স্বল্প দ্রবণীয় তড়িৎবিশ্লেষ্য ও সম্পৃক্ত দ্রবণের ক্ষেত্রে প্রযোজ্য। অসম্পৃক্ত দ্রবণের ক্ষেত্রে  $\\left(K_{s p}\\right)$   প্রযোজ্য নয়। তাই সঠিক উত্তর $(i + ii)$। </p>"
+  },
+  {
+    "id": 3204,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোন আয়নটি রঙিন যৌগ গঠন করে?</p>",
+    "options": [
+      "$\\mathrm{Ni}^{2+}$",
+      "$\\mathrm{Zn}^{2+}$",
+      "$\\mathrm{Sc}^{3+}$",
+      "$\\mathrm{Cs}^{+}$"
+    ],
+    "answer": "$\\mathrm{Ni}^{2+}$",
+    "explanation": ""
+  },
+  {
+    "id": 3205,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$\\mathrm{A}(\\mathrm{~g})+3 \\mathrm{~B}(\\mathrm{~g}) \\rightleftharpoons 2 \\mathrm{D}(\\mathrm{~g})$; এ বিক্রিয়ায় $\\mathrm{K}_{\\mathrm{p}}$ এর একক কোনটি?</p>",
+    "options": [
+      "atm",
+      "$\\mathrm{atm}^{-1}$",
+      "$\\mathrm{atm}^{-2}$",
+      "$\\mathrm{atm}^2$"
+    ],
+    "answer": "$\\mathrm{atm}^{-2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; K_p=\\mathrm{atm}^{\\Delta n} \\\\ &amp; A(g)+3 B(g) \\rightleftharpoons 2 D(g)\\end{aligned}$</p><p>বিক্রিয়ার $\\Delta n=2-4=-2$ </p><p>$\\therefore \\mathrm{K}_{\\mathrm{p}}=\\mathrm{atm}^{-2}$ </p>"
+  },
+  {
+    "id": 3206,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>মিথানোয়িক এসিডের বিয়োজন মাত্রা কোনটি দ্বারা হিসাব করা হয়?</p>",
+    "options": [
+      "$\\sqrt{\\frac{c}{K_a}}$",
+      "$\\frac{\\mathrm{K_a}}{\\mathrm{C}}$",
+      "$\\sqrt{\\mathrm{K_a} \\times \\mathrm{C}}$",
+      "$\\sqrt{\\frac{K_a}{C}}$"
+    ],
+    "answer": "$\\sqrt{\\frac{K_a}{C}}$",
+    "explanation": "<p>মিথানোয়িক এসিড (HCOOH) একটি দুর্বল এসিড। এজন্য এর বিয়োজন মাত্রা অসওয়ান্ডের লঘুকরণ সূত্রের সাহায্যে নির্ণয় করা হয়। </p><p>সূত্রটি- </p><p>$\\alpha=\\sqrt{\\frac{K_a}{C}}$ </p>"
+  },
+  {
+    "id": 3207,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>মল্ট ভিনেগার প্রস্তুতিতে গ্লুকোজের আর্দ্র-বিশ্লেষণে কোন এনজাইম ব্যবহৃত হয়?</p><p><br></p>",
+    "options": [
+      "ইনভারটেস",
+      "ম্যালটেস",
+      "জাইমেস",
+      "ডায়াস্টেজ"
+    ],
+    "answer": "জাইমেস",
+    "explanation": ""
+  },
+  {
+    "id": 3208,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>Q. উদ্দীপক অনুসারে-</p><p><br/>i. $DX_2$ একটি আয়নিক যৌগ</p><p><br/>ii. $ECO_3$ যৌগটি উচ্চ তাপমাত্রায় বিযোজিত হয়</p><p><br/>iii. A মৌলটি সমযোজী যৌগ গঠন করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3209,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$50^{\\circ} \\mathrm{C}$ তাপমাত্রার $\\mathrm{NH}_4 \\mathrm{Cl}$ এর 120 gm সম্পৃক্ত দ্রবণকে $25^{\\circ} \\mathrm{C}$ তাপমাত্রায় শীতল করলে কত গ্রাম $\\mathrm{NH}_4 \\mathrm{Cl}$কেলাসিত হবে? </p><p>$[50^{\\circ} \\mathrm{C}$ ও $25^{\\circ} \\mathrm{C}$ তাপমাত্রায় $\\mathrm{NH}_4 \\mathrm{Cl}$ এর দ্রাব্যতা যথাক্রমে $60$ ও $40]$</p>",
+    "options": [
+      "15",
+      "45",
+      "50",
+      "90"
+    ],
+    "answer": "15",
+    "explanation": "<p>এখানে, </p><p>V = 120, </p><p>x = 60,</p><p>y = 40</p><p>অধঃক্ষেপ $=\\frac{x-y}{100+x} \\times V$</p><p>$=\\frac{(60-40) \\times 120}{100+60}=15 \\mathrm{~g}$ \n</p>"
+  },
+  {
+    "id": 3210,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>আন্তর্জাতিকভাবে স্বীকৃত সবুজ রসায়নের মূলনীতি কয়টি?</p>",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": ""
+  },
+  {
+    "id": 3211,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোন খাদ্য সংরক্ষকটি অ্যান্টি-মাইক্রোবিয়াল হিসেবে ব্যবহৃত হয়?</p>",
+    "options": [
+      "টকোফেরল",
+      "বেনজোয়িক এসিড",
+      "ভিটামিন-সি",
+      "BHT"
+    ],
+    "answer": "বেনজোয়িক এসিড",
+    "explanation": "<p>টকোফেরল + ভিটামিন সি হলো প্রাকৃতিক অ্যান্টি অক্সিডেন্ট। BHT হলো কৃত্রিম অ্যান্টি অক্সিডেন্ট। কিন্তু বেনজোয়িক এসিড $\\left(\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{COONa}\\right)$   হলো অ্যান্টি-মাইক্রোবিয়াল। </p>"
+  },
+  {
+    "id": 3212,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>তাপমাত্রা বৃদ্ধির সাথে দ্রাব্যতা বাড়ে কোনটির?</p>",
+    "options": [
+      "$\\mathrm{NaNO}_3$",
+      "$\\mathrm{Ca}\\left(\\mathrm{NO}_3\\right)_2$",
+      "$\\mathrm{Ca}(\\mathrm{OH})_2$",
+      "NaOH"
+    ],
+    "answer": "$\\mathrm{NaNO}_3$",
+    "explanation": "<p>ক্ষার ধাতুর নাইট্রেট লবণ যেমন- $\\mathrm{KNO}_3, \\mathrm{NaNO}_3$ ইত্যাদির ক্ষেত্রে তাপমাত্রা বৃদ্ধির সাথে দ্রাব্যতা বৃদ্ধি পায়। $\\mathrm{Ca}\\left(\\mathrm{NO}_3\\right)_2$, $\\mathrm{Ca}(\\mathrm{OH})_2$ ও $NaOH$ এর ক্ষেত্রে তাপমাত্রা বৃদ্ধিতে দ্রাব্যতা হ্রাস পায়। </p>"
+  },
+  {
+    "id": 3213,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>ম্যাগনেসিয়াম ফসফেটের দ্রাব্যতা 'S' হলে, দ্রাব্যতা গুণফল কোনটি?</p>",
+    "options": [
+      "$\\mathrm{S}^2$",
+      "$8 \\mathrm{~S}^3$",
+      "$27 \\mathrm{~S}^4$",
+      "<p>108 $S^5$</p>"
+    ],
+    "answer": "<p>108 $S^5$</p>",
+    "explanation": "<p>ম্যাগনেসিয়াম ফসফেট $\\left[\\mathrm{Mg}_3\\left(\\mathrm{PO}_4\\right)_2\\right]$ এর ক্ষেত্রে- </p><p><br></p><p>$\\mathrm{Mg}_3\\left(\\mathrm{PO}_4\\right) \\stackrel{\\mathrm{aq}}{\\rightleftharpoons} 3 \\mathrm{Mg}^{2+}+2 \\mathrm{PO}_4^{3-}$</p><p>$\\quad\\quad\\quad\\quad\\quad\\quad\\quad3S\\quad\\quad\\quad2S$</p><p><br></p><p>$\\therefore \\mathrm{K}_{\\mathrm{sp}}=(3 \\mathrm{~S})^3 \\times(2 \\mathrm{~S})^2=108 \\mathrm{~S}^5$</p>"
+  },
+  {
+    "id": 3214,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>d-ব্লক মৌলের সংখ্যা কতটি?</p>",
+    "options": [
+      "14",
+      "27",
+      "36",
+      "41"
+    ],
+    "answer": "41",
+    "explanation": ""
+  },
+  {
+    "id": 3215,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</p><p>$\\mathrm{AX}_5(\\mathrm{~g}) \\rightleftharpoons \\mathrm{AX}_3(\\mathrm{~g})+\\mathrm{X}_2(\\mathrm{~g})$</p><p>$30^{\\circ} \\mathrm{C}$ তাপমাত্রায় ও 1 atm চাপে সাম্যাবস্থায় 75% $\\mathrm{AX}_5$ বিয়োজিত হয়ে $\\mathrm{AX}_3$ ও $\\mathrm{X}_2$ উৎপন্ন করে।</p><p><br></p><p>Q. $K_p$ এর মান কত atm?</p>",
+    "options": [
+      "3.07",
+      "3.00",
+      "2.32",
+      "1.28"
+    ],
+    "answer": "1.28",
+    "explanation": "<p>$\\begin{aligned} &amp; \\alpha=75 \\%=0.75 \\\\ &amp; P=1 \\text { atm }\\end{aligned}$</p><p>$\\begin{aligned} A X_5(g) &amp; \\rightleftharpoons A X_3(g)+X_2(g) \\\\ \\therefore K_p &amp; =\\frac{\\alpha^2}{1-\\alpha^2} \\times P \\\\ &amp; =\\frac{(0.75)^2 \\times 1}{1-(0.75)^2}=1.28 \\mathrm{~atm}\\end{aligned}$</p>"
+  },
+  {
+    "id": 3216,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</p><p>$\\mathrm{AX}_5(\\mathrm{~g}) \\rightleftharpoons \\mathrm{AX}_3(\\mathrm{~g})+\\mathrm{X}_2(\\mathrm{~g})$</p><p>$30^{\\circ} \\mathrm{C}$ তাপমাত্রায় ও 1 atm চাপে সাম্যাবস্থায় 75% $\\mathrm{AX}_5$ বিয়োজিত হয়ে $\\mathrm{AX}_3$ ও $\\mathrm{X}_2$ উৎপন্ন করে।</p><p><br></p><p>Q. যদি বিক্রিয়ায় $X_2$  অপসারণ করা হয় তবে-</p><p><br/>i. বিক্রিয়ার সাম্যাবস্থার পরিবর্তন ঘটবে</p><p><br/>ii. বিক্রিয়া সম্মুখদিকে অগ্রসর হবে</p><p><br/>iii. বিক্রিয়ায় $AX_3$<sub> </sub>এর পরিমাণ বৃদ্ধি পাবে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>বিক্রিয়াটিতে $X_2$ হলো উৎপাদ। লা-শাতেলিয়ার নীতি অনুসারে উৎপাদ $\\mathrm{X}_2$ অপসারণ করলে বিক্রিয়ার সাম্যাবস্থা ডানদিকে যাবে এবং বিক্রিয়ায় $\\mathrm{AX}_3$ এর পরিমাণ বৃদ্ধি পাবে। তাই সবগুলো অপশন সঠিক।</p>"
+  },
+  {
+    "id": 3217,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$\\mathrm{PCl}_5$ যৌগের কেন্দ্রীয় পরমাণুতে কী ধরনের সংকরণ ঘটে?</p>",
+    "options": [
+      "$\\mathrm{sp}^2$",
+      "$\\mathrm{sp}^3$",
+      "$\\mathrm{sp}^3 \\mathrm{~d}$",
+      "$\\mathrm{sp}^3 \\mathrm{~d}^2$"
+    ],
+    "answer": "$\\mathrm{sp}^3 \\mathrm{~d}$",
+    "explanation": "<p>$V = 5$</p><p>$S = 5$</p><p><br></p><p>$\\begin{aligned} H &amp; =\\frac{1}{2}(V+S) \\\\ &amp; =\\frac{1}{2}(5+5)=5\\left(s p^3 d\\right)\\end{aligned}$ </p>"
+  },
+  {
+    "id": 3218,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোন অক্সাইডটি সবচেয়ে বেশি অম্লধর্মী হবে?</p>",
+    "options": [
+      "$\\mathrm{SO}_3$",
+      "$\\mathrm{Cl}_2 \\mathrm{O}_7$",
+      "$\\mathrm{P}_2 \\mathrm{O}_5$",
+      "$\\mathrm{SiO}_2$"
+    ],
+    "answer": "$\\mathrm{Cl}_2 \\mathrm{O}_7$",
+    "explanation": "<p>যে অক্সাইডের কেন্দ্রীয় পরমাণুর জারণ মান বেশি সেটি বেশি অম্লীয়। \n</p><p><br></p><p>$\\stackrel{6+}{\\mathrm{S}}O_3, \\stackrel{7+}{\\mathrm{Cl}_2} \\mathrm{O}_7, \\stackrel{5+}{\\mathrm{P}_2} \\mathrm{O}_5, \\stackrel{4+}{\\mathrm{Si}}O_2$</p><p><br></p><p>এজন্য $\\mathrm{Cl}_2 \\mathrm{O}_7$ বেশি অম্লধর্মী হয়।</p><p><br></p>"
+  },
+  {
+    "id": 3219,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>সালফারের শেষ ইলেক্ট্রনটির জন্য কোয়ান্টাম সংখ্যার কোন সেট প্রযোজ্য?</p>",
+    "options": [
+      "$n=3, l=0, m=0, s=+\\frac{1}{2}$",
+      "$n=3, l=2, m=1, s=+\\frac{1}{2}$",
+      "$n=3, l=1, m=0, s=-\\frac{1}{2}$",
+      "$n=3, l=2, m=0, s=-\\frac{1}{2}$"
+    ],
+    "answer": "$n=3, l=1, m=0, s=-\\frac{1}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 3220,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>কোন আনুপাতিক মিশ্রণটি বাফার দ্রবণ?</p>",
+    "options": [
+      "$\\mathrm{CH}_3 \\mathrm{COOH}: \\mathrm{NaOH}=2: 1$",
+      "$\\mathrm{CH}_3 \\mathrm{COOH}: \\mathrm{NH}_4 \\mathrm{OH}=1: 1$",
+      "$\\mathrm{NH}_4 \\mathrm{OH}: \\mathrm{HCl}=1: 1$",
+      "$\\mathrm{NH}_4 \\mathrm{OH}: \\mathrm{H}_2 \\mathrm{SO}_4=2: 1$"
+    ],
+    "answer": "$\\mathrm{CH}_3 \\mathrm{COOH}: \\mathrm{NaOH}=2: 1$",
+    "explanation": "<p><img src=\"data:image/png;base64,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\"></p><p>$\\therefore$ শেষ $\\mathrm{e}^{-}$ এর জন্য, $\\mathrm{n} =3$</p><p>$l =1(\\mathrm{p}$ অরবিটালের জন্য</p><p>$\\mathrm{m}=0\\left(\\mathrm{p}_{\\mathrm{x}}=0, \\mathrm{p}_{\\mathrm{y}}=+1, \\mathrm{p}_{\\mathrm{z}}=-1\\right)$</p><p>$\\mathrm{s} =-\\frac{1}{2}$ (একই অরবিটালের ২য় $\\mathrm{e}^{-})$</p>"
+  },
+  {
+    "id": 3221,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>খাদ্যদ্রব্য নষ্ট হওয়ার কারণ-</p><p><br/>i. অণুজীবের আক্রমণ </p><p><br/>ii. খাদ্যের জারণ</p><p><br/>iii. এনজাইমের প্রভাব</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3222,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>মৌলের যে কোনো উপশক্তি স্তরে ইলেক্ট্রন ধারণ ক্ষমতার সূত্র কোনটি?</p>",
+    "options": [
+      "$2(2 l+1)$",
+      "$2(l+1)$",
+      "$2 l+1$",
+      "$2 n^2$"
+    ],
+    "answer": "$2(2 l+1)$",
+    "explanation": ""
+  },
+  {
+    "id": 3223,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>পাউলিং স্কেলে ক্লোরিনের তড়িৎ ঋণাত্মকতার মান কত?</p>",
+    "options": [
+      "2.1",
+      "2.5",
+      "3.0",
+      "4.0"
+    ],
+    "answer": "3.0",
+    "explanation": "<p>পাউলিং স্কেলে তড়িৎ ঋণাত্মকতা মান-</p><p>$\\mathrm{H}=2.1, \\mathrm{C}=2.5, \\mathrm{Cl}=3.0, \\mathrm{~F}=4.0$</p>"
+  }
+]

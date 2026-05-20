@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6449,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিচের প্রশ্নের উত্তর দাও : </p><p>$(\\sqrt{3}, 1)$ বিন্দু হতে $\\sqrt{3} x-y+1=0$ সরলরেখার উপর লম্ব অঙ্কন করা হলো।</p><p><br></p><p>Q.অঙ্কিত লম্বের দৈর্ঘ্য কত ?</p>",
+    "options": [
+      "3/4",
+      "5/4",
+      "3/2",
+      "5/2"
+    ],
+    "answer": "3/2",
+    "explanation": ""
+  },
+  {
+    "id": 6450,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিচের প্রশ্নের উত্তর দাও : </p><p>$(\\sqrt{3}, 1)$ বিন্দু হতে $\\sqrt{3} x-y+1=0$ সরলরেখার উপর লম্ব অঙ্কন করা হলো।</p><p><br></p><p>Q. এই লম্বটি x-অক্ষের সাথে কত কোণ উৎপন্ন করে ?</p>",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "150°"
+    ],
+    "answer": "150°",
+    "explanation": ""
+  },
+  {
+    "id": 6451,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মক্ত প্রশ্নের উত্তর দাও:</p><p>$y = 3x (x – 2)$ একটি বক্ররেখার সমীকরণ ।</p><p>Q. বক্ররেখাটির ( 2,0) বিন্দুতে স্পর্শকের ঢাল কত ?</p>",
+    "options": [
+      "-12",
+      "-6",
+      "6",
+      "12"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 6452,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মক্ত প্রশ্নের উত্তর দাও:</p><p>$y = 3x (x – 2)$ একটি বক্ররেখার সমীকরণ ।</p><p>Q. মূলবিন্দুতে স্পর্শকের সমীকরণ কোনটি ?</p>",
+    "options": [
+      "y+6x=0",
+      "y-6x=0",
+      "x+6y=0",
+      "x-6y=0"
+    ],
+    "answer": "y+6x=0",
+    "explanation": ""
+  },
+  {
+    "id": 6453,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :$\\begin{bmatrix}3 &amp;0&nbsp;&amp;0 \\\\0 &amp; 3 &amp; 0\\\\0 &amp; 0 &amp; 3\\end{bmatrix}$</p><p>Q. A ম্যাট্রিক্সটি হলো—</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. কর্ণ ম্যাট্রিক্স.</p><p><br/>iii. সমঘাতি ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": "<p>$A=\\left[\\begin{array}{lll}3 &amp; 0 &amp; 0 \\\\0 &amp; 3 &amp; 0 \\\\0 &amp; 0 &amp; 3\\end{array}\\right]=3\\left[\\begin{array}{lll}1 &amp; 0 &amp; 0 \\\\0 &amp; 1 &amp; 0 \\\\0 &amp; 0 &amp; 1\\end{array}\\right]=3 I_3$</p><p>$\\therefore \\mathrm{A}^2=\\left(3 \\mathrm{I}_3\\right)^2=3^2 \\mathrm{I}_3^2=9 \\mathrm{I}_3 \\neq \\mathrm{A} \\therefore \\mathrm{A}$ সমঘাতি ম্যাট্রিক্স নয়।</p>"
+  },
+  {
+    "id": 6454,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :$\\begin{bmatrix}3 &amp;0&nbsp;&amp;0 \\\\0 &amp; 3 &amp; 0\\\\0 &amp; 0 &amp; 3\\end{bmatrix}$</p><p><br></p><p>Q.&nbsp;|A| এর মান কত ?</p>",
+    "options": [
+      "0",
+      "3",
+      "9",
+      "27"
+    ],
+    "answer": "27",
+    "explanation": "<p>আমরা জানি, কর্ণ ম্যাট্রিক্সের নির্ণায়কের মান কর্ণের ভুক্তিগুলোর গুণফলের সমান।</p><p>$\\therefore|\\mathrm{A}|=3 \\times 3 \\times 3=27$</p>"
+  },
+  {
+    "id": 6455,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span> :$\\begin{bmatrix}1&amp;3&amp;5 \\\\2 &amp; 4 &amp; 6\\\\4 &amp; 6 &amp; 8\\end{bmatrix},B=\\begin{bmatrix}1\\\\ 2\\\\3 \\end{bmatrix}$</p><p>Q.তথ্যের আলোকে-</p><p><br/>i.&nbsp;${\\vert\\mathrm A\\vert}=0$</p><p><br/>ii. AB এর ক্রম 3 x 1</p><p><br/>iii. BA নির্ণয়যোগ্য</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6456,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span> :$\\begin{bmatrix}1&amp;3&amp;5 \\\\2 &amp; 4 &amp; 6\\\\4 &amp; 6 &amp; 8\\end{bmatrix},B=\\begin{bmatrix}1\\\\ 2\\\\3 \\end{bmatrix}$</p><p><br></p><p>AB ম্যাট্রিক্সটি হবে—</p>",
+    "options": [
+      "$\\begin{bmatrix}28\\\\22 \\\\ 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}22\\\\28 \\\\ 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}22 & 28 & 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}28 & 22 & 40\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}22\\\\28 \\\\ 40\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6457,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\lim_{\\mathrm x\\rightarrow0}{(1+2\\mathrm x)}^\\frac1{2\\mathrm x}=?$",
+    "options": [
+      "0",
+      "1",
+      "e",
+      "e2"
+    ],
+    "answer": "e",
+    "explanation": ""
+  },
+  {
+    "id": 6458,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\frac{\\mathrm d^{10}}{\\mathrm{dx}^{10}}{(\\mathrm x^{10})}$ এর মান কত ?",
+    "options": [
+      "10!",
+      "10!x",
+      "$10!x^2$",
+      "0"
+    ],
+    "answer": "10!",
+    "explanation": "<p>আমরা জানি, $\\mathrm{x}^{\\mathrm{n}}$ এর n-তম অন্তরজ $\\frac{\\mathrm{d}^{\\mathrm{n}}}{\\mathrm{dx}^{\\mathrm{n}}}\\left(\\mathrm{x}^{\\mathrm{n}}\\right)=\\mathrm{n!} \\frac{\\mathrm{d}^{10}}{\\mathrm{dx}^{10}}\\left(\\mathrm{x}^{10}\\right)=10$ !</p>"
+  },
+  {
+    "id": 6459,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\mathrm f{(\\mathrm x)}=ln{(1-\\mathrm x)}$ &nbsp;হলে&nbsp;f\"(2)&nbsp;এর মান কত ?",
+    "options": [
+      "-19",
+      "-1",
+      "&nbsp;19",
+      "1"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$\\begin{aligned} &amp; f(x)=\\ln (1-x) \\\\ &amp; \\therefore f^{\\prime}(x)=\\frac{-1}{1-x} \\text { এবং } f^{\\prime \\prime}(x)=\\frac{-1}{(1-x)^2} \\\\ &amp; \\therefore f^{\\prime}(2)=\\frac{-1}{(1-2)^2}=\\frac{-1}{(-1)^2}=-1\\end{aligned}$</p>"
+  },
+  {
+    "id": 6460,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$\\int \\frac{1}{\\cos ^2 p \\sqrt{\\tan p}} d p=?$</p>",
+    "options": [
+      "$\\sqrt{\\tan p}+c$",
+      "$\\sqrt{\\cot p}+c$",
+      "$2 \\sqrt{\\tan p}+c$",
+      "$2 \\sqrt{\\cot p}+c$"
+    ],
+    "answer": "$2 \\sqrt{\\tan p}+c$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\text { ধরি, tanp }=\\mathrm{z} \\\\ &amp; \\therefore \\sec ^2 \\mathrm{p} d p=d z\\end{aligned}$</p><p>$\\begin{aligned} &amp; \\int \\frac{1}{\\cos ^2 p \\sqrt{\\tan p}} d p \\\\ &amp; =\\int \\frac{\\sec ^2 p}{\\sqrt{\\tan p}} d p=\\int \\frac{d z}{\\sqrt{z}} \\\\ &amp; =2 \\sqrt{z}+c=2 \\sqrt{\\tan p}+c\\end{aligned}$</p>"
+  },
+  {
+    "id": 6461,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$\\int_0^1\\frac{\\sin^{-1}\\mathrm p}{\\sqrt{1-\\mathrm p^2}}\\mathrm{dp}$ এর মান কত ?</p>",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$\\frac{\\pi^2}{2}$",
+      "$\\frac{\\pi^2}{4}$",
+      "$\\frac{\\pi^2}{8}$"
+    ],
+    "answer": "$\\frac{\\pi^2}{8}$",
+    "explanation": "$\\int_0^1 \\frac{\\sin ^{-1} p}{\\sqrt{1-p^2}}dp$\n$=\\int_0^1 \\sin ^{-1} p d\\left(\\sin ^{-1} p\\right)$\n$=\\left[\\frac{\\left(\\sin ^{-1} p\\right)^2}{2}\\right]_0^1-\\frac{\\left(\\frac{\\pi}{2}\\right)^2}{2}=\\frac{\\pi^2}{8}$"
+  },
+  {
+    "id": 6462,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$\\int\\mathrm e^{\\mathrm x}{(\\frac1{\\mathrm x}-\\frac1{\\mathrm x^2})}\\mathrm{dx}$ এর মান কত ?</p>",
+    "options": [
+      "$-\\frac{e^x}{x}+c$",
+      "$-\\frac{e^x}{x^2}+c$",
+      "$\\frac{e^x}{x}+c$",
+      "$\\frac{e^x}{x^2}+c$"
+    ],
+    "answer": "$\\frac{e^x}{x}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6463,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\int_1^{\\sqrt{3}} \\frac{x}{1+x^2} d x$ এর মান—",
+    "options": [
+      "ln 2",
+      "$\\ln \\frac{1}{2}$",
+      "$\\frac{1}{2} \\ln \\frac{1}{2}$",
+      "$\\frac{1}{2} \\ln 2$"
+    ],
+    "answer": "$\\frac{1}{2} \\ln 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6464,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>f(x)=2x&nbsp;হলে-</p><p><br/>i.&nbsp;$\\int\\frac{\\mathrm{dx}}{\\mathrm f{(\\mathrm x)}}=\\frac12\\ln\\mathrm x+\\mathrm c$</p><p><br/>ii.&nbsp;$\\int\\mathrm e^{\\mathrm f{(\\mathrm x)}}\\mathrm{dx}=\\frac12\\mathrm e^{2\\mathrm x}+\\mathrm c$</p><p><br/>iii.&nbsp;$\\int_0^1\\mathrm f{(\\mathrm x)}\\mathrm{dx}=1$</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6465,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$4x - 3y + 8 = 0$ এবং $8x – 6y + 4 = 0$ রেখাদ্বয়ের মধ্যবর্তী লম্ব দূরত্ব নিম্নের কোনটি ?</p>",
+    "options": [
+      "$\\frac{2}{5}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{6}{5}$",
+      "$\\frac{3}{5}$"
+    ],
+    "answer": "$\\frac{6}{5}$",
+    "explanation": ""
+  },
+  {
+    "id": 6466,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "A, B এবং C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে 4 x 3, 3 x 4 এবং 7 x 4 হলে&nbsp;${(\\mathrm B+\\mathrm A^{\\mathrm T})}\\mathrm C^{\\mathrm T}$&nbsp;ম্যাট্রিক্সের মাত্রা কত?",
+    "options": [
+      "3×4",
+      "3×7",
+      "3×3",
+      "4×4"
+    ],
+    "answer": "3×7",
+    "explanation": "<p>$ \\mathrm{A}^{\\mathrm{T}}$ এর মাত্রা $=3 \\times 4 $</p><p>$ \\therefore\\left(\\mathrm{B}+\\mathrm{A}^{\\mathrm{T}}\\right) $  এর মাত্রা$=3 \\times 4 $</p><p>$ \\mathrm{C}^{\\mathrm{T}}$এর মাত্রা $=4 \\times 7 \\therefore\\left(\\mathrm{B}+\\mathrm{A}^{\\mathrm{T}}\\right) \\mathrm{C}^{\\mathrm{T}} $  ম্যাট্রিক্সের মাত্রা $=3 \\times 7$</p>"
+  },
+  {
+    "id": 6467,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\left|\\begin{array}{ccc}-2 & 0 & 1 \\\\ -1 & -3 & 0 \\\\ 2 & 1 & 3\\end{array}\\right|$ নির্ণায়কটির (2, 2) তম সহগুণক কোনটি ?",
+    "options": [
+      "8",
+      "-8",
+      "4",
+      "-4"
+    ],
+    "answer": "-8",
+    "explanation": ""
+  },
+  {
+    "id": 6468,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "নিচের কোনটি অব্যতিক্রমী ম্যাট্রিক্স ?",
+    "options": [
+      "$\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 1 \\\\ 8 & 2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 2 \\\\ 10 & 5\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6469,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$(-\\frac12)$&nbsp;ঢালবিশিষ্ট সরলরেখার উপর লম্ব এবং (2, -3) বিন্দুগামী সরলরেখার সমীকরণ—",
+    "options": [
+      "2x +y-7 = 0",
+      "2x-y-7=0",
+      "2x – y + 7 = 0",
+      "2x-y-1=0"
+    ],
+    "answer": "2x-y-7=0",
+    "explanation": ""
+  },
+  {
+    "id": 6470,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$x - y = 0$ এবং $x + y = 0$ রেখাদ্বয়ের অন্তর্গত কোণ কত ?</p>",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "90°",
+    "explanation": ""
+  },
+  {
+    "id": 6471,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$\\mathrm r=3cos\\mathrm\\theta$&nbsp;এর কার্তেসীয় সমীকরণ কোনটি ?</p>",
+    "options": [
+      "<p>x<sup>2</sup>+y<sup>2</sup>-3x=0</p>",
+      "<p>x<sup>2</sup>+y<sup>2</sup>+3x=0</p>",
+      "<p>x<sup>2</sup>+y<sup>2</sup>-3y=0</p>",
+      "<p>x<sup>2</sup>+y<sup>2</sup>+3y=0</p>"
+    ],
+    "answer": "<p>x<sup>2</sup>+y<sup>2</sup>-3x=0</p>",
+    "explanation": "<p>$\\begin{aligned} &amp; r=3 \\cos \\theta \\\\ &amp; \\Rightarrow r^2=3 r \\cos \\theta \\Rightarrow x^2+y^2=3 x \\therefore x^2+y^2-3 x=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 6472,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>$2x - 3y - 1 = 0$ সরলরেখার-</p><p><br/>i. ঢাল =$\\frac23$</p><p><br/>ii. x -অক্ষকে&nbsp;$(\\frac12,0)$&nbsp;বিন্দুতে ছেদ করে</p><p><br/>iii. সমান্তরাল রেখার সমীকরণ $3x + 2y + 7 = 0$</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6473,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>(-1, -1) বিন্দুর পোলার স্থানাঙ্ক কোনটি ?</p>",
+    "options": [
+      "$\\left(\\sqrt{2}, 3 \\frac{\\pi}{4}\\right)$",
+      "$\\left(\\sqrt{2}, 5 \\frac{\\pi}{4}\\right)$",
+      "$\\left(2,3 \\frac{\\pi}{4}\\right)$",
+      "$\\left(2,5 \\frac{\\pi}{4}\\right)$"
+    ],
+    "answer": "$\\left(\\sqrt{2}, 5 \\frac{\\pi}{4}\\right)$",
+    "explanation": ""
+  }
+]

@@ -1,4 +1,4 @@
-let allData = [];
+let metaData = {};
 
 // Local state representation synced with localStorage
 let state = {
@@ -13,19 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set active sidebar item highlight
     updateSidebarActiveItem();
 
-    // Fetch question bank JSON for dynamic sorting/rendering
-    fetch('data.json?t=' + new Date().getTime())
+    // Fetch lightweight subject metadata for instant loading
+    fetch('data/meta.json?t=' + new Date().getTime())
         .then(response => {
             if (!response.ok) throw new Error("HTTP error " + response.status);
             return response.json();
         })
         .then(data => {
-            allData = data;
+            metaData = data;
             // Render initial screen based on localStorage state
             renderCurrentState();
         })
         .catch(err => {
-            console.error("Error loading questions database:", err);
+            console.error("Error loading metadata database:", err);
             renderCurrentState(); // Try to render anyway
         });
 
@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
             renderCurrentState();
         });
     });
+
+
 
     // Header Back button click
     document.getElementById('back-btn').addEventListener('click', handleBackAction);
@@ -107,6 +109,7 @@ function clearSelections() {
     state.board = null;
     localStorage.removeItem('selectedSubject');
     localStorage.removeItem('selectedChapter');
+    localStorage.removeItem('selectedChapterId');
     localStorage.removeItem('selectedYear');
     localStorage.removeItem('selectedBoard');
 }
@@ -185,28 +188,41 @@ function renderChapterList() {
     
     titleEl.textContent = 'অধ্যায় নির্বাচন করুন (Select Chapter)';
     listEl.innerHTML = '';
+    listEl.className = 'selection-list';
 
-    const subjectData = allData.filter(q => q.subject === state.subject);
-    if (subjectData.length === 0) {
+    const subjectMeta = metaData[state.subject];
+    if (!subjectMeta || !subjectMeta.chapters || subjectMeta.chapters.length === 0) {
         showNoDataPlaceholder(listEl);
         return;
     }
 
-    // Filter unique chapters and sort numerically
-    const chapters = [...new Set(subjectData.map(q => q.chapter))].sort((a, b) => {
-        const numA = parseInt(a.match(/\d+/)?.[0] || 0);
-        const numB = parseInt(b.match(/\d+/)?.[0] || 0);
-        return numA - numB;
-    });
-
-    chapters.forEach(ch => {
-        if (!ch) return;
+    subjectMeta.chapters.forEach(ch => {
+        if (!ch || !ch.name) return;
         const btn = document.createElement('div');
         btn.className = 'list-item';
-        btn.innerHTML = `<span>${ch}</span><i class="fa-solid fa-chevron-right"></i>`;
+        
+        // Parse Chapter Number and Name dynamically
+        let chapterNum = "Overview";
+        let chapterName = ch.name;
+        if (ch.name.includes(':')) {
+            const parts = ch.name.split(':');
+            chapterNum = parts[0].trim();
+            chapterName = parts.slice(1).join(':').trim();
+        }
+        
+        btn.innerHTML = `
+            <div class="list-item-content">
+                <span class="list-item-chapter-num">${chapterNum}</span>
+                <span class="list-item-chapter-name">${chapterName}</span>
+            </div>
+            <div class="list-item-chevron">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        `;
         btn.addEventListener('click', () => {
-            state.chapter = ch;
-            localStorage.setItem('selectedChapter', ch);
+            state.chapter = ch.name;
+            localStorage.setItem('selectedChapter', ch.name);
+            localStorage.setItem('selectedChapterId', ch.id);
             window.location.href = 'mcq.html';
         });
         listEl.appendChild(btn);
@@ -220,19 +236,26 @@ function renderYearList() {
     
     titleEl.textContent = 'বছর নির্বাচন করুন (Select Year)';
     listEl.innerHTML = '';
+    listEl.className = 'board-grid';
 
-    const subjectData = allData.filter(q => q.subject === state.subject);
-    if (subjectData.length === 0) {
+    const subjectMeta = metaData[state.subject];
+    if (!subjectMeta || !subjectMeta.boards || Object.keys(subjectMeta.boards).length === 0) {
         showNoDataPlaceholder(listEl);
         return;
     }
 
-    const years = ['2025', '2024', '2023', '2022', '2021', '2019', '2018', '2017'];
+    // Sort years descending dynamically
+    const years = Object.keys(subjectMeta.boards).sort((a, b) => b.localeCompare(a));
     
     years.forEach(yr => {
         const btn = document.createElement('div');
         btn.className = 'list-item';
-        btn.innerHTML = `<span>${yr} Board Questions</span><i class="fa-solid fa-chevron-right"></i>`;
+        btn.setAttribute('data-year', yr);
+        
+        btn.innerHTML = `
+            <i class="fa-solid fa-calendar-days board-card-icon"></i>
+            <span>${yr}</span>
+        `;
         btn.addEventListener('click', () => {
             state.year = yr;
             localStorage.setItem('selectedYear', yr);
@@ -247,13 +270,13 @@ function renderBoardList() {
     const listEl = document.getElementById('board-list');
     listEl.innerHTML = '';
 
-    const subjectYearData = allData.filter(q => q.subject === state.subject && String(q.year) === String(state.year));
-    if (subjectYearData.length === 0) {
+    const subjectMeta = metaData[state.subject];
+    if (!subjectMeta || !subjectMeta.boards || !subjectMeta.boards[state.year]) {
         showNoDataPlaceholder(listEl);
         return;
     }
 
-    const boards = [...new Set(subjectYearData.map(q => q.board))].sort((a, b) => {
+    const boards = [...subjectMeta.boards[state.year]].sort((a, b) => {
         if (a === 'Combined') return -1;
         if (b === 'Combined') return 1;
         return a.localeCompare(b);
@@ -263,7 +286,8 @@ function renderBoardList() {
         if (!bd) return;
         const btn = document.createElement('div');
         btn.className = 'board-card';
-        btn.textContent = bd;
+        btn.setAttribute('data-board', bd);
+        btn.innerHTML = `<i class="fa-solid fa-building-columns board-card-icon"></i>${bd}`;
         btn.addEventListener('click', () => {
             state.board = bd;
             localStorage.setItem('selectedBoard', bd);

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 3274,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>Q. উপরোক্ত বিক্রিয়ায় কোন এনজাইম ব্যবহৃত হয়?</p>",
+    "options": [
+      "জাইমেজ",
+      "অ্যাসিটোব্যাক্টর",
+      "ইনভার্টেজ",
+      "ডায়াস্টেজ"
+    ],
+    "answer": "অ্যাসিটোব্যাক্টর",
+    "explanation": ""
+  },
+  {
+    "id": 3275,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>1% NaOH দ্রবণের pH কত?</p>",
+    "options": [
+      "13.4",
+      "13.0",
+      "1.0",
+      "0.6"
+    ],
+    "answer": "13.4",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left.\\mathrm{S}=\\frac{1}{100} \\times \\frac{1000}{\\mathrm{M}} \\right\\rvert\\, \\mathrm{M}=40 \\\\ &amp; =\\frac{10}{40}=0.25 \\mathrm{M} \\\\ &amp; \\begin{aligned} \\therefore \\mathrm{pOH} &amp; =-\\log \\left[\\mathrm{OH}^{-}\\right] \\\\ &amp; =-\\log [0.25) \\\\ &amp; =0.6\\end{aligned} \\\\ &amp; \\begin{aligned} \\therefore \\mathrm{pH} &amp; =14-0.6=13.4\\end{aligned}\\end{aligned}$ </p>"
+  },
+  {
+    "id": 3276,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>এসিডের তীব্রতার সঠিক ক্রম কোনটি?</p>",
+    "options": [
+      "$\\mathrm{HBrO}_4>\\mathrm{HClO}_4>\\mathrm{HNO}_3>\\mathrm{H}_3 \\mathrm{PO}_3$",
+      "$\\mathrm{HBr}_4>\\mathrm{HClO}_4>\\mathrm{H}_3 \\mathrm{PO}_3>\\mathrm{HNO}_3$",
+      "$\\mathrm{HClO}_4>\\mathrm{HBrO}_4>\\mathrm{H}_3 \\mathrm{PO}_3>\\mathrm{HNO}_3$",
+      "$\\mathrm{HClO}_4>\\mathrm{HBrO}_4>\\mathrm{HNO}_3>\\mathrm{H}_3 \\mathrm{PO}_3$"
+    ],
+    "answer": "$\\mathrm{HClO}_4>\\mathrm{HBrO}_4>\\mathrm{HNO}_3>\\mathrm{H}_3 \\mathrm{PO}_3$",
+    "explanation": ""
+  },
+  {
+    "id": 3277,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>পরমাণুর ২য় শক্তিস্তরে ইলেকট্রনের কৌণিক ভরবেগের মান কোনটি?</p>",
+    "options": [
+      "$\\frac{2 h}{\\pi}$",
+      "$\\frac{4 h}{\\pi}$",
+      "$\\frac{\\mathrm{h}}{\\pi}$",
+      "$\\frac{2 \\mathrm{~h}}{3 \\pi}$"
+    ],
+    "answer": "$\\frac{\\mathrm{h}}{\\pi}$",
+    "explanation": "<p>$\\mathrm{n}=2$</p><p>$\\begin{aligned} \\mathrm{mvr} &amp; =\\frac{\\mathrm{nh}}{2 \\pi} \\\\ &amp; =\\frac{2 \\mathrm{~h}}{2 \\pi}=\\frac{\\mathrm{h}}{\\pi}\\end{aligned}$ </p>"
+  },
+  {
+    "id": 3278,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$A \\longrightarrow[A r] 3 d^{10} 4 s^2 ;$ 'A'-</p><p><br/>i. d-ব্লক মৌল।</p><p><br/>ii. অবস্থান্তর মৌল।</p><p><br/>iii. রঙিন যৌগ গঠন করতে পারে না।</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3279,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>K এর সর্ববহিঃস্থ স্তরের ইলেকট্রনের ক্ষেত্রে সম্ভাব্য কোয়ান্টাম সংখ্যার সেট কোনটি?</p>",
+    "options": [
+      "$n=4, l=1, m=+1, s=+\\frac{1}{2}$",
+      "$n=3, l = 2, m=-1, s=+\\frac{1}{2}$",
+      "$n=4, l=0, m=0, s=+\\frac{1}{2}$",
+      "$n=4, l=1, m=-1, s=+\\frac{1}{2}$"
+    ],
+    "answer": "$n=4, l=0, m=0, s=+\\frac{1}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 3280,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\mathrm{Fe}_2 \\mathrm{O}_3$ এর অম্লত্ব কত?</p>",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": "6",
+    "explanation": "<p>$\\mathrm{Fe}_2 \\mathrm{O}_3+6 \\mathrm{HCl} \\rightarrow 2 \\mathrm{FeCl}_3+3 \\mathrm{H}_2 \\mathrm{O}$</p><p>$\\therefore$ অম্লত্ব 6 </p>"
+  },
+  {
+    "id": 3281,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>সমযোজী যৌগ প্রধানত-</p><p><br/>i. পোলার প্রকৃতির হয়</p><p><br/>ii. জৈব দ্রাবকে দ্রবণীয় হয়</p><p><br/>iii. কম স্ফুটনাঙ্কবিশিষ্ট হয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3282,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের কোনগুলো আকরিক উৎপাদনকারী মৌল?</p>",
+    "options": [
+      "O ও Se",
+      "N ও O",
+      "P ও O",
+      "Se ও P"
+    ],
+    "answer": "O ও Se",
+    "explanation": ""
+  },
+  {
+    "id": 3283,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপক হতে প্রশ্নের উত্তর দাও:</p><p>25°C তাপমাত্রায় 500 mL দ্রবণে সর্বোচ্চ $0.5 \\times 10^{-3}$ মোল দ্রবীভূত হয়।</p><p><br></p><p>Q. $PbI_2$ এর দ্রাব্যতা গুণফল কত?</p>",
+    "options": [
+      "$1 \\times 10^{-6}$",
+      "$2 \\times 10^{-6}$",
+      "$4 \\times 10^{-9}$",
+      "$1 \\times 10^{-9}$"
+    ],
+    "answer": "$4 \\times 10^{-9}$",
+    "explanation": "<p>$\\begin{array}{rl}\\mathrm{S} &amp; =\\frac{0.5 \\times 10^{-3}}{0.5 \\mathrm{~L}} \\mathrm{~mol} \\\\ &amp; =1 \\times 10^{-3} \\mathrm{~mol} \\mathrm{~L}^{-1} \\\\ \\mathrm{PbI}_2 &amp; \\rightleftharpoons \\underset{S} {\\mathrm{~Pb}^{2+}} \\underset{2S} {+2 I^{-}} \\\\ \\therefore \\mathrm{~K}_{\\mathrm{sp}} &amp; =\\mathrm{S} \\times(2 \\mathrm{~S})^2=4 \\mathrm{~S}^3 \\\\ &amp; =4 \\times\\left(1 \\times 10^{-3}\\right)^3 \\\\ &amp; =4 \\times 10^{-9}\\end{array}$</p>"
+  },
+  {
+    "id": 3284,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপক হতে প্রশ্নের উত্তর দাও:</p><p>25°C তাপমাত্রায় 500ml দ্রবণে সর্বোচ্চ $0.5 \\times 10^{-3}$ মোল দ্রবীভূত হয়।</p><p><br></p><p>Q. $\\mathrm{I}^{-}(\\mathrm{aq})$ এর ঘনমাত্রা দ্বিগুণ করলে $PbI_2(s)$ এর সাথে সাম্যবস্থায় থাকা $Pb^{2+}(aq)$ আয়নের ঘনমাত্রা কীরূপ পরিবর্তন হবে?</p>",
+    "options": [
+      "$\\frac{1}{4}$ গুণ হরে",
+      "4 গুণ হবে",
+      "$\\frac{1}{16}$ গুণ হবে",
+      "16 গুণ হবে"
+    ],
+    "answer": "$\\frac{1}{4}$ গুণ হরে",
+    "explanation": "<p>$\\mathrm{PbI}_2 \\rightleftharpoons \\underset{S} {\\mathrm{~Pb}^{2+}}+\\underset{2S}{2I^-}$</p><p>$I^{-}$ এর ঘনমাত্রা দ্বিগুণ করলে-</p><p>$I{-}=2 \\mathrm{~S} \\times 2=4 \\mathrm{~S}$</p><p><br></p><p>$\\therefore\\left[\\mathrm{Pb}^{2+}\\right]$ এর ঘনমাত্রা $=\\frac{1}{4} \\mathrm{~S}$ </p><p><br></p><p>অর্থাৎ, $\\frac{1}{4}$ গুণ হবে </p>"
+  },
+  {
+    "id": 3285,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের কোনটির আয়নীকরণ শক্তির মান সবচেয়ে বেশি?</p>",
+    "options": [
+      "Kr",
+      "He",
+      "Ar",
+      "Ne"
+    ],
+    "answer": "He",
+    "explanation": "<p>একই গ্রুপে উপর থেকে নিচে মৌলের আয়নিকরণ শক্তির মান হ্রাস পায়। এজন্য গ্রুপ-18 এর He, Ne, Ar, Kr মৌল চারটির মধ্যে He এর আয়নিকরণ শক্তির মান বেশি।</p>"
+  },
+  {
+    "id": 3286,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$PCl_5$ অণুর গঠন কীরূপ?</p>",
+    "options": [
+      "সমতলীয় বর্গাকার",
+      "অষ্টতলকীয়",
+      "ত্রিকোণাকার দ্বি-পিরামিডীয়",
+      "দ্বি-পিরামিডীয়"
+    ],
+    "answer": "ত্রিকোণাকার দ্বি-পিরামিডীয়",
+    "explanation": ""
+  },
+  {
+    "id": 3287,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের কোনটি প্রাকৃতিক খাদ্য সংরক্ষক?</p>",
+    "options": [
+      "BHA",
+      "BHT",
+      "$SO_2$",
+      "<p>$NaCl$</p>"
+    ],
+    "answer": "<p>$NaCl$</p>",
+    "explanation": "<p>$BHA$ ও $BHT$ অ্যান্টি-অক্সিডেন্ট। $\\mathrm{SO}_2$ অ্যান্টি-মাইক্রোবিয়াল এবং $\\mathrm{NaCl} \\rightarrow$ প্রাকৃতিক খাদ্য সংরক্ষক।</p>"
+  },
+  {
+    "id": 3288,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAABVCAMAAADNEomAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURf////n5+e3t7f39/fv7+/b29vz8/K+vr/T09Ojo6Li4uO7u7q2trZiYmLu7u2xsbHBwcJycnMrKyltbW4iIiI2NjY6Ojo+Pj5ubm5qamuPj47W1tS8vLwAAABMTE2dnZ2ZmZlhYWDg4OIeHh5mZmaampqmpqaGhoYODgw4ODoWFhebm5snJyRQUFAkJCaWlpevr68TExAYGBmFhYTw8PPX19fLy8tjY2DQ0NOLi4gUFBVVVVdbW1pOTkzs7OzExMcDAwPj4+IaGht7e3vf393NzcwQEBC0tLZ+fn/Dw8Hx8fMXFxdXV1dvb24mJiTY2NtfX1+/v79/f311dXby8vHJycrCwsA8PD6SkpDMzMyAgICUlJdPT02JiYlxcXA0NDRwcHM7OzsvLywgICEtLS9LS0nl5eTk5OcLCwmBgYKenp319fZSUlEJCQoqKiuHh4V5eXhcXFx0dHfHx8WhoaCQkJNnZ2f7+/t3d3bOzs66uriIiIlpaWqioqKOjo+rq6hkZGXp6eqqqqpaWlllZWezs7ODg4Nzc3IuLi4KCgtDQ0Pr6+uTk5JWVlX9/f8PDw3d3d3t7e3h4eKysrEZGRjIyMkVFRURERElJSba2tmVlZZeXl1NTUzc3N1BQUDo6Otra2r6+vk5OTkBAQIGBgaCgoFRUVFZWVunp6W9vb7Gxsbm5uSsrK1JSUr29vWRkZAcHB7S0tPPz8xUVFcHBwUFBQefn53R0dNHR0UxMTGtra9TU1CoqKpGRkXZ2duXl5ZCQkMbGxqKiogoKCgICAs/Pz2NjYyMjIxYWFm5ubhgYGM3NzVFRUYyMjF9fX0NDQyEhIb+/vxsbGywsLAMDAzAwMLe3t8zMzAwMDJKSkgEBAWlpaR4eHqurq2pqahISEnFxcUdHRy4uLigoKFdXV3V1dW1tbScnJz4+PsjIyCkpKZ6enhoaGrKyskhISISEhBEREX5+frq6up2dnTU1NYCAgCYmJh8fH0pKSk9PTxAQEE1NTT8/P8fHxwsLCz09PX8JWUgAAAAJcEhZcwAAFxEAABcRAcom8z8AAA4TSURBVHhe7Zx5QFNHGsA/TECQokDk1FGwXniCGgQUlULQoCAE44XgUQ0oFQ/UeISicqigiFQURVGoSlBaERURgXrUAwXXrFdrrUtbo61YtZXaQ7vdefMmJEGwbrvuus37/fHm++YNz5fvzXzv+2bmCRwcHAaJUQse8I2pwtE8Ji1NwawVVTiaxPwNi9YAbSytrAVtbWxtGmFn7+BIGxo47doj1KGNSUcnO+dOb3a26GxhYdWlazcLDd1devSkLQ2bXr379HV169ffxg26DhCCO1M30JoUBHMPTyoZOF29Bg0G7yGDhg4DR2dPn7d8wU/kj4aPwKfEFgEjwXPoKLahoSMM9AzqODo4xKMlSEIlYDUCAhEaPkY6FowFaNzo8WYTOENRfCeGTQII7wKSCAn4Rgg9J6Mp5lM7wrS30fQZMqvIwbSdwRMViu0EM2dhQ/kCRAfBO7Nj+HPmugfPQ/NjTRcsXMQ245CTY39qqMWRSxh1yewQWCoYzwOHZQPJeQ6KIo41FLw73y7er8vyFaz9ILAT56N0MZ69EnwVjKEgYWI/r3GJsaQaIEkxg0ocDPzQNyA5dBWRB65e0472JwBX5xQqcRDmJENq1Fqq6CC0Yq3HwcHBwcHxCuDzqcBgQg9MKSeKBk0zUsuXA4+WTcPjY3DZ3Pk/gmSdSJQWN4dqDJLoFbIergDr0zdkLKV1L4lJczeoZw4t8e+EOwtWxHV5j+rRGzOHbpKBn2zzhKFZdrQSX26LVOC8NdsciyO3bffoNCgF2uVs99gRupM934jc0TmJiYmCvAnvB9OaP488ISzLZtcyZEl1BvM0hBxMscGy0DImf3xpdmfuwTcYmpWZr6Q1LOadOyYqCvY+/3j3FX7wYUjsyP1oF60wjUNFB4pBXmyFDh4S0kpwDW3fxTzELc+jF0Cq52G0tYQPPoGZ6EgLbacrLaECxj5xoFgc2+IoKmv68TRH8jEqNME6VGaME5yiHKoTxF7lfkxZgSqJ/gL4M0KohNkw9yOx2N2xEB3n0RrC1PZ7TojjT7aPwL1Uj9xTg4yYUq44QnRM8rzhpGrwx1kN1/Cb7nKalNsPMnlYOmrJaBCKcknJckbTKTEjrJljNzREk5e8JPvO6l5RD8m5heTuqzoSlRLvVcj0cliNjhP9BYi3nqAS/r1WJPEOQHP1vEvK+U1kXehCUXUqqdBgnnkqmZUmxRDrYBYdLCe/7vTHmxs61HEUzQr7UDVuJ0WziJaItpCSJSKOCphezGUndXCZxqovDb/MJYqKjVmNCkipv8Sl9Cqnhqoh+gsQX3SjEoDRNDE+HvA/q7eM4fc3NJKVypA9K1DeQ6FU4pdoTNiEocTD/Q+xkt+lfrivNG2oiyupQDHOQ21x4XOh7SpJeqiKrfxdqv++nkqNUKC+VNJF6XWZDG7vlzBUOLWCBrNCxNyyseqtkAtOC7CL+/DKVR/21DU0RDuJj9mKelBJy6Lew0kp0Rrq+ifLA6k4HXVmDHWAKDP1DOV0jQqUT1EW8/DHjL6R9tnRoolar7/zRPNYd33bZVZTfk3cCe2joi7KopufX8Ps/31Dwa1GDrAKtWGKWWcn2+zfhLbHQg06Sk7gW/zHJ3qNh6A3qaRl0ZTetRmY/je+0BiqHfqS9G9MIgoAEKE8pkVGuRc11FRGG56DD0ENDjO4w3kypSu3uSFaC7N0fshR9GK+0vxjurTwQK2pqIvy1OScxNu3FVeRDa1pktb41mq/jMBHe9pn8MC7Uk6cnnwBqhDCBvzw1egOOYMT9imIjiGWHWRwaOmZUgyLls+ftRdz/MZGxlDxvoHC1uiuZqVNgGKYHnWEabH36yvUUMfaxqy28RB8GhNkwYx9huLNyJuVHE5hBz1Y5600cGTzfBP39qm+TfWokO1NG8rrHnk0NS/uUVFtY2zWeNw6HhPURWOo5HuIDgHplbUAY/vVgazBEznef1vPve5HaVRikNvnd/TFQ+8yiSJ2kqEXOwH1C57Te1wpaQGwEeF3mxSNJcpcvaF3hq2kvIX20NeDxalW2DhIxmq/x7b7jUYwhZ+FulKRMMp+GFMovQqJR7XRGCrk2zrNs2qEkdN1KhEuIhGVLP1X4f7VZwRko8M0gAp2uam3uNgXPdCEVjjEfhguwYK+M3/3zpJcPn82tQy4H+yAL9qMM/+cCgzTXKaw71Mea6jglzMUX/qI/P4mqELfkZK89Uyl1WpqKP233soHZe/ouWEtseHa8IB5j0XiQBX3Dh5rqG+xoVImn6Xx03tom17c0KJc0/2SVhq1LK8bg4O3nQfLyb+U8jGOKULK7zEv/b1oEFMF0JXcrQixkYBC89eEUJ0n7jcA7SaC5Hs89LAXHohWEP132Hf2Qyo9RzvkQXymE46j3Adt+4hU4jhKYyiSRTwO+1bvB+oinqkND2DtxCLWCVlHQa3/YoAlffANO6F3SSUIvBq9e93OnR/DlItjrvOqBSfrBUKYc7CcBpyb5SD2zke1fDDJQA5MXcrNCOYxqBHbeQR6bkM3PNiFyljhByt4zPgoiSYSezGS5qfLfapRAi5GeeHIPPqJGU0yYxsic+b6O2/aQ7OpgG54kDoXVRCBn34ARP7YR7XqMx6b/fAUcgOPx1mQszqoRt/PW21hdyQX1kYegsCbW6aJEJKdAP6JBQj1wOE4r1sHHGHIay6rr12r6WSJb6Nn3I9o+xuuINl9Dm3eok0LSrRd/g2EVmRXYG4XqU5/jQQDfavQ1dznE6h/C7MPll9cl3HJXwpJVx+c/CzHHvcd810IPcYdLfkn9AS/z3fdt9qVV0Vj6MbwSrShahBCNd4VFd42h6dIVGFoRXLwz+inqXiIOe+oaDW2YHs32k4H4YEVtbLPsf9bG4nzuKMjOksz0qW24GMryqiUkuGjIN0m0KFSZEvymKlStUwkCoZh0kqZKL3Ju/pcLauUMljWhOw+kiFaopLK1D30sqo/gMm1AGlt2709ofSXPaVJMf44j5JsyEh/iP1KlFqmXgrw86OlLaxvPtUkGc3jXSlTM/dXa+ng00OdITo0VpRxpI4549ZWJDtJx3XT8G+ngftTkqNpweF6fA3j4l8rpk3G75biwv5U1fL+UHz4YT52Oa8S66y0Mu28CsuwsgTvZtPU/xm+83EwF7/w+ffozCe4M9150jj1/0+zKLsdlRro+dhBk7y8RvCkYSfWqnWSIg3fTOm+dt8lzYwRBxgnhM5VY9/7HG5bBXP7NhsgGCImzUYBHA2YxgU4CRRnomO+N6M1HE3hmN8/18zYNDB3TfXGWt2shEMP+YpnmsjVyC08LEJ/cYBDy1E2OWb5xlZvZthwkZsrGZKMXZnC1RRilfu3mSmV8cIQpbJY7FoM5q5YSXI1jVeaiklbHUgaaBgYrVFgBE+X7YkQKC6W7S/LVNSPu61QbLu7MUJQvnmm87LptxTVC3OeXk4U3NvBtFWEz2T+IiIiQqHQmS4wEHI/YTfALvnEAhKe4NHGa9+dB2k/OZZ2wO7cb4Kq5N5UyAwgbUoNdz9/6fHqPnnqk3ggDb78K7xz1xhMWnb4sdYqKVuQt9oHoORoJXTf06r9RWsmm3XqDuAaXZ+Vprv2bghIyuo7d11+utftnJ5Qem8YeN8Vgu8/b9i3yFeDETOXt+U+uilzb1c5rz79VmUJJLzPBylCbWy/aGa+5S9Kq8L9vnCiNx5Pv6lhBjWUsE4FwujCY+SV17nfs5H5GQCRD0H54ANIGroFLBGygc24zoAIQg5yiJq3s52q+1M4Rg0FILatnXBfEd4Zj0dhiiu0uusKo9e4JURPkEPQ0dSSKpErROSzVzAQJEFfDll/fdmBU+huDEyihuI7fFF5wWa26YX6z5ikj19wF53Z+VuMHfqqG0BxHtmHUOyRzRQGhGubS59NPC3y2ODT4KMce/d3B7tnJaWPpzCTLWbtUaLo8C9vpvoSt3RstrcxGFVFvup5qdcPK39mjRKjMZRpdv7X44Oyhp1afosswhwb6wPj+zwkbTCjFnRMP6MwxA8gHK6ws3QXzreGmHPMSlBqy40dNobMWE8W51gStc7bpNcSN8Oclqpg5/sdv1sEuQHs4kHJnmc6VsJYc59yN43pdf3dXhwcHBwcrzsmtZ9SiePF1D3rYYfpRVWOZhlcl52dbfOsC1U5Xszu9lRgSR3Tt7mN6YbJuwUFVVUFllUFzi6CMTDwYdW6Fkx11NP+u+5YxoNdQUbFEnVVlaVlFUMB2Z9kkAweuV6lcrr/rcotJcqz9XnnqFs5sQDTwmyxmxddjC/suL5icr5KFTlApVL9OlIVT//MAHFzA7AfQHYc8K4W5UPfH+cA1PTZkAvuR658t8kKPnp0CCDcCZ8vIZt1DZU0Z5wZRxbDJDeIRWltt+WMwEaTrIyZEPf+wU7zltdB8rkPAeaGg7vsSaIBrec9x5j6JLCqN56x8FFP/rLvQKnZOxqKshYbz0bjQXJuDDbUndJNT8MW/Mndov/XKOv3gbL/oMPhYQ8h4VHDjjf+gxwhwAGXOtZQCy6HyZIW6nzmZYCcKQMoPjYHahOBVzCulm4ENDnEfE4pHr2ONdRWFAAfLWxqi5nhkDuc/bbOEjsriLt8P4Bsz2cRR1JD2YbzYFXma7ib8r+JIpE5yuvJd06uq4tmaqftQjpRQ/kZA8w5r/dhlOHhOOCOBGI3fEE/9FrZ5xtWwJhnfgq+475nFeFw/U/GDA+zHhcjBJaaHQXH5mu/WBJn1YFnuSaXeatTMZUMliRP7f/Q2Xc7SWIIcmEq8Io1yy6eLRs+XuQAiH/F3ydwcHBwcPxlAPgX5eCN10lLMtUAAAAASUVORK5CYII=\"></p><p>Q. উপরোক্ত বিক্রিয়ায় এটম ইকোনমির মান কত?</p>",
+    "options": [
+      "34.5%",
+      "48.9%",
+      "51.1%",
+      "65.5%"
+    ],
+    "answer": "48.9%",
+    "explanation": "<p>$\\underset{94}{\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{OH}}+\\underset{65.4}{\\mathrm{Zn}} \\xrightarrow{\\Delta} \\underset{78}{\\mathrm{C}_6 \\mathrm{H}_6}+\\mathrm{ZnO}$</p><p>$\\therefore A . E=\\frac{78}{94+65.4} \\times 100 \\%=48.9 \\%$</p>"
+  },
+  {
+    "id": 3289,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>মাটির অম্লত্ব বৃদ্ধি পেলে pH নিয়ন্ত্রণ করার জন্য কোনটি যোগ করতে হয়?</p>",
+    "options": [
+      "চুন",
+      "সালফেট",
+      "ফসফেট",
+      "নাইট্রেট"
+    ],
+    "answer": "চুন",
+    "explanation": "<p>মাটির অম্লত্ব বৃদ্ধি পেলে pH মান হ্রাস পায়। তখন pH বৃদ্ধি করতে চুন (CaO) প্রয়োগ করতে হয়। সালফেট, ফসফেট ও নাইট্রেট সার pH মান হ্রাস ঘটায়।</p>"
+  },
+  {
+    "id": 3290,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>কোনটি ক্ষারীয় বাফার দ্রবণ?</p>",
+    "options": [
+      "$\\mathrm{NH}_4 \\mathrm{OH}+\\mathrm{NaCl}$",
+      "$\\mathrm{CH}_3 \\mathrm{CH}_2 \\mathrm{COOH}+\\mathrm{CH}_3 \\mathrm{CH}_2 \\mathrm{COONa}$",
+      "$\\mathrm{NaOH}+\\mathrm{NaCl}$",
+      "$\\mathrm{NH}_4 \\mathrm{OH}+\\mathrm{NH}_4 \\mathrm{Cl}$"
+    ],
+    "answer": "$\\mathrm{NH}_4 \\mathrm{OH}+\\mathrm{NH}_4 \\mathrm{Cl}$",
+    "explanation": ""
+  },
+  {
+    "id": 3291,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>বোর মডেলের সাহায্যে বর্ণালির ব্যাখ্যা দেয়া সম্ভব এরূপ আয়ন হলো-</p><p><br/>i. $\\mathrm{He}^{+}$</p><p><br/>ii. $\\mathrm{H}^{+}$</p><p><br/>iii. $\\mathrm{Be}^{3+}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>এক ইলেকট্রন বিশিষ্ট পরমাণু বা আয়নের বর্ণালি বোর পরমাণু মডেল ব্যাখ্যা করতে পারে।</p><p>$\\mathrm{He}^{+}$এর $\\mathrm{e}^{-}$সংখ্যা $=1$</p><p>$\\mathrm{H}^{+}$এর $\\mathrm{e}^{-}$সংখ্যা $=0$</p><p>$\\mathrm{Be}^{3+}$ এর $\\mathrm{e}^{-}$সংখ্যা $=1$</p><p><br></p><p>তাই সঠিক উত্তর $(i + iii)$</p>"
+  },
+  {
+    "id": 3292,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>স্বল্পদ্রাব্য লবণ $A_3B_2$ এর ক্ষেত্রে দ্রাব্যতা গুণফলের মান হবে কোনটি?</p>",
+    "options": [
+      "$108 \\mathrm{~S}^6$",
+      "$108 \\mathrm{~S}^5$",
+      "$72 \\mathrm{~S}^5$",
+      "$72 \\mathrm{~S}^6$"
+    ],
+    "answer": "$108 \\mathrm{~S}^5$",
+    "explanation": "<p>$\\begin{aligned} A_3 B_2 &amp; \\stackrel{a q}{\\rightleftharpoons}\\underset{3S}{3A^{2+}}\\underset{2S}{-2 B^{3-}} \\\\ \\therefore K_{s p} &amp; =(3 S)^3 \\times(2 S)^2 \\\\ &amp; =27 S^3 \\times 4 S^2=108 S^5\\end{aligned}$</p>"
+  },
+  {
+    "id": 3293,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>জাল পাসপোর্ট শনাক্তকরণে ব্যবহৃত তরঙ্গদৈর্ঘ্য কোনটি?.</p>",
+    "options": [
+      "$10^{-6} \\mathrm{~cm}-3.8 \\times 10^{-5} \\mathrm{~cm}$",
+      "$10^{-8} \\mathrm{~cm}-3.8 \\times 10^{-9} \\mathrm{~cm}$",
+      "$10^{-8} \\mathrm{~cm}-3.8 \\times 10^{-7} \\mathrm{~cm}$",
+      "$10 \\mathrm{~cm}-380 \\mathrm{~cm}$"
+    ],
+    "answer": "$10^{-6} \\mathrm{~cm}-3.8 \\times 10^{-5} \\mathrm{~cm}$",
+    "explanation": ""
+  },
+  {
+    "id": 3294,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>পানিতে যৌগের দ্রাব্যতার সঠিক ক্রম কোনটি?</p>",
+    "options": [
+      "<p>$\\mathrm{AgI}&gt;\\mathrm{AgBr}&gt;\\mathrm{AgCl}&gt;\\mathrm{AgF}$</p>",
+      "$\\mathrm{SiCl}_4>\\mathrm{AlCl}_3>\\mathrm{MgCl}_2>\\mathrm{NaCl}$",
+      "$\\mathrm{AgF}>\\mathrm{AgCl}>\\mathrm{AgBr}>\\mathrm{AgI}$",
+      "$\\mathrm{BeCl}_2>\\mathrm{MgCl}_2>\\mathrm{CaCl}_2>\\mathrm{BaCl}_2$"
+    ],
+    "answer": "$\\mathrm{AgF}>\\mathrm{AgCl}>\\mathrm{AgBr}>\\mathrm{AgI}$",
+    "explanation": "<p>অ্যানায়নের আকার যত বেশি হয় পোলারায়ন তত বেশি হয়। ফলে পানিতে দ্রবণীয়তা হ্রাস পায়। $AgF$, $AgCl$, $AgBr $ ও $AgI$ এর অ্যানায়নের আকারের ক্রম $\\mathrm{F}^{-}&lt;\\mathrm{Cl}^{-}&lt;\\mathrm{Br}^{-}&lt;\\mathrm{I}^{-}$</p><p>তাই পানিতে যৌগের দ্রাব্যতার সঠিক ক্রম:</p><p>$\\mathrm{AgF}&gt;\\mathrm{AgCl}&gt;\\mathrm{AgBr}&gt;\\mathrm{AgI}$</p>"
+  },
+  {
+    "id": 3295,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>হাইড্রোজেন বন্ধন গঠিত হওয়ার শর্ত হলো-</p><p><br/>i. বন্ধনকৃত পরমাণুর নিঃসঙ্গ ইলেক্ট্রন জোড় থাকবে।</p><p><br/>ii. H পরমাণুর সাথে যুক্ত অপর পরমাণুর তড়িৎ ঋনাত্মকতার পার্থক্য 0.4-1.9 এর মধ্যে হতে হবে।</p><p><br/>iii. তড়িৎ ঋণাত্মক মৌলের পরমাণুটিকে আকারে ছোট হতে হবে।</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3296,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>n = 4 এর ক্ষেত্রে m = - 1 মানবিশিষ্ট ইলেক্ট্রনের সংখ্যা কয়টি?</p>",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "6",
+    "explanation": "<p>$\\mathrm{n}=4, l=1, \\mathrm{~m}=0,+1$  হয়। $l=1$  হলে p অরবিটাল। সেক্ষেত্রে সর্বোচ্চ 6টি ইলেকট্রন থাকতে পারে। </p>"
+  },
+  {
+    "id": 3297,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপক হতে প্রশ্নের উত্তর দাও:</p><p>$\\mathrm{X}_2(\\mathrm{~g})+3 \\mathrm{Y}_2(\\mathrm{~g}) \\rightleftharpoons 2 \\mathrm{XY}_3(\\mathrm{~g})$</p><p><br></p><p>Q. উপরোক্ত বিক্রিয়ায় $K_p$ ও $K_c$ এর সম্পর্ক কোনটি?</p>",
+    "options": [
+      "$\\mathrm{K}_{\\mathrm{c}}=\\mathrm{K}_{\\mathrm{p}}(\\mathrm{RT})^{-1}$",
+      "$\\mathrm{K}_{\\mathrm{P}}=\\mathrm{K}_{\\mathrm{c}}(\\mathrm{RT})^2$",
+      "$\\mathrm{K}_{\\mathrm{c}}=\\mathrm{K}_{\\mathrm{P}}(\\mathrm{RT})^{-2}$",
+      "$K_p=K_c(R T)^{-2}$"
+    ],
+    "answer": "$K_p=K_c(R T)^{-2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{X}_2(\\mathrm{~g})+3 \\mathrm{Y}_2(\\mathrm{~g}) \\rightleftharpoons 2 \\mathrm{XY}_3(\\mathrm{~g}) \\\\ &amp; \\therefore \\Delta \\mathrm{n}=2-(1+3)=-2 \\\\ &amp; \\therefore \\mathrm{~K}_{\\mathrm{p}}=\\mathrm{K}_{\\mathrm{c}}(\\mathrm{RT})^{\\Delta \\mathrm{n}}\\end{aligned}$ </p><p>বা, $\\mathrm{K}_{\\mathrm{p}}=\\mathrm{K}_{\\mathrm{c}}(\\mathrm{RT})^{-2}$ </p>"
+  },
+  {
+    "id": 3298,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপক হতে প্রশ্নের উত্তর দাও:</p><p>$\\mathrm{X}_2(\\mathrm{~g})+3 \\mathrm{Y}_2(\\mathrm{~g}) \\rightleftharpoons 2 \\mathrm{XY}_3(\\mathrm{~g})$</p><p><br></p><p>Q. উদ্দীপকের বিক্রিয়ায়-</p><p><br/>i. $\\mathrm{K}_{\\mathrm{p}}$ এর একক $(\\mathrm{atm})^{-2}$</p><p><br/>ii. $K_c$ এর একক $\\mathrm{mol}^{-2} \\mathrm{~L}^{-2}$</p><p><br/>iii. চাপ বাড়ালে উৎপাদ এর পরিমাণ বাড়বে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>$\\begin{aligned} K_p &amp; =a \\mathrm{tm}^{\\Delta n}=\\mathrm{atm}^{-2} \\mid \\Delta \\mathrm{n}=-2 \\\\ K_c &amp; =\\left(\\mathrm{mol} \\mathrm{L}^{-1}\\right)^{\\Delta n} \\\\ &amp; =\\left(\\mathrm{mol} \\mathrm{L}^{-1}\\right)^{-2}(\\Delta \\mathrm{n}=-2) \\\\ &amp; =\\mathrm{mol}^{-2} \\mathrm{~L}^2\\end{aligned}$</p><p>বিক্রিয়কের মোল সংখ্যা বেশি হওয়ায় চাপ বৃদ্ধি করলে উৎপাদ বৃদ্ধি পায়। তাই (i + iii) সঠিক।</p>"
+  }
+]
