@@ -4430,5 +4430,613 @@
     ],
     "answer": "$HF$",
     "explanation": "কারন, HF এর মৌলগুলোর মধ্যে তড়িৎ ঋণাত্মকতার পার্থক্য সবচেয়ে বেশি"
+  },
+  {
+    "id": 3488,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "মানব রক্তে কোন বাফার দ্রবণ বিদ্যমান?",
+    "options": [
+      "$NH_{4}Cl+NH_{4}OH$",
+      "$CH_{3}COONa + CH_{3}COOH$",
+      "$Na_{2}HPO_{4} + H_{3}PO_{4}$",
+      "$NaHCO_{3} + H_{2}CO_{3}$"
+    ],
+    "answer": "$NaHCO_{3} + H_{2}CO_{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 3489,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "রাসায়নিক সাম্যাবস্থার বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "বিক্রিয়ার সমাপ্তি",
+      "বিক্রিয়ার একমুখীতা",
+      "প্রভাবকের প্রয়োজনীয়তা",
+      "সাম্যের স্থিতিশীলতা"
+    ],
+    "answer": "সাম্যের স্থিতিশীলতা",
+    "explanation": ""
+  },
+  {
+    "id": 3626,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "বাফার দ্রবণ কোনটি?",
+    "options": [
+      "30mL 0.1M $NH_4OH$ + 20mL 0.2M $HCl$",
+      "40mL 0.2M $CH_3COOH$ + 30mL 0.3M $NaOH$",
+      "50mL 0.1M $NaOH$ + 40mL 0.2M $H_2CO_3$",
+      "60mL 0.1M $NaOH$ + 70mL 0.2M $HCl$"
+    ],
+    "answer": "50mL 0.1M $NaOH$ + 40mL 0.2M $H_2CO_3$",
+    "explanation": ""
+  },
+  {
+    "id": 3683,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>A(g) + B(g) ⇌ AB(g); AH = +ve. বিক্রিয়াটিতে প্রভাবক ব্যবহার করলে—</p>",
+    "options": [
+      "হার পরিবর্তিত হবে",
+      "সাম্যধ্রুবক পরিবর্তিত হবে",
+      "বিক্রিয়া থেমে যাবে",
+      "সাম্যাবস্থা পরিবর্তিত হবে"
+    ],
+    "answer": "হার পরিবর্তিত হবে",
+    "explanation": ""
+  },
+  {
+    "id": 3712,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "মোলার ঘনমাত্রায় প্রকাশিত সাম্যধ্রুবক কোনটি?",
+    "options": [
+      "$K_p$",
+      "$K_c$",
+      "$K_w$",
+      "$K_a$"
+    ],
+    "answer": "$K_c$",
+    "explanation": ""
+  },
+  {
+    "id": 3721,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "নিচের কোনটি ক্ষারীয় বাফার দ্রবণ?",
+    "options": [
+      "$CH_3COOH + CH_3COONa$",
+      "$NaOH + NaCl$",
+      "$Na_2SO_4 + H_2SO_4$",
+      "$NH_4Cl + NH_4OH$"
+    ],
+    "answer": "$NH_4Cl + NH_4OH$",
+    "explanation": ""
+  },
+  {
+    "id": 3730,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "কোনটি ক্ষারীয় বাফার দ্রবণ?",
+    "options": [
+      "$NaOH + NaCl$",
+      "$CH_3COOH + CH_3COONa$",
+      "<p>$NH_4OH + NH_4Cl$</p>",
+      "$H_2CO_3 + NaHCO_3$"
+    ],
+    "answer": "<p>$NH_4OH + NH_4Cl$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 3805,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>X + Y ⇌ Z এর সাম্যধ্রুবক A এবং Z ⇌ X + Y এর সাম্যধ্রুবক B হলে কোন সমীকরণটি সঠিক?</p>",
+    "options": [
+      "B = 1/A",
+      "B = 1/$\\sqrt A$",
+      "B = A",
+      "B$^{-1}$ = A"
+    ],
+    "answer": "B = 1/A",
+    "explanation": ""
+  },
+  {
+    "id": 3887,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "মানুষের রক্তে কোন বাফার দ্রবণ বিদ্যমান?",
+    "options": [
+      "$NaHCO_3 + H_2CO_3$",
+      "$CH_3COONa + CH_3COOH $",
+      "$NH_4CI + NH_4OH$",
+      "$H-COOH + HCOONa$"
+    ],
+    "answer": "$NaHCO_3 + H_2CO_3$",
+    "explanation": ""
+  },
+  {
+    "id": 4060,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>কোন বিক্রিয়ার প্রশমন তাপ এর মান সবচেয়ে কম?</p>",
+    "options": [
+      "<p>HCl + NaOH = NaCl + HO<sub>2</sub>O</p>",
+      "<p>CH<sub>3</sub>COOH + NaOH = CH<sub>3</sub>COONa + H<sub>2</sub>O</p>",
+      "<p>NaOH + HF = NaF + H<sub>2</sub>O</p>",
+      "<p>HCOOH + NH<sub>4</sub>OH = HCOONH<sub>4</sub> + H<sub>2</sub>O </p>"
+    ],
+    "answer": "<p>HCOOH + NH<sub>4</sub>OH = HCOONH<sub>4</sub> + H<sub>2</sub>O </p>",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{HCl}+\\mathrm{NaOH}=\\mathrm{NaCl}+\\mathrm{H}_2 \\mathrm{O} ; \\\\ &amp; \\Delta \\mathrm{H}=-57.24 \\mathrm{~kJ} / \\mathrm{mol} \\\\ &amp; \\mathrm{CH}_3 \\mathrm{COOH}+\\mathrm{NaOH}=\\mathrm{CH}_3 \\mathrm{COONa}+\\mathrm{H}_2 \\mathrm{O} ; \\Delta \\mathrm{H}=-55.2 \\mathrm{~kJ} / \\mathrm{mol} \\\\ &amp; \\mathrm{NaOH}+\\mathrm{HF}=\\mathrm{NaF}+\\mathrm{H}_2 \\mathrm{O} ; \\\\ &amp; \\Delta \\mathrm{H}=-68.2 \\mathrm{~kJ} / \\mathrm{mol} \\\\ &amp; \\mathrm{HCOOH}+\\mathrm{NH}_4 \\mathrm{OH}=\\mathrm{HCOONH_4}+\\mathrm{H}_2 \\mathrm{O} ; \\Delta \\mathrm{H}=-51.4 \\mathrm{~kJ} / \\mathrm{mol}\\end{aligned}$</p>"
+  },
+  {
+    "id": 4228,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$N_2(g)+3H_2(g) ⇌ 2NH_3(g)$; সমীকরণটির সাম্যধ্রুবক $K_1$ হলে, ${1\\over2}N_2(g)+{3\\over2}H_2(g) ⇌ NH_3(g)$ সমীকরণটির সাম্যধ্রুবক $K_2$ কত?</p>",
+    "options": [
+      "$K_2={1 \\over \\sqrt {K_1}}$",
+      "$K_2=K_1$",
+      "$K_2={\\sqrt {K_1}}$",
+      "$K_2={1\\over2}{K_1}$"
+    ],
+    "answer": "$K_2={\\sqrt {K_1}}$",
+    "explanation": ""
+  },
+  {
+    "id": 4234,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>C-H, C-Cl, Cl-Cl এবং H-Cl এর বন্ধন শক্তিসমূহ যথাক্রমে 413 kJ mol$^{-1}$, 328 kJ mol$^{-1}$,243 kJ mol$^{-1}$ এবং 433 kJ mol$^{-1}$ হলে $CH_4+Cl_2=CH_3Cl+HCl$ বিক্রিয়ায় $\\triangle H$ এর মান কত?</p>",
+    "options": [
+      "105 kJ mol$^{-1}$",
+      "100 kJ mol$^{-1}$",
+      "95 kJ mol$^{-1}$",
+      "90 kJ mol$^{-1}$"
+    ],
+    "answer": "105 kJ mol$^{-1}$",
+    "explanation": ""
+  },
+  {
+    "id": 4268,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>হেবার পদ্ধতিতে $NH_3$ উৎপাদনকালে নিচের কোনটি প্রভাবক হিসাবে ব্যবহৃত হয়?</p>",
+    "options": [
+      "Mo",
+      "Fe",
+      "Ni",
+      "Cr"
+    ],
+    "answer": "Fe",
+    "explanation": ""
+  },
+  {
+    "id": 4271,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>সক্রিয় ভর বলতে বোখায়-</p><p><br/>i. আংশিক চাপ </p><p><br/>ii. আণবিক ভর </p><p><br/>iii. মোলার ঘনমাত্রা</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 4342,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>বিক্রিয়ার হার বলতে কি বুঝায়?</p><p><br/>i. বিক্রিয়কের ঘনমাত্রা হ্রাসের হার </p><p><br/>ii. প্রভাবকের পরিমাণ বৃদ্ধির হার</p><p><br/>iii. উৎপাদের ঘনমাত্রা বৃদ্ধির হার </p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3389,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>PH<sub>4</sub>Cl যৌগে বিদ্যমান বন্ধন-</p><p><br/>i. আয়নিক</p><p><br/>ii. সমযোজী </p><p><br/>iii. সন্নিবেশ</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 3620,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>দ্রবণের pH = 3.6 হলে H<sup>+</sup> আয়নের ঘনমাত্রা কত?</p>",
+    "options": [
+      "$3.5 × 10^{-4}M$",
+      "$2.5 × 10^{-4}M$",
+      "$1.5 × 10^{-4}M$$3.5 × 10^{-4}M$",
+      "$0.5 × 10^4M$"
+    ],
+    "answer": "$2.5 × 10^{-4}M$",
+    "explanation": "<p>$\\mathrm{pH}=3.6$</p><p>বা, $-\\log \\left[\\mathrm{H}^{+}[=3.6\\right.$</p><p>বা, $\\left[\\mathrm{H}^{+}\\right]=10^{-3.6}=2.5 \\times 10^{-4} \\mathrm{M}$</p>"
+  },
+  {
+    "id": 3634,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "অসওয়াল্ডের লঘুকরণ সূত্রের গাণিতিক প্রকাশ কোনটি?",
+    "options": [
+      "$\\alpha=\\sqrt{\\frac{K_a}C}$",
+      "$\\alpha=\\sqrt{\\frac C{K_a}}$",
+      "$\\alpha=\\sqrt{\\frac 1{K_a}}$",
+      "$\\alpha=\\frac1{\\sqrt C}$"
+    ],
+    "answer": "$\\alpha=\\sqrt{\\frac{K_a}C}$",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 3637,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>N<sub>2</sub> + 3H<sub>2</sub> $\\rightleftharpoons$ 2NH<sub>3</sub> বিক্রিয়ার K<sub>p</sub> এর একক কোনটি?</p>",
+    "options": [
+      "$atm$",
+      "$atm^2$",
+      "$atm^{-1}$",
+      "$atm^{-2}$"
+    ],
+    "answer": "$atm^{-2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{N}_2+3 \\mathrm{H}_2 \\rightleftharpoons 2 \\mathrm{NH}_3 \\\\ &amp; \\therefore \\Delta \\mathrm{n}=2-4=-2 \\\\ &amp; \\therefore \\mathrm{Kp}=\\mathrm{atm}^{-2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 3639,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "দুটি অম্লীয় দ্রবণের pH যথাক্রমে 3.0 ও 6.0 হলে প্রথম দ্রবণটি দ্বিতীয় দ্রবণ অপেক্ষা কত গুণ বেশি অম্লীয়?",
+    "options": [
+      "20 গুণ",
+      "50 গুণ",
+      "100 গুণ",
+      "1000 গুণ"
+    ],
+    "answer": "1000 গুণ",
+    "explanation": ""
+  },
+  {
+    "id": 3643,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>2SO<sub>2</sub>(g) + O<sub>2</sub>(g) $\\rightleftharpoons$ 2SO<sub>3</sub>(g) + 44.8 KCal বিক্রিয়াটিতে তাপমাত্রা বৃদ্ধি করলে–</p><p><br/><br/>i. SO<sub>2</sub> এর পরিমাণ হ্রাস পায়</p><p><br/><br/>ii. K এর মান হ্রাস পায়</p><p><br/><br/>iii. বিক্রিয়া পশ্চাৎমুখী হয়</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "<p>2SO<sub>2</sub> + O<sub>2</sub> $\\rightleftharpoons$ 2SO<sub>3</sub>; + 44.8 kCal </p><p>বিক্রিয়াটি তাপোৎপাদী। এজন্য তাপমাত্রা বৃদ্ধিতে উৎপাদ SO<sub>3 </sub>হ্রাস পায় তবে বিক্রিয়ক SO₂ বৃদ্ধি পায়। (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 3759,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>কোনো দ্রবণের pH = 1.5 হলে ঐ দ্রবণের H<sup>+</sup> আয়নের ঘনমাত্রা কত?</p>",
+    "options": [
+      "$3.16 \\times 10^{-2}$",
+      "$3.16 \\times 10^{-3}$",
+      "$4.0 \\times 10^{-2}$",
+      "$4.0 \\times 10^{-4}$"
+    ],
+    "answer": "$3.16 \\times 10^{-2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{pH}=1.5 \\\\ &amp; \\text { বI, }-\\log \\left[\\mathrm{H}^{+}\\right]=1.5 \\\\ &amp; \\therefore\\left[\\mathrm{H}^{+}\\right]=10^{-1.5}=3.16 \\times 10^{-2} \\mathrm{M} \\text { }\\end{aligned}$</p>"
+  },
+  {
+    "id": 3913,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "মানুষের রক্তের pH কত?",
+    "options": [
+      "8.4",
+      "7.4",
+      "6.4",
+      "5.4"
+    ],
+    "answer": "7.4",
+    "explanation": ""
+  },
+  {
+    "id": 3978,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "কোন লবণটির জলীয় দ্রবণের pH &gt; 7?",
+    "options": [
+      "$NaCl$",
+      "$CuSO_4$",
+      "$Na_2CO_3$",
+      "$NH_4Cl$"
+    ],
+    "answer": "$Na_2CO_3$",
+    "explanation": ""
+  },
+  {
+    "id": 3984,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>0.05 M H<sub>2</sub>SO<sub>4</sub> দ্রবণের pH কত?</p>",
+    "options": [
+      "0.5",
+      "1",
+      "1.5",
+      "2"
+    ],
+    "answer": "1",
+    "explanation": "<p>$0.005 \\mathrm{M} \\mathrm{H}_2 \\mathrm{SO}_4 এ \\mathrm{H}^{+}$ এর ঘনমাত্রা $=(2 \\times 0.005) \\mathrm{M}=0.01 \\mathrm{M}$</p><p>$\\therefore \\mathrm{pH}=-\\log \\left[\\mathrm{H}^{+}\\right]=-\\log (0.01)=2$</p>"
+  },
+  {
+    "id": 4094,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "A দ্রবণের pH→ 5, B দ্রবণের pH→ 8, A দ্রবণ B দ্রবণ অপেক্ষা কতগুণ বেশি অম্লীয়?",
+    "options": [
+      "100",
+      "1000",
+      "10000",
+      "1000000"
+    ],
+    "answer": "1000",
+    "explanation": "যার pH যত বেশী, সে তত বেশী অম্লীয়। "
+  },
+  {
+    "id": 4213,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>0.005M $H_2SO_4$ দ্রবণের pH এর মান কত?</p>",
+    "options": [
+      "2.3",
+      "2",
+      "1.3",
+      "1"
+    ],
+    "answer": "2",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{H}_2 \\mathrm{SO}_4 \\longrightarrow 2 \\mathrm{H}^{+}+\\mathrm{SO}_4^{2-} \\\\ &amp; \\therefore \\mathrm{pH}=-\\log \\left[2 \\mathrm{H}^{+}\\right]=-\\log (2 \\times 0.005)=2\\end{aligned}$</p>"
+  },
+  {
+    "id": 4261,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>মানুষের রক্তের pH কত?</p>",
+    "options": [
+      "8",
+      "7.4",
+      "7",
+      "6.5"
+    ],
+    "answer": "7.4",
+    "explanation": ""
+  },
+  {
+    "id": 4269,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>একটি দ্রবণে হাইড্রোজেন আয়নের ঘনমাত্রা $10^{-4}$ mol/L হলে উক্ত দ্রবণের pOH কত?</p>",
+    "options": [
+      "4",
+      "6",
+      "10",
+      "14"
+    ],
+    "answer": "10",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{pH}=-\\log \\left[\\mathrm{H}^{+}\\right]=-\\log \\left(10^{-4}\\right)=4 \\\\ &amp; \\therefore \\mathrm{pOH}=14-4=10\\end{aligned}$</p>"
+  },
+  {
+    "id": 4277,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>25$^oC$ তাপমাত্রায় 1 লিটার দ্রবণে সর্বোচ্চ $1.0\\times10^{-3}$ মোল $PbI_2$ দ্রবীভূত হয়।</p><p><br></p><p>Q. $I^-(aq)$ এর ঘনমাত্রা দ্বিগুণ করলে $PbI_2(s)$ এর সাথে সাম্যাবস্থায় থাকা $Pb^{2+}(aq)$ আয়নের ঘনমাত্রার উপর কীরূপ প্রভাব বিস্তার করবে?</p>",
+    "options": [
+      "4 গুণ হবে",
+      "16 গুণ হবে",
+      "4 ভাগ হবে",
+      "16 ভাগ হবে"
+    ],
+    "answer": "4 ভাগ হবে",
+    "explanation": ""
+  },
+  {
+    "id": 4296,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>স্থির তাপমাত্রায় আয়তন পরিবর্তন কোন বিক্রিয়ার সাম্যাবস্থায় প্রভাব বিস্তার করবে?</p><p><br/>i. $C_2H_4(g)+H_2(g) ⇌ C_2H_6(g)$</p><p><br/>ii. $4NH_3(g)+5O_2(g) ⇌ 4NO(g)+6H_2O(l)$</p><p><br/>iii. $SO_3(g)+NO_2(g) ⇌ NO_2(g)+SO_2(g)$</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>বিক্রিয়ক ও উৎপাদের মোল সংখ্যা সমান হলে বিক্রিয়াটির উপর কোনো প্রভাব নেই। সে হিসেবে স্থির তাপমাত্রার আয়তনের কোনো পরিবর্তন হবে না।</p>"
+  },
+  {
+    "id": 4297,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>সংগৃহীত দুধের pH নিয়ন্ত্রণের জন্য কোনটি দেয়া হয়?</p>",
+    "options": [
+      "$NaHCO_3$",
+      "$H_2O_2$",
+      "$NaCl$",
+      "$NH_3$"
+    ],
+    "answer": "$NaHCO_3$",
+    "explanation": ""
+  },
+  {
+    "id": 4314,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p>V লিটার আয়তনের একটি বদ্ধপাত্রে ১ মোল $N_2O_4$ কে উত্তপ্ত করা হলে সাম্যাবস্থায় $\\alpha$ মোল বিয়োজিত হয়। গ্যাস মিশ্রণের মোট চাপ P ।</p><p>$N_2O_4(g) ⇌ 2NO_2(g)$</p><p>Q. সাম্যাবস্থায় $NO_2$ এর আংশিক চাপ-</p>",
+    "options": [
+      "${2\\alpha p}\\over {1-\\alpha}$",
+      "${2\\alpha p}\\over {1+\\alpha}$",
+      "${\\alpha p}\\over {1+\\alpha}$",
+      "${\\alpha p}\\over {1-\\alpha}$"
+    ],
+    "answer": "${2\\alpha p}\\over {1+\\alpha}$",
+    "explanation": ""
+  },
+  {
+    "id": 4315,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p>V লিটার আয়তনের একটি বদ্ধপাত্রে ১ মোল $N_2O_4$ কে উত্তপ্ত করা হলে সাম্যাবস্থায় $\\alpha$ মোল বিয়োজিত হয়। গ্যাস মিশ্রণের মোট চাপ P ।</p><p>$N_2O_4(g) ⇌ 2NO_2(g)$</p><p>Q. উদ্দীপকের বিক্রিয়ার জন্য কোন সম্পর্কটি সঠিক?</p><p><br/>i. $K_c={{4\\alpha^2}\\over{(1-\\alpha)V}}$</p><p><br/>ii. $K_p={{4\\alpha^2p}\\over{1-\\alpha^2}}$</p><p><br/>iii. $K_p={{(1-\\alpha)p}\\over{\\alpha}}$</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 4348,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>মানুষের রক্তের pH-</p>",
+    "options": [
+      "4.5",
+      "5.4",
+      "6.9",
+      "7.4"
+    ],
+    "answer": "7.4",
+    "explanation": ""
+  },
+  {
+    "id": 4362,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$2SO_2(g)+O_2(g) ⇌ 2SO_3(g)+44.8kCal$ বিক্রিয়াটিতে তাপমাত্রা বাড়ালে কি ঘটে?</p>",
+    "options": [
+      "$SO_3$ এর উৎপাদন হ্রাস পায়",
+      "বিক্রিয়া সম্মুখমুখী হয়",
+      "তরল $SO_3$ উৎপন্ন হয়",
+      "$O_2$ এর পরিমাণ কমে যায়"
+    ],
+    "answer": "$SO_3$ এর উৎপাদন হ্রাস পায়",
+    "explanation": ""
+  },
+  {
+    "id": 4371,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>মাটির pH 11 হলে ফসল ফলানোর জন্য নিম্নের কোনটি প্রয়োজন?</p>",
+    "options": [
+      "টি.এস.পি",
+      "চুন",
+      "ডলোমাইট",
+      "অ্যামোনিয়াম কার্বনেট"
+    ],
+    "answer": "টি.এস.পি",
+    "explanation": ""
+  },
+  {
+    "id": 4409,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "1% HCl দ্রবণের pH কত?",
+    "options": [
+      "0.56",
+      "1.0",
+      "2.6",
+      "5.6"
+    ],
+    "answer": "0.56",
+    "explanation": "<p>$pH=-\\log(\\frac{10&nbsp;× 1}{36.5})$</p>"
   }
 ]

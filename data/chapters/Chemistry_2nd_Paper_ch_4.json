@@ -4398,5 +4398,341 @@
     ],
     "answer": "$yV_OM_O=xV_RM_R$",
     "explanation": ""
+  },
+  {
+    "id": 4852,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>কোনটি জারণ-বিজারণ অর্ধকোষ? </p>",
+    "options": [
+      "$Pt, Cl_{2}/Cl^{-}$",
+      "$Ag,AgCl/Cl^{-}$",
+      "$Na- Hg/ Na^{+} $",
+      "$Pt, Fe^{2+}/Fe^{3+}$"
+    ],
+    "answer": "$Pt, Fe^{2+}/Fe^{3+}$",
+    "explanation": ""
+  },
+  {
+    "id": 4962,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "500 mL ডেসিমোলার দ্রবণে দ্রবীভূত সোডিয়াম কার্বনেট এর পরিমাণ কত গ্রাম?",
+    "options": [
+      "2.65 গ্রাম",
+      "5.30 গ্রাম",
+      "6.30 গ্রাম",
+      "10.60 গ্রাম"
+    ],
+    "answer": "5.30 গ্রাম",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{S}=0.1 \\mathrm{M} \\\\ &amp; \\mathrm{V}=500 \\mathrm{~mL} \\\\ &amp; \\mathrm{M}=106\\end{aligned}$</p><p><br></p><p>$w=\\frac{\\text { SMV }}{1000}$</p><p>$=\\frac{1.5 \\times 0.5}{1.5 \\times 2}=0.25 \\mathrm{~L}$</p>"
+  },
+  {
+    "id": 5085,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>দ্রবণের মোলারিটির একক হচ্ছে</p>",
+    "options": [
+      "$\\frac{N}{V}$",
+      "$\\frac{mol}{Kg}$",
+      "$\\frac{mol}{L}$",
+      "$\\frac{g}{L}$"
+    ],
+    "answer": "$\\frac{mol}{L}$",
+    "explanation": ""
+  },
+  {
+    "id": 5098,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>3H<sub>2</sub>S + 2HNO<sub>3</sub> <span style=\"color: rgb(32, 33, 36);\">→ 2NO + 3S + 4H</span><sub style=\"color: rgb(32, 33, 36);\">2</sub><span style=\"color: rgb(32, 33, 36);\">O বিক্রিয়াটিতে H</span><sub style=\"color: rgb(32, 33, 36);\">2</sub><span style=\"color: rgb(32, 33, 36);\">S  এর ভূমিকা কী?</span></p>",
+    "options": [
+      "জারক",
+      "বিজারক",
+      "ট্রাইট্রেট",
+      "টাইট্রান্ট"
+    ],
+    "answer": "বিজারক",
+    "explanation": ""
+  },
+  {
+    "id": 5437,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "কোনটি জারক ও বিজারক উভয়রূপে ক্রিয়া করে?",
+    "options": [
+      "<p>Cu<sup>2+</sup></p>",
+      "<p>Sn<sup>2+</sup></p>",
+      "<p>Ag<sup>+</sup></p>",
+      "<p>Fe<sup>3+</sup></p>"
+    ],
+    "answer": "<p>Sn<sup>2+</sup></p>",
+    "explanation": "<p>জারক - বিজারক উভয়ই হিসাবে কাজ করতে পারে-</p><p>(i) $\\mathrm{SO}_2$</p><p>(ii) $\\mathrm{H}_2 \\mathrm{O}_2$</p><p>(iii) $\\mathrm{O}_3$</p><p>(iv) $\\mathrm{Sn}^{2+}$</p><p>(v) $\\mathrm{Fe}^{2+}$</p><p><br></p>"
+  },
+  {
+    "id": 5474,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>পেপার শিল্পে বিজারক হিসাবে ব্যবহার হয় কোনটি?</p>",
+    "options": [
+      "<p>H<sub>2</sub>O<sub>2</sub></p>",
+      "<p>NaHSO<sub>3</sub></p>",
+      "<p>Cl<sub>2</sub>O<sub>7</sub></p>",
+      "<p>KMnO<sub>4</sub></p>"
+    ],
+    "answer": "<p>H<sub>2</sub>O<sub>2</sub></p>",
+    "explanation": ""
+  },
+  {
+    "id": 5526,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>কোনটি জারক ও বিজারক উভয় হিসাবে ব্যবহৃত হয়?</p>",
+    "options": [
+      "$H_2O_2$",
+      "$CuSO_4$",
+      "$SO_2$",
+      "$KMnO_4$"
+    ],
+    "answer": "$H_2O_2$",
+    "explanation": "<p>বি.দ্র. ক ও গ উভয়ই সঠিক।</p><p>জারক পদার্থ, $\\mathrm{H}_2 \\mathrm{O}_2, \\mathrm{HNO}_3, \\mathrm{H}_2 \\mathrm{SO}_4, \\mathrm{SO}_2, \\mathrm{CuSO}_4$</p><p>বিজারক পদার্থ, $\\mathrm{KMnO}_4, \\mathrm{~K}_2 \\mathrm{Cr}_2 \\mathrm{O}_7, \\mathrm{MnO}_2, \\mathrm{FeCl}_3, \\mathrm{SO}_2$</p>"
+  },
+  {
+    "id": 5551,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>WHO এর পরিসংখ্যান অনুযায়ী পিপিএম এককে আর্সেনিকের সর্বোচ্চ মাত্রা হলো-</p>",
+    "options": [
+      "0.01",
+      "0.04",
+      "0.05",
+      "0.06"
+    ],
+    "answer": "0.05",
+    "explanation": "<p>WHO এর পরিসংখ্যান অনুযায়ী পিপিএম এককে আর্সেনিকের সর্বোচ্চ মাত্রা হলো 0.05 (বাংলাদেশ)</p>"
+  },
+  {
+    "id": 5566,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$NaOH+Cl_2 \\to NaCl+NaOCl+H_2O$ বিক্রিয়াটি-</p>",
+    "options": [
+      "ক্লোরিনেশন",
+      "সংযোজন",
+      "ডিসপ্রোপোরশন",
+      "সংশ্লেষণ"
+    ],
+    "answer": "ডিসপ্রোপোরশন",
+    "explanation": "<p><span style=\"color: rgba(0, 0, 0, 0.87);\">যে সকল বিক্রিয়ায় একই বিক্রিয়কের একই সাথে জারণ ও বিজারণ ঘটে তাকে ডিসপ্রোপোরশন বিক্রিয়া বলে। উক্ত বিক্রিয়ায় Cl₂ এর একই সাথে জারণ সংখ্যা 0 থেকে – 1 ও + 1 হয়েছে অর্থাৎ Cl₂ এর একই সাথে জারণ-বিজারণ হয়েছে। তাই বিক্রিয়াটি ডিসপ্রোপোরশন বিক্রিয়া।</span></p>"
+  },
+  {
+    "id": 5613,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>সবচেয়ে শক্তিশালী বিজারক কোনটি?</p>",
+    "options": [
+      "Fe",
+      "Al",
+      "Li",
+      "Zn"
+    ],
+    "answer": "Li",
+    "explanation": "<p>যার জারন বিভবের মান সবচেয়ে বেশি। </p>"
+  },
+  {
+    "id": 5635,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>10% $Na_2CO_3$ দ্রবণের ঘনমাত্রা মোলারিটিতে কত?</p>",
+    "options": [
+      "100M",
+      "10M",
+      "0.9434M",
+      "0.4717M"
+    ],
+    "answer": "0.9434M",
+    "explanation": ""
+  },
+  {
+    "id": 5645,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>ক্যালোমেল কোনটি?</p>",
+    "options": [
+      "$HgCl_2$",
+      "$Hg_2Cl_2$",
+      "$HgF_2$",
+      "$Hg_2I_2$"
+    ],
+    "answer": "$Hg_2Cl_2$",
+    "explanation": "<p>গৌণ নির্দেশক তড়িৎদ্বার হিসেবে ক্যালোমেল তড়িৎদ্বার সবচেয়ে বেশি ব্যবহৃত হয়। প্রমাণ ক্যালোমেল তড়িৎদ্বারের পাশে একটি সুরু নলসহ একটি চওড়া নলে কিছু পরিমাণ পারদ নিয়ে তার উপরে কঠিন মারকিউরাস ক্লোরাইড (Hg<sub>2</sub>Cl<sub>2</sub>) লবণ বা ক্যালোমেল নেয়া হয়।</p>"
+  },
+  {
+    "id": 5651,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$Br_2 \\to BrO_3^-$</p><p>এ বিক্রিয়ায় Br এর জারণ সংখ্যার পরিবর্তন হয়-</p>",
+    "options": [
+      "0 থেকে +5",
+      "0 থেকে -3",
+      "+1 থেকে +5",
+      "-1 থেকে +5"
+    ],
+    "answer": "0 থেকে +5",
+    "explanation": "<p>Br₂-এ Br এর জারণ মান = 0</p><p>BrO3¯ এ Br এর জারণ মান = +5</p><p>∴ Br এর জারণ মানের পরিবর্তন 0 থেকে + 5</p>"
+  },
+  {
+    "id": 5654,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপক হতে নিম্নোক্ত ও পরবর্তী নং প্রশ্নের উত্তর দাওঃ</p><p>$Fe^{2+}+Cr_2O_7^{2-}+H^+ \\to A+Cr^{3+}H_2O$</p><p>Q. উদ্দীপকের বিক্রিয়ায়-</p><p><br/>i. $Cr_2O_7^{2-}$ বিজারিত হয়েছে</p><p><br/>ii. A জারক</p><p><br/>iii. $H^+$ বিজারক</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>Fe<sup>2+ </sup>হল বিজারক, কারন এর জারন ঘটেছে</p>"
+  },
+  {
+    "id": 5655,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপক হতে নিম্নোক্ত ও পরবর্তী নং প্রশ্নের উত্তর দাওঃ</p><p>$Fe^{2+}+Cr_2O_7^{2-}+H^+ \\to A+Cr^{3+}H_2O$</p><p>Q. উদ্দীপকের 20 mL 0.05M জারক দ্রবণকে বিজারিত করতে কত mL ডেসিমোলার বিজারক দ্রবণ প্রয়োজন হবে?</p>",
+    "options": [
+      "20",
+      "40",
+      "60",
+      "80"
+    ],
+    "answer": "60",
+    "explanation": "<p>বিক্রিয়ায় জারক $-\\mathrm{Cr}_2 \\mathrm{O}_7^{-}$</p><p> \"  বিজারক $-\\mathrm{Fe}^{2+}$</p><p>বিক্রিয়ার সমতাকৃত রূপ হলো-</p><p>$6 \\mathrm{Fe}^{2+}+\\mathrm{Cr}_2 \\mathrm{O}_7^{-}+14 \\mathrm{H}^{+} \\rightarrow 6 \\mathrm{Fe}^{3+}+2 \\mathrm{Cr}^{3+}+7 \\mathrm{H}_2 \\mathrm{O}$</p><p><span style=\"color: rgba(0, 0, 0, 0.87);\">দেওয়া আছে,</span></p><p><span style=\"color: rgba(0, 0, 0, 0.87);\">জারকের আয়তন, V</span><sub style=\"color: rgba(0, 0, 0, 0.87);\">1</sub><span style=\"color: rgba(0, 0, 0, 0.87);\"> = 20 mL </span></p><p><span style=\"color: rgba(0, 0, 0, 0.87);\">জারকের ঘনমাত্রা, S₁ = 0.05 M </span></p><p><span style=\"color: rgba(0, 0, 0, 0.87);\">বিজারকের ঘনমাত্রা, S</span><sub style=\"color: rgba(0, 0, 0, 0.87);\">2</sub><span style=\"color: rgba(0, 0, 0, 0.87);\"> = 0.1 M </span></p><p><span style=\"color: rgba(0, 0, 0, 0.87);\">বিজারকের আয়তন, V2=?</span></p><p>বিক্রিয়া হতে, $6 \\mathrm{~S}_1 \\mathrm{~V}_1=\\mathrm{S}_2 \\mathrm{~V}_2$</p><p>বা, $\\begin{aligned} V_2 &amp; =\\frac{6 \\times S_1 \\times V_1}{S_2} \\\\ &amp; =\\frac{6 \\times 0.05 \\times 20}{0.1}=60 \\mathrm{~mL}\\end{aligned}$</p>"
+  },
+  {
+    "id": 5673,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>কোনটি বিজারক?</p>",
+    "options": [
+      "$KMnO_4$",
+      "$I_2$",
+      "$H_2S$",
+      "$HNO_3$"
+    ],
+    "answer": "$H_2S$",
+    "explanation": "<p><strong style=\"color: rgb(32, 33, 36);\">বিজারক</strong><span style=\"color: rgb(32, 33, 36);\">&nbsp;হলো একটি উপাদান বা যৌগ যা রেডক্স বিক্রিয়ায় ইলেকট্রন গ্রহণকারী পরমাণুর জন্য একটি ইলেকট্রন ত্যাগ করে। রেডক্স বিক্রিয়ায় ইলেকট্রন হারানোর সময় বিজারকটি অক্সিজেন দ্বারা জারিত হয়। এভাবে অক্সিডাইজড করা হয়। এজেন্ট হ্রাস করা \"হ্রাস\" (অথবা, অক্সিডাইজড এজেন্ট দ্বারা অক্সিডাইজড করা হয়) অক্সিডাইজিং এজেন্ট।</span></p>"
+  },
+  {
+    "id": 5683,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>কোনটি বিজারক?</p>",
+    "options": [
+      "বেনজোয়িক এসিড",
+      "মিথানয়িক এসিড",
+      "ইথানয়িক এসিড",
+      "ক্লোরো ইথানয়িক এসিড"
+    ],
+    "answer": "মিথানয়িক এসিড",
+    "explanation": "<p>মিথানয়িক এসিড এসিড ও আলডিহাইড উভয় ধর্মই প্রদর্শন করতে পারে</p>"
+  },
+  {
+    "id": 5718,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>$2KMnO_4+10FeSO_4+8H_2SO_4 \\to 2MnSO_4+5Fe_2(SO_4)_3+K_2SO_4+8H_2O$</p><p>Q. ম্যাঙ্গানিজের জারণ সংখ্যা হ্রাস পায়-</p>",
+    "options": [
+      "5",
+      "2",
+      "1",
+      "-1"
+    ],
+    "answer": "5",
+    "explanation": "<p>বিক্রিয়কের ম্যাঙ্গানিজের জারণ সংখ্যা = + 7</p><p>উৎপাদে ম্যাঙ্গানিজের জারণ সংখ্যা = +2</p><p>জারণ সংখ্যার হ্রাস = (+7-2) = +5</p>"
+  },
+  {
+    "id": 5719,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>$2KMnO_4+10FeSO_4+8H_2SO_4 \\to 2MnSO_4+5Fe_2(SO_4)_3+K_2SO_4+8H_2O$</p><p>Q. বিক্রিয়াটিতে-</p><p><br/>i. $FeSO_4$ এর জারণ ঘটেছে</p><p><br/>ii. $KMnO_4$ জারক পদার্থ</p><p><br/>iii. $KMnO_4$ 5টি ইলেকট্রন গ্রহণ করে</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>FeS0<sub>4</sub> হল বিজারক। </p>"
+  },
+  {
+    "id": 5592,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>3 mL 0.1M কস্টিক সোডা দ্রবণে 1 mL 0.3M কস্টিক সোডা দ্রবণ যোগ করা হল। মিশ্রিত দ্রবণের ppm ঘনমাত্রা-</p>",
+    "options": [
+      "4000",
+      "6000",
+      "8000",
+      "12000"
+    ],
+    "answer": "6000",
+    "explanation": "<p>দ্রবনের ঘনমাত্রা $=\\;\\frac{\\left(3×0.1\\right)+(0.3)}4\\\\\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;=0.15M\\\\ppm\\;=\\;0.15×40×1000\\;ppm\\\\$</p><p>= 6000</p>"
+  },
+  {
+    "id": 5650,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>1 ppm বলতে বুঝায়-</p>",
+    "options": [
+      "1 mg L",
+      "1 mg L$^{-2}$",
+      "1 mg$^{-1}$ L$^{-1}$",
+      "1 mg L$^{-1}$"
+    ],
+    "answer": "1 mg L$^{-1}$",
+    "explanation": "<p><strong style=\"color: rgb(32, 33, 34);\">ppm=parts-per-million</strong><span style=\"color: rgb(32, 33, 34);\">&nbsp;(10</span><sup style=\"color: rgb(32, 33, 34);\">−6</sup><span style=\"color: rgb(32, 33, 34);\">)</span></p>"
   }
 ]

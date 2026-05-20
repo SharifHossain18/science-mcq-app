@@ -2238,5 +2238,165 @@
     ],
     "answer": "ক",
     "explanation": ""
+  },
+  {
+    "id": 841,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>পৃথিবীতে মুক্তিবেগের মান কত?&nbsp;</p>",
+    "options": [
+      "$11.2\\;ms^{-1}$",
+      "$1120\\;ms^{-1}$",
+      "$11.2\\;Kms^{-1}$",
+      "$112\\;Kms^{-1}$"
+    ],
+    "answer": "$11.2\\;Kms^{-1}$",
+    "explanation": "<p><br></p><p>$\\begin{aligned} \\mathrm{v} &amp; =\\sqrt{2 \\mathrm{gR}}=\\sqrt{2 \\times 9.8 \\mathrm{~m} \\mathrm{~s}^{-2} \\times 6.4 \\times 10^6 \\mathrm{~m}} \\\\ &amp; =11200 \\mathrm{~m} \\mathrm{~s}^{-1}=11.2 \\mathrm{~km} \\mathrm{~s}^{-1}\\end{aligned}$</p>"
+  },
+  {
+    "id": 847,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>পৃথিবীর ব্যাসার্ধ ‘ R ’ এবং পৃথিবীতে অভিকর্ষজ ত্বরণ ‘ g ’। পৃথিবী পৃষ্ঠ হতে ‘ h ’ উচ্চতায় অভিকর্ষজ ত্বরণ কত?</p>",
+    "options": [
+      "$\\frac{g\\left(R-h\\right)}R$",
+      "<p>$\\frac{gR^2}{\\left(R+h\\right)^2}$</p>",
+      "$\\frac{gR}{\\left(R-h\\right)}$",
+      "$\\frac{g\\left(R-h\\right)^2}{R^2}$"
+    ],
+    "answer": "<p>$\\frac{gR^2}{\\left(R+h\\right)^2}$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 1166,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "মহাকর্ষীয় ধ্রুবকের মাত্রা হলো—",
+    "options": [
+      "M<sup>-1</sup>L<sup>2</sup>T<sup>-2</sup>",
+      "M<sup>-1</sup>L<sup>3</sup>T<sup>-2</sup>",
+      "M<sup>-1</sup>L<sup>-1</sup>T<sup>-2</sup>",
+      "M<sup>-1</sup>LT<sup>-2</sup>"
+    ],
+    "answer": "M<sup>-1</sup>L<sup>3</sup>T<sup>-2</sup>",
+    "explanation": ""
+  },
+  {
+    "id": 1345,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>পার্কিং কক্ষপথ কোনটি?</p>",
+    "options": [
+      "যে পথে বিমান চলে",
+      "পোলার উপগ্রহের কক্ষপথ",
+      "ভূ-স্থির উপগ্রহের কক্ষপথ",
+      "পৃথিবীর কক্ষপথ"
+    ],
+    "answer": "ভূ-স্থির উপগ্রহের কক্ষপথ",
+    "explanation": "<p><span style=\"color: rgb(32, 33, 36);\">পার্কিং&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">কক্ষপথ</strong><span style=\"color: rgb(32, 33, 36);\">&nbsp;বা ভূস্থির&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">কক্ষপথ</strong><span style=\"color: rgb(32, 33, 36);\"> হল পৃথিবীর ক্রান্তিয় অঞ্চলের ৩৫,৭৮৬ কিলোমিটার ওপরে পৃথিবীকে কেন্দ্র করে একটি ঘুর্ণায়মান গোলাকৃতি&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">কক্ষপথ</strong><span style=\"color: rgb(32, 33, 36);\">।</span></p>"
+  },
+  {
+    "id": 1384,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>কেপলারের সূত্রানুসারে-</p>",
+    "options": [
+      "T<sup>3</sup> &prop; r<sup>3</sup>",
+      "T &prop; r<sup>2</sup>",
+      "T &prop; r<sup>3</sup>",
+      "T<sup>2</sup> &prop; r<sup>3</sup>"
+    ],
+    "answer": "T<sup>2</sup> &prop; r<sup>3</sup>",
+    "explanation": "<p>কেপলারের ৩য় সূত্রানুসারে- একটি গ্রহের কক্ষীয় পর্যায়কালের বর্গ তার কক্ষপথের অর্ধ-পরাক্ষের&nbsp;ঘনফলের সমানুপাতিক। যাকে পর্যায়কালের সূত্র বলা হয় । তাই   <strong>T</strong><sup><strong>2</strong></sup><strong> ∝</strong>&nbsp;<strong>R</strong><sup><strong>3</strong></sup></p><p><br></p>"
+  },
+  {
+    "id": 1386,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "নিচের কোনটির একক অন্য তিনটির একক\nহতে ভিন্ন?",
+    "options": [
+      "ঘনত্ব X আয়তন X বেগ",
+      "ভরবেগের পরিবর্তনের হার",
+      "ইয়ং এর স্থিতিস্থাপক গুণাংক x ক্ষেত্রফল",
+      "ভর X অভিকর্ষজ ত্বরণ"
+    ],
+    "answer": "ঘনত্ব X আয়তন X বেগ",
+    "explanation": ""
+  },
+  {
+    "id": 1448,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>কোনো একটি কাল্পনিক গ্রহের ভর এবং ব্যাসার্ধ বৃদ্ধি করলে উক্ত গ্রহের পৃষ্ঠ হতে মুক্তিবেগ-</p><p><br/>i. বাড়তে পারে</p><p><br/>ii. কমতে পারে</p><p><br/>iii. অপরিবর্তিত থাকতে পারে</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1453,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p> কোনো বস্তুকে মুক্তিবেগের কতগুণ বেগে নিক্ষেপ করলে কৃত্রিম উপগ্রহে পরিণত হবে?</p>",
+    "options": [
+      "<p>$ {{1} \\over \\sqrt2}ve$</p>",
+      "<p>$ {{1} \\over 2}ve$</p>",
+      "<p>$ {\\sqrt2}ve$</p>",
+      "2 ve"
+    ],
+    "answer": "<p>$ {{1} \\over \\sqrt2}ve$</p>",
+    "explanation": "<p>যদি $V^2=\\frac{V_e^2}2$ অর্থাৎ উৎক্ষেপন বেগ 7.88 m/s হয়, তবে সেটি বৃত্তাকার পথে পৃথিবীকে প্রদক্ষিণ করবে মানে কৃত্রিম উপগ্রহে পরিণত হবে।</p>"
+  },
+  {
+    "id": 1494,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>মঙ্গল গ্রহের পৃষ্ঠে g = 3.8 ms<sup>-1</sup> এবং এর ব্যাসার্ধ $3 \\times 10^3 \\mathrm{~km}$ মঙ্গল পৃষ্ঠে মুক্তিবেগ কত হবে?</p>",
+    "options": [
+      "4.0 kms<sup>-1</sup>",
+      "4.8 kms<sup>-1</sup>",
+      "7.8 kms<sup>-1</sup>",
+      "11.0 kms<sup>-1</sup>"
+    ],
+    "answer": "4.8 kms<sup>-1</sup>",
+    "explanation": "<p>$V_e=\\sqrt{2gR}=\\sqrt{2\\times3.8\\times3}=4.8\\;kms^{-1}\\\\\\\\$</p>"
+  },
+  {
+    "id": 1542,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>মহাকর্ষীয় ধ্রুবক G=?</p>",
+    "options": [
+      "$66.7\\times10^{-12}Nmkg^{-2}$",
+      "$6.67\\times10^{-11}Nm^{-2}kg^{-2}$",
+      "$0.667\\times10^{-10}Nm^{2}kg^{-2}$",
+      "$0.0667\\times10^{-11}Nm^{-2}kg^{2}$"
+    ],
+    "answer": "$0.667\\times10^{-10}Nm^{2}kg^{-2}$",
+    "explanation": "<p><br></p>"
   }
 ]

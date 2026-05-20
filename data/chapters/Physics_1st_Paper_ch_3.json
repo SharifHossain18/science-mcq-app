@@ -3374,5 +3374,165 @@
     ],
     "answer": "$8\\widehat k$",
     "explanation": "$(3 \\vec{i}+6 \\vec{j}) \\cdot 8 \\vec{k}=\\vec{i} \\times 0+\\vec{j} \\times 0+\\vec{k} \\times 0$\n\nবা, $(3 \\vec{i}+6 \\vec{j}) \\cdot 8 \\vec{k}=0$\n$\\therefore \\overrightarrow{\\mathrm{A}}$ এর উপর লম্ব ভেক্টর $8 \\overrightarrow{\\mathrm{k}}$."
+  },
+  {
+    "id": 762,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$\\widehat A$ ও $\\widehat B$ - এর যোগ করার ক্ষেত্রে ভেক্টর সাধারণ নিয়মের ক্ষেত্রে- </p><p>i) নতুন অবস্থানে তাদেরকে সমান্তরালভাবে স্থানান্তর করা হয় </p><p>ii) $\\widehat B$ - এর আদি বিন্দুকে $\\widehat A$ - এর শীর্ষ বিন্দুতে স্থাপন করে $\\widehat A$ - এর আদি বিন্দু থেকে $\\widehat B$ - এর শীর্ষ বিন্দুতে সরলরেখা টানা হয় </p><p>iii) $\\widehat B$  এর আদি বিন্দুকে $\\widehat A$ - এর শীর্ষ বিন্দুতে স্থাপন করে $\\widehat B$ - এর শীর্ষ বিন্দু থেকে $\\widehat A$ - এর আদি বিন্দুতে সরলরেখা টানা হয় </p><p><br></p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 837,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>গ্রহের পর্যায়কাল T এবং সূর্য হতে গ্রহের গড় দূরত্ব r হলে, কেপলারের তৃতীয় সূত্রানুসারে—</p>",
+    "options": [
+      "$T \\propto \\mathbf{r}$",
+      "$\\mathrm{T} \\propto \\mathrm{r}^2$",
+      "$\\mathbf{T}^2 \\propto \\mathbf{r}$",
+      "$\\mathrm{T}^2 \\propto \\mathbf{r}^3$"
+    ],
+    "answer": "$\\mathrm{T}^2 \\propto \\mathbf{r}^3$",
+    "explanation": ""
+  },
+  {
+    "id": 839,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>কোনটি স্কেলার রাশি?</p>",
+    "options": [
+      "গ্রাডিয়েন্ট",
+      "ডাইভারজেন্স",
+      "কার্ল",
+      "সরণ"
+    ],
+    "answer": "ডাইভারজেন্স",
+    "explanation": "ত্রিমাত্রিক স্থানাঙ্ক ব্যবস্থায় কোনো অঞ্চলের ভেক্টর ক্ষেত্রকে ভেক্টর অপারেটর $(\\nabla)$ দ্বারা স্কেলার গুণন করলে তাকে ঐ ভেক্টরের ডাইভারজেন্স বলে। অর্থাৎ $\\vec{\\nabla} \\cdot \\overrightarrow{\\mathrm{V}}$ বা div $\\overrightarrow{\\mathrm{V}}$ একটি স্কেলার রাশি।"
+  },
+  {
+    "id": 1213,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>$\\hat{\\eta}=\\frac{\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}}{|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|}$ হলে $-\\hat{\\eta}$ সমান কত হবে?</p>",
+    "options": [
+      "$\\frac{\\overrightarrow{\\mathbf{B}} \\times \\overrightarrow{\\mathbf{A}}}{|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|}$",
+      "$\\frac{\\overrightarrow{\\mathbf{A}} \\times \\vec{B}}{|\\overrightarrow{\\mathbf{B}} \\times \\overrightarrow{\\mathbf{A}}|}$",
+      "$\\frac{|\\overrightarrow{\\mathbf{B}} \\times \\overrightarrow{\\mathbf{A}}|}{\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}}$",
+      "$\\frac{|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|}{\\overrightarrow{\\mathbf{B}} \\times \\overrightarrow{\\mathbf{A}}}$"
+    ],
+    "answer": "$\\frac{\\overrightarrow{\\mathbf{B}} \\times \\overrightarrow{\\mathbf{A}}}{|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|}$",
+    "explanation": ""
+  },
+  {
+    "id": 1287,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAABpCAYAAAAUXODFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAzJSURBVHhe7Z0HjBXVF8apSglFepeapRchujTXUKSGnlAC0gJIR4RQIoRlkUAkFMXQOyH0HggdpHcUpEiHgNIUlCrl+v/dnct/9r237O7bfTOzc+dLbvTd91Zf+ebcU75zJoXw4MEHHik8+MEjhQc/aEuKN2/eiFevXhmPPJihLSkOHTokZs2aZTzyYIaWpHj58qVo2rSpKF++vHj8+LGx60FBS1IcP35cVK5cWWTNmlUsX77c2PWgoCUpoqKixPbt20VERIRo1KiR+Pfff41nPADtSPHkyRPRp08feYTgU+TOnVtcuXLFeNYD0I4UixYtEpGRkeLq1avyGMmfP78YMWKEjEY8REMrUjx69Eg0aNBArFy5UmzdulWu3r17izx58ohbt24Zr/KgFSn27dsnpkyZYjyKxq+//iqyZMki5syZY+x40IYUJKp69eolfvvttxhHxT///CMqVaokPv30U8/hNKAFKSDBuXPnxJIlS8T+/fvF06dPjWeEuHHjhtxfuHChOHz4sEeM/0E7R9ND3PBI4cEPHik8+MEjhQc/aEsKnE+vGBYY2pLi2rVroly5cqJfv37ijz/+MHY9AC1JMW3aNJE3b16RIkUKkSpVKpnqZs9DNLQhBcmrTZs2ySQVZGBlzpz57b+zqlWrJtauXat9rsL1pMB3oOZRr169GARgkcn03WOFh4eLe/fuaVskczUp/v77bzF48GCRI0eOgD9+p06dAu6zMmXKJLp16yZu3rxp/Nf0gWtJcebMGVGzZk1RunTptytfvnwxfviZM2eKNGnSvH3M8TFx4kRZNFNrxowZ2kUpriXFs2fPZLHLvPAnlIOZOnVqsWXLFlG8eHH5OGfOnCJjxoxSY6E7tHA08Q0mT54sPvjgA/Hzzz+LDz/8UKRLl04WwBo2bChJgcbi448/FrVr15aE0hlakOL+/fvSQiDDgyBff/219Bkoo/fv318+9/r1a/H7779LbcXo0aONv9QTricF4SVqKyKNhw8fyj0sRPbs2cWdO3fEjz/+KFasWCH3Icbw4cOlEktHB1PB9aSYO3eueP/998WePXuMnWi0bNlSvHjxQpw+fVqGrAqQqGLFilofI64mxfPnz0WhQoVE586dpXrbjAcPHsh/Yh188xF79+6VPgeRh45wLSkgBNagbNmyCb7iyX5++eWXokiRIuLu3bvGrj5wLSkIN9OmTfvWXwgGEIqGId0akV1JCqKNEiVKiI4dO/odGwnBmjVrJLGoh+gE15GCq7pLly7S9KtoIzFo3769zGsoH0QHuI4Up06dEhkyZBDz5s1LkoIWVqdYsWLiiy++0OYYcRUpcAr5AVu3bp2kFc758+fLMvuBAweMHXfDVaQYNmyY/PHIVCY12rVrJ0cXUENxO1xDCo4NfjQqn0lpJRQgGinwoUOHGjvuhe2kwIFD0JIY4FASbTRu3NjYCQ2Q7GGJ6DZzM2wnBW17zZo1E2fPnjV2Eo5JkybJUjjWIpQg+9mkSRMRFhaWJJGNU2EZKVBB4bAxKMS8uPqoNZBToBaRUKhjw7ebPFQ4duyYjG4Q47gVtlsKKpbffPNNUH4AJKpRo4b45JNPLC1eTZ8+XarAL168aOy4C7aSAnO8bdu2oD16LA26CIhlJehar1q1qmsrqbaRgkQQpAgWOHvoK7/99ltjx1qQs0C+xxgDt8FyUtCZhfKJRTqaHzUYS9GqVStZFv/zzz+NHevBe4cYTMNxEywlBWMK69evL4UtQE2oI5SELPEBfzN16lQZGh48eNDYtQcotwiFyaC6CZaRgrGECGd9S9k4izTqMAE3rs4sIpgWLVpIoW3fvn2NXXsBwXE6qagmFkRQu3fvNh7ZB8tIQS4Bp/D8+fPGTjSIOjDDuXLlkjmLQEBQy3HDayAEi8ylU0CTMu/t8uXLxs67QcJOhePmxfdQsGBBMX78eOOV9sAyUqBkQiwbaDTh0qVLpY4SGZwZaCeXLVvm18TDYtyhU3D79m3ZhVayZEkZCQWr4SCVXr16dT89qdWwjBQ9e/aMlRTr16+PIa7FerBXqlQpaZp9CcGiA8xJ+Omnn2RWlcQWfhPDWxMCPvOECRNitZZWwjJSfPfddwGPD4BAFvN7/fp1mQPgaKBJ5/PPP5erTp06kjRmUvz111/GXzsDRFC0Jqr3h+UYO3ZsvGdfEJ6bVeV2wjJSUNuAFKtWrTJ2okG+okOHDu90NDds2CAtxnvvvSe/8GzZshnPOAd8DpJZihRqEbLihPpmbHnMUmpytZwAy0jBB+bL4co3m0iODApisTlpnM808tDQM2jQIPlF16pVy3jWWUBz4UsKFjpP3jMhucKlS5dkJFWlShV5VGJJuTCszs4GgmWkUPjll19Ejx495A+MxI1/xlZx5OrDs8fRJBzFoUufPr0YOHCg8QpnYeTIkW+JgG9B/gIrqBZFvx07dhivFmLIkCGybqPA98JnJdqyE5aTAlAvoKhEdRMHNLZjg+QUTTmEawrMjFiwYIHxyFlgaq8iBcfGV199ZTwTGLQomknB58JZ1Sb6CISTJ0/Kq+P7778XJ06ckA08CsyEoOj02WefxSg64eU7VeQCiSEEM7RwMrEWR44cMZ71h5kUHK8MWOFCsbv6aispzMBamC0GxwoePGpqM3hNYgppoQTvFVKgG+E9ElIzCCU2QIqiRYuK1atXS5kfcr+kyIwmFo4hhRlcKSqkc4pHHh/wXhnDqHpELly4IIehkKkM9DkgxUcffSQtH5bSbl9CwXGk4HZO3PQN8YxTLcK7QAJKvW+IgDPJaANyML7w9SmcAseRApkbZ/HRo0eNneQF820jAI+ZkEP62jf9TUuCR4o4QP6CkIzzNTkdG3GBOxIRRRFxKZCnIB2OJoQLwEkKLkc5mhUqVHDklZMU6Nq1q7yzYbDFMivhGFJwF0Dkdeasn5vAMYJTyX1QzaG3E+EIUpCpxEuPK9mT3EG4Sf1m3bp1xo4zYTspMKfNmzcXZcqUcUyVMFTgs5KRLVCggK3a0rhgOyk2b94sq6e6DAah5M9AV0ZAO9W/sJUUjA7AnDLLUidQI+FzO00opGArKZDoIa7RbWYlyS2qpoULF5aKcKfBNlLQTEOSiry/jkCPiTyRjKfTYAspyPGTtEFPoStIzlE4o8TutGPEFlKQ86cHJJBeUzcw2oBqqpOiEctJQco3ZcqU8tZNHoS8qwDl9h9++MHYsR9Bk4J8PdVM8vd0fS1evFjG4L17945VwUwFFE0iestgZlFYBcrYKMytqtLSBonl5P8bFxAfqYxoYpu0Y0PQpOCNoV5Gd6iAJ810ugEDBhg7/wdnKOJUekCdONeBnAH6B2oUZFcD9aeECqTAqaJyk5pAKXB+eEY2tG3bVvTq1UtqVBEJI/SNb1daQhA0KbjS69atG4MUFLVoFoYsvlCVQie1+ynQ3IyyGikcppwWR6urtNyRiO+Huw6YASFoI0TxblahIXZu06ZNSO5klGSk4M0jT0efGBUVJfcUeI7XcnQ4JZXNe+IIRDiMBB8ysPjyMct2gJvPEKabRxuo8U2BMr60WYaiITnRpOAsxDLQkk+VE/PmawJxovjCaeIJCwuzfXHEcYzh8CoysGg4IqEU6G+sWFxQvA8sgAKSREgRKMGHNQsFgZPMUvAGYTWT732PD44OUtn0cDhhEQaarYNa9JSgLg/0N1Yu83QcMp8U0Kxsk0xSnwLQo8HZ6HRQrud+IFg6RQp6LpzWU4JzyT3OrBwYHzQpAkUfnNNI85HUJQdgekmgceQpy4GpdlJSbdy4cfIiszLrGTQpmCdJCZgwCtEI/ZBI2en7JH2b3EASibQ7fg99n4FCQzvApBzaHUaNGuUXERE2h2IOedCkUE6OSqCw1L8nZ3B2Y7Jnz55t7NgPIg80J0QniqzkJ0I1UDZoUrgZEJuw0EkEp8WSfAWthbRBbNy4MWS32/ZI4cEPHil8wEQaElpuHbEcH2hLCkJqinjcwdi8KE5RhyCzqcMNXwLBsxQ+IG3MzW0hja7wSGECjuXOnTu1tRAKHik8+EFbUjDnMjIyUg6NR0PRp08fMWbMGDkuWndobSmYLUVam7FExPzMlqBSSYOSztCaFCSE6DtR+gU1IBXBTXLoDg8VPFKYSKFa+ijzJ/d0fWKgPSnQY+7atUvqM9EyICd0YteWldCeFHRpoYvkniMcHfS36g7v+DCOD9oYsRpUHq0W7ToNHilMPgVpb5RYoVBIJydoTYpDhw5JEkAOgFYBLUV4eHi8b8ngRmhLCkQq3bt3F+XLl5dVUWUt0G5GRERI/emWLVvknm7Q2lJ4CAyPFB784JHCgx88UnjwQ6JJQUxPBpChqNy3g0QQLfV47zqnipMvhPgPLhpvXvNciN4AAAAASUVORK5CYII=\"></p><p>চিত্র থেকে কোনটি সঠিক?</p>",
+    "options": [
+      "$\\mathop{\\vec{P}}+\\mathop{\\vec{Q}} + \\mathop{\\vec{R}} = 0$",
+      "$\\mathop{\\vec{R}} = \\mathop{\\vec{Q}} + \\mathop{\\vec{P}}$",
+      "$\\mathop{\\vec{P}} = \\mathop{\\vec{R}} + \\mathop{\\vec{Q}}$",
+      "$\\mathop{\\vec{Q}} = \\mathop{\\vec{P}} + \\mathop{\\vec{R}}$"
+    ],
+    "answer": "$\\mathop{\\vec{P}} = \\mathop{\\vec{R}} + \\mathop{\\vec{Q}}$",
+    "explanation": ""
+  },
+  {
+    "id": 1381,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটির দিক নির্দিষ্ট নয়?</p>",
+    "options": [
+      "শূন্য ভেক্টর",
+      "সমান ভেক্টর",
+      "বিপরীত ভেক্টর",
+      "বিপ্রতীপ ভেক্টর"
+    ],
+    "answer": "শূন্য ভেক্টর",
+    "explanation": "<p>শূন্য ভেক্টর,বিপরীত ভেক্টর,বিপরীত ভেক্টর দিক নির্দিষ্ট ।</p><p>কিন্তু শূন্য ভেক্টর দিক নির্দিষ্ট নয়।</p>"
+  },
+  {
+    "id": 1472,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি রাইফেল $ 300 ms^{-1} $ নিক্ষেপণ বেগে এবং 40 ° ও 50 ° নিক্ষেপণ কোণে গুলি ছুড়তে পারে। গুলি দুটির ক্ষেত্রে-</p><p><br/>i. বিচরণকাল অসমান হবে</p><p><br/>ii. পাল্লা সমান হবে</p><p><br/>iii. তাদের নিজ নিজ বেগের অনুভূমিক উপাংশের পরিবর্তন হবে না</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1520,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$\\mathop{|\\vec{A}}+\\mathop{\\vec{B}|}=\\mathop{|\\vec{A}}-\\mathop{\\vec{B}|}$ হলে $ \\mathop{\\vec{A}} ও \\mathop{\\vec{B}}$ এর\nমধ্যবর্তী কোণ হবে-",
+    "options": [
+      "0 °",
+      "60 °",
+      "90 °",
+      "180 °"
+    ],
+    "answer": "90 °",
+    "explanation": ""
+  },
+  {
+    "id": 846,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>$\\widehat j\\times\\left(\\widehat j\\times\\widehat k\\right)=কত?\\;$</p>",
+    "options": [
+      "$-\\widehat k$",
+      "0",
+      "$\\widehat k$",
+      "$\\widehat i$"
+    ],
+    "answer": "$-\\widehat k$",
+    "explanation": "$\\hat{j} \\times(\\hat{j} \\times \\hat{k})=\\hat{j} \\times \\hat{i}=-\\hat{k}$"
+  },
+  {
+    "id": 903,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p><span style=\"background-color: transparent;\">$(\\hat j + \\hat k )\\times \\hat k$ = ?</span></p>",
+    "options": [
+      "l",
+      "$\\hat i$",
+      "$\\hat j$",
+      "$\\hat k$"
+    ],
+    "answer": "$\\hat i$",
+    "explanation": ""
   }
 ]

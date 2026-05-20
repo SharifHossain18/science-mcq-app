@@ -3358,5 +3358,197 @@
     ],
     "answer": "$2x^2-x+1$",
     "explanation": ""
+  },
+  {
+    "id": 7144,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$f(x)=0$ সমীকরণের মৃলত্রয় $1,-1,3$ হলে $f(3 x)=0$ এর মূলত্রয় কোনটি হবে?</p>",
+    "options": [
+      "$-\\frac{1}{3}, \\frac{1}{3},-1$",
+      "$\\frac{1}{3},-\\frac{1}{3}, 1$",
+      "$3,-3,9$",
+      "$-3,3,-9$"
+    ],
+    "answer": "$\\frac{1}{3},-\\frac{1}{3}, 1$",
+    "explanation": "<p>$f(x)$ = 0 এর মূলত্রয় 1, $-$1, 3</p><p>$\\therefore f(\\mathrm{x})=\\mathrm{k}(\\mathrm{x}-1)(\\mathrm{x}+1)(\\mathrm{x}-3)$</p><p>এখন, $f(3x)$ =0 হলে,</p><p>$f(3 x)=k(3 x-1)(3 x+1)(3 x-3)=0$</p><p>∴ $3 x-1=0$</p><p>বা, $x=\\frac{1}{3}$</p><p>∴ $3 x+1=0$</p><p>বা, $x=-\\frac{1}{3}$ এবং $3 x-3=0$ বা, $x=1$</p><p>$\\therefore f(3 \\mathrm{x})=0$ এর মূলত্রয় $\\frac{1}{3}, \\frac{-1}{3}, 1$.</p>"
+  },
+  {
+    "id": 7207,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>একটি দ্বিঘাত সমীকরণে-</p><p><br/>i. তিনটি মূল বাস্তব হতে পারে</p><p><br/>ii. দুইটি মূল বাস্তব হলে অপরটি জটিল</p><p><br/>iii. একটি মূল বাস্তব হলে অপর দুইটি জটিল</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "blank",
+    "explanation": "<p>দ্বিঘাত সমীকরণের ক্ষেত্রে (i), (ii), (iii) প্রত্যেকটি ভুল। ত্রিঘাত সমীকরণের ক্ষেত্রে:</p><p>(i) তিনটি বাস্তব মূল সম্ভব।</p><p>(ii) জটিল মূল অনুবন্ধী হয়। অর্থাৎ, একটি জটিল মূল সম্ভব নয়।</p><p>(iii) একটি মূল বাস্তব ও অপর দুইটি জটিল সম্ভব।</p><p>∴ সমীকরণটি ত্রিঘাত হলে (i) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 7280,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$4 x^2-k x+1=0$ </p><p><br></p><p>Q. $k=2$ হলে সমীকরণের-</p><p><br/>i. পৃথায়ক 0</p><p><br/>ii. মূলদ্বয়ের গুণফল $+\\frac{1}{4}$</p><p><br/>iii. একটি মূল $\\frac{1}{2}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i",
+      "ii.",
+      "iii.",
+      "i, ii ও iii."
+    ],
+    "answer": "ii.",
+    "explanation": "<p>$\\mathrm{k}=2$ হলে প্রদত্ত সমীকরণ, $4 \\mathrm{x}^2-2 \\mathrm{x}+1=0$</p><p>(i) পৃথায়ক $=(-2)^2-4 \\times 4 \\times 1=4-16=-12$</p><p>(ii) $4 x^2-2 x+1=0$ </p><p>$\\therefore x=\\frac{-(-2) \\pm \\sqrt{-12}}{2 \\times 4}$ [(i) নং হতে] </p><p>$=\\frac{2 \\pm \\sqrt{-4 \\times 3}}{8}=\\frac{2 \\pm 2 i \\sqrt{3}}{8}=\\frac{1}{4} \\pm i \\frac{\\sqrt{3}}{4}$ </p><p>$\\therefore$ মূলদ্বয়ের গুণফল $=\\left(\\frac{1}{4}+i \\frac{\\sqrt{3}}{4}\\right)\\left(\\frac{1}{4}-i \\frac{\\sqrt{3}}{4}\\right)$ </p><p>$=\\left(\\frac{1}{4}\\right)^2-\\left(i \\frac{\\sqrt{3}}{4}\\right)^2=\\frac{1}{16}+\\frac{3}{16}=\\frac{1+3}{16}=\\frac{4}{16}=\\frac{1}{4}$ </p><p>(iii) একটি মূল $\\frac{1}{4}+i \\frac{\\sqrt{3}}{4}$ বা, $\\frac{1}{4}-i \\frac{\\sqrt{3}}{4}$</p><p><br></p><p>সঠিক উত্তর (ii).</p><p>যদি $k=4$ হয়, (i) পৃথায়ক $=(-4)^2-4 \\times 4 \\times 1=0$</p><p>(ii) $4 x^2-4 x+1=0$</p><p>বা, $(2 x)^2-2 \\cdot 2 x \\cdot 1+(1)^2=0$ বা, $(2 x-1)^2=0$</p><p>$\\therefore x=\\frac{1}{2}, \\frac{1}{2}$ মূলদ্বয়ের গুণফল $=\\frac{1}{4}$</p><p>$\\therefore$ (iii) একটি মূল $\\frac{1}{2} \\therefore$ (i), (ii), (iii) সঠিক।</p>"
+  },
+  {
+    "id": 8295,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$ax^2+bx+c=0,(a\\neq 0)$ সমীকরণের পৃথায়ক D হলে -</p><p><br/>i. মূলদ্বয় বাস্তব যখন $D\\geq 0$</p><p><br/>ii. মূলদ্বয় সমান যখন $D=0$</p><p><br/>iii. মূলদ্বয় মূলদ যখন D&lt;0 </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 8332,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$2x^3+3x^2-5x-6=0$ ত্রিঘাত সমীকরণের মূলত্রয় a,b,c </p><p><br></p><p>Q. $\\sum a^2$ এর মান নিচের কোনটি?</p>",
+    "options": [
+      "$9\\over 4$",
+      "$25\\over 4$",
+      "$29\\over 4$",
+      "$36\\over 4$"
+    ],
+    "answer": "$29\\over 4$",
+    "explanation": ""
+  },
+  {
+    "id": 8333,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$2x^3+3x^2-5x-6=0$ ত্রিঘাত সমীকরণের মূলত্রয় a,b,c </p><p><br></p><p>Q. x এর মান গুলি-</p>",
+    "options": [
+      "1,-3/2,-2",
+      "-1,-3/2,2",
+      "-1,3/2,-2",
+      "-1,-3/2,-2"
+    ],
+    "answer": "-1,3/2,-2",
+    "explanation": ""
+  },
+  {
+    "id": 7279,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$4 x^2-k x+1=0$ </p><p><br></p><p>Q. উদ্দীপকের সমীকরণের একটি মূল অপরটির চারগুণ হলে k এর মান কত? </p>",
+    "options": [
+      "$5$",
+      "-5",
+      "$\\pm 5$",
+      "$\\pm \\frac{1}{5}$"
+    ],
+    "answer": "$\\pm 5$",
+    "explanation": "<p>$a x^2+b x+c=0$ সমীকরণের একটি মূল অপরটির $m$ গুণ হলে, $\\frac{(m+1)^2}{m}=\\frac{b^2}{a c}$ </p><p>অর্থাৎ $\\frac{(4+1)^2}{4}=\\frac{(-k)^2}{4 \\times 1}$</p><p>বা, $\\frac{25}{4}=\\frac{k^2}{4}$ বা, $k^2=25 \\therefore k= \\pm 5$</p>"
+  },
+  {
+    "id": 7282,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$2 x^2+3 x+1$ রাশিটির সর্বনিম্ন মান কত? </p>",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$-\\frac{1}{8}$",
+      "$\\frac{17}{8}$",
+      "$-\\frac{17}{8}$"
+    ],
+    "answer": "$-\\frac{1}{8}$",
+    "explanation": "<p>$\\begin{aligned} &amp; 2 x^2+3 x+1 \\\\ &amp; =2\\left\\{x^2+2 \\cdot \\frac{3}{4} \\cdot x+\\left(\\frac{3}{4}\\right)^2\\right\\}-\\frac{9}{8}+1=2\\left(x+\\frac{3}{4}\\right)^2-\\frac{1}{8}\\end{aligned}$ </p><p>$\\therefore$ রাশিটিতে $x$ এর মান যাই বসাই রাশিটির মান $ -\\frac{1}{8}$ এর কম হবে না। </p><p>অতএব, রাশিটির সর্বনিম্ন মান $ -\\frac{1}{8}$ </p>"
+  },
+  {
+    "id": 8068,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "$x^2+x+1=0$সমীকরণের একটি মূল$\\alpha$ হলে অন্য মূলটি হবে-",
+    "options": [
+      "$-\\alpha$",
+      "$1\\over {\\alpha}^2$",
+      "$1\\over \\alpha$",
+      "${\\alpha}^2$"
+    ],
+    "answer": "$1\\over \\alpha$",
+    "explanation": "<p>[বি. দ্র : (গ) এবং (ঘ) উভয়ই সঠিক ।]</p>"
+  },
+  {
+    "id": 8216,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "$x^2+px+q=0$ সমীকরণের একটি মূল 3+i হলে, pও q এর মান কত?",
+    "options": [
+      "-6,-10",
+      "-6,10",
+      "6,-10",
+      "6,10"
+    ],
+    "answer": "-6,10",
+    "explanation": ""
+  },
+  {
+    "id": 8232,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "নিচের কোন সমীকরণের একটি মূল 2+i?",
+    "options": [
+      "$x^2-4x+3=0$",
+      "$x^2+4x+3=0$",
+      "$x^2-4x+5=0$",
+      "$x^2+4x+5=0$"
+    ],
+    "answer": "$x^2-4x+5=0$",
+    "explanation": ""
+  },
+  {
+    "id": 8359,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$4x^3+12x^2-3x+52=0$ সমীকরণের একটি মূল ${1\\over 2}-\\sqrt 3i$ হলে, এর বাস্তব মূল কোনটি?</p>",
+    "options": [
+      "-5",
+      "-4",
+      "4",
+      "5"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$4 x^3+12 x^2-3 x+52=0$</p><p>সমীকরণের একটি মূল $\\frac{1}{2}-\\sqrt{3} \\mathrm{i}$ </p><p>সমীকরণের অপর একটি মূল $\\frac{1}{2}+\\sqrt{3} \\mathrm{i}$</p><p>$\\therefore$ সমীকরণটির বাস্তব মূল $\\gamma$ হলে, </p><p>$\\frac{1}{2}-\\sqrt{3} i+\\frac{1}{2}+\\sqrt{3} i+\\gamma=-\\frac{12}{4}$</p><p>বা, $\\gamma+1=-3$</p><p>বা, $\\gamma=-3-1$</p><p>$\\therefore \\gamma=-4$</p>"
   }
 ]

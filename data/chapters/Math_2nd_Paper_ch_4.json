@@ -2334,5 +2334,133 @@
     ],
     "answer": "0",
     "explanation": "$i^{4n}-i+i^{4n}.i-1\\\\=1-i+i-1=0$"
+  },
+  {
+    "id": 7264,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$z=\\frac{2-i}{1+i}$</p><p>Q. $z$ এর কাল্পনিক অংশ কোনটি?</p>",
+    "options": [
+      "$-\\frac{3}{2}$",
+      "$-\\frac{1}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{2}$"
+    ],
+    "answer": "$-\\frac{3}{2}$",
+    "explanation": "<p>$z=\\frac{2-i}{1+i} $</p><p>$=\\frac{(2-i)(1-i)}{(1+i)(1-i)}=\\frac{2-2 i-i+i^2}{1-i^2}=\\frac{2-3 i-1}{1+1}\\left[\\because i^2=-1\\right] $</p><p>$=\\frac{1-3 i}{2}=\\frac{1}{2}-\\frac{3}{2} i=\\frac{1}{2}+\\left(-\\frac{3}{2}\\right) i$</p><p>$\\therefore z$ এর কাল্পনিক অংশ $=-\\frac{3}{2}$ </p>"
+  },
+  {
+    "id": 8230,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>কাল্পনিক একক i এবং এককের জটিল ঘনমূল $\\omega$ হলে-</p><p><br/>i. $\\omega ^3=-1$</p><p><br/>ii. $i^2=-1$</p><p><br/>iii. $\\omega+\\omega ^2=-1$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8323,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "$2x-i3y$ জটিল সংখ্যাটি কোন চতুর্ভাগে অবস্তিত?",
+    "options": [
+      "১ম",
+      "২য়",
+      "৩য়",
+      "৪র্থ"
+    ],
+    "answer": "৪র্থ",
+    "explanation": ""
+  },
+  {
+    "id": 8395,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$1-\\sqrt 3i$ এর সাধারণ আর্গুমেন্ট কত?",
+    "options": [
+      "$2n\\Pi-{\\Pi\\over 3},n\\in Z$",
+      "$2n\\Pi+{\\Pi\\over 3},n\\in Z$",
+      "$2n\\Pi-{5\\Pi\\over 3},n\\in Z$",
+      "$2n\\Pi+{5\\Pi\\over 3},n\\in Z$"
+    ],
+    "answer": "$2n\\Pi-{\\Pi\\over 3},n\\in Z$",
+    "explanation": ""
+  },
+  {
+    "id": 7124,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$\\sqrt[4]{169}$ এর মান কোনটি?</p>",
+    "options": [
+      "$\\pm \\frac{\\sqrt{13}}{2}(1 \\pm i)$",
+      "$\\pm \\sqrt{\\frac{13}{2}}(1 \\pm i)$",
+      "$\\pm \\frac{13}{\\sqrt{2}}(1 \\pm i)$",
+      "$\\pm \\frac{13}{2}(1 \\pm i)$"
+    ],
+    "answer": "কোনটিই নয়",
+    "explanation": "<p>প্রশ্নটি ত্রুটিপূর্ণ। $\\sqrt[4]{169}$ এর পরিবর্তে $\\sqrt[4]{-169}$ ধরে সমাধান নিম্নরূপ :</p><p>$\\sqrt[4]{-169}=\\sqrt[4]{( \\pm 13 i)^2}=\\sqrt{ \\pm 13 i}=\\frac{\\sqrt{13}}{\\sqrt{2}} \\sqrt{ \\pm 2 i}$</p><p>$=\\frac{\\sqrt{13}}{2} \\sqrt{1 \\pm 2 i-1}=\\sqrt{\\frac{13}{2}} \\cdot \\sqrt{1^2 \\pm 2 \\cdot 1 \\cdot i+i^2}$</p><p>$=\\sqrt{\\frac{13}{2}} \\cdot \\sqrt{\\left\\{ \\pm(1 \\pm i)^2\\right.}= \\pm \\sqrt{\\frac{13}{2}}(1 \\pm i)$.</p>"
+  },
+  {
+    "id": 7473,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "<p>$-5+12 \\mathrm{i}$ এর বর্গমূল কোনটি?</p>",
+    "options": [
+      "$\\pm(-2+3 \\mathrm{i})$",
+      "$\\pm(2+3 i)$",
+      "$\\pm(2-3 \\mathrm{i})$",
+      "<p>$\\pm(-2-3 \\mathrm{i})$</p>"
+    ],
+    "answer": "$\\pm(-2-3 \\mathrm{i})$",
+    "explanation": "<p>[* সঠিক উত্তর : (খ) ও (ঘ) ]</p>"
+  },
+  {
+    "id": 8059,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p>$z=4x+2y, $ শর্ত: $ x+y\\leq 6, x\\geq4,x\\geq0,y\\geq 0$</p><p><br></p><p>Q. z এর সর্বোচ্চ মান কোনটি?</p>",
+    "options": [
+      "24",
+      "16",
+      "12",
+      "14"
+    ],
+    "answer": "24",
+    "explanation": ""
+  },
+  {
+    "id": 8191,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$i$এর বর্গমূল কোনটি?</p>",
+    "options": [
+      "$\\pm {1\\over \\sqrt 2}(1+i)$",
+      "$\\pm {1\\over \\sqrt 2}(1-i)$",
+      "$\\pm {1\\over 2}(1-i)$",
+      "$\\pm {1\\over 2}(1+i)$"
+    ],
+    "answer": "$\\pm {1\\over \\sqrt 2}(1+i)$",
+    "explanation": "<p>$\\sqrt i=\\sqrt{\\frac12\\left(1+2.1.i+i^2\\right)}=\\pm\\frac1{\\sqrt2}\\left(1+i\\right)$</p>"
   }
 ]

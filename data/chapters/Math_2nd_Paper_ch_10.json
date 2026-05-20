@@ -2142,5 +2142,37 @@
     ],
     "answer": "$u\\over 2$",
     "explanation": "$v=\\sqrt{v_x^2+v_y^2}=\\sqrt{{(\\frac u{\\sqrt3}.\\cos\\;30^\\circ)}^2+0^2}=\\frac u2$"
+  },
+  {
+    "id": 7182,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>একটি বস্তুকণা স্থির অবস্থা হতে 6m/s সমবেগে যাত্রা করলে তৃতীয় সেকেন্ডে অতিক্রান্ত দূরত্ব-</p>",
+    "options": [
+      "<p>15 m</p>",
+      "18 m",
+      "27 m",
+      "36 m"
+    ],
+    "answer": "<p>15 m</p>",
+    "explanation": "<p><strong>[Note]  প্রশ্নে 'সমবেগে' এর পরিবর্তে 'সমত্বরণে' হলে সঠিক উত্তর: (A) 15 m.</strong></p><p><br></p><p>প্রশ্নটি অসঙ্গতিপূর্ণ। প্রশ্নটিতে ‘সমবেগে’ এর পরিবর্তে ‘সমত্বরণে’ হবে। এক্ষেত্রে তৃতীয় সেকেন্ডে অতিক্রান্ত দূরত্ব, $s_3=u+\\frac{1}{2} a(2 t-1)$</p><p><br></p><p>$=0+\\frac{1}{2} \\times 6(2 \\times 3-1)=\\frac{1}{2} \\times 6 \\times 5=15 \\mathrm{~m}$</p>"
+  },
+  {
+    "id": 7297,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$v$ বেগে আনুভূমিকের সাথে $\\boldsymbol{\\alpha}$  কোণে প্রক্ষিপ্ত বস্তুকণার সর্বোচ্চ উচ্চতা ---</p>",
+    "options": [
+      "$\\frac{u^2 \\sin 2 \\alpha}{2 g}$",
+      "$\\frac{u^2 \\cos ^2 \\alpha}{2 g}$",
+      "$\\frac{u^2 \\sin 2 \\alpha}{g}$",
+      "<p>$\\frac{u^2 \\sin ^2 \\alpha}{2 g}$</p>"
+    ],
+    "answer": "$\\frac{u^2 \\sin ^2 \\alpha}{2 g}$",
+    "explanation": "<p>প্রশ্নটি অসঙ্গতিপূর্ণ। বেগ v এর পাবিবর্তে 'u' হলে, u বেগে আনুভূমিকের সাথে $\\alpha$ কোণে প্রক্ষিপ্ত বস্তুকণার বৃহত্তম উচ্চতা, </p><p>$\\mathrm{H}=\\frac{\\mathrm{u}^2 \\sin ^2 \\alpha}{2 \\mathrm{~g}}$ </p>"
   }
 ]

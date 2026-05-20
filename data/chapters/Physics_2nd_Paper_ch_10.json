@@ -2334,5 +2334,69 @@
     ],
     "answer": "$T_C \\gt T_B \\gt T_A$",
     "explanation": "<p>$\\lambda\\;\\alpha\\;\\frac1T$</p>"
+  },
+  {
+    "id": 1699,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>দ্রুত গতিসম্পন্ন ইলেকট্রন কোনো ধাতুকে আঘাত করলে ধাতু হতে কোনটি নির্গত হয়?</p>",
+    "options": [
+      "আলফা কণা",
+      "এক্স-রশ্মি",
+      "বিটা কণা",
+      "গামা-রশ্মি"
+    ],
+    "answer": "এক্স-রশ্মি",
+    "explanation": "<p>দ্রুত গতিসম্পন্ন ইলেকট্রন কোনো ধাতুকে আঘাত করলে ধাতু হতে যে অজানা রশ্মি নির্গত হয় তাকে এক্স-রশ্মি বলা হয়।</p>"
+  },
+  {
+    "id": 2433,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপক হতে  প্রশ্নের উত্তর দাও:</p><p>$\\frac{1}{0} \\mathrm{n}+{ }_{92}^{235} U \\rightarrow{ }_{56}^{141} \\mathrm{Ba}+{ }_{36}^{92} \\mathrm{Kr}+3_0^1 \\mathrm{n}+$ শক্তি</p><p><br></p><p>Q. বিক্রিয়াটি কোন ধরনের?</p>",
+    "options": [
+      "ফিউশন",
+      "ফিশন",
+      "নিউক্লীয় তাপ বিক্রিয়া",
+      "সংযোজন বিক্রিয়া"
+    ],
+    "answer": "ফিশন",
+    "explanation": ""
+  },
+  {
+    "id": 2900,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>কোনো নিউক্লিয়াসের ভর ত্রুটি 0.0377 amu । এই নিউক্লিয়াসটির বন্ধন শক্তি কত?</p>",
+    "options": [
+      "31.2 MeV",
+      "32.5 MeV",
+      "33.1 MeV",
+      "35.11 MeV"
+    ],
+    "answer": "35.11 MeV",
+    "explanation": "<p>B.E. $=\\triangle \\mathrm{m}(\\mathrm{amu}) \\times 931.5 \\mathrm{MeV}=0.0377 \\times 931.5 \\mathrm{MeV}=35.11 \\mathrm{MeV}$</p>"
+  },
+  {
+    "id": 3033,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ</p><p>$A \\xrightarrow \\beta B\\xrightarrow \\alpha C \\xrightarrow \\gamma D$</p><p>উদ্দীপকে D মৌলের ভরসংখ্যা 210 এবং পারমাণবিক সংখ্যা 82 ।</p><p><br></p><p>Q. B মৌলের পারমাণবিক সংখ্যা কত?</p>",
+    "options": [
+      "84",
+      "82",
+      "80",
+      "78"
+    ],
+    "answer": "84",
+    "explanation": "<p>গামা রশ্মির ভর নেই তাই D ও C উভয়েরই ভর সংখ্যা 82।</p><p>কিন্তু, আলফা রশ্মির ভর 2, তাই B এর ভর সংখ্যা 84।</p>"
   }
 ]

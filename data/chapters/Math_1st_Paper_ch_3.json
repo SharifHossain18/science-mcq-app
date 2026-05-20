@@ -606,5 +606,21 @@
     ],
     "answer": "$1\\over \\sqrt 6$",
     "explanation": ""
+  },
+  {
+    "id": 7030,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>16 ভূজবিশিষ্ট একটি সমতলিক ক্ষেত্রের কর্ণের সংখ্যা-</p>",
+    "options": [
+      "240",
+      "224",
+      "120",
+      "104"
+    ],
+    "answer": "104",
+    "explanation": "<p>কর্ণের সংখ্যা $={ }^{16} \\mathrm{C}_2-16=120-16=104$</p>"
   }
 ]

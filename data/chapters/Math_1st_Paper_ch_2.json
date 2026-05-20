@@ -3342,5 +3342,101 @@
     ],
     "answer": "-8",
     "explanation": "<p>$(2,3)\\;\\;\\mathrm{তম}\\;\\mathrm{সহগুনক}\\;=\\;{(-1)}^{2+3}\\left|\\begin{array}{cc}2&amp;3\\\\{-2}&amp;1\\end{array}\\right|=\\;-(2+6)=\\;-8$</p>"
+  },
+  {
+    "id": 6911,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\end{vmatrix}$ এর মান-</p><p><br/>i. $A=\\begin{vmatrix}\\alpha_1&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>ii. $A=\\begin{vmatrix}\\alpha_1+c\\alpha_2&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1-c\\beta_2&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1+c\\gamma_2&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>iii. $A=-\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\end{vmatrix}$ এর মানের সমান</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i",
+      "ii",
+      "i ও ii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6972,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>a এর মান কত হলে $\\begin{vmatrix}-4&amp;0&amp;-2\\\\0&amp;5&amp;a\\\\-2&amp;4&amp;0\\end{vmatrix}$ ম্যাট্রিক্সটি প্রতিসম হবে?</p>",
+    "options": [
+      "-4",
+      "-2",
+      "0",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 6973,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$\\begin{vmatrix}1&amp;-2&amp;3\\\\0&amp;1&amp;-2\\\\-1&amp;0&amp;2\\end{vmatrix}$ এ (1, 2) তম ভুক্তির সহগুণক কোনটি?</p>",
+    "options": [
+      "-4",
+      "-2",
+      "2",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "<p>$(1,2)$ ভুক্তির সহগুনক $=-\\left|\\begin{array}{cc}0 &amp; -2 \\\\ -1 &amp; 2\\end{array}\\right|=-\\left(\\begin{array}{ll}0 &amp; -2\\end{array}\\right)=2$</p>"
+  },
+  {
+    "id": 6979,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>নিচের কোন নির্ণায়কের মান শূন্য?</p>",
+    "options": [
+      "$\\begin{vmatrix}1&0&2\\\\2&0&1\\\\1&3&0\\end{vmatrix}$",
+      "$\\begin{vmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{vmatrix}$",
+      "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+      "$\\begin{vmatrix}0&0&1\\\\1&2&3\\\\0&6&0\\end{vmatrix}$"
+    ],
+    "answer": "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 7004,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$A=\\begin{bmatrix}1&amp;0&amp;0\\\\0&amp;2&amp;0\\\\0&amp;0&amp;3\\end{bmatrix}$ একটি-</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. স্কেলার ম্যাট্রিক্স</p><p><br/>iii. কর্ণ ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>A ম্যাট্রিক্সটির ক্রম $3 \\times 3$ অর্থ্যাৎ ম্যাট্রিক্সটি একটি বর্গ ম্যাট্রিক্স। ম্যাট্রিক্সটির মুখ্য কর্ণের ভূক্তি ব্যতিত সকল ভূক্তি শূণ্য (0) অর্থ্যাৎ ম্যাট্রিক্সটি একটি কর্ণ ম্যাট্রিক্স। কর্ণ ম্যাট্রিক্সটির অশূণ্য ভূক্তিগুলো একই নয় অর্থ্যাৎ ম্যাট্রিক্সটি স্কেলার ম্যাট্রিক্স নয় । সুতরাং i ও iii সঠিক</p>"
+  },
+  {
+    "id": 7026,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. প্রত্যেক অব্যতিক্রমী ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স বিদ্যমান</p><p><br/>ii. A ও B বর্গাকার অব্যতিক্রমী ম্যাট্রিক্স হলে, $(AB)^{-1}=B^{-1}A^{-1}$</p><p><br/>iii. কোনো নির্ণায়কের অনুরূপ সারি এবং কলামসমূহ পরস্পর অবস্থান বিনিময় করলে নির্ণায়কের মানের পরিবর্তন হয় </p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
   }
 ]

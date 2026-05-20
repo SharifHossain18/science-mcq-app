@@ -3918,5 +3918,149 @@
     ],
     "answer": "i ও ii",
     "explanation": ""
+  },
+  {
+    "id": 788,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>রাস্তার বাঁকে গাড়ির নিরাপদ সর্বোচ্চ বেগ নির্ভর করে— </p><p><br/>i. বাঁকের ব্যাসার্ধের ওপর </p><p><br/>ii. গাড়ির ভরের ওপর</p><p><br/>iii. ব্যাংকিং কোণের ওপর </p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 840,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>টর্কের মাত্রা কোনটি?</p>",
+    "options": [
+      "$ML^2T^2$",
+      "$ML^2T^{-2}$",
+      "$M^2LT^{-2}$",
+      "$ML^{-3}T^2$"
+    ],
+    "answer": "$ML^2T^{-2}$",
+    "explanation": "টর্ক $=$ বল $\\times$ সরণ $=\\mathrm{MLT}^{-2} \\times \\mathrm{L}=\\mathrm{ML}^2 \\mathrm{~T}^{-2}$"
+  },
+  {
+    "id": 1449,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "বলের ঘাতের একক নিম্নের কোন রাশির\nএককের অনুরূপ?",
+    "options": [
+      "বল",
+      "ভরবেগ",
+      "কাজ",
+      "টর্ক"
+    ],
+    "answer": "ভরবেগ",
+    "explanation": "<p>বলের ঘাত হচ্ছে ভরবেগের পরিবর্তনের সমান। অর্থাৎ, J = Ft = m(v-u)</p>"
+  },
+  {
+    "id": 842,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>4N বল একটি বস্তুর ওপর 1 sec ব্যাপি ক্রিয়া করলে ভরবেগের পরিবর্তন কত?</p>",
+    "options": [
+      "$2\\;Kgms^{-1}$",
+      "$4\\;Kgms^{-1}$",
+      "$8\\;Kgms^{-1}$",
+      "$16\\;Kgms^{-1}$"
+    ],
+    "answer": "$4\\;Kgms^{-1}$",
+    "explanation": "$\\mathrm{mv}-\\mathrm{mv}_0=\\mathrm{Ft}=4 \\mathrm{~N} \\times 1 \\mathrm{~s}=4 \\mathrm{~kg} \\mathrm{~ms}^{-2} \\cdot \\mathrm{s}=4 \\mathrm{~kg} \\mathrm{~m} \\mathrm{~s}^{-1}$"
+  },
+  {
+    "id": 845,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>বলের ঘাত হচ্ছে—</p><p> <br/>i. বল ও বলের ক্রিয়া কালের গুণফল</p><p> <br/>ii. ভরবেগের পরিবর্তন </p><p> <br/>iii. ভরবেগের পরিবর্তনের হার</p><p><br></p><p> নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 906,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p><span style=\"background-color: transparent;\">জড়তার ভ্রামকের একক কোনটি?</span></p>",
+    "options": [
+      "kg m",
+      "$kg m^{-1}$",
+      "$kg m^2$",
+      "$kg m^{-2}$"
+    ],
+    "answer": "$kg m^2$",
+    "explanation": ""
+  },
+  {
+    "id": 1125,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "কেন্দ্রমুখী বল দ্বারা কৃতকাজ-",
+    "options": [
+      "অসীম",
+      "শূন্য",
+      "ধনাত্মক",
+      "ঋণাত্মক"
+    ],
+    "answer": "শূন্য",
+    "explanation": "<p><span style=\"color: rgb(32, 33, 36);\">বৃত্তাকার পথে ঘূর্ণনরত কোনো বস্তুকণার ওপর যে&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">বল</strong><span style=\"color: rgb(32, 33, 36);\">&nbsp;ব্যাসার্ধ বরাবর কেন্দ্রের দিকে ক্রিয়া করে বস্তুকণাকে বৃত্তাকার পথে চলতে বাধ্য করে তাকে&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">কেন্দ্রমুখী বল</strong><span style=\"color: rgb(32, 33, 36);\">&nbsp;বলে। অতএব,&nbsp;</span><strong style=\"color: rgb(32, 33, 36);\">কেন্দ্রমুখী বল দ্বারা কৃতকাজ</strong><span style=\"color: rgb(32, 33, 36);\">&nbsp;শূন্য</span></p>"
+  },
+  {
+    "id": 1362,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>বলের ঘাত হচ্ছে-</p><p><br/>i. বল ও বলের ক্রিয়াকালের গুণফল</p><p><br/>ii. ভরবেগের পরিবর্তন</p><p><br/>iii. ভরবেগের পরিবর্তনের হার</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p><span style=\"color: rgb(101, 101, 101);\">কোনো বস্তুর উপর স্থির মানের কোনো বল কিছু সময় ধরে ক্রিয়া করলে, ওই বলের মান এবং ক্রিয়া করার সময় এর গুণফলকে ওই বলের ঘাত&nbsp;বলে।</span></p>"
+  },
+  {
+    "id": 1368,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>বলের ঘাতের একক হল-</p>",
+    "options": [
+      "kgms<sup>-2</sup>",
+      "kgm<sup>-1</sup>s<sup>-1</sup>",
+      "kgm<sup>-2</sup>s",
+      "kgms<sup>-1</sup>"
+    ],
+    "answer": "kgms<sup>-1</sup>",
+    "explanation": "<p>বলের ঘাত হচ্ছে ভরবেগের পরিবর্তনের সমান আর ভরবেগের পরিবর্তন এর একক হল kgms<sup>-1 </sup></p><p>তাই বলের ঘাতের একক ও  kgms<sup>-1</sup></p>"
   }
 ]

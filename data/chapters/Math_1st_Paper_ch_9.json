@@ -846,5 +846,37 @@
     ],
     "answer": "2ln5",
     "explanation": "<p>$\\mathrm f(\\mathrm x)\\;=\\;\\ln\\;\\mathrm x\\;\\;;\\;\\mathrm f(25)\\;=\\;\\ln\\;25\\;=\\ln\\;5=\\;2\\;\\ln\\;5$</p>"
+  },
+  {
+    "id": 6927,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$f(x)$ ফাংশন x = a বিন্দুতে অবিচ্ছিন্ন হলে-</p><p><br/>i. $f(a)$ সংজ্ঞায়িত হয়</p><p><br/>ii. $\\lim_{x\\rightarrow a}f(x)$ বিদ্যমান থাকে</p><p><br/>iii. $\\lim_{x\\rightarrow a}f(x)=f(a)$ হয়</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p><p><br></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7016,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>tan x এর রেঞ্জ কোনটি?</p>",
+    "options": [
+      "(-1, 1)",
+      "[-1, 1]",
+      "$(-\\infty, \\infty)$",
+      "$[-\\infty, \\infty]$"
+    ],
+    "answer": "$(-\\infty, \\infty)$",
+    "explanation": ""
   }
 ]
