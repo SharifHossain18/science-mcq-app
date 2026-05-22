@@ -1409,9 +1409,11 @@ input:checked + .slider:before {
 @media (max-width: 768px) {
     .app-layout {
         display: block;
+        min-height: unset; /* Remove forced full-viewport height — content determines scroll height */
     }
     .main-workspace {
         display: block;
+        min-height: unset;
     }
     .workspace-header {
         padding: 0 16px;
