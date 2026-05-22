@@ -1,5 +1,7 @@
-const CACHE_NAME = 'lumen-cq-v27';
-const urlsToCache = [
+const CACHE_NAME = 'lumen-v30';
+
+// App shell files — these are precached on install and served cache-first
+const APP_SHELL = [
     './',
     './index.html',
     './subjects.html',
@@ -13,119 +15,192 @@ const urlsToCache = [
     './mcq.js',
     './cq.js',
     './submode.js',
+    './sw-register.js',
     './manifest.json',
     './app-icon.jpeg',
     './icon-192.png',
     './icon-512.png',
-    './data/meta.json',
+    './data/meta.json'
+];
+
+// External CDN resources to try to precache (non-blocking if they fail)
+const CDN_RESOURCES = [
     'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
 ];
 
-// Helper to strip query parameters from data URLs to avoid caching duplicates and mismatching
-function getCleanUrl(urlStr) {
+// Helper: strip query parameters from a URL for consistent cache keys
+function stripQuery(urlStr) {
     try {
         const url = new URL(urlStr);
         url.search = '';
         return url.toString();
     } catch (e) {
-        const index = urlStr.indexOf('?');
-        if (index !== -1) {
-            return urlStr.substring(0, index);
-        }
-        return urlStr;
+        const idx = urlStr.indexOf('?');
+        return idx !== -1 ? urlStr.substring(0, idx) : urlStr;
     }
 }
 
+// Helper: check if a URL is part of the app shell
+function isAppShell(url) {
+    const cleaned = stripQuery(url);
+    return APP_SHELL.some(shell => {
+        try {
+            const resolved = new URL(shell, self.location).toString();
+            return cleaned === resolved;
+        } catch (e) {
+            return false;
+        }
+    });
+}
+
+// Helper: check if a URL is a data JSON request
+function isDataRequest(url) {
+    return url.includes('/data/');
+}
+
+// Helper: check if a URL is an external CDN resource
+function isCDNResource(url) {
+    return url.includes('fonts.googleapis.com') ||
+           url.includes('fonts.gstatic.com') ||
+           url.includes('cdnjs.cloudflare.com');
+}
+
+// ─── INSTALL ────────────────────────────────────────────────
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
-        caches.open(CACHE_NAME)
-            .then(cache => {
-                return cache.addAll(urlsToCache);
-            })
+        caches.open(CACHE_NAME).then(cache => {
+            // Cache app shell (required — fail install if any are missing)
+            const shellPromise = cache.addAll(APP_SHELL);
+            // Try to cache CDN resources but don't block install if they fail
+            const cdnPromise = Promise.allSettled(
+                CDN_RESOURCES.map(url =>
+                    fetch(url, { mode: 'cors' })
+                        .then(resp => {
+                            if (resp.ok) return cache.put(url, resp);
+                        })
+                        .catch(() => {})
+                )
+            );
+            return Promise.all([shellPromise, cdnPromise]);
+        })
     );
 });
 
+// ─── ACTIVATE ───────────────────────────────────────────────
+self.addEventListener('activate', event => {
+    event.waitUntil(
+        caches.keys().then(cacheNames => {
+            return Promise.all(
+                cacheNames
+                    .filter(name => name !== CACHE_NAME)
+                    .map(name => caches.delete(name))
+            );
+        }).then(() => self.clients.claim())
+    );
+});
+
+// ─── FETCH ──────────────────────────────────────────────────
 self.addEventListener('fetch', event => {
-    // Cache split JSON data files dynamically (stale-while-revalidate strategy)
-    if (event.request.url.includes('/data/')) {
-        const cleanUrl = getCleanUrl(event.request.url);
+    const requestUrl = event.request.url;
+
+    // Strategy 1: DATA JSON FILES — Network-first, fall back to cache
+    if (isDataRequest(requestUrl)) {
+        const cleanUrl = stripQuery(requestUrl);
         event.respondWith(
-            caches.match(cleanUrl).then(cachedResponse => {
-                if (cachedResponse) {
-                    // Return cached data, but fetch and update cache in background
-                    fetch(event.request).then(networkResponse => {
-                        if (networkResponse.status === 200) {
-                            caches.open(CACHE_NAME).then(cache => {
-                                cache.put(cleanUrl, networkResponse);
-                            });
-                        }
-                    }).catch(() => {});
-                    return cachedResponse;
-                }
-                return fetch(event.request).then(networkResponse => {
-                    if (networkResponse.status === 200) {
-                        const responseClone = networkResponse.clone();
+            fetch(event.request)
+                .then(networkResponse => {
+                    if (networkResponse.ok) {
+                        const clone = networkResponse.clone();
                         caches.open(CACHE_NAME).then(cache => {
-                            cache.put(cleanUrl, responseClone);
+                            cache.put(cleanUrl, clone);
                         });
                     }
                     return networkResponse;
-                }).catch(() => {
-                    // Offline fallback for JSON data
-                    if (cleanUrl.endsWith('meta.json')) {
-                        return new Response(JSON.stringify({}), {
+                })
+                .catch(() => {
+                    // Network failed — try cache with clean URL
+                    return caches.match(cleanUrl).then(cached => {
+                        if (cached) return cached;
+
+                        // No cache either — return offline placeholder JSON
+                        if (cleanUrl.endsWith('meta.json')) {
+                            return new Response(JSON.stringify({}), {
+                                headers: { 'Content-Type': 'application/json' }
+                            });
+                        }
+
+                        return new Response(JSON.stringify([{
+                            id: "offline_fallback",
+                            subject: "Offline Mode",
+                            chapter: "No Data Available",
+                            board: "Offline",
+                            year: "—",
+                            question: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়টি আগে ডাউনলোড হয়নি। ইন্টারনেট সংযোগ দিন এবং পুনরায় লোড করুন।",
+                            options: ["ঠিক আছে"],
+                            answer: "ঠিক আছে",
+                            explanation: "একবার ইন্টারনেটে সংযুক্ত থাকাকালীন একটি অধ্যায় খুললে, এটি স্বয়ংক্রিয়ভাবে অফলাইন ব্যবহারের জন্য সংরক্ষিত হবে।",
+                            context: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়/বোর্ডটি আগে এই ডিভাইসে লোড করা হয়নি। প্রশ্নগুলো ডাউনলোড করতে ইন্টারনেটে সংযুক্ত হন।",
+                            questions: [
+                                { type: 'a', question: "কী করবেন?", answer: "ইন্টারনেটে সংযুক্ত হন এবং প্রশ্নগুলো ডাউনলোড করতে এই পৃষ্ঠাটি পুনরায় লোড করুন।" }
+                            ]
+                        }]), {
                             headers: { 'Content-Type': 'application/json' }
                         });
-                    }
-
-                    return new Response(JSON.stringify([{
-                        id: "offline_fallback",
-                        subject: "Offline Mode",
-                        chapter: "No Data Available",
-                        board: "Offline",
-                        year: "Offline",
-                        question: "You are currently offline. Please connect to the internet to download this chapter.",
-                        options: ["Okay"],
-                        answer: "Okay",
-                        explanation: "Once you open a chapter while connected, it will be saved for offline use automatically.",
-                        context: "You are currently offline, and this specific chapter/board has not been loaded before on this device. Please connect to the internet to download it.",
-                        questions: [
-                            { type: 'a', question: "What should you do?", answer: "Connect to the internet and reload this page to download the questions." }
-                        ]
-                    }]), {
-                        headers: { 'Content-Type': 'application/json' }
                     });
-                });
+                })
+        );
+        return;
+    }
+
+    // Strategy 2: CDN RESOURCES — Cache-first, fallback to network
+    if (isCDNResource(requestUrl)) {
+        event.respondWith(
+            caches.match(event.request).then(cached => {
+                if (cached) {
+                    // Refresh in background
+                    fetch(event.request).then(resp => {
+                        if (resp.ok) {
+                            caches.open(CACHE_NAME).then(cache => cache.put(event.request, resp));
+                        }
+                    }).catch(() => {});
+                    return cached;
+                }
+                return fetch(event.request).then(resp => {
+                    if (resp.ok) {
+                        const clone = resp.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+                    }
+                    return resp;
+                }).catch(() => new Response('', { status: 200 }));
             })
         );
         return;
     }
 
+    // Strategy 3: APP SHELL & OTHER — Cache-first, fallback to network
+    const cleanUrl = stripQuery(requestUrl);
     event.respondWith(
-        caches.match(event.request)
-            .then(response => {
-                if (response) {
-                    return response;
-                }
-                return fetch(event.request);
-            })
-    );
-});
-
-self.addEventListener('activate', event => {
-    event.waitUntil(self.clients.claim());
-    const cacheWhitelist = [CACHE_NAME];
-    event.waitUntil(
-        caches.keys().then(cacheNames => {
-            return Promise.all(
-                cacheNames.map(cacheName => {
-                    if (cacheWhitelist.indexOf(cacheName) === -1) {
-                        return caches.delete(cacheName);
+        caches.match(cleanUrl).then(cached => {
+            if (cached) return cached;
+            // Also try matching the original request (for navigation requests)
+            return caches.match(event.request).then(cached2 => {
+                if (cached2) return cached2;
+                return fetch(event.request).then(resp => {
+                    if (resp.ok && event.request.method === 'GET') {
+                        const clone = resp.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(cleanUrl, clone));
                     }
-                })
-            );
+                    return resp;
+                }).catch(() => {
+                    // If it's a navigation request (HTML page), serve the cached index
+                    if (event.request.mode === 'navigate') {
+                        return caches.match('./index.html');
+                    }
+                    return new Response('Offline', { status: 503 });
+                });
+            });
         })
     );
 });

@@ -134,6 +134,16 @@ function clearSelections() {
 
 // Check state variables and show corresponding selector view
 function renderCurrentState() {
+    // Prevent blank screen when coming back from quiz/cq page by clearing leaf selections
+    if (state.chapter) {
+        state.chapter = null;
+        localStorage.removeItem('selectedChapter');
+    }
+    if (state.board) {
+        state.board = null;
+        localStorage.removeItem('selectedBoard');
+    }
+
     // Hide all selector views first
     document.querySelectorAll('.app-view').forEach(view => {
         view.classList.remove('active');
