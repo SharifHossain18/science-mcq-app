@@ -1410,6 +1410,9 @@ input:checked + .slider:before {
     .app-layout {
         display: block;
     }
+    .main-workspace {
+        display: block;
+    }
     .workspace-header {
         padding: 0 16px;
     }
