@@ -1555,16 +1555,25 @@ input:checked + .slider:before {
     gap: 6px;
 }
 
+.cq-question-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
 .cq-stem-container {
     background: #f8fafc;
     border-left: 4px solid var(--primary-blue);
     border-radius: 4px 16px 16px 4px;
     padding: 16px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-size: 1.05rem;
     line-height: 1.6;
     color: var(--text-main);
     font-weight: 500;
+    flex: 1;
+    min-width: 0;
 }
 
 .cq-stem-title {
@@ -1588,10 +1597,19 @@ input:checked + .slider:before {
     margin-bottom: 0;
 }
 
+.cq-meta-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 18px;
+    padding-left: 40px;
+}
+
 .cq-subquestions-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding-left: 40px;
 }
 
 .cq-subquestion-item {

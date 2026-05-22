@@ -201,20 +201,11 @@ function renderBreadcrumbs() {
         window.location.href = 'index.html';
     });
 
-    const modeLabel = 'সৃজনশীল প্রশ্ন প্রস্তুতি (CQ)';
+    const modeLabel = state.cqSubMode === 'chapter' ? 'অধ্যায়ভিত্তিক CQ প্রস্তুতি' : 'বোর্ড CQ প্রস্তুতি';
     
     // Mode link
     addBreadcrumb(modeLabel, () => {
         clearSelections();
-        window.location.href = 'subjects.html';
-    });
-
-    const subModeLabel = state.cqSubMode === 'chapter' ? 'অধ্যায়ভিত্তিক' : 'বোর্ড ভিত্তিক';
-    addBreadcrumb(subModeLabel, () => {
-        localStorage.removeItem('selectedSubject');
-        localStorage.removeItem('selectedChapter');
-        localStorage.removeItem('selectedYear');
-        localStorage.removeItem('selectedBoard');
         window.location.href = 'subjects.html';
     });
 
@@ -340,16 +331,18 @@ function renderCQs() {
         `;
 
         card.innerHTML = `
-            <div class="cq-header-row">
+            <div class="cq-question-wrapper">
                 <div class="q-number-badge">${globalIdx + 1}</div>
-                <div class="cq-meta-tags-wrapper">
-                    ${metaTagsHtml}
+                <div class="cq-stem-container">
+                    <div class="cq-stem-title">উদ্দীপক (Context):</div>
+                    <div class="cq-stem-content">${cq.context}</div>
                 </div>
             </div>
             
-            <div class="cq-stem-container">
-                <div class="cq-stem-title">উদ্দীপক (Context):</div>
-                <div class="cq-stem-content">${cq.context}</div>
+            <div class="cq-meta-row">
+                <div class="cq-meta-tags-wrapper">
+                    ${metaTagsHtml}
+                </div>
             </div>
 
             <div class="cq-subquestions-list">

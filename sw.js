@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-cq-v26';
+const CACHE_NAME = 'lumen-cq-v27';
 const urlsToCache = [
     './',
     './index.html',
@@ -15,6 +15,8 @@ const urlsToCache = [
     './submode.js',
     './manifest.json',
     './app-icon.jpeg',
+    './icon-192.png',
+    './icon-512.png',
     './data/meta.json',
     'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
@@ -72,15 +74,26 @@ self.addEventListener('fetch', event => {
                     return networkResponse;
                 }).catch(() => {
                     // Offline fallback for JSON data
+                    if (cleanUrl.endsWith('meta.json')) {
+                        return new Response(JSON.stringify({}), {
+                            headers: { 'Content-Type': 'application/json' }
+                        });
+                    }
+
                     return new Response(JSON.stringify([{
+                        id: "offline_fallback",
                         subject: "Offline Mode",
                         chapter: "No Data Available",
                         board: "Offline",
                         year: "Offline",
-                        question: "You are currently offline, and this specific chapter/board has not been loaded before on this device. Please connect to the internet to download it.",
+                        question: "You are currently offline. Please connect to the internet to download this chapter.",
                         options: ["Okay"],
                         answer: "Okay",
-                        explanation: "Once you open a chapter while connected, it will be saved for offline use automatically."
+                        explanation: "Once you open a chapter while connected, it will be saved for offline use automatically.",
+                        context: "You are currently offline, and this specific chapter/board has not been loaded before on this device. Please connect to the internet to download it.",
+                        questions: [
+                            { type: 'a', question: "What should you do?", answer: "Connect to the internet and reload this page to download the questions." }
+                        ]
                     }]), {
                         headers: { 'Content-Type': 'application/json' }
                     });
