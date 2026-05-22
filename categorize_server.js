@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8086;
+const PORT = 3000;
 const DATA_DIR = path.join(__dirname, 'data');
 const CHAPTERS_DIR = path.join(DATA_DIR, 'chapters');
 
@@ -27,10 +27,11 @@ const server = http.createServer((req, res) => {
 
     // Serve HTML admin panel
     if (parsedUrl === '/' || parsedUrl === '/admin.html') {
-        fs.readFile(path.join(__dirname, 'admin.html'), 'utf-8', (err, content) => {
+        const fileName = parsedUrl === '/' ? 'index.html' : 'admin.html';
+        fs.readFile(path.join(__dirname, fileName), 'utf-8', (err, content) => {
             if (err) {
                 res.writeHead(404, { 'Content-Type': 'text/plain' });
-                res.end('admin.html not found. Please ensure it is created.');
+                res.end(fileName + ' not found. Please ensure it is created.');
             } else {
                 res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
                 res.end(content);

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>LUMEN MCQ Hub - Dashboard</title>
+    <title>LUMEN - Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -16,8 +19,9 @@
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-brand">
                 <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
-                <span>LUMEN <span class="highlight">MCQ</span></span>
+                <span>LUMEN</span>
             </div>
+
             
             <div class="menu-section">
                 <span class="menu-title">মেনু</span>
@@ -123,37 +127,17 @@
 
                     <!-- Two Premium Mode Cards -->
                     <div class="mode-cards-grid">
-                        <!-- Chapter-wise Practice -->
-                        <div class="mode-gradient-card" data-mode="chapter">
+                        <!-- MCQ Practice -->
+                        <div class="mode-gradient-card" data-mode="mcq">
                             <div class="mode-card-header">
                                 <div class="mode-card-icon-circle">
-                                    <i class="fa-regular fa-folder-open"></i>
+                                    <i class="fa-solid fa-list-check"></i>
                                 </div>
-                                <span class="mode-card-badge">Chapter-wise</span>
+                                <span class="mode-card-badge">MCQ Practice</span>
                             </div>
                             <div class="mode-card-body">
-                                <h3 class="mode-card-title">অধ্যায়ভিত্তিক প্রস্তুতি</h3>
-                                <p class="mode-card-description">অধ্যায় অনুসারে প্রতিটি টপিকের MCQ প্র্যাকটিস করুন</p>
-                            </div>
-                            <div class="mode-card-footer">
-                                <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
-                                <div class="mode-chevron-circle">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Board Question Practice -->
-                        <div class="mode-gradient-card" data-mode="board">
-                            <div class="mode-card-header">
-                                <div class="mode-card-icon-circle">
-                                    <i class="fa-solid fa-building-columns"></i>
-                                </div>
-                                <span class="mode-card-badge">Board Questions</span>
-                            </div>
-                            <div class="mode-card-body">
-                                <h3 class="mode-card-title">বোর্ড প্রশ্ন প্রস্তুতি</h3>
-                                <p class="mode-card-description">বিগত বছরের সকল বোর্ডের MCQ সমাধান করুন</p>
+                                <h3 class="mode-card-title">বহুনির্বাচনি প্রশ্ন (MCQ)</h3>
+                                <p class="mode-card-description">অধ্যায় ও বোর্ড ভিত্তিক বহুনির্বাচনি প্রশ্ন অনুশীলন করুন</p>
                             </div>
                             <div class="mode-card-footer">
                                 <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
@@ -166,14 +150,14 @@
                         <!-- CQ Practice -->
                         <div class="mode-gradient-card" data-mode="cq">
                             <div class="mode-card-header">
-                                <div class="mode-card-icon-circle" style="background: rgba(255, 255, 255, 0.2); color: #ffffff;">
+                                <div class="mode-card-icon-circle">
                                     <i class="fa-solid fa-file-signature"></i>
                                 </div>
                                 <span class="mode-card-badge">CQ Practice</span>
                             </div>
                             <div class="mode-card-body">
-                                <h3 class="mode-card-title">সৃজনশীল প্রশ্ন প্রস্তুতি</h3>
-                                <p class="mode-card-description">অধ্যায় ও বোর্ড অনুসারে সৃজনশীল প্রশ্ন (CQ) অনুশীলন করুন</p>
+                                <h3 class="mode-card-title">সৃজনশীল প্রশ্ন (CQ)</h3>
+                                <p class="mode-card-description">অধ্যায় ও বোর্ড ভিত্তিক সৃজনশীল প্রশ্ন অনুশীলন করুন</p>
                             </div>
                             <div class="mode-card-footer">
                                 <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>

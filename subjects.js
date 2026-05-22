@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(err => {
             console.error("Error loading metadata database:", err);
+            window.metaLoadError = err;
             renderCurrentState(); // Try to render anyway
         });
 
@@ -47,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('side-chapter').addEventListener('click', (e) => {
         e.preventDefault();
         closeSidebarOnMobile();
+        localStorage.setItem('tempPracticeMode', 'mcq');
         localStorage.setItem('practiceMode', 'chapter');
         clearSelections();
         state.mode = 'chapter';
@@ -57,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('side-board').addEventListener('click', (e) => {
         e.preventDefault();
         closeSidebarOnMobile();
+        localStorage.setItem('tempPracticeMode', 'mcq');
         localStorage.setItem('practiceMode', 'board');
         clearSelections();
         state.mode = 'board';
@@ -69,13 +72,11 @@ document.addEventListener('DOMContentLoaded', () => {
         sideCq.addEventListener('click', (e) => {
             e.preventDefault();
             closeSidebarOnMobile();
+            localStorage.setItem('tempPracticeMode', 'cq');
             localStorage.setItem('practiceMode', 'cq');
             localStorage.removeItem('cqSubMode');
             clearSelections();
-            state.mode = 'cq';
-            state.cqSubMode = null;
-            renderCurrentState();
-            updateSidebarActiveItem();
+            window.location.href = 'submode.html';
         });
     }
 
@@ -184,11 +185,8 @@ function handleBackAction() {
         } else if (state.subject) {
             state.subject = null;
             localStorage.removeItem('selectedSubject');
-        } else if (state.mode === 'cq') {
-            state.cqSubMode = null;
-            localStorage.removeItem('cqSubMode');
         } else {
-            window.location.href = 'index.html';
+            window.location.href = 'submode.html';
             return;
         }
     } else if (state.mode === 'chapter' || (state.mode === 'cq' && state.cqSubMode === 'chapter')) {
@@ -198,16 +196,12 @@ function handleBackAction() {
         } else if (state.subject) {
             state.subject = null;
             localStorage.removeItem('selectedSubject');
-        } else if (state.mode === 'cq') {
-            state.cqSubMode = null;
-            localStorage.removeItem('cqSubMode');
         } else {
-            window.location.href = 'index.html';
+            window.location.href = 'submode.html';
             return;
         }
     } else {
-        // CQ Mode without submode selected
-        window.location.href = 'index.html';
+        window.location.href = 'submode.html';
         return;
     }
     renderCurrentState();
@@ -350,8 +344,8 @@ function renderCqSubModeSelector() {
     listEl.className = 'board-grid';
 
     const submodes = [
-        { id: 'chapter', name: 'অধ্যায়ভিত্তিক প্রস্তুতি', icon: 'fa-regular fa-folder-open', desc: 'Chapter-wise CQs' },
-        { id: 'board', name: 'বোর্ড প্রশ্ন প্রস্তুতি', icon: 'fa-solid fa-building-columns', desc: 'Board-wise CQs' }
+        { id: 'chapter', name: 'অধ্যায়ভিত্তিক প্রস্তুতি', icon: 'fa-regular fa-folder-open', desc: 'Chapter-wise CQs', bg: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)' },
+        { id: 'board', name: 'বোর্ড প্রশ্ন প্রস্তুতি', icon: 'fa-solid fa-building-columns', desc: 'Board-wise CQs', bg: 'linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%)' }
     ];
 
     submodes.forEach(sub => {
@@ -360,11 +354,14 @@ function renderCqSubModeSelector() {
         btn.style.height = '120px';
         btn.style.flexDirection = 'column';
         btn.style.justifyContent = 'center';
-        btn.style.gap = '8px';
+        btn.style.gap = '10px';
+        btn.style.background = sub.bg;
+        btn.style.border = 'none';
+        btn.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)';
         btn.innerHTML = `
-            <i class="${sub.icon} board-card-icon" style="font-size: 1.8rem; margin: 0; color: var(--primary-blue);"></i>
-            <span style="font-weight: 700; font-size: 1rem;">${sub.name}</span>
-            <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500;">${sub.desc}</span>
+            <i class="${sub.icon} board-card-icon" style="font-size: 2.2rem; margin: 0; color: #ffffff !important; margin-bottom: 5px;"></i>
+            <span style="font-weight: 800; font-size: 1.1rem; color: #ffffff !important;">${sub.name}</span>
+            <span style="font-size: 0.8rem; color: rgba(255,255,255,0.85); font-weight: 600;">${sub.desc}</span>
         `;
         btn.addEventListener('click', () => {
             state.cqSubMode = sub.id;
@@ -377,11 +374,21 @@ function renderCqSubModeSelector() {
 
 // Placeholder for empty datasets
 function showNoDataPlaceholder(container) {
+    let errorDetailsHtml = '';
+    if (window.metaLoadError) {
+        errorDetailsHtml = `
+            <div style="margin-top: 15px; padding: 10px; border-radius: 8px; background: rgba(239, 68, 68, 0.1); border: 1px dashed #ef4444; font-family: monospace; font-size: 0.75rem; color: #ef4444; word-break: break-all;">
+                <strong>Debug Info (Metadata Fetch Error):</strong><br>
+                ${window.metaLoadError.message || window.metaLoadError}
+            </div>
+        `;
+    }
     container.innerHTML = `
         <div class="loading-state" style="padding: 40px 15px;">
             <i class="fa-solid fa-hourglass-start" style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 15px;"></i>
             <p style="color: var(--text-main); font-weight: 600; font-size: 1rem;">দুঃখিত! এই বিষয়ের প্রশ্নগুলো শীঘ্রই যোগ করা হবে।</p>
             <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 5px;">Currently, no board question data loaded for this subject.</p>
+            ${errorDetailsHtml}
         </div>
     `;
 }

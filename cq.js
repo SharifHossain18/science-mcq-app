@@ -1,4 +1,5 @@
 let allCQs = [];
+let metaData = {};
 let currentPage = 1;
 const pageSize = 5;
 
@@ -39,32 +40,52 @@ document.addEventListener('DOMContentLoaded', () => {
     let fetchPromise;
     const cleanSubject = state.subject.replace(/\s+/g, '_');
 
-    if (state.cqSubMode === 'board') {
-        const cleanBoard = state.board.replace(/\s+/g, '_');
-        const dataUrl = `data/cq/boards/${cleanSubject}_${state.year}_${cleanBoard}.json?t=` + new Date().getTime();
-        fetchPromise = fetch(dataUrl);
-    } else {
-        if (state.chapterId) {
-            const dataUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
-            fetchPromise = fetch(dataUrl);
-        } else {
-            // Resolve chapterId dynamically from metadata if not present in storage
-            fetchPromise = fetch('data/meta.json?t=' + new Date().getTime())
-                .then(res => {
-                    if (!res.ok) throw new Error("Metadata request failed");
-                    return res.json();
-                })
-                .then(meta => {
+    // Always fetch meta.json first to resolve board index or chapter ID dynamically
+    fetchPromise = fetch('data/meta.json?t=' + new Date().getTime())
+        .then(res => {
+            if (!res.ok) throw new Error("Metadata request failed");
+            return res.json();
+        })
+        .then(meta => {
+            metaData = meta;
+            let cqUrl = '';
+            if (state.cqSubMode === 'board') {
+                const subjectMeta = meta[state.subject];
+                if (!subjectMeta || !subjectMeta.boards || !subjectMeta.boards[state.year]) {
+                    throw new Error("Subject/Year not found in metadata");
+                }
+                const yearBoards = subjectMeta.boards[state.year];
+                const boardIndex = yearBoards.indexOf(state.board);
+                if (boardIndex === -1) {
+                    throw new Error(`Board ${state.board} not found in metadata for year ${state.year}`);
+                }
+                
+                let boardId = '';
+                if (state.board === 'Combined') {
+                    boardId = 'Combined';
+                } else {
+                    boardId = String(boardIndex + 1);
+                }
+                
+                // Store resolved board index string for filtering CQs
+                state.boardId = boardId;
+                
+                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${boardId}.json?t=` + new Date().getTime();
+            } else {
+                if (state.chapterId) {
+                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
+                } else {
                     const subjectMeta = meta[state.subject];
                     const normChapterName = (state.chapter || 'General').replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
                     const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
                     if (!chapterObj) throw new Error("Chapter not found in metadata");
                     state.chapterId = chapterObj.id;
                     localStorage.setItem('selectedChapterId', chapterObj.id);
-                    return fetch(`data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime());
-                });
-        }
-    }
+                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
+                }
+            }
+            return fetch(cqUrl);
+        });
 
     fetchPromise
         .then(response => {
@@ -94,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sidebar navigation mode links
     document.getElementById('side-chapter').addEventListener('click', (e) => {
         e.preventDefault();
+        localStorage.setItem('tempPracticeMode', 'mcq');
         localStorage.setItem('practiceMode', 'chapter');
         clearSelections();
         window.location.href = 'subjects.html';
@@ -101,6 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('side-board').addEventListener('click', (e) => {
         e.preventDefault();
+        localStorage.setItem('tempPracticeMode', 'mcq');
         localStorage.setItem('practiceMode', 'board');
         clearSelections();
         window.location.href = 'subjects.html';
@@ -108,10 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('side-cq').addEventListener('click', (e) => {
         e.preventDefault();
+        localStorage.setItem('tempPracticeMode', 'cq');
         localStorage.setItem('practiceMode', 'cq');
         localStorage.removeItem('cqSubMode');
         clearSelections();
-        window.location.href = 'subjects.html';
+        window.location.href = 'submode.html';
     });
 
     // Mobile Sidebar Drawer Toggles
@@ -227,7 +251,7 @@ function renderCQs() {
     if (state.cqSubMode === 'chapter') {
         filteredCQs = filteredCQs.filter(q => q.chapter === state.chapter);
     } else {
-        filteredCQs = filteredCQs.filter(q => String(q.year) === state.year && q.board === state.board);
+        filteredCQs = filteredCQs.filter(q => String(q.year) === state.year && q.board === (state.boardId || state.board));
     }
 
     if (filteredCQs.length === 0) {
@@ -264,6 +288,8 @@ function renderCQs() {
     const subQuestionLabels = { 'a': 'ক', 'b': 'খ', 'c': 'গ', 'd': 'ঘ' };
     const subQuestionMarks = { 'a': '১', 'b': '২', 'c': '৩', 'd': '৪' };
 
+    const fragment = document.createDocumentFragment();
+
     pagedCQs.forEach((cq, idx) => {
         const globalIdx = startIndex + idx;
         const card = document.createElement('div');
@@ -297,9 +323,20 @@ function renderCQs() {
         });
 
         // Parse meta row tags
+        let displayBoard = cq.board;
+        if (metaData[cq.subject] && metaData[cq.subject].boards && metaData[cq.subject].boards[cq.year]) {
+            const yearBoards = metaData[cq.subject].boards[cq.year];
+            if (cq.board !== 'Combined') {
+                const boardIdx = parseInt(cq.board) - 1;
+                if (boardIdx >= 0 && boardIdx < yearBoards.length) {
+                    displayBoard = yearBoards[boardIdx];
+                }
+            }
+        }
+
         const metaTagsHtml = `
             <span class="cq-meta-tag"><i class="fa-regular fa-folder-open"></i> ${cq.chapter || 'General'}</span>
-            <span class="cq-meta-tag"><i class="fa-solid fa-building-columns"></i> ${cq.board} ${cq.year}</span>
+            <span class="cq-meta-tag"><i class="fa-solid fa-building-columns"></i> ${displayBoard} ${cq.year}</span>
         `;
 
         card.innerHTML = `
@@ -320,8 +357,10 @@ function renderCQs() {
             </div>
         `;
 
-        container.appendChild(card);
+        fragment.appendChild(card);
     });
+
+    container.appendChild(fragment);
 
     // Bind reveal button click handlers for expand/collapse actions
     container.querySelectorAll('.cq-reveal-btn').forEach(btn => {

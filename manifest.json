@@ -1,21 +1,22 @@
 {
-    "name": "LUMEN MCQ Hub",
-    "short_name": "LUMEN MCQ",
-    "description": "LUMEN HSC Chapter-wise and Board MCQ Practice App",
+    "name": "LUMEN",
+    "short_name": "LUMEN",
+    "description": "LUMEN HSC Chapter-wise and Board MCQ/CQ Practice App",
+
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#0f172a",
     "theme_color": "#1e3a8a",
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "app-icon.jpeg",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/jpeg"
         },
         {
-            "src": "icon-512.png",
+            "src": "app-icon.jpeg",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/jpeg"
         }
     ]
 }

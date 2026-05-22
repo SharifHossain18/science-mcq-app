@@ -519,6 +519,15 @@ body {
     box-shadow: 0 20px 35px rgba(168, 85, 247, 0.25);
 }
 
+.mode-gradient-card[data-mode="mcq"] {
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.15);
+}
+.mode-gradient-card[data-mode="mcq"]:hover {
+    box-shadow: 0 20px 35px rgba(59, 130, 246, 0.25);
+}
+
+
 /* Card Header Items */
 .mode-card-header {
     display: flex;
@@ -613,6 +622,15 @@ body {
 .mode-gradient-card[data-mode="board"] .mode-chevron-circle {
     color: #2e7a56;
 }
+
+.mode-gradient-card[data-mode="mcq"] .mode-chevron-circle {
+    color: #0284c7;
+}
+
+.mode-gradient-card[data-mode="cq"] .mode-chevron-circle {
+    color: #a855f7;
+}
+
 
 .mode-gradient-card:hover .mode-chevron-circle {
     transform: scale(1.1) translateX(3px);

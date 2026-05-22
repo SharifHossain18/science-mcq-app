@@ -6,15 +6,11 @@
     <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>LUMEN - CQ Practice</title>
+    <title>LUMEN - Select Mode</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- KaTeX for LaTeX rendering -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
 </head>
 <body>
 
@@ -25,12 +21,11 @@
                 <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
                 <span>LUMEN</span>
             </div>
-
             
             <div class="menu-section">
                 <span class="menu-title">মেনু</span>
                 <nav class="sidebar-nav">
-                    <a href="index.html" class="sidebar-nav-item" id="side-home">
+                    <a href="index.html" class="sidebar-nav-item active" id="side-home">
                         <i class="fa-solid fa-house"></i>
                         <span>ড্যাশবোর্ড (Dashboard)</span>
                     </a>
@@ -42,7 +37,7 @@
                         <i class="fa-solid fa-building-columns"></i>
                         <span>বোর্ড প্রশ্ন প্রস্তুতি</span>
                     </a>
-                    <a href="subjects.html" class="sidebar-nav-item active" id="side-cq">
+                    <a href="subjects.html" class="sidebar-nav-item" id="side-cq">
                         <i class="fa-solid fa-file-signature"></i>
                         <span>সৃজনশীল প্রশ্ন প্রস্তুতি (CQ)</span>
                     </a>
@@ -102,7 +97,9 @@
                         <i class="fa-solid fa-arrow-left"></i>
                     </button>
                     <div class="breadcrumb" id="breadcrumb-path">
-                        <!-- Clickable breadcrumbs -->
+                        <span class="breadcrumb-item" onclick="window.location.href='index.html'">Home</span>
+                        <span class="breadcrumb-separator"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i></span>
+                        <span class="breadcrumb-item active" id="breadcrumb-mode">Mode Selection</span>
                     </div>
                 </div>
                 <div class="header-right">
@@ -114,19 +111,70 @@
 
             <!-- Workspace Content Area -->
             <main class="app-container">
-                
-                <!-- CQ Practice View -->
-                <div id="cq-practice-view" class="app-view active">
-                    <div class="mcq-view-header">
-                        <div class="mcq-view-title-area">
-                            <h3 id="cq-view-title">সৃজনশীল প্রশ্ন প্রস্তুতি</h3>
+                <div id="submode-view" class="app-view active">
+                    <!-- Profile Banner -->
+                    <div class="profile-banner">
+                        <div class="profile-header-left">
+                            <div class="profile-avatar-circle">S</div>
+                            <div class="profile-user-info">
+                                <span class="profile-user-name">Sujon <span class="pro-badge">PRO</span></span>
+                                <span class="profile-user-class">Science • HSC 2026</span>
+                            </div>
+                        </div>
+                        <div class="profile-header-right">
+                            <div class="bell-notification-btn">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
                         </div>
                     </div>
-                    <div id="cq-container" class="cq-list">
-                        <!-- Questions dynamically loaded here -->
+
+                    <div class="view-header" style="margin-bottom: 20px;">
+                        <h3 id="submode-title" style="color: var(--text-main); font-weight: 800; font-size: 1.35rem;">প্রস্তুতির ধরণ নির্বাচন করুন (Select Preparation Type)</h3>
+                    </div>
+
+                    <!-- Two Mode Cards (Chapter-wise & Board-wise) -->
+                    <div class="mode-cards-grid">
+                        <!-- Chapter-wise Card -->
+                        <div class="mode-gradient-card" data-mode="chapter">
+                            <div class="mode-card-header">
+                                <div class="mode-card-icon-circle">
+                                    <i class="fa-regular fa-folder-open"></i>
+                                </div>
+                                <span class="mode-card-badge" id="chapter-badge">Chapter-wise</span>
+                            </div>
+                            <div class="mode-card-body">
+                                <h3 class="mode-card-title" id="chapter-title">অধ্যায়ভিত্তিক প্রস্তুতি</h3>
+                                <p class="mode-card-description" id="chapter-desc">অধ্যায় অনুসারে প্রস্তুতি অনুশীলন করুন</p>
+                            </div>
+                            <div class="mode-card-footer">
+                                <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
+                                <div class="mode-chevron-circle">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Board-wise Card -->
+                        <div class="mode-gradient-card" data-mode="board">
+                            <div class="mode-card-header">
+                                <div class="mode-card-icon-circle">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <span class="mode-card-badge" id="board-badge">Board Questions</span>
+                            </div>
+                            <div class="mode-card-body">
+                                <h3 class="mode-card-title" id="board-title">বোর্ড প্রশ্ন প্রস্তুতি</h3>
+                                <p class="mode-card-description" id="board-desc">বিগত বছরের সকল বোর্ডের প্রশ্ন সমাধান করুন</p>
+                            </div>
+                            <div class="mode-card-footer">
+                                <span class="mode-card-action-text">শুরু করুন (Start Practice)</span>
+                                <div class="mode-chevron-circle">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </main>
         </div>
     </div>
@@ -147,6 +195,6 @@
         </a>
     </nav>
 
-    <script src="cq.js"></script>
+    <script src="submode.js"></script>
 </body>
 </html>

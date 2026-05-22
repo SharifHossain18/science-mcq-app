@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Dashboard Mode Card Click Handler (Goes to Subjects page)
+    // 1. Dashboard Mode Card Click Handler (Goes to Sub-mode page)
     document.querySelectorAll('.mode-gradient-card').forEach(card => {
         card.addEventListener('click', () => {
-            const mode = card.getAttribute('data-mode');
-            localStorage.setItem('practiceMode', mode);
+            const mode = card.getAttribute('data-mode'); // 'mcq' or 'cq'
+            localStorage.setItem('tempPracticeMode', mode);
             
             // Clear previous selections to allow a fresh flow
             localStorage.removeItem('selectedSubject');
@@ -11,8 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.removeItem('selectedChapterId');
             localStorage.removeItem('selectedYear');
             localStorage.removeItem('selectedBoard');
+            localStorage.removeItem('cqSubMode');
             
-            window.location.href = 'subjects.html';
+            window.location.href = 'submode.html';
         });
     });
 
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sideChapter = document.getElementById('side-chapter');
     if (sideChapter) {
         sideChapter.addEventListener('click', () => {
+            localStorage.setItem('tempPracticeMode', 'mcq');
             localStorage.setItem('practiceMode', 'chapter');
             localStorage.removeItem('selectedSubject');
         });
@@ -28,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sideBoard = document.getElementById('side-board');
     if (sideBoard) {
         sideBoard.addEventListener('click', () => {
+            localStorage.setItem('tempPracticeMode', 'mcq');
             localStorage.setItem('practiceMode', 'board');
             localStorage.removeItem('selectedSubject');
         });
@@ -36,7 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const sideCq = document.getElementById('side-cq');
     if (sideCq) {
         sideCq.addEventListener('click', () => {
+            localStorage.setItem('tempPracticeMode', 'cq');
             localStorage.setItem('practiceMode', 'cq');
+            localStorage.removeItem('cqSubMode');
             localStorage.removeItem('selectedSubject');
         });
     }

@@ -236,6 +236,8 @@ function renderMCQs() {
         mcqTitleEl.textContent = `${state.board} Board - ${state.year}`;
     }
 
+    const fragment = document.createDocumentFragment();
+
     filteredData.forEach((q, idx) => {
         const card = document.createElement('div');
         card.className = 'mcq-card';
@@ -278,8 +280,10 @@ function renderMCQs() {
             </div>
         `;
         
-        container.appendChild(card);
+        fragment.appendChild(card);
     });
+
+    container.appendChild(fragment);
 
     // Bind option buttons click listeners
     container.querySelectorAll('.option-btn').forEach(btn => {
