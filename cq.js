@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cleanSubject = state.subject.replace(/\s+/g, '_');
 
     // Always fetch meta.json first to resolve board index or chapter ID dynamically
-    fetchPromise = fetch('data/meta.json?t=' + new Date().getTime())
+    fetchPromise = fetch('data/meta.json')
         .then(res => {
             if (!res.ok) throw new Error("Metadata request failed");
             return res.json();
@@ -70,10 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Store resolved board index string for filtering CQs
                 state.boardId = boardId;
                 
-                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${boardId}.json?t=` + new Date().getTime();
+                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${boardId}.json`;
             } else {
                 if (state.chapterId) {
-                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
+                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
                 } else {
                     const subjectMeta = meta[state.subject];
                     const normChapterName = (state.chapter || 'General').replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (!chapterObj) throw new Error("Chapter not found in metadata");
                     state.chapterId = chapterObj.id;
                     localStorage.setItem('selectedChapterId', chapterObj.id);
-                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json?t=` + new Date().getTime();
+                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
                 }
             }
             return fetch(cqUrl);
@@ -279,6 +279,11 @@ function renderCQs() {
     const subQuestionLabels = { 'a': 'ক', 'b': 'খ', 'c': 'গ', 'd': 'ঘ' };
     const subQuestionMarks = { 'a': '১', 'b': '২', 'c': '৩', 'd': '৪' };
 
+    // Deferred answer store: map of unique key → answer HTML
+    // Answers (which contain large base64 images) are NOT injected into the DOM
+    // until the user explicitly clicks "Show Answer", preventing huge render cost.
+    const answerStore = new Map();
+
     const fragment = document.createDocumentFragment();
 
     pagedCQs.forEach((cq, idx) => {
@@ -288,12 +293,16 @@ function renderCQs() {
         card.setAttribute('data-cq-id', cq.id);
 
         let subQuestionsHtml = '';
-        (cq.questions || []).forEach(sub => {
+        (cq.questions || []).forEach((sub, subIdx) => {
             const letterLabel = subQuestionLabels[sub.type] || sub.type.toUpperCase();
             const marksLabel = subQuestionMarks[sub.type] || '১';
+            const answerKey = `ans_${globalIdx}_${subIdx}`;
+
+            // Store answer content in memory — not in DOM
+            answerStore.set(answerKey, sub.answer || '');
             
             subQuestionsHtml += `
-                <div class="cq-subquestion-item">
+                <div class="cq-subquestion-item" data-answer-key="${answerKey}">
                     <div class="cq-sub-header">
                         <div class="cq-sub-letter-badge">${letterLabel}</div>
                         <div class="cq-sub-text">${sub.question}</div>
@@ -306,7 +315,7 @@ function renderCQs() {
                     <div class="cq-answer-panel">
                         <div class="cq-answer-inner">
                             <div class="cq-answer-badge">সমাধান (Solution)</div>
-                            <div class="cq-answer-content">${sub.answer}</div>
+                            <div class="cq-answer-content"></div>
                         </div>
                     </div>
                 </div>
@@ -355,12 +364,13 @@ function renderCQs() {
 
     container.appendChild(fragment);
 
-    // Bind reveal button click handlers for expand/collapse actions
+    // Bind reveal button click handlers — inject answer HTML lazily on first open
     container.querySelectorAll('.cq-reveal-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const currentBtn = e.currentTarget;
             const item = currentBtn.closest('.cq-subquestion-item');
             const answerPanel = item.querySelector('.cq-answer-panel');
+            const answerContentEl = item.querySelector('.cq-answer-content');
             const icon = currentBtn.querySelector('i');
             const spanText = currentBtn.querySelector('span');
 
@@ -368,9 +378,28 @@ function renderCQs() {
             answerPanel.classList.toggle('show');
 
             if (answerPanel.classList.contains('show')) {
+                // Lazy inject: only add answer HTML to DOM when first revealed
+                if (!item.dataset.answerLoaded) {
+                    const key = item.dataset.answerKey;
+                    const answerHtml = answerStore.get(key) || '<em>উত্তর পাওয়া যায়নি।</em>';
+                    answerContentEl.innerHTML = answerHtml;
+                    item.dataset.answerLoaded = '1';
+                    // Re-render any LaTeX inside this answer
+                    if (window.renderMathInElement) {
+                        renderMathInElement(answerContentEl, {
+                            delimiters: [
+                                {left: '$$', right: '$$', display: true},
+                                {left: '$', right: '$', display: false},
+                                {left: '\\(', right: '\\)', display: false},
+                                {left: '\\[', right: '\\]', display: true}
+                            ],
+                            throwOnError: false
+                        });
+                    }
+                }
                 icon.className = 'fa-solid fa-chevron-up';
                 spanText.textContent = 'উত্তর বন্ধ করুন (Hide Solution)';
-                // Dynamically compute height for smooth transition
+                // Compute height after content is injected
                 const inner = answerPanel.querySelector('.cq-answer-inner');
                 answerPanel.style.maxHeight = inner.scrollHeight + 'px';
                 answerPanel.style.opacity = '1';
@@ -460,16 +489,18 @@ function renderCQs() {
         });
     }
 
-    // Trigger LaTeX rendering on the new nodes
+    // Only render LaTeX on question stems (not answers — they render lazily on reveal)
     if (window.renderMathInElement) {
-        renderMathInElement(container, {
-            delimiters: [
-                {left: '$$', right: '$$', display: true},
-                {left: '$', right: '$', display: false},
-                {left: '\\(', right: '\\)', display: false},
-                {left: '\\[', right: '\\]', display: true}
-            ],
-            throwOnError: false
+        container.querySelectorAll('.cq-stem-content, .cq-sub-text').forEach(el => {
+            renderMathInElement(el, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\(', right: '\\)', display: false},
+                    {left: '\\[', right: '\\]', display: true}
+                ],
+                throwOnError: false
+            });
         });
     }
 }

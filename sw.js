@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v30';
+const CACHE_NAME = 'lumen-v31';
 
 // App shell files — these are precached on install and served cache-first
 const APP_SHELL = [
@@ -105,51 +105,62 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     const requestUrl = event.request.url;
 
-    // Strategy 1: DATA JSON FILES — Network-first, fall back to cache
+    // Strategy 1: DATA JSON FILES — Cache-first (stale-while-revalidate)
+    // Serve instantly from cache if available, then refresh cache in background.
+    // Falls back to network if not cached. This makes repeat CQ visits instant.
     if (isDataRequest(requestUrl)) {
         const cleanUrl = stripQuery(requestUrl);
+
+        // Offline placeholder helper
+        function offlinePlaceholder(url) {
+            if (url.endsWith('meta.json')) {
+                return new Response(JSON.stringify({}), {
+                    headers: { 'Content-Type': 'application/json' }
+                });
+            }
+            return new Response(JSON.stringify([{
+                id: "offline_fallback",
+                subject: "Offline Mode",
+                chapter: "No Data Available",
+                board: "Offline",
+                year: "—",
+                question: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়টি আগে ডাউনলোড হয়নি। ইন্টারনেট সংযোগ দিন এবং পুনরায় লোড করুন।",
+                options: ["ঠিক আছে"],
+                answer: "ঠিক আছে",
+                explanation: "একবার ইন্টারনেটে সংযুক্ত থাকাকালীন একটি অধ্যায় খুললে, এটি স্বয়ংক্রিয়ভাবে অফলাইন ব্যবহারের জন্য সংরক্ষিত হবে।",
+                context: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়/বোর্ডটি আগে এই ডিভাইসে লোড করা হয়নি। প্রশ্নগুলো ডাউনলোড করতে ইন্টারনেটে সংযুক্ত হন।",
+                questions: [
+                    { type: 'a', question: "কী করবেন?", answer: "ইন্টারনেটে সংযুক্ত হন এবং প্রশ্নগুলো ডাউনলোড করতে এই পৃষ্ঠাটি পুনরায় লোড করুন।" }
+                ]
+            }]), {
+                headers: { 'Content-Type': 'application/json' }
+            });
+        }
+
         event.respondWith(
-            fetch(event.request)
-                .then(networkResponse => {
-                    if (networkResponse.ok) {
-                        const clone = networkResponse.clone();
-                        caches.open(CACHE_NAME).then(cache => {
-                            cache.put(cleanUrl, clone);
-                        });
+            caches.open(CACHE_NAME).then(cache => {
+                return cache.match(cleanUrl).then(cached => {
+                    // Background revalidation — always refresh the cache silently
+                    const networkFetch = fetch(event.request)
+                        .then(networkResponse => {
+                            if (networkResponse.ok) {
+                                cache.put(cleanUrl, networkResponse.clone());
+                            }
+                            return networkResponse;
+                        })
+                        .catch(() => null);
+
+                    if (cached) {
+                        // Serve immediately from cache (instant!), update in background
+                        return cached;
                     }
-                    return networkResponse;
-                })
-                .catch(() => {
-                    // Network failed — try cache with clean URL
-                    return caches.match(cleanUrl).then(cached => {
-                        if (cached) return cached;
-
-                        // No cache either — return offline placeholder JSON
-                        if (cleanUrl.endsWith('meta.json')) {
-                            return new Response(JSON.stringify({}), {
-                                headers: { 'Content-Type': 'application/json' }
-                            });
-                        }
-
-                        return new Response(JSON.stringify([{
-                            id: "offline_fallback",
-                            subject: "Offline Mode",
-                            chapter: "No Data Available",
-                            board: "Offline",
-                            year: "—",
-                            question: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়টি আগে ডাউনলোড হয়নি। ইন্টারনেট সংযোগ দিন এবং পুনরায় লোড করুন।",
-                            options: ["ঠিক আছে"],
-                            answer: "ঠিক আছে",
-                            explanation: "একবার ইন্টারনেটে সংযুক্ত থাকাকালীন একটি অধ্যায় খুললে, এটি স্বয়ংক্রিয়ভাবে অফলাইন ব্যবহারের জন্য সংরক্ষিত হবে।",
-                            context: "আপনি বর্তমানে অফলাইনে আছেন। এই অধ্যায়/বোর্ডটি আগে এই ডিভাইসে লোড করা হয়নি। প্রশ্নগুলো ডাউনলোড করতে ইন্টারনেটে সংযুক্ত হন।",
-                            questions: [
-                                { type: 'a', question: "কী করবেন?", answer: "ইন্টারনেটে সংযুক্ত হন এবং প্রশ্নগুলো ডাউনলোড করতে এই পৃষ্ঠাটি পুনরায় লোড করুন।" }
-                            ]
-                        }]), {
-                            headers: { 'Content-Type': 'application/json' }
-                        });
+                    // Not cached yet — wait for network
+                    return networkFetch.then(resp => {
+                        if (resp) return resp;
+                        return offlinePlaceholder(cleanUrl);
                     });
-                })
+                });
+            })
         );
         return;
     }
