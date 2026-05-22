@@ -1602,14 +1602,14 @@ input:checked + .slider:before {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 18px;
-    padding-left: 40px;
+    padding-left: 0;
 }
 
 .cq-subquestions-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-left: 40px;
+    padding-left: 0;
 }
 
 .cq-subquestion-item {
@@ -1680,7 +1680,7 @@ input:checked + .slider:before {
     align-items: center;
     gap: 8px;
     transition: all 0.2s ease;
-    margin-left: 38px;
+    margin-left: 0;
 }
 
 .cq-reveal-btn:hover {
@@ -1700,7 +1700,7 @@ input:checked + .slider:before {
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    margin-left: 38px;
+    margin-left: 0;
 }
 
 .cq-answer-panel.show {
