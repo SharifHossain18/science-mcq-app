@@ -75,7 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Back Button click
     document.getElementById('back-btn').addEventListener('click', () => {
-        window.location.href = 'subjects.html';
+        // Clear any leaf selections and go back to submode page
+        clearSelections();
+        window.location.href = 'submode.html';
     });
 
     // Sidebar navigation mode links
@@ -83,14 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         localStorage.setItem('practiceMode', 'chapter');
         clearSelections();
-        window.location.href = 'subjects.html';
+        window.location.href = 'submode.html';
     });
 
     document.getElementById('side-board').addEventListener('click', (e) => {
         e.preventDefault();
         localStorage.setItem('practiceMode', 'board');
         clearSelections();
-        window.location.href = 'subjects.html';
+        window.location.href = 'submode.html';
     });
 
     // Mobile Sidebar Drawer Toggles

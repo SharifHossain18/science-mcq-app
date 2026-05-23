@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v31';
+const CACHE_NAME = 'lumen-v36';
 
 // App shell files — these are precached on install and served cache-first
 const APP_SHELL = [
@@ -190,26 +190,38 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // Strategy 3: APP SHELL & OTHER — Cache-first, fallback to network
+    // Strategy 3: APP SHELL & OTHER — Stale-While-Revalidate
+    // Serve instantly from cache if available, then refresh cache in background.
     const cleanUrl = stripQuery(requestUrl);
     event.respondWith(
-        caches.match(cleanUrl).then(cached => {
-            if (cached) return cached;
-            // Also try matching the original request (for navigation requests)
-            return caches.match(event.request).then(cached2 => {
-                if (cached2) return cached2;
-                return fetch(event.request).then(resp => {
-                    if (resp.ok && event.request.method === 'GET') {
-                        const clone = resp.clone();
-                        caches.open(CACHE_NAME).then(cache => cache.put(cleanUrl, clone));
-                    }
-                    return resp;
-                }).catch(() => {
-                    // If it's a navigation request (HTML page), serve the cached index
-                    if (event.request.mode === 'navigate') {
-                        return caches.match('./index.html');
-                    }
-                    return new Response('Offline', { status: 503 });
+        caches.open(CACHE_NAME).then(cache => {
+            return cache.match(cleanUrl).then(cached => {
+                // Background revalidation — always update cache from server
+                const networkFetch = fetch(event.request)
+                    .then(networkResponse => {
+                        if (networkResponse.ok && event.request.method === 'GET') {
+                            cache.put(cleanUrl, networkResponse.clone());
+                        }
+                        return networkResponse;
+                    })
+                    .catch(() => null);
+
+                if (cached) {
+                    // Serve immediately from cache, update in background
+                    return cached;
+                }
+                // Not in cache, wait for network
+                return networkFetch.then(resp => {
+                    if (resp) return resp;
+                    // Secondary check for original request
+                    return cache.match(event.request).then(cached2 => {
+                        if (cached2) return cached2;
+                        // Offline navigation fallback
+                        if (event.request.mode === 'navigate') {
+                            return cache.match('./index.html');
+                        }
+                        return new Response('Offline', { status: 503 });
+                    });
                 });
             });
         })

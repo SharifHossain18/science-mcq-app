@@ -295,7 +295,6 @@ function renderCQs() {
         let subQuestionsHtml = '';
         (cq.questions || []).forEach((sub, subIdx) => {
             const letterLabel = subQuestionLabels[sub.type] || sub.type.toUpperCase();
-            const marksLabel = subQuestionMarks[sub.type] || '১';
             const answerKey = `ans_${globalIdx}_${subIdx}`;
 
             // Store answer content in memory — not in DOM
@@ -306,12 +305,10 @@ function renderCQs() {
                     <div class="cq-sub-header">
                         <div class="cq-sub-letter-badge">${letterLabel}</div>
                         <div class="cq-sub-text">${sub.question}</div>
-                        <div class="cq-sub-marks">মান: ${marksLabel}</div>
+                        <button class="cq-reveal-btn" title="উত্তর দেখুন">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
                     </div>
-                    <button class="cq-reveal-btn">
-                        <i class="fa-solid fa-chevron-down"></i>
-                        <span>উত্তর দেখুন (Show Solution)</span>
-                    </button>
                     <div class="cq-answer-panel">
                         <div class="cq-answer-inner">
                             <div class="cq-answer-badge">সমাধান (Solution)</div>
@@ -372,7 +369,6 @@ function renderCQs() {
             const answerPanel = item.querySelector('.cq-answer-panel');
             const answerContentEl = item.querySelector('.cq-answer-content');
             const icon = currentBtn.querySelector('i');
-            const spanText = currentBtn.querySelector('span');
 
             item.classList.toggle('active');
             answerPanel.classList.toggle('show');
@@ -398,14 +394,12 @@ function renderCQs() {
                     }
                 }
                 icon.className = 'fa-solid fa-chevron-up';
-                spanText.textContent = 'উত্তর বন্ধ করুন (Hide Solution)';
                 // Compute height after content is injected
                 const inner = answerPanel.querySelector('.cq-answer-inner');
                 answerPanel.style.maxHeight = inner.scrollHeight + 'px';
                 answerPanel.style.opacity = '1';
             } else {
                 icon.className = 'fa-solid fa-chevron-down';
-                spanText.textContent = 'উত্তর দেখুন (Show Solution)';
                 answerPanel.style.maxHeight = '0px';
                 answerPanel.style.opacity = '0';
             }

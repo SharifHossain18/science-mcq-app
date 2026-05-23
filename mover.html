@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Mover (প্রশ্ন স্থানান্তরের প্যানেল)</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --primary-hover: #7c3aed;
+            --bg-main: #0f172a;
+            --bg-card: #1e293b;
+            --border: #334155;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --success: #10b981;
+            --danger: #ef4444;
+            --font-main: 'Outfit', sans-serif;
+            --font-bn: 'Hind Siliguri', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 24px;
+            text-align: center;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-family: var(--font-bn);
+            font-size: 1.1rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        @media (max-width: 968px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .panel h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            font-family: var(--font-bn);
+        }
+
+        select, input[type="text"] {
+            background-color: var(--bg-main);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            color: var(--text-main);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s;
+            width: 100%;
+        }
+
+        select:focus, input[type="text"]:focus {
+            border-color: var(--primary);
+        }
+
+        /* Radio Group styles */
+        .radio-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            background: var(--bg-main);
+            padding: 6px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+
+        .radio-option {
+            position: relative;
+        }
+
+        .radio-option input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .radio-label {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+            background: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .radio-option input[type="radio"]:checked + .radio-label {
+            background-color: var(--primary);
+            color: #fff;
+        }
+
+        /* Question list scrollbox */
+        .list-container {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background-color: var(--bg-main);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .list-item {
+            padding: 16px;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: var(--font-bn);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            position: relative;
+        }
+
+        .list-item:last-child {
+            border-bottom: none;
+        }
+
+        .list-item:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .list-item.selected {
+            background-color: rgba(139, 92, 246, 0.2);
+            border-left: 4px solid var(--primary);
+        }
+
+        .item-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+            font-family: var(--font-main);
+        }
+
+        .empty-state {
+            padding: 40px 16px;
+            text-align: center;
+            color: var(--text-muted);
+            font-family: var(--font-bn);
+        }
+
+        /* Action Panel */
+        .action-btn {
+            background-color: var(--primary);
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            padding: 14px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-bn);
+        }
+
+        .action-btn:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .action-btn:active {
+            transform: scale(0.98);
+        }
+
+        .action-btn:disabled {
+            background-color: var(--border);
+            color: var(--text-muted);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Toast notifications */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background-color: var(--success);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            z-index: 1000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-family: var(--font-bn);
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast.error {
+            background-color: var(--danger);
+        }
+
+        /* Spinner */
+        .spinner {
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border-left-color: var(--primary);
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+
+        .search-box input {
+            padding-left: 36px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-arrows-spin"></i> Question Mover (প্রশ্ন স্থানান্তরের প্যানেল)</h1>
+        <p>যেকোনো অধ্যায় বা বোর্ড থেকে প্রশ্ন অন্য অধ্যায় বা বোর্ডে স্থানান্তরিত করুন</p>
+    </header>
+
+    <div class="container">
+        <!-- Source Selection -->
+        <div class="panel">
+            <h2><i class="fa-solid fa-right-from-bracket"></i> Source (উৎস)</h2>
+            
+            <div class="form-group">
+                <label>প্রশ্ন টাইপ (Question Type)</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="type-mcq" name="qtype" value="mcq" checked>
+                        <label class="radio-label" for="type-mcq"><i class="fa-solid fa-list-check"></i> MCQ</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="type-cq" name="qtype" value="cq">
+                        <label class="radio-label" for="type-cq"><i class="fa-solid fa-pen-nib"></i> CQ</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>বিষয় নির্বাচন করুন (Subject)</label>
+                <select id="src-subject"></select>
+            </div>
+
+            <div id="src-chapter-group" class="form-group">
+                <label>উৎস অধ্যায় (Source Chapter)</label>
+                <select id="src-chapter"></select>
+            </div>
+
+            <div id="src-board-group" class="form-group" style="display: none;">
+                <label>উৎস বোর্ড ও বছর (Source Board & Year)</label>
+                <select id="src-board-year"></select>
+            </div>
+        </div>
+
+        <!-- Question List -->
+        <div class="panel">
+            <h2><i class="fa-solid fa-database"></i> Question Queue (প্রশ্ন তালিকা)</h2>
+            
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-input" placeholder="প্রশ্ন খুঁজুন (প্রশ্ন বা ব্যাখ্যা দিয়ে)...">
+            </div>
+
+            <div class="list-container" id="question-list">
+                <div class="empty-state">উৎস নির্বাচন করলেই প্রশ্ন তালিকা লোড হবে।</div>
+            </div>
+        </div>
+
+        <!-- Destination Selection & Action -->
+        <div class="panel">
+            <h2><i class="fa-solid fa-right-to-bracket"></i> Destination (গন্তব্য)</h2>
+            
+            <div class="form-group">
+                <label>বিষয় নির্বাচন করুন (Subject)</label>
+                <select id="dst-subject"></select>
+            </div>
+
+            <div id="dst-chapter-group" class="form-group">
+                <label>গন্তব্য অধ্যায় (Destination Chapter)</label>
+                <select id="dst-chapter"></select>
+            </div>
+
+            <div id="dst-board-group" class="form-group" style="display: none;">
+                <label>গন্তব্য বোর্ড ও বছর (Destination Board & Year)</label>
+                <select id="dst-board-year"></select>
+            </div>
+
+            <button id="move-btn" class="action-btn" disabled>
+                <i class="fa-solid fa-paper-plane"></i> স্থানান্তর করুন (Move Question)
+            </button>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toast-text">কার্য সম্পন্ন হয়েছে!</span>
+    </div>
+
+    <!-- Math rendering helper -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script src="mover.js"></script>
+</body>
+</html>
