@@ -489,3 +489,86 @@ function renderBreadcrumbs() {
         }
     }
 }
+
+// Download entire subject for offline caching
+async function downloadSubjectOffline(subject, btn) {
+    if (!metaData || !metaData[subject]) {
+        alert("ডাটাবেজ মেটাডাটা লোড হচ্ছে, অনুগ্রহ করে একটু অপেক্ষা করুন...");
+        return;
+    }
+
+    const cleanSubject = subject.replace(/\s+/g, '_');
+    const urlsToCache = [];
+
+    // 1. Gather all MCQ chapters JSON
+    const chapters = metaData[subject].chapters || [];
+    chapters.forEach(ch => {
+        urlsToCache.push(`data/chapters/${cleanSubject}_${ch.id}.json`);
+    });
+
+    // 2. Gather all MCQ boards JSON
+    const boards = metaData[subject].boards || {};
+    Object.keys(boards).forEach(year => {
+        boards[year].forEach(board => {
+            const cleanBoard = board.replace(/\s+/g, '_');
+            urlsToCache.push(`data/boards/${cleanSubject}_${year}_${cleanBoard}.json`);
+        });
+    });
+
+    // 3. Gather all CQ chapters JSON
+    chapters.forEach(ch => {
+        urlsToCache.push(`data/cq/chapters/${cleanSubject}_${ch.id}.json`);
+    });
+
+    // 4. Gather all CQ boards JSON
+    Object.keys(boards).forEach(year => {
+        boards[year].forEach((board, idx) => {
+            const boardId = idx + 1; // 1-based index
+            urlsToCache.push(`data/cq/boards/${cleanSubject}_${year}_${boardId}.json`);
+        });
+    });
+
+    // Change button state to downloading spinner
+    btn.disabled = true;
+    const originalHtml = btn.innerHTML;
+    btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i>`;
+    btn.title = "ডাউনলোড হচ্ছে...";
+
+    try {
+        // Open service worker cache (matches CACHE_NAME 'lumen-v36' in sw.js)
+        const cache = await caches.open('lumen-v36');
+        
+        let successCount = 0;
+        let failCount = 0;
+
+        // Download and cache each file in sequence
+        for (const url of urlsToCache) {
+            try {
+                const response = await fetch(url + '?t=' + Date.now());
+                if (response.ok) {
+                    await cache.put(url, response);
+                    successCount++;
+                } else {
+                    failCount++;
+                }
+            } catch (e) {
+                failCount++;
+            }
+        }
+
+        if (successCount > 0) {
+            btn.innerHTML = `<i class="fa-solid fa-cloud-arrow-down" style="color: #10b981;"></i>`;
+            btn.title = "অফলাইনে সংরক্ষিত!";
+            alert(`"${subject}"-এর মোট ${successCount}টি অধ্যায় ও বোর্ডের প্রশ্ন সফলভাবে অফলাইনে ব্যবহারের জন্য ডাউনলোড হয়েছে!`);
+        } else {
+            btn.innerHTML = originalHtml;
+            btn.disabled = false;
+            alert("দুঃখিত, কোনো ফাইল ডাউনলোড করা সম্ভব হয়নি। ইন্টারনেট কানেকশন চেক করুন।");
+        }
+    } catch (err) {
+        console.error(err);
+        btn.innerHTML = originalHtml;
+        btn.disabled = false;
+        alert("ডাউনলোড করতে ত্রুটি হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।");
+    }
+}
