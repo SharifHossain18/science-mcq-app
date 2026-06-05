@@ -64,11 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     showAnswerSwitch.addEventListener('change', (e) => { state.showAnswers = e.target.checked; applyShowAnswersToggle(); });
 
     document.getElementById('pdf-btn').addEventListener('click', generatePDF);
-
-    if (localStorage.getItem('autoGeneratePDF') === 'true') {
-        localStorage.removeItem('autoGeneratePDF');
-        setTimeout(() => generatePDF(), 800);
-    }
 });
 
 function showSkeletons() {
