@@ -193,10 +193,31 @@ function renderChapterList() {
                 <span class="subj-chapter-name">${chapterName}</span>
             </div>
             <div class="subj-chapter-item-right">
+                <button class="subj-pdf-btn" title="PDF প্রশ্নপত্র তৈরি করুন"><i class="fa-solid fa-file-pdf"></i></button>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>`;
+
+        const pdfBtn = item.querySelector('.subj-pdf-btn');
+        pdfBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            localStorage.setItem('selectedSubject', subject);
+            localStorage.setItem('selectedChapter', ch.name);
+            localStorage.setItem('selectedChapterId', ch.id);
+            localStorage.removeItem('selectedYear');
+            localStorage.removeItem('selectedBoard');
+            localStorage.setItem('autoGeneratePDF', 'true');
+            if (selectedMode === 'cq') {
+                localStorage.setItem('practiceMode', 'cq');
+                localStorage.setItem('cqSubMode', 'chapter');
+                window.location.href = 'cq.html';
+            } else {
+                localStorage.setItem('practiceMode', 'chapter');
+                localStorage.removeItem('cqSubMode');
+                window.location.href = 'mcq.html';
+            }
+        });
+
         item.addEventListener('click', () => {
-            // Go directly to MCQ or CQ using selected mode
             localStorage.setItem('selectedSubject', subject);
             localStorage.setItem('selectedChapter', ch.name);
             localStorage.setItem('selectedChapterId', ch.id);

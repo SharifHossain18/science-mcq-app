@@ -2873,6 +2873,13 @@ input:checked + .slider:before {
     text-overflow: ellipsis;
 }
 .subj-chapter-item-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+.subj-chapter-item-right > i {
     width: 28px; height: 28px;
     border-radius: 50%;
     background: #eff6ff;
@@ -2881,13 +2888,23 @@ input:checked + .slider:before {
     align-items: center;
     justify-content: center;
     font-size: 0.75rem;
-    flex-shrink: 0;
-    margin-left: 12px;
     transition: all 0.2s;
 }
-.subj-chapter-item:hover .subj-chapter-item-right {
+.subj-chapter-item:hover .subj-chapter-item-right > i {
     background: var(--primary-blue);
     color: #ffffff;
+}
+.subj-pdf-btn {
+    width: 32px; height: 32px;
+    border-radius: 50%; border: none;
+    background: #fef2f2; color: #dc2626;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; cursor: pointer;
+    transition: all 0.2s; flex-shrink: 0;
+}
+.subj-pdf-btn:hover {
+    background: #dc2626; color: #fff;
+    transform: scale(1.1);
 }
 
 /* Mobile adjustments */

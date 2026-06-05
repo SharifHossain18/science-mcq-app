@@ -170,6 +170,11 @@ document.addEventListener('DOMContentLoaded', () => {
     UTILS.initMobileMenu();
 
     document.getElementById('cq-pdf-btn').addEventListener('click', generateCQPDF);
+
+    if (localStorage.getItem('autoGeneratePDF') === 'true') {
+        localStorage.removeItem('autoGeneratePDF');
+        setTimeout(() => generateCQPDF(), 800);
+    }
 });
 
 function renderBreadcrumbs() {
