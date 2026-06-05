@@ -211,16 +211,11 @@ function renderMCQs(questions) {
             <div class="gen-q-text">${q.question}</div>
             <div class="gen-q-options">
                 ${['ক', 'খ', 'গ', 'ঘ'].map((label, oi) => `
-                    <div class="gen-opt ${q.options[oi] === q.answer ? 'gen-opt-correct' : ''}">
+                    <div class="gen-opt">
                         <span class="gen-opt-label">${label}</span>
                         <span class="gen-opt-text">${q.options[oi]}</span>
-                        ${q.options[oi] === q.answer ? '<i class="fa-solid fa-check gen-opt-check"></i>' : ''}
                     </div>
                 `).join('')}
-            </div>
-            <div class="gen-q-explanation">
-                <strong><i class="fa-solid fa-circle-info"></i> ব্যাখ্যা:</strong>
-                <div>${q.explanation || 'কোনো ব্যাখ্যা নেই।'}</div>
             </div>
         `;
 
@@ -265,9 +260,6 @@ function renderCQs(questions) {
                         <div class="gen-cq-sub-q">
                             <span class="gen-cq-sub-label">${subLabels[sub.type] || sub.type}.</span>
                             <span>${sub.question}</span>
-                        </div>
-                        <div class="gen-cq-sub-a">
-                            <strong>উত্তর:</strong> ${sub.answer || '—'}
                         </div>
                     </div>
                 `).join('')}
