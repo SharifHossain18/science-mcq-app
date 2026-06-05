@@ -35,7 +35,7 @@ async function checkAndMarkSavedSubjects() {
     if (!('caches' in window)) return; // Cache API not available
     const cards = document.querySelectorAll('.subject-card');
     try {
-        const cache = await caches.open('lumen-v44');
+        const cache = await caches.open('lumen-v45');
         for (const card of cards) {
             const subject = card.getAttribute('data-subject');
             if (!subject) continue;
@@ -611,8 +611,8 @@ async function downloadSubjectOffline(subject, btn) {
     const bar = btn.querySelector('.progress-ring-bar');
 
     try {
-        // Open service worker cache (matches CACHE_NAME 'lumen-v44' in sw.js)
-        const cache = await caches.open('lumen-v44');
+        // Open service worker cache (matches CACHE_NAME 'lumen-v45' in sw.js)
+        const cache = await caches.open('lumen-v45');
         
         let successCount = 0;
         let failCount = 0;

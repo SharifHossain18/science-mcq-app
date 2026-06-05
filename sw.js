@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v44';
+const CACHE_NAME = 'lumen-v45';
 
 // App shell files — these are precached on install and served cache-first
 const APP_SHELL = [

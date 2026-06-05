@@ -241,7 +241,7 @@ async function checkAndMarkSavedSubject(subject) {
     const btn = document.getElementById('subj-hub-download');
     if (!btn) return;
     try {
-        const cache = await caches.open('lumen-v44');
+        const cache = await caches.open('lumen-v45');
         const cleanSubject = subject.replace(/\s+/g, '_');
         const url = `data/chapters/${cleanSubject}_ch_2.json`;
         const match = await cache.match(url);
@@ -326,7 +326,7 @@ async function downloadSubjectOffline(subject, btn) {
     const bar = btn.querySelector('.progress-ring-bar');
 
     try {
-        const cache = await caches.open('lumen-v44');
+        const cache = await caches.open('lumen-v45');
 
         let successCount = 0;
         let failCount = 0;
