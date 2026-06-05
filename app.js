@@ -1,80 +1,60 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-    // 1. Home Subject Card Click Handler → Go to subject hub page
     document.querySelectorAll('.home-subject-card').forEach(card => {
         card.addEventListener('click', () => {
             const subject = card.getAttribute('data-subject');
-            // Save the selected subject and clear old state
             localStorage.setItem('selectedSubject', subject);
             localStorage.removeItem('selectedChapter');
             localStorage.removeItem('selectedChapterId');
             localStorage.removeItem('selectedYear');
             localStorage.removeItem('selectedBoard');
             localStorage.removeItem('cqSubMode');
-
-            // Keep practiceMode and boardSelectMode if they were set by sidebar
-            if (!localStorage.getItem('boardSelectMode')) {
-                localStorage.setItem('boardSelectMode', 'mcq');
-            }
-            if (!localStorage.getItem('practiceMode')) {
-                localStorage.setItem('practiceMode', 'chapter');
-            }
-
+            if (!localStorage.getItem('boardSelectMode')) localStorage.setItem('boardSelectMode', 'mcq');
+            if (!localStorage.getItem('practiceMode')) localStorage.setItem('practiceMode', 'chapter');
             window.location.href = 'subject.html';
         });
     });
 
-    // 2. Sidebar Navigation Links
-    const sideChapter = document.getElementById('side-chapter');
-    if (sideChapter) {
-        sideChapter.addEventListener('click', (e) => {
+    UTILS.initMobileMenu();
+    initDarkMode();
+
+    document.querySelectorAll('.sidebar-nav-item').forEach(item => {
+        item.addEventListener('click', (e) => {
+            const href = item.getAttribute('href');
+            if (href && href !== '#') return;
             e.preventDefault();
-            localStorage.setItem('practiceMode', 'chapter');
-            localStorage.setItem('boardSelectMode', 'mcq');
-            localStorage.removeItem('selectedSubject');
-            alert('অনুগ্রহ করে নিচে থেকে একটি বিষয় নির্বাচন করুন।');
-        });
-    }
-
-    const sideBoard = document.getElementById('side-board');
-    if (sideBoard) {
-        sideBoard.addEventListener('click', (e) => {
-            e.preventDefault();
-            localStorage.setItem('practiceMode', 'board');
-            localStorage.setItem('boardSelectMode', 'mcq');
-            localStorage.removeItem('selectedSubject');
-            alert('অনুগ্রহ করে নিচে থেকে একটি বিষয় নির্বাচন করুন।');
-        });
-    }
-
-    const sideCq = document.getElementById('side-cq');
-    if (sideCq) {
-        sideCq.addEventListener('click', (e) => {
-            e.preventDefault();
-            localStorage.setItem('practiceMode', 'cq');
-            localStorage.setItem('boardSelectMode', 'cq');
-            localStorage.removeItem('selectedSubject');
-            alert('অনুগ্রহ করে নিচে থেকে একটি বিষয় নির্বাচন করুন।');
-        });
-    }
-
-    // 3. Mobile Sidebar Hamburger Menu Toggle
-    const sidebar = document.getElementById('sidebar');
-    const menuToggle = document.getElementById('menu-toggle');
-    if (menuToggle && sidebar) {
-        menuToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
-        });
-    }
-
-    // Close sidebar when clicking main-workspace area on mobile
-    document.querySelector('.main-workspace').addEventListener('click', (e) => {
-        if (!e.target.closest('#menu-toggle') && !e.target.closest('#sidebar')) {
-            if (sidebar && sidebar.classList.contains('open')) {
-                sidebar.classList.remove('open');
+            UTILS.closeSidebar();
+            const id = item.id;
+            if (id === 'side-chapter' || id === 'side-board' || id === 'side-cq') {
+                const isCq = id === 'side-cq';
+                localStorage.setItem('practiceMode', isCq ? 'cq' : (id === 'side-chapter' ? 'chapter' : 'board'));
+                localStorage.setItem('boardSelectMode', isCq ? 'cq' : 'mcq');
+                if (isCq) localStorage.removeItem('cqSubMode');
+                localStorage.removeItem('selectedSubject');
+                UTILS.showToast('নিচে থেকে একটি বিষয় নির্বাচন করুন।', 'info');
             }
-        }
+        });
     });
 });
 
-// Service Worker registration is handled via sw-register.js globally
+function initDarkMode() {
+    const saved = localStorage.getItem('lumenDarkMode');
+    if (saved === 'true') document.documentElement.setAttribute('data-theme', 'dark');
+
+    document.querySelectorAll('.theme-toggle').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            if (isDark) {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('lumenDarkMode', 'false');
+                btn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            } else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('lumenDarkMode', 'true');
+                btn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            }
+        });
+        if (localStorage.getItem('lumenDarkMode') === 'true') {
+            btn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+        }
+    });
+}

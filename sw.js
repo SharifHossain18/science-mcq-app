@@ -24,7 +24,8 @@ const APP_SHELL = [
     './app-icon.jpeg',
     './icon-192.png',
     './icon-512.png',
-    './data/meta.json'
+    './data/meta.json',
+    './utils.js'
 ];
 
 // External CDN resources to try to precache (non-blocking if they fail)
@@ -102,6 +103,12 @@ self.addEventListener('activate', event => {
                     .map(name => caches.delete(name))
             );
         }).then(() => self.clients.claim())
+            .then(() => {
+                // Notify all clients that a new version is ready
+                self.clients.matchAll().then(clients => {
+                    clients.forEach(client => client.postMessage({ type: 'SW_UPDATED' }));
+                });
+            })
     );
 });
 

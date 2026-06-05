@@ -22,19 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Set active sidebar item highlights
-    updateSidebarActiveItem();
+    UTILS.updateSidebarActive('cq');
 
-    // Render breadcrumbs pathway
     renderBreadcrumbs();
 
-    // Fetch the specific split Creative Questions file instead of the 265MB master database
     const container = document.getElementById('cq-container');
-    container.innerHTML = `
-        <div class="loading-state">
-            <div class="spinner"></div>
-            <p>Loading Creative Questions...</p>
-        </div>
+    showSkeletons();
+
+    // Search + pagination header
+    const headerHtml = `
+        <input class="quiz-search" id="cq-search" type="text" placeholder="🔍 সৃজনশীল প্রশ্ন সার্চ করুন..." autocomplete="off">
+        <div id="cq-list"></div>
+        <div class="cq-pagination-wrapper" id="cq-pagination"></div>
     `;
 
     let fetchPromise;
@@ -97,12 +96,12 @@ document.addEventListener('DOMContentLoaded', () => {
             renderCQs();
         })
         .catch(err => {
-            console.error("Error loading creative questions database:", err);
+            console.error("Error:", err);
             container.innerHTML = `
                 <div class="loading-state">
                     <i class="fa-solid fa-circle-exclamation" style="font-size: 2.5rem; color: #ef4444; margin-bottom: 15px;"></i>
-                    <p>সৃজনশীল প্রশ্ন ডাটাবেজ লোড করা যাচ্ছে না।</p>
-                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 5px;">Error: ${err.message}</p>
+                    <p style="font-weight:600;">দুঃখিত! প্রশ্ন লোড করতে ব্যর্থ।</p>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">ইন্টারনেট কানেকশন চেক করে আবার চেষ্টা করুন।</p>
                 </div>
             `;
         });
@@ -168,32 +167,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Mobile Sidebar Drawer Toggles
-    const sidebar = document.getElementById('sidebar');
-    const menuToggle = document.getElementById('menu-toggle');
-    if (menuToggle && sidebar) {
-        menuToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
-        });
-    }
-
-    // Close mobile drawer when clicking main workspace pane
-    document.querySelector('.main-workspace').addEventListener('click', (e) => {
-        if (!e.target.closest('#menu-toggle') && !e.target.closest('#sidebar')) {
-            if (sidebar.classList.contains('open')) {
-                sidebar.classList.remove('open');
-            }
-        }
-    });
+    UTILS.initMobileMenu();
 });
 
-function clearSelections() {
-    localStorage.removeItem('selectedSubject');
-    localStorage.removeItem('selectedChapter');
-    localStorage.removeItem('selectedChapterId');
-    localStorage.removeItem('selectedYear');
-    localStorage.removeItem('selectedBoard');
-    localStorage.removeItem('cqSubMode');
+function renderBreadcrumbs() {
+    const items = [
+        { label: 'Home', onClick: () => window.location.href = 'index.html' },
+        { label: state.subject, onClick: () => { localStorage.removeItem('selectedChapter'); localStorage.removeItem('selectedChapterId'); localStorage.removeItem('selectedYear'); localStorage.removeItem('selectedBoard'); window.location.href = 'subject.html'; } }
+    ];
+    if (state.cqSubMode === 'board') items.push({ label: 'বোর্ড প্রশ্ন', onClick: () => window.location.href = 'board-select.html' });
+    items.push({ label: 'CQ', active: true });
+    UTILS.renderBreadcrumbs(items);
+}
+
+function showSkeletons() {
+    const container = document.getElementById('cq-container');
+    let html = '';
+    for (let i = 0; i < 3; i++) {
+        html += `<div class="skeleton-card"><div class="skeleton-line wide"></div><div class="skeleton-line narrow"></div><div class="skeleton-line wide" style="height:60px;"></div></div>`;
+    }
+    container.innerHTML = html;
 }
 
 function updateSidebarActiveItem() {
@@ -322,12 +315,15 @@ function normalizeQuestionHtml(rawHtml) {
 }
 
 // Filter and render Creative Questions
+let searchFilter = '';
+
 function renderCQs() {
     const container = document.getElementById('cq-container');
-    
-    // Clean subject name mappings
+    const cqTitleEl = document.getElementById('cq-view-title');
+    if (state.cqSubMode === 'chapter') cqTitleEl.textContent = state.chapter;
+    else cqTitleEl.textContent = `${state.board} Board - ${state.year}`;
+
     let subjectMatch = state.subject;
-    // Map Higher Math to Match scraped title
     if (state.subject === 'Math 1st Paper') subjectMatch = 'Math 1st Paper';
     if (state.subject === 'Math 2nd Paper') subjectMatch = 'Math 2nd Paper';
 
@@ -339,18 +335,27 @@ function renderCQs() {
         filteredCQs = filteredCQs.filter(q => String(q.year) === state.year && q.board === (state.boardId || state.board));
     }
 
+    // Apply search filter
+    if (searchFilter) {
+        const q = searchFilter.toLowerCase();
+        filteredCQs = filteredCQs.filter(cq => {
+            const searchStr = (cq.context + ' ' + (cq.chapter || '') + ' ' + (cq.questions || []).map(sq => sq.question + ' ' + (sq.answer || '')).join(' ')).toLowerCase();
+            return searchStr.includes(q);
+        });
+    }
+
+    container.innerHTML = `<input class="quiz-search" id="cq-search" type="text" placeholder="🔍 সৃজনশীল প্রশ্ন সার্চ করুন..." value="${searchFilter}" autocomplete="off"><div id="cq-list"></div><div class="cq-pagination-wrapper" id="cq-pagination"></div>`;
+
+    // Wire up search
+    document.getElementById('cq-search').addEventListener('input', (e) => { searchFilter = e.target.value; currentPage = 1; renderCQs(); });
+
+    const listEl = document.getElementById('cq-list');
+
     if (filteredCQs.length === 0) {
-        container.innerHTML = `
-            <div class="loading-state">
-                <i class="fa-regular fa-face-frown" style="font-size: 2.5rem; color: var(--text-muted); margin-bottom: 15px;"></i>
-                <p>কোনো সৃজনশীল প্রশ্ন পাওয়া যায়নি।</p>
-                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 5px;">দুঃখিত, এই ক্যাটাগরিতে কোনো সৃজনশীল প্রশ্ন আপলোড করা হয়নি।</p>
-            </div>
-        `;
+        listEl.innerHTML = `<div class="loading-state"><i class="fa-regular fa-face-frown" style="font-size:2.5rem;color:var(--text-muted);margin-bottom:15px;"></i><p>${searchFilter ? 'সার্চে কোনো প্রশ্ন পাওয়া যায়নি।' : 'কোনো সৃজনশীল প্রশ্ন পাওয়া যায়নি।'}</p></div>`;
         return;
     }
 
-    // Pagination logic
     const totalCQs = filteredCQs.length;
     const totalPages = Math.ceil(totalCQs / pageSize);
     if (currentPage > totalPages) currentPage = totalPages;
@@ -359,16 +364,6 @@ function renderCQs() {
     const startIndex = (currentPage - 1) * pageSize;
     const endIndex = Math.min(startIndex + pageSize, totalCQs);
     const pagedCQs = filteredCQs.slice(startIndex, endIndex);
-
-    container.innerHTML = '';
-
-    // Update CQ Title at header
-    const cqTitleEl = document.getElementById('cq-view-title');
-    if (state.cqSubMode === 'chapter') {
-        cqTitleEl.textContent = state.chapter;
-    } else {
-        cqTitleEl.textContent = `${state.board} Board - ${state.year}`;
-    }
 
     const subQuestionLabels = { 'a': 'ক', 'b': 'খ', 'c': 'গ', 'd': 'ঘ' };
     const subQuestionMarks = { 'a': '১', 'b': '২', 'c': '৩', 'd': '৪' };
@@ -453,10 +448,10 @@ function renderCQs() {
         fragment.appendChild(card);
     });
 
-    container.appendChild(fragment);
+    listEl.appendChild(fragment);
 
     // Bind reveal button click handlers — inject answer HTML lazily on first open
-    container.querySelectorAll('.cq-reveal-btn').forEach(btn => {
+    listEl.querySelectorAll('.cq-reveal-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const currentBtn = e.currentTarget;
             const item = currentBtn.closest('.cq-subquestion-item');
@@ -501,8 +496,9 @@ function renderCQs() {
     });
 
     // Build Premium Glassmorphic Pagination Controls
+    const paginationDiv = document.getElementById('cq-pagination');
+    paginationDiv.innerHTML = '';
     if (totalPages > 1) {
-        const paginationDiv = document.createElement('div');
         paginationDiv.className = 'cq-pagination-wrapper glass-panel';
 
         let pagesHtml = '';
@@ -539,8 +535,6 @@ function renderCQs() {
             <div class="pagination-info">Showing ${startIndex + 1}-${endIndex} of ${totalCQs} Creative Questions</div>
             <div class="pagination-buttons">${pagesHtml}</div>
         `;
-
-        container.appendChild(paginationDiv);
 
         // Bind Pagination Clicks
         const prevBtn = paginationDiv.querySelector('.prev-btn');
@@ -579,7 +573,7 @@ function renderCQs() {
 
     // Only render LaTeX on question stems (not answers — they render lazily on reveal)
     if (window.renderMathInElement) {
-        container.querySelectorAll('.cq-stem-content, .cq-sub-text').forEach(el => {
+        listEl.querySelectorAll('.cq-stem-content, .cq-sub-text').forEach(el => {
             renderMathInElement(el, {
                 delimiters: [
                     {left: '$$', right: '$$', display: true},
