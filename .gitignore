@@ -17,3 +17,7 @@ app_test_error.png
 data.json.bak
 data_cq.json.bak
 
+# SSL certificates (self-signed, local dev only)
+.cert/
+node_modules/
+

@@ -10,7 +10,56 @@ let state = {
     chapter: localStorage.getItem('selectedChapter') || null
 };
 
+// ── Toast notification (replaces alert() for mobile-friendly UX) ──
+function showLumenToast(message, type = 'info', duration = 4000) {
+    let toast = document.getElementById('lumen-toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'lumen-toast';
+        document.body.appendChild(toast);
+    }
+    const icons = { success: '✅', error: '❌', info: 'ℹ️' };
+    toast.className = `toast-${type}`;
+    toast.innerHTML = `<span class="toast-icon">${icons[type] || 'ℹ️'}</span><span>${message}</span>`;
+    // Trigger show
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => toast.classList.add('show'));
+    });
+    clearTimeout(toast._hideTimer);
+    toast._hideTimer = setTimeout(() => {
+        toast.classList.remove('show');
+    }, duration);
+}
+
+async function checkAndMarkSavedSubjects() {
+    if (!('caches' in window)) return; // Cache API not available
+    const cards = document.querySelectorAll('.subject-card');
+    try {
+        const cache = await caches.open('lumen-v44');
+        for (const card of cards) {
+            const subject = card.getAttribute('data-subject');
+            if (!subject) continue;
+            
+            const cleanSubject = subject.replace(/\s+/g, '_');
+            const url = `data/chapters/${cleanSubject}_ch_2.json`;
+            const match = await cache.match(url);
+            
+            const btn = card.querySelector('.download-offline-btn');
+            if (btn && match) {
+                btn.innerHTML = `<i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>`;
+                btn.classList.add('saved');
+                btn.title = "সংরক্ষিত (Saved)";
+            }
+        }
+    } catch (e) {
+        console.error("Error checking cached subjects:", e);
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Check and update saved visual state of subjects
+    checkAndMarkSavedSubjects();
+    
     // Set active sidebar item highlight
     updateSidebarActiveItem();
 
@@ -492,8 +541,18 @@ function renderBreadcrumbs() {
 
 // Download entire subject for offline caching
 async function downloadSubjectOffline(subject, btn) {
+    // Guard: Cache Storage API requires HTTPS or localhost
+    if (!('caches' in window)) {
+        showLumenToast('এই ব্রাউজারে অফলাইন ডাউনলোড সমর্থিত নয়। HTTPS বা localhost ব্যবহার করুন।', 'error', 5000);
+        return;
+    }
+    if (!window.isSecureContext) {
+        showLumenToast('নিরাপদ কানেকশন প্রয়োজন। localhost ব্যবহার করুন: http://localhost:' + window.location.port, 'error', 5000);
+        return;
+    }
+
     if (!metaData || !metaData[subject]) {
-        alert("ডাটাবেজ মেটাডাটা লোড হচ্ছে, অনুগ্রহ করে একটু অপেক্ষা করুন...");
+        showLumenToast('মেটাডাটা লোড হচ্ছে, একটু অপেক্ষা করুন...', 'info');
         return;
     }
 
@@ -528,15 +587,32 @@ async function downloadSubjectOffline(subject, btn) {
         });
     });
 
-    // Change button state to downloading spinner
+    const totalUrls = urlsToCache.length;
+    if (totalUrls === 0) return;
+
+    // Change button state to circular progress ring (size 24px)
     btn.disabled = true;
-    const originalHtml = btn.innerHTML;
-    btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i>`;
+    const originalHtml = `<i class="fa-solid fa-cloud-arrow-down"></i>`;
+    
+    const size = 24;
+    const center = size / 2;
+    const radius = (size - 4) / 2;
+    const circ = 2 * Math.PI * radius;
+    
+    btn.innerHTML = `
+        <svg class="progress-ring" width="${size}" height="${size}" style="transform: rotate(-90deg); display: block;">
+            <circle stroke="rgba(255,255,255,0.2)" stroke-width="2.5" fill="transparent" r="${radius}" cx="${center}" cy="${center}"/>
+            <circle class="progress-ring-bar" stroke="#10b981" stroke-width="2.5" fill="transparent" r="${radius}" cx="${center}" cy="${center}"
+                    stroke-dasharray="${circ}" stroke-dashoffset="${circ}"/>
+        </svg>
+    `;
     btn.title = "ডাউনলোড হচ্ছে...";
 
+    const bar = btn.querySelector('.progress-ring-bar');
+
     try {
-        // Open service worker cache (matches CACHE_NAME 'lumen-v36' in sw.js)
-        const cache = await caches.open('lumen-v36');
+        // Open service worker cache (matches CACHE_NAME 'lumen-v44' in sw.js)
+        const cache = await caches.open('lumen-v44');
         
         let successCount = 0;
         let failCount = 0;
@@ -546,7 +622,7 @@ async function downloadSubjectOffline(subject, btn) {
             try {
                 const response = await fetch(url + '?t=' + Date.now());
                 if (response.ok) {
-                    await cache.put(url, response);
+                    await cache.put(url, response.clone());
                     successCount++;
                 } else {
                     failCount++;
@@ -554,21 +630,32 @@ async function downloadSubjectOffline(subject, btn) {
             } catch (e) {
                 failCount++;
             }
+            
+            // Update circular progress ring
+            const percent = Math.round(((successCount + failCount) / totalUrls) * 100);
+            const offset = circ - (percent / 100) * circ;
+            if (bar) {
+                bar.style.strokeDashoffset = offset;
+            }
         }
 
         if (successCount > 0) {
-            btn.innerHTML = `<i class="fa-solid fa-cloud-arrow-down" style="color: #10b981;"></i>`;
-            btn.title = "অফলাইনে সংরক্ষিত!";
-            alert(`"${subject}"-এর মোট ${successCount}টি অধ্যায় ও বোর্ডের প্রশ্ন সফলভাবে অফলাইনে ব্যবহারের জন্য ডাউনলোড হয়েছে!`);
+            btn.innerHTML = `<i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>`;
+            btn.classList.add('saved');
+            btn.title = "সংরক্ষিত (Saved)";
+            btn.disabled = false;
+            showLumenToast(`✔ "${subject}" — ${successCount}টি ফাইল সফলভাবে সংরক্ষিত হয়েছে!`, 'success', 4000);
         } else {
             btn.innerHTML = originalHtml;
+            btn.classList.remove('saved');
             btn.disabled = false;
-            alert("দুঃখিত, কোনো ফাইল ডাউনলোড করা সম্ভব হয়নি। ইন্টারনেট কানেকশন চেক করুন।");
+            showLumenToast("কোনো ফাইল ডাউনলোড হয়নি। ইন্টারনেট কানেকশন চেক করুন।", 'error');
         }
     } catch (err) {
         console.error(err);
         btn.innerHTML = originalHtml;
+        btn.classList.remove('saved');
         btn.disabled = false;
-        alert("ডাউনলোড করতে ত্রুটি হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।");
+        showLumenToast('ডাউনলোড ব্যর্থ: ' + (err.message || 'অজানা ত্রুটি'), 'error', 5000);
     }
 }

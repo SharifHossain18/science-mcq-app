@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check if configuration parameters are present
     if (!state.subject || (state.mode === 'chapter' && !state.chapter) || (state.mode === 'board' && (!state.year || !state.board))) {
         // Missing parameters, redirect back to selection flow
-        window.location.href = 'subjects.html';
+        window.location.href = state.subject ? 'subject.html' : 'index.html';
         return;
     }
 
@@ -75,25 +75,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Back Button click
     document.getElementById('back-btn').addEventListener('click', () => {
-        // Clear any leaf selections and go back to submode page
-        clearSelections();
-        window.location.href = 'submode.html';
+        if (state.mode === 'board') {
+            window.location.href = 'board-select.html';
+        } else {
+            localStorage.removeItem('selectedChapter');
+            localStorage.removeItem('selectedChapterId');
+            window.location.href = 'subject.html';
+        }
     });
 
     // Sidebar navigation mode links
+    const handleSidebarNavigation = (targetMode, cqSubMode) => {
+        if (!state.subject) {
+            window.location.href = 'index.html';
+            return;
+        }
+        localStorage.setItem('selectedSubject', state.subject);
+        localStorage.removeItem('selectedChapter');
+        localStorage.removeItem('selectedChapterId');
+        localStorage.removeItem('selectedYear');
+        localStorage.removeItem('selectedBoard');
+        
+        if (targetMode === 'cq') {
+            localStorage.setItem('practiceMode', 'cq');
+            localStorage.setItem('cqSubMode', cqSubMode || 'chapter');
+            localStorage.setItem('boardSelectMode', 'cq');
+            if (cqSubMode === 'board') {
+                window.location.href = 'board-select.html';
+            } else {
+                window.location.href = 'subject.html';
+            }
+        } else {
+            localStorage.setItem('practiceMode', targetMode);
+            localStorage.setItem('boardSelectMode', 'mcq');
+            if (targetMode === 'board') {
+                window.location.href = 'board-select.html';
+            } else {
+                window.location.href = 'subject.html';
+            }
+        }
+    };
+
     document.getElementById('side-chapter').addEventListener('click', (e) => {
         e.preventDefault();
-        localStorage.setItem('practiceMode', 'chapter');
-        clearSelections();
-        window.location.href = 'submode.html';
+        handleSidebarNavigation('chapter');
     });
 
     document.getElementById('side-board').addEventListener('click', (e) => {
         e.preventDefault();
-        localStorage.setItem('practiceMode', 'board');
-        clearSelections();
-        window.location.href = 'submode.html';
+        handleSidebarNavigation('board');
     });
+
+    const sideCq = document.getElementById('side-cq');
+    if (sideCq) {
+        sideCq.addEventListener('click', (e) => {
+            e.preventDefault();
+            handleSidebarNavigation('cq', 'chapter');
+        });
+    }
 
     // Mobile Sidebar Drawer Toggles
     const sidebar = document.getElementById('sidebar');
@@ -169,30 +208,94 @@ function renderBreadcrumbs() {
         window.location.href = 'index.html';
     });
 
-    const modeLabel = state.mode === 'chapter' ? 'অধ্যায়ভিত্তিক প্রস্তুতি' : 'বোর্ড প্রশ্ন প্রস্তুতি';
-    
-    // Mode link
-    addBreadcrumb(modeLabel, () => {
-        clearSelections();
-        window.location.href = 'subjects.html';
-    });
-
     // Subject link
     addBreadcrumb(state.subject, () => {
         localStorage.removeItem('selectedChapter');
+        localStorage.removeItem('selectedChapterId');
         localStorage.removeItem('selectedYear');
         localStorage.removeItem('selectedBoard');
-        window.location.href = 'subjects.html';
+        window.location.href = 'subject.html';
     });
 
-    if (state.mode === 'board' && state.year) {
-        addBreadcrumb(state.year, () => {
-            localStorage.removeItem('selectedBoard');
-            window.location.href = 'subjects.html';
+    if (state.mode === 'board') {
+        // Board select link
+        addBreadcrumb('বোর্ড প্রশ্ন', () => {
+            window.location.href = 'board-select.html';
         });
     }
 
     addBreadcrumb('MCQ', null, true);
+}
+
+function normalizeQuestionHtml(rawHtml) {
+    const source = String(rawHtml || '').trim();
+    if (!source) return '<p></p>';
+
+    const holder = document.createElement('div');
+    holder.innerHTML = source;
+
+    if (!holder.children.length) {
+        const p = document.createElement('p');
+        p.textContent = source;
+        holder.textContent = '';
+        holder.appendChild(p);
+    }
+
+    holder.querySelectorAll('p').forEach(p => {
+        while (p.firstChild && p.firstChild.nodeType === Node.ELEMENT_NODE && p.firstChild.tagName === 'BR') {
+            p.firstChild.remove();
+        }
+        if (!p.textContent.trim() && !p.querySelector('img')) {
+            p.remove();
+        }
+    });
+
+    holder.querySelectorAll('span[style]').forEach(span => {
+        span.removeAttribute('style');
+    });
+
+    const walker = document.createTreeWalker(holder, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent || parent.closest('.katex, script, style')) {
+                return NodeFilter.FILTER_REJECT;
+            }
+            return /(?:\d+(?:\.\d+)?)\s*[x×]\s*10\s*[+-]?\d+/.test(node.nodeValue)
+                ? NodeFilter.FILTER_ACCEPT
+                : NodeFilter.FILTER_REJECT;
+        }
+    });
+
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+    textNodes.forEach(node => {
+        const fragment = document.createDocumentFragment();
+        const pattern = /(\d+(?:\.\d+)?)\s*([x×])\s*10\s*([+-]?\d+)/g;
+        let lastIndex = 0;
+        let match;
+
+        while ((match = pattern.exec(node.nodeValue)) !== null) {
+            fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex, match.index)));
+            fragment.appendChild(document.createTextNode(`${match[1]} × 10`));
+            const sup = document.createElement('sup');
+            sup.textContent = match[3];
+            fragment.appendChild(sup);
+            lastIndex = pattern.lastIndex;
+        }
+
+        fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex)));
+        node.parentNode.replaceChild(fragment, node);
+    });
+
+    if (!holder.children.length && holder.textContent.trim()) {
+        const p = document.createElement('p');
+        p.textContent = holder.textContent.trim();
+        holder.textContent = '';
+        holder.appendChild(p);
+    }
+
+    return holder.innerHTML;
 }
 
 // Load and render MCQs list
@@ -245,7 +348,7 @@ function renderMCQs() {
         card.className = 'mcq-card';
         card.setAttribute('data-q-idx', idx);
 
-        let questionHtml = q.question;
+        let questionHtml = normalizeQuestionHtml(q.question);
 
         let optionsHtml = '';
         q.options.forEach((opt, idxOpt) => {

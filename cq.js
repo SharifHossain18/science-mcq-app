@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Validate that required state parameters are present
     if (!state.subject || (state.cqSubMode === 'chapter' && !state.chapter) || (state.cqSubMode === 'board' && (!state.year || !state.board))) {
         // Missing parameters, redirect back to selection flow
-        window.location.href = 'subjects.html';
+        window.location.href = state.subject ? 'subject.html' : 'index.html';
         return;
     }
 
@@ -109,34 +109,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Back Button click
     document.getElementById('back-btn').addEventListener('click', () => {
-        window.location.href = 'subjects.html';
+        if (state.cqSubMode === 'board') {
+            window.location.href = 'board-select.html';
+        } else {
+            localStorage.removeItem('selectedChapter');
+            localStorage.removeItem('selectedChapterId');
+            window.location.href = 'subject.html';
+        }
     });
 
     // Sidebar navigation mode links
+    const handleSidebarNavigation = (targetMode, cqSubMode) => {
+        if (!state.subject) {
+            window.location.href = 'index.html';
+            return;
+        }
+        localStorage.setItem('selectedSubject', state.subject);
+        localStorage.removeItem('selectedChapter');
+        localStorage.removeItem('selectedChapterId');
+        localStorage.removeItem('selectedYear');
+        localStorage.removeItem('selectedBoard');
+        
+        if (targetMode === 'cq') {
+            localStorage.setItem('practiceMode', 'cq');
+            localStorage.setItem('cqSubMode', cqSubMode || 'chapter');
+            localStorage.setItem('boardSelectMode', 'cq');
+            if (cqSubMode === 'board') {
+                window.location.href = 'board-select.html';
+            } else {
+                window.location.href = 'subject.html';
+            }
+        } else {
+            localStorage.setItem('practiceMode', targetMode);
+            localStorage.setItem('boardSelectMode', 'mcq');
+            if (targetMode === 'board') {
+                window.location.href = 'board-select.html';
+            } else {
+                window.location.href = 'subject.html';
+            }
+        }
+    };
+
     document.getElementById('side-chapter').addEventListener('click', (e) => {
         e.preventDefault();
-        localStorage.setItem('tempPracticeMode', 'mcq');
-        localStorage.setItem('practiceMode', 'chapter');
-        clearSelections();
-        window.location.href = 'subjects.html';
+        handleSidebarNavigation('chapter');
     });
 
     document.getElementById('side-board').addEventListener('click', (e) => {
         e.preventDefault();
-        localStorage.setItem('tempPracticeMode', 'mcq');
-        localStorage.setItem('practiceMode', 'board');
-        clearSelections();
-        window.location.href = 'subjects.html';
+        handleSidebarNavigation('board');
     });
 
-    document.getElementById('side-cq').addEventListener('click', (e) => {
-        e.preventDefault();
-        localStorage.setItem('tempPracticeMode', 'cq');
-        localStorage.setItem('practiceMode', 'cq');
-        localStorage.removeItem('cqSubMode');
-        clearSelections();
-        window.location.href = 'submode.html';
-    });
+    const sideCq = document.getElementById('side-cq');
+    if (sideCq) {
+        sideCq.addEventListener('click', (e) => {
+            e.preventDefault();
+            handleSidebarNavigation('cq', 'chapter');
+        });
+    }
 
     // Mobile Sidebar Drawer Toggles
     const sidebar = document.getElementById('sidebar');
@@ -201,30 +231,94 @@ function renderBreadcrumbs() {
         window.location.href = 'index.html';
     });
 
-    const modeLabel = state.cqSubMode === 'chapter' ? 'অধ্যায়ভিত্তিক CQ প্রস্তুতি' : 'বোর্ড CQ প্রস্তুতি';
-    
-    // Mode link
-    addBreadcrumb(modeLabel, () => {
-        clearSelections();
-        window.location.href = 'subjects.html';
-    });
-
     // Subject link
     addBreadcrumb(state.subject, () => {
         localStorage.removeItem('selectedChapter');
+        localStorage.removeItem('selectedChapterId');
         localStorage.removeItem('selectedYear');
         localStorage.removeItem('selectedBoard');
-        window.location.href = 'subjects.html';
+        window.location.href = 'subject.html';
     });
 
-    if (state.cqSubMode === 'board' && state.year) {
-        addBreadcrumb(state.year, () => {
-            localStorage.removeItem('selectedBoard');
-            window.location.href = 'subjects.html';
+    if (state.cqSubMode === 'board') {
+        // Board select link
+        addBreadcrumb('বোর্ড প্রশ্ন', () => {
+            window.location.href = 'board-select.html';
         });
     }
 
     addBreadcrumb('CQ', null, true);
+}
+
+function normalizeQuestionHtml(rawHtml) {
+    const source = String(rawHtml || '').trim();
+    if (!source) return '<p></p>';
+
+    const holder = document.createElement('div');
+    holder.innerHTML = source;
+
+    if (!holder.children.length) {
+        const p = document.createElement('p');
+        p.textContent = source;
+        holder.textContent = '';
+        holder.appendChild(p);
+    }
+
+    holder.querySelectorAll('p').forEach(p => {
+        while (p.firstChild && p.firstChild.nodeType === Node.ELEMENT_NODE && p.firstChild.tagName === 'BR') {
+            p.firstChild.remove();
+        }
+        if (!p.textContent.trim() && !p.querySelector('img')) {
+            p.remove();
+        }
+    });
+
+    holder.querySelectorAll('span[style]').forEach(span => {
+        span.removeAttribute('style');
+    });
+
+    const walker = document.createTreeWalker(holder, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent || parent.closest('.katex, script, style')) {
+                return NodeFilter.FILTER_REJECT;
+            }
+            return /(?:\d+(?:\.\d+)?)\s*[x×]\s*10\s*[+-]?\d+/.test(node.nodeValue)
+                ? NodeFilter.FILTER_ACCEPT
+                : NodeFilter.FILTER_REJECT;
+        }
+    });
+
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+    textNodes.forEach(node => {
+        const fragment = document.createDocumentFragment();
+        const pattern = /(\d+(?:\.\d+)?)\s*([x×])\s*10\s*([+-]?\d+)/g;
+        let lastIndex = 0;
+        let match;
+
+        while ((match = pattern.exec(node.nodeValue)) !== null) {
+            fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex, match.index)));
+            fragment.appendChild(document.createTextNode(`${match[1]} × 10`));
+            const sup = document.createElement('sup');
+            sup.textContent = match[3];
+            fragment.appendChild(sup);
+            lastIndex = pattern.lastIndex;
+        }
+
+        fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex)));
+        node.parentNode.replaceChild(fragment, node);
+    });
+
+    if (!holder.children.length && holder.textContent.trim()) {
+        const p = document.createElement('p');
+        p.textContent = holder.textContent.trim();
+        holder.textContent = '';
+        holder.appendChild(p);
+    }
+
+    return holder.innerHTML;
 }
 
 // Filter and render Creative Questions
@@ -298,13 +392,13 @@ function renderCQs() {
             const answerKey = `ans_${globalIdx}_${subIdx}`;
 
             // Store answer content in memory — not in DOM
-            answerStore.set(answerKey, sub.answer || '');
+            answerStore.set(answerKey, normalizeQuestionHtml(sub.answer || ''));
             
             subQuestionsHtml += `
                 <div class="cq-subquestion-item" data-answer-key="${answerKey}">
                     <div class="cq-sub-header">
                         <div class="cq-sub-letter-badge">${letterLabel}</div>
-                        <div class="cq-sub-text">${sub.question}</div>
+                        <div class="cq-sub-text">${normalizeQuestionHtml(sub.question)}</div>
                         <button class="cq-reveal-btn" title="উত্তর দেখুন">
                             <i class="fa-solid fa-chevron-down"></i>
                         </button>
@@ -341,7 +435,7 @@ function renderCQs() {
                 <div class="q-number-badge">${globalIdx + 1}</div>
                 <div class="cq-stem-container">
                     <div class="cq-stem-title">উদ্দীপক (Context):</div>
-                    <div class="cq-stem-content">${cq.context}</div>
+                    <div class="cq-stem-content">${normalizeQuestionHtml(cq.context)}</div>
                 </div>
             </div>
             

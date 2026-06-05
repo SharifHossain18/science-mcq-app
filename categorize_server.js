@@ -1,8 +1,9 @@
 const http = require('http');
+const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3007;
 const DATA_DIR = path.join(__dirname, 'data');
 const CHAPTERS_DIR = path.join(DATA_DIR, 'chapters');
 
@@ -11,7 +12,7 @@ function getSubjectFilePrefix(subject) {
     return subject.replace(/ /g, '_');
 }
 
-const server = http.createServer((req, res) => {
+const requestHandler = (req, res) => {
     // Enable CORS just in case
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -441,11 +442,48 @@ const server = http.createServer((req, res) => {
             res.end(content);
         }
     });
-});
+};
 
-server.listen(PORT, () => {
+// --- HTTP Server ---
+const httpServer = http.createServer(requestHandler);
+
+httpServer.listen(PORT, () => {
     console.log(`\n======================================================`);
-    console.log(`LUMEN MCQ Admin Question Organizer running locally!`);
-    console.log(`Open your browser and go to: http://localhost:${PORT}/`);
+    console.log(`LUMEN app running!`);
+    console.log(`- Same computer:  http://localhost:${PORT}/`);
+    const nets = require('os').networkInterfaces();
+    for (const name of Object.keys(nets)) {
+        for (const net of nets[name]) {
+            if (net.family === 'IPv4' && !net.internal) {
+                console.log(`- Network (phone): http://${net.address}:${PORT}/`);
+            }
+        }
+    }
+    console.log(`======================================================`);
+    console.log(`NOTE: Offline download (Cache API) only works on`);
+    console.log(`localhost or HTTPS. On a phone, use a local browser`);
+    console.log(`on the same computer for offline features.`);
     console.log(`======================================================\n`);
 });
+
+// --- HTTPS Server (self-signed, for phone/network access with Cache API support) ---
+const CERT_DIR = path.join(__dirname, '.cert');
+const certPath = path.join(CERT_DIR, 'cert.pem');
+const keyPath = path.join(CERT_DIR, 'key.pem');
+
+if (fs.existsSync(certPath) && fs.existsSync(keyPath)) {
+    const httpsOpts = {
+        key: fs.readFileSync(keyPath),
+        cert: fs.readFileSync(certPath)
+    };
+    const httpsServer = https.createServer(httpsOpts, requestHandler);
+    httpsServer.listen(PORT + 1, () => {
+        console.log(`\nHTTPS server (for phones/network): https://localhost:${PORT + 1}/`);
+    });
+} else {
+    console.log(`\nTo enable HTTPS (for offline download from phone), run:`);
+    console.log(`  mkdir .cert`);
+    console.log(`  cd .cert`);
+    console.log(`  openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes`);
+    console.log(`Then restart the server.`);
+}

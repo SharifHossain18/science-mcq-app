@@ -1,20 +1,24 @@
-const CACHE_NAME = 'lumen-v38';
+const CACHE_NAME = 'lumen-v44';
 
 // App shell files — these are precached on install and served cache-first
 const APP_SHELL = [
     './',
     './index.html',
     './subjects.html',
+    './subject.html',
     './mcq.html',
     './cq.html',
     './submode.html',
+    './board-select.html',
     './admin.html',
     './style.css',
     './app.js',
     './subjects.js',
+    './subject.js',
     './mcq.js',
     './cq.js',
     './submode.js',
+    './board-select.js',
     './sw-register.js',
     './manifest.json',
     './app-icon.jpeg',
