@@ -84,9 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Start button
-    document.getElementById('bs-start-btn').addEventListener('click', startPractice);
-
     // Render subject strip
     renderStrip();
 
@@ -145,7 +142,6 @@ function renderYearSlider() {
             selectedYear = yr;
             selectedBoard = null; // reset board on new year
             renderBoardGrid(yr);
-            updateStartButton();
         });
         slider.appendChild(chip);
     });
@@ -191,28 +187,10 @@ function renderBoardGrid(year) {
             document.querySelectorAll('.bs-board-card').forEach(c => c.classList.remove('selected'));
             card.classList.add('selected');
             selectedBoard = bd;
-            updateStartButton();
+            startPractice();
         });
         grid.appendChild(card);
     });
-}
-
-// Enable/disable start button based on selections
-function updateStartButton() {
-    const btn = document.getElementById('bs-start-btn');
-    const label = document.getElementById('bs-start-label');
-
-    if (selectedYear && selectedBoard) {
-        btn.disabled = false;
-        const modeLabel = mode === 'cq' ? 'CQ' : 'MCQ';
-        label.textContent = `${selectedBoard} — ${selectedYear} (${modeLabel}) শুরু করুন!`;
-    } else if (selectedYear && !selectedBoard) {
-        btn.disabled = true;
-        label.textContent = `বোর্ড নির্বাচন করুন`;
-    } else {
-        btn.disabled = true;
-        label.textContent = `বছর ও বোর্ড নির্বাচন করুন`;
-    }
 }
 
 // Navigate to quiz page
