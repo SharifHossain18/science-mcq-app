@@ -168,6 +168,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     UTILS.initMobileMenu();
+
+    document.getElementById('cq-pdf-btn').addEventListener('click', generateCQPDF);
 });
 
 function renderBreadcrumbs() {
@@ -585,4 +587,79 @@ function renderCQs() {
             });
         });
     }
+}
+
+function generateCQPDF() {
+    const btn = document.getElementById('cq-pdf-btn');
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> প্রস্তুত...';
+
+    const title = document.getElementById('cq-view-title')?.textContent || 'CQ Questions';
+    const cards = document.querySelectorAll('.cq-card');
+    if (!cards.length) { UTILS.showToast('কোনো প্রশ্ন নেই!', 'error'); btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF'; return; }
+
+    const subQuestionLabels = { 'a': 'ক', 'b': 'খ', 'c': 'গ', 'd': 'ঘ' };
+
+    const printWrapper = document.createElement('div');
+    printWrapper.style.cssText = 'padding:20px;font-family:Outfit,sans-serif;background:#fff;';
+    printWrapper.innerHTML = `<h2 style="text-align:center;margin-bottom:20px;color:#1e3a8a;">${title}</h2><hr style="margin-bottom:20px;border-color:#ddd;">`;
+
+    cards.forEach((card, i) => {
+        const qNum = card.querySelector('.q-number-badge')?.textContent || (i + 1);
+        const stem = card.querySelector('.cq-stem-content')?.innerHTML || '';
+        const chapter = card.querySelector('.cq-meta-tag:first-child')?.textContent?.trim() || '';
+        const board = card.querySelector('.cq-meta-tag:last-child')?.textContent?.trim() || '';
+        const subItems = card.querySelectorAll('.cq-subquestion-item');
+
+        let html = `<div style="margin-bottom:28px;padding-bottom:16px;border-bottom:1px solid #eee;page-break-inside:avoid;">
+            <div style="font-size:0.8rem;color:#666;margin-bottom:4px;">${chapter} • ${board}</div>
+            <div style="font-weight:700;margin-bottom:10px;font-size:1.1rem;color:#1e3a8a;">প্রশ্ন ${qNum}</div>
+            <div style="background:#f8fafc;border-left:4px solid #3b82f6;padding:12px 16px;border-radius:4px;margin-bottom:12px;">${stem}</div>
+            <div style="padding-left:16px;">`;
+
+        subItems.forEach(sub => {
+            const letterBadge = sub.querySelector('.cq-sub-letter-badge')?.textContent || '';
+            const subText = sub.querySelector('.cq-sub-text')?.innerHTML || '';
+            const answerEl = sub.querySelector('.cq-answer-content');
+            let answerHtml = '';
+            if (answerEl) {
+                answerHtml = answerEl.innerHTML || '';
+            } else {
+                // Try to get answer from the data attribute - reveal it first if needed
+                const key = sub.dataset.answerKey;
+                if (key) {
+                    const store = new Map();
+                    const revealBtn = sub.querySelector('.cq-reveal-btn');
+                    if (revealBtn) revealBtn.click();
+                    const revealedAnswer = sub.querySelector('.cq-answer-content')?.innerHTML || '';
+                    answerHtml = revealedAnswer;
+                }
+            }
+
+            html += `<div style="margin-bottom:12px;">
+                <div style="font-weight:600;margin-bottom:4px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:#f1f5f9;font-size:0.85rem;font-weight:700;margin-right:8px;">${letterBadge}</span>${subText}</div>
+                <div style="margin-left:36px;padding:10px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;font-size:0.9rem;"><strong style="color:#166534;">উত্তর:</strong> ${answerHtml || '—'}</div>
+            </div>`;
+        });
+
+        html += `</div></div>`;
+        printWrapper.innerHTML += html;
+    });
+
+    const opt = {
+        margin: [10, 10, 10, 10],
+        filename: `${title.replace(/[^a-zA-Z0-9]/g, '_')}.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true, letterRendering: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(printWrapper).save().then(() => {
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF';
+    }).catch(() => {
+        UTILS.showToast('PDF জেনারেট করতে ব্যর্থ!', 'error');
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF';
+    });
 }

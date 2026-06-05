@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <script src="utils.js"></script>
     <script src="sw-register.js"></script>
 </head>
@@ -123,6 +124,9 @@
                         <div class="mcq-view-title-area">
                             <h3 id="cq-view-title">সৃজনশীল প্রশ্ন প্রস্তুতি</h3>
                         </div>
+                        <button class="pdf-btn" id="cq-pdf-btn" title="PDF তৈরি করুন">
+                            <i class="fa-solid fa-file-pdf"></i> PDF
+                        </button>
                     </div>
                     <div id="cq-container" class="cq-list">
                         <!-- Questions dynamically loaded here -->

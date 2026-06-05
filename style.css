@@ -1497,6 +1497,17 @@ input:checked + .slider:before {
 .score-card .score-detail { font-size: 0.85rem; opacity: 0.75; margin-top: 8px; }
 [data-theme="dark"] .score-card { background: linear-gradient(135deg, #1e40af, #1e3a5f); }
 
+/* PDF Button */
+.pdf-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 16px; border-radius: 10px; border: none;
+    background: #dc2626; color: #fff; font-weight: 700; font-size: 0.85rem;
+    cursor: pointer; transition: all 0.2s;
+}
+.pdf-btn:hover { background: #b91c1c; transform: translateY(-1px); }
+.pdf-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+[data-theme="dark"] .pdf-btn { background: #b91c1c; }
+
 /* Quiz Timer */
 .quiz-timer {
     display: inline-flex; align-items: center; gap: 6px;
@@ -1515,6 +1526,26 @@ input:checked + .slider:before {
     margin-bottom: 16px; outline: none; transition: border-color 0.2s;
 }
 .quiz-search:focus { border-color: var(--primary-blue); }
+
+/* Print / PDF Styles */
+@media print {
+    body { background: #fff !important; color: #000 !important; }
+    .sidebar, .workspace-header, .bottom-nav, .pdf-btn, .show-answer-toggle,
+    .quiz-timer, .quiz-search, .score-card, .back-btn, .menu-toggle-btn,
+    .profile-icon, .theme-toggle, .sidebar-footer-icon { display: none !important; }
+    .app-layout { display: block !important; }
+    .main-workspace { display: block !important; }
+    .app-container { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+    .mcq-card { break-inside: avoid; border: 1px solid #ddd !important; box-shadow: none !important; padding: 12px !important; }
+    .mcq-card, .cq-card { background: #fff !important; }
+    .option-btn { border: 1px solid #999 !important; background: #fff !important; color: #000 !important; }
+    .option-btn.correct, .option-btn.show-correct { background: #e8f5e9 !important; border-color: #4caf50 !important; }
+    .option-btn::after { display: none !important; }
+    .explanation { background: #f5f5f5 !important; border: 1px solid #ddd !important; }
+    .q-text-content, .option-text { color: #000 !important; }
+    .mcq-meta-left, .mcq-meta-right span { color: #555 !important; }
+    @page { margin: 15mm; }
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
