@@ -62,8 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const showAnswerSwitch = document.getElementById('show-answer-switch');
     showAnswerSwitch.addEventListener('change', (e) => { state.showAnswers = e.target.checked; applyShowAnswersToggle(); });
-
-    document.getElementById('pdf-btn').addEventListener('click', generatePDF);
 });
 
 function showSkeletons() {
@@ -280,63 +278,6 @@ function updateTimerDisplay() {
         else if (secondsElapsed > 300) timer.className = 'quiz-timer warning';
         else timer.className = 'quiz-timer';
     }
-}
-
-function generatePDF() {
-    const btn = document.getElementById('pdf-btn');
-    btn.disabled = true;
-    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> প্রস্তুত...';
-
-    const title = document.getElementById('mcq-view-title')?.textContent || 'MCQ Questions';
-    const cards = document.querySelectorAll('.mcq-card');
-    if (!cards.length) { UTILS.showToast('কোনো প্রশ্ন নেই!', 'error'); btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF'; return; }
-
-    const printWrapper = document.createElement('div');
-    printWrapper.style.cssText = 'padding:20px;font-family:Outfit,sans-serif;background:#fff;';
-    printWrapper.innerHTML = `<h2 style="text-align:center;margin-bottom:20px;color:#1e3a8a;">${title}</h2><hr style="margin-bottom:20px;border-color:#ddd;">`;
-
-    const letters = ['a', 'b', 'c', 'd'];
-    cards.forEach((card, i) => {
-        const qNum = card.querySelector('.q-number-badge')?.textContent || (i + 1);
-        const qText = card.querySelector('.q-text-content')?.innerHTML || '';
-        const options = card.querySelectorAll('.option-btn');
-
-        let html = `<div style="margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #eee;page-break-inside:avoid;">
-            <div style="font-weight:700;margin-bottom:8px;color:#333;">${qNum}. ${qText}</div>
-            <div style="padding-left:24px;">`;
-
-        options.forEach((opt, oi) => {
-            const optText = opt.querySelector('.option-text')?.textContent || '';
-            const isCorrect = opt.getAttribute('data-answer') === 'correct';
-            html += `<div style="padding:6px 10px;margin:4px 0;border:1px solid #ddd;border-radius:6px;${isCorrect ? 'background:#f0fdf4;border-color:#86efac;' : ''}">
-                <span style="font-weight:700;">${letters[oi]}.</span> ${optText}
-                ${isCorrect ? '<span style="float:right;color:#16a34a;font-size:0.8rem;">✓ উত্তর</span>' : ''}
-            </div>`;
-        });
-
-        const explanation = card.querySelector('.explanation div:last-child')?.innerHTML || '';
-        if (explanation) html += `<div style="margin-top:8px;padding:10px;background:#eff6ff;border-radius:8px;font-size:0.9rem;color:#1e3a8a;"><strong>ব্যাখ্যা:</strong> ${explanation}</div>`;
-
-        html += `</div></div>`;
-        printWrapper.innerHTML += html;
-    });
-
-    const opt = {
-        margin: [10, 10, 10, 10],
-        filename: `${title.replace(/[^a-zA-Z0-9]/g, '_')}.pdf`,
-        image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2, useCORS: true, letterRendering: true },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-    };
-
-    html2pdf().set(opt).from(printWrapper).save().then(() => {
-        btn.disabled = false;
-        btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF';
-    }).catch(() => {
-        UTILS.showToast('PDF জেনারেট করতে ব্যর্থ!', 'error');
-        btn.disabled = false;
-        btn.innerHTML = '<i class="fa-solid fa-file-pdf"></i> PDF';
-    });
 }
 
 function applyShowAnswersToggle() {
