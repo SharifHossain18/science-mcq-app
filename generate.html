@@ -6,7 +6,7 @@
     <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>LUMEN - Subject</title>
+    <title>LUMEN - প্রশ্ন জেনারেটর</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@
                     <div class="breadcrumb" id="breadcrumb-path">
                         <span class="breadcrumb-item" onclick="window.location.href='index.html'">Home</span>
                         <span class="breadcrumb-separator"><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></span>
-                        <span class="breadcrumb-item active" id="breadcrumb-subject">Subject</span>
+                        <span class="breadcrumb-item active">প্রশ্ন জেনারেটর</span>
                     </div>
                 </div>
                 <div class="header-right">
@@ -78,74 +78,87 @@
 
             <main class="app-container">
 
-                <!-- Subject Banner -->
-                <div class="subj-hub-banner" id="subj-hub-banner">
-                    <div class="subj-hub-banner-left">
-                        <div class="subj-hub-icon-wrap" id="subj-hub-icon">
-                            <i class="fa-solid fa-atom"></i>
-                        </div>
-                        <div class="subj-hub-info">
-                            <h2 class="subj-hub-name" id="subj-hub-name">Subject</h2>
-                            <p class="subj-hub-bn" id="subj-hub-bn">বিষয়</p>
-                        </div>
+                <!-- Header Section -->
+                <div class="gen-header">
+                    <div class="gen-header-icon"><i class="fa-solid fa-shuffle"></i></div>
+                    <div class="gen-header-text">
+                        <h2>প্রশ্ন জেনারেটর</h2>
+                        <p class="gen-header-sub">নির্বাচিত অধ্যায় থেকে এলোমেলোভাবে প্রশ্ন তৈরি করুন</p>
                     </div>
-                    <button class="subj-hub-download-btn" id="subj-hub-download" title="Download for Offline">
-                        <i class="fa-solid fa-cloud-arrow-down"></i>
-                    </button>
                 </div>
 
-                <!-- 2 Mode Toggle Cards: MCQ / CQ -->
-                <div class="subj-toggle-row">
-                    <div class="subj-toggle-card active" id="toggle-mcq" data-mode="mcq">
-                        <div class="subj-toggle-icon">
+                <!-- Form Card -->
+                <div class="gen-form-card">
+                    <div class="gen-form-row">
+                        <label class="gen-label"><i class="fa-solid fa-book"></i> বিষয় (Subject)</label>
+                        <select class="gen-select" id="gen-subject">
+                            <option value="">— বিষয় নির্বাচন করুন —</option>
+                        </select>
+                    </div>
+
+                    <div class="gen-form-row">
+                        <label class="gen-label"><i class="fa-regular fa-folder-open"></i> অধ্যায় (Chapter)</label>
+                        <select class="gen-select" id="gen-chapter" disabled>
+                            <option value="">— প্রথমে বিষয় নির্বাচন করুন —</option>
+                        </select>
+                    </div>
+
+                    <div class="gen-form-row">
+                        <label class="gen-label"><i class="fa-solid fa-list-check"></i> MCQ প্রশ্নের সংখ্যা</label>
+                        <div class="gen-input-wrap">
+                            <input type="number" class="gen-input" id="gen-mcq-count" min="0" max="200" value="5" placeholder="যতগুলো MCQ চান">
+                            <span class="gen-input-hint" id="gen-mcq-hint">সর্বোচ্চ: —</span>
+                        </div>
+                    </div>
+
+                    <div class="gen-form-row">
+                        <label class="gen-label"><i class="fa-solid fa-file-signature"></i> CQ প্রশ্নের সংখ্যা</label>
+                        <div class="gen-input-wrap">
+                            <input type="number" class="gen-input" id="gen-cq-count" min="0" max="50" value="0" placeholder="যতগুলো CQ চান">
+                            <span class="gen-input-hint" id="gen-cq-hint">সর্বোচ্চ: —</span>
+                        </div>
+                    </div>
+
+                    <div class="gen-form-actions">
+                        <button class="gen-btn gen-btn-primary" id="gen-generate-btn">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> প্রশ্ন তৈরি করুন
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Loading / Error -->
+                <div id="gen-status"></div>
+
+                <!-- Results Area -->
+                <div id="gen-results" style="display:none;">
+                    <!-- MCQ Section -->
+                    <div id="gen-mcq-section" style="display:none;">
+                        <div class="gen-section-header">
                             <i class="fa-solid fa-list-check"></i>
+                            <span>MCQ প্রশ্নসমূহ</span>
+                            <span class="gen-section-badge" id="gen-mcq-badge">0</span>
                         </div>
-                        <div class="subj-toggle-text">
-                            <span class="subj-toggle-label">MCQ</span>
-                            <span class="subj-toggle-sublabel">বহুনির্বাচনি প্রশ্ন</span>
-                        </div>
-                        <div class="subj-toggle-check"><i class="fa-solid fa-check"></i></div>
+                        <div id="gen-mcq-list"></div>
                     </div>
 
-                    <div class="subj-toggle-card" id="toggle-cq" data-mode="cq">
-                        <div class="subj-toggle-icon">
+                    <!-- CQ Section -->
+                    <div id="gen-cq-section" style="display:none;">
+                        <div class="gen-section-header">
                             <i class="fa-solid fa-file-signature"></i>
+                            <span>CQ প্রশ্নসমূহ</span>
+                            <span class="gen-section-badge" id="gen-cq-badge">0</span>
                         </div>
-                        <div class="subj-toggle-text">
-                            <span class="subj-toggle-label">CQ</span>
-                            <span class="subj-toggle-sublabel">সৃজনশীল প্রশ্ন</span>
-                        </div>
-                        <div class="subj-toggle-check"><i class="fa-solid fa-check"></i></div>
+                        <div id="gen-cq-list"></div>
                     </div>
-                </div>
 
-                <!-- Board Questions Card (Big) -->
-                <div class="subj-board-big-card" id="card-board">
-                    <div class="subj-board-big-left">
-                        <div class="subj-board-big-icon">
-                            <i class="fa-solid fa-building-columns"></i>
-                        </div>
-                        <div class="subj-board-big-info">
-                            <span class="subj-board-big-title">বোর্ড প্রশ্ন অনুশীলন</span>
-                            <span class="subj-board-big-sub">Board Questions — বছর ও বোর্ড অনুসারে</span>
-                        </div>
-                    </div>
-                    <div class="subj-board-big-arrow">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-
-                <!-- Chapter List -->
-                <div class="subj-chapter-section">
-                    <div class="subj-chapter-section-header">
-                        <i class="fa-regular fa-folder-open"></i>
-                        <span>অধ্যায়সমূহ (Chapters)</span>
-                    </div>
-                    <div class="subj-chapter-list" id="subj-chapter-list">
-                        <div class="loading-state" style="padding:30px 0; text-align:center;">
-                            <i class="fa-solid fa-spinner fa-spin" style="font-size:1.5rem; color:var(--primary-blue);"></i>
-                            <p style="margin-top:10px; color:var(--text-muted);">লোড হচ্ছে...</p>
-                        </div>
+                    <!-- Print Button -->
+                    <div class="gen-print-area" id="gen-print-area" style="display:none;">
+                        <button class="gen-btn gen-btn-secondary" onclick="window.print()">
+                            <i class="fa-solid fa-print"></i> প্রিন্ট / PDF
+                        </button>
+                        <button class="gen-btn gen-btn-outline" id="gen-regenerate-btn">
+                            <i class="fa-solid fa-rotate"></i> নতুন করে তৈরি
+                        </button>
                     </div>
                 </div>
 
@@ -166,6 +179,6 @@
         </a>
     </nav>
 
-    <script src="subject.js"></script>
+    <script src="generate.js"></script>
 </body>
 </html>
