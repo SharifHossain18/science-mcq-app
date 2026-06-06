@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v47';
+const CACHE_NAME = 'lumen-v48';
 
 const APP_SHELL = [
     './',
@@ -28,12 +28,16 @@ const APP_SHELL = [
     './icon-192.png',
     './icon-512.png',
     './data/meta.json',
-    './utils.js'
+    './utils.js',
+    './data/precache.json'
 ];
 
 const CDN_RESOURCES = [
     'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap',
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+    'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css',
+    'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js',
+    'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js'
 ];
 
 function stripQuery(urlStr) {
@@ -45,18 +49,6 @@ function stripQuery(urlStr) {
         const idx = urlStr.indexOf('?');
         return idx !== -1 ? urlStr.substring(0, idx) : urlStr;
     }
-}
-
-function isAppShell(url) {
-    const cleaned = stripQuery(url);
-    return APP_SHELL.some(shell => {
-        try {
-            const resolved = new URL(shell, self.location).toString();
-            return cleaned === resolved;
-        } catch (e) {
-            return false;
-        }
-    });
 }
 
 function isDataRequest(url) {
@@ -72,7 +64,13 @@ function isCDNResource(url) {
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
+        caches.open(CACHE_NAME).then(cache =>
+            cache.addAll(APP_SHELL).then(() =>
+                fetch('./data/precache.json').then(r => r.json()).then(files =>
+                    cache.addAll(files).catch(() => {})
+                ).catch(() => {})
+            )
+        )
     );
 });
 
@@ -91,7 +89,6 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     const reqUrl = event.request.url;
 
-    // Data files: cache on first visit, serve cache-first
     if (isDataRequest(reqUrl)) {
         const clean = stripQuery(reqUrl);
         event.respondWith(
@@ -112,7 +109,6 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // CDN: cache-first
     if (isCDNResource(reqUrl)) {
         event.respondWith(
             caches.match(event.request).then(cached => {
@@ -129,7 +125,6 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // App shell & everything else: cache-first
     const clean = stripQuery(reqUrl);
     event.respondWith(
         caches.open(CACHE_NAME).then(cache =>
