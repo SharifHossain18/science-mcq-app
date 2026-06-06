@@ -179,6 +179,7 @@ function renderChapterList() {
 
         const item = document.createElement('div');
         item.className = 'subj-chapter-item';
+        item.dataset.chapterId = ch.id;
         item.innerHTML = `
             <div class="subj-chapter-item-left">
                 <span class="subj-chapter-num">${chapterNum}</span>
@@ -207,6 +208,49 @@ function renderChapterList() {
         });
         listEl.appendChild(item);
     });
+    setTimeout(() => loadChapterCounts(), 100);
+}
+
+async function loadChapterCounts() {
+    const items = document.querySelectorAll('.subj-chapter-item');
+    if (!items.length) return;
+    const cleanSub = subject.replace(/\s+/g, '_');
+    const fetches = Array.from(items).map(async (item) => {
+        const chId = item.dataset.chapterId;
+        if (!chId) return;
+        const nameEl = item.querySelector('.subj-chapter-name');
+        if (!nameEl) return;
+        const [mcqRes, cqRes] = await Promise.allSettled([
+            fetch(`data/chapters/${cleanSub}_${chId}.json`),
+            fetch(`data/cq/chapters/${cleanSub}_${chId}.json`)
+        ]);
+        let mcqCount = 0, cqCount = 0;
+        if (mcqRes.status === 'fulfilled' && mcqRes.value.ok) {
+            try { mcqCount = (await mcqRes.value.json()).length; } catch {}
+        }
+        if (cqRes.status === 'fulfilled' && cqRes.value.ok) {
+            try { cqCount = (await cqRes.value.json()).length; } catch {}
+        }
+        const parts = [];
+        if (mcqCount > 0) parts.push(`${mcqCount} MCQ`);
+        if (cqCount > 0) parts.push(`${cqCount} CQ`);
+        if (parts.length) {
+            const badge = document.createElement('span');
+            badge.className = 'subj-chapter-count';
+            badge.textContent = parts.join(' | ');
+            nameEl.appendChild(badge);
+        }
+        const leftEl = item.querySelector('.subj-chapter-item-left');
+        if (leftEl && window.UTILS) {
+            const progressHTML = window.UTILS.renderProgressBar(subject, nameEl.textContent.replace(badge?.textContent || '', '').trim());
+            if (progressHTML) {
+                const wrapper = document.createElement('div');
+                wrapper.innerHTML = progressHTML;
+                leftEl.after(wrapper.firstElementChild);
+            }
+        }
+    });
+    await Promise.allSettled(fetches);
 }
 
 

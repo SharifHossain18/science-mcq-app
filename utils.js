@@ -67,6 +67,20 @@ const UTILS = {
     });
   },
 
+  initSwipeGestures() {
+    const sidebar = document.getElementById('sidebar');
+    if (!sidebar) return;
+    let startX = 0;
+    document.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
+    document.addEventListener('touchend', (e) => {
+      const endX = e.changedTouches[0].clientX;
+      const diff = endX - startX;
+      const threshold = 80;
+      if (diff > threshold && startX < 40) { sidebar.classList.add('open'); }
+      if (diff < -threshold && sidebar.classList.contains('open')) { sidebar.classList.remove('open'); }
+    }, { passive: true });
+  },
+
   renderBreadcrumbs(items) {
     const container = document.getElementById('breadcrumb-path');
     if (!container) return;
@@ -88,6 +102,56 @@ const UTILS = {
 
   goHome() { window.location.href = 'index.html'; },
   goTo(url) { window.location.href = url; },
+
+  // ── Progress Tracking ──
+  getProgress(subject, chapter) {
+    try { return JSON.parse(localStorage.getItem('lumen_progress') || '{}'); } catch { return {}; }
+  },
+  saveProgress(data) {
+    try { localStorage.setItem('lumen_progress', JSON.stringify(data)); } catch {}
+  },
+  recordAnswer(subject, chapter, correct, total) {
+    const data = this.getProgress();
+    const key = `${subject}|${chapter}`;
+    if (!data[key]) data[key] = { correct: 0, total: 0 };
+    data[key].correct += correct ? 1 : 0;
+    data[key].total += total;
+    this.saveProgress(data);
+  },
+  getChapterProgress(subject, chapter) {
+    const data = this.getProgress();
+    return data[`${subject}|${chapter}`] || { correct: 0, total: 0 };
+  },
+
+  // ── Bookmarks ──
+  getBookmarks() {
+    try { return JSON.parse(localStorage.getItem('lumen_bookmarks') || '[]'); } catch { return []; }
+  },
+  saveBookmarks(bookmarks) {
+    try { localStorage.setItem('lumen_bookmarks', JSON.stringify(bookmarks)); } catch {}
+  },
+  toggleBookmark(questionId) {
+    const bookmarks = this.getBookmarks();
+    const idx = bookmarks.indexOf(questionId);
+    if (idx === -1) bookmarks.push(questionId);
+    else bookmarks.splice(idx, 1);
+    this.saveBookmarks(bookmarks);
+    return idx === -1;
+  },
+  isBookmarked(questionId) {
+    return this.getBookmarks().includes(questionId);
+  },
+
+  // ── Render progress bar on chapter cards ──
+  renderProgressBar(subject, chapter) {
+    const prog = this.getChapterProgress(subject, chapter);
+    if (prog.total === 0) return '';
+    const pct = Math.round((prog.correct / prog.total) * 100);
+    return `<div class="subj-progress-row">
+      <div class="subj-progress-bar-wrap"><div class="subj-progress-bar-fill" style="width:${pct}%"></div></div>
+      <span class="subj-progress-text">${prog.correct}/${prog.total}</span>
+    </div>`;
+  },
 };
 
 async function checkCacheForSubject(subject) {

@@ -9,7 +9,7 @@ const SUBJECT_META = {
 
 let metaData = null;
 let selectedSubject = '';
-let selectedChapterId = '';
+let selectedChapterIds = [];
 let allMCQs = [];
 let allCQs = [];
 
@@ -33,7 +33,6 @@ function stripChapterPrefix(name) {
 
 // ── DOM refs ──
 const $subject = document.getElementById('gen-subject');
-const $chapter = document.getElementById('gen-chapter');
 const $mcqCount = document.getElementById('gen-mcq-count');
 const $cqCount = document.getElementById('gen-cq-count');
 const $mcqHint = document.getElementById('gen-mcq-hint');
@@ -49,6 +48,8 @@ const $mcqBadge = document.getElementById('gen-mcq-badge');
 const $cqBadge = document.getElementById('gen-cq-badge');
 const $printArea = document.getElementById('gen-print-area');
 const $regenerateBtn = document.getElementById('gen-regenerate-btn');
+const $chips = document.getElementById('gen-chips');
+const $selectAll = document.getElementById('gen-select-all');
 
 // ── Load meta ──
 async function loadMeta() {
@@ -72,13 +73,17 @@ function populateSubjects() {
     });
 }
 
-// ── Chapter loading ──
+// ── Chapter chips ──
 $subject.addEventListener('change', () => {
     selectedSubject = $subject.value;
-    $chapter.innerHTML = '<option value="">— অধ্যায় নির্বাচন করুন —</option>';
-    $chapter.disabled = !selectedSubject;
+    selectedChapterIds = [];
+    $chips.innerHTML = '';
+    $selectAll.style.display = 'none';
+    $selectAll.textContent = 'সবগুলি নির্বাচন করুন';
     $mcqHint.textContent = 'সর্বোচ্চ: —';
     $cqHint.textContent = 'সর্বোচ্চ: —';
+    allMCQs = [];
+    allCQs = [];
     resetResults();
 
     if (!selectedSubject) return;
@@ -86,55 +91,68 @@ $subject.addEventListener('change', () => {
     const chapters = (metaData[selectedSubject]?.chapters || [])
         .filter(ch => ch && ch.id !== 'ch_1' && ch.name && ch.name.toLowerCase() !== 'general');
 
+    if (chapters.length === 0) return;
+    $selectAll.style.display = 'inline-block';
+
     chapters.forEach(ch => {
-        const opt = document.createElement('option');
-        opt.value = ch.id;
-        opt.textContent = stripChapterPrefix(ch.name);
-        opt.dataset.chapterName = ch.name;
-        $chapter.appendChild(opt);
+        const chip = document.createElement('span');
+        chip.className = 'gen-chip';
+        chip.dataset.chapterId = ch.id;
+        chip.dataset.chapterName = ch.name;
+        chip.textContent = ch.name;
+        chip.addEventListener('click', () => {
+            chip.classList.toggle('selected');
+            updateSelectedChapters();
+        });
+        $chips.appendChild(chip);
     });
 });
 
-$chapter.addEventListener('change', () => {
-    selectedChapterId = $chapter.value;
+$selectAll.addEventListener('click', () => {
+    const allChips = $chips.querySelectorAll('.gen-chip');
+    const anyUnselected = Array.from(allChips).some(ch => !ch.classList.contains('selected'));
+    allChips.forEach(ch => ch.classList.toggle('selected', anyUnselected));
+    $selectAll.textContent = anyUnselected ? 'সবগুলি সরান' : 'সবগুলি নির্বাচন করুন';
+    updateSelectedChapters();
+});
+
+function updateSelectedChapters() {
+    const chips = $chips.querySelectorAll('.gen-chip.selected');
+    selectedChapterIds = Array.from(chips).map(ch => ch.dataset.chapterId);
     $mcqHint.textContent = 'সর্বোচ্চ: —';
     $cqHint.textContent = 'সর্বোচ্চ: —';
     resetResults();
-    if (!selectedChapterId) return;
+    if (selectedChapterIds.length === 0) return;
     checkAvailability();
-});
+}
 
 async function checkAvailability() {
     const cleanSub = clean(selectedSubject);
-    try {
-        const [mcqRes, cqRes] = await Promise.allSettled([
-            fetch(`data/chapters/${cleanSub}_${selectedChapterId}.json`),
-            fetch(`data/cq/chapters/${cleanSub}_${selectedChapterId}.json`)
-        ]);
+    allMCQs = [];
+    allCQs = [];
 
-        if (mcqRes.status === 'fulfilled' && mcqRes.value.ok) {
-            allMCQs = await mcqRes.value.json();
-            $mcqHint.textContent = `সর্বোচ্চ: ${allMCQs.length}`;
-            if (parseInt($mcqCount.value) > allMCQs.length) $mcqCount.value = allMCQs.length;
-        } else {
-            allMCQs = [];
-            $mcqHint.textContent = 'কোনো MCQ নেই';
-        }
+    const mcqFetches = selectedChapterIds.map(chId =>
+        fetch(`data/chapters/${cleanSub}_${chId}.json`)
+            .then(r => r.ok ? r.json() : [])
+            .catch(() => [])
+    );
+    const cqFetches = selectedChapterIds.map(chId =>
+        fetch(`data/cq/chapters/${cleanSub}_${chId}.json`)
+            .then(r => r.ok ? r.json() : [])
+            .catch(() => [])
+    );
 
-        if (cqRes.status === 'fulfilled' && cqRes.value.ok) {
-            allCQs = await cqRes.value.json();
-            $cqHint.textContent = `সর্বোচ্চ: ${allCQs.length}`;
-            if (parseInt($cqCount.value) > allCQs.length) $cqCount.value = allCQs.length;
-        } else {
-            allCQs = [];
-            $cqHint.textContent = 'কোনো CQ নেই';
-        }
-    } catch {
-        allMCQs = [];
-        allCQs = [];
-        $mcqHint.textContent = 'কোনো MCQ নেই';
-        $cqHint.textContent = 'কোনো CQ নেই';
-    }
+    const mcqResults = await Promise.all(mcqFetches);
+    const cqResults = await Promise.all(cqFetches);
+
+    allMCQs = mcqResults.flat();
+    allCQs = cqResults.flat();
+
+    $mcqHint.textContent = allMCQs.length > 0 ? `সর্বোচ্চ: ${allMCQs.length}` : 'কোনো MCQ নেই';
+    $cqHint.textContent = allCQs.length > 0 ? `সর্বোচ্চ: ${allCQs.length}` : 'কোনো CQ নেই';
+
+    if (parseInt($mcqCount.value) > allMCQs.length) $mcqCount.value = allMCQs.length;
+    if (parseInt($cqCount.value) > allCQs.length) $cqCount.value = allCQs.length;
 }
 
 // ── Generate ──
@@ -142,7 +160,7 @@ $generateBtn.addEventListener('click', generate);
 $regenerateBtn.addEventListener('click', generate);
 
 async function generate() {
-    if (!selectedSubject || !selectedChapterId) {
+    if (!selectedSubject || selectedChapterIds.length === 0) {
         showStatus('error', 'বিষয় এবং অধ্যায় নির্বাচন করুন!');
         return;
     }
@@ -157,17 +175,23 @@ async function generate() {
     // Re-fetch if not already loaded
     if (allMCQs.length === 0 && mcqWanted > 0) {
         const cleanSub = clean(selectedSubject);
-        try {
-            const res = await fetch(`data/chapters/${cleanSub}_${selectedChapterId}.json`);
-            if (res.ok) allMCQs = await res.json();
-        } catch {}
+        const fetches = selectedChapterIds.map(chId =>
+            fetch(`data/chapters/${cleanSub}_${chId}.json`)
+                .then(r => r.ok ? r.json() : [])
+                .catch(() => [])
+        );
+        const results = await Promise.all(fetches);
+        allMCQs = results.flat();
     }
     if (allCQs.length === 0 && cqWanted > 0) {
         const cleanSub = clean(selectedSubject);
-        try {
-            const res = await fetch(`data/cq/chapters/${cleanSub}_${selectedChapterId}.json`);
-            if (res.ok) allCQs = await res.json();
-        } catch {}
+        const fetches = selectedChapterIds.map(chId =>
+            fetch(`data/cq/chapters/${cleanSub}_${chId}.json`)
+                .then(r => r.ok ? r.json() : [])
+                .catch(() => [])
+        );
+        const results = await Promise.all(fetches);
+        allCQs = results.flat();
     }
 
     if (mcqWanted > allMCQs.length) {
@@ -198,7 +222,6 @@ async function generate() {
 function renderMCQs(questions) {
     $mcqList.innerHTML = '';
     $mcqBadge.textContent = questions.length;
-    const chapterName = $chapter.selectedOptions[0]?.dataset.chapterName || $chapter.value;
 
     questions.forEach((q, i) => {
         const card = document.createElement('div');
@@ -206,7 +229,7 @@ function renderMCQs(questions) {
         card.innerHTML = `
             <div class="gen-q-top">
                 <span class="gen-q-num">${i + 1}</span>
-                <span class="gen-q-meta">${chapterName}</span>
+                <span class="gen-q-meta">${q.chapter || ''}</span>
             </div>
             <div class="gen-q-text">${q.question}</div>
             <div class="gen-q-options">
@@ -239,7 +262,6 @@ function renderMCQs(questions) {
 function renderCQs(questions) {
     $cqList.innerHTML = '';
     $cqBadge.textContent = questions.length;
-    const chapterName = $chapter.selectedOptions[0]?.dataset.chapterName || $chapter.value;
     const subLabels = { a: 'ক', b: 'খ', c: 'গ', d: 'ঘ' };
 
     questions.forEach((q, i) => {
@@ -248,7 +270,7 @@ function renderCQs(questions) {
         card.innerHTML = `
             <div class="gen-q-top">
                 <span class="gen-q-num">CQ ${i + 1}</span>
-                <span class="gen-q-meta">${chapterName}</span>
+                <span class="gen-q-meta">${q.chapter || ''}</span>
             </div>
             <div class="gen-cq-context">
                 <strong>উদ্দীপক:</strong>
