@@ -29,27 +29,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('cq-container');
     showSkeletons();
 
-    // Search + pagination header
-    const headerHtml = `
-        <input class="quiz-search" id="cq-search" type="text" placeholder="🔍 সৃজনশীল প্রশ্ন সার্চ করুন..." autocomplete="off">
-        <div id="cq-list"></div>
-        <div class="cq-pagination-wrapper" id="cq-pagination"></div>
-    `;
-
-    let fetchPromise;
     const cleanSubject = state.subject.replace(/\s+/g, '_');
+    const label = document.getElementById('loading-filename');
+    const loadingLabel = document.getElementById('loading-label');
 
-    // Always fetch meta.json first to resolve board index or chapter ID dynamically
-    fetchPromise = fetch('data/meta.json')
-        .then(res => {
-            if (!res.ok) throw new Error("Metadata request failed");
-            return res.json();
-        })
-        .then(meta => {
-            metaData = meta;
+    (async () => {
+        try {
             let cqUrl = '';
+
             if (state.cqSubMode === 'board') {
-                const subjectMeta = meta[state.subject];
+                // Need meta.json to resolve board index
+                loadingLabel.textContent = 'মেটাডাটা লোড হচ্ছে...';
+                const metaRes = await fetch('data/meta.json');
+                if (!metaRes.ok) throw new Error("Metadata request failed");
+                metaData = await metaRes.json();
+
+                const subjectMeta = metaData[state.subject];
                 if (!subjectMeta || !subjectMeta.boards || !subjectMeta.boards[state.year]) {
                     throw new Error("Subject/Year not found in metadata");
                 }
@@ -58,23 +53,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (boardIndex === -1) {
                     throw new Error(`Board ${state.board} not found in metadata for year ${state.year}`);
                 }
-                
-                let boardId = '';
-                if (state.board === 'Combined') {
-                    boardId = 'Combined';
-                } else {
-                    boardId = String(boardIndex + 1);
-                }
-                
-                // Store resolved board index string for filtering CQs
-                state.boardId = boardId;
-                
-                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${boardId}.json`;
+                state.boardId = state.board === 'Combined' ? 'Combined' : String(boardIndex + 1);
+                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${state.boardId}.json`;
             } else {
+                // Chapter mode — skip meta.json if chapterId already known
                 if (state.chapterId) {
                     cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
                 } else {
-                    const subjectMeta = meta[state.subject];
+                    loadingLabel.textContent = 'মেটাডাটা লোড হচ্ছে...';
+                    const metaRes = await fetch('data/meta.json');
+                    if (!metaRes.ok) throw new Error("Metadata request failed");
+                    metaData = await metaRes.json();
+
+                    const subjectMeta = metaData[state.subject];
                     const normChapterName = (state.chapter || 'General').replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
                     const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
                     if (!chapterObj) throw new Error("Chapter not found in metadata");
@@ -83,19 +74,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
                 }
             }
-            return fetch(cqUrl);
-        });
 
-    fetchPromise
-        .then(response => {
-            if (!response.ok) throw new Error("HTTP error " + response.status);
-            return response.json();
-        })
-        .then(data => {
-            allCQs = data;
+            if (label) label.textContent = cqUrl.split('/').pop();
+            loadingLabel.textContent = 'ডাউনলোড হচ্ছে...';
+
+            allCQs = await fetchWithProgress(cqUrl);
+
+            loadingLabel.textContent = 'রেন্ডার হচ্ছে...';
+            document.getElementById('loading-progress-wrapper').style.display = 'none';
+            container.innerHTML = '';
             renderCQs();
-        })
-        .catch(err => {
+        } catch (err) {
             console.error("Error:", err);
             container.innerHTML = `
                 <div class="loading-state">
@@ -104,7 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 5px;">ইন্টারনেট কানেকশন চেক করে আবার চেষ্টা করুন।</p>
                 </div>
             `;
-        });
+        }
+    })();
 
     // Back Button click
     document.getElementById('back-btn').addEventListener('click', () => {
@@ -182,65 +172,52 @@ function renderBreadcrumbs() {
 
 function showSkeletons() {
     const container = document.getElementById('cq-container');
-    let html = '';
-    for (let i = 0; i < 3; i++) {
-        html += `<div class="skeleton-card"><div class="skeleton-line wide"></div><div class="skeleton-line narrow"></div><div class="skeleton-line wide" style="height:60px;"></div></div>`;
-    }
-    container.innerHTML = html;
+    container.innerHTML = `
+        <div id="cq-loading-overlay" class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <div class="loading-label" id="loading-label">প্রস্তুতি নিচ্ছে...</div>
+            <div class="loading-progress-wrapper" id="loading-progress-wrapper" style="display:none;">
+                <div class="loading-progress-bar" id="loading-progress-bar"></div>
+            </div>
+            <div class="loading-filename" id="loading-filename"></div>
+        </div>
+    `;
 }
 
-function updateSidebarActiveItem() {
-    document.querySelectorAll('.sidebar-nav-item').forEach(item => {
-        item.classList.remove('active');
-    });
-    const cqLink = document.getElementById('side-cq');
-    if (cqLink) cqLink.classList.add('active');
+function updateLoadingProgress(current, total) {
+    const bar = document.getElementById('loading-progress-bar');
+    const wrapper = document.getElementById('loading-progress-wrapper');
+    const label = document.getElementById('loading-label');
+    if (!bar || !wrapper || !label) return;
+    wrapper.style.display = 'block';
+    const pct = Math.min(100, Math.round((current / total) * 100));
+    bar.style.width = pct + '%';
+    const loadedMb = (current / (1024 * 1024)).toFixed(1);
+    const totalMb = (total / (1024 * 1024)).toFixed(1);
+    label.textContent = `ডাউনলোড হচ্ছে... ${loadedMb}MB / ${totalMb}MB (${pct}%)`;
 }
 
-// Clickable breadcrumbs path renderer
-function renderBreadcrumbs() {
-    const breadcrumbContainer = document.getElementById('breadcrumb-path');
-    if (!breadcrumbContainer) return;
-    breadcrumbContainer.innerHTML = '';
-
-    function addBreadcrumb(label, clickHandler, isActive = false) {
-        if (breadcrumbContainer.children.length > 0) {
-            const separator = document.createElement('span');
-            separator.className = 'breadcrumb-separator';
-            separator.innerHTML = '<i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i>';
-            breadcrumbContainer.appendChild(separator);
-        }
-        const item = document.createElement('span');
-        item.className = 'breadcrumb-item' + (isActive ? ' active' : '');
-        item.textContent = label;
-        if (!isActive && clickHandler) {
-            item.addEventListener('click', clickHandler);
-        }
-        breadcrumbContainer.appendChild(item);
+async function fetchWithProgress(url) {
+    const response = await fetch(url);
+    const contentLength = response.headers.get('Content-Length');
+    const total = contentLength ? parseInt(contentLength, 10) : 0;
+    const reader = response.body.getReader();
+    const chunks = [];
+    let loaded = 0;
+    while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        loaded += value.length;
+        if (total) updateLoadingProgress(loaded, total);
     }
-
-    // Home link
-    addBreadcrumb('Home', () => {
-        window.location.href = 'index.html';
-    });
-
-    // Subject link
-    addBreadcrumb(state.subject, () => {
-        localStorage.removeItem('selectedChapter');
-        localStorage.removeItem('selectedChapterId');
-        localStorage.removeItem('selectedYear');
-        localStorage.removeItem('selectedBoard');
-        window.location.href = 'subject.html';
-    });
-
-    if (state.cqSubMode === 'board') {
-        // Board select link
-        addBreadcrumb('বোর্ড প্রশ্ন', () => {
-            window.location.href = 'board-select.html';
-        });
+    const decoder = new TextDecoder();
+    let text = '';
+    for (const chunk of chunks) {
+        text += decoder.decode(chunk, { stream: true });
     }
-
-    addBreadcrumb('CQ', null, true);
+    text += decoder.decode();
+    return JSON.parse(text);
 }
 
 function normalizeQuestionHtml(rawHtml) {
