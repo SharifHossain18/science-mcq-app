@@ -142,6 +142,47 @@ const UTILS = {
     return this.getBookmarks().includes(questionId);
   },
 
+  // ── Install PWA Prompt ──
+  initInstallPrompt() {
+    let deferredPrompt = null;
+    const banner = document.createElement('div');
+    banner.id = 'install-banner';
+    banner.innerHTML = `
+      <div class="install-banner-content">
+        <div class="install-banner-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <div class="install-banner-text">
+          <strong>LUMEN অ্যাপ ইন্সটল করুন</strong>
+          <span>অফলাইন ব্যবহারের জন্য আপনার হোম স্ক্রিনে যোগ করুন</span>
+        </div>
+        <button class="install-banner-btn" id="install-btn">ইন্সটল</button>
+        <button class="install-banner-close" id="install-dismiss"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    `;
+    banner.style.display = 'none';
+    document.body.appendChild(banner);
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (!localStorage.getItem('install_dismissed')) banner.style.display = 'block';
+    });
+
+    document.getElementById('install-btn').addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const result = await deferredPrompt.userChoice;
+      if (result.outcome === 'accepted') { banner.style.display = 'none'; }
+      deferredPrompt = null;
+    });
+
+    document.getElementById('install-dismiss').addEventListener('click', () => {
+      banner.style.display = 'none';
+      localStorage.setItem('install_dismissed', '1');
+    });
+
+    window.addEventListener('appinstalled', () => { banner.style.display = 'none'; });
+  },
+
   // ── Render progress bar on chapter cards ──
   renderProgressBar(subject, chapter) {
     const prog = this.getChapterProgress(subject, chapter);

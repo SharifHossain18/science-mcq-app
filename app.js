@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     UTILS.initMobileMenu();
+    UTILS.initSwipeGestures();
+    UTILS.initInstallPrompt();
     initDarkMode();
 
     document.querySelectorAll('.sidebar-nav-item').forEach(item => {

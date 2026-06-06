@@ -129,6 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'board-select.html';
     });
 
+    UTILS.initInstallPrompt();
+
     // Load meta.json and render chapters
     fetch('data/meta.json?t=' + Date.now())
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
