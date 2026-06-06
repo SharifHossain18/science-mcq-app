@@ -109,9 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render subject banner
     renderBanner();
 
-    // Check if this subject is already saved offline and update the download button
-    checkAndMarkSavedSubject(subject);
-
     // Mode toggle cards (MCQ / CQ)
     document.querySelectorAll('.subj-toggle-card').forEach(card => {
         card.addEventListener('click', () => {
@@ -130,11 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Store mode for board-select page
         localStorage.setItem('boardSelectMode', selectedMode);
         window.location.href = 'board-select.html';
-    });
-
-    // Download button
-    document.getElementById('subj-hub-download').addEventListener('click', () => {
-        downloadSubjectOffline(subject, document.getElementById('subj-hub-download'));
     });
 
     // Load meta.json and render chapters
@@ -217,156 +209,4 @@ function renderChapterList() {
     });
 }
 
-// ── Toast notification utility (mobile-friendly, replaces alert()) ──
-function showLumenToast(message, type = 'info', duration = 4000) {
-    let toast = document.getElementById('lumen-toast');
-    if (!toast) {
-        toast = document.createElement('div');
-        toast.id = 'lumen-toast';
-        document.body.appendChild(toast);
-    }
-    const icons = { success: '✅', error: '❌', info: 'ℹ️' };
-    toast.className = `toast-${type}`;
-    toast.innerHTML = `<span class="toast-icon">${icons[type] || 'ℹ️'}</span><span>${message}</span>`;
-    requestAnimationFrame(() => {
-        requestAnimationFrame(() => toast.classList.add('show'));
-    });
-    clearTimeout(toast._hideTimer);
-    toast._hideTimer = setTimeout(() => { toast.classList.remove('show'); }, duration);
-}
 
-// Check if this subject is already cached and update the download button visually
-async function checkAndMarkSavedSubject(subject) {
-    if (!('caches' in window)) return; // Cache API not available in this context
-    const btn = document.getElementById('subj-hub-download');
-    if (!btn) return;
-    try {
-        const cache = await caches.open('lumen-v45');
-        const cleanSubject = subject.replace(/\s+/g, '_');
-        const url = `data/chapters/${cleanSubject}_ch_2.json`;
-        const match = await cache.match(url);
-        if (match) {
-            btn.innerHTML = `<i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>`;
-            btn.classList.add('saved');
-            btn.title = "সংরক্ষিত (Saved)";
-        }
-    } catch (e) {
-        console.error('Error checking cached subject:', e);
-    }
-}
-
-// Offline download helper — shows a circular SVG progress ring during download
-async function downloadSubjectOffline(subject, btn) {
-    // Guard: Cache Storage API requires HTTPS or localhost
-    if (!('caches' in window)) {
-        showLumenToast('এই সংযোগে অফলাইন ডাউনলোড সমর্থিত নয়। HTTPS বা localhost ব্যবহার করুন।', 'error', 5000);
-        return;
-    }
-    if (!window.isSecureContext) {
-        showLumenToast('নিরাপদ কানেকশন প্রয়োজন। localhost ব্যবহার করুন: http://localhost:' + window.location.port, 'error', 5000);
-        return;
-    }
-
-    if (!metaData || !metaData[subject]) {
-        showLumenToast('মেটাডাটা লোড হচ্ছে, একটু অপেক্ষা করুন...', 'info');
-        return;
-    }
-
-    const cleanSubject = subject.replace(/\s+/g, '_');
-    const urlsToCache = [];
-
-    // 1. MCQ chapter JSON files
-    const chapters = metaData[subject].chapters || [];
-    chapters.forEach(ch => {
-        urlsToCache.push(`data/chapters/${cleanSubject}_${ch.id}.json`);
-    });
-
-    // 2. MCQ board JSON files
-    const boards = metaData[subject].boards || {};
-    Object.keys(boards).forEach(year => {
-        boards[year].forEach(board => {
-            const cleanBoard = board.replace(/\s+/g, '_');
-            urlsToCache.push(`data/boards/${cleanSubject}_${year}_${cleanBoard}.json`);
-        });
-    });
-
-    // 3. CQ chapter JSON files
-    chapters.forEach(ch => {
-        urlsToCache.push(`data/cq/chapters/${cleanSubject}_${ch.id}.json`);
-    });
-
-    // 4. CQ board JSON files
-    Object.keys(boards).forEach(year => {
-        boards[year].forEach((board, idx) => {
-            urlsToCache.push(`data/cq/boards/${cleanSubject}_${year}_${idx + 1}.json`);
-        });
-    });
-
-    const totalUrls = urlsToCache.length;
-    if (totalUrls === 0) return;
-
-    // Inject circular SVG progress ring into the button
-    btn.disabled = true;
-    const originalHtml = `<i class="fa-solid fa-cloud-arrow-down"></i>`;
-
-    const size = 24;
-    const center = size / 2;
-    const radius = (size - 4) / 2;
-    const circ = 2 * Math.PI * radius;
-
-    btn.innerHTML = `
-        <svg class="progress-ring" width="${size}" height="${size}" style="transform: rotate(-90deg); display: block;">
-            <circle stroke="rgba(255,255,255,0.2)" stroke-width="2.5" fill="transparent" r="${radius}" cx="${center}" cy="${center}"/>
-            <circle class="progress-ring-bar" stroke="#10b981" stroke-width="2.5" fill="transparent" r="${radius}" cx="${center}" cy="${center}"
-                    stroke-dasharray="${circ}" stroke-dashoffset="${circ}"/>
-        </svg>
-    `;
-    btn.title = "ডাউনলোড হচ্ছে...";
-
-    const bar = btn.querySelector('.progress-ring-bar');
-
-    try {
-        const cache = await caches.open('lumen-v45');
-
-        let successCount = 0;
-        let failCount = 0;
-
-        for (const url of urlsToCache) {
-            try {
-                const response = await fetch(url + '?t=' + Date.now());
-                if (response.ok) {
-                    await cache.put(url, response.clone());
-                    successCount++;
-                } else {
-                    failCount++;
-                }
-            } catch (e) {
-                failCount++;
-            }
-
-            // Update circular progress ring in real-time
-            const percent = Math.round(((successCount + failCount) / totalUrls) * 100);
-            const offset = circ - (percent / 100) * circ;
-            if (bar) bar.style.strokeDashoffset = offset;
-        }
-
-        if (successCount > 0) {
-            btn.innerHTML = `<i class="fa-solid fa-circle-check" style="color: #ffffff;"></i>`;
-            btn.classList.add('saved');
-            btn.title = 'সংরক্ষিত (Saved)';
-            btn.disabled = false;
-            showLumenToast(`✔ "${subject}" — ${successCount}টি ফাইল সফলভাবে সংরক্ষিত!`, 'success', 4000);
-        } else {
-            btn.innerHTML = originalHtml;
-            btn.classList.remove('saved');
-            btn.disabled = false;
-            showLumenToast('কোনো ফাইল ডাউনলোড হয়নি। ইন্টারনেট কানেকশন চেক করুন।', 'error');
-        }
-    } catch (err) {
-        console.error(err);
-        btn.innerHTML = originalHtml;
-        btn.classList.remove('saved');
-        btn.disabled = false;
-        showLumenToast('ডাউনলোড ব্যর্থ: ' + (err.message || 'অজানা ত্রুটি'), 'error', 5000);
-    }
-}
