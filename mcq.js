@@ -64,11 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     showAnswerSwitch.addEventListener('change', (e) => { state.showAnswers = e.target.checked; applyShowAnswersToggle(); });
 });
 
-// Load bookmarks state on page init
-document.querySelectorAll('.bookmark-btn').forEach(btn => {
-    // The render already toggles, but this is a safety check
-});
-
 function showSkeletons() {
     const container = document.getElementById('mcq-container');
     let html = '';
@@ -194,22 +189,10 @@ function renderMCQs() {
 
             card.innerHTML = `
                 <div class="mcq-question-wrapper"><div class="q-number-badge">${realIdx + 1}</div><div class="q-text-content">${questionHtml}</div></div>
-                <div class="mcq-meta-row"><div class="mcq-meta-left">${q.chapter || 'General'}</div><div class="mcq-meta-right"><span style="margin-right:12px;font-weight:600;color:var(--primary-blue);">${q.board} ${q.year}</span><i class="fa-regular fa-flag" title="Report"></i><i class="fa-regular fa-heart" title="Favorite"></i></div></div>
+                <div class="mcq-meta-row"><div class="mcq-meta-left">${q.chapter || 'General'}</div><div class="mcq-meta-right"><span style="font-weight:600;color:var(--primary-blue);">${q.board} ${q.year}</span></div></div>
                 <div class="mcq-options">${optionsHtml}</div>
                 <div class="explanation"><div class="explanation-title"><i class="fa-solid fa-circle-info"></i><span>ব্যাখ্যা (Explanation)</span></div><div>${q.explanation || 'এই প্রশ্নের কোনো ব্যাখ্যা নেই।'}</div></div>
             `;
-            const qid = state.subject + '|' + state.chapter + '|' + q.id;
-            const bookmarkBtn = document.createElement('button');
-            bookmarkBtn.className = 'bookmark-btn' + (UTILS.isBookmarked(qid) ? ' bookmarked' : '');
-            bookmarkBtn.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
-            bookmarkBtn.title = 'বুকমার্ক';
-            bookmarkBtn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const nowBookmarked = UTILS.toggleBookmark(qid);
-                bookmarkBtn.classList.toggle('bookmarked', nowBookmarked);
-                UTILS.showToast(nowBookmarked ? 'বুকমার্ক করা হয়েছে' : 'বুকমার্ক সরানো হয়েছে', 'info');
-            });
-            card.appendChild(bookmarkBtn);
             fragment.appendChild(card);
         });
         listEl.appendChild(fragment);

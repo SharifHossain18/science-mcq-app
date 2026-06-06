@@ -445,18 +445,6 @@ function renderCQs() {
             </div>
         `;
 
-        const cqid = state.subject + '|' + state.chapter + '|CQ|' + cq.id;
-        const bookmarkBtn = document.createElement('button');
-        bookmarkBtn.className = 'bookmark-btn' + (UTILS.isBookmarked(cqid) ? ' bookmarked' : '');
-        bookmarkBtn.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
-        bookmarkBtn.title = 'বুকমার্ক';
-        bookmarkBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const nowBookmarked = UTILS.toggleBookmark(cqid);
-            bookmarkBtn.classList.toggle('bookmarked', nowBookmarked);
-            UTILS.showToast(nowBookmarked ? 'বুকমার্ক করা হয়েছে' : 'বুকমার্ক সরানো হয়েছে', 'info');
-        });
-        card.appendChild(bookmarkBtn);
         fragment.appendChild(card);
     });
 
