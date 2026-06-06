@@ -8,6 +8,151 @@ const UTILS = {
     'Math 2nd Paper':     { bn: 'উচ্চতর গণিত ২য় পত্র',   icon: 'fa-solid fa-infinity',            color: 'linear-gradient(135deg, #74b37d 0%, #44804c 100%)', shadow: 'rgba(68,128,76,0.35)'  },
   },
 
+  // ── User Profile ──
+  getProfile() {
+    try { return JSON.parse(localStorage.getItem('lumen_profile')); } catch { return null; }
+  },
+  saveProfile(p) {
+    try { localStorage.setItem('lumen_profile', JSON.stringify(p)); } catch {}
+  },
+  renderProfile() {
+    const p = this.getProfile();
+    if (!p) return;
+    document.querySelectorAll('.profile-name').forEach(el => el.textContent = p.name);
+    document.querySelectorAll('.profile-subtitle').forEach(el => el.textContent = p.education.toLowerCase());
+    document.querySelectorAll('.profile-user-name').forEach(el => el.textContent = p.name);
+    document.querySelectorAll('.profile-user-class').forEach(el => el.textContent = `${p.group} • ${p.education} ${p.year}`);
+  },
+  showSetupModal() {
+    if (this.getProfile()) return;
+    const overlay = document.createElement('div');
+    overlay.id = 'lumen-setup-overlay';
+    overlay.innerHTML = `
+      <div class="setup-modal">
+        <div class="setup-icon"><i class="fa-solid fa-user-astronaut"></i></div>
+        <h2 class="setup-title">LUMEN-এ স্বাগতম!</h2>
+        <p class="setup-subtitle">আপনার তথ্য দিন</p>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-user"></i> আপনার নাম</label>
+          <input class="setup-input" id="setup-name" placeholder="যেমন: Sujon" autocomplete="off">
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-graduation-cap"></i> শিক্ষা স্তর</label>
+          <div class="setup-radio-group" id="setup-edu">
+            <label class="setup-radio"><input type="radio" name="setup-edu" value="SSC"><span>SSC</span></label>
+            <label class="setup-radio"><input type="radio" name="setup-edu" value="HSC" checked><span>HSC</span></label>
+          </div>
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-calendar"></i> বছর</label>
+          <select class="setup-input" id="setup-year"></select>
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-flask"></i> গ্রুপ</label>
+          <div class="setup-radio-group" id="setup-group">
+            <label class="setup-radio"><input type="radio" name="setup-group" value="Science" checked><span>বিজ্ঞান</span></label>
+            <label class="setup-radio"><input type="radio" name="setup-group" value="Arts"><span>মানবিক</span></label>
+            <label class="setup-radio"><input type="radio" name="setup-group" value="Commerce"><span>বাণিজ্য</span></label>
+          </div>
+        </div>
+        <button class="setup-btn" id="setup-save">শুরু করুন</button>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    const yearSel = document.getElementById('setup-year');
+    const cy = new Date().getFullYear();
+    for (let y = cy + 1; y >= cy - 4; y--) {
+      const opt = document.createElement('option');
+      opt.value = String(y); opt.textContent = String(y);
+      if (y === cy) opt.selected = true;
+      yearSel.appendChild(opt);
+    }
+    document.getElementById('setup-save').addEventListener('click', () => {
+      const name = document.getElementById('setup-name').value.trim();
+      if (!name) { this.showToast('অনুগ্রহ করে আপনার নাম লিখুন', 'error'); return; }
+      const edu = document.querySelector('input[name="setup-edu"]:checked')?.value || 'HSC';
+      const year = document.getElementById('setup-year').value;
+      const group = document.querySelector('input[name="setup-group"]:checked')?.value || 'Science';
+      this.saveProfile({ name, education: edu, year, group });
+      overlay.remove();
+      this.renderProfile();
+    });
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
+  },
+  showSettingsModal() {
+    const p = this.getProfile() || { name: '', education: 'HSC', year: String(new Date().getFullYear()), group: 'Science' };
+    const overlay = document.createElement('div');
+    overlay.id = 'lumen-settings-overlay';
+    overlay.innerHTML = `
+      <div class="setup-modal">
+        <div class="setup-icon"><i class="fa-solid fa-gear"></i></div>
+        <h2 class="setup-title">সেটিংস</h2>
+        <p class="setup-subtitle">আপনার প্রোফাইল তথ্য পরিবর্তন করুন</p>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-user"></i> আপনার নাম</label>
+          <input class="setup-input" id="settings-name" value="${p.name}" autocomplete="off">
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-graduation-cap"></i> শিক্ষা স্তর</label>
+          <div class="setup-radio-group" id="settings-edu">
+            <label class="setup-radio"><input type="radio" name="settings-edu" value="SSC"${p.education === 'SSC' ? ' checked' : ''}><span>SSC</span></label>
+            <label class="setup-radio"><input type="radio" name="settings-edu" value="HSC"${p.education === 'HSC' ? ' checked' : ''}><span>HSC</span></label>
+          </div>
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-calendar"></i> বছর</label>
+          <select class="setup-input" id="settings-year"></select>
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-flask"></i> গ্রুপ</label>
+          <div class="setup-radio-group" id="settings-group">
+            <label class="setup-radio"><input type="radio" name="settings-group" value="Science"${p.group === 'Science' ? ' checked' : ''}><span>বিজ্ঞান</span></label>
+            <label class="setup-radio"><input type="radio" name="settings-group" value="Arts"${p.group === 'Arts' ? ' checked' : ''}><span>মানবিক</span></label>
+            <label class="setup-radio"><input type="radio" name="settings-group" value="Commerce"${p.group === 'Commerce' ? ' checked' : ''}><span>বাণিজ্য</span></label>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;margin-top:8px;">
+          <button class="setup-btn" id="settings-save" style="flex:1;">সংরক্ষণ করুন</button>
+          <button class="setup-btn setup-btn-secondary" id="settings-close" style="flex:1;">বাতিল</button>
+        </div>
+        <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border-color);text-align:center;">
+          <button class="setup-btn setup-btn-danger" id="settings-reset" style="padding:10px;font-size:0.85rem;">অ্যাপ রিসেট করুন</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    const yearSel = document.getElementById('settings-year');
+    const cy = new Date().getFullYear();
+    for (let y = cy + 1; y >= cy - 4; y--) {
+      const opt = document.createElement('option');
+      opt.value = String(y); opt.textContent = String(y);
+      if (String(y) === p.year) opt.selected = true;
+      yearSel.appendChild(opt);
+    }
+    document.getElementById('settings-save').addEventListener('click', () => {
+      const name = document.getElementById('settings-name').value.trim();
+      if (!name) { this.showToast('অনুগ্রহ করে আপনার নাম লিখুন', 'error'); return; }
+      const edu = document.querySelector('input[name="settings-edu"]:checked')?.value || 'HSC';
+      const year = document.getElementById('settings-year').value;
+      const group = document.querySelector('input[name="settings-group"]:checked')?.value || 'Science';
+      this.saveProfile({ name, education: edu, year, group });
+      overlay.remove();
+      this.renderProfile();
+      this.showToast('প্রোফাইল আপডেট করা হয়েছে', 'success');
+    });
+    document.getElementById('settings-close').addEventListener('click', () => overlay.remove());
+    document.getElementById('settings-reset').addEventListener('click', () => {
+      if (!confirm('সমস্ত ডেটা মুছে আবার শুরু করবেন? (All data will be cleared)')) return;
+      localStorage.clear();
+      caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))));
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
+      }
+      window.location.reload();
+    });
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
+  },
+
   showToast(message, type = 'info', duration = 4000) {
     let toast = document.getElementById('lumen-toast');
     if (!toast) {
@@ -195,4 +340,18 @@ const UTILS = {
   },
 };
 
-// Reserved for cache utilities
+document.addEventListener('DOMContentLoaded', () => {
+  const p = UTILS.getProfile();
+  if (!p) {
+    if (document.getElementById('lumen-setup-overlay')) return;
+    UTILS.showSetupModal();
+  } else {
+    UTILS.renderProfile();
+  }
+  document.querySelectorAll('[data-action="settings"]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      UTILS.showSettingsModal();
+    });
+  });
+});
