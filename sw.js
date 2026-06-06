@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v46';
+const CACHE_NAME = 'lumen-v47';
 
 const APP_SHELL = [
     './',
@@ -11,6 +11,7 @@ const APP_SHELL = [
     './board-select.html',
     './admin.html',
     './generate.html',
+    './exam.html',
     './style.css',
     './app.js',
     './subjects.js',
@@ -20,14 +21,14 @@ const APP_SHELL = [
     './submode.js',
     './board-select.js',
     './generate.js',
+    './exam.js',
     './sw-register.js',
     './manifest.json',
     './app-icon.jpeg',
     './icon-192.png',
     './icon-512.png',
     './data/meta.json',
-    './utils.js',
-    './data-files.json'
+    './utils.js'
 ];
 
 const CDN_RESOURCES = [
@@ -68,95 +69,51 @@ function isCDNResource(url) {
            url.includes('cdnjs.cloudflare.com');
 }
 
-const BATCH_SIZE = 100;
-const BATCH_DELAY = 1000;
-let _cachingPaused = false;
-
-async function cacheDataBatch(cache, files, start) {
-    const end = Math.min(start + BATCH_SIZE, files.length);
-    const batch = files.slice(start, end);
-    const results = await Promise.allSettled(batch.map(url => cache.add(url)));
-    const success = results.filter(r => r.status === 'fulfilled').length;
-    const failed = results.filter(r => r.status === 'rejected').length;
-    self.clients.matchAll().then(clients => {
-        clients.forEach(client => {
-            client.postMessage({ type: 'CACHE_PROGRESS', cached: end, total: files.length });
-        });
-    });
-    return { success, failed, next: end };
-}
-
-async function cacheAllData() {
-    try {
-        const cache = await caches.open(CACHE_NAME);
-        const resp = await fetch('./data-files.json');
-        const files = await resp.json();
-        let start = 0;
-        while (start < files.length) {
-            const result = await cacheDataBatch(cache, files, start);
-            start = result.next;
-            if (start < files.length) {
-                await new Promise(r => setTimeout(r, BATCH_DELAY));
-            }
-        }
-    } catch (e) {
-        console.error('Background caching error:', e);
-    }
-}
-
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => {
-            return cache.addAll(APP_SHELL);
-        })
+        caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
     );
 });
 
 self.addEventListener('activate', event => {
     event.waitUntil(
-        caches.keys().then(cacheNames => {
-            return Promise.all(
-                cacheNames
-                    .filter(name => name !== CACHE_NAME)
-                    .map(name => caches.delete(name))
-            );
-        }).then(() => self.clients.claim())
-            .then(() => {
-                self.clients.matchAll().then(clients => {
-                    clients.forEach(client => client.postMessage({ type: 'SW_UPDATED' }));
-                });
-                cacheAllData();
-            })
+        caches.keys().then(names =>
+            Promise.all(names.filter(n => n !== CACHE_NAME).map(n => caches.delete(n)))
+        ).then(() => self.clients.claim()).then(() => {
+            self.clients.matchAll().then(clients => {
+                clients.forEach(c => c.postMessage({ type: 'SW_UPDATED' }));
+            });
+        })
     );
 });
 
 self.addEventListener('fetch', event => {
-    const requestUrl = event.request.url;
+    const reqUrl = event.request.url;
 
-    if (isDataRequest(requestUrl)) {
-        const cleanUrl = stripQuery(requestUrl);
+    // Data files: cache on first visit, serve cache-first
+    if (isDataRequest(reqUrl)) {
+        const clean = stripQuery(reqUrl);
         event.respondWith(
-            caches.open(CACHE_NAME).then(cache => {
-                return cache.match(cleanUrl).then(cached => {
+            caches.open(CACHE_NAME).then(cache =>
+                cache.match(clean).then(cached => {
                     if (cached) return cached;
-                    return fetch(event.request).then(networkResponse => {
-                        if (networkResponse.ok) {
-                            cache.put(cleanUrl, networkResponse.clone());
-                        }
-                        return networkResponse;
-                    }).catch(() => {
-                        return new Response(JSON.stringify([]), {
+                    return fetch(event.request).then(resp => {
+                        if (resp.ok) cache.put(clean, resp.clone());
+                        return resp;
+                    }).catch(() =>
+                        new Response(JSON.stringify([]), {
                             headers: { 'Content-Type': 'application/json' }
-                        });
-                    });
-                });
-            })
+                        })
+                    );
+                })
+            )
         );
         return;
     }
 
-    if (isCDNResource(requestUrl)) {
+    // CDN: cache-first
+    if (isCDNResource(reqUrl)) {
         event.respondWith(
             caches.match(event.request).then(cached => {
                 if (cached) return cached;
@@ -172,23 +129,20 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    const cleanUrl = stripQuery(requestUrl);
+    // App shell & everything else: cache-first
+    const clean = stripQuery(reqUrl);
     event.respondWith(
-        caches.open(CACHE_NAME).then(cache => {
-            return cache.match(cleanUrl).then(cached => {
+        caches.open(CACHE_NAME).then(cache =>
+            cache.match(clean).then(cached => {
                 if (cached) return cached;
-                return fetch(event.request).then(networkResponse => {
-                    if (networkResponse.ok && event.request.method === 'GET') {
-                        cache.put(cleanUrl, networkResponse.clone());
-                    }
-                    return networkResponse;
+                return fetch(event.request).then(resp => {
+                    if (resp.ok && event.request.method === 'GET') cache.put(clean, resp.clone());
+                    return resp;
                 }).catch(() => {
-                    if (event.request.mode === 'navigate') {
-                        return cache.match('./index.html');
-                    }
+                    if (event.request.mode === 'navigate') return cache.match('./index.html');
                     return new Response('Offline', { status: 503 });
                 });
-            });
-        })
+            })
+        )
     );
 });

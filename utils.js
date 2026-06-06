@@ -154,12 +154,4 @@ const UTILS = {
   },
 };
 
-async function checkCacheForSubject(subject) {
-  if (!('caches' in window)) return false;
-  try {
-    const cache = await caches.open('lumen-v45');
-    const clean = subject.replace(/\s+/g, '_');
-    const match = await cache.match(`data/chapters/${clean}_ch_2.json`);
-    return !!match;
-  } catch { return false; }
-}
+// Reserved for cache utilities
