@@ -29,13 +29,13 @@
                     <a href="index.html" class="sidebar-nav-item" id="side-home">
                         <i class="fa-solid fa-house"></i><span>ড্যাশবোর্ড (Dashboard)</span>
                     </a>
-                    <a href="subjects.html" class="sidebar-nav-item" id="side-chapter">
+                    <a href="subject.html?mode=chapter" class="sidebar-nav-item" id="side-chapter">
                         <i class="fa-regular fa-folder-open"></i><span>অধ্যায়ভিত্তিক প্রস্তুতি</span>
                     </a>
-                    <a href="subjects.html" class="sidebar-nav-item" id="side-board">
+                    <a href="subject.html?mode=board" class="sidebar-nav-item" id="side-board">
                         <i class="fa-solid fa-building-columns"></i><span>বোর্ড প্রশ্ন প্রস্তুতি</span>
                     </a>
-                    <a href="subjects.html" class="sidebar-nav-item" id="side-cq">
+                    <a href="subject.html?mode=cq" class="sidebar-nav-item" id="side-cq">
                         <i class="fa-solid fa-file-signature"></i><span>সৃজনশীল প্রশ্ন (CQ)</span>
                     </a>
                     <a href="generate.html" class="sidebar-nav-item" id="side-generate">
@@ -80,6 +80,97 @@
             </header>
 
             <main class="app-container">
+
+                <!-- View 1: Subject Picker (shown when no subject selected) -->
+                <div id="subject-picker-view" class="app-view">
+                    <div class="profile-banner">
+                        <div class="profile-header-left">
+                            <div class="profile-avatar-circle">S</div>
+                            <div class="profile-user-info">
+                                <span class="profile-user-name">Sujon</span>
+                                <span class="profile-user-class">Science • HSC 2026</span>
+                            </div>
+                        </div>
+                        <div class="profile-header-right"></div>
+                    </div>
+
+                    <div class="subject-grid">
+                        <div class="subject-card" data-subject="Physics 1st Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Physics 1st Paper</h4>
+                                <p class="subject-card-subtitle">পদার্থবিজ্ঞান ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-subject="Physics 2nd Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Physics 2nd Paper</h4>
+                                <p class="subject-card-subtitle">পদার্থবিজ্ঞান ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-subject="Chemistry 1st Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Chemistry 1st Paper</h4>
+                                <p class="subject-card-subtitle">রসায়ন ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-subject="Chemistry 2nd Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Chemistry 2nd Paper</h4>
+                                <p class="subject-card-subtitle">রসায়ন ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-subject="Math 1st Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Math 1st Paper</h4>
+                                <p class="subject-card-subtitle">উচ্চতর গণিত ১ম পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subject-card" data-subject="Math 2nd Paper">
+                            <div class="subject-card-top">
+                                <h4 class="subject-card-title">Math 2nd Paper</h4>
+                                <p class="subject-card-subtitle">উচ্চতর গণিত ২য় পত্র</p>
+                            </div>
+                            <div class="subject-card-bottom">
+                                <div class="subject-chevron-circle">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- View 2: Subject Dashboard (shown when subject selected) -->
+                <div id="subject-dashboard-view" class="app-view">
 
                 <!-- Subject Banner -->
                 <div class="subj-hub-banner" id="subj-hub-banner">
@@ -149,6 +240,7 @@
                     </div>
                 </div>
 
+                </div><!-- /subject-dashboard-view -->
             </main>
         </div>
     </div>

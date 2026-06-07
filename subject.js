@@ -1,44 +1,64 @@
-// ── Subject metadata (icons + colors + Bengali names) ──
-const SUBJECT_META = {
-    'Physics 1st Paper':  { bn: 'পদার্থবিজ্ঞান ১ম পত্র', icon: 'fa-solid fa-atom',                color: 'linear-gradient(135deg, #6ba5d6 0%, #3a75c4 100%)', shadow: 'rgba(58,117,196,0.35)' },
-    'Physics 2nd Paper':  { bn: 'পদার্থবিজ্ঞান ২য় পত্র', icon: 'fa-solid fa-bolt',                color: 'linear-gradient(135deg, #9b86d9 0%, #684ca3 100%)', shadow: 'rgba(104,76,163,0.35)' },
-    'Chemistry 1st Paper':{ bn: 'রসায়ন ১ম পত্র',         icon: 'fa-solid fa-flask',               color: 'linear-gradient(135deg, #64c2b2 0%, #308f80 100%)', shadow: 'rgba(48,143,128,0.35)' },
-    'Chemistry 2nd Paper':{ bn: 'রসায়ন ২য় পত্র',         icon: 'fa-solid fa-vial',                color: 'linear-gradient(135deg, #e57c82 0%, #b84349 100%)', shadow: 'rgba(184,67,73,0.35)'  },
-    'Math 1st Paper':     { bn: 'উচ্চতর গণিত ১ম পত্র',   icon: 'fa-solid fa-square-root-variable', color: 'linear-gradient(135deg, #f5a65d 0%, #c97322 100%)', shadow: 'rgba(201,115,34,0.35)' },
-    'Math 2nd Paper':     { bn: 'উচ্চতর গণিত ২য় পত্র',   icon: 'fa-solid fa-infinity',            color: 'linear-gradient(135deg, #74b37d 0%, #44804c 100%)', shadow: 'rgba(68,128,76,0.35)'  },
-};
-
 let metaData = {};
-let selectedMode = 'mcq'; // default MCQ selected
-const subject = localStorage.getItem('selectedSubject') || 'Physics 1st Paper';
+let selectedMode = 'mcq';
+let subject = localStorage.getItem('selectedSubject');
 
 document.addEventListener('DOMContentLoaded', () => {
-    if (!localStorage.getItem('selectedSubject')) {
-        window.location.href = 'index.html';
-        return;
+    const params = new URLSearchParams(window.location.search);
+    const modeParam = params.get('mode');
+    if (modeParam) {
+        const modeMap = { chapter: 'chapter', board: 'board', cq: 'cq' };
+        const resolved = modeMap[modeParam];
+        if (resolved) {
+            localStorage.setItem('practiceMode', resolved);
+            localStorage.setItem('boardSelectMode', resolved === 'cq' ? 'cq' : 'mcq');
+        }
     }
 
-    // Restore selected mode on load
     const storedMode = localStorage.getItem('boardSelectMode') || localStorage.getItem('practiceMode');
-    if (storedMode === 'cq') {
-        selectedMode = 'cq';
+    if (storedMode === 'cq') selectedMode = 'cq';
+    else selectedMode = 'mcq';
+
+    const pickerView = document.getElementById('subject-picker-view');
+    const dashboardView = document.getElementById('subject-dashboard-view');
+
+    if (subject) {
+        pickerView.classList.remove('active');
+        dashboardView.classList.add('active');
+        document.getElementById('breadcrumb-subject').textContent = subject;
+        document.title = `LUMEN - ${subject}`;
+        initDashboard();
     } else {
-        selectedMode = 'mcq';
+        pickerView.classList.add('active');
+        dashboardView.classList.remove('active');
+        document.getElementById('breadcrumb-subject').textContent = 'Subject';
+        document.title = 'LUMEN - Subject';
     }
 
-    // Set active class on mode toggle cards dynamically on load
-    document.querySelectorAll('.subj-toggle-card').forEach(c => {
-        if (c.getAttribute('data-mode') === selectedMode) {
-            c.classList.add('active');
+    document.querySelectorAll('.subject-card').forEach(card => {
+        card.addEventListener('click', () => {
+            subject = card.getAttribute('data-subject');
+            localStorage.setItem('selectedSubject', subject);
+            pickerView.classList.remove('active');
+            dashboardView.classList.add('active');
+            document.getElementById('breadcrumb-subject').textContent = subject;
+            document.title = `LUMEN - ${subject}`;
+            initDashboard();
+        });
+    });
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+        if (subject) {
+            subject = null;
+            localStorage.removeItem('selectedSubject');
+            dashboardView.classList.remove('active');
+            pickerView.classList.add('active');
+            document.getElementById('breadcrumb-subject').textContent = 'Subject';
+            document.title = 'LUMEN - Subject';
         } else {
-            c.classList.remove('active');
+            window.location.href = 'index.html';
         }
     });
 
-    // Back button
-    document.getElementById('back-btn').addEventListener('click', () => window.location.href = 'index.html');
-
-    // Mobile sidebar
     const sidebar = document.getElementById('sidebar');
     document.getElementById('menu-toggle').addEventListener('click', () => sidebar.classList.toggle('open'));
     document.querySelector('.main-workspace').addEventListener('click', (e) => {
@@ -46,14 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
             sidebar.classList.remove('open');
     });
 
-    // Sidebar navigation mode links
     const handleSidebarNavigation = (targetMode, cqSubMode) => {
-        localStorage.setItem('selectedSubject', subject);
-        localStorage.removeItem('selectedChapter');
-        localStorage.removeItem('selectedChapterId');
-        localStorage.removeItem('selectedYear');
-        localStorage.removeItem('selectedBoard');
-
+        if (subject) localStorage.setItem('selectedSubject', subject);
         if (targetMode === 'cq') {
             localStorage.setItem('practiceMode', 'cq');
             localStorage.setItem('cqSubMode', cqSubMode || 'chapter');
@@ -61,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (cqSubMode === 'board') {
                 window.location.href = 'board-select.html';
             } else {
-                // Just toggle the view if already on subject.html
                 selectedMode = 'cq';
                 document.querySelectorAll('.subj-toggle-card').forEach(c => c.classList.remove('active'));
                 const cqCard = document.getElementById('toggle-cq');
@@ -73,7 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (targetMode === 'board') {
                 window.location.href = 'board-select.html';
             } else {
-                // Just toggle the view if already on subject.html
                 selectedMode = 'mcq';
                 document.querySelectorAll('.subj-toggle-card').forEach(c => c.classList.remove('active'));
                 const mcqCard = document.getElementById('toggle-mcq');
@@ -106,10 +118,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Render subject banner
+    UTILS.initInstallPrompt();
+});
+
+function initDashboard() {
     renderBanner();
 
-    // Mode toggle cards (MCQ / CQ)
+    document.querySelectorAll('.subj-toggle-card').forEach(c => {
+        if (c.getAttribute('data-mode') === selectedMode) {
+            c.classList.add('active');
+        } else {
+            c.classList.remove('active');
+        }
+    });
+
     document.querySelectorAll('.subj-toggle-card').forEach(card => {
         card.addEventListener('click', () => {
             selectedMode = card.getAttribute('data-mode');
@@ -120,18 +142,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Board big card → go to board-select page
     document.getElementById('card-board').addEventListener('click', () => {
         localStorage.setItem('selectedSubject', subject);
         localStorage.setItem('practiceMode', selectedMode === 'cq' ? 'cq' : 'board');
-        // Store mode for board-select page
         localStorage.setItem('boardSelectMode', selectedMode);
         window.location.href = 'board-select.html';
     });
 
-    UTILS.initInstallPrompt();
-
-    // Load meta.json and render chapters
     fetch('data/meta.json?t=' + Date.now())
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(data => { metaData = data; renderChapterList(); })
@@ -143,10 +160,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p style="color:#ef4444;font-weight:700;margin-top:10px;">ডেটা লোড করতে ব্যর্থ — সার্ভার চলছে কিনা দেখুন।</p>
                 </div>`;
         });
-});
+}
 
 function renderBanner() {
-    const meta = SUBJECT_META[subject] || SUBJECT_META['Physics 1st Paper'];
+    const meta = UTILS.SUBJECT_META[subject] || UTILS.SUBJECT_META['Physics 1st Paper'];
     const banner = document.getElementById('subj-hub-banner');
     banner.style.background = meta.color;
     banner.style.boxShadow = `0 12px 30px -8px ${meta.shadow}`;
@@ -191,7 +208,6 @@ function renderChapterList() {
                 <i class="fa-solid fa-chevron-right"></i>
             </div>`;
         item.addEventListener('click', () => {
-            // Go directly to MCQ or CQ using selected mode
             localStorage.setItem('selectedSubject', subject);
             localStorage.setItem('selectedChapter', ch.name);
             localStorage.setItem('selectedChapterId', ch.id);
@@ -254,5 +270,3 @@ async function loadChapterCounts() {
     });
     await Promise.allSettled(fetches);
 }
-
-
