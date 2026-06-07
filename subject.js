@@ -149,6 +149,8 @@ function initDashboard() {
         window.location.href = 'board-select.html';
     });
 
+    renderAnalytics();
+
     fetch('data/meta.json?t=' + Date.now())
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(data => { metaData = data; renderChapterList(); })
@@ -160,6 +162,78 @@ function initDashboard() {
                     <p style="color:#ef4444;font-weight:700;margin-top:10px;">ডেটা লোড করতে ব্যর্থ — সার্ভার চলছে কিনা দেখুন।</p>
                 </div>`;
         });
+}
+
+function renderAnalytics() {
+    const progress = UTILS.getProgress();
+    const prefix = subject + '|';
+    const chapterData = [];
+
+    for (const key in progress) {
+        if (!key.startsWith(prefix)) continue;
+        const chapterName = key.slice(prefix.length);
+        const { correct, total } = progress[key];
+        if (total === 0) continue;
+        chapterData.push({
+            name: chapterName,
+            correct,
+            total,
+            pct: Math.round((correct / total) * 100)
+        });
+    }
+
+    if (chapterData.length === 0) {
+        document.getElementById('analytics-section').style.display = 'none';
+        return;
+    }
+
+    document.getElementById('analytics-section').style.display = '';
+
+    const totalTests = chapterData.reduce((s, c) => s + c.total, 0);
+    const totalCorrect = chapterData.reduce((s, c) => s + c.correct, 0);
+    const avgPct = Math.round((totalCorrect / totalTests) * 100);
+
+    chapterData.sort((a, b) => b.pct - a.pct);
+    const best = chapterData[0];
+    const weak = chapterData[chapterData.length - 1];
+
+    document.getElementById('ana-tests').textContent = totalTests;
+    document.getElementById('ana-avg').textContent = avgPct + '%';
+
+    const bestLabel = best.name.includes(':') ? best.name.split(':')[1].trim() : best.name;
+    const weakLabel = weak.name.includes(':') ? weak.name.split(':')[1].trim() : weak.name;
+    document.getElementById('ana-best').textContent = best.pct >= 100 ? bestLabel : `${bestLabel} (${best.pct}%)`;
+    document.getElementById('ana-weak').textContent = weakLabel;
+
+    document.getElementById('ana-best').title = `${best.correct}/${best.total} - ${best.name}`;
+    document.getElementById('ana-weak').title = `${weak.correct}/${weak.total} - ${weak.name}`;
+
+    renderChapterChart(chapterData);
+}
+
+function renderChapterChart(chapterData) {
+    const container = document.getElementById('analytics-chart');
+    const maxPct = 100;
+
+    chapterData.sort((a, b) => {
+        const numA = parseInt(a.name.match(/Chapter\s*(\d+)/)?.[1] || '0');
+        const numB = parseInt(b.name.match(/Chapter\s*(\d+)/)?.[1] || '0');
+        return numA - numB;
+    });
+
+    container.innerHTML = chapterData.map(ch => {
+        const shortName = ch.name.includes(':') ? ch.name.split(':')[1].trim() : ch.name;
+        const color = ch.pct >= 70 ? '#10b981' : ch.pct >= 40 ? '#f59e0b' : '#ef4444';
+        return `
+            <div class="chart-row">
+                <span class="chart-label" title="${ch.name}">${shortName}</span>
+                <div class="chart-bar-wrap">
+                    <div class="chart-bar" style="width:${ch.pct}%;background:${color};" title="${ch.correct}/${ch.total} (${ch.pct}%)"></div>
+                </div>
+                <span class="chart-value">${ch.pct}%</span>
+            </div>
+        `;
+    }).join('');
 }
 
 function renderBanner() {

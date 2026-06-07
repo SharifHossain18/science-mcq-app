@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v51';
+const CACHE_NAME = 'lumen-v54';
 const DATA_CACHE = 'lumen-data-v1';
 
 const APP_SHELL = [
@@ -19,6 +19,8 @@ const APP_SHELL = [
     './board-select.js',
     './generate.js',
     './exam.js',
+    './mover.html',
+    './mover.js',
     './sw-register.js',
     './manifest.json',
     './app-icon.jpeg',

@@ -50,6 +50,9 @@
                     <a href="exam.html" class="sidebar-nav-item" id="side-exam">
                         <i class="fa-solid fa-graduation-cap"></i><span>পরীক্ষা মোড (Exam)</span>
                     </a>
+                    <a href="mover.html" class="sidebar-nav-item" id="side-mover">
+                        <i class="fa-solid fa-arrows-spin"></i><span>প্রশ্ন স্থানান্তর (Mover)</span>
+                    </a>
                 </nav>
             </div>
 
@@ -121,6 +124,18 @@
                     <div class="home-section-header">
                         <h2 class="home-section-title">বিষয় নির্বাচন করুন</h2>
                         <span class="home-section-subtitle">Select a subject to start practicing</span>
+                    </div>
+
+                    <!-- Data Download Banner (shown when data not yet cached) -->
+                    <div id="data-download-banner" class="data-dl-banner" style="display:none;">
+                        <div class="dl-banner-content">
+                            <div class="dl-banner-icon"><i class="fa-solid fa-download"></i></div>
+                            <div class="dl-banner-text">
+                                <strong>সমস্ত ডাটা ডাউনলোড করুন</strong>
+                                <span>অফলাইনে ব্যবহারের জন্য এখনই সব প্রশ্ন ডাউনলোড করুন</span>
+                            </div>
+                            <button class="dl-banner-btn" id="start-dl-btn">শুরু করুন</button>
+                        </div>
                     </div>
 
                     <!-- 6 Subject Cards Grid (2 per row) -->
