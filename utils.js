@@ -23,6 +23,23 @@ const UTILS = {
     document.querySelectorAll('.profile-user-name').forEach(el => el.textContent = p.name);
     document.querySelectorAll('.profile-user-class').forEach(el => el.textContent = `${p.group} • ${p.education} ${p.year}`);
   },
+  getProfilePhoto() {
+    try { return localStorage.getItem('lumen_profile_photo'); } catch { return null; }
+  },
+  saveProfilePhoto(dataUrl) {
+    try { localStorage.setItem('lumen_profile_photo', dataUrl); } catch {}
+  },
+  renderProfilePhoto() {
+    const photo = this.getProfilePhoto();
+    document.querySelectorAll('.profile-avatar, .profile-avatar-circle').forEach(el => {
+      if (photo) {
+        el.innerHTML = `<img src="${photo}" alt="Avatar" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">`;
+      } else {
+        const p = this.getProfile();
+        if (el.innerHTML.includes('<img')) el.innerHTML = p?.name?.charAt(0)?.toUpperCase() || '?';
+      }
+    });
+  },
   showSetupModal() {
     if (this.getProfile()) return;
     const overlay = document.createElement('div');
@@ -35,6 +52,15 @@ const UTILS = {
         <div class="setup-field">
           <label><i class="fa-solid fa-user"></i> আপনার নাম</label>
           <input class="setup-input" id="setup-name" placeholder="যেমন: Sujon" autocomplete="off">
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-camera"></i> প্রোফাইল ছবি (ঐচ্ছিক)</label>
+          <div style="display:flex;align-items:center;gap:12px;">
+            <div class="profile-avatar-thumb" id="setup-photo-preview" style="width:48px;height:48px;border-radius:50%;background:var(--primary-light);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;color:var(--primary-blue);flex-shrink:0;">?</div>
+            <button type="button" class="setup-btn setup-btn-secondary" id="setup-photo-btn" style="flex:1;padding:8px;font-size:0.85rem;">ছবি আপলোড</button>
+            <button type="button" class="setup-btn setup-btn-danger" id="setup-photo-remove" style="padding:8px;font-size:0.85rem;display:none;"><i class="fa-solid fa-trash-can"></i></button>
+          </div>
+          <input type="file" id="setup-photo-input" accept="image/*" style="display:none;">
         </div>
         <div class="setup-field">
           <label><i class="fa-solid fa-graduation-cap"></i> শিক্ষা স্তর</label>
@@ -67,6 +93,25 @@ const UTILS = {
       if (y === cy) opt.selected = true;
       yearSel.appendChild(opt);
     }
+    let setupPhotoData = null;
+    document.getElementById('setup-photo-btn').addEventListener('click', () => document.getElementById('setup-photo-input').click());
+    document.getElementById('setup-photo-input').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        setupPhotoData = ev.target.result;
+        document.getElementById('setup-photo-preview').innerHTML = `<img src="${setupPhotoData}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
+        document.getElementById('setup-photo-remove').style.display = '';
+      };
+      reader.readAsDataURL(file);
+    });
+    document.getElementById('setup-photo-remove').addEventListener('click', () => {
+      setupPhotoData = null;
+      document.getElementById('setup-photo-preview').innerHTML = (document.getElementById('setup-name').value.trim().charAt(0).toUpperCase() || '?');
+      document.getElementById('setup-photo-remove').style.display = 'none';
+      document.getElementById('setup-photo-input').value = '';
+    });
     document.getElementById('setup-save').addEventListener('click', () => {
       const name = document.getElementById('setup-name').value.trim();
       if (!name) { this.showToast('অনুগ্রহ করে আপনার নাম লিখুন', 'error'); return; }
@@ -74,8 +119,11 @@ const UTILS = {
       const year = document.getElementById('setup-year').value;
       const group = document.querySelector('input[name="setup-group"]:checked')?.value || 'Science';
       this.saveProfile({ name, education: edu, year, group });
+      if (setupPhotoData) this.saveProfilePhoto(setupPhotoData);
+      else localStorage.removeItem('lumen_profile_photo');
       overlay.remove();
       this.renderProfile();
+      this.renderProfilePhoto();
     });
     overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
   },
@@ -91,6 +139,15 @@ const UTILS = {
         <div class="setup-field">
           <label><i class="fa-solid fa-user"></i> আপনার নাম</label>
           <input class="setup-input" id="settings-name" value="${p.name}" autocomplete="off">
+        </div>
+        <div class="setup-field">
+          <label><i class="fa-solid fa-camera"></i> প্রোফাইল ছবি (ঐচ্ছিক)</label>
+          <div style="display:flex;align-items:center;gap:12px;">
+            <div class="profile-avatar-thumb" id="settings-photo-preview" style="width:48px;height:48px;border-radius:50%;background:var(--primary-light);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;color:var(--primary-blue);flex-shrink:0;">${(p.name||'?').charAt(0).toUpperCase()}</div>
+            <button type="button" class="setup-btn setup-btn-secondary" id="settings-photo-btn" style="flex:1;padding:8px;font-size:0.85rem;">ছবি পরিবর্তন</button>
+            <button type="button" class="setup-btn setup-btn-danger" id="settings-photo-remove" style="padding:8px;font-size:0.85rem;">সরান</button>
+          </div>
+          <input type="file" id="settings-photo-input" accept="image/*" style="display:none;">
         </div>
         <div class="setup-field">
           <label><i class="fa-solid fa-graduation-cap"></i> শিক্ষা স্তর</label>
@@ -129,6 +186,28 @@ const UTILS = {
       if (String(y) === p.year) opt.selected = true;
       yearSel.appendChild(opt);
     }
+    const savedPhoto = this.getProfilePhoto();
+    if (savedPhoto) {
+      document.getElementById('settings-photo-preview').innerHTML = `<img src="${savedPhoto}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
+    }
+    document.getElementById('settings-photo-btn').addEventListener('click', () => document.getElementById('settings-photo-input').click());
+    document.getElementById('settings-photo-input').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        this.saveProfilePhoto(ev.target.result);
+        document.getElementById('settings-photo-preview').innerHTML = `<img src="${ev.target.result}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
+        this.renderProfilePhoto();
+      };
+      reader.readAsDataURL(file);
+    });
+    document.getElementById('settings-photo-remove').addEventListener('click', () => {
+      localStorage.removeItem('lumen_profile_photo');
+      document.getElementById('settings-photo-preview').innerHTML = (document.getElementById('settings-name').value.trim().charAt(0).toUpperCase() || '?');
+      document.getElementById('settings-photo-input').value = '';
+      this.renderProfilePhoto();
+    });
     document.getElementById('settings-save').addEventListener('click', () => {
       const name = document.getElementById('settings-name').value.trim();
       if (!name) { this.showToast('অনুগ্রহ করে আপনার নাম লিখুন', 'error'); return; }
@@ -138,6 +217,7 @@ const UTILS = {
       this.saveProfile({ name, education: edu, year, group });
       overlay.remove();
       this.renderProfile();
+      this.renderProfilePhoto();
       this.showToast('প্রোফাইল আপডেট করা হয়েছে', 'success');
     });
     document.getElementById('settings-close').addEventListener('click', () => overlay.remove());
@@ -347,6 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     UTILS.showSetupModal();
   } else {
     UTILS.renderProfile();
+    UTILS.renderProfilePhoto();
   }
   document.querySelectorAll('[data-action="settings"]').forEach(el => {
     el.addEventListener('click', (e) => {
