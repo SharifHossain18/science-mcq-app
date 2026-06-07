@@ -40,10 +40,10 @@
         }, 3000);
     }
 
-    // Load metadata from API
+    // Load metadata from static meta.json
     async function loadMetadata() {
         try {
-            const res = await fetch('/api/metadata?t=' + Date.now());
+            const res = await fetch('./data/meta.json?t=' + Date.now());
             if (!res.ok) throw new Error("Failed to load metadata");
             metadata = await res.json();
             
@@ -203,17 +203,17 @@
 
         if (mode === 'mcq') {
             // MCQ: load from data/chapters/<Subject>_<chapterId>.json
-            url = `/data/chapters/${cleanSub}_${sourceVal}.json`;
+            url = `./data/chapters/${cleanSub}_${sourceVal}.json`;
         } else {
             // CQ: load from either chapters or boards
             if (sourceVal.startsWith('chapter_')) {
                 const chId = sourceVal.replace('chapter_', '');
-                url = `/data/cq/chapters/${cleanSub}_${chId}.json`;
+                url = `./data/cq/chapters/${cleanSub}_${chId}.json`;
             } else if (sourceVal.startsWith('board_')) {
                 const parts = sourceVal.replace('board_', '').split('_');
                 const year = parts[0];
                 const board = parts.slice(1).join('_');
-                url = `/data/cq/boards/${cleanSub}_${year}_${board}.json`;
+                url = `./data/cq/boards/${cleanSub}_${year}_${board}.json`;
             }
         }
 
