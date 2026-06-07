@@ -9,9 +9,6 @@ let state = {
     showAnswers: false
 };
 let userProgress = {};
-let timerInterval = null;
-let secondsElapsed = 0;
-
 document.addEventListener('DOMContentLoaded', () => {
     if (!state.subject || (state.mode === 'chapter' && !state.chapter) || (state.mode === 'board' && (!state.year || !state.board))) {
         window.location.href = state.subject ? 'subject.html' : 'index.html';
@@ -53,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     document.getElementById('back-btn').addEventListener('click', () => {
-        stopTimer();
         if (state.mode === 'board') window.location.href = 'board-select.html';
         else { localStorage.removeItem('selectedChapter'); localStorage.removeItem('selectedChapterId'); window.location.href = 'subject.html'; }
     });
@@ -142,8 +138,6 @@ function renderMCQs() {
     }
 
     userProgress = {};
-    secondsElapsed = 0;
-    startTimer();
 
     const totalQ = filteredData.length;
     const letters = ['a', 'b', 'c', 'd'];
@@ -154,7 +148,6 @@ function renderMCQs() {
             <div class="score-label">সঠিক উত্তর</div>
             <div class="score-detail" id="score-detail"></div>
         </div>
-        <div class="quiz-timer" id="quiz-timer"><i class="fa-solid fa-clock"></i> <span id="timer-display">00:00</span></div>
         <input class="quiz-search" id="quiz-search" type="text" placeholder="🔍 প্রশ্ন সার্চ করুন..." autocomplete="off">
         <div id="mcq-list" class="mcq-list"></div>
     `;
@@ -254,36 +247,7 @@ function updateScoreCard() {
         if (answered === total) {
             const pct = Math.round((correct / total) * 100);
             scoreDetail.textContent = `সম্পন্ন! ${correct}/${total} (${pct}%)`;
-            stopTimer();
         }
-    }
-}
-
-function startTimer() {
-    stopTimer();
-    secondsElapsed = 0;
-    updateTimerDisplay();
-    timerInterval = setInterval(() => {
-        secondsElapsed++;
-        updateTimerDisplay();
-    }, 1000);
-}
-
-function stopTimer() {
-    if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
-}
-
-function updateTimerDisplay() {
-    const el = document.getElementById('timer-display');
-    if (!el) return;
-    const mins = String(Math.floor(secondsElapsed / 60)).padStart(2, '0');
-    const secs = String(secondsElapsed % 60).padStart(2, '0');
-    el.textContent = `${mins}:${secs}`;
-    const timer = document.getElementById('quiz-timer');
-    if (timer) {
-        if (secondsElapsed > 600) timer.className = 'quiz-timer danger';
-        else if (secondsElapsed > 300) timer.className = 'quiz-timer warning';
-        else timer.className = 'quiz-timer';
     }
 }
 
