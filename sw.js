@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v54';
+const CACHE_NAME = 'lumen-v55';
 const DATA_CACHE = 'lumen-data-v1';
 
 const APP_SHELL = [
@@ -38,6 +38,13 @@ const CDN_URLS = [
     'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js'
 ];
 
+const CDN_PREFIXES = [
+    'https://fonts.googleapis.com/',
+    'https://fonts.gstatic.com/',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/',
+    'https://cdn.jsdelivr.net/npm/katex@'
+];
+
 function stripQuery(urlStr) {
     try {
         return new URL(urlStr).origin + new URL(urlStr).pathname;
@@ -52,13 +59,20 @@ function isDataRequest(url) {
 }
 
 function isCDN(url) {
-    return CDN_URLS.some(cdn => url.startsWith(cdn));
+    return CDN_PREFIXES.some(prefix => url.startsWith(prefix));
 }
 
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
+        caches.open(CACHE_NAME).then(cache => {
+            return Promise.all([
+                cache.addAll(APP_SHELL),
+                cache.addAll(CDN_URLS)
+            ]).catch(err => {
+                console.error('Pre-caching failed during service worker installation:', err);
+            });
+        })
     );
 });
 

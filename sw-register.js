@@ -40,10 +40,5 @@ function showUpdateBanner() {
 function applyUpdate() {
     const banner = document.getElementById('sw-update-banner');
     if (banner) banner.remove();
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then(regs => {
-            regs.forEach(reg => reg.unregister());
-        });
-    }
     window.location.reload();
 }
