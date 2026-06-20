@@ -1,5 +1,5 @@
-const CACHE_NAME = 'lumen-v55';
-const DATA_CACHE = 'lumen-data-v1';
+const CACHE_NAME = 'lumen-v56';
+const DATA_CACHE = 'lumen-data-v2';
 
 const APP_SHELL = [
     './',
@@ -62,6 +62,12 @@ function isCDN(url) {
     return CDN_PREFIXES.some(prefix => url.startsWith(prefix));
 }
 
+self.addEventListener('message', event => {
+    if (event.data && event.data.type === 'SKIP_WAITING') {
+        self.skipWaiting();
+    }
+});
+
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
@@ -95,17 +101,17 @@ self.addEventListener('fetch', event => {
         const clean = stripQuery(reqUrl);
         event.respondWith(
             caches.open(DATA_CACHE).then(cache =>
-                cache.match(clean).then(cached => {
-                    if (cached) return cached;
-                    return fetch(event.request).then(resp => {
-                        if (resp.ok) cache.put(clean, resp.clone());
-                        return resp;
-                    }).catch(() =>
-                        new Response(JSON.stringify([]), {
+                fetch(event.request).then(resp => {
+                    if (resp.ok) cache.put(clean, resp.clone());
+                    return resp;
+                }).catch(() =>
+                    cache.match(clean).then(cached => {
+                        if (cached) return cached;
+                        return new Response(JSON.stringify([]), {
                             headers: { 'Content-Type': 'application/json' }
-                        })
-                    );
-                })
+                        });
+                    })
+                )
             )
         );
         return;
