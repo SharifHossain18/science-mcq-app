@@ -259,7 +259,7 @@ function renderChapterList() {
     }
 
     listEl.innerHTML = '';
-    const chapters = subjectMeta.chapters.filter(ch => ch && ch.name && ch.id !== 'ch_1' && ch.name.toLowerCase() !== 'general');
+    const chapters = subjectMeta.chapters.filter(ch => ch && ch.name);
 
     chapters.forEach(ch => {
         let chapterNum = 'Chapter';

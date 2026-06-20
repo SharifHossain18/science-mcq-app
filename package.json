@@ -2,9 +2,9 @@
   "name": "science-mcq-app",
   "version": "1.0.0",
   "description": "Science MCQ & CQ app with admin question mover",
-  "main": "moveQuestion.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "node moveQuestion.js"
+    "start": "npx http-server . -p 8080 -c-1 --cors"
   },
   "author": "",
   "license": "MIT",

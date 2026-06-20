@@ -1,0 +1,402 @@
+[
+  {
+    "id": 9020,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 2: কোষ বিভাজন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "হোমোলোগাস ক্রোমোসোমের জোড় বাঁধার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "কায়াজমা",
+      "বাইভ্যালেন্ট",
+      "ক্রসিং ওভার",
+      "সিন্যাপসিস"
+    ],
+    "answer": "সিন্যাপসিস",
+    "explanation": ""
+  },
+  {
+    "id": 9021,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "নিচের কোনটি ক্লোরোপ্লাস্টের কাজ ?",
+    "options": [
+      "খাদ্য সঞ্চয় করা",
+      "বীজের বিস্তারে সাহায্য করা",
+      "খাদ্য প্রস্তুত করা",
+      "গ্লুকোজকে শ্বেতসারে পরিণত করা"
+    ],
+    "answer": "খাদ্য প্রস্তুত করা",
+    "explanation": ""
+  },
+  {
+    "id": 9022,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>উপরের চিত্রে A এর মান কত 'S' হবে?</p>",
+    "options": [
+      "৩০",
+      "৬০",
+      "৪০",
+      "৭০"
+    ],
+    "answer": "৩০",
+    "explanation": ""
+  },
+  {
+    "id": 9023,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের চিত্রটি লক্ষ্য করো এবং  প্রশ্নের উত্তর দাও :</p><p><img src=\"https://studyplex.sgp1.digitaloceanspaces.com/mcq-question/iAFQZaAxNilKSEeTKjQ0hXTRR0egd6mK.PNG\"></p><p>'D' চিহ্নিত অংশের নাম কী?</p>",
+    "options": [
+      "টিউবিউলস",
+      "সিস্টারনি",
+      "ভেসিক্‌",
+      "ভ্যাকুওল"
+    ],
+    "answer": "সিস্টারনি",
+    "explanation": ""
+  },
+  {
+    "id": 9024,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p><img src=\"https://studyplex.sgp1.digitaloceanspaces.com/mcq-question/iAFQZaAxNilKSEeTKjQ0hXTRR0egd6mK.PNG\"></p><p><br></p><p>উপরের চিত্রের বৈশিষ্ট্য হলো—</p><p><br/>i. লাইসোজোম গঠন করে </p><p><br/>ii. কোষ প্লেট তৈরি করে</p><p><br/>iii. ফ্যাগোসাইটোসিসে সহায়তা করে</p><p><br></p><p>﻿নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 9025,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 4: অণুজীব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "নিচের কোনটি ইমার্জিং ভাইরাস?",
+    "options": [
+      "BMV",
+      "HIV",
+      "TMV",
+      "TIV"
+    ],
+    "answer": "HIV",
+    "explanation": ""
+  },
+  {
+    "id": 9026,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 7: নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "ধানে কোন ধরনের ফল দেখা যায়?",
+    "options": [
+      "ক্যাপসুল",
+      "বেরি",
+      "সিলিকুয়া",
+      "ক্যারিঅপসিস"
+    ],
+    "answer": "ক্যারিঅপসিস",
+    "explanation": "<p>ক্যাপসুল (Capsule): ফল উপর থেকে নিচে বহু কপাটে বিদীর্ণ হয়। যেমন- ধুতুরা, ঢেঁড়স, পাট। </p><p>ক্যারিঅপসিস (Caryopsis): ফল এক প্রকোষ্ঠবিশিষ্ট এবং একটি মাত্র বীজযুক্ত। ফলত্বক ও বীজত্বক পরস্পর সংলগ্ন থাকে। যেমন- ধান। </p><p>সিলিকুয়া (Siliqua): শুদ্ধ বিদারী ফল যা পরিপক্ষ হলে নিচ থেকে উপরের দিকে ক্রমশ ফেটে যায়। এই ফল লম্বা ও নলাকার হয়। যেমন- সরিষা।</p><p>বেরি (Berry): ফল এক বা একাধিক গর্ভপত্রী এবং বহুবীজী। অন্তত্বক ও মধ্যত্বক সংযুক্ত থাকে। যেমন- কলা, টমেটো।</p>"
+  },
+  {
+    "id": 9027,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 7: নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>Malvaceae গোত্রে পাওয়া যায়—</p><p><br/>i. মুক্ত পার্শ্বীয় উপপত্র</p><p><br/>ii. একগুচ্ছক পুংকেশর </p><p><br/>iii. অক্ষীয় অমরাবিন্যাস</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 9028,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 11: জীবপ্রযুক্তি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও :</p><p><br></p><p>এক্সপ্লান্ট নির্বাচন → আবাদ মাধ্যম তৈরি → A → B→  C→  D → চারা টবে স্থানান্তর </p><p><br></p><p>Q. উদ্দীপকের A ধাপ কোনটি?</p>",
+    "options": [
+      "ক্যালাস সৃষ্টি",
+      "মিডিয়ামে এক্সপ্লান্ট স্থাপন",
+      "মূল সৃষ্টি",
+      "জীবাণুমুক্তকরণ"
+    ],
+    "answer": "জীবাণুমুক্তকরণ",
+    "explanation": ""
+  },
+  {
+    "id": 9029,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 11: জীবপ্রযুক্তি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও :</p><p><br></p><p>এক্সপ্লান্ট নির্বাচন → আবাদ মাধ্যম তৈরি → A → B→ C→ D → চারা টবে স্থানান্তর</p><p><br></p><p><br></p><p>উদ্দীপকের প্রক্রিয়ার প্রয়োগ— </p><p><br/>i. রোগমুক্ত উদ্ভিদ সৃষ্টি</p><p><br/>ii. ট্রান্সজেনিক উদ্ভিদ উৎপাদন </p><p><br/>iii. বিলুপ্তপ্রায় উদ্ভিদ সংরক্ষণ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 9030,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "সালোকসংশ্লেষণে ব্যবহৃত আলোর সবচেয়ে কার্যকরী বর্ণালি কোনটি?",
+    "options": [
+      "সবুজ",
+      "লাল",
+      "বেগুনী",
+      "হলুদ"
+    ],
+    "answer": "লাল",
+    "explanation": ""
+  },
+  {
+    "id": 9031,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 11: জীবপ্রযুক্তি",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "ট্রান্সজেনিক ক্লোভার ঘাসে নিচের কোন উপাদানটি  উৎপাদনকারী জিন সংযোজন করা হয়েছে?",
+    "options": [
+      "সালফার",
+      "জিঙ্ক",
+      "আয়রন",
+      "কপার"
+    ],
+    "answer": "সালফার",
+    "explanation": ""
+  },
+  {
+    "id": 9032,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>অবাত শ্বসনের ক্ষেত্রে প্রযোজ্য-</p><p><br/>i.  ল্যাকটিক এসিড তৈরি হয়i</p><p><br/>ii.  ইস্টে প্রক্রিয়াটি সংঘটিত হয়</p><p><br/>iii. অক্সিজেনের প্রয়োজন হয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 9033,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 4: অণুজীব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>ম্যালেরিয়া পরজীবীর মশকীর দেহে সংঘটিত যৌন জননের সময়কালকে দুটি পর্যায়ে ভাগ। করা যায়: যথা- (ক) গ্যামিটোগোনি এবং  (খ) স্পোরোগোনি।</p><p><br></p><p>Q. উদ্দীপকের ‘খ’ পর্যায়ে নিচের কোন গঠনটির সৃষ্টি হয়?</p>",
+    "options": [
+      "গ্যামিট",
+      "উওকিনেট",
+      "জাইগোট",
+      "স্পোরোজয়েট"
+    ],
+    "answer": "স্পোরোজয়েট",
+    "explanation": ""
+  },
+  {
+    "id": 9034,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 4: অণুজীব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>ম্যালেরিয়া পরজীবীর মশকীর দেহে সংঘটিত যৌন জননের সময়কালকে দুটি পর্যায়ে ভাগ। করা যায়: যথা- (ক) গ্যামিটোগোনি এবং  (খ) স্পোরোগোনি।</p><p><br></p><p>Q. উদ্দীপকের ‘ক' পর্যায়ের বৈশিষ্ট্য—</p><p><br/>i. মশকীর ক্রুপের অভ্যন্তরে ঘটে</p><p><br/>ii. স্ত্রী গ্যামেটে কোণ সৃষ্টি হয়</p><p><br/>iii. এক্সফ্লাজেলেশন সম্পন্ন হয় </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 9035,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 2: কোষ বিভাজন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "মাইটোসিস কোষ বিভাজনের কোন ধাপে স্পিন্ডল যন্ত্রের সৃষ্টি হয়?",
+    "options": [
+      "প্রোফেজ",
+      "মেটাফেজ",
+      "<p>প্রো-মেটাফেজ</p>",
+      "এনাফেজ"
+    ],
+    "answer": "<p>প্রো-মেটাফেজ</p>",
+    "explanation": "<p>মাইটোসিস কোষ বিভাজনের প্রোফেজের একেবারে শেষদিকে উদ্ভিদকোষে কতগুলো তন্তুময় প্রোটিনের সমন্বয়ে দু'মেরুযুক্ত স্পিন্ডল যন্ত্রের সৃষ্টি হয়। প্রো-মেটাফেজ পর্যায়ের প্রথম দিকেই স্পিন্ডল যন্ত্রের তন্তুগুলোর আঘাতে নিউক্লিয়ার এনভেলপ বিলুপ্ত হতে থাকে এবং এক সময় বিলুপ্ত হয়ে যায়।</p>"
+  },
+  {
+    "id": 9036,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "ধানের ক্রোমোসোম সংখ্যা কত?",
+    "options": [
+      "২৪",
+      "৪০",
+      "২৮",
+      "৪২"
+    ],
+    "answer": "২৪",
+    "explanation": "<p>(i) ধান (Oryza sativa) এবং টমেটো (Lycopersicon esculentum) এর ক্রোমোসোম সংখ্যা- ২৪</p><p>(ii) তামাকের (Nicotina tabacum) এর ক্রোমোসোম সংখ্যা-২৮</p><p>(iii) চীনা বাদামের (Arachis hypogaea) এর ক্রোমোসোম সংখ্যা- ৪০</p><p>(iv) গমের (Triticum aestivum) এর ক্রোমোসোম সংখ্যা- ৪২</p>"
+  },
+  {
+    "id": 9037,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>সালোকসংশ্লেষণে লিমিটিং ফ্যাক্টর হলো-</p><p><br/>i. খনিজ লবণ পরিশোষণ </p><p><br/>ii. আলোর তীব্রতা </p><p><br/>iii. CO<sub>2</sub> এর ঘনত্ব</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 9038,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড়ো এবং প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACGCAYAAAB9lADuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAACXnSURBVHhe7d0F1G1F+QbwKwtFLh0KiIoBxrUIAyREFBQTFQMBuzuwEBUUbAXBVhC7AwsUFcHCxha7u7vnv37Dee5/OPd896tz+fY5337WmrVrZsc7z7zzzjuxV5QePSYYPYF7TDR6AveYaPQE7jHR6AncY6LRE7jHRKMncI+JRk/gHhONnsAXMf7whz+Uv/zlL4OjHovFRBD4z3/+c/nvf/87OJobPvaxj5Wvf/3rg6Olx1e/+tVyr3vdq2y77bblfe973+Ds2vGNb3yjPPvZzy4PfOADy6Mf/ejyrne9q/z9738vZ5xxxtgLwb///e/ytre9rcp6kjARBD755JPLpz/96cHR7JC5+++/f3nMYx4zODN+/OlPf5pXZv/zn/8sr3nNa8omm2wyK4F/97vflQc84AFl1113LW984xvLL3/5y/KTn/ykvOIVryi77bZbue51r1t+8YtfDGKPB5/73OfKla985fLhD394cGYysGACE+CrX/3q8tOf/nRwZjR+9atflRNOOKE89alPnTWcdtppq9O49+te97ry+9//vjz/+c8ve+65Z3nuc59bfv7zn9c4a4NMQJSrXOUq5Qc/+MHg7HjhXT75yU8OjuaGM888s2y11VZrJbDCd6c73am++7e//e3B2f+HgrzvvvuWH/7wh4Mz48FjH/vYsmLFinLPe96z/Oc//xmc7T4WTOAXv/jF9YMPO+ywWUn13ve+tzzrWc8qL3/5y8tLXvKScu9737vc5S53qSRw7klPelLVLK961avK+eefX65xjWvUDNx7773LbW5zmxpPptJAs2liwn/Qgx5U41/iEpeozxs33vnOd5YrXOEK5ROf+MTgzNwwFwK/8pWvrO99/PHHD86siRNPPLHKaVxQyG9729uWG97whmX77bev5s6kYMEEph1ogvXWW69+tEydCQR03HHHVXK96EUvKuuvv34lP5J+5jOfKZ/61KfK7W53u6p9nvzkJ5frXe96VQvDW9/61irctWVoiy9/+cuVvF/5yldWFwLV/TDYfDT8gx/84HLwwQfXKvv73//+4GqpVfZRRx1V7nznO5cDDjigFjRm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\"></p><p>Q. উদ্দীপকের জৈব অণু 'X' চক্রে প্রবেশ করলে কত NADPH<sub>2</sub> অণু উৎপন্ন হয়?</p>",
+    "options": [
+      "৩",
+      "৯",
+      "৬",
+      "১২"
+    ],
+    "answer": "৬",
+    "explanation": ""
+  },
+  {
+    "id": 9039,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড়ো এবং প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACGCAYAAAB9lADuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAACXnSURBVHhe7d0F1G1F+QbwKwtFLh0KiIoBxrUIAyREFBQTFQMBuzuwEBUUbAXBVhC7AwsUFcHCxha7u7vnv37Dee5/OPd896tz+fY5337WmrVrZsc7z7zzzjuxV5QePSYYPYF7TDR6AveYaPQE7jHR6AncY6LRE7jHRKMncI+JRk/gHhONnsAXMf7whz+Uv/zlL4OjHovFRBD4z3/+c/nvf/87OJobPvaxj5Wvf/3rg6Olx1e/+tVyr3vdq2y77bblfe973+Ds2vGNb3yjPPvZzy4PfOADy6Mf/ejyrne9q/z9738vZ5xxxtgLwb///e/ytre9rcp6kjARBD755JPLpz/96cHR7JC5+++/f3nMYx4zODN+/OlPf5pXZv/zn/8sr3nNa8omm2wyK4F/97vflQc84AFl1113LW984xvLL3/5y/KTn/ykvOIVryi77bZbue51r1t+8YtfDGKPB5/73OfKla985fLhD394cGYysGACE+CrX/3q8tOf/nRwZjR+9atflRNOOKE89alPnTWcdtppq9O49+te97ry+9//vjz/+c8ve+65Z3nuc59bfv7zn9c4a4NMQJSrXOUq5Qc/+MHg7HjhXT75yU8OjuaGM888s2y11VZrJbDCd6c73am++7e//e3B2f+HgrzvvvuWH/7wh4Mz48FjH/vYsmLFinLPe96z/Oc//xmc7T4WTOAXv/jF9YMPO+ywWUn13ve+tzzrWc8qL3/5y8tLXvKScu9737vc5S53qSRw7klPelLVLK961avK+eefX65xjWvUDNx7773LbW5zmxpPptJAs2liwn/Qgx5U41/iEpeozxs33vnOd5YrXOEK5ROf+MTgzNwwFwK/8pWvrO99/PHHD86siRNPPLHKaVxQyG9729uWG97whmX77bev5s6kYMEEph1ogvXWW69+tEydCQR03HHHVXK96EUvKuuvv34lP5J+5jOfKZ/61KfK7W53u6p9nvzkJ5frXe96VQvDW9/61irctWVoiy9/+cuVvF/5yldWFwLV/TDYfDT8gx/84HLwwQfXKvv73//+4GqpVfZRRx1V7nznO5cDDjigFjRm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\"></p><p><br></p><p>উদ্দীপকের ‘X' চক্রটি-</p><p><br/>i. দুই অণু CO<sub>2</sub> উৎপন্ন করে</p><p><br/>ii. মাইটোকন্ড্রিয়ায় ঘটে</p><p><br/>iii. ২ অণু FADH<sub>2</sub> উৎপন্ন করে </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 9040,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "খনিজ লবণ পরিশোষণের ক্ষেত্রে সাইটোক্রম পাম্প ধারণার প্রবক্তা কে?",
+    "options": [
+      "জর্জ ডোনান",
+      "এস. ইমামুরা",
+      "বেনেট ক্লার্ক",
+      "<p>লুনডেগড়</p>"
+    ],
+    "answer": "<p>লুনডেগড়</p>",
+    "explanation": ""
+  },
+  {
+    "id": 9041,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 9: উদ্ভিদ শারীরতত্ত্ব",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<img src=\"https://studyplex.sgp1.digitaloceanspaces.com/mcq-question/wYgfwcRGvQgk6q9w6HbYhVoteBzpQxMa.PNG\" />উপরের ‘P” চিহ্নিত স্থানে কোন এনজাইম ক্রিয়াশীল থাকবে?",
+    "options": [
+      "ফসফোফ্রুক্টোকাইনেজ",
+      "অ্যালডোলেজ",
+      "আইসোমারেজ",
+      "ফসফোগ্লিসারোমিউটেজ"
+    ],
+    "answer": "ফসফোফ্রুক্টোকাইনেজ",
+    "explanation": ""
+  },
+  {
+    "id": 9042,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 8: টিস্যু ও টিস্যুতন্ত্র",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের চিত্রের আলোকে প্রশ্নের উত্তর দাও :﻿</p><p><img src=\"https://studyplex.sgp1.digitaloceanspaces.com/mcq-question/rcY8AIM8jF79S1FGhYYEJiV69DXrSp58.PNG\">Q. উদ্দীপকের ভাস্কুলার বান্ডলের নাম কী ?</p>",
+    "options": [
+      "সমপার্শ্বীয় মুক্ত",
+      "সমদ্বিপার্শ্বীয়",
+      "অরীয়",
+      "হ্যাড্রোসেন্ট্রিক"
+    ],
+    "answer": "সমদ্বিপার্শ্বীয়",
+    "explanation": ""
+  },
+  {
+    "id": 9043,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 8: টিস্যু ও টিস্যুতন্ত্র",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের চিত্রের আলোকে প্রশ্নের উত্তর দাও :﻿</p><p><img src=\"https://studyplex.sgp1.digitaloceanspaces.com/mcq-question/rcY8AIM8jF79S1FGhYYEJiV69DXrSp58.PNG\"></p><p><br></p><p>Q. উক্ত ভাস্কুলার বান্ডল পাওয়া যায়—</p><p><br/>i. লাউ</p><p><br/>ii. কুমড়া</p><p><br/>iii. ড্রাসিনা</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 9044,
+    "subject": "Biology 1st Paper",
+    "chapter": "Chapter 1: কোষ ও এর গঠন",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "DNA থেকে mRNA তৈরির প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "রেপ্লিকেশন",
+      "ট্রান্সক্রিপশন",
+      "ট্রান্সলেশন",
+      "মিউটেশন"
+    ],
+    "answer": "ট্রান্সক্রিপশন",
+    "explanation": "<p>DNA থেকে mRNA তৈরির প্রক্রিয়া হলো ট্রান্সক্রিপশন। ট্রান্সক্রিপশনের মাধ্যমে DNA কোড, RNA কোড হিসেবে রাসায়নিকভাবে পুনঃলিখিত হয়।</p>"
+  }
+]
