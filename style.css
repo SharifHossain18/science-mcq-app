@@ -687,6 +687,15 @@ body {
 .subject-card[data-subject="Biology 2nd Paper"] {
     background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%);
 }
+.subject-card[data-subject="ICT"] {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+.subject-card[data-subject="Bangla 1st Paper"] {
+    background: linear-gradient(135deg, #f472b6 0%, #db2777 100%);
+}
+.subject-card[data-subject="Bangla 2nd Paper"] {
+    background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+}
 
 .subject-card-top {
     display: flex;
@@ -2271,6 +2280,9 @@ input:checked + .slider:before {
 .home-subject-card[data-subject="Math 2nd Paper"]      { background: linear-gradient(135deg, #74b37d 0%, #44804c 100%); box-shadow: 0 8px 22px rgba(68,128,76,0.28); }
 .home-subject-card[data-subject="Biology 1st Paper"]  { background: linear-gradient(135deg, #4ade80 0%, #16a34a 100%); box-shadow: 0 8px 22px rgba(22,163,74,0.28); }
 .home-subject-card[data-subject="Biology 2nd Paper"]  { background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%); box-shadow: 0 8px 22px rgba(13,148,136,0.28); }
+.home-subject-card[data-subject="ICT"]               { background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); box-shadow: 0 8px 22px rgba(234,88,12,0.28); }
+.home-subject-card[data-subject="Bangla 1st Paper"]  { background: linear-gradient(135deg, #f472b6 0%, #db2777 100%); box-shadow: 0 8px 22px rgba(219,39,119,0.28); }
+.home-subject-card[data-subject="Bangla 2nd Paper"]  { background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%); box-shadow: 0 8px 22px rgba(124,58,237,0.28); }
 
 /* White icon box */
 .home-subject-icon {

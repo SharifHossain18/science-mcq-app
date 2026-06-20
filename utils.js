@@ -8,6 +8,9 @@ const UTILS = {
     'Math 2nd Paper':     { bn: 'উচ্চতর গণিত ২য় পত্র',   icon: 'fa-solid fa-infinity',            color: 'linear-gradient(135deg, #74b37d 0%, #44804c 100%)', shadow: 'rgba(68,128,76,0.35)'  },
     'Biology 1st Paper':  { bn: 'জীববিজ্ঞান ১ম পত্র',     icon: 'fa-solid fa-leaf',                color: 'linear-gradient(135deg, #4ade80 0%, #16a34a 100%)', shadow: 'rgba(22,163,74,0.35)' },
     'Biology 2nd Paper':  { bn: 'জীববিজ্ঞান ২য় পত্র',     icon: 'fa-solid fa-leaf',                color: 'linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%)', shadow: 'rgba(13,148,136,0.35)' },
+    'ICT':                { bn: 'তথ্য ও যোগাযোগ প্রযুক্তি', icon: 'fa-solid fa-microchip',            color: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)', shadow: 'rgba(234,88,12,0.35)' },
+    'Bangla 1st Paper':   { bn: 'বাংলা ১ম পত্র',           icon: 'fa-solid fa-book',                color: 'linear-gradient(135deg, #f472b6 0%, #db2777 100%)', shadow: 'rgba(219,39,119,0.35)' },
+    'Bangla 2nd Paper':   { bn: 'বাংলা ২য় পত্র',           icon: 'fa-solid fa-book-open',           color: 'linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%)', shadow: 'rgba(124,58,237,0.35)' },
   },
 
   // ── User Profile ──

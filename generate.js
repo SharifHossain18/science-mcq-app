@@ -7,6 +7,9 @@ const SUBJECT_META = {
     'Math 2nd Paper':     { bn: 'উচ্চতর গণিত ২য় পত্র',   icon: 'fa-solid fa-infinity',            color: 'linear-gradient(135deg, #74b37d 0%, #44804c 100%)' },
     'Biology 1st Paper':  { bn: 'জীববিজ্ঞান ১ম পত্র',     icon: 'fa-solid fa-leaf',                color: 'linear-gradient(135deg, #4ade80 0%, #16a34a 100%)' },
     'Biology 2nd Paper':  { bn: 'জীববিজ্ঞান ২য় পত্র',     icon: 'fa-solid fa-leaf',                color: 'linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%)' },
+    'ICT':                { bn: 'তথ্য ও যোগাযোগ প্রযুক্তি', icon: 'fa-solid fa-microchip',            color: 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)' },
+    'Bangla 1st Paper':   { bn: 'বাংলা ১ম পত্র',           icon: 'fa-solid fa-book',                color: 'linear-gradient(135deg, #f472b6 0%, #db2777 100%)' },
+    'Bangla 2nd Paper':   { bn: 'বাংলা ২য় পত্র',           icon: 'fa-solid fa-book-open',           color: 'linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%)' },
 };
 
 let metaData = null;

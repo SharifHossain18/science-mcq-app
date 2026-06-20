@@ -1,0 +1,402 @@
+[
+  {
+    "id": 826,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "কোনটি বুলিয়ান অ্যালজেব্রার মৌলিক উপপাদ্য?&nbsp;",
+    "options": [
+      "$a+1=a$",
+      "$a+a=a$",
+      "$a+0=0$",
+      "$a+\\overline a=0$"
+    ],
+    "answer": "$a+a=a$",
+    "explanation": "<p>বুলিয়ান অ্যালজেব্রার প্রধান মৌলিক উপপাদ্য $(Fundamental-Theorems)$ নিচে দেওয়া হলো-\n\nযৌক্তিক যোগের $(OR)$ মৌলিক উপপাদ্য:\n</p><ul><li>$A + 0 = A$\n</li><li>$A + 1 = 1$\n</li><li>$A + A = A$\n</li><li>$A + \\bar{A} = 1$</li></ul><p><br></p><p>যৌক্তিক গুণের $(AND)$ মৌলিক উপপাদ্য:</p><ul><li>$A \\cdot 0 = 0$</li><li>$A \\cdot 1 = A$</li><li>$A \\cdot A = A$</li><li>$A \\cdot \\bar{A} = 0$</li></ul><p><br></p><p>অপশনগুলোর মধ্যে সঠিক উত্তর হলো: <strong>$a + a = a$</strong></p><ul><li><strong>$a + 1 = a$ (ভুল):</strong> বুলিয়ান অ্যালজেব্রায় $a + 1$-এর মান সবসময় $1$ হয়। (কারণ যেকোনো কিছুর সাথে $'True'$ বা $1$ $OR$ করলে ফলাফল $'True'$ হয়)।</li><li><strong>$a + 0 = 0$ (ভুল):</strong> এর সঠিক রূপ হলো $a + 0 = a$। (যেকোনো চলকের সাথে $0$ যোগ করলে সেই চলকটিই পাওয়া যায়)।</li><li><strong>$a + \\bar{a} = 0$ (ভুল):</strong> এর সঠিক রূপ হলো $a + \\bar{a} = 1$। (একটি চলক এবং তার পূরকের যোগফল সবসময় $1$ হয়)।</li><li><strong>$a + a = a$ (সঠিক):</strong> এটি একটি মৌলিক উপপাদ্য। বুলিয়ান অ্যালজেব্রায় একই চলক যতবারই যোগ $(OR)$ করা হোক না কেন, ফলাফল সেই চলকটিই থাকে।</li></ul>"
+  },
+  {
+    "id": 827,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>$(11011.110111)_2$<sub> </sub>এর সমতুল্য হেক্সাডেসিমেল সংখ্যা কত?</p>",
+    "options": [
+      "$1B.37$",
+      "$1B.DC$",
+      "$D8.DC$",
+      "$D8.37$"
+    ],
+    "answer": "$1B.DC$",
+    "explanation": "<p>বাইনারি $(Binary)$ থেকে হেক্সাডেসিমেল $(Hexadecimal)$ সংখ্যায় রূপান্তরের নিয়ম হলো— দশমিক বিন্দুর $(Radix$ $point)$ আগের পূর্ণসংখ্যাকে ডান থেকে বামে এবং দশমিক বিন্দুর পরের ভগ্নাংশকে বাম থেকে ডানে ৪টি করে বিটের গ্রুপে সাজাতে হয়। কোনো গ্রুপে $৪$টি বিট না পুরলে প্রয়োজনমতো শূন্য $(0)$ যোগ করে নিতে হয়।\n\nপ্রদত্ত বাইনারি সংখ্যা: $11011.110111$\n\nপূর্ণাংশের ক্ষেত্রে,\nপূর্ণসংখ্যা $11011$ কে ডান দিক থেকে বাম দিকে ৪ বিট করে ভাগ করলে পাই: $0001 \\quad 1011$\n(লক্ষ্য করো: বামপাশে $৩$টি শূন্য বসিয়ে ৪ বিট পূরণ করা হয়েছে)\n</p><ul><li>$0001 = 1$\n</li><li>$1011 = 11$ বা হেক্সাডেসিমেলে $B$</li></ul><p><br></p><p>ভগ্নাংশের ক্ষেত্রে,</p><p>ভগ্নাংশ $.110111$ কে বাম দিক থেকে ডান দিকে $৪$ বিট করে ভাগ করলে পাই: $.1101 \\quad 1100$</p><p>(লক্ষ্য করো: ডানপাশে $২$টি শূন্য বসিয়ে $৪$ বিট পূরণ করা হয়েছে)</p><ul><li>$1101 = 13$ বা হেক্সাডেসিমেলে $D$</li><li>$1100 = 12$ বা হেক্সাডেসিমেলে $C$</li></ul><p><br></p><p>এবার দুই অংশ একসাথে করলে মান দাঁড়ায়: $1B.DC$</p><p>সুতরাং, বাইনারি সংখ্যা $(11011.110111)_2$-এর সমতুল্য হেক্সাডেসিমেল রূপ হলো $(1B.DC)_{16}$।</p>"
+  },
+  {
+    "id": 828,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "কোনটি ডেটাবেজের ভিত্তি?&nbsp;",
+    "options": [
+      "ফিল্ড",
+      "রেকর্ড",
+      "টেবিল",
+      "কুয়েরি"
+    ],
+    "answer": "ফিল্ড",
+    "explanation": ""
+  },
+  {
+    "id": 829,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>&lt; html&gt;</p><p>&lt; body &gt; </p><p>&lt; font color = \"red\" &gt; HSC Exam&lt; /font &gt;</p><p>&lt; /body &gt;</p><p>&lt; /html &gt;</p><p><strong>Q. উদ্দীপকে ব্যবহৃত রঙের সমতুল্য হেক্সাডেসিমেল কোড হচ্ছে-</strong></p>",
+    "options": [
+      "#FF0000",
+      "#00FF00",
+      "#0000FF",
+      "#FFF000"
+    ],
+    "answer": "#FF0000",
+    "explanation": ""
+  },
+  {
+    "id": 830,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>&lt; html&gt;</p><p>&lt; body &gt; </p><p>&lt; font color = \"red\" &gt; HSC Exam&lt; /font &gt;</p><p>&lt; /body &gt;</p><p>&lt; /html &gt;</p><p><br></p><p>Q. উদ্দীপকে $HSC$ $Exam$ শব্দের জন্য ব্যবহৃত ট্যাগের অ্যাট্রিবিউট হতে পারে-</p><p><br/>i. $href$ </p><p><br/>ii. $face$</p><p><br/>iii. $size$</p><p><br></p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 831,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>$RDBMS$ সফটওয়্যার হচ্ছে-</p><p><br/>i. $MS-Access$</p><p><br/>ii. $MS-Excel$</p><p><br/>iii. $MySQL$</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>$RDBMS$ হচ্ছে $MS Access$ এবং $MySQL$\n$MS-Excel$ হচ্ছে লেখালেখির সফটওয়‍্যার।</p>"
+  },
+  {
+    "id": 832,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "একটি আইপি অ্যাড্রেসকে প্রকাশের জন্য মোট কতটি বিটের প্রয়োজন?",
+    "options": [
+      "২",
+      "৪",
+      "৮",
+      "৩২"
+    ],
+    "answer": "৩২",
+    "explanation": "<p>আইপি অ্যাড্রেস গড়ে উঠে 32 বিট ব্যবহার করে। এই বিটগুলোর প্রতি আটটিকে নিয়ে গড়ে ওঠে একটি করে অকটেট।</p>"
+  },
+  {
+    "id": 833,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$EFF$ এর পরের সংখ্যাটি কত?",
+    "options": [
+      "$100$",
+      "$200$",
+      "$F00$",
+      "$FF0$"
+    ],
+    "answer": "$F00$",
+    "explanation": "<p>এখানে $EFF$ হলো একটি হেক্সাডেসিমেল $(Hexadecimal)$ বা $১৬$-ভিত্তিক সংখ্যা। যেকোনো সংখ্যার ঠিক পরের সংখ্যাটি পেতে হলে তার সাথে $১$ যোগ করতে হয়।</p><p><br></p><ul><li>হেক্সাডেসিমেল যোগের নিয়ম অনুযায়ডানদিকের $F$ (যার মান $১৫$) এর সাথে $১$ যোগ করলে হয় $১৬$। হেক্সাডেসিমেলে $১৬$ মানে হলো $10$। তাই $০$ বসবে এবং হাতে $(carry)$ $১$ থাকবে।</li><li>মাঝের $F$ এর সাথে হাতের $১$ যোগ করলে আবারও $১৬$ (বা $10$) হয়। তাই আবারও $০$ বসবে এবং হাতে $১$ থাকবে।</li><li>সবশেষে বামদিকের $E$ (যার মান $১৪$) এর সাথে হাতের $১$ যোগ করলে হয় $১৫$। হেক্সাডেসিমেলে $১৫$-কে $F$ লেখা হয়। </li></ul><p><br></p><p><br></p><p class=\"ql-align-justify\">তাই অনুক্রমটির পরের মান হবে $F00$।</p><p class=\"ql-align-justify\"><br></p>"
+  },
+  {
+    "id": 834,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>#include &lt; stdio.h&gt;</p><p>main ()</p><p>{</p><p>int a, b;</p><p>b = 50;</p><p>a = b%25;</p><p>printf (\"%d\", a);</p><p>}</p><p><strong>Q. প্রোগ্রামটির আউটপুট কত?</strong></p>",
+    "options": [
+      "O",
+      "2",
+      "25",
+      "50"
+    ],
+    "answer": "O",
+    "explanation": "<p>$b=50$</p><p>$a=50$ % </p><p>$25=0$</p><p>$\\therefore$&nbsp;প্রোগ্রামটির আউটপুট হবে $0$।</p>"
+  },
+  {
+    "id": 835,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>#include &lt; stdio.h&gt;</p><p>main ()</p><p>{</p><p>int a, b;</p><p>b = 50;</p><p>a = b%25;</p><p>printf (\"%d\", a);</p><p>}</p><p><strong>Q.</strong> উদ্দীপকের ব্যবহৃত প্রোগ্রামিং ভাষাটি হচ্ছে-</p><p><br/>i. General purpose language </p><p><br/>ii. Mid-level language</p><p><br/>iii. Case sensitive language</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 836,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "সি প্রোগ্রামিং ভাষায় $switch$ কি?",
+    "options": [
+      "ভ্যারিয়েবল",
+      "ফাংশন",
+      "অপারেন্ড",
+      "কী-ওয়ার্ড"
+    ],
+    "answer": "কী-ওয়ার্ড",
+    "explanation": ""
+  },
+  {
+    "id": 837,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "কোনটি অবজেক্ট অরিয়েন্টেড প্রোগ্রামিং ভাষা?",
+    "options": [
+      "BASIC",
+      "HTML",
+      "Java",
+      "C"
+    ],
+    "answer": "Java",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 838,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>ইনডেক্সিং এর ফলে-</p><p><br/>i. ডেটা খুঁজে পাওয়া সহজ হয়</p><p><br/>ii. মূল ফাইলের কোনোরূপ পরিবর্তন হয় না</p><p><br/>iii. ডেটা এন্ট্রিতে বেশি সময় প্রয়োজন হয় </p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 839,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>টেলিভিশনের ডেটা ট্রান্সমিশন মোড হচ্ছে-</p><p><br/>i. সিমপ্লেক্স</p><p><br/>ii. মাল্টিকাস্ট </p><p><br/>iii. ব্রডকাস্ট</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 840,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "নিচের কোনটি $Action-Query$?",
+    "options": [
+      "$Parameter$",
+      "$Crosstab$",
+      "$Update$",
+      "$Select$"
+    ],
+    "answer": "$Update$",
+    "explanation": "<p>$Action-Query$ হলো</p><p>$১. Make Table Query$</p><p>$২. Append Query$</p><p>$৩. Delete Query$</p><p>$8. Update Query$</p>"
+  },
+  {
+    "id": 841,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "কম্পিউটার ইথিকস এর নির্দেশনা কয়টি?",
+    "options": [
+      "৮",
+      "১০",
+      "১২",
+      "১৪"
+    ],
+    "answer": "১০",
+    "explanation": "<p>সঠিক উত্তর হলো: $১০$ টি\n\nকম্পিউটার ইথিকস ইনস্টিটিউট (Computer Ethics Institute) কর্তৃক নির্ধারিত কম্পিউটার ইথিকস বা কম্পিউটার নীতিমালার $১০$টি নির্দেশনা নিচে পয়েন্ট আকারে উল্লেখ করা হলো:\n\n১. অন্যের ক্ষতি করার জন্য কম্পিউটার ব্যবহার না করা।\n২. অন্যের কম্পিউটারের কাজে বাধা সৃষ্টি বা হস্তক্ষেপ না করা।\n৩. অন্যের কম্পিউটারের গোপন ফাইলে উঁকিঝুঁকি না মারা।\n৪. চুরির উদ্দেশ্যে কম্পিউটার ব্যবহার না করা।\n৫. মিথ্যা সাক্ষ্য বা অপপ্রচার ছড়াতে কম্পিউটার ব্যবহার না করা।\n৬. মূল্য পরিশোধ না করে বা লাইসেন্স ছাড়া অন্যের সফটওয়্যার কপি বা ব্যবহার না করা।\n৭. অনুমতি ছাড়া অন্যের কম্পিউটার রিসোর্স বা মেমোরি ব্যবহার না করা।\n৮. অন্যের বুদ্ধিবৃত্তিক কাজের ফলাফলকে নিজের বলে চালিয়ে না দেওয়া।\n৯. কোনো সফটওয়্যার বা সিস্টেম তৈরির আগে তার সামাজিক প্রভাবের কথা চিন্তা করা।\n১০. কম্পিউটার ব্যবহারের সময় সবসময় পারস্পরিক শ্রদ্ধা ও সৌজন্য বজায় রাখা।</p>"
+  },
+  {
+    "id": 842,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "মানুষের চিন্তা ভাবনাকে যন্ত্রের মাধ্যমে প্রকাশ করার প্রযুক্তি কোনটি?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "কৃত্রিম বুদ্ধিমত্তা",
+      "ভার্চুয়াল রিয়েলিটি"
+    ],
+    "answer": "কৃত্রিম বুদ্ধিমত্তা",
+    "explanation": ""
+  },
+  {
+    "id": 843,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>আচরণগত বৈশিষ্ট্যের বায়োমেট্রিক্স হচ্ছে -</p><p><br/>i. ফেইস রিকোগনিশন</p><p><br/>ii. ভয়েস রিকোগনিশন </p><p><br/>iii. টাইপিং কী স্ট্রোক</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 844,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$IEEE 802.11$ প্রযুক্তির সাহায্যে কোন নেটওয়ার্কটি তৈরি করা যাবে?",
+    "options": [
+      "$LAN$",
+      "$WAN$",
+      "$PAN$",
+      "$CAN$"
+    ],
+    "answer": "$LAN$",
+    "explanation": "সঠিক উত্তর হলো: $LAN$\n\n$IEEE 802.11$ হলো ওয়্যারলেস লোকাল এরিয়া নেটওয়ার্ক $(WLAN)$ বা ওয়াই-ফাই $(Wi-Fi)$-এর আন্তর্জাতিক স্ট্যান্ডার্ড।\n\nযেহেতু এটি একটি নির্দিষ্ট ছোট এলাকা (যেমন: বাড়ি, ল্যাব, অফিস বা স্কুল) জুড়ে বিভিন্ন ডিভাইসের মধ্যে তারবিহীন সংযোগ স্থাপন করে, তাই এর সাহায্যে মূলত $LAN$ $(Local Area Network)$ তৈরি করা হয়।\n\nউল্লেখ্য, ব্লুটুথের জন্য $PAN$ এবং ওয়াই-ম্যাক্সের জন্য $MAN$ ব্যবহৃত হয়, আর ওয়াই-ফাই এর জন্য $LAN$ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 845,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের চিত্রটি লক্ষ কর এবং প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p><br></p><p><strong>Q. $P$ এর মান কোনটি?</strong></p>",
+    "options": [
+      "$A\\;+\\;B$",
+      "$\\overline A\\;+\\;B$",
+      "$A\\;+\\; \\overline B$",
+      "$\\overline A\\;+\\; \\overline B$"
+    ],
+    "answer": "$\\overline A\\;+\\;B$",
+    "explanation": "<p>$\\begin{aligned} P &amp; =\\overline{A+B}+B \\\\ &amp; =\\bar{A} \\bar{B}+B=\\bar{A}+B\\end{aligned}$</p>"
+  },
+  {
+    "id": 846,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের চিত্রটি লক্ষ কর এবং প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. উদ্দীপকের $P = 0$ যখন -</p>",
+    "options": [
+      "$A = 0$, $B = 0$",
+      "$A = 0$, $B = 1$",
+      "$A = 1$, $B = 0$",
+      "$A = 1$, $B = 1$"
+    ],
+    "answer": "$A = 1$, $B = 0$",
+    "explanation": "<p>$\\begin{aligned} &amp; A=0, B=0 \\text { হলে, } \\\\ &amp; P=\\overline{0}+0=1+0=1 \\\\ &amp; A=0, B=1 \\text { হলে, } \\\\ &amp; P=\\overline{0}+1=1+1=1 \\\\ &amp; A=1, B=0 \\text { হলে, } \\\\ &amp; P=\\overline{1}+0=0+0=0 \\\\ &amp; A=1, B=1 \\text { হলে, } \\\\ &amp; P=\\overline{1}+1=0+1=1\\end{aligned}$</p>"
+  },
+  {
+    "id": 847,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>ডেটা কমিউনিকেশন মাধ্যম হচ্ছে- </p><p><br/>i. টুইস্টেড পেয়ার ক্যাবল</p><p><br/>ii. রেডিও ওয়েভ</p><p><br/>iii. মডেম</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 848,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "ন্যারো ব্যান্ডের সর্বোচ্চ গতি কত?",
+    "options": [
+      "$300$ $bps$",
+      "$6900$ $bps$",
+      "$9600$ $bps$",
+      "$1$ $mbps$"
+    ],
+    "answer": "$300$ $bps$",
+    "explanation": ""
+  },
+  {
+    "id": 849,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>মিঃ সালাম উচ্চ ফলনশীল ধান উৎপাদন নিয়ে গবেষণা করছেন। তার কপালের টিউমারটি চিকিৎসক 20°C তাপমাত্রার তরল নাইট্রোজেন ব্যবহার করে অপসারণ করেন।</p><p><br></p><p><strong>Q. চিকিৎসায় ব্যবহৃত পদ্ধতি হচ্ছে-</strong></p>",
+    "options": [
+      "ক্রায়োসার্জারি",
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং"
+    ],
+    "answer": "ক্রায়োসার্জারি",
+    "explanation": ""
+  },
+  {
+    "id": 850,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</strong></p><p>মিঃ সালাম উচ্চ ফলনশীল ধান উৎপাদন নিয়ে গবেষণা করছেন। তার কপালের টিউমারটি চিকিৎসক 20°C তাপমাত্রার তরল নাইট্রোজেন ব্যবহার করে অপসারণ করেন।</p><p><br></p><p>Q. গবেষণায় ব্যবহৃত প্রযুক্তির দ্বারা-</p><p><br/>i. ৰাণিজ্যিকভাবে ইনসুলিন তৈরি করা যায়</p><p><br/>ii. জীবের নতুন জিনোম আবিষ্কার করা যায়</p><p><br/>iii. অর্থনৈতিক উন্নয়ন ঘটবে </p><p><br></p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  }
+]
