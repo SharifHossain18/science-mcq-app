@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     metaData = await metaRes.json();
 
                     const subjectMeta = metaData[state.subject];
-                    const normChapterName = (state.chapter || 'General').replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
-                    const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/ℹ️/g, '').replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
+                    const normChapterName = (state.chapter || 'General').replace(/\s+/g, ' ').trim().toLowerCase();
+                    const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
                     if (!chapterObj) throw new Error("Chapter not found in metadata");
                     state.chapterId = chapterObj.id;
                     localStorage.setItem('selectedChapterId', chapterObj.id);

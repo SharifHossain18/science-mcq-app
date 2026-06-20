@@ -250,9 +250,9 @@ const UTILS = {
       toast.id = 'lumen-toast';
       document.body.appendChild(toast);
     }
-    const icons = { success: '✅', error: '❌', info: 'ℹ️' };
+    const icons = { success: '✅', error: '❌', info: '📌' };
     toast.className = `toast-${type}`;
-    toast.innerHTML = `<span class="toast-icon">${icons[type] || 'ℹ️'}</span><span>${message}</span>`;
+    toast.innerHTML = `<span class="toast-icon">${icons[type] || '📌'}</span><span>${message}</span>`;
     requestAnimationFrame(() => requestAnimationFrame(() => toast.classList.add('show')));
     clearTimeout(toast._hideTimer);
     toast._hideTimer = setTimeout(() => toast.classList.remove('show'), duration);
