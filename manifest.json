@@ -2,8 +2,9 @@
     "name": "LUMEN",
     "short_name": "LUMEN",
     "description": "LUMEN HSC Chapter-wise and Board MCQ/CQ Practice App",
-    "start_url": "./index.html",
+    "start_url": "./index.html?utm_source=homescreen",
     "display": "standalone",
+    "scope": ".",
     "background_color": "#0f172a",
     "theme_color": "#1e3a8a",
     "icons": [

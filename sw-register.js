@@ -1,10 +1,14 @@
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+
 if ('serviceWorker' in navigator) {
     let refreshing = false;
 
     navigator.serviceWorker.addEventListener('controllerchange', () => {
         if (refreshing) return;
         refreshing = true;
-        window.location.reload();
+        if (!isStandalone) {
+            window.location.reload();
+        }
     });
 
     window.addEventListener('load', () => {
@@ -33,3 +37,9 @@ if ('serviceWorker' in navigator) {
         }
     });
 }
+
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+});
