@@ -1973,8 +1973,8 @@ input:checked + .slider:before {
         font-size: 0.92rem;
         line-height: 1.4;
     }
-    .q-text-content > :first-child {
-        text-indent: 30px;
+    .q-text-content {
+        padding-left: 30px;
     }
     .mcq-question-wrapper {
         margin-bottom: 8px;
@@ -1987,7 +1987,7 @@ input:checked + .slider:before {
         gap: 4px;
     }
     .mcq-options {
-        padding-left: 0;
+        padding-left: 30px;
         gap: 6px;
     }
     .option-btn {
