@@ -1182,14 +1182,12 @@ input:checked + .slider:before {
     line-height: 1.45;
     display: block;
     min-width: 0;
+    padding-left: 40px;
     overflow-wrap: break-word;
     word-break: normal;
 }
 .q-text-content p {
     margin: 0 0 6px;
-}
-.q-text-content > :first-child {
-    text-indent: 40px;
 }
 .q-text-content > :last-child {
     margin-bottom: 0;
