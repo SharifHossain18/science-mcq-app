@@ -1,0 +1,18 @@
+[
+  {
+    "id": 746,
+    "subject": "ICT",
+    "chapter": "General",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "< img > src = \"rose.jpg\" < limg >",
+      "< img src =  \"rose.jpg\" >",
+      "< img src = rose.jpg < limg >",
+      "< img >< src = \"rose.jpg\" >< limg >"
+    ],
+    "answer": "< img src =  \"rose.jpg\" >",
+    "explanation": ""
+  }
+]

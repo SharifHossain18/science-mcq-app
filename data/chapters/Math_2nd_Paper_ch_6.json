@@ -1,0 +1,610 @@
+[
+  {
+    "id": 8301,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$({1\\over x^2}-x^2)^4$ এর বিস্তৃতিতে কততম পদটি x-বর্জিত?",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "9"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 8303,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$(1-2x)^{-1}$এর বিস্তৃতিতে $x^n$ এর সহগ কোনটি?",
+    "options": [
+      "$(-2)^n$",
+      "$(-1)^n$",
+      "$(2)^n$",
+      "1"
+    ],
+    "answer": "$(2)^n$",
+    "explanation": ""
+  },
+  {
+    "id": 8278,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$(1+{x\\over 3})^{-1}$ এর বিস্তৃতি অভিসারী হলে, নিচের কোনটি সঠিক?",
+    "options": [
+      "$\\vert x\\vert < 3$",
+      "$\\vert x\\vert \\leq 3$",
+      "$\\vert x\\vert > 3$",
+      "$\\vert x\\vert \\geq 3$"
+    ],
+    "answer": "$\\vert x\\vert < 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8286,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$(1+{1\\over x})^{33}$ এর বিস্তৃতিতে কোন পদটি মধ্যপদ?</p>",
+    "options": [
+      "১৬তম",
+      "১৭তম",
+      "১৬তম এবং ১৭ তম",
+      "১৭তম এবং ১৮ তম"
+    ],
+    "answer": "১৭তম এবং ১৮ তম",
+    "explanation": "<p>এখানে, ঘাত, n= 33 যা বিজোড় সংখ্যা</p><p>$\\therefore$ রাশিটির বিস্তৃতিতে মধ্যপদ হতে দুইটি। </p><p>মধ্যপদ দুইটি হচ্ছে $\\left(\\frac{\\mathrm{n}+1}{2}\\right)$ তম পদ </p><p>বা $\\left(\\frac{33+1}{2}\\right)$ তম পদ</p><p>বা 17 তম পদ এবং $\\left(\\frac{\\mathrm{n}+3}{2}\\right)$ তম পদ </p><p>বা $\\left(\\frac{33+3}{2}\\right)$ তম পদ বা, 18 তম পদ </p>"
+  },
+  {
+    "id": 8294,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$(1+x)^n$- এর বিস্তৃতিতে-</p><p><br/>i. পদসংখ্যা সসীম হয় যখন n ধনাত্মক র্পূণসংখ্যা</p><p><br/>ii. পদসংখ্যা অসীম হয় যখন n ঋনাত্মক র্পূণসংখ্যা</p><p><br/>iii. পদসংখ্যা সসীম হয় যখন n ভগ্নাংশ</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 8235,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$(x^2+2+{1\\over x^2})^8$ এর বিস্তৃতিতে সধ্যপদটি হলো-",
+    "options": [
+      "চতুর্থ",
+      "পঞ্চম",
+      "অষ্টম",
+      "নবম"
+    ],
+    "answer": "নবম",
+    "explanation": "<p>$ \\left(x^2+2+\\frac{1}{x^2}\\right)^8 $</p><p>$ =\\left\\{\\left(x+\\frac{1}{x}\\right)^2\\right\\}^8=\\left(x+\\frac{1}{x}\\right)^{16}$</p><p><br></p><p>রাশিটির ঘাত, $n=16$ যা জোড় সংখ্যা</p><p>$\\therefore$ মধ্যপদটি হলো $=\\left(\\frac{\\mathrm{n}}{2}+1\\right)$ তম পদ</p><p>$=\\left(\\frac{16}{2}+1\\right)$ তম পদ $=(8+1)$ তম পদ =  9 তম পদ</p>"
+  },
+  {
+    "id": 8236,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$(a+x)^n$এর বিস্তৃতির r- তম পদ হলো-</p>",
+    "options": [
+      "$^nC_{r-1}a^{n-r+1}.x^{r-1}$",
+      "$^nC_{r}a^{n-r}.x^{r}$",
+      "$^nC_{r-1}a^{r-1}.x^{n-r+1}$",
+      "$^nC_{r}a^{r}.x^{n-r}$"
+    ],
+    "answer": "$^nC_{r}a^{n-r}.x^{r}$",
+    "explanation": ""
+  },
+  {
+    "id": 8237,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$(1-x)^{11}$ এর বিস্তৃতিতে-</p><p><br/>i. মোট পদ সংখ্যা 12</p><p><br/>ii. ১ম পদ এর মান 1</p><p><br/>iii. শেষ পদের মান $-x^{11}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8174,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$(x^3+3x^2y+3xy^2+y^3)^5$এরটি রাশি।</p><p><br></p><p>Q. রাশিটির বিস্তৃতিতে মোট পদসংখ্যা কত?</p>",
+    "options": [
+      "5",
+      "15",
+      "16",
+      "20"
+    ],
+    "answer": "16",
+    "explanation": "<p>${(x^3+3x^2y+3xy^2+y^3)}^5=\\left(x+y\\right)^{15}\\;n=15+1=16$</p>"
+  },
+  {
+    "id": 8175,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$(x^3+3x^2y+3xy^2+y^3)^5$এরটি রাশি।</p><p><br></p><p>Q. বিস্তৃতির মধ্যপদ কয়টি?</p>",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 8177,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "$(x-{1\\over x})^8$এর বিস্তৃতিতে মধ্যপদের মান কত?",
+    "options": [
+      "-70",
+      "-56",
+      "56",
+      "70"
+    ],
+    "answer": "70",
+    "explanation": ""
+  },
+  {
+    "id": 8181,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\left(x-\\frac1{x^2}\\right)^9$এর বিস্তৃতিতে x বর্জিত পদটির মান কত?</p>",
+    "options": [
+      "-84",
+      "-36",
+      "36",
+      "84"
+    ],
+    "answer": "-84",
+    "explanation": ""
+  },
+  {
+    "id": 8349,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$({a\\over x}+x)^{13}$ এর বিস্তারে ৬তম ও ৭তম পদের সহগ সমান হলে a এর মান কত?</p>",
+    "options": [
+      "$4\\over 3$",
+      "1",
+      "$\\pm 1$",
+      "$3\\over 4$"
+    ],
+    "answer": "$4\\over 3$",
+    "explanation": "<p>এখানে, 6-তম পদ $={ }^{13} \\mathrm{C}_5 \\cdot\\left(\\frac{\\mathrm{a}}{\\mathrm{x}}\\right)^{13-5} \\cdot \\mathrm{x}^5={ }^{13} \\mathrm{C}_5 \\cdot \\mathrm{a}^8 \\cdot \\mathrm{x}^{-3}$</p><p>7-তম পদ $={ }^{13} \\mathrm{C}_6 \\cdot\\left(\\frac{a}{x}\\right)^{13-6} \\cdot x^6 $</p><p>$ ={ }^{13} C_6 \\cdot a^7 \\cdot x^{-1}$</p><p>শর্তমতে, ${ }^{13} \\mathrm{C}_5 \\mathrm{a}^8={ }^{13} \\mathrm{C}_6 \\mathrm{a}^7$</p><p>বা, $\\frac{a^8}{a^7}={ }^{13} C_6 C_5$ </p><p>বা, $a=\\frac{1716}{1287} $</p><p>$\\therefore a=\\frac{4}{3}$</p><p><br></p>"
+  },
+  {
+    "id": 8262,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$(1+3x^{17})$ এর বিস্তৃতিতে-</p><p><br/>i. পদের সংখ্যা 18</p><p><br/>ii. মধ্যপদ দুইটি</p><p><br/>iii. $x^6$ এর সহগ $^{17}C_6.3^6$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8270,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "$1\\over \\sqrt {1-7x}$এর বিস্তৃতিতে $x^2$ এর সহগ -",
+    "options": [
+      "$-147\\over 4$",
+      "$-147\\over 8$",
+      "$147\\over 8$",
+      "$147\\over 4$"
+    ],
+    "answer": "$147\\over 8$",
+    "explanation": ""
+  },
+  {
+    "id": 8204,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "$(1+x)^n$ এর বিস্তৃতিতে সাধারণ পদ $(-1)^r(r+1)x^r$ হলে, n এর মান কোনটি?(যখন $\\vert x\\vert<1$)",
+    "options": [
+      "2",
+      "-1",
+      "-2",
+      "-3"
+    ],
+    "answer": "-2",
+    "explanation": ""
+  },
+  {
+    "id": 8328,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$({x\\over y}+{y\\over x})^{10}$ এর বিস্তৃতিতে-</p><p><br/>i. পদসংখ্যা 11</p><p><br/>ii. মধ্যপদ সংখ্যা 2</p><p><br/>iii. তৃতীয় পদের সহগ 45</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8396,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$-x(1+x)^{-1}$ এর বিস্তৃতিতে ১ম তিনটি পদের সহগের সমষ্টি কত?</p>",
+    "options": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "answer": "-1",
+    "explanation": ""
+  },
+  {
+    "id": 8098,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$(1-2x)^5$ এর বিস্তৃতিতে $x^3$ এর সহগ কত?",
+    "options": [
+      "-80",
+      "-10",
+      "10",
+      "80"
+    ],
+    "answer": "-80",
+    "explanation": " $x^3$ এর সহগ $={}^5C_3\\left(-2\\right)^3=-80$"
+  },
+  {
+    "id": 8105,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$(2+x)^{17}$ এর বিস্তৃতিতে মধ্যপদ দুটি হলো-",
+    "options": [
+      "7ও8 তম পদ",
+      "8ও9 তম পদ",
+      "9ও10 তম পদ",
+      "10ও11 তম পদ"
+    ],
+    "answer": "9ও10 তম পদ",
+    "explanation": ""
+  },
+  {
+    "id": 8073,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(4x^2-2+{1\\over 4x^2})^5$ এর বিস্তৃতিতে x বর্জিত পদটি কততম?",
+    "options": [
+      "৫ম",
+      "৬ষ্ঠ",
+      "১০ম",
+      "১১তম"
+    ],
+    "answer": "৬ষ্ঠ",
+    "explanation": "$\\left(4x^2-2+\\frac1{4x^2}\\right)^5=\\left(2x-\\frac1{2x}\\right)^{10}\\\\r=\\frac{10}2=5\\\\\\left(5+1\\right)\\;তম\\;পদ$"
+  },
+  {
+    "id": 8074,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(2a+x)^5$ এর বিস্তৃতিতে $x^4$ এর সহগ 40 হলে a এর মান-",
+    "options": [
+      "1",
+      "$ \\sqrt 2 $",
+      "2",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "$5_{C_4}\\;\\left(2a\\right)^{5-4}=40\\\\\\Rightarrow5.2.a=40\\\\\\Rightarrow a=4$"
+  },
+  {
+    "id": 8092,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(3-x^2)^7$- এর বিস্তৃতিতে ৪র্থ পদ-",
+    "options": [
+      "$-2835x^6$",
+      "$-35x^6$",
+      "$35x^6$",
+      "$2835x^6$"
+    ],
+    "answer": "$-2835x^6$",
+    "explanation": ""
+  },
+  {
+    "id": 8037,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "$(1-x)^{-3}$ এর বিস্তৃতিতে $x^3$ এর সহগ কোনটি?",
+    "options": [
+      "-27",
+      "-10",
+      "10",
+      "27"
+    ],
+    "answer": "10",
+    "explanation": ""
+  },
+  {
+    "id": 8043,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "$(a+bx)^{2n}$; $n\\in N$ এর সম্প্রসারণে মধ্যপদ কততম?",
+    "options": [
+      "n-1",
+      "n+1",
+      "` ${n\\over 2}+1$",
+      "${n\\over 2}-1$"
+    ],
+    "answer": "n+1",
+    "explanation": ""
+  },
+  {
+    "id": 8046,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "$(1+x)^{8}$ এর বিস্তৃতিতে ৪র্থ ও ৫ম পদ সমান হলে,x এর মান কত?",
+    "options": [
+      "$4\\over 5$",
+      "$5\\over 4$",
+      "$3\\over 4$",
+      "$4\\over 3$"
+    ],
+    "answer": "$4\\over 5$",
+    "explanation": ""
+  },
+  {
+    "id": 7976,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "$(x-{y\\over 2})^n$ এর বিস্তৃতিতে- <br/>i. প্রথম পদ= $x^n$<br/>ii. ৩য় পদ= $-{n(n-1)\\over 8}x^{n-2}y^2$ <br/>iii. n-বিজোড় হলে মধ্যপদ হবে $(n+1\\over 2)$ ও$(n+3\\over 2)$ তম পদ নিচের কোনটি সঠিক?",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 7978,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "যদি $(x+1)^{30}$ এর বিস্তৃতিতে r তম পদের সহগ (r+6) তম পদের সহগের সমান হয় তবে r এর মান কত হবে?",
+    "options": [
+      "12",
+      "13",
+      "27",
+      "28"
+    ],
+    "answer": "13",
+    "explanation": "$\\left(r+6\\right)+r=30+2\\\\2r=26\\\\r=13\\\\$"
+  },
+  {
+    "id": 8158,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$(y+1)^{2n}$ এর বিস্তারে  $y^{n+1}$ এর সহগ-",
+    "options": [
+      "$^{2n}C_{n+1}$",
+      "$^{2n}C_n$",
+      "$^{2n}C_{n-1}$",
+      "$^{2n+1}C_{n}$"
+    ],
+    "answer": "$^{2n}C_{n+1}$",
+    "explanation": ""
+  },
+  {
+    "id": 8159,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>$(x+5)^{13}$ এর বিস্তৃতিতে -</p><p><br/>i. পদ সংখ্যা=14</p><p><br/>ii. ৩য় পদ=$^{13}C_3x^{10}5^3$</p><p><br/>iii. ৮ম পদ একটি মধ্যপদ</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8069,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$(1+2x)^{-2}$</p><p><br></p><p>Q. উদ্দীপকের বিস্তৃতিতে $x^n$ এর সহগ কোনটি?</p>",
+    "options": [
+      "$(-2)^{n \\over n}$",
+      "$(-2)^n(n+1)$",
+      "$(-1)^n(n+1)$",
+      "$(-1)^nn$"
+    ],
+    "answer": "$(-2)^n(n+1)$",
+    "explanation": ""
+  },
+  {
+    "id": 8070,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$(1+2x)^{-2}$</p><p><br></p><p>Q. x এর কোন মানের জন্য বিস্তৃতিটি বৈধ?</p>",
+    "options": [
+      "$\\vert x \\vert > {1\\over 2}$",
+      "$|x|<\\frac{1}{2}$",
+      "$|x|<-\\frac{1}{2}$",
+      "$\\vert x \\vert > -{1\\over 2}$"
+    ],
+    "answer": "$|x|<\\frac{1}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8006,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$({1\\over x^2}+x^2-2)^7$ এর বিস্তৃতি মধ্যপদটি কত তম?",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "$\\;তম(\\frac1{x^2}+x^2-2{)^7=\\left(x-\\frac1x\\right)^{14}\\;\\;}\\\\মধ্যপদ\\;=\\left(\\frac n2+1\\right)\\;তম\\;পদ\\;\\;=\\left(\\frac{14}2+1\\right)\\;\\;\\;পদ\\;\\;\\;=8\\;\\;\\;তম\\;পদ\\\\$"
+  },
+  {
+    "id": 8007,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$(1+x)^{-3}$এর বিস্তৃতির 5 তম পদের সহগ কত?",
+    "options": [
+      "-15",
+      "-10",
+      "10",
+      "15"
+    ],
+    "answer": "15",
+    "explanation": "$\\left(1+x\\right)^{-3}এর\\;\\left(r+1\\right)\\;তম\\;পদের\\;সহগ\\;=\\left(-1\\right)^r\\frac12\\left(r+1\\right)\\left(r+2\\right)\\\\\\left(4+1\\right)\\;or\\;5\\;\\;তম\\;পদের\\;সহগ\\;\\;=\\left(-1\\right)^4\\frac12\\left(4+1\\right)\\left(4+2\\right)\\;=15$"
+  },
+  {
+    "id": 8142,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$(2x+{1\\over 6x})^{10}$ এর বিস্তৃতিতে কত তম পদটি x বর্জিত?",
+    "options": [
+      "5",
+      "10",
+      "6",
+      "11"
+    ],
+    "answer": "6",
+    "explanation": "$r=\\frac{10-0}{1+1}=5\\\\\\left(5+1\\right)\\;=6\\;তম\\;পদটি\\;x\\;বর্জিত$"
+  },
+  {
+    "id": 8143,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$(1-2x)^{11}$ একটি রাশি।</p><p><br></p><p>Q. উদ্দীপকের রাশিটির বিস্তৃতিতে মধ্যপদ কোনটি?</p>",
+    "options": [
+      "5তম পদ",
+      "6তম পদ",
+      "5ও6 তম পদ",
+      "6 ও 7 তম পদ"
+    ],
+    "answer": "6 ও 7 তম পদ",
+    "explanation": ""
+  },
+  {
+    "id": 8144,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$(1-2x)^{11}$ একটি রাশি।</p><p><br></p><p>Q. উদ্দীপকের রাশিটির বিস্তৃতিতে ৬ষ্ঠ পদের সহগ কত?</p>",
+    "options": [
+      "-14784",
+      "-462",
+      "462",
+      "14781"
+    ],
+    "answer": "-14784",
+    "explanation": " ৬ষ্ঠ পদের সহগ$={}^{11}C_5\\left(-2\\right)^5=-14784$"
+  },
+  {
+    "id": 8210,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "$^{10}C_2+^{10}C_3+^{10}C_4+…..+^{10}C_{10}=?$",
+    "options": [
+      "$2^{10}+1$",
+      "$2^{10}$",
+      "$2^{10}-1$",
+      "$2^{10}-11$"
+    ],
+    "answer": "$2^{10}-11$",
+    "explanation": ""
+  }
+]

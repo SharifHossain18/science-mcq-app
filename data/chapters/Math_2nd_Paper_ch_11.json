@@ -1,0 +1,738 @@
+[
+  {
+    "id": 8298,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "30 থেকে 40 পর্যন্ত সংখ্যা গুলো হতে যে কোনো একটিকে দৈবভাবে নিলে তা মৌলিক হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$2\\over 11$",
+      "$1\\over 5$",
+      "$3\\over 11$",
+      "$3\\over 10$"
+    ],
+    "answer": "$2\\over 11$",
+    "explanation": "<p>30 থেকে 40 পর্যন্ত মোট সংখ্যা 11টি </p><p>সংখ্যাগুলোর মধ্যে মৌলিক সংখ্যা 31 ও 37 অর্থাৎ 2 টি</p><p>$\\therefore$ সংখ্যাটি মৌলিক হওয়ার সম্ভাবনা $=\\frac{2}{11}$</p>"
+  },
+  {
+    "id": 8299,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "একটি বাক্সে 7টি লাল ও 3টি নীল বল আছে। প্রতিস্থাপন না করে নিরপেক্ষভাবে পর পর তিনটি বল তুললে সেগুলো নীল হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$233\\over 360$",
+      "$3\\over 5$",
+      "$1\\over 120$",
+      "$3\\over 500$"
+    ],
+    "answer": "$1\\over 120$",
+    "explanation": ""
+  },
+  {
+    "id": 8306,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "2,4,6 এর ভেদাঙ্ক কোনটি?",
+    "options": [
+      "$8\\over 3$",
+      "8",
+      "136",
+      "$136\\over 3$"
+    ],
+    "answer": "$8\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8273,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "২,৫,৮ তথ্য সারির পরিসর কত?",
+    "options": [
+      "৩",
+      "৬",
+      "৭",
+      "১০"
+    ],
+    "answer": "৬",
+    "explanation": ""
+  },
+  {
+    "id": 8289,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "একটি ছক্কা নিক্ষেপে 2 দ্বারা বিভাজ্য সংখ্যা উঠার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8293,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "A ও B দুইটি ঘটনা এবং $P(A\\cap B)=0$ হলে ঘটনাদ্বয়-",
+    "options": [
+      "র্বজনশীল",
+      "অর্বজনশীল",
+      "স্বাধীন",
+      "র্শতাধীন"
+    ],
+    "answer": "র্বজনশীল",
+    "explanation": ""
+  },
+  {
+    "id": 8231,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "কোনো পরিবারের তিন জন বালকের বয়স 3,4,5 বছর হলে, বালকদের বয়সের পরিমিত ব্যবধান-",
+    "options": [
+      "$\\sqrt {2\\over 3}$",
+      "${2\\over 3}$",
+      "$\\sqrt {3\\over 2}$",
+      "${3\\over 2}$"
+    ],
+    "answer": "$\\sqrt {2\\over 3}$",
+    "explanation": "<p>$\\bar{x}=\\frac{3+4+5}{3}=\\frac{12}{3}=4 \\text {. }$</p><p><br></p><p>পরিমিত ব্যবধান, $\\sigma=\\sqrt{\\frac{\\Sigma \\cdot\\left(x_i-\\bar{x}\\right)^2}{n}}$ $=\\sqrt{\\frac{(3-4)^2+(4-4)^2+(5-4)^2}{3}}$ $=\\sqrt{\\frac{1+0+1}{3}}=\\sqrt{\\frac{2}{3}}$</p>"
+  },
+  {
+    "id": 8246,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>একটি ছক্কা একবার নিক্ষেপ করলে 4 পাওয়ার সম্ভাব্যতা কত?</p>",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 6$",
+    "explanation": "<p>$1,2,3,4,5,6\\;\\;\\;n=6\\\\A=\\{4\\}\\\\P\\left(A\\right)=\\frac16\\\\$</p>"
+  },
+  {
+    "id": 8247,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "A ও B যে কোনো দুইটি ঘটনা যেখানে $P(A\\cap B)=0$ ।নিচের কোনটি সঠিক?",
+    "options": [
+      "ঘটনা দুইটি পরস্পর স্বাধীন",
+      "ঘটনা দুইটি পরস্পর বর্জনশীল",
+      "ঘটনা দুইটি পরস্পর অধীন",
+      "ঘটনা দুইটি পরস্পর অবর্জনশীল"
+    ],
+    "answer": "ঘটনা দুইটি পরস্পর বর্জনশীল",
+    "explanation": ""
+  },
+  {
+    "id": 8178,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "দুইটি নিরপেক্ষ ছক্কা একত্রে নিক্ষেপ করা হলে, ছক্কার মানদ্বয় সমান হবে তার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 36$",
+      "$4\\over 36$",
+      "$6\\over 36$",
+      "$12\\over 36$"
+    ],
+    "answer": "$6\\over 36$",
+    "explanation": ""
+  },
+  {
+    "id": 8190,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$30,35,32,45,60$ উপাত্ত হতে পরিসর নির্ণয় কর?</p>",
+    "options": [
+      "3",
+      "5",
+      "15",
+      "30"
+    ],
+    "answer": "30",
+    "explanation": ""
+  },
+  {
+    "id": 8193,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$P(A)={1\\over 3},P(B)={3\\over 5}$, A ও B স্বাধীন হলে -</p><p><br/>i. $P(A\\cap B)={1\\over 5}$</p><p><br/>ii. $P(A\\cup B)={11\\over 15}$</p><p><br/>iii. $P\\left(\\overline A\\cap\\overline B\\right)=\\frac4{15}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8363,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p> দুইটি তথ্যের গাণিতিক গড় 7 এবং ভেদাঙ্ক 4</p><p><br></p><p>Q. বিভেদাঙ্ক কোনটি?</p>",
+    "options": [
+      "${200\\over 7}$%",
+      "${4\\over 7}$",
+      "${200\\over 7}$",
+      "${400\\over 7}$%"
+    ],
+    "answer": "${200\\over 7}$%",
+    "explanation": ""
+  },
+  {
+    "id": 8364,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p> দুইটি তথ্যের গাণিতিক গড় 7 এবং ভেদাঙ্ক 4</p><p><br></p><p>Q. মান দুইটি কোনটি?</p>",
+    "options": [
+      "9,5",
+      "8,6",
+      "11,3",
+      "7,7"
+    ],
+    "answer": "9,5",
+    "explanation": ""
+  },
+  {
+    "id": 8260,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "2,3,4,7 সংখ্যা চারটির গড় ব্যবধান কত?",
+    "options": [
+      "0",
+      "$2\\over 3$",
+      "$3\\over 2$",
+      "4"
+    ],
+    "answer": "$3\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8269,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "একটি লুডুর গুটি পরপর 3বার নিক্ষেপ করা হলে 3 বারই ছয় উঠার সমাভবনা কত?",
+    "options": [
+      "$1\\over 216$",
+      "$1\\over 72$",
+      "$1\\over 6$",
+      "$1\\over 2$"
+    ],
+    "answer": "$1\\over 216$",
+    "explanation": ""
+  },
+  {
+    "id": 8208,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>একটি বাক্সে 5টি নীল, 3টি লাল ও 4টি কালো বল আছে। দৈবভাবে একটি বল উত্তোলন করলে বলটি-</p><p><br/>i. নীল না হওয়ার সম্ভাবনা 5/12</p><p><br/>ii. লাল হওয়ার সম্ভাবনা 1/4</p><p><br/>iii. নীল বা লাল হওয়ার সম্বাবনা 2/3</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8209,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>3,4,5 সংখ্যা তিনটির -</p><p><br/>i. গাণিতিক গড় 4</p><p><br/>ii. গড় ব্যবধান 2/3</p><p><br/>iii. ভেদাঙ্ক 4/9</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8326,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "দুইটি ঘটনার মধ্যে একটি ঘটনা ঘটলে অপরটি ঘটবে না এরূপ ঘটনাকে কি বলা হয়?",
+    "options": [
+      "পূরক ঘটনা",
+      "সম্ভাব্য ঘটনা",
+      "বর্জনশীল ঘটনা",
+      "স্বাধীন ঘটনা"
+    ],
+    "answer": "বর্জনশীল ঘটনা",
+    "explanation": ""
+  },
+  {
+    "id": 8336,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>মোস্তাফিজের ১ম ৬ ওভার বোলিং এর রান খরচ হয় যথাক্রমে 1,3,6,5,4,2</p><p><br></p><p>Q. সংখ্যাগুলির পরিমিত ব্যবধান কত?</p>",
+    "options": [
+      "1.7",
+      "2.91",
+      "4.18",
+      "2.04"
+    ],
+    "answer": "1.7",
+    "explanation": ""
+  },
+  {
+    "id": 8337,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>মোস্তাফিজের ১ম ৬ ওভার বোলিং এর রান খরচ হয় যথাক্রমে 1,3,6,5,4,2</p><p><br></p><p>Q. মৌলিক বা 2 এর গুণিতক হওয়ার সম্ভাবনা কত?</p>",
+    "options": [
+      "$7\\over 6$",
+      "$6\\over 6$",
+      "$5\\over 6$",
+      "$4\\over 6$"
+    ],
+    "answer": "$5\\over 6$",
+    "explanation": ""
+  },
+  {
+    "id": 8338,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>একটি ‍মুদ্রা তিনবার নিক্ষেপ করা হলে নমুনা বিন্দুর সংখ্যা কত?</p>",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8",
+    "explanation": "<p>একটি ‍মুদ্রা তিনবার নিক্ষেপ করা হলে নমুনা বিন্দুর সংখ্যা$\\;=2^{3\\;}=8$</p>"
+  },
+  {
+    "id": 8377,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "বিস্তার পরিমাপে অনপেক্ষ পরিমাপ কোনটি?",
+    "options": [
+      "বিভেদাঙ্ক",
+      "চতুর্থক ব্যবধান",
+      "পরিসরাঙ্ক",
+      "পড় ব্যবধাঙ্ক"
+    ],
+    "answer": "চতুর্থক ব্যবধান",
+    "explanation": ""
+  },
+  {
+    "id": 8380,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "সম্ভাব্যতায় A ঘটনা এবং এর পূরক ঘটনা$A^C$ এর ক্ষেত্রে কোনটি সত্য?",
+    "options": [
+      "$0",
+      "$0\\leq P(A^C)",
+      "$0",
+      "$0\\leq P(A)\\leq 1$"
+    ],
+    "answer": "$0\\leq P(A)\\leq 1$",
+    "explanation": ""
+  },
+  {
+    "id": 8393,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$0,1,2,4,5,10$ সংখ্যাগুলো হতে দৈবভাবে একটি নিলে তার মৌলিক ও জোড় হওয়ার সম্ভাবনা কত?</p>",
+    "options": [
+      "$1\\over 6$",
+      "$2\\over 3$",
+      "$1\\over 3$",
+      "$5\\over 6$"
+    ],
+    "answer": "$1\\over 6$",
+    "explanation": ""
+  },
+  {
+    "id": 8102,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "3টি কলম, 4টি পেন্সিলও 5টি বইয়ের মধ্য থেকে দৈবভাবে একটি বস্তু নেয়া হলো। তা কলম হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "0.2",
+      "0.25",
+      "0.5",
+      "0.75"
+    ],
+    "answer": "0.25",
+    "explanation": ""
+  },
+  {
+    "id": 8109,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>তথ্য সারি $A={-2,-1,1,2}$</p><p><br></p><p>Q. তথ্য সারি A এর গড় ব্যবধান নিচের কোনটি? </p>",
+    "options": [
+      "$3\\over 2$",
+      "$2\\over 3$",
+      "$4\\over 5$",
+      "$5\\over 4$"
+    ],
+    "answer": "$3\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8110,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>তথ্য সারি $A={-2,-1,1,2}$</p><p><br></p><p>Q. তথ্য সারি A এর ভেদাঙ্ক নিচের কোনটি?</p>",
+    "options": [
+      "$3\\over 5$",
+      "$2\\over 5$",
+      "$5\\over 2$",
+      "$5\\over 3$"
+    ],
+    "answer": "$5\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8083,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "একটি তাসের প্যাকেট হতে দৈবভাবে একটি তাস টানলে তা টেক্কা হওয়ার সম্ভাবনা-",
+    "options": [
+      "$4\\over 13$",
+      "$1\\over 4$",
+      "$1\\over 13$",
+      "$1\\over 52$"
+    ],
+    "answer": "$1\\over 13$",
+    "explanation": "মোট তাস ৫২ টিটেককা ৪ টিprobability =4/52=1/13"
+  },
+  {
+    "id": 8096,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>একটি ছক্কার গুটি নিক্ষেপ করা হলো-</p><p><br/>i. জোড় সংখ্যা উঠার সম্ভরনা= 1/2</p><p><br/>ii. 4 অপেক্ষা বৃহত্তর সংখ্যা পাওয়ার সম্ভবনা=1/3</p><p><br/>iii. 5অপেক্ষা ক্ষুদ্রতম সংখ্যা পাওয়ার সম্ভাবনা=2/3</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8030,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "A ও B স্বাধীন ঘটনা এবং $P(A)={3\\over 4}$ ও $P(B)={1\\over 3}$ হলে, $P(A\\cap B)$কোনটি?",
+    "options": [
+      "$1\\over 12$",
+      "$1\\over 4$",
+      "$1\\over 3$",
+      "$3\\over 4$"
+    ],
+    "answer": "$1\\over 4$",
+    "explanation": "$P(A\\cap B)\\;=\\;P\\left(A\\right).P\\left(B\\right)=\\frac34.\\frac13=\\frac14$"
+  },
+  {
+    "id": 8047,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "25 জন শ্রমিকের বেতনের পরিমিত ব্যবধান 16 হলে, তাদের বেতনের ভেদাঙ্ক কত?",
+    "options": [
+      "4",
+      "5",
+      "256",
+      "625"
+    ],
+    "answer": "256",
+    "explanation": ""
+  },
+  {
+    "id": 7984,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "1,2 ও 3 সংখ্যাগুলির ভেদাঙ্ক নিচের কোনটি?[বি.দ্র. প্রশ্নে সঠিক উত্তর নাই। সঠিক উত্তর: $\\frac{2}{3}$]",
+    "options": [
+      "4",
+      "6",
+      "2",
+      "0"
+    ],
+    "answer": "$\\frac{2}{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 7985,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "দৈবভাবে দুইটি ছক্কা নিক্ষেপ করলে দুইটি ছক্কায় প্রাপ্ত সংখ্যার যোগফল 4 এর চেয়ে কত হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 12$",
+      "$1\\over 6$",
+      "$1\\over 4$",
+      "$1\\over 2$"
+    ],
+    "answer": "$1\\over 12$",
+    "explanation": ""
+  },
+  {
+    "id": 8169,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$P(A)={1\\over 6},P(B)={4\\over 5}$ AওB স্বাধীন হলে, $P(A\\cup B)$=?",
+    "options": [
+      "$4\\over 30$",
+      "$25\\over 30$",
+      "$29\\over 30$",
+      "$33\\over 30$"
+    ],
+    "answer": "$25\\over 30$",
+    "explanation": ""
+  },
+  {
+    "id": 8170,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>একটি সমস্যা সমাধান করতে পারার ক্ষেত্রে A এর সম্ভাবনা 5/9 এবং B এর সম্ভাবনা 7/8 হলে তারা একত্রে সমস্যাটি সমাধন করতে পারার সম্ভাবনা কত?</p>",
+    "options": [
+      "$1\\over 18$",
+      "$35\\over 72$",
+      "$37\\over 72$",
+      "$17\\over 18$"
+    ],
+    "answer": "$17\\over 18$",
+    "explanation": "$P\\left(A\\cup B\\right)=P\\left(A\\right)+P\\left(B\\right)-P\\left(A\\cap B\\right)=\\frac59+\\frac78-\\frac59.\\frac78=\\frac{17}{18}$"
+  },
+  {
+    "id": 8171,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "5,7,9,11 সংখ্যাগুলির পরিমিত ব্যবধান কত? ",
+    "options": [
+      "$\\sqrt 5$",
+      "$\\sqrt 8$",
+      "5",
+      "8"
+    ],
+    "answer": "$\\sqrt 5$",
+    "explanation": ""
+  },
+  {
+    "id": 8064,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "10,11,12 এই তথ্যসারির গড় ব্যবধানাঙ্ক কত?",
+    "options": [
+      "0.67%",
+      "6.06%",
+      "4.6%",
+      "6.67%"
+    ],
+    "answer": "6.06%",
+    "explanation": ""
+  },
+  {
+    "id": 8065,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "<p>20 থেকে 30 পর্যন্ত সংখ্যা হতে যেকোনো একটিকে দৈব চয়নের মাধ্যমে নিলে সেই সংখ্যাচি 5 বা 7 এর গুণিতক হওয়ার সম্ভাবনা কত?</p>",
+    "options": [
+      "$3\\over 11$",
+      "$2\\over 11$",
+      "$5\\over 11$",
+      "$7\\over 11$"
+    ],
+    "answer": "$5\\over 11$",
+    "explanation": ""
+  },
+  {
+    "id": 8066,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "একটি বাক্সে 15টি লাল ও 10টি কালো মার্বেল আছে। দৈবচয়নে একটির পর আরএকটি মোট দুটি মার্বেল বাক্স হতে তোলা হলো। মার্বেল দুটি একই রঙের হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 4$",
+      "$3\\over 4$",
+      "$1\\over 2$",
+      "$3\\over 2$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": "$P\\left(RR\\right)=\\frac{15.14}{25.24}\\;\\;\\;P\\left(BB\\right)=\\frac{10.9}{25.24}\\\\total=\\frac{15.14}{25.24}+\\frac{10.9}{25.24}=\\frac12$"
+  },
+  {
+    "id": 8001,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "A এবং B দুইটি ঘটনা এবং $P(A\\cap B)=P(A).P(B)$ হলে ঘটনাদ্বয়-",
+    "options": [
+      "স্বাধীন",
+      "অধীন",
+      "বর্জনশীল",
+      "নিশ্চিত"
+    ],
+    "answer": "স্বাধীন",
+    "explanation": ""
+  },
+  {
+    "id": 8002,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "একটি ছক্কা নিক্ষেপ করলে ছক্কায় মৌলিক সংখ্যা উঠার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8016,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "দুইটি অসম রাশির গাণিতিক গড় ও ভেদাঙ্ক যথাক্রমে 15 ও16 হলে রাশি দুইটি কত?",
+    "options": [
+      "7,23",
+      "8,22",
+      "9,21",
+      "10,20"
+    ],
+    "answer": "9,21",
+    "explanation": ""
+  },
+  {
+    "id": 8130,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "একটি তাসের প্যাকেট হতে দৈবভাবে একটি তাস টেনে টেক্কা না পাওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 26$",
+      "$1\\over 13$",
+      "$25\\over 26$",
+      "$12\\over 13$"
+    ],
+    "answer": "$12\\over 13$",
+    "explanation": "$\\;টেক্কা\\;\\;পাওয়ার\\;সম্ভাবনা\\;=\\frac4{52}=\\frac1{13}\\\\\\;টেক্কা\\;না\\;পাওয়ার\\;সম্ভাবনা\\;=1-\\frac1{13}=\\frac{12}{13}$"
+  },
+  {
+    "id": 8131,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "একটি পরীক্ষায় প্রাপ্ত নম্বর যথাক্রমে 12,14,15,16,18 প্রদত্ত নম্বর গুলোর পরিমিত ব্যবধান কত?",
+    "options": [
+      "2",
+      "4",
+      "$2\\sqrt 5$",
+      "$\\sqrt {8\\over 5}$"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 8136,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$P(A)={1\\over 2}, P(B)={1\\over 5}$ এবং A ও B ঘটনাদ্বয় স্বাধীন হলে, $P(A\\cup B)$এর মান কত?",
+    "options": [
+      "$3\\over 5$",
+      "$1\\over 10$",
+      "$7\\over 10$",
+      "$4\\over 5$"
+    ],
+    "answer": "$3\\over 5$",
+    "explanation": "$P(A\\cup B)=P\\left(A\\right)+P\\left(B\\right)-P\\left(A\\cap B\\right)=\\frac12+\\frac15-\\frac12\\times\\frac15=\\frac35$"
+  }
+]

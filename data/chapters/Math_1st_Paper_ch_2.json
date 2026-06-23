@@ -1,0 +1,3522 @@
+[
+  {
+    "id": 6979,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>নিচের কোন নির্ণায়কের মান শূন্য?</p>",
+    "options": [
+      "$\\begin{vmatrix}1&0&2\\\\2&0&1\\\\1&3&0\\end{vmatrix}$",
+      "$\\begin{vmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{vmatrix}$",
+      "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+      "$\\begin{vmatrix}0&0&1\\\\1&2&3\\\\0&6&0\\end{vmatrix}$"
+    ],
+    "answer": "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6992,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>যদি $I_3$ একটি তিন ক্রমের ম্যাট্রিক্স হয় তবে $(I_3)^{-1}$ = ?</p>",
+    "options": [
+      "0",
+      "$I_3$",
+      "${1 \\over 3}I_3$",
+      "$3I_3$"
+    ],
+    "answer": "$I_3$",
+    "explanation": ""
+  },
+  {
+    "id": 6993,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>A ও B দুটো $3 \\times 3$ ক্রমের ম্যাট্রিক্স হলে-</p><p>|A-B|=0 এর সমার্থক-</p>",
+    "options": [
+      "$A=0_{mat}$ বা $B=0_{mat}$",
+      "|A|=0 বা |B|=0",
+      "|A|=0 এবং |B|=0",
+      "$A=0_{mat}$ এবং $B=0_{mat}$"
+    ],
+    "answer": "$A=0_{mat}$ এবং $B=0_{mat}$",
+    "explanation": ""
+  },
+  {
+    "id": 6952,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$A=\\begin{bmatrix}8&amp;-5\\\\-6&amp;4\\end{bmatrix}$ হলে $A^{-1}$ = কত?</p>",
+    "options": [
+      "$-\\frac12\\begin{bmatrix}4&5\\\\6&8\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}8&5\\\\6&4\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}4&5\\\\6&8\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}4&-6\\\\-5&8\\end{bmatrix}$"
+    ],
+    "answer": "$\\frac12\\begin{bmatrix}4&5\\\\6&8\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6972,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>a এর মান কত হলে $\\begin{vmatrix}-4&amp;0&amp;-2\\\\0&amp;5&amp;a\\\\-2&amp;4&amp;0\\end{vmatrix}$ ম্যাট্রিক্সটি প্রতিসম হবে?</p>",
+    "options": [
+      "-4",
+      "-2",
+      "0",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 6973,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$\\begin{vmatrix}1&amp;-2&amp;3\\\\0&amp;1&amp;-2\\\\-1&amp;0&amp;2\\end{vmatrix}$ এ (1, 2) তম ভুক্তির সহগুণক কোনটি?</p>",
+    "options": [
+      "-4",
+      "-2",
+      "2",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "<p>$(1,2)$ ভুক্তির সহগুনক $=-\\left|\\begin{array}{cc}0 &amp; -2 \\\\ -1 &amp; 2\\end{array}\\right|=-\\left(\\begin{array}{ll}0 &amp; -2\\end{array}\\right)=2$</p>"
+  },
+  {
+    "id": 6907,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=\\begin{bmatrix}\\alpha&amp;0\\\\0&amp;\\alpha\\end{bmatrix},\\;\\alpha\\in\\mathrm N$ একটি-</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. অব্যতিক্রমী ম্যাট্রিক্স</p><p><br/>iii. স্কেলার ম্যাট্রিক্স</p><p><br></p><p><strong>নিচের কোনটি সঠিক ?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "i",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6921,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=\\begin{bmatrix}s&amp;0\\\\0&amp;s\\end{bmatrix},\\;s\\in\\mathbb{R}$ এবং $s\\neq0$ হলে $A^{-1}$ কোনটি?</p>",
+    "options": [
+      "$\\begin{bmatrix}\\frac1s&0\\\\0&s\\end{bmatrix}$",
+      "$\\begin{bmatrix}\\frac1s&0\\\\0&\\frac1s\\end{bmatrix}$",
+      "$\\begin{bmatrix}-\\frac1s&0\\\\0&-\\frac1s\\end{bmatrix}$",
+      "$\\begin{bmatrix}-\\frac1s&0\\\\0&-s\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}\\frac1s&0\\\\0&\\frac1s\\end{bmatrix}$",
+    "explanation": "<p>$\\left[\\begin{array}{ll}\\mathrm{s} &amp; 0 \\\\ 0 &amp; \\mathrm{~s}\\end{array}\\right]$ ও[ $\\left.\\begin{array}{cc}\\frac{1}{\\mathrm{~s}} &amp; 0 \\\\ 0 &amp; \\frac{1}{\\mathrm{~s}}\\end{array}\\right]$ গুন করলে অভেদক ম্যাট্রিক্স অর্থাৎ $\\left[\\begin{array}{ll}1 &amp; 0 \\\\ 0 &amp; 1\\end{array}\\right]$ পাওয়া যায়। সুতরাং একে - অপররের বিপরীত ম্যাট্রিক্স।</p>"
+  },
+  {
+    "id": 6849,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>A ম্যাট্রিক্সের ক্রম $2\\times4$ এবং B ম্যাট্রিক্সের ক্রম $4\\times3$ হলে, AB এর ক্রম কোনটি?</p>",
+    "options": [
+      "<p>$2\\times4$</p>",
+      "$2\\times3$",
+      "$3\\times2$",
+      "$4\\times4$"
+    ],
+    "answer": "$2\\times3$",
+    "explanation": ""
+  },
+  {
+    "id": 6850,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\begin{vmatrix}5&amp;0&amp;1\\\\-3&amp;2&amp;3\\\\6&amp;7&amp;-1\\end{vmatrix}$ নির্ণায়কে (2, 1) তম ভুক্তির সহগুণক কত?</p>",
+    "options": [
+      "-7",
+      "-3",
+      "3",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "<p>(2,1) ভূক্তির সহগুনক $\\begin{vmatrix}0&amp;1\\\\7&amp;-1\\end{vmatrix}\\;=-(0-7)=7$</p>"
+  },
+  {
+    "id": 6872,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$A=\\begin{pmatrix}3&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;5\\end{pmatrix}$ একটি ম্যাট্রিক্স।</p><p><strong>Q. A একটি-</strong></p><p><strong><br/>i. প্রতিসম ম্যাট্রিক্স</strong></p><p><strong><br/>ii. স্কেলার ম্যাট্রিক্স</strong></p><p><strong><br/>iii. কর্ণ ম্যাট্রিক্স</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6873,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাওঃ</p><p>$A=\\begin{pmatrix}3&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;5\\end{pmatrix}$ একটি ম্যাট্রিক্স।</p><p>Q. নিচের কোনটি $A^{-1}$?</p>",
+    "options": [
+      "$\\frac1{\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}}$",
+      "$\\frac1{60}\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}$",
+      "$60\\begin{pmatrix}3&0&0\\\\0&4&0\\\\0&0&5\\end{pmatrix}$",
+      "$\\begin{pmatrix}\\frac13&0&0\\\\0&\\frac14&0\\\\0&0&\\frac15\\end{pmatrix}$"
+    ],
+    "answer": "$\\begin{pmatrix}\\frac13&0&0\\\\0&\\frac14&0\\\\0&0&\\frac15\\end{pmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 7026,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. প্রত্যেক অব্যতিক্রমী ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স বিদ্যমান</p><p><br/>ii. A ও B বর্গাকার অব্যতিক্রমী ম্যাট্রিক্স হলে, $(AB)^{-1}=B^{-1}A^{-1}$</p><p><br/>iii. কোনো নির্ণায়কের অনুরূপ সারি এবং কলামসমূহ পরস্পর অবস্থান বিনিময় করলে নির্ণায়কের মানের পরিবর্তন হয় </p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 7027,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$A=\\begin{bmatrix}2&amp;1\\\\4&amp;3\\end{bmatrix}$ এর বিপরীত ম্যাট্রিক্স কোনটি?</p>",
+    "options": [
+      "$\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}3&-1\\\\-4&2\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$",
+      "$-\\frac12\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$"
+    ],
+    "answer": "$\\frac12\\begin{bmatrix}3&-1\\\\-4&2\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 7036,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\begin{vmatrix}p&amp;2&amp;q+r\\\\q&amp;2&amp;r+p\\\\r&amp;2&amp;p+q\\end{vmatrix}$ নির্ণায়কটির মান-</p>",
+    "options": [
+      "0",
+      "1",
+      "pqr",
+      "p+q+r"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\left|\\begin{array}{lll}\\mathrm{p} &amp; 2 &amp; \\mathrm{q}+\\mathrm{r} \\\\ \\mathrm{q} &amp; 2 &amp; \\mathrm{r}+\\mathrm{p} \\\\ \\mathrm{r} &amp; 2 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right|=\\left|\\begin{array}{lll}\\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{q}+\\mathrm{r} \\\\ \\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{r}+\\mathrm{p} \\\\ \\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right| \\quad\\left[c_1^{\\prime}=c_1+c_2\\right]$</p><p>$=2(\\mathrm{p}+\\mathrm{q}+\\mathrm{r})\\left|\\begin{array}{lll}1 &amp; 1 &amp; \\mathrm{q}+\\mathrm{r} \\\\ 1 &amp; 1 &amp; \\mathrm{r}+\\mathrm{p} \\\\ 1 &amp; 1 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right|=0 \\quad$ [যেহেতু দুটি কলাম একই]</p>"
+  },
+  {
+    "id": 6937,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$\\begin{bmatrix}4&amp;0&amp;0\\\\0&amp;4&amp;0\\\\0&amp;0&amp;4\\end{bmatrix}$ একটি-</p><p><br/>i. বর্গ Matrix</p><p><br/>ii. কর্ণ Matrix</p><p><br/>iii. স্কেলার Matrix</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6948,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$\\begin{vmatrix}0&amp;1\\\\2&amp;-1\\end{vmatrix}$ এর মান কোনটি?</p>",
+    "options": [
+      "-3",
+      "-2",
+      "2",
+      "3"
+    ],
+    "answer": "-2",
+    "explanation": "<p>$\\left|\\begin{array}{rr}0 &amp; 1 \\\\ 2 &amp; -1\\end{array}\\right|$ এর মান $=0-2=-2$</p>"
+  },
+  {
+    "id": 6885,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$A=\\begin{bmatrix}3&amp;5&amp;1\\\\4&amp;0&amp;2\\\\1&amp;6&amp;4\\end{bmatrix}$ হলে $A-2I=?$</p>",
+    "options": [
+      "$\\begin{bmatrix}5&5&1\\\\4&2&2\\\\1&6&6\\end{bmatrix}$",
+      "$\\begin{bmatrix}1&5&1\\\\4&-2&2\\\\1&6&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}1&3&-1\\\\4&0&2\\\\1&6&4\\end{bmatrix}$",
+      "$\\begin{bmatrix}1&3&-1\\\\2&-2&0\\\\-1&4&2\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}1&5&1\\\\4&-2&2\\\\1&6&2\\end{bmatrix}$",
+    "explanation": "<p>$\\mathrm A-2\\mathrm I=\\begin{bmatrix}3&amp;5&amp;1\\\\4&amp;0&amp;2\\\\1&amp;6&amp;4\\end{bmatrix}-2\\begin{bmatrix}1&amp;0&amp;0\\\\0&amp;1&amp;0\\\\0&amp;0&amp;1\\end{bmatrix}=\\begin{bmatrix}3-2&amp;5-0&amp;1-0\\\\4-0&amp;0-2&amp;2-0\\\\1-0&amp;6-0&amp;4-2\\end{bmatrix}=\\begin{bmatrix}1&amp;5&amp;1\\\\4&amp;-2&amp;2\\\\1&amp;6&amp;2\\end{bmatrix}$</p>"
+  },
+  {
+    "id": 6890,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$A=\\begin{bmatrix}3&amp;1\\\\2&amp;0\\end{bmatrix}$, $B=\\begin{bmatrix}6\\\\4\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\end{bmatrix}$ এবং AX=B হলে (x, y) = কত?</p>",
+    "options": [
+      "(2, 0)",
+      "(2, 2)",
+      "(2, 4)",
+      "(4, -3)"
+    ],
+    "answer": "(2, 0)",
+    "explanation": ""
+  },
+  {
+    "id": 6892,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>A ও B ম্যাট্রিক্সদ্বয়ের ক্রম যথাক্রমে $4\\times5$ এবং $5\\times4$ হলে AB ম্যাট্রিক্সের ক্রম-</p>",
+    "options": [
+      "$4\\times5$",
+      "$5\\times4$",
+      "$4\\times4$",
+      "$5\\times5$"
+    ],
+    "answer": "$4\\times4$",
+    "explanation": ""
+  },
+  {
+    "id": 6898,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>p এর কোন মানের জন্য $\\begin{vmatrix}1&amp;2&amp;3\\\\1&amp;2&amp;p\\\\3&amp;4&amp;0\\end{vmatrix}$ নির্ণায়কটির মান শূন্য হবে?</p>",
+    "options": [
+      "$-{3\\over5}$",
+      "$3\\over5$",
+      "-3",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "<p>এখানে, $\\left|\\begin{array}{lll}1 &amp; 2 &amp; 3 \\\\ 1 &amp; 2 &amp; p \\\\ 3 &amp; 4 &amp; 0\\end{array}\\right|=0$</p><p>বা, $1(0-4 p)+2(3 p-0)+3(4-6)=0$</p><p>বা, $-4 p+6 p-6=0$</p><p>বা, $2 p=6 \\quad$ বা, $p=\\frac{6}{2} \\quad \\therefore p=31$</p>"
+  },
+  {
+    "id": 7004,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$A=\\begin{bmatrix}1&amp;0&amp;0\\\\0&amp;2&amp;0\\\\0&amp;0&amp;3\\end{bmatrix}$ একটি-</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. স্কেলার ম্যাট্রিক্স</p><p><br/>iii. কর্ণ ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>A ম্যাট্রিক্সটির ক্রম $3 \\times 3$ অর্থ্যাৎ ম্যাট্রিক্সটি একটি বর্গ ম্যাট্রিক্স। ম্যাট্রিক্সটির মুখ্য কর্ণের ভূক্তি ব্যতিত সকল ভূক্তি শূণ্য (0) অর্থ্যাৎ ম্যাট্রিক্সটি একটি কর্ণ ম্যাট্রিক্স। কর্ণ ম্যাট্রিক্সটির অশূণ্য ভূক্তিগুলো একই নয় অর্থ্যাৎ ম্যাট্রিক্সটি স্কেলার ম্যাট্রিক্স নয় । সুতরাং i ও iii সঠিক</p>"
+  },
+  {
+    "id": 7010,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>A ম্যাট্রিক্সের ক্রম $2\\times3$ এবং B ম্যাট্রিক্সের ক্রম $4\\times2$ হলে BA ম্যাট্রিক্সের ক্রম কত?</p>",
+    "options": [
+      "$2\\times4$",
+      "$3\\times4$",
+      "$4\\times3$",
+      "$3\\times2$"
+    ],
+    "answer": "$4\\times3$",
+    "explanation": ""
+  },
+  {
+    "id": 7011,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$A=\\begin{bmatrix}2&amp;3\\\\5&amp;4\\end{bmatrix}$ হলে-</p><p><br/>i. |A| এর মান =  -7</p><p><br/>ii. (1, 2) তম ভুক্তির সহগুণক 5</p><p><br/>iii. (2, 1) তম ভুক্তির সহগুণক 3</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7059,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$\\begin{bmatrix}5&amp;0&amp;0\\\\0&amp;5&amp;0\\\\0&amp;0&amp;5\\end{bmatrix}$ ম্যাট্রিক্সটি একটি-</p><p><br></p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. অভেদক ম্যাট্রিক্স</p><p><br/>iii. স্কেলার ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 7060,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$\\begin{bmatrix}p+1&amp;6\\\\4&amp;-8\\end{bmatrix}$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, p এর মান-",
+    "options": [
+      "-8",
+      "-4",
+      "4",
+      "6"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$\\begin{bmatrix}\\mathrm p+1&amp;6\\\\4&amp;-8\\end{bmatrix}\\;\\mathrm{ব্যাতিক্রমী}\\;\\mathrm{হওয়ায়},\\\\\\Rightarrow\\;\\begin{vmatrix}\\mathrm p+1&amp;6\\\\4&amp;-8\\end{vmatrix}=\\;0\\;\\\\\\Rightarrow-8\\mathrm p-8-24=0\\\\\\Rightarrow-8\\mathrm p\\;=\\;32\\\\\\Rightarrow\\mathrm p\\;=\\;-4$</p>"
+  },
+  {
+    "id": 7061,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "A=$\\begin{vmatrix}2&amp;3&amp;-1\\\\5&amp;6&amp;0\\\\-2&amp;1&amp;4\\end{vmatrix}$ নির্ণায়কটির (2,3) তম সহগুণক কোনটি?",
+    "options": [
+      "-8",
+      "-3",
+      "8",
+      "17"
+    ],
+    "answer": "-8",
+    "explanation": "<p>$(2,3)\\;\\;\\mathrm{তম}\\;\\mathrm{সহগুনক}\\;=\\;{(-1)}^{2+3}\\left|\\begin{array}{cc}2&amp;3\\\\{-2}&amp;1\\end{array}\\right|=\\;-(2+6)=\\;-8$</p>"
+  },
+  {
+    "id": 6793,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "A,B এবং C ম্যাট্রিক্সগুলির মাত্রা যথাক্রমে $4\\times 3$, $3\\times 4$ এবং $7\\times 4$ হলে, $(B+A^T).C^T$ ম্যাট্রিক্স এর মাত্রা কত?",
+    "options": [
+      "$3\\times 4$",
+      "$3\\times 7$",
+      "$4\\times 3$",
+      "$4\\times 7$"
+    ],
+    "answer": "$3\\times 7$",
+    "explanation": "<p>$\\mathrm B+\\;\\mathrm A^{\\mathrm t}\\;\\mathrm{এর}\\;\\mathrm{মাত্রা}\\;=(3\\times4)\\\\(3\\times4).(4\\times7)\\;\\mathrm{এর}\\;\\mathrm{গুনফলের}\\;\\mathrm{মাত্রা}\\;=(3\\times7)\\;$</p>"
+  },
+  {
+    "id": 6797,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>A+B=$\\begin{bmatrix}2&amp;-3\\\\4&amp;-1\\end{bmatrix}$ এবং A-B=$\\begin{bmatrix}4&amp;5\\\\-2&amp;7\\end{bmatrix}$ হলে, নিচের কোনটি B ম্যাট্রিক্স?</p>",
+    "options": [
+      "$\\begin{bmatrix}-1&-4\\\\3&-4\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1&1\\\\3&3\\end{bmatrix}$",
+      "$\\begin{bmatrix}6&2\\\\2&6\\end{bmatrix}$",
+      "$\\begin{bmatrix}3&1\\\\1&3\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}-1&-4\\\\3&-4\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6749,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "A ও B ম্যাট্রিক্স এর ক্রম যথাক্রমে $4\\times 5$  ও $5\\times 4$ হলে, AB ম্যাট্রিক্সের ক্রম কত?",
+    "options": [
+      "$5\\times 4$",
+      "$4\\times 5$",
+      "$5\\times 5$",
+      "$4\\times 4$"
+    ],
+    "answer": "$4\\times 4$",
+    "explanation": ""
+  },
+  {
+    "id": 6762,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\begin{bmatrix}3&amp;-2\\\\2&amp;2\\end{bmatrix}$, D=$\\begin{bmatrix}x&amp;0&amp;0\\\\2&amp;4&amp;1\\\\3&amp;-2&amp;0\\end{bmatrix}$</p><p><br></p><p>Q. x এর কোন মানের জন্য $\\vert A\\vert =\\left|D\\right|$ হবে?</p>",
+    "options": [
+      "-5",
+      "-1",
+      "1",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "ব্যাখ্যাঃ$\\left|A\\right|=\\left|D\\right|\\\\\\Rightarrow6+4=x\\{0-\\;(-2)\\}\\\\\\Rightarrow x=5$"
+  },
+  {
+    "id": 6763,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\begin{bmatrix}3&amp;-2\\\\2&amp;2\\end{bmatrix}$, D=$\\begin{bmatrix}x&amp;0&amp;0\\\\2&amp;4&amp;1\\\\3&amp;-2&amp;0\\end{bmatrix}$</p><p><br></p><p>Q. $A^{-1}=?$</p>",
+    "options": [
+      "${1\\over 10}\\begin{bmatrix}2&2\\\\-2&3\\end{bmatrix}$",
+      "${1\\over 10}\\begin{bmatrix}2&-2\\\\2&3\\end{bmatrix}$",
+      "${1\\over 10}\\begin{bmatrix}3&2\\\\-2&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-2&3\\\\2&2\\end{bmatrix}$"
+    ],
+    "answer": "${1\\over 10}\\begin{bmatrix}2&2\\\\-2&3\\end{bmatrix}$",
+    "explanation": "ব্যাখ্যাঃ${যেকোনো}\\;\\mathrm{ম্যাট্রিক্স}\\;\\mathrm{এর}\\;\\mathrm{ক্ষেত্রে}\\;,\\;\\mathrm A=\\begin{bmatrix}\\mathrm a&amp;\\mathrm b\\\\\\mathrm c&amp;\\mathrm d\\end{bmatrix}\\;\\mathrm{হলে},\\;\\\\\\mathrm A^{-1}=\\frac1{\\begin{vmatrix}\\mathrm A\\end{vmatrix}}\\begin{bmatrix}\\mathrm d&amp;-\\mathrm b\\\\-\\mathrm c&amp;\\mathrm a\\end{bmatrix}$"
+  },
+  {
+    "id": 6707,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "P=$\\begin{bmatrix}1 &amp; 2&amp;3&amp;4\\\\2&amp;3&amp;4&amp;5\\end{bmatrix}$ এরং Q=$\\begin{bmatrix}1\\\\2\\\\3\\\\4\\end{bmatrix}$ হলে,PQ এর ক্রম কত?",
+    "options": [
+      "$1\\times 2$",
+      "$2\\times 1$",
+      "$4\\times 1$",
+      "`$4\\times 4$"
+    ],
+    "answer": "$2\\times 1$",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm P\\;\\mathrm ও\\;\\mathrm Q\\;\\mathrm{এর}\\;\\mathrm{মাত্রা}\\;\\mathrm{যথাক্রমে}\\;(2\\times4)\\;\\mathrm ও\\;(4\\times1)\\;\\\\\\mathrm{PQ}\\;\\mathrm{এর}\\;\\mathrm{ক্রম}=(2\\times1)$"
+  },
+  {
+    "id": 6719,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "B=$\\begin{bmatrix}2&amp;-7\\\\1&amp;-4\\end{bmatrix}$ হলে, $B^{-1}$ কোনটি?",
+    "options": [
+      "$\\begin{bmatrix}-4&7\\\\-1&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}4&-7\\\\1&-2\\end{bmatrix}$",
+      "$\\begin{bmatrix}4&-1\\\\7&-2\\end{bmatrix}$",
+      "$\\begin{bmatrix}2&-1\\\\7&-4\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}4&-7\\\\1&-2\\end{bmatrix}$",
+    "explanation": "ব্যাখ্যাঃ$\\begin{bmatrix}\\mathrm a&amp;\\mathrm b\\\\\\mathrm c&amp;\\mathrm d\\end{bmatrix}\\;\\mathrm{ম্যাট্রিক্সের}\\;\\mathrm{ইনভার্স}\\;=\\frac1{\\mathrm{ad}-\\mathrm{bc}}\\begin{bmatrix}\\mathrm d&amp;-\\mathrm b\\\\-\\mathrm c&amp;\\mathrm a\\end{bmatrix}$"
+  },
+  {
+    "id": 6723,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>$\\begin{bmatrix}2&amp;-4\\\\-4&amp;-8\\end{bmatrix}$ একটি - </p><p><br></p><p><br/>i. র্বগ ম্যাট্রিক্স</p><p><br></p><p><br/>ii. ব্যতিক্রমী ম্যাট্রিক্স</p><p><br></p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6666,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "A=$\\begin{bmatrix}2 &amp; -1\\\\5&amp;-3\\end{bmatrix}$ হলে, নিচের কোনটির মান $A^{-1}$ ?",
+    "options": [
+      "$\\begin{bmatrix}-3 & 1 \\\\ 5&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-3 & -1 \\\\ -5&-2\\end{bmatrix}$",
+      "$\\begin{bmatrix}3 & -1 \\\\ 5&-2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-3 & 1 \\\\ -5&-2\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}3 & -1 \\\\ 5&-2\\end{bmatrix}$",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm{কোনো}\\;\\mathrm{ম্যাট্রিক্স}\\;\\mathrm A=\\begin{bmatrix}\\mathrm a&amp;\\mathrm b\\\\\\mathrm c&amp;\\mathrm d\\end{bmatrix}\\;\\mathrm{হলে}\\;,\\\\\\;\\mathrm A^{-1}\\mathrm{ম্যাট্রিক্স}\\;\\mathrm{হবে},\\;\\mathrm A^{-1}=\\frac1{\\begin{vmatrix}\\mathrm A\\end{vmatrix}}\\begin{bmatrix}\\mathrm d&amp;-\\mathrm b\\\\-\\mathrm c&amp;\\mathrm a\\end{bmatrix}$"
+  },
+  {
+    "id": 6669,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "কর্ণ ম্যাট্রিক্সের ক্ষেত্রে-<br/>i. $a_{ij}\\neq 0,i=j$<br/>ii. $a_{ij}=0\\;,\\;i&gt;j\\;\\\\$<br/>iii. $a_{ij}=0\\;,\\;i&lt;j\\;\\\\$ নিচের কোনটি সঠিক?",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6844,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "k এর মান কত হলে, $\\begin{bmatrix}3&6\\\\5&k\\end{bmatrix}$ ম্যাট্রিক্সটি ব্যতিক্রী হবে?",
+    "options": [
+      "-10",
+      "0",
+      "3",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": ""
+  },
+  {
+    "id": 6845,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "<p>$\\begin{vmatrix}2&amp;5&amp;x\\\\3&amp;6&amp;y\\\\4&amp;7&amp;z\\end{vmatrix}$ নির্ণায়কটির সমান কোনটি?</p>",
+    "options": [
+      "$\\begin{vmatrix}4&10&x\\\\6&12&y\\\\8&14&z\\end{vmatrix}$",
+      "$\\begin{vmatrix}4&10&2x\\\\6&12&2y\\\\8&14&2z\\end{vmatrix}$",
+      "$\\begin{vmatrix}4&7&x+2\\\\6&8&y+2\\\\8&9&z+2\\end{vmatrix}$",
+      "$\\begin{vmatrix}2&10&x\\\\3&12&y\\\\4&14&z\\end{vmatrix}$"
+    ],
+    "answer": "$\\begin{vmatrix}2&10&x\\\\3&12&y\\\\4&14&z\\end{vmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6846,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$\\begin{vmatrix}2&amp;-4&amp;6\\\\3&amp;x&amp;-5\\\\5&amp;-10&amp;9\\end{vmatrix}$=0 হলে,x এর মান কোনটি?",
+    "options": [
+      "-4",
+      "-6",
+      "5",
+      "6"
+    ],
+    "answer": "-6",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm x=\\;-6\\;\\mathrm{হলে}\\;\\mathrm{প্রথম}\\;\\mathrm{কলাম}\\;\\mathrm ও\\;\\mathrm{দ্বিতিয়}\\;\\mathrm{কলাম}\\;\\mathrm{সমান}\\;\\mathrm{হবে}\\;,\\;\\mathrm{তাই}\\;\\mathrm x=\\;-6\\;$"
+  },
+  {
+    "id": 6724,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "A=$\\begin{bmatrix}2&amp;3\\\\4&amp;1\\end{bmatrix}$ হলে, adj(A)=?",
+    "options": [
+      "$\\begin{bmatrix}1&3\\\\4&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}2&4\\\\3&1\\end{bmatrix}$",
+      "$\\begin{bmatrix}1&-3\\\\-4&2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1&3\\\\4&-2\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}1&-3\\\\-4&2\\end{bmatrix}$",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm A=\\begin{bmatrix}\\mathrm a&amp;\\mathrm b\\\\\\mathrm c&amp;\\mathrm d\\end{bmatrix}\\;\\mathrm{হলে}\\;,\\mathrm{adj}\\;\\mathrm A=\\begin{bmatrix}\\;\\;\\;\\mathrm d&amp;-\\mathrm b\\\\-\\mathrm c&amp;\\;\\;\\mathrm a\\end{bmatrix}\\;$"
+  },
+  {
+    "id": 6725,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "P=[1  2  3] ও Q=$\\begin{bmatrix}0&\\\\1\\\\ 2\\end{bmatrix}$ হলে, PQ=?",
+    "options": [
+      "[8]",
+      "[1  4  7  6]",
+      "$\\begin{bmatrix}0&\\\\2\\\\ 6\\end{bmatrix}$",
+      "[0   2   6]"
+    ],
+    "answer": "[8]",
+    "explanation": ""
+  },
+  {
+    "id": 6726,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "$\\begin{vmatrix}1&amp;1&amp;3\\\\0&amp;-1&amp;x\\\\1&amp;-3&amp;3\\end{vmatrix}$নির্ণায়কটির (1,2) তম অনুরাশি -3 হলে, x এর মান কত?",
+    "options": [
+      "-12",
+      "-3",
+      "3",
+      "12"
+    ],
+    "answer": "3",
+    "explanation": "ব্যাখ্যাঃ$(1,2)\\;\\mathrm{তম}\\;\\mathrm{অনুরাশি}\\;=\\;\\begin{vmatrix}0&amp;\\mathrm x\\\\1&amp;3\\end{vmatrix}=\\;0-\\mathrm x\\\\\\Rightarrow0-\\mathrm x\\;=-3\\\\\\Rightarrow\\mathrm x\\;=\\;3$"
+  },
+  {
+    "id": 6682,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "A ম্যাট্রিক্স এর $p\\times n$ এবং B ম্যাট্রিক্সের ক্রম $n\\times m$ হলে AB ম্যাট্রিক্সের ক্রম কোনটি?",
+    "options": [
+      "$p\\times m$",
+      "$n\\times n$",
+      "$m\\times n$",
+      "$m\\times p$"
+    ],
+    "answer": "$p\\times m$",
+    "explanation": ""
+  },
+  {
+    "id": 6687,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "A=$\\begin{bmatrix}2&amp;0&amp;0\\\\0&amp;3&amp;0\\\\0&amp;0&amp;4\\end{bmatrix}$হলে, $A^{-1}$কোনটি?",
+    "options": [
+      "$1\\over\\begin{bmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{bmatrix}$",
+      "${1\\over 24}\\begin{bmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{bmatrix}$",
+      "$\\begin{bmatrix}2&0&0\\\\0&3&0\\\\0&0&4\\end{bmatrix}$",
+      "$\\begin{bmatrix}{1\\over 2}&0&0\\\\0&{1\\over 3}&0\\\\0&0&{1\\over 4}\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}{1\\over 2}&0&0\\\\0&{1\\over 3}&0\\\\0&0&{1\\over 4}\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6692,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$\\begin{vmatrix}3&amp;2&amp;4\\\\0&amp;3&amp;6\\\\1&amp;-1&amp;-1\\end{vmatrix}$- নির্ণায়কটির </p><p><br/>i. মান 0</p><p><br/>ii. (2,3) তম ভুক্তির অনুরাশি 5</p><p><br/>iii. (2,1) তম ভুক্তির সহগুণক 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6820,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$\\begin{bmatrix}2&0&1\\\\0&2&0\\\\1&0&2\\end{bmatrix}$ একটি-",
+    "options": [
+      "কর্ণ ম্যাট্রিক্স",
+      "প্রতিসম ম্যাট্রিক্স",
+      "স্কেলার ম্যাট্রিক্স",
+      "ব্যাতিক্রমী ম্যাট্রিক্স"
+    ],
+    "answer": "প্রতিসম ম্যাট্রিক্স",
+    "explanation": ""
+  },
+  {
+    "id": 6821,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$\\begin{bmatrix}a&amp;0&amp;0\\\\0&amp;b&amp;0\\\\0&amp;0&amp;c\\end{bmatrix}$=?",
+    "options": [
+      "a",
+      "ab",
+      "-abc",
+      "abc"
+    ],
+    "answer": "abc",
+    "explanation": "ব্যাখ্যাঃম্যাট্রিক্সের মা্ন হতে পারে না, এটি ম্যাট্রিক্সের নির্নায়কের মান বুঝাচ্ছে নির্ণায়কটির মান = abc"
+  },
+  {
+    "id": 6555,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}1&amp;-2&amp;3\\\\\\end{matrix}\\right]$ , B=$\\left[\\begin{matrix}2\\\\-4\\\\-1\\\\\\end{matrix}\\right]$ হলে 3AB = কত?",
+    "options": [
+      "[-27]",
+      "[-7]",
+      "[7]",
+      "[21]"
+    ],
+    "answer": "[21]",
+    "explanation": ""
+  },
+  {
+    "id": 6556,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "কোনটি ব্যতিক্রমী ম্যাট্রিক্স?",
+    "options": [
+      "$\\left[\\begin{matrix}1&1\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&6\\\\3&7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&-3\\\\3&9\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&3\\\\3&9\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}1&3\\\\3&9\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6557,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}x&amp;0&amp;1\\\\0&amp;1&amp;2\\\\2&amp;1&amp;3\\\\\\end{matrix}\\right]$, |A|= 0 হলে x এর মান কত?",
+    "options": [
+      "-2",
+      "0",
+      "${2\\over 5}$",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6558,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$\\left|\\begin{matrix}1&amp;0&amp;0\\\\2&amp;3&amp;5\\\\1&amp;2&amp;3\\\\\\end{matrix}\\right|$ নির্ণায়কের</p><p><br/>i. (2, 3) তম ভুক্তির অনুরাশি +2 </p><p><br/>ii. (2, 2) তম ভুক্তির সহগুণক 3 </p><p><br/>iii. নির্ণায়কটির মান - 1</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6559,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}a&amp;b\\\\c&amp;-d\\\\\\end{matrix}\\right]$ এর অনুবন্ধী (Adjoint) ম্যাট্রিক্স কোনটি ?",
+    "options": [
+      "$\\left[\\begin{matrix}d&-c\\\\-b&-a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}d&c\\\\b&a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-d&-b\\\\-c&a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-d&b\\\\c&a\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-d&-b\\\\-c&a\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>$\\begin{aligned} &amp; A_{11}=-d, A_{12}=-c, A_{21}=-b, A_{22}=a \\\\ &amp; \\therefore \\operatorname{adj} A=\\left[\\begin{array}{ll}A_{11} &amp; A_{21} \\\\ A_{12} &amp; A_{22}\\end{array}\\right]=\\left[\\begin{array}{rr}-d &amp; -b \\\\ -c &amp; a\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6560,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\left[\\begin{matrix}1&amp;2\\\\0&amp;-3\\\\\\end{matrix}\\right]$, B=$\\left[\\begin{matrix}-2&amp;3\\\\-1&amp;4\\\\\\end{matrix}\\right]$</p><p><br></p><p>Q. A + B = কত?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}-1&5\\\\1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-5\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&5\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&5\\\\-1&-1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-1&5\\\\-1&1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6561,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\left[\\begin{matrix}1&amp;2\\\\0&amp;-3\\\\\\end{matrix}\\right]$, B=$\\left[\\begin{matrix}-2&amp;3\\\\-1&amp;4\\\\\\end{matrix}\\right]$</p><p><br></p><p>Q. A<sup>t</sup>- B<sup>t</sup> = কত?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&-1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&1\\\\1&-7\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>$\\begin{aligned} &amp; A^t-B^t=\\left[\\begin{array}{rr}1 &amp; 2 \\\\ 0 &amp; -3\\end{array}\\right]^t-\\left[\\begin{array}{rr}-2 &amp; 3 \\\\ -1 &amp; 4\\end{array}\\right]^t \\\\ &amp; =\\left[\\begin{array}{rr}1 &amp; 0 \\\\ 2 &amp; -3\\end{array}\\right]-\\left[\\begin{array}{rr}-2 &amp; -1 \\\\ -3 &amp; 4\\end{array}\\right]=\\left[\\begin{array}{rr}3 &amp; 1 \\\\ -1 &amp; -7\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6534,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "P=$\\left(\\begin{matrix}1&amp;-1\\\\0&amp;3\\\\\\end{matrix}\\right)$&nbsp;হলে, $P^2– 2I$ এর মান হয়—",
+    "options": [
+      "$\\left(\\begin{matrix}1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}-1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}1&-4\\\\0&9\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}0&-4\\\\0&8\\\\\\end{matrix}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{matrix}-1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6535,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "A = {aij]3 x 2 এবং B = [bij]2x4 হলে, AB ম্যাট্রিক্সটির আকার- ",
+    "options": [
+      "3×2",
+      "2×4",
+      "4×3",
+      "3×4"
+    ],
+    "answer": "3×4",
+    "explanation": ""
+  },
+  {
+    "id": 6536,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>C=$\\left(\\begin{matrix}1&amp;3\\\\2&amp;4\\\\\\end{matrix}\\right)$</p><p><br></p><p>Q. C এর ক্ষেত্রে- </p><p><br/>i. (2, 2) তম অনুরাশি</p><p><br/>ii. |C|=2</p><p><br/>iii. 3C=$\\left(\\begin{matrix}3&amp;9\\\\6&amp;12\\\\\\end{matrix}\\right)$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6537,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>C=$\\left(\\begin{matrix}1&amp;3\\\\2&amp;4\\\\\\end{matrix}\\right)$</p><p><br></p><p>Q. C<sup>-1</sup> এর সমান-</p>",
+    "options": [
+      "$\\left(\\begin{array}{cc}-2 & \\frac{3}{2} \\\\ 1 & -\\frac{1}{2}\\end{array}\\right)$",
+      "$\\left(\\begin{matrix}2&-3\\\\-1&1\\\\\\end{matrix}\\right)$",
+      "${1\\over 2}\\left(\\begin{matrix}4&-3\\\\-2&1\\\\\\end{matrix}\\right)$",
+      "-${1\\over 2}\\left(\\begin{matrix}4&3\\\\2&1\\\\\\end{matrix}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{array}{cc}-2 & \\frac{3}{2} \\\\ 1 & -\\frac{1}{2}\\end{array}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6538,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\left|\\begin{matrix}2&amp;5&amp;4\\\\y&amp;6&amp;x\\\\-3&amp;7&amp;-1\\\\\\end{matrix}\\right|$ নির্ণায়কের (3, 2) তম অনুরাশির মান 2 হলে x ও y এর মধ্যে সম্পর্কটি—",
+    "options": [
+      "2x + 5y = 2",
+      "3x + y = 2",
+      "x - 2y =2",
+      "x - 2y = 1"
+    ],
+    "answer": "x - 2y = 1",
+    "explanation": ""
+  },
+  {
+    "id": 6539,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\left(\\begin{matrix}k&amp;1\\\\2&amp;4\\\\\\end{matrix}\\right)$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, k এর মান-",
+    "options": [
+      "-2",
+      "$-1\\over 2$",
+      "$1\\over 2$",
+      "2"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6479,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটি ব্যতিক্রমী ম্যাট্রিক্স ?</p>",
+    "options": [
+      "$\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}2 & -1 \\\\ 6 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}1 & 2 \\\\ 2 & -4\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6480,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>A ম্যাট্রিক্সটি প্রতিসম ম্যাট্রিক্স হবে যখন—</p><p><br/>i. A বর্গ</p><p><br/>ii.&nbsp;$\\mathrm A^2=\\mathrm A$</p><p><br/>iii.&nbsp;$\\mathrm A^T=\\mathrm A$</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6481,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>$\\left|\\begin{array}{lll}\\mathbf{x} &amp; \\mathbf{y}+\\mathbf{z} &amp; \\mathbf{1} \\\\ \\mathbf{y} &amp; \\mathbf{x}+\\mathbf{z} &amp; \\mathbf{1} \\\\ \\mathbf{z} &amp; \\mathbf{x}+\\mathbf{y} &amp; \\mathbf{1}\\end{array}\\right|$ নির্ণায়কের মান কোনটি ?</p>",
+    "options": [
+      "$4 x^2 y^2 z^2$",
+      "$4 x y z$",
+      "1",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\begin{aligned}&amp; \\left|\\begin{array}{lll}x &amp; y+z &amp; 1 \\\\y &amp; x+z &amp; 1 \\\\z &amp; x+y &amp; 1\\end{array}\\right|=\\left|\\begin{array}{ccc}x+y+z &amp; y+z &amp; 1 \\\\y+x+z &amp; x+z &amp; 1 \\\\z+x+y &amp; x+y &amp; 1\\end{array}\\right|\\left[c_1=c_1+c_2\\right] \\\\&amp; =(x+y+z)\\left|\\begin{array}{lll}1 &amp; y+z &amp; 1 \\\\1 &amp; x+z &amp; 1 \\\\1 &amp; x+y &amp; 1\\end{array}\\right|\\end{aligned}$</p><p>$=(x+y+z) .0$ [কোনো निর্ণায়কের দুইটি সারি (বা কলাম) একই হলে, নির্ণায়কটির মান শূন্য হয় ।]</p><p>$=0 \\quad$ </p>"
+  },
+  {
+    "id": 6482,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>$A=\\left[\\begin{array}{ll}3 &amp; 0 \\\\ 0 &amp; 3\\end{array}\\right]$ হলে $A^{-1}$ নিচের কোনটি ?</p>",
+    "options": [
+      "$\\left[\\begin{array}{ll}\\frac{1}{3} & 0 \\\\ 0 & \\frac{1}{3}\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}\\frac{1}{3} & 0 \\\\ 0 & -\\frac{1}{3}\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}\\frac{-1}{3} & 0 \\\\ 0 & \\frac{1}{3}\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}-\\frac{1}{3} & 0 \\\\ 0 & -\\frac{1}{3}\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}\\frac{1}{3} & 0 \\\\ 0 & \\frac{1}{3}\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6483,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "$\\left|\\begin{array}{ccc}1 & 2 & 3 \\\\ 0 & 3 & 6 \\\\ 1 & -x & -2\\end{array}\\right|$ নির্ণায়কটির (2, 3) তম ভুক্তির সহগুণক 0 হলে x এর মান কত ?",
+    "options": [
+      "-2",
+      "-1",
+      "1",
+      "2"
+    ],
+    "answer": "-2",
+    "explanation": ""
+  },
+  {
+    "id": 6484,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>$P=\\left[\\begin{array}{lll}1 &amp; 0 &amp; 0 \\\\ 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 1\\end{array}\\right]$ হলে –</p><p><br/>i. Det P=1</p><p><br/>ii. P<sup>T</sup> =P</p><p><br/>iii. P=I<sub>3</sub></p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6485,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটি বিপ্রতিসম ম্যাট্রিক্স ?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}\\mathrm{a} & 0 \\\\ 0 & -\\mathrm{a}\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}\\mathrm{a} & 0 \\\\ -\\mathrm{a} & 0\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}0 & \\mathrm{a} \\\\ -\\mathrm{a} & 0\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}0 & -\\mathrm{a} \\\\ 0 & \\mathrm{a}\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{cc}0 & \\mathrm{a} \\\\ -\\mathrm{a} & 0\\end{array}\\right]$",
+    "explanation": "<p>একটি বর্গ ম্যাট্রিক্স $A$ বিপ্রতিসম হবে যদি $A^T=-A$ হয় এবং বিপ্রতিসম ম্যাট্রিক্স এর মুখ্য কর্ণের ভুক্তিগুলো শূন্য হয়। শতার্নুসারে, অপশন (গ) সঠিক। কারন, $\\left[\\begin{array}{cc}0 &amp; \\mathrm{a} \\\\ -\\mathrm{a} &amp; 0\\end{array}\\right]^{\\mathrm{T}}=\\left[\\begin{array}{cc}0 &amp; -\\mathrm{a} \\\\ \\mathrm{a} &amp; 0\\end{array}\\right]=-\\left[\\begin{array}{cc}0 &amp; \\mathrm{a} \\\\ -\\mathrm{a} &amp; 0\\end{array}\\right]$.</p>"
+  },
+  {
+    "id": 6424,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p>$\\left | \\begin{matrix}1 &amp; -2 &amp; 0 \\\\ 2 &amp; 0 &amp; -3 \\\\ 3 &amp; 0 &amp; 4 \\\\\\end{matrix}\\right |$ নির্ণায়কটির&nbsp;(2, 1)&nbsp;তম ভুক্তির সহগুণক কোনটি ?</p>",
+    "options": [
+      "-17",
+      "-8",
+      "<p>8</p>",
+      "17"
+    ],
+    "answer": "17",
+    "explanation": ""
+  },
+  {
+    "id": 6425,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p>$A = \\left [ \\begin{matrix}2 &amp; 4 &amp; 6 \\\\ 4 &amp; 6 &amp; 8 \\\\ \\end{matrix} \\right ]$  এবং&nbsp;$B = \\left [ \\begin{matrix}6 \\\\ 7 \\\\ 8 \\end{matrix} \\right ]$&nbsp;হলে AB-এর ক্রম কত?</p>",
+    "options": [
+      "2×1",
+      "1×2",
+      "3×1",
+      "1×3"
+    ],
+    "answer": "2×1",
+    "explanation": ""
+  },
+  {
+    "id": 6426,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p>$C={\\lbrack\\begin{array}{cc}-1&amp;2\\\\3&amp;-4\\end{array}\\rbrack}$ &nbsp;হলে&nbsp; C<sup>-1</sup>=কত?</p>",
+    "options": [
+      "$-\\frac{1}{2}\\begin{bmatrix}-4 & 3\\\\ 2&-1\\end{bmatrix}$",
+      "$\\frac{-1}{2}\\begin{bmatrix}4 & -2\\\\ -3& 1\\end{bmatrix}$",
+      "$\\frac{1}{2}\\begin{bmatrix}4 &2 \\\\  3& 1\\end{bmatrix}$",
+      "$\\frac{1}{2}\\begin{bmatrix}4 &3 \\\\  2& 1\\end{bmatrix}$"
+    ],
+    "answer": "$\\frac{1}{2}\\begin{bmatrix}4 &2 \\\\  3& 1\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6427,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p>$\\left[\\begin{array}{ccc}5 &amp; 0 &amp; 0 \\\\ 0 &amp; 10 &amp; 0 \\\\ 0 &amp; 0 &amp; 20\\end{array}\\right]$ একটি-</p><p><br/>i. কর্ণ ম্যাট্রিক্স</p><p><br/>ii. প্রতিসম ম্যাটিক্স</p><p><br/>iii. স্কেলার ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6428,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dhaka",
+    "question": "<p>$\\left|\\begin{array}{ccc}1 &amp; 2 &amp; 3 \\\\ 4 &amp; 5 &amp; -8 \\\\ -5 &amp; 6 &amp; x\\end{array}\\right|$ এর&nbsp;(1, 2)&nbsp;তম অনুরাশি&nbsp;8&nbsp;হলে&nbsp;x&nbsp;-এর মান কত?</p>",
+    "options": [
+      "-8",
+      "-5",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": ""
+  },
+  {
+    "id": 6600,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>$\\mathrm p={(\\begin{array}{cc}1&amp;-1\\\\0&amp;3\\end{array})}$ হলে&nbsp;$\\mathrm P^2-21$&nbsp;এর মান হয়—</p>",
+    "options": [
+      "$\\left(\\begin{array}{cc}1 & -4 \\\\ 0 & 7\\end{array}\\right)$",
+      "$\\left(\\begin{array}{cc}-1 & -4 \\\\ 0 & 7\\end{array}\\right)$",
+      "$\\left(\\begin{array}{cc}1 & -4 \\\\ 0 & 9\\end{array}\\right)$",
+      "$\\left(\\begin{array}{cc}0 & -4 \\\\ 0 & 8\\end{array}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{array}{cc}-1 & -4 \\\\ 0 & 7\\end{array}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6602,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>$A=\\left(\\begin{array}{ll}2 &amp; 3 \\\\ 4 &amp; 5\\end{array}\\right) ~ ও B=\\left(\\begin{array}{lll}2 &amp; 3 &amp; 1 \\\\ 4 &amp; 5 &amp; 1\\end{array}\\right)$ হলে -</p><p><br/>i.&nbsp;$A-B=\\left(\\begin{array}{lll}0 &amp; 0 &amp; -1 \\\\ 0 &amp; 0 &amp; -1\\end{array}\\right)$</p><p><br/>ii.&nbsp;$\\mathrm A^{\\mathrm T}\\mathrm B$&nbsp;এর মাত্রা&nbsp;$2\\times3$</p><p><br/>iii. AB নির্ণয়যোগ্য</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "ii and iii",
+    "explanation": "<p>A ও B এর বিয়োগফল সম্ভব নয় যেহেতু এরা আলাদা ক্রমের।</p><p>$\\therefore$ (i) সঠিক নয়।</p>"
+  },
+  {
+    "id": 6607,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "k এর কোন মানের জন্য$\\left[\\begin{array}{cc}k & -2 \\\\ 2 & k-4\\end{array}\\right]$ম্যাট্রিক্সটি ব্যতিক্রমী হবে?",
+    "options": [
+      "-4",
+      "-2",
+      "2",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6610,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p> $\\left|\\begin{array}{ccc}1 &amp; -1 &amp; 2 \\\\ 2 &amp; -2 &amp; 1 \\\\ -3 &amp; 4 &amp; -5\\end{array}\\right|$&nbsp;এ (3, 1 ) তম ভুক্তির সহগুণক কত ?</p>",
+    "options": [
+      "-9",
+      "-3",
+      "3",
+      "9"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 6612,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "B একটি 2 x 2 আকারের ম্যাট্রিক্স এবং&nbsp;|B|&nbsp;= 5 হলে |3B| এর মান কত ?",
+    "options": [
+      "5",
+      "15",
+      "20",
+      "45"
+    ],
+    "answer": "45",
+    "explanation": "<p>$|3 \\mathrm{~B}|=3^2|\\mathrm{~B}|=9 \\times 5=45$ [যেহেতু B একটি $2 \\times 2$ ম্যাট্রিক্স]</p>"
+  },
+  {
+    "id": 6619,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Dinajpur",
+    "question": "<p>$p=\\left[\\begin{array}{lll}3 &amp; 0 &amp; 0 \\\\ 0 &amp; 4 &amp; 0 \\\\ 0 &amp; 0 &amp; 5\\end{array}\\right]$ হলে |p| এর মান কত ?</p>",
+    "options": [
+      "12",
+      "20",
+      "60",
+      "120"
+    ],
+    "answer": "60",
+    "explanation": ""
+  },
+  {
+    "id": 6501,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Jessore",
+    "question": "<p>$\\left|\\begin{matrix}-6&amp;0&amp;0\\\\0&amp;-6&amp;0\\\\0&amp;0&amp;-6\\\\\\end{matrix}\\right|$ ম্যাট্রিক্সটি একটি-</p><p><br/>i. বৰ্গ ম্যাট্রিক্স</p><p><br/>ii. অভেদক ম্যাট্রিক্স </p><p><br/>iii. স্কেলার ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6512,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Jessore",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span>:</p><p>$M= \\left[\\begin{matrix}1&amp;3\\\\0&amp;-1\\\\\\end{matrix}\\right]$ হলে,</p><p><br></p><p>Q. M ম্যাট্রিক্সটি—</p>",
+    "options": [
+      "প্রতিসম",
+      "শূন্যঘাতি",
+      "সমঘাতি",
+      "অভেদঘাতি"
+    ],
+    "answer": "অভেদঘাতি",
+    "explanation": "<p>$M^2=\\left[\\begin{array}{rr}1 &amp; 3 \\\\0 &amp; -1\\end{array}\\right]\\left[\\begin{array}{rr}1 &amp; 3 \\\\0 &amp; -1\\end{array}\\right]=\\left[\\begin{array}{ll}1+0 &amp; 3-3 \\\\0-0 &amp; 0+1\\end{array}\\right]=\\left[\\begin{array}{ll}1 &amp; 0 \\\\0 &amp; 1\\end{array}\\right]=I_2$</p><p>$\\therefore \\mathrm{M}$ ম্যাট্রিক্সটি অভেদঘাতি।</p>"
+  },
+  {
+    "id": 6513,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Jessore",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span>:</p><p>$M= \\left[\\begin{matrix}1&amp;3\\\\0&amp;-1\\\\\\end{matrix}\\right]$ হলে,</p><p><br></p><p>Q. $M^1$<sup> </sup>কোনটি?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}1&0\\\\3&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&0\\\\-3&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&3\\\\0&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&3\\\\0&-1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}1&3\\\\0&-1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6517,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Jessore",
+    "question": "$\\left[\\begin{matrix}a-3&amp;-1\\\\-8&amp;a+4\\\\\\end{matrix}\\right]$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, a এর মান কোনটি?",
+    "options": [
+      "0",
+      "3",
+      "4, -5",
+      "5, -4"
+    ],
+    "answer": "4, -5",
+    "explanation": ""
+  },
+  {
+    "id": 6518,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Jessore",
+    "question": "A= $\\left[\\begin{matrix}2&amp;4\\\\3&amp;5\\\\\\end{matrix}\\right]$ হলে, A এর অ্যাডজয়েন্ট ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}5&-3\\\\-4&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}5&-4\\\\-3&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&3\\\\4&5\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-5&4\\\\2&-3\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}5&-4\\\\-3&2\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6631,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{array}{lll}1 &amp; 2 &amp; 5 \\\\ 0 &amp; 1 &amp; 2 \\\\ 3 &amp; 1 &amp; x\\end{array}\\right]$ &nbsp;এর&nbsp;(2,1)&nbsp;তম ভুক্তির সহগুণক 5 হলে x এর মান কত ?</p>",
+    "options": [
+      "0",
+      "$\\frac{5}{2}$",
+      "5",
+      "10"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6640,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$A=\\left[\\begin{array}{lll}3 &amp; 0 &amp; 0 \\\\ 0 &amp; 3 &amp; 0 \\\\ 0 &amp; 0 &amp; 4\\end{array}\\right]$A হলো—</p><p><br/>i. কর্ণ ম্যাট্রিক্স </p><p><br/>ii. স্কেলার ম্যাট্রিক্স </p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6641,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{array}{ccc}2 &amp; 3 &amp; x \\\\ 3 &amp; 4 &amp; -5 \\\\ 4 &amp; 1 &amp; 2\\end{array}\\right]+\\left[\\begin{array}{ccc}-6 &amp; 8 &amp; 7 \\\\ 2 &amp; y &amp; -9 \\\\ z &amp; 1 &amp; 2\\end{array}\\right]$$=\\left[\\begin{array}{ccc}-4 &amp; 3 &amp; 7 \\\\ 8 &amp; 8 &amp; -18 \\\\ 0 &amp; 5 &amp; 2\\end{array}\\right]$ হলে x, y&nbsp;&nbsp;ও z&nbsp;এর মান কত ?</p>",
+    "options": [
+      "-4,8,2",
+      "14, 12, 4",
+      "0, 4, -4",
+      "0, -4, 4"
+    ],
+    "answer": "0, 4, -4",
+    "explanation": "<p>$\\left[\\begin{array}{rrr}2 &amp; 3 &amp; x \\\\ 3 &amp; 4 &amp; -5 \\\\ 4 &amp; 1 &amp; 2\\end{array}\\right]+\\left[\\begin{array}{rrr}-6 &amp; 8 &amp; 7 \\\\ 2 &amp; y &amp; -9 \\\\ z &amp; 1 &amp; 2\\end{array}\\right]=\\left[\\begin{array}{rrr}-4 &amp; 3 &amp; 7 \\\\ 8 &amp; 8 &amp; -18 \\\\ 0 &amp; 5 &amp; 2\\end{array}\\right]$</p><p>বা, $\\left[\\begin{array}{rrr}-4 &amp; 11 &amp; x+7 \\\\ 5 &amp; 4+y &amp; -14 \\\\ 4+z &amp; 2 &amp; 4\\end{array}\\right]=\\left[\\begin{array}{rrr}-4 &amp; 3 &amp; 7 \\\\ 8 &amp; 8 &amp; -18 \\\\ 0 &amp; 5 &amp; 2\\end{array}\\right]$</p><p>$\\begin{aligned} &amp; \\therefore x+7=7 \\therefore x=0 ; 4+y=8 \\therefore y=4 \\\\ &amp; 4+z=0 \\therefore z=-4\\end{aligned}$</p>"
+  },
+  {
+    "id": 6642,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$A=\\left[\\begin{array}{cc}1 &amp; 5 \\\\ -3 &amp; 2\\end{array}\\right] \\quad$ এবং $I=\\left[\\begin{array}{ll}1 &amp; 0 \\\\ 0 &amp; 1\\end{array}\\right]$ হলে IA=?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}6 & 0 \\\\ 0 & -1\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}1 & -3 \\\\ 5 & 2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}5 & 0 \\\\ 0 & -6\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}1 & 5 \\\\ -3 & 2\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{cc}1 & 5 \\\\ -3 & 2\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6643,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$A=\\left[\\begin{array}{cc}3 &amp; -8 \\\\ -2 &amp; 5\\end{array}\\right]$ হলে $A^{-1}$ কোনটি?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}3 & -2 \\\\ -8 & 5\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}5 & 2 \\\\ 8 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}5 & 8 \\\\ 2 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}-5 & -8 \\\\ -2 & -3\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}-5 & -8 \\\\ -2 & -3\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6453,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :$\\begin{bmatrix}3 &amp;0&nbsp;&amp;0 \\\\0 &amp; 3 &amp; 0\\\\0 &amp; 0 &amp; 3\\end{bmatrix}$</p><p>Q. A ম্যাট্রিক্সটি হলো—</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. কর্ণ ম্যাট্রিক্স.</p><p><br/>iii. সমঘাতি ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": "<p>$A=\\left[\\begin{array}{lll}3 &amp; 0 &amp; 0 \\\\0 &amp; 3 &amp; 0 \\\\0 &amp; 0 &amp; 3\\end{array}\\right]=3\\left[\\begin{array}{lll}1 &amp; 0 &amp; 0 \\\\0 &amp; 1 &amp; 0 \\\\0 &amp; 0 &amp; 1\\end{array}\\right]=3 I_3$</p><p>$\\therefore \\mathrm{A}^2=\\left(3 \\mathrm{I}_3\\right)^2=3^2 \\mathrm{I}_3^2=9 \\mathrm{I}_3 \\neq \\mathrm{A} \\therefore \\mathrm{A}$ সমঘাতি ম্যাট্রিক্স নয়।</p>"
+  },
+  {
+    "id": 6454,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p>প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :$\\begin{bmatrix}3 &amp;0&nbsp;&amp;0 \\\\0 &amp; 3 &amp; 0\\\\0 &amp; 0 &amp; 3\\end{bmatrix}$</p><p><br></p><p>Q.&nbsp;|A| এর মান কত ?</p>",
+    "options": [
+      "0",
+      "3",
+      "9",
+      "27"
+    ],
+    "answer": "27",
+    "explanation": "<p>আমরা জানি, কর্ণ ম্যাট্রিক্সের নির্ণায়কের মান কর্ণের ভুক্তিগুলোর গুণফলের সমান।</p><p>$\\therefore|\\mathrm{A}|=3 \\times 3 \\times 3=27$</p>"
+  },
+  {
+    "id": 6455,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span> :$\\begin{bmatrix}1&amp;3&amp;5 \\\\2 &amp; 4 &amp; 6\\\\4 &amp; 6 &amp; 8\\end{bmatrix},B=\\begin{bmatrix}1\\\\ 2\\\\3 \\end{bmatrix}$</p><p>Q.তথ্যের আলোকে-</p><p><br/>i.&nbsp;${\\vert\\mathrm A\\vert}=0$</p><p><br/>ii. AB এর ক্রম 3 x 1</p><p><br/>iii. BA নির্ণয়যোগ্য</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6456,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "<p><span style=\"background-color: rgb(243, 244, 246);\">প্রদত্ত তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও</span> :$\\begin{bmatrix}1&amp;3&amp;5 \\\\2 &amp; 4 &amp; 6\\\\4 &amp; 6 &amp; 8\\end{bmatrix},B=\\begin{bmatrix}1\\\\ 2\\\\3 \\end{bmatrix}$</p><p><br></p><p>AB ম্যাট্রিক্সটি হবে—</p>",
+    "options": [
+      "$\\begin{bmatrix}28\\\\22 \\\\ 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}22\\\\28 \\\\ 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}22 & 28 & 40\\end{bmatrix}$",
+      "$\\begin{bmatrix}28 & 22 & 40\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}22\\\\28 \\\\ 40\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6466,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "A, B এবং C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে 4 x 3, 3 x 4 এবং 7 x 4 হলে&nbsp;${(\\mathrm B+\\mathrm A^{\\mathrm T})}\\mathrm C^{\\mathrm T}$&nbsp;ম্যাট্রিক্সের মাত্রা কত?",
+    "options": [
+      "3×4",
+      "3×7",
+      "3×3",
+      "4×4"
+    ],
+    "answer": "3×7",
+    "explanation": "<p>$ \\mathrm{A}^{\\mathrm{T}}$ এর মাত্রা $=3 \\times 4 $</p><p>$ \\therefore\\left(\\mathrm{B}+\\mathrm{A}^{\\mathrm{T}}\\right) $  এর মাত্রা$=3 \\times 4 $</p><p>$ \\mathrm{C}^{\\mathrm{T}}$এর মাত্রা $=4 \\times 7 \\therefore\\left(\\mathrm{B}+\\mathrm{A}^{\\mathrm{T}}\\right) \\mathrm{C}^{\\mathrm{T}} $  ম্যাট্রিক্সের মাত্রা $=3 \\times 7$</p>"
+  },
+  {
+    "id": 6467,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "$\\left|\\begin{array}{ccc}-2 & 0 & 1 \\\\ -1 & -3 & 0 \\\\ 2 & 1 & 3\\end{array}\\right|$ নির্ণায়কটির (2, 2) তম সহগুণক কোনটি ?",
+    "options": [
+      "8",
+      "-8",
+      "4",
+      "-4"
+    ],
+    "answer": "-8",
+    "explanation": ""
+  },
+  {
+    "id": 6468,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Rajshahi",
+    "question": "নিচের কোনটি অব্যতিক্রমী ম্যাট্রিক্স ?",
+    "options": [
+      "$\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 1 \\\\ 8 & 2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}4 & 2 \\\\ 10 & 5\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6575,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Sylhet",
+    "question": "<p>$\\left[\\begin{matrix}0&amp;-3&amp;2\\\\3&amp;0&amp;4\\\\-2&amp;-4&amp;0\\\\\\end{matrix}\\right]$ হলে A একটি-</p><p><br/>i. বিপ্রতিসম ম্যাট্রিক্স </p><p><br/>ii. ব্যতিক্রমী ম্যাট্রিক্স</p><p><br/>iii. কর্ণ ম্যাট্রিক্স </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6582,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Sylhet",
+    "question": "<p>A, B, C ম্যাট্রিক্সগুলোর আকার যথাক্রমে $5 \\times 3,3 \\times 5$ এবং 4 x 5 হলে C (A + B<sup>T</sup>) এর আকার কত?</p>",
+    "options": [
+      "4x3",
+      "3x4",
+      "5x5",
+      "5x3"
+    ],
+    "answer": "4x3",
+    "explanation": ""
+  },
+  {
+    "id": 6587,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Sylhet",
+    "question": "$\\left|\\begin{matrix}-2&amp;5&amp;1\\\\0&amp;-3&amp;4\\\\2&amp;7&amp;-4\\\\\\end{matrix}\\right|$ নির্ণায়কটির - 4 ভুক্তির অনুরাশি কত?",
+    "options": [
+      "24",
+      "6",
+      "-6",
+      "-24"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 6591,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Sylhet",
+    "question": "$\\left[\\begin{matrix}2&amp;-1\\\\5&amp;-3\\\\\\end{matrix}\\right]$ এর বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}3&-1\\\\5&-2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-3&1\\\\-5&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-3&5\\\\-1&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&1\\\\-5&-2\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}3&-1\\\\5&-2\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6598,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Sylhet",
+    "question": "$\\left|\\begin{matrix}3&amp;-4&amp;2\\\\-1&amp;5&amp;6\\\\7&amp;-8&amp;4\\\\\\end{matrix}\\right|$ নির্ণায়কটির (1, 2) তম ভুক্তির সহগুণক কত?",
+    "options": [
+      "-184",
+      "-46",
+      "46",
+      "184"
+    ],
+    "answer": "46",
+    "explanation": ""
+  },
+  {
+    "id": 6330,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}8&amp;-5\\\\7&amp;2\\\\\\end{matrix}\\right]$ হলে, adj A= কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}2&5\\\\-7&-8\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&5\\\\-7&8\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}8&7\\\\-5&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&5\\\\-7&8\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}2&5\\\\-7&8\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>8 এর সহগুণক =2 </p><p>-5 এর সহগুণক =-7 </p><p>7 এর সহগুণক =5 </p><p>2  এর সহগুণক =8 </p><p>$\\begin{aligned}\\therefore \\text { Adj } A=\\left[\\begin{array}{rr}2 &amp; -7 \\\\ 5 &amp; 8\\end{array}\\right]^{\\prime}=\\left[\\begin{array}{rr}2 &amp; 5 \\\\ -7 &amp; 8\\end{array}\\right] .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6331,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\left[\\begin{matrix}2&amp;3&amp;5\\\\5&amp;0&amp;1\\\\2&amp;0&amp;4\\\\\\end{matrix}\\right]$ নির্ণায়কটির (1, 2) তম ভুক্তির সহগুণক কোনটি?",
+    "options": [
+      "-18",
+      "-12",
+      "12",
+      "18"
+    ],
+    "answer": "-18",
+    "explanation": "<p>$(1,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}5 &amp; 1 \\\\ 2 &amp; 4\\end{array}\\right|=-(20-2)=-18$.</p>"
+  },
+  {
+    "id": 6332,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\\\end{matrix}\\right]$ ,$B= \\left[\\begin{matrix}7\\\\8\\\\9\\\\\\end{matrix}\\right]$ হলে, AB এর ক্রম কত?",
+    "options": [
+      "$2\\times 1$",
+      "$1\\times 2$",
+      "$3\\times 1$",
+      "$2\\times 3$"
+    ],
+    "answer": "$2\\times 1$",
+    "explanation": ""
+  },
+  {
+    "id": 6334,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}1&amp;2&amp;3\\\\4&amp;5&amp;-6\\\\2&amp;4&amp;6\\\\\\end{matrix}\\right]$ হলে, Det(A) এর মান কত?",
+    "options": [
+      "-48",
+      "0",
+      "48",
+      "60"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6310,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>যদি $A= \\left[\\begin{matrix}2&amp;-3\\\\1&amp;6\\\\\\end{matrix}\\right]$ হয়, তবে -</p><p><br/>i. A একটি বিপ্রতিসম&nbsp;ম্যাট্রিক্স</p><p><br/>ii. $|A|=15$</p><p><br/>iii. A একটি অভেদঘাতী&nbsp;ম্যাট্রিক্স নয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6311,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\left[\\begin{matrix}4&amp;3\\\\3&amp;2\\\\\\end{matrix}\\right]$ ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}2&-3\\\\-3&4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&3\\\\-3&-4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&3\\\\3&-4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-4&3\\\\3&2\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-2&3\\\\3&-4\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6312,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "যদি $\\left[\\begin{matrix}m-2&amp;6\\\\2&amp;m-3\\\\\\end{matrix}\\right]$ একটি ব্যতিক্রমী ম্যাট্রিক্স হয়, তবে m=?",
+    "options": [
+      "-2,-3",
+      "1,-6",
+      "6,-1",
+      "2,-3"
+    ],
+    "answer": "6,-1",
+    "explanation": ""
+  },
+  {
+    "id": 6313,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\left[\\begin{matrix}1&amp;2&amp;3\\\\2&amp;3&amp;4\\\\1&amp;5&amp;7\\\\\\end{matrix}\\right]$ নির্ণায়কের (3, 2) তম সহগুণক কোনটি?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "2",
+    "explanation": "<p>$(3,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}1 &amp; 3 \\\\ 2 &amp; 4\\end{array}\\right|=-(4-6)=2$.</p>"
+  },
+  {
+    "id": 6259,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>দুটি ম্যাট্রিক্স A ও B এর মাত্রা যথাক্রমে p×q এবং n×r হলে AB নির্ণয়ের শর্ত কোনটি?</p>",
+    "options": [
+      "p=r",
+      "p=n",
+      "q=r",
+      "q=n"
+    ],
+    "answer": "q=n",
+    "explanation": ""
+  },
+  {
+    "id": 6260,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p> A= $\\left[\\begin{matrix}2&amp;3&amp;4\\\\4&amp;6&amp;8\\\\3&amp;1&amp;2\\\\\\end{matrix}\\right]$ একটি -</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. ব্যাতিক্রমী ম্যাট্রিক্স</p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6261,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "নিচের কোনটি সমঘাতি ম্যাট্রিক্স?",
+    "options": [
+      "$\\left[\\begin{matrix}-2&-1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&1\\\\-2&1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6262,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>$\\left[\\begin{matrix}3&amp;2&amp;4\\\\0&amp;3&amp;6\\\\-&amp;-1&amp;-2\\\\\\end{matrix}\\right]$ নির্ণায়কটির—</p><p><br/>i. মান = 0</p><p><br/>ii. (2,3) তম ভুক্তির অনুরাশি = 5 </p><p><br/>iii. (2.1) তম ভুক্তির সহগুণক = 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6263,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\left[\\begin{matrix}1&amp;2\\\\3&amp;-4\\\\\\end{matrix}\\right]$ এর অ্যাডজয়েন্ট ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}-4&2\\\\3&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-4&2\\\\3&1\\\\\\end{matrix}\\right]$",
+      "<p>$\\left[\\begin{matrix}-4&amp;-2\\\\-4&amp;1\\\\\\end{matrix}\\right]$</p>",
+      "$\\left[\\begin{matrix}-4&-2\\\\-2&1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "<p>$\\left[\\begin{matrix}-4&amp;-2\\\\-4&amp;1\\\\\\end{matrix}\\right]$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 6199,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "A,B এবং C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে $4\\times 3$, $3\\times 4$ এবং $7\\times 4$ হলে $(B + A^T).C^T$ ম্যাট্রিক্সের মাত্রা কত?",
+    "options": [
+      "$3\\times 4$",
+      "$3\\times 7$",
+      "$4\\times 3$",
+      "$4\\times 7$"
+    ],
+    "answer": "$3\\times 7$",
+    "explanation": ""
+  },
+  {
+    "id": 6200,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "$A= \\left[\\begin{matrix}2&amp;-1&amp;\\\\5&amp;-3\\\\\\end{matrix}\\right]$ হলে, নিচের কোনটির $A^{-1}$?",
+    "options": [
+      "$\\left[\\begin{matrix}2&-1&\\\\5&-3\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-3&-1&\\\\-5&-2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&-1&\\\\5&-2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&1&\\\\-5&2\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}3&-1&\\\\5&-2\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6201,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dhaka",
+    "question": "$\\left[\\begin{matrix}a-3&amp;-1&amp;\\\\-8&amp;a+4\\\\\\end{matrix}\\right]$ একটি ব্যতিক্রমী ম্যাট্রির হলে a= ?",
+    "options": [
+      "4,-5",
+      "-4,5",
+      "-4,-5",
+      "4,5"
+    ],
+    "answer": "4,-5",
+    "explanation": "<p>$\\left|\\begin{array}{cc}a-3 &amp; -1 \\\\-8 &amp; a+4\\end{array}\\right|=0$</p><p>বা, $a^2+a-12-8=0$</p><p>বা, $a^2+a-20=0$</p><p>বা, $(a+5)(a-4)=0$</p><p>$\\therefore \\quad a=-5,4 .$</p>"
+  },
+  {
+    "id": 6382,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$A=\\left[\\begin{matrix}3&amp;-2&amp;5\\\\4&amp;0&amp;6\\\\-1&amp;7&amp;10\\\\\\end{matrix}\\right]$&nbsp;নির্ণায়কের (2,3) তম ভুক্তির সহগুণক কত?",
+    "options": [
+      "114",
+      "19",
+      "-19",
+      "-114"
+    ],
+    "answer": "-19",
+    "explanation": "<p>$\\begin{aligned}(2,3) \\text { ভুক্তির সহগুণক } &amp; =-\\left|\\begin{array}{rr}3 &amp; -2 \\\\ -1 &amp; 7\\end{array}\\right| \\\\ &amp; =-(21-2)=-19 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6385,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$\\left[\\begin{matrix}-1&amp;0\\\\-{1\\over 2}&amp;1\\\\\\end{matrix}\\right]$  এর বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}-1&0\\\\-{1\\over 2}&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&0\\\\-{1\\over 2}&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-{1\\over 2}\\\\0&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-{1\\over 2}\\\\0&-1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-1&0\\\\-{1\\over 2}&1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6390,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "যদি $\\left[\\begin{matrix}0&amp;5&amp;-3\\\\-5&amp;0&amp;y\\\\x&amp;4&amp;0\\\\\\end{matrix}\\right]$ বিপ্রতিসম ম্যাট্রিক্স হলে (x,y)=?",
+    "options": [
+      "(-3,-4)",
+      "(-3,4)",
+      "(3,-4)",
+      "(3,4)"
+    ],
+    "answer": "(3,-4)",
+    "explanation": "<p>$\\because$ ম্যাট্রিক্সটি বিপ্রতিসম।</p><p>$\\therefore a_{23}=-a_{32}$</p><p>বা, $y=-4$</p><p>এবং $a_{31}=-a_{13}$</p><p>$\\begin{aligned}&amp; \\therefore x=3 \\\\&amp; \\therefore(x, y)=(3,-4)\\end{aligned}$</p>"
+  },
+  {
+    "id": 6392,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{matrix}1&amp;4&amp;-3\\\\2&amp;-1&amp;x\\\\6&amp;2&amp;8\\\\\\end{matrix}\\right]$ এর (1, 1) তম ভুক্তির অনুরাশি 4 হলে x এর মান কত?</p>",
+    "options": [
+      "6",
+      "2",
+      "-2",
+      "-6"
+    ],
+    "answer": "-2",
+    "explanation": ""
+  },
+  {
+    "id": 6279,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "A, B ও C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে $4 \\times 3, 3 \\times 4$ এবং $7\\times 4$ হলে, $(B + A^T). C^T$ ম্যাট্রিক্সের মাত্রা কত?",
+    "options": [
+      "$3 \\times 4$",
+      "$4 \\times 3$",
+      "$3 \\times 7$",
+      "$4 \\times 7$"
+    ],
+    "answer": "$3 \\times 7$",
+    "explanation": ""
+  },
+  {
+    "id": 6281,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$\\left[\\begin{matrix}2&amp;-4\\\\-4&amp;-8\\\\\\end{matrix}\\right]$ একটি - </p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. ব্যতিক্রমী ম্যাট্রিক্স </p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6287,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "যদি A একটি বর্ণ ম্যাট্রিক্স এবং $A^2=l$ হয়, তবে A কে বলে—",
+    "options": [
+      "শূন্যঘাতি ম্যাট্রিক্স",
+      "অভেদঘাতি ম্যাট্রিক্স",
+      "শূন্য ম্যাট্রিক্স",
+      "বিপ্রতিসম ম্যাট্রিক্স"
+    ],
+    "answer": "অভেদঘাতি ম্যাট্রিক্স",
+    "explanation": ""
+  },
+  {
+    "id": 6288,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\left[\\begin{matrix}1&amp;-2&amp;3\\\\0&amp;1&amp;-2\\\\-1&amp;0&amp;-2\\\\\\end{matrix}\\right]$ নির্ণায়কটির (1, 2) তম ভুক্তির সহগুণক কোনটি?",
+    "options": [
+      "4",
+      "2",
+      "-2",
+      "-4"
+    ],
+    "answer": "2",
+    "explanation": "<p>(1.2) তম ভুক্তির সহগুনক $=-\\left|\\begin{array}{rr}0 &amp; -2 \\\\ -1 &amp; 2\\end{array}\\right|=-(0-2)=2$.</p>"
+  },
+  {
+    "id": 6408,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$A^2=A$ হলে A ম্যাট্রিক্সটি - ",
+    "options": [
+      "সমঘাতী",
+      "ব্যতিক্রমী",
+      "প্রতিসম",
+      "অব্যতিক্রমী"
+    ],
+    "answer": "সমঘাতী",
+    "explanation": ""
+  },
+  {
+    "id": 6409,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$\\left[\\begin{matrix}3&amp;-3&amp;0\\\\5&amp;4&amp;3\\\\3&amp;-2&amp;-4\\\\\\end{matrix}\\right]$একটি নির্ণায়ক।</p><p>Q. (2,1) তম ভুক্তির অনুরাশি -</p>",
+    "options": [
+      "-41",
+      "-12",
+      "12",
+      "41"
+    ],
+    "answer": "12",
+    "explanation": "<p>$(2,1)$ তম ভুক্তির অনুরাশি $=\\left|\\begin{array}{rr}-3 &amp; 0 \\\\ -2 &amp; -4\\end{array}\\right|=12+0=12$</p>"
+  },
+  {
+    "id": 6410,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$\\left[\\begin{matrix}3&amp;-3&amp;0\\\\5&amp;4&amp;3\\\\3&amp;-2&amp;-4\\\\\\end{matrix}\\right]$একটি নির্ণায়ক।</p><p>Q. (3,2) তম ভুক্তির সহগুণক-</p>",
+    "options": [
+      "-12",
+      "-9",
+      "9",
+      "12"
+    ],
+    "answer": "-9",
+    "explanation": "<p>$(3,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}3 &amp; 0 \\\\ 5 &amp; 3\\end{array}\\right|=-(9-0)=-9$.</p>"
+  },
+  {
+    "id": 6411,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>A,B,C ম্যাট্রিক্সত্রয়ের মাত্রা যথাক্রমে $3\\times 4, 4\\times 5$ ও $5\\times 2$ হলে (AB)C এর মান </p>",
+    "options": [
+      "$4\\times 5$",
+      "$3\\times 2$",
+      "$2\\times 3$",
+      "$3\\times 5$"
+    ],
+    "answer": "$3\\times 2$",
+    "explanation": "<p>A B  এর মাত্রা $=(3 \\times 4) \\cdot(4 \\times 5)=3 \\times 5$</p><p>$ \\quad(A B) C $এর মাত্রা$=(3 \\times 5) \\cdot(5 \\times 2)=3 \\times 2 . $ </p>"
+  },
+  {
+    "id": 6412,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{matrix}2&amp;-1&amp;3\\\\-1&amp;4&amp;5\\\\3&amp;5&amp;1\\\\\\end{matrix}\\right]$  ম্যাট্রিক্সটি - </p><p><br></p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. প্রতিসম ম্যাট্রিক্স</p><p><br/>iii. অব্যাতিক্রমী ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6231,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "<p>A,B এবং C ম্যাট্রিক্স গুলোর আকার যথাক্রমে $m\\times n , n\\times m $ এবং $m\\times s$ হলে $(A^T+B)C$ ম্যাট্রিক্সের আকার হবে - </p>",
+    "options": [
+      "$m\\times s$",
+      "$s\\times n$",
+      "$n\\times m$",
+      "$n\\times s$"
+    ],
+    "answer": "$n\\times s$",
+    "explanation": "<p>$\\mathrm{A}, \\mathrm{B}$ এবং C ম্যাট্রিক্সগুলোর আকার যথাক্রমে $\\mathrm{m} \\times \\mathrm{n}, \\mathrm{n} \\times \\mathrm{m}$ এবং $\\mathrm{m} \\times \\mathrm{s}$</p><p>$\\therefore \\mathbf{A}^\\tau$ ম্যাট্রিক্সের আকার $\\mathrm{n} \\times \\mathrm{m}$</p><p>$\\mathrm{A}^{\\mathrm{T}}+\\mathrm{B}$ ম্যাট্রিক্সের আকার $\\mathrm{n} \\times \\mathrm{m}$</p><p>$\\therefore\\left(A^T+B\\right) C$ ম্যাট্রিক্সের আকার $=(\\mathrm{n} \\times \\mathrm{m}) .(\\mathrm{m} \\times \\mathrm{s})=\\mathrm{n} \\times \\mathrm{s}$.</p>"
+  },
+  {
+    "id": 6233,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও:$A=\\left[\\begin{matrix}x+4&amp;8\\\\2&amp;x-2\\\\\\end{matrix}\\right]$ একটি ম্যাট্রিক্স।</p><p><br></p><p>Q. যদি A ম্যাট্রিক্সটি ব্যাতিক্রমী হয় তবে x এর মান নিচের কোনটি?</p>",
+    "options": [
+      "-4,2",
+      "-2,4",
+      "-4,6",
+      "-6,4"
+    ],
+    "answer": "-6,4",
+    "explanation": "<p>ব্যতিক্রমী হলে, $\\left|\\begin{array}{cc}x+4 &amp; 8 \\\\ 2 &amp; x-2\\end{array}\\right|=0$</p><p>বা, $x^2+2 x-8-16=0$</p><p>বা, $x^2+2 x-24=0$</p><p>বা, $(x+6)(x-4)=0$</p><p>$\\therefore \\quad x=-6,4$.</p>"
+  },
+  {
+    "id": 6234,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও:$A=\\left[\\begin{matrix}x+4&amp;8\\\\2&amp;x-2\\\\\\end{matrix}\\right]$ একটি ম্যাট্রিক্স।</p><p><br></p><p>Q. প্রদত্ত ম্যাট্রিক্সটি x=3 হলে $A^2$ নিচের কোনটি?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}65&64\\\\16&17\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}49&46\\\\41&43\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}40&48\\\\52&64\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}64&49\\\\-2&4\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}65&64\\\\16&17\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6246,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "$\\left[\\begin{matrix}6&amp;7\\\\8&amp;7\\\\\\end{matrix}\\right]$ এর বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}-7&8\\\\6&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}7&-6\\\\-8&7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}7&-8\\\\-6&7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-7&6\\\\8&-7\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}7&-6\\\\-8&7\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6349,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>বর্গ ম্যাট্রিক্স A এর ক্ষেত্রে $A^2= 1$  হলে, $A^{-1}$ = ?.</p>",
+    "options": [
+      "24",
+      "A",
+      "0",
+      "A+I"
+    ],
+    "answer": "A",
+    "explanation": "<p>$A^2=\\mathrm{I}$</p><p>বা, $A^{-1} \\cdot A^2=I \\cdot A^{-1}$</p><p>বা, $\\mathbf{A}^{-1} \\cdot \\mathbf{A} \\cdot \\mathbf{A}=\\mathbf{A}^{-1} \\quad \\therefore \\quad \\mathbf{A}=\\mathbf{A}^{-1}$.</p>"
+  },
+  {
+    "id": 6350,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$\\left[\\begin{matrix}1&amp;3&amp;\\lambda +2&amp;\\\\2&amp;4&amp;8\\\\3&amp;5&amp;10\\\\\\end{matrix}\\right]$ একটি ব্যাতিক্রমী ম্যাট্রিক্স হলে $\\lambda$ এর মান -",
+    "options": [
+      "-2",
+      "2",
+      "4",
+      "-4"
+    ],
+    "answer": "4",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left|\\begin{array}{ccc}1 &amp; 3 &amp; \\lambda+2 \\\\ -2 &amp; 4 &amp; 8 \\\\ 3 &amp; 5 &amp; 10\\end{array}\\right|=0 \\\\ &amp; \\text { বা, } 1(40-40)-3(20-24)+(\\lambda+2)(10-12)=0 \\\\ &amp; \\text { বা, } 12-2 \\lambda-4=0 \\\\ &amp; \\text { বা, } 2 \\lambda=8 \\\\ &amp; \\therefore \\lambda=4 \\text {. } \\\\ &amp; \\end{aligned}$</p>"
+  },
+  {
+    "id": 6351,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$A^{-1}=\\left[\\begin{matrix}2&amp;0\\\\0&amp;2\\\\\\end{matrix}\\right]$, $B^{-1}=\\left[\\begin{matrix}0&amp;1\\\\1&amp;0\\\\\\end{matrix}\\right]$ হলে $(AB)^{-1}$ এর মান কত?",
+    "options": [
+      "$\\left[\\begin{matrix}0&2\\\\2&0\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&0\\\\0&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&0\\\\0&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}0&1\\\\1&0\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}0&2\\\\2&0\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6352,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "<p>A একটি বর্গ ম্যাট্রিক্স এবং K একটি স্কেলার হলে —</p><p><br/>i. $(A^l)^l=A$</p><p><br/>ii. $(KA)^l=KA$</p><p><br/>iii. যদি $|A|\\neq 0$ হয়, তবে $|A^{-1}|={1\\over |A|}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6353,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Sylhet",
+    "question": "$A=\\left[\\begin{matrix}1&amp;1&amp;1\\\\e&amp;\\pi &amp;\\sqrt3\\\\3&amp;3&amp;3\\\\\\end{matrix}\\right]$ হলে $|A|$=?",
+    "options": [
+      "e",
+      "$\\pi $",
+      "$2(e-\\pi +\\sqrt 3)$",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6099,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "A = $\\begin{bmatrix}0 &amp; -1\\\\ 1 &amp; 0\\end{bmatrix}$ এবং B = [a b]&nbsp;হলে BA = কত?",
+    "options": [
+      "$\\begin{bmatrix}-b & a\\end{bmatrix}$",
+      "$\\begin{bmatrix}-b\\\\ a\\end{bmatrix}$",
+      "[b     -a]",
+      "$\\begin{bmatrix}b\\\\ -a\\end{bmatrix}$"
+    ],
+    "answer": "[b     -a]",
+    "explanation": "<p>$B A=[a b]\\left[\\begin{array}{rr}0 &amp; -1 \\\\ 1 &amp; 0\\end{array}\\right]=[0+b-a+0]=[b-a]$</p>"
+  },
+  {
+    "id": 6110,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "A ও B ম্যাট্রিক্সের ক্রম যথাক্রমে 5 × 3 ও 3 × 4 হলে AB ম্যাট্রিক্সের ক্রম কোনটি?",
+    "options": [
+      "4 × 5",
+      "5 × 4",
+      "3 × 3",
+      "4 × 3"
+    ],
+    "answer": "5 × 4",
+    "explanation": "<p>$\\mathrm{A}$ ম্যাট্রিক্সের ক্রম $5 \\times 3$</p><p>$B$ ম্যাট্রিক্সের ক্রম $3 \\times 4$</p><p>$\\therefore \\mathrm{AB}$ ম্যাট্রিক্সের ক্রম$5 \\times 4$</p>"
+  },
+  {
+    "id": 6111,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>A একটি 3 × 3 ক্রমের ম্যাট্রিক্স এবং |A| = 1 হলে $\\begin{vmatrix}(3A)^{-1}\\end{vmatrix}$ এর মান কত ?&nbsp;</p>",
+    "options": [
+      "$\\frac{1}{27}$",
+      "$\\frac{1}{9}$",
+      "9",
+      "27"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 6113,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "$A^{-1}=\\begin{bmatrix}1 &amp; 2\\\\1 &amp; 3\\end{bmatrix}$ হলে, A = কত?",
+    "options": [
+      "$\\begin{bmatrix}3 &1\\\\2 & 1\\end{bmatrix}$",
+      "$\\begin{bmatrix}3 &-2 \\\\-1 & 1\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1 &1\\\\2 & -3\\end{bmatrix}$",
+      "$\\begin{bmatrix}1 &2\\\\1 & -3 \\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}3 &-2 \\\\-1 & 1\\end{bmatrix}$",
+    "explanation": "<p>$\\begin{aligned} &amp; A \\cdot A^{-1}=I \\\\ &amp; \\text { বা, } A=I \\cdot\\left(A^{-1}\\right)^{-1} \\\\ &amp; \\therefore A=\\left(A^{-1}\\right)^{-1} \\\\ &amp; \\therefore\\left(A^{-1}\\right)^{-1}=\\frac{1}{\\left|A^{-1}\\right|} \\text { Adj } A^{-1}=\\frac{1}{3-2}\\left[\\begin{array}{rr}3 &amp; -2 \\\\ -1 &amp; 1\\end{array}\\right] \\\\ &amp; \\therefore A=\\left[\\begin{array}{rr}3 &amp; -2 \\\\ -1 &amp; 1\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6117,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>A = $\\begin{bmatrix}P-3 &amp; -1\\\\-8 &amp; P+4\\end{bmatrix}$ &nbsp;একটি ম্যাট্রিক্স হলে - </p><p><br/>i. p = 4 এর জন্য A−1 নির্ণয় করা যায় না</p><p><br/>ii. p = −5 &nbsp;এর জন্য A একটি ম্যাট্রিক্স </p><p><br/>iii. |A| এর (2,1) তম ভুক্তির অনুরাশি। </p><p><br></p><p>নিচের কোনটি সঠিক ?&nbsp;</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>$|A|=0$</p><p>বা, $\\left|\\begin{array}{cc}P-3 &amp; -1 \\\\ -8 &amp; P+4\\end{array}\\right|=0$</p><p>বা, $(P-3)(P+4)-8=0$</p><p>বা, $P^2+P-12-8=0$</p><p>বা, $P^2+P-20=0$</p><p>বা, $\\mathrm{P}^2+5 \\mathrm{P}-4 \\mathrm{P}-20=0$</p><p>বা, $P(P+5)-4(P+5)=0$</p><p>বা, $(P+5)(P-4)=0$</p><p>$\\therefore P=4,-5$</p><p>(i) $\\mathrm{P}=4$ হলে, $\\mathrm{A}^{-1}$ নির্ণেয় যোগ্য নয়।</p><p>(ii) $\\mathrm{P}=-5$ হলে $\\mathrm{A}$ ব্যতিক্রমী ম্যাট্রিক্স</p><p>(iii) $(2,1)$ ভুক্তির অনুরাশি $=-1$</p>"
+  },
+  {
+    "id": 6074,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "P এর মান কত হলে $\\begin{bmatrix}P+1 &amp; 6\\\\ 4 &amp; -8\\end{bmatrix}$ ম্যাট্রিক্সটি ব্যতিক্রমী হবে?",
+    "options": [
+      "4",
+      "2",
+      "-2",
+      "-4"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$\\left|\\begin{array}{cc}p+1 &amp; 6 \\\\4 &amp; -8\\end{array}\\right|=0$</p><p>বা, $-8(p+1)-24 \\div 0$ </p><p>বা, $p+1+3=0$ </p><p>বা, $p=-4$</p>"
+  },
+  {
+    "id": 6079,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "<p>$\\begin{bmatrix}7 &amp; 0 &amp; 0\\\\ 0 &amp; 1 &amp; 0\\\\ 0 &amp; 0 &amp; -5\\end{bmatrix}$ ম্যাট্রিক্সটি-</p><p><br/>i.কর্ণ ম্যাট্রিক্স</p><p><br/>ii. প্রতিসম ম্যাট্রিক্স</p><p><br/>iii. ত্রিভুজাকার ম্যাট্রিক্স</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6088,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$A = \\begin{bmatrix}1 &amp; -1 &amp; 1\\\\ 0 &amp; 1 &amp; 3\\\\ -5 &amp; 2 &amp; -7\\end{bmatrix}$</p><p><br></p><p>Q. |A| এর মান কত?</p>",
+    "options": [
+      "-23",
+      "-7",
+      "-3",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "<p>$|A|=1(-7-6)+1(0+15)+1(0+5)=-13+15+5=7$.</p>"
+  },
+  {
+    "id": 6089,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$A = \\begin{bmatrix}1 &amp; -1 &amp; 1\\\\ 0 &amp; 1 &amp; 3\\\\ -5 &amp; 2 &amp; -7\\end{bmatrix}$</p><p><br></p><p>Q. |A| এর (1,2) তম ভূক্তির সহগুণক-</p>",
+    "options": [
+      "-15",
+      "-5",
+      "5",
+      "15"
+    ],
+    "answer": "-15",
+    "explanation": "<p>$(1,2)$ তম ভুক্তির সহগ $=-\\left|\\begin{array}{rr}0 &amp; 3 \\\\ -5 &amp; -7\\end{array}\\right|=-(0+15)=-15$.</p>"
+  },
+  {
+    "id": 6026,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\begin{bmatrix}4 &amp; 0 &amp; -2\\\\ 0 &amp; 5 &amp; m\\\\ -2 &amp; 4 &amp; 5\\end{bmatrix}$ ম্যাট্রিক্সটি প্রতিসম হলে m = কত?",
+    "options": [
+      "-2",
+      "0",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 6036,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "$\\begin{bmatrix}+7 &amp; -7 &amp; 0\\\\ -1 &amp; 2 &amp; -1\\\\ 5 &amp; P &amp; 3\\end{bmatrix}$ এ P এর সহগণক কোনটি?",
+    "options": [
+      "-7",
+      "-6",
+      "6",
+      "7"
+    ],
+    "answer": "7",
+    "explanation": "$P$ এর সহগুণক $=-\\left|\\begin{array}{rr}7 & 0 \\\\ -1 & -1\\end{array}\\right|=-(-7-0)=7$."
+  },
+  {
+    "id": 6041,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>$\\begin{bmatrix}6 &amp; 0 &amp; -3\\\\ 0 &amp; 7 &amp; 0\\\\ -3 &amp; 0 &amp; 5\\end{bmatrix}$ একটি-</p><p><br/>i. বর্গ ম্যাট্রিক্স </p><p><br/>ii. প্রতিসম ম্যাট্রিক্স</p><p><br/>iii. ব্যতিক্রমী ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6045,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "B = $\\begin{bmatrix}3 &amp; 2\\\\ -5 &amp; -2\\end{bmatrix}$ হলে, B$^{-1}$ = ?",
+    "options": [
+      "$\\frac{1}{4}\\begin{bmatrix}-2 & -2\\\\5 &3\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}2 &2\\\\-5 &-3\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}-3 &-5\\\\2 &2\\end{bmatrix} $",
+      "$\\frac{1}{4}\\begin{bmatrix}-3 &-2\\\\5&2\\end{bmatrix} $"
+    ],
+    "answer": "$\\frac{1}{4}\\begin{bmatrix}-2 & -2\\\\5 &3\\end{bmatrix} $",
+    "explanation": "<p>$B^{-1}=\\frac{1}{-6+10}\\left[\\begin{array}{rr}-2 &amp; -3 \\\\ 5 &amp; 3\\end{array}\\right]=\\frac{1}{4}\\left[\\begin{array}{rr}-2 &amp; -2 \\\\ 5 &amp; 3\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5974,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "A = [2 1 -1] এবং B = $\\begin{bmatrix}2\\\\&nbsp;0\\\\&nbsp;3\\end{bmatrix}$ হলে, BA = ?",
+    "options": [
+      "[1]",
+      "$\\begin{bmatrix} 4\\\\  0\\\\  -3 \\end{bmatrix}$",
+      "$\\begin{bmatrix} 4 & 0 & -3 \\end{bmatrix}$",
+      "$\\begin{bmatrix} 4 & 2 & -2\\\\  0 & 0 & 0\\\\  6 & 3 & -3 \\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix} 4 & 2 & -2\\\\  0 & 0 & 0\\\\  6 & 3 & -3 \\end{bmatrix}$",
+    "explanation": "<p>$\\mathrm{BA}=\\left[\\begin{array}{l}2 \\\\ 0 \\\\ 3\\end{array}\\right] \\cdot\\left[\\begin{array}{lll}2 &amp; 1 &amp; -1\\end{array}\\right]=\\left[\\begin{array}{rrr}4 &amp; 2 &amp; -2 \\\\ 0 &amp; 0 &amp; 0 \\\\ 6 &amp; 3 &amp; -3\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5978,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>$\\begin{vmatrix}1 &amp;2 \\\\ -3 &amp; 6\\end{vmatrix}$ নির্ণায়কে-</p><p><br/>i. (1, 2) তম ভুক্তির সহগুণক 3 </p><p><br/>ii. (2, 2) তম ভুক্তির অনুরাশি 1 </p><p><br/>iii. নির্ণায়কের মান 12</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 5984,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "$\\begin{bmatrix}m &amp;-1 \\\\m-2 &amp; m-2\\end{bmatrix}$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, m এর মান কোনটি?",
+    "options": [
+      "1, -2",
+      "-1,-2",
+      "-1, 2",
+      "1, 2"
+    ],
+    "answer": "-1, 2",
+    "explanation": ""
+  },
+  {
+    "id": 5996,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত  প্রশ্নের উত্তর দাও :$A = \\begin{bmatrix}2 &amp;1 \\\\ 3&amp; 5\\end{bmatrix}, B=\\begin{vmatrix}2\\\\ 10\\end{vmatrix}$</p><p>Q. A$^{-1}$ = কত?</p>",
+    "options": [
+      "<p>$\\frac{1}{7}\\begin{bmatrix} 5 &amp; -1\\\\ -3 &amp; 2 \\end{bmatrix}$</p>",
+      "$\\frac{1}{7}\\begin{bmatrix} 2 & -3\\\\ -1 & 5 \\end{bmatrix}$",
+      "$\\frac{1}{7}\\begin{bmatrix} 5 & 1\\\\ 3 & 2 \\end{bmatrix}$",
+      "$\\frac{1}{7}\\begin{bmatrix} 2 & 3\\\\ 1 & 5 \\end{bmatrix}$"
+    ],
+    "answer": "$\\frac{1}{7}\\begin{bmatrix} 5 & -1\\\\ -3 & 1 \\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 5997,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dhaka",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত  প্রশ্নের উত্তর দাও :</p><p><br></p><p>$A = \\begin{bmatrix}2 &amp;1 \\\\ 3&amp; 5\\end{bmatrix}, B=\\begin{vmatrix}2\\\\ 10\\end{vmatrix}$</p><p><br></p><p>P = $\\binom{x}{y}$ এবং AP = B হলে, x + y = কত?</p>",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6159,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "ম্যাট্রিক্স A এর মাত্রা 4 $\\times&nbsp;$5 ম্যাট্রিক্স B এর মাত্রা 5 $\\times&nbsp;$4 হলে BA এর মাত্রা কত?",
+    "options": [
+      "$4\\times 4$",
+      "$5\\times 5$",
+      "$4\\times 5$",
+      "$5\\times 4$"
+    ],
+    "answer": "$5\\times 5$",
+    "explanation": ""
+  },
+  {
+    "id": 6160,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "A = $\\begin{bmatrix}1 &amp; 2 &amp; 3\\\\4 &amp; -1 &amp; 2\\\\0 &amp; 1 &amp; -5\\end{bmatrix}$ হলে A + 3l = ?",
+    "options": [
+      "$\\begin{bmatrix}-2 & 2 & 3\\\\4 & -4 & 2\\\\0 & 1 & -8\\end{bmatrix}$",
+      "$\\begin{bmatrix}-2 & 2 & 3\\\\4 & 2 & 2\\\\0 & 1 & -2\\end{bmatrix}$",
+      "$\\begin{bmatrix}4 & 2 & 3\\\\4 & 2 & 2\\\\0 & 1 & -2\\end{bmatrix}$",
+      "$\\begin{bmatrix}-2 & 5 & 3\\\\4 & -1 & 5\\\\0 & 4 & -2\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}4 & 2 & 3\\\\4 & 2 & 2\\\\0 & 1 & -2\\end{bmatrix}$",
+    "explanation": "<p><br></p><p>$\\therefore A+31=\\left[\\begin{array}{rrr}1 &amp; 2 &amp; 3 \\\\4 &amp; -1 &amp; 2 \\\\0 &amp; 1 &amp; -5\\end{array}\\right]+\\left[\\begin{array}{rrr}3 &amp; 0 &amp; 0 \\\\0 &amp; 3 &amp; 0 \\\\0 &amp; 0 &amp; 3 \\end{array}\\right]=\\left[\\begin{array}{rrr}4 &amp; 2 &amp; 3 \\\\4 &amp; 2 &amp; 2 \\\\0 &amp; 1 &amp; -2\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 6161,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "<p>A=$\\begin{bmatrix}3 &amp; 1\\\\-2 &amp; -1\\end{bmatrix}$ হলে, $A^{-1}$ = ?</p>",
+    "options": [
+      "$\\begin{bmatrix}1 & 1\\\\-2 & -3\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1 & -1\\\\2 & 3\\end{bmatrix}$",
+      "$\\begin{bmatrix}3& -1\\\\2 & -1\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1 & 1\\\\-2 & 3\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}1 & 1\\\\-2 & -3\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6162,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$\\begin{bmatrix}3 &amp; 3 &amp; 1\\\\-1 &amp; 2 &amp; m\\\\4 &amp; 1 &amp; 0\\end{bmatrix}$</p><p>Q. (2, 3) তম ভূক্তির অনুরাশির মান কত?</p>",
+    "options": [
+      "11",
+      "5",
+      "-5",
+      "-11"
+    ],
+    "answer": "-5",
+    "explanation": "<p>$(2,3)$ ভুক্তি অনুরাশি $=\\left|\\begin{array}{ll}3 &amp; 2 \\\\ 4 &amp; 1\\end{array}\\right|=3-8=-5$.</p>"
+  },
+  {
+    "id": 6163,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>$\\begin{bmatrix}3 &amp; 3 &amp; 1\\\\-1 &amp; 2 &amp; m\\\\4 &amp; 1 &amp; 0\\end{bmatrix}$</p><p>Q. নির্ণায়কের মান শূন্য হলে m এর মান কত?</p>",
+    "options": [
+      "$-\\frac{9}{11}$",
+      "$\\frac{5}{9}$",
+      "$\\frac{9}{11}$",
+      "$\\frac{9}{5}$"
+    ],
+    "answer": "$\\frac{9}{5}$",
+    "explanation": "<p>$\\begin{aligned} &amp; 1(-1-8)-m(3-8)=0 \\\\ &amp; \\text { বা, }-9+5 m=0 \\\\ &amp; \\text { বা, } 5 m=9 \\\\ &amp; \\therefore m=\\frac{9}{5}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6056,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "<p>$\\begin{bmatrix}6 &amp; 0 &amp; 0\\\\ 0 &amp; 7&amp; 0\\\\0 &amp; 0 &amp; 8\\end{bmatrix}$ একটি-</p><p><br></p><p><br/>i. কর্ণ ম্যাট্রিক্স </p><p><br/>ii. বর্গ ম্যাট্রিক্স </p><p><br/>iii. স্কেলার ম্যাট্রিক্স </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6057,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "x এর কোন মানের জন্য $\\begin{bmatrix}x^{2} &amp; x &amp; 4\\\\ 3 &amp; 3 &amp; 1 \\\\0 &amp; 0 &amp; -6\\end{bmatrix}$ = 0&nbsp;হবে?",
+    "options": [
+      "0, 3",
+      "- 3, 0",
+      "0, 1",
+      "- 1, 0"
+    ],
+    "answer": "0, 1",
+    "explanation": ""
+  },
+  {
+    "id": 6067,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "P এবং Q ম্যাট্রিক্স দুইটির ক্রম যথাক্রমে a × b এবং b × c হলে PQ ম্যাট্রিক্সের ক্রম কোনটি?",
+    "options": [
+      "a × b",
+      "b × c",
+      "b × b",
+      "a × c"
+    ],
+    "answer": "a × c",
+    "explanation": "<p>$(a \\times b)(b \\times c)=a \\times c$</p>"
+  },
+  {
+    "id": 6068,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "A = $\\begin{bmatrix}x + 4 &amp; 4\\\\-4 &amp; x-4\\end{bmatrix}$ ম্যাট্রিক্সটি অব্যতিক্রমী হওয়ার শর্ত কোনটি?",
+    "options": [
+      "x ≠ –4",
+      "x ≠ 0",
+      "x ≠ 4",
+      "x ≠ 4$\\sqrt{4}$"
+    ],
+    "answer": "x ≠ 0",
+    "explanation": "<p>$\\left|\\begin{array}{cc}x+4 &amp; 4 \\\\-4 &amp; x-4\\end{array}\\right|=x^2-16+16=0$</p><p>বা, $x^2=0 ; x=0$</p><p>ব্যতিক্রমী হলে $x=0$, অব্যতীক্রমী হলে, $x \\neq 0$.</p>"
+  },
+  {
+    "id": 6069,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "<p>P এর কোন মানের জন্য $\\begin{bmatrix}1 &amp; 2 &amp; 3\\\\1 &amp; 2 &amp; P\\\\3 &amp; 5 &amp; 0\\end{bmatrix}$&nbsp;&nbsp;নির্ণায়কটির মান শূন্য হবে ?&nbsp;</p>",
+    "options": [
+      "-3",
+      "-1",
+      "1",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 6070,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "$\\begin{bmatrix}13 &amp; 0 &amp; 2\\\\3 &amp; 1 &amp; 1\\\\7 &amp; -2 &amp; 0\\end{bmatrix}$ এর (1,3) তম ভুক্তির সহগুণক কত?",
+    "options": [
+      "-13",
+      "-2",
+      "2",
+      "13"
+    ],
+    "answer": "-13",
+    "explanation": "<p>$(1,3)$ তম ভুক্তির সহগ $=\\left|\\begin{array}{rr}3 &amp; 1 \\\\ 7 &amp; -2\\end{array}\\right|=-6-7=-13$.</p>"
+  },
+  {
+    "id": 6071,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "<p>$\\begin{bmatrix}5 &amp; 3\\\\4 &amp; 3\\end{bmatrix}$ এর বিপরীত ম্যাট্রিক্স কোনটি?</p>",
+    "options": [
+      "<p>$\\frac{1}{27}\\begin{bmatrix}3 &amp; -3\\\\-4 &amp; 5\\end{bmatrix}$</p>",
+      "<p>$\\frac{1}{3}\\begin{bmatrix}3 &amp; -3\\\\-4 &amp; 5\\end{bmatrix}$</p>",
+      "$\\frac{1}{27}\\begin{bmatrix}-5 & 4\\\\3 & -3\\end{bmatrix}$",
+      "$\\frac{1}{3}\\begin{bmatrix}-5 & 3\\\\4 & -3\\end{bmatrix}$"
+    ],
+    "answer": "<p>$\\frac{1}{3}\\begin{bmatrix}3 &amp; -3\\\\-4 &amp; 5\\end{bmatrix}$</p>",
+    "explanation": "<p>$\\begin{aligned} A=\\left[\\begin{array}{ll}5 &amp; 3 \\\\ 4 &amp; 3\\end{array}\\right], A^{-1} &amp; =\\frac{1}{|A|} \\cdot \\text { Adj } A \\\\ &amp; =\\frac{1}{15-12}\\left[\\begin{array}{rr}3 &amp; -3 \\\\ -4 &amp; 5\\end{array}\\right]=\\frac{1}{3}\\left[\\begin{array}{rr}3 &amp; -3 \\\\ -4 &amp; 5\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6187,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "$\\begin{bmatrix}1 &amp; 2 &amp; 3\\\\0 &amp; 4 &amp; 5\\\\0 &amp; 0 &amp; 6\\end{bmatrix}$ এটি কোন ধরনের ম্যাট্রিক্স?",
+    "options": [
+      "স্কেলার",
+      "নিম্ন ত্রিভুজাকার",
+      "উর্ধ্ব ত্রিভুজাকার",
+      "কর্ণ"
+    ],
+    "answer": "উর্ধ্ব ত্রিভুজাকার",
+    "explanation": "<p>কোনো বর্গ ম্যাট্রিক্সের মূখ্য কর্ণের নিচের ভুক্তিগুলোর মান শূন্য হলে ঐ ম্যট্রিক্সকে ঊর্ধ্ব ত্রিভুজাকার ম্যাট্রিক্স বলে ।</p>"
+  },
+  {
+    "id": 6188,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "$\\begin{bmatrix}2 &amp; 2 &amp; 5\\\\2 &amp; 2 &amp; 6\\\\2 &amp; 2 &amp; 7\\end{bmatrix}$ এর (2, 3) তম ভুক্তির অনুরাশি নিচের কোনটি?",
+    "options": [
+      "2",
+      "0",
+      "5",
+      "7"
+    ],
+    "answer": "0",
+    "explanation": "<p>$(2,3)$ ভুক্তির অনুরাশি $=\\left|\\begin{array}{ll}2 &amp; 2 \\\\ 2 &amp; 2\\end{array}\\right|=0$.</p>"
+  },
+  {
+    "id": 6189,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "$\\begin{bmatrix}x+4 &amp; 2\\\\4x &amp; 6\\end{bmatrix}$ = 0, x-এর মান কত?",
+    "options": [
+      "12",
+      "6",
+      "4",
+      "-12"
+    ],
+    "answer": "12",
+    "explanation": "<p>$\\begin{aligned} &amp; \\left|\\begin{array}{cc}x+4 &amp; 2 \\\\ 4 x &amp; 6\\end{array}\\right|=0 \\\\ &amp; \\text { বা, } 6(x+4)-4 x=2=0 \\\\ &amp; \\text { বা, } 6 x+24-8 x=0 \\\\ &amp; \\text { বা, } 2 x=24 \\\\ &amp; \\therefore x=12 \\text {. }\\end{aligned}$</p>"
+  },
+  {
+    "id": 6190,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "$\\begin{bmatrix}0 &amp; 0 &amp; \\omega \\\\1 &amp; \\omega&nbsp;&amp;\\omega ^{2} \\\\\\omega&nbsp;&amp; 1 &amp; \\omega ^{2}\\end{bmatrix}$ এর মান কত?",
+    "options": [
+      "$\\omega-\\omega^{2}$",
+      "$\\omega^{2}$",
+      "$\\omega+\\omega^{2}$",
+      "$\\omega^{2}-\\omega$"
+    ],
+    "answer": "$\\omega-\\omega^{2}$",
+    "explanation": "<p>$\\begin{aligned}-1\\left|\\begin{array}{cc}1 &amp; \\omega^2 \\\\ \\omega &amp; \\omega^2\\end{array}\\right|+\\omega\\left|\\begin{array}{ll}1 &amp; \\omega \\\\ \\omega &amp; 1\\end{array}\\right| &amp; =-1\\left(\\omega^2-\\omega^3\\right)+\\omega\\left(1-\\omega^2\\right) \\\\ &amp; =-\\omega^2+1+\\omega-\\omega^3=\\omega-\\omega^2\\end{aligned}$</p>"
+  },
+  {
+    "id": 6196,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "কোনটি অভেদঘাতি মেট্রিক্স ?",
+    "options": [
+      "$\\begin{bmatrix}1\\\\4\\\\3\\end{bmatrix}$",
+      "$\\begin{pmatrix}-7 &16\\\\-3 & 7\\end{pmatrix}$",
+      "$\\begin{bmatrix}5 & 7 & 9\\end{bmatrix}$",
+      "[000]"
+    ],
+    "answer": "$\\begin{pmatrix}-7 &16\\\\-3 & 7\\end{pmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6010,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "বক্র প্রতিসম ম্যাট্রিক্সের ক্ষেত্রে কোনটি সত্য?",
+    "options": [
+      "a$_{ij}$ = a$_{ji}$",
+      "a$_{ij}$",
+      "a$_{ij}$ = -a$_{ji}$",
+      "a$_{ij}$ $\\neq $ a$_{ji}$"
+    ],
+    "answer": "a$_{ij}$ = -a$_{ji}$",
+    "explanation": ""
+  },
+  {
+    "id": 6011,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "3$\\times&nbsp;$3 মাত্রার একটি অভেদ ম্যাট্রিক্স $I_{3}$ হলে $(I_{3})^{-1}$ কত?",
+    "options": [
+      "$3I_{3}$",
+      "0",
+      "$\\frac{I_{3}}{3}$",
+      "I$_{3}$"
+    ],
+    "answer": "I$_{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6012,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "K এর কোন মানের জন্য $\\begin{bmatrix}k+1 &amp;3 \\\\&nbsp;3&amp;k-1 \\end{bmatrix}$ ম্যাট্রিক্সটি বিপরীতযোগ্য নয়?",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "$\\pm \\sqrt{10}$"
+    ],
+    "answer": "$\\pm \\sqrt{10}$",
+    "explanation": "<p>$\\left|\\begin{array}{cc}k+1 &amp; 3 \\\\3 &amp; k-1\\end{array}\\right|=k^2-1-9=0$</p><p>বা, $k^2=10$ </p><p>বা, $k= \\pm \\sqrt{10}$</p>"
+  },
+  {
+    "id": 6013,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "A = $\\begin{bmatrix}5 &amp; 0 &amp; 0\\\\&nbsp;0&amp; 6 &amp; 0\\\\&nbsp;0&amp; 0 &amp; 7\\end{bmatrix}$ হলে A$^{-1}$ = ?",
+    "options": [
+      "$\\begin{bmatrix}\\frac{1}{7} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{5}\\end{bmatrix} $",
+      "$\\frac{1}{210}\\begin{bmatrix}5 & 0 & 0\\\\  0& 6 & 0\\\\  0& 0 & 7\\end{bmatrix} $",
+      "$\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $",
+      "$\\frac{1}{210}\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $"
+    ],
+    "answer": "$\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $",
+    "explanation": ""
+  },
+  {
+    "id": 6130,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "A = $\\begin{bmatrix}1 &amp; -1\\\\1 &amp; 1\\end{bmatrix}$ হলে A$^{-1}$ = ?",
+    "options": [
+      "$\\frac{1}{2}\\begin{bmatrix}1 & 1\\\\-1 & 1\\end{bmatrix} $",
+      "$\\frac{1}{2}\\begin{bmatrix}1 & -1\\\\1 & 1\\end{bmatrix} $",
+      "$\\begin{bmatrix}1 & 1\\\\-1 & 1\\end{bmatrix} $",
+      "$\\begin{bmatrix}1 & -1\\\\1 & 1\\end{bmatrix} $"
+    ],
+    "answer": "$\\frac{1}{2}\\begin{bmatrix}1 & 1\\\\-1 & 1\\end{bmatrix} $",
+    "explanation": "<p>$\\begin{aligned} &amp; |A|=1+1=2 \\\\ &amp; A^{-1}=\\frac{1}{|A|} \\operatorname{Adj} \\mathbf{A}=\\frac{1}{2}\\left[\\begin{array}{cc}1 &amp; 1 \\\\ -1 &amp; 1\\end{array}\\right] .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6135,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "<p>$\\begin{bmatrix}-2 &amp; 4 &amp; 5\\\\ 0 &amp; 1 &amp; 2\\\\ 3 &amp; -2 &amp;5 \\end{bmatrix}$ নির্ণায়কের (2,3) তম ভুক্তির সহগুণক কত?</p>",
+    "options": [
+      "-8",
+      "-4",
+      "4",
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "<p>$(2,3)$ তম যুক্তির সহগুণক $=-\\left|\\begin{array}{rr}-2 &amp; 4 \\\\ 3 &amp; -2\\end{array}\\right|=-4+12=8$.</p>"
+  },
+  {
+    "id": 6136,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "A = $\\begin{pmatrix}2 &amp; 3-2i\\\\ 1+2i &amp; i-2\\end{pmatrix}$ মেট্রিক্সের অনুবন্ধী মেট্রিক্স কোনটি?",
+    "options": [
+      "$\\begin{pmatrix}2 & 3+2i\\\\ 1-2i & i+2\\end{pmatrix}$",
+      "$\\begin{pmatrix}3-2i & 2\\\\ i-2 & i+2i\\end{pmatrix}$",
+      "$\\begin{pmatrix}2& 3+2i\\\\ 3-2i & i-2\\end{pmatrix}$",
+      "$\\begin{pmatrix}2& 3+2i\\\\ 1-2i & -i-2\\end{pmatrix}$"
+    ],
+    "answer": "$\\begin{pmatrix}2& 3+2i\\\\ 1-2i & -i-2\\end{pmatrix}$",
+    "explanation": "<p>$A=\\left(\\begin{array}{cc}2 &amp; 3-2 i \\\\ 1+2 i &amp; i-2\\end{array}\\right)$ এর অনুবন্ধী মেট্রিক্স $\\left(\\begin{array}{cc}2 &amp; 3+2 i \\\\ 1-2 i &amp; -i-2\\end{array}\\right)$</p>"
+  },
+  {
+    "id": 6142,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Sylhet",
+    "question": "A একটি 2 $\\times&nbsp;$2 ক্রমের ম্যাট্রিক্স এবং |A| = 5 হলে |3A| এর মান কত?",
+    "options": [
+      "$\\frac{5}{9}$",
+      "$\\frac{5}{3}$",
+      "15",
+      "45"
+    ],
+    "answer": "45",
+    "explanation": "<p>$\\begin{aligned} &amp; \\text { ধরি, } A=\\left[\\begin{array}{ll}1 &amp; 0 \\\\ 0 &amp; 5\\end{array}\\right] \\\\ &amp; \\therefore|A|=5 \\\\ &amp; 3 A=\\left[\\begin{array}{cc}3 &amp; 0 \\\\ 0 &amp; 15\\end{array}\\right] \\quad \\therefore|3 A|=\\left|\\begin{array}{cc}3 &amp; 0 \\\\ 0 &amp; 15\\end{array}\\right|=45 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 5880,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>'p' এর কোন মানের জন্য $\\left[\\begin{array}{ccc}-3 &amp; 0 &amp; -1 \\\\ 0 &amp; 3 &amp; P \\\\ -1 &amp; 4 &amp; 0\\end{array}\\right]$ ম্যাট্রিক্সটি প্রতিসম হবে? </p>",
+    "options": [
+      "$-4$",
+      "$-1$",
+      "0",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "<p>ধরি, $ A=\\left[\\begin{array}{rrr}-3 &amp; 0 &amp; -1 \\\\0 &amp; 3 &amp; p \\\\-1 &amp; 4 &amp; 0\\end{array}\\right] $</p><p><br></p><p>$ \\therefore \\quad A^T=\\left[\\begin{array}{rrr}-3 &amp; 0 &amp; -1 \\\\0 &amp; 3 &amp; 4 \\\\-1 &amp; p &amp; 0\\end{array}\\right]$</p><p><br></p><p>A ম্যাট্রিক্সটি প্রতিসম হবে যদি $\\mathrm{A}=\\mathrm{A}^{\\mathrm{T}}$ হয়।</p><p><br></p><p>$\\therefore\\left[\\begin{array}{rrr}-3 &amp; 0 &amp; -1 \\\\0 &amp; 3 &amp; p \\\\-1 &amp; 4 &amp; 0\\end{array}\\right]=\\left[\\begin{array}{rrr}-3 &amp; 0 &amp; -1 \\\\0 &amp; 3 &amp; 4 \\\\-1 &amp; p &amp; 0\\end{array}\\right]$</p><p><br></p><p>উভয়পক্ষের অনুরূপ ভুক্তি হতে পাই, $p=4$</p>"
+  },
+  {
+    "id": 5881,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$A=\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]$ </p><p>Q. উদ্দীপকের আলোকে- </p><p><br/>i. $\\quad(1,1)-$ তম ভুক্তির অনুরাশি $=7$</p><p><br/>ii. $A^T=\\left[\\begin{array}{ll}1 &amp; 3 \\\\ 5 &amp; 7\\end{array}\\right]$</p><p><br/>iii. $2 A=\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 6 &amp; 7\\end{array}\\right]$ </p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>এখানে, $\\mathrm{A}=\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]$</p><p>i. $(1,1)$-তম ভুক্তির অনুরাশি $=7$ (১ম কলাম ও ১ম সারির ভুক্তি বাদ দিয়ে).</p><p>ii. $\\quad A^T=\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]^T=\\left[\\begin{array}{ll}1 &amp; 3 \\\\ 5 &amp; 7\\end{array}\\right]$</p><p>iii. $2 A=2\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]=\\left[\\begin{array}{ll}2 &amp; 10 \\\\ 6 &amp; 14\\end{array}\\right]$</p><p><br></p><p>সুতরাং, (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 5882,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$A=\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]$ </p><p>Q. $A^{-1}=$ কত?</p>",
+    "options": [
+      "$-\\frac{1}{8}\\left(\\begin{array}{ll}1 & 5 \\\\ 3 & 7\\end{array}\\right)$",
+      "$-\\frac{1}{8}\\left(\\begin{array}{cc}7 & -5 \\\\ -3 & 1\\end{array}\\right)$",
+      "$-\\frac{1}{8}\\left(\\begin{array}{cc}7 & -3 \\\\ -5 & 1\\end{array}\\right)$",
+      "$\\frac{1}{8}\\left(\\begin{array}{cc}7 & -3 \\\\ -5 & 1\\end{array}\\right)$"
+    ],
+    "answer": "$-\\frac{1}{8}\\left(\\begin{array}{cc}7 & -5 \\\\ -3 & 1\\end{array}\\right)$",
+    "explanation": "<p>এখানে, $\\mathrm{A}=\\left[\\begin{array}{ll}1 &amp; 5 \\\\ 3 &amp; 7\\end{array}\\right]$</p><p><br></p><p>আমরা জানি, $\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right]$ এর Inverse $=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right]$</p><p><br></p><p>$\\therefore \\quad A^{-1}=\\frac{1}{7-15}\\left[\\begin{array}{rr}7 &amp; -5 \\\\-3 &amp; 1\\end{array}\\right]=-\\frac{1}{8}\\left[\\begin{array}{rr}7 &amp; -5 \\\\-3 &amp; 1\\end{array}\\right] .$</p>"
+  },
+  {
+    "id": 5883,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Barisal",
+    "question": "<p>$\\left|\\begin{array}{lll}a+b &amp; 2 b &amp; a \\\\ b+c &amp; 2 c &amp; b \\\\ c+a &amp; 2 a &amp; c\\end{array}\\right|$ এর মান কত? </p>",
+    "options": [
+      "0",
+      "$2(a+b+c)(c+a)^2$",
+      "$2(a+b+c)^2$",
+      "$2\\left(a^3+b^3+c^3\\right)$"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\left|\\begin{array}{ccc}a+b &amp; 2 b &amp; a \\\\ b+c &amp; 2 c &amp; b \\\\ c+a &amp; 2 a &amp; c\\end{array}\\right| =\\left|\\begin{array}{cccc}2 a+2 b-2 b &amp; 2 b &amp; a \\\\ 2 b+2 c-2 c &amp; 2 c &amp; b \\\\ 2 c+2 a-2 a &amp; 2 a &amp; c\\end{array}\\right|$</p><p><br></p><p>$\\left[c_1^{\\prime}=2 c_1-c_2\\right] $</p><p><br></p><p>$ =\\left|\\begin{array}{ccc}2 a &amp; 2 b &amp; a \\\\ 2 b &amp; 2 c &amp; b \\\\ 2 c &amp; 2 a &amp; c\\end{array}\\right|=2\\left|\\begin{array}{lll}a &amp; b &amp; a \\\\ b &amp; c &amp; b \\\\ c &amp; a &amp; c\\end{array}\\right|=2 \\times 0=0 .$</p>"
+  },
+  {
+    "id": 5849,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>যদি A, B, C ম্যাট্রিক্স তিনটির আকার যথাক্রমে $3 \\times 4$, $4 \\times 3$ এবং $3 \\times 2$ হয় তবে $\\left(A^T+B\\right) C$ ম্যাট্রিক্সটির আকার কত? </p>",
+    "options": [
+      "$4 \\times 3$",
+      "$3 \\times 4$",
+      "$2 \\times 4$",
+      "$4 \\times 2$"
+    ],
+    "answer": "$4 \\times 2$",
+    "explanation": "<p>$A^T$ এর আকার = A ম্যাট্রিক্সের কলাম সংখ্যা × A ম্যাট্রিক্সের সারির -সংখ্যা = 4 × 3</p><p>$A^T$ + B এর আকার = A অথবা B ম্যাট্রিক্সের আকার = 4 × 3</p><p>$\\therefore$ (A + B)C এর আকার $(A^T + B)$ এর সারি সংখ্যা × C এর কলাম সংখ্যা = 4 × 2.</p>"
+  },
+  {
+    "id": 5850,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>$A=\\left[\\begin{array}{ccc}0 &amp; 3 &amp; -2 \\\\ -3 &amp; 0 &amp; 7 \\\\ 2 &amp; -7 &amp; 0\\end{array}\\right]$ হলে - </p><p><br/>i. $A$ একটি বিপ্রতিসম ম্যাট্রিক্স</p><p><br/>ii. $A$ একটি ক্ষেলার ম্যাট্রিক্স</p><p><br/>iii. $A B$ এর ক্রম $3 \\times 1$ হলে, B এর ক্রম $3 \\times 1$ </p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>(i) A ম্যাট্রিক্স বিপ্রতিসম হবে যদি $A^t$ = A হয়</p><p>$\\therefore A^T =\\left[\\begin{array}{rrr}0 &amp; 3 &amp; -2 \\\\-3 &amp; 0 &amp; 7 \\\\2 &amp; -7 &amp; 0\\end{array}\\right]^{t} $</p><p>$=\\left[\\begin{array}{rrr}0 &amp; -3 &amp; 2 \\\\3 &amp; 0 &amp; -7 \\\\-2 &amp; 7 &amp; 0\\end{array}\\right]$</p><p>$=-\\left[\\begin{array}{rrr}0 &amp; 3 &amp; -2 \\\\-3 &amp; 0 &amp; 7 \\\\2 &amp; -7 &amp; 0\\end{array}\\right]=-A$</p><p>(ii) কোনো কর্ণ ম্যাট্রিক্সের অশূন্য ভুক্তিগুলো সমান হলে ঐ কর্ণ ম্যাট্রিক্সকে স্কেলার ম্যাট্রিক্স বলে। কিন্তু ম্যাট্রিক্সের কর্ণের ভূক্তি শূন্য বলে ইহা স্কেলার ম্যাট্রিক্স নয়।</p><p>(iii) A এর ক্রম $\\mathrm{m}=3 \\times 3$ এবং B এর ক্রম $=3 \\times 1$ হলে AB এর ক্রম $3 \\times 1 $</p><p>$\\therefore$ (i) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 5851,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$A=3\\left[\\begin{array}{cc}1 &amp; 2 \\\\ 4 &amp; -3\\end{array}\\right]$ </p><p>Q. |A| এর মান কত? </p>",
+    "options": [
+      "$33$",
+      "$-11$",
+      "$-33$",
+      "$-99$"
+    ],
+    "answer": "$-99$",
+    "explanation": "<p>$A=3\\left[\\begin{array}{cc}1 &amp; 2 \\\\ 4 &amp; -3\\end{array}\\right]=\\left[\\begin{array}{cc}3 &amp; 6 \\\\ 12 &amp; -9\\end{array}\\right] $</p><p><br></p><p>$ \\therefore|A|=\\left|\\begin{array}{cr}3 &amp; 6 \\\\ 12 &amp; -9\\end{array}\\right|=-27-72=-99 .$</p>"
+  },
+  {
+    "id": 5852,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$A=3\\left[\\begin{array}{cc}1 &amp; 2 \\\\ 4 &amp; -3\\end{array}\\right]$ </p><p>Q. $\\frac{A}{3}$ এর বিপরীত ম্যাট্রিক্স কোনটি? </p>",
+    "options": [
+      "$-\\frac{1}{11}\\left[\\begin{array}{cc}-3 & -2 \\\\ -4 & 1\\end{array}\\right]$",
+      "$\\frac{1}{11}\\left[\\begin{array}{cc}-3 & -2 \\\\ -4 & 1\\end{array}\\right]$",
+      "$-\\frac{1}{11}\\left[\\begin{array}{cc}-3 & -4 \\\\ -2 & 1\\end{array}\\right]$",
+      "$\\frac{1}{11}\\left[\\begin{array}{cc}-3 & -4 \\\\ -2 & 1\\end{array}\\right]$"
+    ],
+    "answer": "$-\\frac{1}{11}\\left[\\begin{array}{cc}-3 & -2 \\\\ -4 & 1\\end{array}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 5853,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Chittagong",
+    "question": "<p>নিচের কোনটি ব্যতিক্রমী ম্যাট্রিক্স? </p><p><br></p>",
+    "options": [
+      "$\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 1\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}2 & -1 \\\\ 6 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}1 & 2 \\\\ 2 & -4\\end{array}\\right]$",
+      "$-\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$"
+    ],
+    "answer": "$-\\left[\\begin{array}{ll}3 & 6 \\\\ 2 & 4\\end{array}\\right]$",
+    "explanation": "<p>যদি কোনো বর্গ ম্যাট্রিক্স A এর নির্ণায়ক $|\\mathrm{A}|$ বা $\\operatorname{det}(\\mathrm{A})=0$ হয় তবে A কে ব্যতিক্রমী ম্যাট্রিক্স বলে।</p><p><br></p><p>$ \\therefore\\left|\\begin{array}{ll}1 &amp; 0 \\\\0 &amp; 1\\end{array}\\right|=1-0=1 ;$</p><p><br></p><p>$\\left|\\begin{array}{cc}1 &amp; 2 \\\\2 &amp; -4\\end{array}\\right|=-8-4=-12 $</p><p><br></p><p>$ \\left|\\begin{array}{rr}2 &amp; -1 \\\\6 &amp; 3\\end{array}\\right|=6-(-9)=6+6=12 ;$</p><p><br></p><p>$\\left|\\begin{array}{ll}3 &amp; 6 \\\\2 &amp; 4\\end{array}\\right|=12-12=0 .$</p>"
+  },
+  {
+    "id": 5818,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$A=\\left(\\begin{array}{rr}1 &amp; -2 \\\\ -3 &amp; 5\\end{array}\\right)$ হলে $A^{-1}=$ কত?</p>",
+    "options": [
+      "$\\left(\\begin{array}{ll}5 & 2 \\\\ 3 & 1\\end{array}\\right)$",
+      "$\\left(\\begin{array}{cc}-1 & 3 \\\\ 2 & 5\\end{array}\\right)$",
+      "$\\left(\\begin{array}{ll}-5 & -2 \\\\ -3 & -1\\end{array}\\right)$",
+      "$\\left(\\begin{array}{rr}5 & 2 \\\\ 3 & -1\\end{array}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{array}{ll}-5 & -2 \\\\ -3 & -1\\end{array}\\right)$",
+    "explanation": "<p>$A=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right] $ হলে, $ A^{-1}=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right] $</p><p><br></p><p>$ \\therefore A^{-1}=\\frac{1}{5-6}\\left[\\begin{array}{ll}5 &amp; 2 \\\\ 3 &amp; 1\\end{array}\\right]=(-1)\\left[\\begin{array}{ll}5 &amp; 2 \\\\ 3 &amp; 1\\end{array}\\right]=\\left[\\begin{array}{ll}-5 &amp; -2 \\\\ -3 &amp; -1\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5819,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$\\left(\\begin{array}{ll}5+a &amp; -2 \\\\ 4 &amp; -8\\end{array}\\right)$ ব্যতিক্রমী বর্গম্যাট্রিক্স হলে a এর মান কত?</p>",
+    "options": [
+      "5",
+      "$- 5$",
+      "4",
+      "$- 4$"
+    ],
+    "answer": "$- 4$",
+    "explanation": "<p>কোনো বর্গ ম্যাট্রিক্সের নির্ণায়কের মান শূন্য হলে তাকে ব্যতিক্রমী বর্গ ম্যাট্রিক্স বলে।</p><p>অর্থাৎ $\\left|\\begin{array}{cc}5+a &amp; -2 \\\\ 4 &amp; -8\\end{array}\\right|=0$</p><p>বা, $-40-8 a+8=0$</p><p>বা, $ 8 a=-32 $</p><p>$ \\therefore a=-4$</p><p><br></p>"
+  },
+  {
+    "id": 5820,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>$A=\\left(\\begin{array}{lll}a &amp; 0 &amp; 0 \\\\ 0 &amp; b &amp; 0 \\\\ 0 &amp; 0 &amp; c\\end{array}\\right)$  একটি কর্ণম্যাট্রিক্স</p><p>Q. নিচের কোন শর্তে এ স্কেলার ম্যাট্রিক্স হবে?</p>",
+    "options": [
+      "$a=b+c$",
+      "$a=b=c$",
+      "$b=c+a$",
+      "$c=a+b$"
+    ],
+    "answer": "$a=b=c$",
+    "explanation": "<p>কোনো কর্ণ ম্যাট্রিক্সে অশূন্য ভুক্তিগুলো সমান হলে ঐ কর্ণ ম্যাট্রিক্সকে স্কেলার ম্যাট্রিক্স বলে। অর্থাৎ A ম্যাট্রিক্সটি স্কেলার হবে যদি $a = b =c $ হয়।</p>"
+  },
+  {
+    "id": 5821,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>$A=\\left(\\begin{array}{lll}a &amp; 0 &amp; 0 \\\\ 0 &amp; b &amp; 0 \\\\ 0 &amp; 0 &amp; c\\end{array}\\right)$ একটি কর্ণম্যাট্রিক্স</p><p>Q. | A | এর (3, 3) তম ভুক্তির সহগুণকের মান কত?</p>",
+    "options": [
+      "0",
+      "ca",
+      "bc",
+      "ab"
+    ],
+    "answer": "ab",
+    "explanation": "<p>$|A|$ এর $(3,3)$ তম ভুক্তির সহগুণক $=\\left|\\begin{array}{ll}a &amp; 0 \\\\ 0 &amp; b\\end{array}\\right|=a b$.</p>"
+  },
+  {
+    "id": 5753,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$\\left|\\begin{array}{rrr}3 &amp; 5 &amp; -2 \\\\ -1 &amp; 6 &amp; 4 \\\\ 2 &amp; -3 &amp; 7\\end{array}\\right|$ এর (3, 2) তম ভুক্তির সহগুণকের মান কত?</p>",
+    "options": [
+      "$-30$",
+      "$-10$",
+      "$10$",
+      "$30$"
+    ],
+    "answer": "$-10$",
+    "explanation": "<p>$\\left|\\begin{array}{rrr}3 &amp; 5 &amp; -2 \\\\ -1 &amp; 6 &amp; 4 \\\\ 2 &amp; -3 &amp; 7\\end{array}\\right| $ এর $(3,2)$ তম ভুক্তির সহগুণক $ =-\\left|\\begin{array}{rr}3 &amp; -2 \\\\ -1 &amp; 4\\end{array}\\right| $</p><p><br></p><p>$ =-(12-2)=-10$</p>"
+  },
+  {
+    "id": 5757,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$A=\\left(a_{i j}\\right)_=1.2 ..... m$</p><p>$ j=1.2 .......n$</p><p>বিপ্রতীসম ম্যাট্রিক্স হলে-</p><p><br/>i. $a_{i j}=-a_{j i}$ যখন $i \\neq j$</p><p><br/>ii. $a_{i j}=0$ যখন $i=j$</p><p><br/>iii. $\\quad m \\neq n$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p><strong>একটি বর্গ ম্যাট্রিক্স</strong></p><p>$A=\\left(a_{i j}\\right) i=1,2,3, \\ldots \\ldots \\ldots m $</p><p>$j =1,2,3, \\ldots \\ldots \\ldots . n$</p><p><br></p><p>(i) $A$ কে বিপ্রতিসম ম্যাট্রিক বলা হবে যদি $A^t=-A$ হয়। অর্থাৎ $a_{i j}=-a_j$.</p><p>(ii) $A$ ম্যাট্রিক্সের প্রধান কর্ণের ভুক্তিসমূহ শূন্য, অর্থাৎ $a \\mathrm{a}=0$ যখন $i=j$.</p><p>(iii) ইহা একটি বর্গ ম্যাট্রিক্স। অর্থাৎ, $\\mathrm{m}=\\mathrm{n}$</p><p>$\\therefore$ (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 5768,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$\\left[\\begin{array}{rrr}1 &amp; x &amp; 2 \\\\ -5 &amp; 3 &amp; 4 \\\\ y &amp; 4 &amp; 9\\end{array}\\right]$ প্রতিসম হলে $(x, y)=$ ?</p>",
+    "options": [
+      "$(5,-2)$",
+      "$(-5,2)$",
+      "$(5,2)$",
+      "$(-5,-2)$"
+    ],
+    "answer": "$(-5,2)$",
+    "explanation": "<p>একটি বর্গম্যাট্রিক $A$ কে প্রতিসম ম্যাট্রিক বলা হয় যখন $A=A^T$ হয়।</p><p><br></p><p>অর্থাৎ $\\left[\\begin{array}{rrr}1 &amp; x &amp; 2 \\\\-5 &amp; 3 &amp; 4 \\\\y &amp; 4 &amp; 9\\end{array}\\right]$</p><p><br></p><p>$=\\left[\\begin{array}{rrr}1 &amp; x &amp; 2 \\\\-5 &amp; 3 &amp; 4 \\\\y &amp; 4 &amp; 9\\end{array}\\right]^T$</p><p><br></p><p>$=\\left[\\begin{array}{rrr}1 &amp; -5 &amp; y \\\\x &amp; 3 &amp; 4 \\\\2 &amp; 4 &amp; 9\\end{array}\\right]$</p><p><br></p><p>$\\therefore \\mathrm{x}=-5$ এবং $\\mathrm{y}=2$</p><p><br></p><p>$\\therefore(x, y)=(-5,2)$</p>"
+  },
+  {
+    "id": 5769,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dhaka",
+    "question": "<p>$A=\\left[\\begin{array}{cc}-1 &amp; 3 \\\\ 2 &amp; 5\\end{array}\\right]$ হলে $adj$ A নিচের কোনটি?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}5 & -3 \\\\ -2 & -1\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}1 & 2 \\\\ 3 & -5\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}5 & 2 \\\\ 3 & -1\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}5 & -2 \\\\ -3 & -1\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{cc}5 & -3 \\\\ -2 & -1\\end{array}\\right]$",
+    "explanation": "<p>$A=\\left[\\begin{array}{ll} a &amp; b \\\\c &amp; d\\end{array}\\right] $ হলে, </p><p><br></p><p>$Adj A=\\left[\\begin{array}{cc}d &amp; -b \\\\-c &amp; a\\end{array}\\right] $</p><p><br></p><p>$ \\therefore A=\\left[\\begin{array}{rr}-1 &amp; 3 \\\\2 &amp; 5\\end{array}\\right] $ হলে, </p><p><br></p><p>$Adj A=\\left[\\begin{array}{rr} 5 &amp; -3 \\\\-2 &amp; -1\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5924,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$A=\\left[\\begin{array}{ll}1 &amp; 2 \\\\ 3 &amp; 4\\end{array}\\right]$ হলে, $A^{-1}=?$</p>",
+    "options": [
+      "$-\\frac{1}{2}\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -3 \\\\ -2 & 1\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]$"
+    ],
+    "answer": "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right]$",
+    "explanation": "<p>এখানে, $A=\\left[\\begin{array}{ll}1 &amp; 2 \\\\ 3 &amp; 4\\end{array}\\right]$</p><p><br></p><p>আমরা জানি, $A=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right]$ হলে, $A^{-1}=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right]$</p><p><br></p><p>$\\therefore \\quad A^{-1}=\\frac{1}{4-6}\\left[\\begin{array}{rr}4 &amp; -2 \\\\-3 &amp; 1\\end{array}\\right]=-\\frac{1}{2}\\left[\\begin{array}{rr}4 &amp; -2 \\\\-3 &amp; 1\\end{array}\\right] .$</p>"
+  },
+  {
+    "id": 5930,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{array}{cc}2 x-y &amp; 5 \\\\ 3 &amp; y\\end{array}\\right]=\\left[\\begin{array}{cc}6 &amp; 5 \\\\ 3 &amp; -2\\end{array}\\right]$ হলে $x$-এর মান কত?</p>",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "explanation": "<p>এখানে, $\\left[\\begin{array}{cc}2 x-y &amp; 5 \\\\ 3 &amp; y\\end{array}\\right]=\\left[\\begin{array}{rr}6 &amp; 5 \\\\ 3 &amp; -2\\end{array}\\right]$</p><p>উভয়পক্ষের অনুরূপ ভুক্তি হতে পাই, $2 \\mathrm{x}-\\mathrm{y}=6$ ....... (i)</p><p>$y=-2$ ....... (ii)</p><p>এখন, $y$ এর মান (i)নং এ বসিয়ে পাই,</p><p>$2 x-(-2)=6$</p><p>বা, $2 x+2=6$</p><p>বা, $2 x=6-2=4$</p><p>$\\therefore \\mathbf{x}=\\mathbf{2} .$</p>"
+  },
+  {
+    "id": 5937,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>A, B ও C ম্যাট্রিক্স গুলোর মাত্রা যথাক্রমে $4×3, 3×4$ ও $4×7$ হলে (AB)C এর মাত্রা কত?</p>",
+    "options": [
+      "$4×7$",
+      "$3×7$",
+      "$4×4$",
+      "$3×3$"
+    ],
+    "answer": "$4×7$",
+    "explanation": "<p>AB এর মাত্রা $=\\mathrm{A}$ এর সারি $\\times \\mathrm{B}$ এর কলাম $=4 \\times 4$</p><p>$(\\mathrm{AB}) \\mathrm{C}$ এর মাত্রা $=\\mathrm{AB}$ এর সারি $\\times \\mathrm{C}$ এর কলাম $=4 \\times 7$.</p>"
+  },
+  {
+    "id": 5941,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{array}{ccc}1 &amp; 1 &amp; 2 \\\\ 4 &amp; a &amp; -1 \\\\ 3 &amp; 2 &amp; 2 a\\end{array}\\right]$ ম্যাট্রিক্সটির ট্রেস 7 হলে $a$ এর মান কত?</p>",
+    "options": [
+      "$-1$",
+      "$\\frac{1}{3}$",
+      "$2$",
+      "$\\frac{7}{3}$"
+    ],
+    "answer": "$-1$",
+    "explanation": "<p>প্রদত্ত ম্যাট্রিক্স $=\\left[\\begin{array}{rrr}1 &amp; 1 &amp; 2 \\\\ 4 &amp; a &amp; -1 \\\\ 3 &amp; 2 &amp; 2 a\\end{array}\\right]$</p><p>প্রশ্নমতে, $1+a+2 a=7$</p><p>বা, $3 a-7-1=6$</p><p>$\\therefore a=2$.</p>"
+  },
+  {
+    "id": 5830,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>A, B, C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে $4 \\times 3,3 \\times 4$ ও $4 \\times 7$ হলে $\\left(A^T+B\\right) C$ ম্যাট্রিক্সের মাত্রা কত?</p>",
+    "options": [
+      "$3 \\times 4$",
+      "<p>$3 \\times 7$</p>",
+      "<p>$4 \\times 3$</p>",
+      "<p>$4 \\times 7$</p>"
+    ],
+    "answer": "<p>$3 \\times 7$</p>",
+    "explanation": "<p>A, B ও C ম্যাট্রিক্সের মাত্রা যথাক্রমে $\\mathrm{m} \\times \\mathrm{n}, \\mathrm{n} \\times \\mathrm{m}$ ও $\\mathrm{m} \\times \\mathrm{s}$ হলে, $\\left(A^T+B\\right) C$ ম্যাট্রিক্সের মাত্রা $n \\times s$ </p><p>এখানে, A, B ও C ম্যাট্রিক্ষের মাত্রা যথাক্রমে $4 \\times 3,3 \\times 4$ ও $4 \\times 7$</p><p>$ \\therefore \\left(\\mathrm{A}^{\\mathrm{T}}+\\mathrm{B}\\right) \\mathrm{C}$ ম্যাট্রিক্সের মাত্রা $3 \\times 7$.</p>"
+  },
+  {
+    "id": 5831,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$\\left[\\begin{array}{ll}5 &amp; 6 \\\\ 4 &amp; 5\\end{array}\\right]$ এর বিপরীত ম্যাট্রিক্স কোনটি?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}-5 & 4 \\\\ 6 & -5\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}-5 & 6 \\\\ 4 & -5\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}5 & -4 \\\\ -6 & 5\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}5 & -6 \\\\ -4 & 5\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{cc}5 & -6 \\\\ -4 & 5\\end{array}\\right]$",
+    "explanation": "<p>$\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right]$ ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স $=\\frac{1}{a d-b c}\\left[\\begin{array}{cc}d &amp; -b \\\\ -c &amp; a\\end{array}\\right] $</p><p>$\\therefore\\left[\\begin{array}{ll}5 &amp; 6 \\\\ 4 &amp; 5\\end{array}\\right]$ ম্যাট্রিক্ষের বিপরীত ম্যাট্রিক্স </p><p>$=\\frac{1}{25-24}\\left[\\begin{array}{rr}5 &amp; -6 \\\\ -4 &amp; 5\\end{array}\\right]$ $=\\frac{1}{1}\\left[\\begin{array}{rr}5 &amp; -6 \\\\ -4 &amp; 5\\end{array}\\right]=\\left[\\begin{array}{rr}5 &amp; -6 \\\\ -4 &amp; 5\\end{array}\\right]$.</p>"
+  },
+  {
+    "id": 5832,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$\\left[\\begin{array}{cc}m-2 &amp; 6 \\\\ 2 &amp; m-3\\end{array}\\right]$ একটি ব্যতিক্রমী ম্যাট্রিক্স হলে  m = কত?</p>",
+    "options": [
+      "<p>$- 1 , 6$</p>",
+      "<p>$-2 , -3$</p>",
+      "<p>$1, -6$</p>",
+      "$2, -3$"
+    ],
+    "answer": "<p>$- 1 , 6$</p>",
+    "explanation": "<p>$\\left[\\begin{array}{cc}m-2 &amp; 6 \\\\ 2 &amp; m-3\\end{array}\\right]$ ম্যাট্রিক্সটি ব্যতিক্রমী ম্যাট্রিক্স হলে,</p><p>$\\left|\\begin{array}{cc}m-2 &amp; 6 \\\\2 &amp; m-3\\end{array}\\right|=0$</p><p>বা, $(m-2)(m-3)-6 \\times 2=0$</p><p>বা, $m^2-3 m-2 m+6-12=0$</p><p>বা, $m^2-5 m-6=0$ বা, $m^2-6 m+m-6=0$</p><p>বা, $m(m-6)+1(m-6)=0$ বা, $(m+1)(m-6)=0$</p><p>$\\therefore \\mathrm{m}=-1,6$.</p>"
+  },
+  {
+    "id": 5833,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Jessore",
+    "question": "<p>$\\left|\\begin{array}{ccc}3 &amp; 2 &amp; 4 \\\\ 0 &amp; 3 &amp; 6 \\\\ 1 &amp; -1 &amp; -2\\end{array}\\right|$ নির্ণায়কটির-</p><p><br/>i. মান =0</p><p><br/>ii. (2,3) তম ভুক্তির অনুরালি = 5</p><p><br/>iii. (2,1) তম ভুক্তির সহওণক = 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>(i) $\\left|\\begin{array}{rrr}3 &amp; 2 &amp; 4 \\\\ 0 &amp; 3 &amp; 6 \\\\ 1 &amp; -1 &amp; -2\\end{array}\\right|=3(-6+6)-2(0-6)+4(0-3)$</p><p>$=3 \\times 0+12-12=0 .$</p><p>(ii) $(2,3)$ তম ভুক্তির অনুরাশি $=\\left|\\begin{array}{lr}3 &amp; -2 \\\\ 1 &amp; -1\\end{array}\\right|=-3-2=-5$.</p><p>(iii) $(2,1)$ তম ভুক্তির সহগুণক $=(-1)^{2+1}\\left|\\begin{array}{rr}2 &amp; 4 \\\\ -1 &amp; -2\\end{array}\\right|=-(-4+4)=0$</p><p>সুতরাং, i ও iii সঠিক।</p>"
+  },
+  {
+    "id": 5968,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{array}{lll}1 &amp; 2 &amp; 0 \\\\ 0 &amp; 4 &amp; 5 \\\\ 0 &amp; 0 &amp; 6\\end{array}\\right]$ ম্যাট্রিক্সটি</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. নিম্ন ত্রিভুজাকার ম্যাট্রিক্স</p><p><br/>iii. এর ট্রেস 11.</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>(i) $\\left[\\begin{array}{lll}1 &amp; 2 &amp; 0 \\\\ 0 &amp; 4 &amp; 5 \\\\ 0 &amp; 0 &amp; 6\\end{array}\\right]$ ম্যাট্রিক্সটির সারি ও কলাম সংখ্যা সমান। তাই ম্যাট্রিক্সটি একটি বর্গ ম্যাট্রিক্স।</p><p><br></p><p>(ii) কোনো বর্গ ম্যাট্রিক্সের প্রধান কর্ণের নিচের ভুক্তিগুলো শূন্য (0) হলে, তাকে ঊর্ধ্ব ত্রিভুজাকার ম্যাট্রিক্স বলে। </p><p>আবার, প্রধান কর্ণের উপরের ভুক্তিগুলো শূন্য (0) হলে, তাকে নিম্ন ত্রিভুজাকার ম্যাট্রিক্স বলে। </p><p>এখানে, ম্যাট্রিক্সটির প্রধান কর্ণের উপরের সকল ভুক্তি শূন্য (0) নয়। তাই ম্যাট্রিক্সটি নিম্ন ত্রিভুজাকার ম্যাট্রিক্স নয়।</p><p><br></p><p>(iii) ম্যাট্রিক্সটির ট্রেস $= 1 + 4 + 6 = 11$</p><p><br></p><p>সুতরাং, i ও iii সঠিক।</p>"
+  },
+  {
+    "id": 5969,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>Q. $\\left|\\begin{array}{ll}2 &amp; 4 \\\\ 4 &amp; 8\\end{array}\\right|$ নির্ণায়কে</p><p><br/>i. এর মান 0</p><p><br/>ii. $(2.1)$ তম ভুক্তির অনুরাশি $4$</p><p><br/>iii. $(1,2)$ তম ভুক্তির সহগুণক $-4$</p><p><br></p><p>নিচেন কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>(i) $\\left|\\begin{array}{ll}2 &amp; 4 \\\\ 4 &amp; 8\\end{array}\\right|=16-16=0$</p><p>(ii) $(2,1)$ তম ভুক্তির অনুরাশি $=4$</p><p>(iii) $(1,2)$ তম ভুক্তির সহগুণক $=-4$</p><p><br></p><p>সুতরাং, i, ii ও iii সঠিক।</p>"
+  },
+  {
+    "id": 5970,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{array}{cc}\\alpha &amp; \\alpha+1 \\\\ \\alpha &amp; 4\\end{array}\\right]$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, $\\alpha$ এর মান-</p>",
+    "options": [
+      "$0,-3$",
+      "$0,-5$",
+      "$0, 3$",
+      "$0, 5$"
+    ],
+    "answer": "$0, 3$",
+    "explanation": "<p>$\\left[\\begin{array}{cc}\\alpha &amp; \\alpha+1 \\\\ \\alpha &amp; 4\\end{array}\\right]$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, $\\left|\\begin{array}{cc}\\alpha &amp; \\alpha+1 \\\\ \\alpha &amp; 4\\end{array}\\right|=0$</p><p>বা, $4 \\alpha-\\alpha^2-\\alpha=0$ বা, $3 \\alpha-\\alpha^2=0$</p><p>বা, $\\alpha^2-3 \\alpha=0$ বা, $\\alpha(\\alpha-3)=0$</p><p>$\\therefore \\alpha=0,3$.</p>"
+  },
+  {
+    "id": 5971,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Mymensingh",
+    "question": "<p>$A=\\left[\\begin{array}{ll}2 &amp; 3 \\\\ 5 &amp; 7\\end{array}\\right]$ হলে $A^{-1}=$ কত?</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}7 & 3 \\\\ 5 & -2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}7 & 3 \\\\ 5 & 2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}-7 & 5 \\\\ 3 & -2\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}7 & -5 \\\\ -3 & 2\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{cc}7 & 3 \\\\ 5 & -2\\end{array}\\right]$",
+    "explanation": "<p>$A=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right]$ বর্গ ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স,</p><p><br></p><p>$A^{-1}=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\-c &amp; a\\end{array}\\right]$</p><p><br></p><p>$\\therefore A=\\left[\\begin{array}{ll}2 &amp; 3 \\\\ 5 &amp; 7\\end{array}\\right]$ বর্গ ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স,</p><p><br></p><p>$A^{-1}=\\frac{1}{14-15}\\left[\\begin{array}{rr}7 &amp; -3 \\\\-5 &amp; 2\\end{array}\\right]=\\frac{1}{-1}\\left[\\begin{array}{rr}7 &amp; -3 \\\\-5 &amp; 2\\end{array}\\right]=\\left[\\begin{array}{rr}-7 &amp; 3 \\\\5 &amp; -2\\end{array}\\right] .$</p>"
+  },
+  {
+    "id": 5793,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\left(\\begin{array}{ccc}p &amp; 2 &amp; -3 \\\\ -2 &amp; 0 &amp; x \\\\ 3 &amp; -5 &amp; 0\\end{array}\\right)$ ম্যাট্রিক্সটি বক্র প্রতিসম হলে $p + x$ =?</p>",
+    "options": [
+      "$-5$",
+      "2",
+      "5",
+      "$-3$"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 5794,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>P, Q ও R ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে $3 \\times 5,5 \\times 3$ ও $2 \\times 3$ হলে $R\\left(P+Q^T\\right)$ ম্যাট্রিক্সের মাত্রা কত?</p>",
+    "options": [
+      "$3 \\times 3$",
+      "$2 \\times 5$",
+      "$3 \\times 5$",
+      "$5 \\times 3$"
+    ],
+    "answer": "$2 \\times 5$",
+    "explanation": "<p>$\\mathrm{R}\\left(\\mathrm{P}+\\mathrm{Q}^{\\mathrm{T}}\\right) $</p><p>$=(2 \\times 3)\\left\\{(3 \\times 5)+(5 \\times 3)^{\\mathrm{T}}\\right\\} $</p><p>$ =(2 \\times 3)\\{(3 \\times 5)+(3 \\times 5)\\}$</p><p>$=(2 \\times 3)(3 \\times 5)=(2 \\times 5)$</p>"
+  },
+  {
+    "id": 5795,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$A=\\left(\\begin{array}{ccc}2 &amp; 5 &amp; -1 \\\\ 6 &amp; x &amp; 5 \\\\ -4 &amp; -9 &amp; 4\\end{array}\\right)$ একটি ম্যাট্রিক্স।</p><p>Q. A ম্যাট্রিক্সের ট্রেস 8 এর সমান হলে $x =$ ?</p>",
+    "options": [
+      "2",
+      "8",
+      "6",
+      "5"
+    ],
+    "answer": "2",
+    "explanation": "<p>কোনো বর্গ ম্যাট্রিক্সের মুখ্য কর্ণের ভুক্তিসমূহের যোগফলকে ম্যাট্রিক্সের ট্রেস বলে।</p><p>$\\therefore \\mathrm{T}_{\\mathrm{r}}(\\mathrm{A})=2+\\mathrm{x}+4=6+\\mathrm{x}$</p><p>শর্তমতে, $6+\\mathrm{x}=8$</p><p>বা,$ \\mathrm{x}=8-6$</p><p>$ \\therefore \\mathrm{x}=2 $</p>"
+  },
+  {
+    "id": 5796,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$A=\\left(\\begin{array}{ccc}2 &amp; 5 &amp; -1 \\\\ 6 &amp; x &amp; 5 \\\\ -4 &amp; -9 &amp; 4\\end{array}\\right)$ একটি ম্যাট্রিক্স।</p><p>Q. এ ম্যাট্রিক্সের (2, 2) তম ভুক্তির সহগুণক কোনটি?</p>",
+    "options": [
+      "12",
+      "4",
+      "$-4$",
+      "$-12$"
+    ],
+    "answer": "4",
+    "explanation": "<p>A ম্যাট্রিক্সের (2, 2) তম ভুক্তির সহগুণক $=\\left|\\begin{array}{rr}2 &amp; -1 \\\\ -4 &amp; 4\\end{array}\\right|=8-4=4$.</p>"
+  },
+  {
+    "id": 5899,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$A=\\left[\\begin{array}{ll}a &amp; -a \\\\ a &amp; -a\\end{array}\\right]$ হলে, $A^2$ একটি-</p>",
+    "options": [
+      "অভেদঘাতি ম্যাট্রিক্স",
+      "সমঘাতি ম্যাট্রিক্স",
+      "শূন্যঘাতি ম্যাট্রিক্স",
+      "অভেদক ম্যাট্রিক্স"
+    ],
+    "answer": "শূন্যঘাতি ম্যাট্রিক্স",
+    "explanation": "<p>কোনো ম্যাট্রিক্সের সকল ভুক্তি শূন্য হলে তাকে শূন্য ম্যাট্রিক্স বলে।</p><p>এখানে, $A^2=A \\cdot A =\\left[\\begin{array}{ll}a &amp; -a \\\\ a &amp; -a\\end{array}\\right]\\left[\\begin{array}{cc}a &amp; -a \\\\ a &amp; -a\\end{array}\\right] $</p><p>$=\\left[\\begin{array}{cc}a^2-a^2 &amp; -a^2+a^2 \\\\ a^2-a^2 &amp; -a^2+a^2\\end{array}\\right]$</p><p>$ =\\left[\\begin{array}{lr}0 &amp; 0 \\\\ 0 &amp; 0\\end{array}\\right]$</p><p>$\\therefore \\mathrm{A}^2$ একটি শূন্যঘাতী ম্যাট্রিক্স।</p>"
+  },
+  {
+    "id": 5900,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$A^{-1}=\\left[\\begin{array}{cc}3 &amp; -5 \\\\ -1 &amp; 2\\end{array}\\right]$ হলে, $A$ হলো-</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}-2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}2 & -5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}-2 & 5 \\\\ 1 & -3\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+    "explanation": "<p>$A^{-1}=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right] $ হলে, $ A=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right] $</p><p>$ A^{-1}=\\left[\\begin{array}{rr}3 &amp; -5 \\\\ -1 &amp; 2\\end{array}\\right]$</p><p>$ \\therefore A=\\frac{1}{6-(-1)(-5)}\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right] $</p><p>$=\\frac{1}{6-5}\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right] $</p><p>$=\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5901,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\left|\\begin{array}{lll}1 &amp; 1 &amp; 1 \\\\ 3 &amp; 2 &amp; 1 \\\\ a &amp; 2 &amp; 1\\end{array}\\right|=\\mathbf{2}$ হলে, $\\boldsymbol{a}$ এর মান কত?</p>",
+    "options": [
+      "$-2$",
+      "$-1$",
+      "2",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\left|\\begin{array}{lll}1 &amp; 1 &amp; 1 \\\\ 3 &amp; 2 &amp; 1 \\\\ a &amp; 2 &amp; 1\\end{array}\\right|=1(2-2)-1(3-a)+1(6-2 a)$</p><p>$ =0-3+a+6-2 a=3-a$</p><p>শর্তমতে, $3-a=2$</p><p>বা, $-a=2-3$ </p><p>বা, $-a=-1 $</p><p>$ \\therefore a=1$</p>"
+  },
+  {
+    "id": 5902,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\left|\\begin{array}{ccc}l+m &amp; 1 &amp; n \\\\ m+n &amp; 1 &amp; l \\\\ n+l &amp; 1 &amp; m\\end{array}\\right|$ এর মান কত?</p>",
+    "options": [
+      "$(l+m)(m+n)$",
+      "$(I+m)(m+n)(n+I)$",
+      "1",
+      "O"
+    ],
+    "answer": "O",
+    "explanation": "<p>$ \\left|\\begin{array}{ccc}l+m &amp; 1 &amp; n \\\\ m+n &amp; 1 &amp; l \\\\ n+l &amp; 1 &amp; m\\end{array}\\right|=\\left|\\begin{array}{ccc}l+m+n &amp; 1 &amp; n \\\\ l+m+n &amp; 1 &amp; l \\\\ l+m+n &amp; 1 &amp; m\\end{array}\\right|$</p><p>$\\left[c_1^{\\prime}=c_1+c_3\\right] $</p><p>$=(l+m+n)\\left|\\begin{array}{ccc}1 &amp; 1 &amp; n \\\\ 1 &amp; 1 &amp; l \\\\ 1 &amp; 1 &amp; m\\end{array}\\right| $</p><p>$ =(l+m+n) \\cdot 0 $ [১ম দুই কলামের মান একই] </p><p>$= 0.$</p>"
+  },
+  {
+    "id": 6911,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\end{vmatrix}$ এর মান-</p><p><br/>i. $A=\\begin{vmatrix}\\alpha_1&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>ii. $A=\\begin{vmatrix}\\alpha_1+c\\alpha_2&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1-c\\beta_2&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1+c\\gamma_2&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>iii. $A=-\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\end{vmatrix}$ এর মানের সমান</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i",
+      "ii",
+      "i ও ii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": 8300,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$\\{ {1\\over 2},{1\\over 4},{1\\over 6},{1\\over 8},……\\}$এর ইনফিমাম কত?",
+    "options": [
+      "0",
+      "$1\\over 8$",
+      "$1\\over 2$",
+      "$\\infty$"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 8304,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$\\vert x-3 \\vert \\leq 1$ অসমাতার সমাধান কোনটি?",
+    "options": [
+      "$-4\\leq x\\leq 4$",
+      "-4<x<4",
+      "2<x<4",
+      "$2\\leq x \\leq 4$"
+    ],
+    "answer": "$2\\leq x \\leq 4$",
+    "explanation": ""
+  },
+  {
+    "id": 8283,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "নিচের কোনটি সঠিক?",
+    "options": [
+      "$N\\subset Z\\subset Q\\subset C\\subset R$",
+      "$N\\subset Q\\subset Z\\subset R\\subset C$",
+      "$N\\subset Z\\subset Q\\subset R\\subset C$",
+      "$N\\subset Q\\subset Z\\subset C\\subset R$"
+    ],
+    "answer": "$N\\subset Z\\subset Q\\subset R\\subset C$",
+    "explanation": ""
+  },
+  {
+    "id": 8290,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$\\vert 2x-1\\vert$ এর ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "1-2x যখন, $x<\\frac12$",
+      "2x-1 যখন, $x<\\frac12$",
+      "1+2x যখন, $x>\\frac12$",
+      "2x+1 যখন, $x<\\frac12$"
+    ],
+    "answer": "1-2x যখন, $x<\\frac12$",
+    "explanation": ""
+  },
+  {
+    "id": 8296,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "নিচের কােনটি মূলদ সংখ্যা?",
+    "options": [
+      "$\\Pi$",
+      "e",
+      "$1\\over \\sqrt 5$",
+      "$\\sqrt 5\\over \\sqrt {125}$"
+    ],
+    "answer": "$\\sqrt 5\\over \\sqrt {125}$",
+    "explanation": ""
+  },
+  {
+    "id": 8223,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "[1,3) ব্যবধির অসমতা রূপ নিচের কোনটি?",
+    "options": [
+      "$ 1 < x < 3 $",
+      "$1\\leq x<3$",
+      "$ 1 < x \\leq 3 $",
+      "$1\\leq x\\leq 3$"
+    ],
+    "answer": "$1\\leq x<3$",
+    "explanation": ""
+  },
+  {
+    "id": 8224,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=3,b=-7$ এবং $c=-9$ হলে,$\\vert \\vert a-b\\vert –c\\vert$ এর মান কোনটি?</p>",
+    "options": [
+      "1",
+      "5",
+      "13",
+      "19"
+    ],
+    "answer": "19",
+    "explanation": ""
+  },
+  {
+    "id": 8225,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "a ও b ধনাত্মক বাস্তবসংখ্যা হলে, নিচের কোনটি সঠিক? ",
+    "options": [
+      "$\\vert a-b\\vert>\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a+b\\vert<\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a+b\\vert=\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a-b\\vert=\\vert a\\vert+\\vert b\\vert$"
+    ],
+    "answer": "$\\vert a+b\\vert=\\vert a\\vert+\\vert b\\vert$",
+    "explanation": ""
+  },
+  {
+    "id": 8179,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>পূর্ণসংখ্যার সেট Z আবদ্ধ-</p><p><br/>i. যোগের ক্ষেত্রে</p><p><br/>ii. বিয়োগের ক্ষেত্রে</p><p><br/>iii. গুণের ক্ষেত্রে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8361,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$(2x-5)^2\\leq 0$ এর সমাধান কোনটি?",
+    "options": [
+      "x = 2.5",
+      "$x \\leq 2.5$",
+      "$x \\geq 2.5$",
+      "$0 \\leq x \\leq 2.5$"
+    ],
+    "answer": "x = 2.5",
+    "explanation": ""
+  },
+  {
+    "id": 8265,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "$-3\\leq 2x \\leq 8$এর সমাধানে পূর্ণসংখ্যা কয়টি?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 8268,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$(x-4)(x-5)&gt;0$ এর সমাধান কোনটি?</p>",
+    "options": [
+      "x>4এবং x<5",
+      "x<4অথবা x>5",
+      "x<4এবং x>5",
+      "x>4অথবা x<5"
+    ],
+    "answer": "x<4অথবা x>5",
+    "explanation": ""
+  },
+  {
+    "id": 8211,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$\\vert 2x-7\\vert \\leq 3$ হলে নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "$-7\\leq x\\leq -3$",
+      "$-5\\leq x\\leq -2$",
+      "$2\\leq x\\leq 5$",
+      "$3\\leq x\\leq 7$"
+    ],
+    "answer": "$2\\leq x\\leq 5$",
+    "explanation": "<p>$\\vert2x-7\\vert\\leq3\\\\-3\\leq2x-7\\leq3\\\\4\\leq2x\\leq10\\\\2\\leq x\\leq5$</p>"
+  },
+  {
+    "id": 8218,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>p ও q দুইটি বাস্তব সংখ্যার ক্ষেত্রে-</p><p><br/>i. $\\vert p+q \\vert\\leq \\vert p \\vert +\\vert q \\vert$</p><p><br/>ii. $\\vert pq \\vert=\\vert p \\vert \\vert q \\vert$</p><p><br/>iii. $\\vert p-q \\vert\\leq \\vert\\vert p \\vert -\\vert q \\vert\\vert$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8324,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "নিচের কোন সম্পর্কটি সঠিক?",
+    "options": [
+      "$Z\\subset N$",
+      "$Q\\subset N$",
+      "$Q\\subset Z$",
+      "$Q\\subset R$"
+    ],
+    "answer": "$Q\\subset R$",
+    "explanation": ""
+  },
+  {
+    "id": 8325,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$\\vert 2x-7 \\vert &gt;5$ অসমতাটি বাস্তব সংখ্যার সমাধান কি?</p>",
+    "options": [
+      "x<1",
+      "x>6",
+      "x>6  অথবা x<1",
+      "x>6 এবং  x<1"
+    ],
+    "answer": "x>6  অথবা x<1",
+    "explanation": "<p>$(2 x-7)$ অঋণাত্মক হলে, $2 x-7&gt;5$</p><p>বা, $2 x&gt;5+7$</p><p>বা, $2 x&gt;12$</p><p>বা, $x&gt;\\frac{12}{2}$ বা, $x&gt;6$</p><p>আবার, $(2 x-7)$ ঋণাত্মক হলে,</p><p>$-(2 x-7)&gt;5$</p><p>বা, $2 x-7&lt;-5$</p><p>বা, $2 x&lt;-5+7$</p><p>বা, $2 x&lt;2$, বা, $x&lt;\\frac{2}{2}$ বা, $x&lt;1$</p><p>নির্ণেয়  সমাধান: $x&gt;6$ অথবা $x&lt;1$.</p>"
+  },
+  {
+    "id": 8327,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "নিচের কোন অসমতাটি (1,1) বিন্দুতে সত্য?",
+    "options": [
+      "<p>$x+y&gt;0$</p>",
+      "<p>$x&gt;1$</p>",
+      "<p>$x+y&gt;3$</p>",
+      "$y\\geq 2x$"
+    ],
+    "answer": "<p>$x+y&gt;0$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 8334,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p><br/>i. $\\hat{N}=\\{1,2,3,4 \\ldots \\ldots$.</p><p><br/>ii. $\\dot{Z}=\\{-3,-2,-1,0,1,2,3 \\ldots \\ldots$.</p><p><br/>iii. $Q=\\{\\pi, 1$, e,$\\ldots \\ldots \\ldots\\}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8347,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>স্বাভাবিক সংখ্যার সেট N আবদ্ধ-</p><p><br/>i. যোগের ক্ষেত্রে</p><p><br/>ii. বিয়োগের ক্ষেত্রে</p><p><br/>iii. গুণের ক্ষেত্রে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8373,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>বাস্তব সংখ্যার স্বীকার্যের ক্ষেত্রে সংযোগ বিধির উদাহরণ কোনটি?</p>",
+    "options": [
+      "2+3=3+2",
+      "(2+)3+4=2+(3+4)",
+      "2+0=2",
+      "2(3+4)=2.3+2.4"
+    ],
+    "answer": "(2+)3+4=2+(3+4)",
+    "explanation": ""
+  },
+  {
+    "id": 8384,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$\\vert x-1 \\vert \\leq 1$ অসমতার সমাধান সেট কেনটি?</p>",
+    "options": [
+      "[-1,1]",
+      "[0,2]",
+      "(0,2]",
+      "(-1,1]"
+    ],
+    "answer": "[0,2]",
+    "explanation": ""
+  },
+  {
+    "id": 8111,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "নিচের কোনটি সঠিক?",
+    "options": [
+      "$Z\\subset N$",
+      "$N\\subset R$",
+      "$Q\\cap Q^{’}=R$",
+      "$Q\\cap Q^{’}\\neq \\Phi$"
+    ],
+    "answer": "$N\\subset R$",
+    "explanation": ""
+  },
+  {
+    "id": 8116,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>বাস্তব সংখ্যার ক্ষেত্রে-</p><p><br/>i.$|x|=x$; যখন $x&gt;0$</p><p><br/>ii. $|x|=-x ;$ যখন $x&lt;0$</p><p><br/>iii. $|x+y| \\geq|x|+|y|$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8118,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>উপরোক্ত সরলরেখার সমীকরণটির পরমমানে প্রকাশ কোনটি?</p>",
+    "options": [
+      "$|x-1|<4$",
+      "$|x+4|<-1$",
+      "$\\left|x-\\frac{3}{2}\\right|<\\frac{5}{2}$",
+      "$\\left|x-\\frac{3}{2}\\right|>\\frac{5}{2}$"
+    ],
+    "answer": "$\\left|x-\\frac{3}{2}\\right|<\\frac{5}{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8089,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\{1, {1\\over 2},{1\\over 3},…,{1\\over n}…\\}$ সেটের একটি নিম্নসীমা-",
+    "options": [
+      "$1\\over n$",
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 8035,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "<p>$\\vert 2x+1\\vert&lt;3$ অসমতার সমাধান সেট কোনটি?</p>",
+    "options": [
+      "$-2\\leq x\\leq 1$",
+      "$-2<x<1$",
+      "$-1\\leq x\\leq 2$",
+      "$-1<x<2$"
+    ],
+    "answer": "$-2<x<1$",
+    "explanation": ""
+  },
+  {
+    "id": 8036,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Comilla",
+    "question": "$S=\\{ x\\in R: x-x^2+6&gt;0\\}$ হলে, sup S=?",
+    "options": [
+      "-2",
+      "-3",
+      "2",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "$x-x^2+6&gt;0\\\\\\Rightarrow x^2-x-6&lt;0\\\\\\Rightarrow\\left(x+2\\right)\\left(x-3\\right)&lt;0\\\\\\Rightarrow-2&lt;x&lt;3\\\\Sup\\;S=3$"
+  },
+  {
+    "id": 7979,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "$S=\\{{1\\over 2},{2\\over 3},{3\\over 4},{4\\over 5},...,{n\\over n+1},...\\}$  সেটটির sup S=?",
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "$\\infty$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 8150,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Dinajpur",
+    "question": "$S= {1\\over 3},{1\\over 9},{1\\over 27},{1\\over 81},…..$ এর সুপ্রিমাম কত?",
+    "options": [
+      "0",
+      "$1\\over 81$",
+      "$1\\over 3$",
+      "$\\infty$"
+    ],
+    "answer": "$1\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8055,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Jessore",
+    "question": "$S=\\{x\\in N:5\\leq x^2+1\\leq 82\\}$ এর সুপ্রিমাম কত?",
+    "options": [
+      "2",
+      "4",
+      "9",
+      "81"
+    ],
+    "answer": "9",
+    "explanation": "$5\\leq x^2+1\\leq82\\\\\\Rightarrow4\\leq x^2\\leq81\\\\\\Rightarrow2\\leq x\\leq9\\\\Sup=9\\\\Inf=2$"
+  },
+  {
+    "id": 8003,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$S=\\{x:x\\in Z\\ এবং\\ x\\leq x^2 \\leq 27 \\}$ এর গরিষ্ঠ নিম্নসীমা নিচের কোনটি?",
+    "options": [
+      "-5",
+      "-3",
+      "3",
+      "5"
+    ],
+    "answer": "-5",
+    "explanation": "$S=\\{x:x\\in Z\\;এবং\\;x\\leq x^2\\leq27\\}=\\{-5,-4,-3,,3,4,5\\}\\\\Inf\\;S=-5$"
+  },
+  {
+    "id": 8004,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "<p>$ax-b&gt;0$ এর সমাধান-</p><p><br/>i. $[{b\\over a},\\infty) \\ when\\ , a\\geq 0$</p><p><br/>ii. $(-\\infty,{b\\over a}); \\ when\\ , a$</p><p><br/>iii. কোন সমাধান নেই, a=0 </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8018,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Rajshahi",
+    "question": "$\\vert 2x-9\\vert>7$ অসমতাটির সমাধান-",
+    "options": [
+      "$(-\\infty,1)$",
+      "$(8,\\infty)$",
+      "$(-\\infty,1)\\cup(8,\\infty)$",
+      "$(-\\infty,1)\\cap(8,\\infty)$"
+    ],
+    "answer": "$(-\\infty,1)\\cup(8,\\infty)$",
+    "explanation": ""
+  },
+  {
+    "id": 8133,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>বাস্তব সংখ্যার সেট -</p><p><br/>i. বিনিময় বিধি মানে</p><p><br/>ii. সংযোগ বিধি মানে</p><p><br/>iii. বন্টন বিধি মানে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8134,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "$x^2+2x-3&lt;0$ অসমতাটির সমাধান নিচের কোনটি?",
+    "options": [
+      "$1<x<3$",
+      "$x<-3$ বা $x>1$",
+      "$-1<x<3$",
+      "$-3<x<1$"
+    ],
+    "answer": "$-3<x<1$",
+    "explanation": "$x^2+2x-3&lt;0\\\\\\Rightarrow\\left(x+3\\right)\\left(x-1\\right)&lt;0\\\\-3&lt;x&lt;1$"
+  }
+]
