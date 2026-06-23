@@ -186,11 +186,31 @@
                     </div>
 
                     <div class="exam-actions">
-                        <button class="gen-btn gen-btn-primary" id="exam-retry-btn">
+                        <button class="gen-btn gen-btn-primary" id="exam-review-btn">
+                            <i class="fa-solid fa-list-check"></i> উত্তর পর্যালোচনা
+                        </button>
+                        <button class="gen-btn gen-btn-secondary" id="exam-retry-btn">
                             <i class="fa-solid fa-rotate"></i> আবার পরীক্ষা দিন
                         </button>
                         <button class="gen-btn gen-btn-outline" id="exam-home-btn">
                             <i class="fa-solid fa-house"></i> হোম পেজে যান
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Review State -->
+                <div id="exam-review" style="display:none;">
+                    <div class="gen-header">
+                        <div class="gen-header-icon"><i class="fa-solid fa-list-check"></i></div>
+                        <div class="gen-header-text">
+                            <h2>উত্তর পর্যালোচনা</h2>
+                            <p class="gen-header-sub">প্রতিটি প্রশ্নের উত্তর ও ব্যাখ্যা দেখুন</p>
+                        </div>
+                    </div>
+                    <div id="exam-review-list"></div>
+                    <div class="exam-actions" style="margin-top:20px;">
+                        <button class="gen-btn gen-btn-outline" id="review-back-btn">
+                            <i class="fa-solid fa-arrow-left"></i> ফলাফলে ফিরুন
                         </button>
                     </div>
                 </div>

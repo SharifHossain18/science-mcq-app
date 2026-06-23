@@ -11,6 +11,7 @@ let timeLimit = 0;
 let isAnswering = false;
 let selectedSubject = '';
 let selectedChapters = [];
+let answerLog = [];
 
 function clean(str) {
     return str.replace(/\s+/g, '_');
@@ -47,6 +48,10 @@ const $activeInfo = document.getElementById('exam-active-info');
 const $questionArea = document.getElementById('exam-question-area');
 const $finishBtn = document.getElementById('exam-finish-btn');
 const $retryBtn = document.getElementById('exam-retry-btn');
+const $reviewBtn = document.getElementById('exam-review-btn');
+const $reviewBackBtn = document.getElementById('review-back-btn');
+const $review = document.getElementById('exam-review');
+const $reviewList = document.getElementById('exam-review-list');
 const $homeBtn = document.getElementById('exam-home-btn');
 const $resultScore = document.getElementById('exam-result-score');
 const $resultLabel = document.getElementById('exam-result-label');
@@ -196,6 +201,7 @@ async function startExam() {
         correctCount = 0;
         isAnswering = false;
         timeRemaining = timeLimit * 60;
+        answerLog = [];
 
         showSetupStatus('', '');
         enterActiveState();
@@ -317,6 +323,12 @@ function handleAnswer(btn, q) {
     const isCorrect = selectedText === q.answer;
 
     if (isCorrect) correctCount++;
+    answerLog.push({
+        question: q,
+        selectedIndex: optIndex,
+        isCorrect,
+        questionIndex: currentIndex
+    });
 
     const buttons = document.querySelectorAll('#exam-options .option-btn');
     buttons.forEach((b, i) => {
@@ -377,9 +389,77 @@ function finishExam() {
 
 $retryBtn.addEventListener('click', () => {
     $result.style.display = 'none';
+    $review.style.display = 'none';
     $setup.style.display = 'block';
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+$reviewBtn.addEventListener('click', showReview);
+$reviewBackBtn.addEventListener('click', () => {
+    $review.style.display = 'none';
+    $result.style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+function showReview() {
+    $result.style.display = 'none';
+    $review.style.display = 'block';
+
+    $reviewList.innerHTML = answerLog.map((entry, idx) => {
+        const q = entry.question;
+        const isCorrect = entry.isCorrect;
+        const selected = entry.selectedIndex;
+        const correctIdx = q.options.indexOf(q.answer);
+
+        const statusIcon = isCorrect
+            ? '<span style="color:#22c55e;font-size:1.2rem;"><i class="fa-solid fa-circle-check"></i></span>'
+            : '<span style="color:#ef4444;font-size:1.2rem;"><i class="fa-solid fa-circle-xmark"></i></span>';
+
+        const optionsHtml = q.options.map((opt, oi) => {
+            let cls = 'option-btn';
+            if (oi === correctIdx) cls += ' correct';
+            if (oi === selected && !isCorrect) cls += ' incorrect';
+            return `<button class="${cls}" disabled style="cursor:default;pointer-events:none;width:100%;">
+                <span class="option-letter">${LABELS[oi]}</span>
+                <span class="option-text">${opt}</span>
+            </button>`;
+        }).join('');
+
+        const explanationHtml = q.explanation && q.explanation.trim()
+            ? `<div class="explanation show" style="margin-left:0;">
+                <div class="explanation-title"><i class="fa-solid fa-lightbulb"></i> ব্যাখ্যা</div>
+                ${q.explanation}
+            </div>` : '';
+
+        return `<div class="mcq-card" style="margin-bottom:16px;">
+            <div class="mcq-question-wrapper">
+                <span class="q-number-badge">${idx + 1}</span>
+                <div style="display:flex;align-items:flex-start;gap:8px;padding-left:40px;">
+                    <div class="q-text-content" style="flex:1;">${q.question}</div>
+                    ${statusIcon}
+                </div>
+            </div>
+            <div class="mcq-options" style="padding-left:0;margin-top:12px;">
+                ${optionsHtml}
+            </div>
+            ${explanationHtml}
+        </div>`;
+    }).join('');
+
+    if (window.renderMathInElement) {
+        renderMathInElement($reviewList, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            throwOnError: false
+        });
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
 $homeBtn.addEventListener('click', () => {
     window.location.href = 'index.html';
