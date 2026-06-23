@@ -1,0 +1,27 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scraper or test logs
+*.log
+app_test_error.png
+data.json.bak
+data_cq.json
+data_cq.json.bak
+
+# Generated file list (no longer needed)
+data-files.json
+
+# SSL certificates (self-signed, local dev only)
+.cert/
+node_modules/
+

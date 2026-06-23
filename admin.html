@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LUMEN CQ Organizer</title>
+  <style>
+    body {font-family: 'Inter', sans-serif; margin: 20px; background:#f5f5f5;}
+    h1 {color:#333;}
+    select, button {padding:8px; margin:5px;}
+    .question {background:#fff; padding:10px; margin:5px 0; border-radius:4px; box-shadow:0 1px 3px rgba(0,0,0,0.1);}
+  </style>
+</head>
+<body>
+  <h1>LUMEN CQ Question Mover</h1>
+  <label>Subject: <select id="subjectSelect"></select></label>
+  <button onclick="loadGeneral()">Load General (Chapter 1)</button>
+  <div id="questions"></div>
+  <hr/>
+  <label>Target Chapter: <select id="targetChapterSelect"></select></label>
+  <button onclick="moveSelected()">Move Selected to Target</button>
+
+  <script>
+    const apiBase = '/api';
+    let generalList = [];
+    let subject = '';
+    // Populate subject dropdown from metadata
+    fetch(`${apiBase}/metadata`).then(r=>r.json()).then(data=>{
+      const sel=document.getElementById('subjectSelect');
+      const subjects=Object.keys(data);
+      subjects.forEach(s=>{const opt=document.createElement('option');opt.value=s;opt.textContent=s;sel.appendChild(opt);});
+    });
+    function loadGeneral(){
+      subject=document.getElementById('subjectSelect').value;
+      fetch(`${apiBase}/cq/general-questions?subject=${encodeURIComponent(subject)}`).then(r=>r.json()).then(list=>{
+        generalList=list;render();
+      });
+    }
+    function render(){
+      const container=document.getElementById('questions');
+      container.innerHTML='';
+      generalList.forEach(q=>{
+        const div=document.createElement('div');
+        div.className='question';
+        div.innerHTML=`<input type='checkbox' data-id='${q.id}' /> ${q.title || q.question || 'Untitled'} (ID:${q.id})`;
+        container.appendChild(div);
+      });
+    }
+    // Load target chapters after subject selected
+    document.getElementById('subjectSelect').addEventListener('change',()=>{
+      const sel=document.getElementById('targetChapterSelect');
+      sel.innerHTML='';
+      // fetch metadata chapters for this subject
+      fetch(`${apiBase}/metadata`).then(r=>r.json()).then(data=>{
+        const chapters=data[subject].chapters;
+        chapters.forEach(ch=>{const opt=document.createElement('option');opt.value=ch.id;opt.textContent=ch.name;sel.appendChild(opt);});
+      });
+    });
+    function moveSelected(){
+      const targetId=document.getElementById('targetChapterSelect').value;
+      const targetName=document.getElementById('targetChapterSelect').selectedOptions[0].textContent;
+      const checks=document.querySelectorAll('#questions input:checked');
+      checks.forEach(cb=>{
+        const qid=cb.dataset.id;
+        fetch(`${apiBase}/cq/move-question`,{
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({subject,questionId:qid,targetChapterId:targetId,targetChapterName:targetName})
+        }).then(r=>r.json()).then(res=>{if(res.success){cb.parentElement.remove();}});
+      });
+    }
+  </script>
+</body>
+</html>

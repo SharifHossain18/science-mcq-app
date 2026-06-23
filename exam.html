@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUMEN - পরীক্ষা মোড</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="sw-register.js"></script>
+</head>
+<body>
+
+    <div class="app-layout">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
+                <span>LUMEN</span>
+            </div>
+            <div class="menu-section">
+                <span class="menu-title">মেনু</span>
+                <nav class="sidebar-nav">
+                    <a href="index.html" class="sidebar-nav-item" id="side-home">
+                        <i class="fa-solid fa-house"></i><span>ড্যাশবোর্ড (Dashboard)</span>
+                    </a>
+                    <a href="subject.html?mode=chapter" class="sidebar-nav-item" id="side-chapter">
+                        <i class="fa-regular fa-folder-open"></i><span>অধ্যায়ভিত্তিক প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=board" class="sidebar-nav-item" id="side-board">
+                        <i class="fa-solid fa-building-columns"></i><span>বোর্ড প্রশ্ন প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=cq" class="sidebar-nav-item" id="side-cq">
+                        <i class="fa-solid fa-file-signature"></i><span>সৃজনশীল প্রশ্ন (CQ)</span>
+                    </a>
+                    <a href="generate.html" class="sidebar-nav-item" id="side-generate">
+                        <i class="fa-solid fa-shuffle"></i><span>প্রশ্ন জেনারেটর</span>
+                    </a>
+                    <a href="exam.html" class="sidebar-nav-item" id="side-exam">
+                        <i class="fa-solid fa-graduation-cap"></i><span>পরীক্ষা মোড (Exam)</span>
+                    </a>
+                    <a href="mover.html" class="sidebar-nav-item" id="side-mover">
+                        <i class="fa-solid fa-arrows-spin"></i><span>প্রশ্ন স্থানান্তর (Mover)</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="sidebar-profile">
+                <div class="profile-card">
+                    <div class="profile-avatar">S</div>
+                    <div class="profile-info">
+                        <span class="profile-name">Sujon</span>
+                        <span class="profile-subtitle">hsc</span>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="theme-toggle"><i class="fa-solid fa-sun"></i></div>
+                    <i class="fa-solid fa-gear sidebar-footer-icon settings-trigger" data-action="settings" title="সেটিংস"></i>
+                    <i class="fa-solid fa-right-from-bracket sidebar-footer-icon"></i>
+                </div>
+            </div>
+        </aside>
+
+        <div class="main-workspace">
+            <header class="workspace-header">
+                <div class="header-left">
+                    <button class="menu-toggle-btn" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                    <button class="back-btn" id="back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                    <div class="breadcrumb" id="breadcrumb-path">
+                        <span class="breadcrumb-item" onclick="window.location.href='index.html'">Home</span>
+                        <span class="breadcrumb-separator"><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></span>
+                        <span class="breadcrumb-item active">পরীক্ষা মোড</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="profile-icon"><i class="fa-solid fa-user"></i></div>
+                </div>
+            </header>
+
+            <main class="app-container exam-container" id="exam-app">
+
+                <!-- Setup State -->
+                <div id="exam-setup">
+                    <div class="gen-header">
+                        <div class="gen-header-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="gen-header-text">
+                            <h2>পরীক্ষা মোড (Exam Mode)</h2>
+                            <p class="gen-header-sub">সময়সীমাসহ এলোমেলো MCQ পরীক্ষা দিন</p>
+                        </div>
+                    </div>
+
+                    <div class="gen-form-card">
+                        <div class="gen-form-row">
+                            <label class="gen-label"><i class="fa-solid fa-book"></i> বিষয় (Subject)</label>
+                            <select class="gen-select" id="exam-subject">
+                                <option value="">— বিষয় নির্বাচন করুন —</option>
+                            </select>
+                        </div>
+
+                        <div class="gen-form-row">
+                            <label class="gen-label"><i class="fa-regular fa-folder-open"></i> অধ্যায় (Chapter)</label>
+                            <div id="exam-chapters-container">
+                                <p style="color:var(--text-muted);font-size:0.85rem;">প্রথমে বিষয় নির্বাচন করুন</p>
+                            </div>
+                        </div>
+
+                        <div class="gen-form-row">
+                            <label class="gen-label"><i class="fa-solid fa-list-check"></i> MCQ প্রশ্নের সংখ্যা</label>
+                            <div class="gen-input-wrap">
+                                <input type="number" class="gen-input" id="exam-count" min="1" max="50" value="10">
+                                <span class="gen-input-hint">সর্বোচ্চ: ৫০</span>
+                            </div>
+                        </div>
+
+                        <div class="gen-form-row">
+                            <label class="gen-label"><i class="fa-solid fa-hourglass-half"></i> সময় (মিনিট)</label>
+                            <div class="gen-input-wrap">
+                                <input type="number" class="gen-input" id="exam-time" min="1" max="180" value="30">
+                                <span class="gen-input-hint">মিনিট</span>
+                            </div>
+                        </div>
+
+                        <div class="gen-form-actions">
+                            <button class="gen-btn gen-btn-primary" id="exam-start-btn">
+                                <i class="fa-solid fa-play"></i> পরীক্ষা শুরু করুন
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="exam-setup-status"></div>
+                </div>
+
+                <!-- Active State -->
+                <div id="exam-active" style="display:none;">
+                    <div class="exam-header-card no-exam">
+                        <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+                            <div>
+                                <h2>পরীক্ষা চলছে...</h2>
+                                <p id="exam-active-info"></p>
+                            </div>
+                            <div class="exam-timer" id="exam-timer-display">
+                                <i class="fa-solid fa-hourglass-half"></i>
+                                <span id="exam-timer-text">00:00</span>
+                            </div>
+                        </div>
+                        <div class="exam-progress">
+                            <div class="exam-progress-fill" id="exam-progress-fill" style="width:0%;"></div>
+                        </div>
+                        <p style="font-size:0.85rem;color:var(--text-muted);margin-top:8px;" id="exam-progress-text">প্রশ্ন ১ এর ১০</p>
+                    </div>
+
+                    <div id="exam-question-area"></div>
+
+                    <div class="exam-actions no-exam">
+                        <button class="gen-btn gen-btn-danger" id="exam-finish-btn">
+                            <i class="fa-solid fa-flag"></i> পরীক্ষা শেষ করুন
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Result State -->
+                <div id="exam-result" style="display:none;">
+                    <div class="exam-result-card">
+                        <div class="exam-result-score" id="exam-result-score">0%</div>
+                        <div class="exam-result-label" id="exam-result-label">সঠিক: ০/০</div>
+                        <div class="exam-result-detail">
+                            <div class="exam-result-stat">
+                                <div class="exam-result-stat-value" id="exam-result-time">০ মিনিট</div>
+                                <div class="exam-result-stat-label">সময়</div>
+                            </div>
+                            <div class="exam-result-stat">
+                                <div class="exam-result-stat-value" id="exam-result-accuracy">০%</div>
+                                <div class="exam-result-stat-label">নির্ভুলতা</div>
+                            </div>
+                            <div class="exam-result-stat">
+                                <div class="exam-result-stat-value" id="exam-result-speed">০</div>
+                                <div class="exam-result-stat-label">প্রশ্ন/মিনিট</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="exam-actions">
+                        <button class="gen-btn gen-btn-primary" id="exam-retry-btn">
+                            <i class="fa-solid fa-rotate"></i> আবার পরীক্ষা দিন
+                        </button>
+                        <button class="gen-btn gen-btn-outline" id="exam-home-btn">
+                            <i class="fa-solid fa-house"></i> হোম পেজে যান
+                        </button>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Sidebar Backdrop (mobile) -->
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <nav class="bottom-nav glass-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-house"></i><span>Home</span>
+        </a>
+        <a href="subject.html?mode=chapter" class="nav-item">
+            <i class="fa-regular fa-folder-open"></i><span>Chapter</span>
+        </a>
+        <a href="subject.html?mode=board" class="nav-item">
+            <i class="fa-solid fa-building-columns"></i><span>Board</span>
+        </a>
+        <a href="subject.html?mode=cq" class="nav-item">
+            <i class="fa-solid fa-file-signature"></i><span>CQ</span>
+        </a>
+        <a href="exam.html" class="nav-item">
+            <i class="fa-solid fa-graduation-cap"></i><span>Exam</span>
+        </a>
+    </nav>
+
+    <script src="exam.js"></script>
+</body>
+</html>

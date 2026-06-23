@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUMEN - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="utils.js"></script>
+    <script src="sw-register.js"></script>
+</head>
+<body>
+
+    <div class="app-layout">
+        <!-- Sidebar Navigation (Desktop) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
+                <span>LUMEN</span>
+            </div>
+
+            
+            <div class="menu-section">
+                <span class="menu-title">মেনু</span>
+                <nav class="sidebar-nav">
+                    <a href="index.html" class="sidebar-nav-item active" id="side-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>ড্যাশবোর্ড (Dashboard)</span>
+                    </a>
+                    <a href="subject.html?mode=chapter" class="sidebar-nav-item" id="side-chapter">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <span>অধ্যায়ভিত্তিক প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=board" class="sidebar-nav-item" id="side-board">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>বোর্ড প্রশ্ন প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=cq" class="sidebar-nav-item" id="side-cq">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>সৃজনশীল প্রশ্ন প্রস্তুতি (CQ)</span>
+                    </a>
+                    <a href="generate.html" class="sidebar-nav-item" id="side-generate">
+                        <i class="fa-solid fa-shuffle"></i><span>প্রশ্ন জেনারেটর</span>
+                    </a>
+                    <a href="exam.html" class="sidebar-nav-item" id="side-exam">
+                        <i class="fa-solid fa-graduation-cap"></i><span>পরীক্ষা মোড (Exam)</span>
+                    </a>
+                    <a href="mover.html" class="sidebar-nav-item" id="side-mover">
+                        <i class="fa-solid fa-arrows-spin"></i><span>প্রশ্ন স্থানান্তর (Mover)</span>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="menu-section">
+                <span class="menu-title">প্রোফাইল</span>
+                <nav class="sidebar-nav">
+                    <a href="#" class="sidebar-nav-item">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <span>মাই ফেভারিট</span>
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Profile Info and Footer -->
+            <div class="sidebar-profile">
+                <div class="profile-card">
+                    <div class="profile-avatar">S</div>
+                    <div class="profile-info">
+                        <span class="profile-name">Sujon</span>
+                        <span class="profile-subtitle">hsc</span>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="theme-toggle">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <i class="fa-solid fa-gear sidebar-footer-icon settings-trigger" data-action="settings" title="সেটিংস"></i>
+                    <i class="fa-solid fa-right-from-bracket sidebar-footer-icon"></i>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace Pane -->
+        <div class="main-workspace">
+            <!-- Top Workspace Header -->
+            <header class="workspace-header">
+                <div class="header-left">
+                    <button class="menu-toggle-btn" id="menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="breadcrumb" id="breadcrumb-path">
+                        <span class="breadcrumb-item active">Home</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="profile-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Workspace Content Area -->
+            <main class="app-container">
+                <!-- View 1: Dashboard -->
+                <div id="dashboard-view" class="app-view active">
+                    <!-- Profile Banner -->
+                    <div class="profile-banner">
+                        <div class="profile-header-left">
+                            <div class="profile-avatar-circle">S</div>
+                            <div class="profile-user-info">
+                                <span class="profile-user-name">Sujon</span>
+                                <span class="profile-user-class">Science • HSC 2026</span>
+                            </div>
+                        </div>
+                        <div class="profile-header-right"></div>
+                    </div>
+
+                    <!-- Section Title -->
+                    <div class="home-section-header">
+                        <h2 class="home-section-title">বিষয় নির্বাচন করুন</h2>
+                        <span class="home-section-subtitle">Select a subject to start practicing</span>
+                    </div>
+
+                    <!-- Data Download Banner (shown when data not yet cached) -->
+                    <div id="data-download-banner" class="data-dl-banner" style="display:none;">
+                        <div class="dl-banner-content">
+                            <div class="dl-banner-icon"><i class="fa-solid fa-download"></i></div>
+                            <div class="dl-banner-text">
+                                <strong>সমস্ত ডাটা ডাউনলোড করুন</strong>
+                                <span>অফলাইনে ব্যবহারের জন্য এখনই সব প্রশ্ন ডাউনলোড করুন</span>
+                            </div>
+                            <button class="dl-banner-btn" id="start-dl-btn">শুরু করুন</button>
+                        </div>
+                    </div>
+
+                    <!-- 6 Subject Cards Grid (2 per row) -->
+                    <div class="home-subject-grid">
+                        <!-- Physics 1st Paper -->
+                        <div class="home-subject-card" data-subject="Physics 1st Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-atom"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Physics 1st Paper</h4>
+                                <p class="home-subject-bn">পদার্থবিজ্ঞান ১ম পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Physics 2nd Paper -->
+                        <div class="home-subject-card" data-subject="Physics 2nd Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Physics 2nd Paper</h4>
+                                <p class="home-subject-bn">পদার্থবিজ্ঞান ২য় পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Chemistry 1st Paper -->
+                        <div class="home-subject-card" data-subject="Chemistry 1st Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-flask"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Chemistry 1st Paper</h4>
+                                <p class="home-subject-bn">রসায়ন ১ম পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Chemistry 2nd Paper -->
+                        <div class="home-subject-card" data-subject="Chemistry 2nd Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-vial"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Chemistry 2nd Paper</h4>
+                                <p class="home-subject-bn">রসায়ন ২য় পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Math 1st Paper -->
+                        <div class="home-subject-card" data-subject="Math 1st Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-square-root-variable"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Math 1st Paper</h4>
+                                <p class="home-subject-bn">উচ্চতর গণিত ১ম পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Math 2nd Paper -->
+                        <div class="home-subject-card" data-subject="Math 2nd Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-infinity"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Math 2nd Paper</h4>
+                                <p class="home-subject-bn">উচ্চতর গণিত ২য় পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Biology 1st Paper -->
+                        <div class="home-subject-card" data-subject="Biology 1st Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Biology 1st Paper</h4>
+                                <p class="home-subject-bn">জীববিজ্ঞান ১ম পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Biology 2nd Paper -->
+                        <div class="home-subject-card" data-subject="Biology 2nd Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Biology 2nd Paper</h4>
+                                <p class="home-subject-bn">জীববিজ্ঞান ২য় পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- ICT -->
+                        <div class="home-subject-card" data-subject="ICT">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-microchip"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">ICT</h4>
+                                <p class="home-subject-bn">তথ্য ও যোগাযোগ প্রযুক্তি</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Bangla 1st Paper -->
+                        <div class="home-subject-card" data-subject="Bangla 1st Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-book"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Bangla 1st Paper</h4>
+                                <p class="home-subject-bn">বাংলা ১ম পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+
+                        <!-- Bangla 2nd Paper -->
+                        <div class="home-subject-card" data-subject="Bangla 2nd Paper">
+                            <div class="home-subject-icon">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="home-subject-info">
+                                <h4 class="home-subject-title">Bangla 2nd Paper</h4>
+                                <p class="home-subject-bn">বাংলা ২য় পত্র</p>
+                            </div>
+                            <div class="home-subject-arrow">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Sidebar Backdrop (mobile) -->
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="bottom-nav glass-nav">
+        <a href="index.html" class="nav-item active" id="nav-home">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="subject.html?mode=chapter" class="nav-item" id="nav-chapter">
+            <i class="fa-regular fa-folder-open"></i>
+            <span>Chapter</span>
+        </a>
+        <a href="subject.html?mode=board" class="nav-item" id="nav-board">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>Board</span>
+        </a>
+        <a href="subject.html?mode=cq" class="nav-item" id="nav-cq">
+            <i class="fa-solid fa-file-signature"></i>
+            <span>CQ</span>
+        </a>
+        <a href="exam.html" class="nav-item" id="nav-exam">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Exam</span>
+        </a>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>

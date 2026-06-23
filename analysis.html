@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUMEN - Data Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="utils.js"></script>
+    <script src="sw-register.js"></script>
+    <style>
+        .analysis-container { padding: 24px; max-width: 1200px; margin: 0 auto; }
+        .analysis-header { margin-bottom: 28px; }
+        .analysis-header h2 { font-size: 1.5rem; font-weight: 700; }
+        .analysis-header p { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+        .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 28px; }
+        .stat-card { background: var(--card-bg); border-radius: 14px; padding: 18px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); }
+        .stat-card .stat-value { font-size: 1.8rem; font-weight: 800; color: var(--primary-blue); line-height: 1.2; }
+        .stat-card .stat-label { font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
+        .stat-card .stat-sub { font-size: 0.75rem; color: var(--text-muted); margin-top: 2px; }
+        .section-title { font-size: 1.1rem; font-weight: 700; margin: 28px 0 16px; display: flex; align-items: center; gap: 8px; }
+        .section-title i { color: var(--primary-blue); }
+        .bar-chart { display: flex; flex-direction: column; gap: 8px; }
+        .bar-row { display: flex; align-items: center; gap: 10px; }
+        .bar-label { min-width: 180px; font-size: 0.85rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .bar-track { flex: 1; height: 26px; background: var(--border-color); border-radius: 8px; overflow: hidden; position: relative; }
+        .bar-fill { height: 100%; border-radius: 8px; transition: width 0.6s ease; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 0.75rem; font-weight: 600; color: #fff; min-width: fit-content; }
+        .bar-count { min-width: 40px; text-align: right; font-size: 0.8rem; color: var(--text-muted); font-weight: 600; }
+        .subject-filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+        .subject-filter-bar button { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-main); font-size: 0.8rem; cursor: pointer; font-weight: 500; transition: all 0.2s; }
+        .subject-filter-bar button.active { background: var(--primary-blue); color: #fff; border-color: var(--primary-blue); }
+        .subject-filter-bar button:hover { border-color: var(--primary-blue); }
+        .analysis-card { background: var(--card-bg); border-radius: 14px; padding: 20px; border: 1px solid var(--border-color); box-shadow: var(--shadow-sm); margin-bottom: 20px; }
+        .analysis-card h4 { font-size: 1rem; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+        .analysis-card h4 i { color: var(--primary-blue); }
+        .meta-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        .meta-table th { text-align: left; padding: 8px 10px; border-bottom: 2px solid var(--border-color); color: var(--text-muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .meta-table td { padding: 8px 10px; border-bottom: 1px solid var(--border-color); }
+        .meta-table tr:hover td { background: var(--hover-bg); }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }
+        .badge-green { background: #dcfce7; color: #166534; }
+        .badge-red { background: #fee2e2; color: #991b1b; }
+        .badge-yellow { background: #fef9c3; color: #854d0e; }
+        .badge-blue { background: #dbeafe; color: #1e40af; }
+        [data-theme="dark"] .badge-green { background: #14532d; color: #bbf7d0; }
+        [data-theme="dark"] .badge-red { background: #450a0a; color: #fecaca; }
+        [data-theme="dark"] .badge-yellow { background: #422006; color: #fef08a; }
+        [data-theme="dark"] .badge-blue { background: #1e3a5f; color: #93c5fd; }
+        .analysis-table-wrap { overflow-x: auto; }
+        .coverage-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
+        .coverage-cell { padding: 10px; border-radius: 8px; background: var(--hover-bg); border: 1px solid var(--border-color); }
+        .coverage-cell .cell-title { font-size: 0.8rem; font-weight: 600; }
+        .coverage-cell .cell-count { font-size: 0.75rem; color: var(--text-muted); margin-top: 2px; }
+        .loading-analysis { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 60px 20px; color: var(--text-muted); }
+        .loading-analysis .spinner { width: 40px; height: 40px; border: 3px solid var(--border-color); border-top-color: var(--primary-blue); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 16px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .tabular-data { max-height: 500px; overflow-y: auto; }
+        .tabular-data::-webkit-scrollbar { width: 5px; }
+        .tabular-data::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 10px; }
+        .color-bar-0 { background: linear-gradient(90deg, #0284c7, #38bdf8); }
+        .color-bar-1 { background: linear-gradient(90deg, #7c3aed, #a78bfa); }
+        .color-bar-2 { background: linear-gradient(90deg, #059669, #34d399); }
+        .color-bar-3 { background: linear-gradient(90deg, #dc2626, #f87171); }
+        .color-bar-4 { background: linear-gradient(90deg, #d97706, #fbbf24); }
+        .color-bar-5 { background: linear-gradient(90deg, #db2777, #f472b6); }
+        .color-bar-6 { background: linear-gradient(90deg, #0891b2, #22d3ee); }
+        .color-bar-7 { background: linear-gradient(90deg, #ea580c, #fb923c); }
+        .color-bar-8 { background: linear-gradient(90deg, #65a30d, #a3e635); }
+        .color-bar-9 { background: linear-gradient(90deg, #4f46e5, #818cf8); }
+        .color-bar-10 { background: linear-gradient(90deg, #be123c, #fb7185); }
+        .insight-box { background: var(--primary-light); border-left: 3px solid var(--primary-blue); padding: 12px 16px; border-radius: 8px; margin-top: 12px; font-size: 0.85rem; }
+        .insight-box strong { color: var(--primary-blue); }
+        .search-input-analysis { width: 100%; padding: 10px 14px; border: 1px solid var(--border-color); border-radius: 10px; background: var(--card-bg); color: var(--text-main); font-size: 0.85rem; outline: none; margin-bottom: 14px; }
+        .search-input-analysis:focus { border-color: var(--primary-blue); }
+        .tab-bar { display: flex; gap: 4px; margin-bottom: 20px; background: var(--hover-bg); border-radius: 12px; padding: 4px; }
+        .tab-btn { flex: 1; padding: 8px 12px; border: none; background: transparent; color: var(--text-muted); font-size: 0.8rem; font-weight: 600; border-radius: 10px; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+        .tab-btn.active { background: var(--card-bg); color: var(--text-main); box-shadow: var(--shadow-sm); }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } .bar-label { min-width: 120px; } .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+    </style>
+</head>
+<body>
+    <div class="app-layout">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
+                <span>LUMEN</span>
+            </div>
+            <div class="menu-section">
+                <span class="menu-title">মেনু</span>
+                <nav class="sidebar-nav">
+                    <a href="index.html" class="sidebar-nav-item" id="side-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>ড্যাশবোর্ড (Dashboard)</span>
+                    </a>
+                    <a href="subject.html?mode=chapter" class="sidebar-nav-item" id="side-chapter">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <span>অধ্যায়ভিত্তিক প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=board" class="sidebar-nav-item" id="side-board">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>বোর্ড প্রশ্ন প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=cq" class="sidebar-nav-item" id="side-cq">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>সৃজনশীল প্রশ্ন (CQ)</span>
+                    </a>
+                    <a href="generate.html" class="sidebar-nav-item" id="side-generate">
+                        <i class="fa-solid fa-shuffle"></i><span>প্রশ্ন জেনারেটর</span>
+                    </a>
+                    <a href="exam.html" class="sidebar-nav-item" id="side-exam">
+                        <i class="fa-solid fa-graduation-cap"></i><span>পরীক্ষা মোড (Exam)</span>
+                    </a>
+                    <a href="analysis.html" class="sidebar-nav-item active" id="side-analysis">
+                        <i class="fa-solid fa-chart-pie"></i><span>ডাটা এনালাইসিস</span>
+                    </a>
+                    <a href="mover.html" class="sidebar-nav-item" id="side-mover">
+                        <i class="fa-solid fa-arrows-spin"></i><span>প্রশ্ন স্থানান্তর (Mover)</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="menu-section">
+                <span class="menu-title">প্রোফাইল</span>
+                <nav class="sidebar-nav">
+                    <a href="#" class="sidebar-nav-item">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <span>মাই ফেভারিট</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="sidebar-profile">
+                <div class="profile-card">
+                    <div class="profile-avatar">S</div>
+                    <div class="profile-info">
+                        <span class="profile-name">Sujon</span>
+                        <span class="profile-subtitle">hsc</span>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="theme-toggle">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <i class="fa-solid fa-gear sidebar-footer-icon settings-trigger" data-action="settings" title="সেটিংস"></i>
+                    <i class="fa-solid fa-right-from-bracket sidebar-footer-icon"></i>
+                </div>
+            </div>
+        </aside>
+
+        <div class="main-workspace">
+            <header class="workspace-header">
+                <div class="header-left">
+                    <button class="menu-toggle-btn" id="menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="breadcrumb" id="breadcrumb-path">
+                        <span class="breadcrumb-item active">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="profile-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </header>
+
+            <main class="app-container">
+                <div class="analysis-container">
+                    <div class="analysis-header">
+                        <h2><i class="fa-solid fa-chart-pie" style="color:var(--primary-blue);margin-right:8px;"></i>ডাটা এনালাইসিস ড্যাশবোর্ড</h2>
+                        <p>সমস্ত MCQ প্রশ্নের পরিসংখ্যান, কভারেজ, এবং গুণগত বিশ্লেষণ</p>
+                    </div>
+
+                    <div id="analysis-loading" class="loading-analysis">
+                        <div class="spinner"></div>
+                        <p>ডাটা লোড হচ্ছে...</p>
+                        <p style="font-size:0.8rem;margin-top:6px;">সব প্রশ্ন ফাইল স্ক্যান করা হচ্ছে</p>
+                    </div>
+                    <div id="analysis-content" style="display:none;"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <nav class="bottom-nav glass-nav">
+        <a href="index.html" class="nav-item" id="nav-home">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="subject.html?mode=chapter" class="nav-item" id="nav-chapter">
+            <i class="fa-regular fa-folder-open"></i>
+            <span>Chapter</span>
+        </a>
+        <a href="subject.html?mode=board" class="nav-item" id="nav-board">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>Board</span>
+        </a>
+        <a href="analysis.html" class="nav-item active" id="nav-analysis">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span>Analysis</span>
+        </a>
+        <a href="exam.html" class="nav-item" id="nav-exam">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Exam</span>
+        </a>
+    </nav>
+
+    <script src="analysis.js"></script>
+</body>
+</html>

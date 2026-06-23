@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="icon" href="app-icon.jpeg" type="image/jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LUMEN - CQ Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="sw-register.js"></script>
+</head>
+<body>
+
+    <div class="app-layout">
+        <!-- Sidebar Navigation (Desktop) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">
+                <i class="fa-solid fa-square-poll-vertical brand-logo-icon"></i>
+                <span>LUMEN</span>
+            </div>
+
+            
+            <div class="menu-section">
+                <span class="menu-title">মেনু</span>
+                <nav class="sidebar-nav">
+                    <a href="index.html" class="sidebar-nav-item" id="side-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>ড্যাশবোর্ড (Dashboard)</span>
+                    </a>
+                    <a href="subject.html?mode=chapter" class="sidebar-nav-item" id="side-chapter">
+                        <i class="fa-regular fa-folder-open"></i>
+                        <span>অধ্যায়ভিত্তিক প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=board" class="sidebar-nav-item" id="side-board">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <span>বোর্ড প্রশ্ন প্রস্তুতি</span>
+                    </a>
+                    <a href="subject.html?mode=cq" class="sidebar-nav-item active" id="side-cq">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>সৃজনশীল প্রশ্ন প্রস্তুতি (CQ)</span>
+                    </a>
+                    <a href="generate.html" class="sidebar-nav-item" id="side-generate">
+                        <i class="fa-solid fa-shuffle"></i><span>প্রশ্ন জেনারেটর</span>
+                    </a>
+                    <a href="exam.html" class="sidebar-nav-item" id="side-exam">
+                        <i class="fa-solid fa-graduation-cap"></i><span>পরীক্ষা মোড (Exam)</span>
+                    </a>
+                    <a href="mover.html" class="sidebar-nav-item" id="side-mover">
+                        <i class="fa-solid fa-arrows-spin"></i><span>প্রশ্ন স্থানান্তর (Mover)</span>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="menu-section">
+                <span class="menu-title">প্রোফাইল</span>
+                <nav class="sidebar-nav">
+                    <a href="#" class="sidebar-nav-item">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <span>মাই ফেভারিট</span>
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Profile Info and Footer -->
+            <div class="sidebar-profile">
+                <div class="profile-card">
+                    <div class="profile-avatar">S</div>
+                    <div class="profile-info">
+                        <span class="profile-name">Sujon</span>
+                        <span class="profile-subtitle">hsc</span>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="theme-toggle">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <i class="fa-solid fa-gear sidebar-footer-icon settings-trigger" data-action="settings" title="সেটিংস"></i>
+                    <i class="fa-solid fa-right-from-bracket sidebar-footer-icon"></i>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace Pane -->
+        <div class="main-workspace">
+            <!-- Top Workspace Header -->
+            <header class="workspace-header">
+                <div class="header-left">
+                    <button class="menu-toggle-btn" id="menu-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="back-btn" id="back-btn">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <div class="breadcrumb" id="breadcrumb-path">
+                        <!-- Clickable breadcrumbs -->
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="profile-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Workspace Content Area -->
+            <main class="app-container">
+                
+                <!-- CQ Practice View -->
+                <div id="cq-practice-view" class="app-view active">
+                    <div class="mcq-view-header">
+                        <div class="mcq-view-title-area">
+                            <h3 id="cq-view-title">সৃজনশীল প্রশ্ন প্রস্তুতি</h3>
+                        </div>
+                    </div>
+                    <div id="cq-container" class="cq-list">
+                        <!-- Questions dynamically loaded here -->
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Sidebar Backdrop (mobile) -->
+    <div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="bottom-nav glass-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="subject.html?mode=chapter" class="nav-item">
+            <i class="fa-regular fa-folder-open"></i>
+            <span>Chapter</span>
+        </a>
+        <a href="subject.html?mode=board" class="nav-item">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>Board</span>
+        </a>
+        <a href="subject.html?mode=cq" class="nav-item">
+            <i class="fa-solid fa-file-signature"></i>
+            <span>CQ</span>
+        </a>
+        <a href="exam.html" class="nav-item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Exam</span>
+        </a>
+    </nav>
+
+    <script src="cq.js"></script>
+</body>
+</html>
