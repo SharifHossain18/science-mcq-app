@@ -272,8 +272,6 @@ function showQuestion() {
     card.className = 'mcq-card';
     card.id = 'exam-current-card';
 
-    const hasExplanation = q.explanation && q.explanation.trim().length > 0;
-
     card.innerHTML = `
         <div class="mcq-question-wrapper">
             <span class="q-number-badge">${currentIndex + 1}</span>
@@ -287,10 +285,6 @@ function showQuestion() {
                 </button>
             `).join('')}
         </div>
-        ${hasExplanation ? `<div class="explanation" id="exam-explanation-${currentIndex}">
-            <div class="explanation-title"><i class="fa-solid fa-lightbulb"></i> ব্যাখ্যা</div>
-            ${q.explanation}
-        </div>` : ''}
     `;
 
     $questionArea.innerHTML = '';
@@ -330,29 +324,17 @@ function handleAnswer(btn, q) {
         questionIndex: currentIndex
     });
 
+    // Highlight selected option
     const buttons = document.querySelectorAll('#exam-options .option-btn');
     buttons.forEach((b, i) => {
         b.style.pointerEvents = 'none';
-        const text = q.options[i];
-        if (text === q.answer) {
-            b.classList.add('correct');
-        } else if (i === optIndex && !isCorrect) {
-            b.classList.add('incorrect');
-        }
     });
-
-    const explanationEl = document.getElementById(`exam-explanation-${currentIndex}`);
-    if (explanationEl) {
-        explanationEl.classList.add('show');
-    }
+    btn.classList.add('selected-opt');
 
     setTimeout(() => {
         currentIndex++;
-        if (explanationEl) {
-            explanationEl.classList.remove('show');
-        }
         showQuestion();
-    }, 800);
+    }, 300);
 }
 
 $finishBtn.addEventListener('click', () => {
