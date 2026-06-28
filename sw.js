@@ -1,5 +1,5 @@
-const CACHE_NAME = 'lumen-v61';
-const DATA_CACHE = 'lumen-data-v5';
+const CACHE_NAME = 'lumen-v62';
+const DATA_CACHE = 'lumen-data-v6';
 
 const APP_SHELL = [
     './',
@@ -112,7 +112,10 @@ self.addEventListener('fetch', event => {
         event.respondWith(
             caches.open(DATA_CACHE).then(cache =>
                 fetch(event.request).then(resp => {
-                    if (resp.ok) return resp;
+                    if (resp.ok) {
+                        cache.put(stripQuery(reqUrl), resp.clone());
+                        return resp;
+                    }
                     throw new Error('HTTP ' + resp.status);
                 }).catch(() =>
                     cache.match(stripQuery(reqUrl)).then(cached => {

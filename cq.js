@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 resp = await fetch(cqUrl);
                 if (!resp.ok) throw new Error('HTTP ' + resp.status);
             } catch (e) {
-                const cached = await caches.open('lumen-data-v5').then(c => c.match(cqUrl));
+                const cached = await caches.open('lumen-data-v6').then(c => c.match(cqUrl));
                 if (cached) {
                     resp = cached;
                 } else if (!navigator.onLine) {
