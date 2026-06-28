@@ -30,7 +30,7 @@ data.forEach(q => {
     const subject = q.subject;
     const year = String(q.year);
     const board = q.board;
-    const chapterName = q.chapter || 'General';
+    const chapterName = (q.chapter || 'General').replace(/ℹ️/g, '').trim();
 
     // Initialize meta for subject
     if (!meta[subject]) {
@@ -79,7 +79,7 @@ Object.keys(meta).forEach(sub => {
 const chapterGroups = {};
 data.forEach(q => {
     const subject = q.subject;
-    const chapterName = q.chapter || 'General';
+    const chapterName = (q.chapter || 'General').replace(/ℹ️/g, '').trim();
     const chapterObj = meta[subject].chapters.find(c => c.name === chapterName);
     const chapterKey = `${subject.replace(/\s+/g, '_')}_${chapterObj.id}`;
     if (!chapterGroups[chapterKey]) chapterGroups[chapterKey] = [];
