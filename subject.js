@@ -273,7 +273,7 @@ async function downloadSubject() {
     const subjectKey = `subject_${cleanSub}`;
 
     // Build URL list from already-loaded metaData
-    const urls = [];
+    const urls = ['data/meta.json'];
 
     const chapters = (metaData[subject]?.chapters || []).filter(c => c && c.name);
     for (const ch of chapters) {
@@ -288,7 +288,6 @@ async function downloadSubject() {
             const boardId = boardName === 'Combined' ? 'Combined' : String(idx + 1);
             urls.push(`data/boards/${cleanSub}_${year}_${cleanBd}.json`);
             urls.push(`data/cq/boards/${cleanSub}_${year}_${boardId}.json`);
-            boardKeys.push(`board_${cleanSub}_${year}_${cleanBd}`);
         });
     }
 
