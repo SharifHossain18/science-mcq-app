@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7099,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$y^2+x=0$ কণিকের উপকেন্দ্রের স্থানাঙ্ক - </p>",
+    "options": [
+      "$\\left(-\\frac{1}{4}, 0\\right)$",
+      "$\\left(0,-\\frac{1}{4}\\right)$",
+      "$(4,-4)$",
+      "$\\left(\\frac{1}{4}, 0\\right)$"
+    ],
+    "answer": "$\\left(-\\frac{1}{4}, 0\\right)$",
+    "explanation": "<p>$ y^2+x=0$</p><p>বা, $y^2=-x$ বা, $y^2=-4 \\cdot \\frac{1}{4} x $</p><p>$ \\therefore $ উপকেন্দ্রের স্থানাঙ্ক $(-a, 0)=\\left(-\\frac{1}{4}, 0\\right)$</p>"
+  },
+  {
+    "id": 7100,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$(\\sqrt{2} \\cos \\theta, \\sqrt{3} \\sin \\theta)$ বিন্দুর সঞ্চারপথ কোনটি? </p>",
+    "options": [
+      "বৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত",
+      "পরাবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "<p>এখানে, $(x, y)=(\\sqrt{2} \\cos \\theta, \\sqrt{3} \\sin \\theta)$</p><p>$\\mathrm{x}=\\sqrt{2} \\cos \\theta $</p><p>বা, $\\frac{\\mathrm{x}}{\\sqrt{2}}=\\cos \\theta $</p><p>$ \\therefore \\frac{\\mathrm{x}^2}{2}=\\cos ^2 \\theta$</p><p>$\\therefore \\frac{x^2}{2}+\\frac{y^2}{3}=\\cos ^2 \\theta+\\sin ^2 \\theta$</p><p><br></p><p>এবং $\\mathrm{y}=\\sqrt{3} \\sin \\theta$</p><p>বা, $\\frac{y}{\\sqrt{3}}=\\sin \\theta$</p><p>$\\therefore \\frac{y^2}{3}=\\sin ^2 \\theta$</p><p>বা, $\\frac{x^2}{2}+\\frac{y^2}{3}=1$ যা উপবৃত্তের সমীকরণ।</p>"
+  },
+  {
+    "id": 7101,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x^2-y^2=1$ অধিবৃত্তের উৎকেন্দ্রিকতা কত? </p>",
+    "options": [
+      "$\\sqrt{2}$",
+      "$\\sqrt{3}$",
+      "2",
+      "3"
+    ],
+    "answer": "$\\sqrt{2}$",
+    "explanation": "<p>প্রদত্ত অধিবৃত্তের সমীকরণ, $x^2-y^2=1$ বা, $\\frac{x^2}{1}-\\frac{y^2}{1}=1$</p><p>$\\therefore$ উৎকেন্দ্রিকতা, $\\mathrm{e}=\\sqrt{\\frac{\\mathrm{a}^2+\\mathrm{b}^2}{\\mathrm{a}^2}}=\\sqrt{\\frac{1+1}{1}}=\\sqrt{\\frac{2}{1}}=\\sqrt{2}$.</p>"
+  },
+  {
+    "id": 7102,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\sin ^2\\left(\\cos ^{-1} \\frac{1}{\\sqrt{3}}\\right)$ এর মান- </p>",
+    "options": [
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$\\frac{2}{\\sqrt{3}}$",
+      "$\\frac{\\sqrt{2}}{3}$",
+      "$\\frac{2}{3}$"
+    ],
+    "answer": "$\\frac{2}{3}$",
+    "explanation": "<p>$\\sin ^2\\left(\\cos ^{-1} \\frac{1}{\\sqrt{3}}\\right) =1-\\cos ^2\\left(\\cos ^{-1} \\frac{1}{3}\\right) $</p><p>$ = 1-\\left(\\cos \\cdot \\cos ^{-1} \\frac{1}{\\sqrt{3}}\\right)^2=1-\\left(\\frac{1}{\\sqrt{3}}\\right)^2 $</p><p>$=1-\\frac{1}{3}=\\frac{2}{3}$</p>"
+  },
+  {
+    "id": 7103,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\cot \\left(\\tan ^{-1} \\frac{1}{x}\\right)=\\cos \\left(\\cot ^{-1} 2\\right)$ হলে $x$ এর মান কোনটি?</p>",
+    "options": [
+      "$-\\frac{1}{\\sqrt{3}}$",
+      "$\\frac{2}{\\sqrt{5}}$",
+      "$\\frac{2}{\\sqrt{3}}$",
+      "2"
+    ],
+    "answer": "$\\frac{2}{\\sqrt{5}}$",
+    "explanation": "<p>$ \\cot \\left(\\tan ^{-1} \\frac{1}{x}\\right)=\\cos \\left(\\cot ^{-1} 2\\right) $ </p><p>বা, $\\cot \\left(\\cot ^{-1} x\\right)=\\cos \\left(\\cos ^{-1} \\frac{2}{\\sqrt{5}}\\right) $</p><p>বা, $x=\\frac{2}{\\sqrt{5}}$</p><p><img src=\"data:image/png;base64,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\"></p>"
+  },
+  {
+    "id": 7104,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\cot ^{-1} x=-$</p><p><br/>i. $\\quad \\sin ^{-1} \\frac{1}{\\sqrt{1+x^2}}$</p><p><br/>ii. $\\quad \\cos ^{-1} \\frac{x}{\\sqrt{1+x^2}}$</p><p><br/>iii. $\\tan ^{-1} \\frac{1}{x}$</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>$\\cot ^{-1} x=$......</p><p>আমরা জানি, $\\cot ^{-1} x=\\tan ^{-1} \\frac{1}{x}$</p><p>i. $\\cot ^{-1} \\mathrm{x}=\\sin ^{-1} \\frac{1}{\\sqrt{1-\\mathrm{x}^2}}$</p><p>ii. $\\cot ^{-1} x=\\cos ^{-1} \\frac{x}{\\sqrt{1+x^2}}$</p><p>iii. $\\cot ^{-1} x=\\tan ^{-1} \\frac{1}{x}$</p><p><br></p><p>সুতরাং (i), (ii) ও (iii) সঠিক।</p><p><img src=\"data:image/png;base64,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\"></p>"
+  },
+  {
+    "id": 7105,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$2 \\cos \\theta=-1$ সমীকরণের সমাধান কোনটি? </p>",
+    "options": [
+      "$2 n \\pi \\pm \\frac{\\pi}{3}, n \\in \\mathbb{Z}$",
+      "$2 n \\pi \\pm \\frac{2 \\pi}{3}, n \\in \\mathbb{Z}$",
+      "$n \\pi \\pm \\frac{\\pi}{3}, n \\in \\mathbb{Z}$",
+      "$n \\pi+(-1)^n \\frac{2 \\pi}{3}, n \\in \\mathbb{Z}$"
+    ],
+    "answer": "$2 n \\pi \\pm \\frac{2 \\pi}{3}, n \\in \\mathbb{Z}$",
+    "explanation": "<p>$2 \\cos \\theta=-1$</p><p><br></p><p>বা, $\\cos \\theta=-\\frac{1}{2}$ বা, $\\cos \\theta=\\cos \\frac{2 \\pi}{3}$ বা, $\\theta=2 n \\pi \\pm \\frac{2 \\pi}{3}$; যেখানে, $n \\in \\mathbf{Z}$.</p>"
+  },
+  {
+    "id": 7106,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\tan 3 x \\cdot \\tan 2 x=1$ হলে $x$ এর মান কোনটি? </p>",
+    "options": [
+      "$(2 n-1) \\frac{\\pi}{10}, n \\in \\mathbb{Z}$",
+      "$(2 n+1) \\frac{\\pi}{12}, n \\in \\mathbb{Z}$",
+      "$(2 n+1) \\frac{\\pi}{10}, n \\in \\mathbb{Z}$",
+      "$(2 n+1) \\frac{\\pi}{2}, n \\in \\mathbb{Z}$"
+    ],
+    "answer": "$(2 n+1) \\frac{\\pi}{10}, n \\in \\mathbb{Z}$",
+    "explanation": "<p>$\\tan 3 x \\cdot \\tan 2 x=1$</p><p>বা, $\\frac{\\sin 3 x \\sin 2 x}{\\cos 3 x \\cos 2 x}=1$</p><p>বা, $\\cos 3 x \\cos 2 x-\\sin 3 x \\sin 2 x=0$</p><p>বা, $\\cos (3 x+2 x)=0$</p><p>বা, $\\cos 5 x=0$ বা, $5 x=(2 n+1) \\frac{\\pi}{2}$</p><p><br></p><p>$\\therefore x=(2 n+1) \\frac{\\pi}{10} ; n \\in \\mathbb{Z} .$</p>"
+  },
+  {
+    "id": 7107,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>3N এবং 6N বলদ্বয় পরস্পর লম্ব বরাবর ক্রিয়া করলে লব্ধির মান- </p>",
+    "options": [
+      "$\\sqrt{5} \\mathrm{~N}$",
+      "$2 \\sqrt{5} \\mathrm{~N}$",
+      "$3 \\sqrt{5} \\mathrm{~N}$",
+      "9 N"
+    ],
+    "answer": "$3 \\sqrt{5} \\mathrm{~N}$",
+    "explanation": "<p>লব্ধি, $\\mathrm{R} =\\sqrt{(3 \\mathrm{~N})^2+(6 \\mathrm{~N})^2}=\\sqrt{9 \\mathrm{~N}^2+36 \\mathrm{~N}^2}$</p><p>$ =\\sqrt{45 \\mathrm{~N}^2}=3 \\sqrt{5} \\mathrm{~N} .$</p>"
+  },
+  {
+    "id": 7108,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$2 \\sqrt{3} p$ লব্ধিবিশিষ্ট দুইটি সমান বলের মধ্যবর্তী কোণ 60° হলে সমান বল- </p>",
+    "options": [
+      "$p$",
+      "$2 p$",
+      "$2 \\sqrt{3} p$",
+      "$12 r$"
+    ],
+    "answer": "$2 p$",
+    "explanation": "<p>ধরি, সমান বলদ্বয়ের প্রত্যেকটি Q</p><p>এখানে, লব্ধি $\\mathrm{R}=2 \\sqrt{3} \\mathrm{P}$. বলদ্বয়ের অন্তর্ভুক্ত কোণ $\\theta=60^{\\circ}$</p><p>$\\therefore(2 \\sqrt{3} \\mathrm{P})^2=\\mathrm{Q}^2+\\mathrm{Q}^2+2 \\mathrm{Q} \\cdot \\mathrm{Q} \\cdot \\cos 60^{\\circ}$</p><p>বা, $12 P^2=2 Q^2+2 Q^2 \\frac{1}{2}$ বা, $12 P^2=3 Q^2$ বা; $Q^2=4 P^2 \\therefore Q=2 P$</p><p>$\\therefore$ সমান বল 2P.</p>"
+  },
+  {
+    "id": 7109,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>একটি বস্তু সমত্বরণে সরলরেখা বরাবর চলে 12-তম সেকেন্ডে 72 সে.মি. এবং 20-তম সেকেন্ডে 120 সে.মি. দূরত্ব অত্রিক্রম করে। বস্তুটির আদিবেগ নিচের কোনটি? </p>",
+    "options": [
+      "3 সে.মি./সে",
+      "6 সে.মি./সে.",
+      "12 সে.মি./সে.",
+      "4 সে.মি./সে."
+    ],
+    "answer": "3 সে.মি./সে",
+    "explanation": "<p>ধরি, আদিবেগ = u</p><p>$\\therefore S_{12}=\\bar{u}+\\frac{1}{2} a(2 t-1)$</p><p>বা, $72=u+\\frac{1}{2} a(2 \\times 12-1)=u+\\frac{23}{2} a$ ....... (i)</p><p><br></p><p>এবং $S_{20}=u+\\frac{1}{2} a(2 t-1)$</p><p>বা, $120=\\mathrm{u}+\\frac{1}{2} \\mathrm{a}(2 \\times 20-1)=\\mathrm{u}+\\frac{39}{2} \\mathrm{a}$ ....... (ii)</p><p><br></p><p>$(ii) - (i)$ থেকে, $120-72=\\left(\\frac{39}{2}-\\frac{23}{2}\\right) a$</p><p>বা, $48=8 \\mathrm{a}$</p><p>$\\therefore \\mathrm{a}=6 \\quad \\therefore$ (i) নং হতে, $72=\\mathrm{u}+\\frac{23}{2} \\times 6$</p><p>বা, $72=\\mathrm{u}+69$ বা, $\\mathrm{u}=72-69=3$</p><p>$\\therefore \\mathrm{u}=3$ সে.মি./সে.।</p>"
+  },
+  {
+    "id": 7110,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>16ft/sec বেগে ভূমি থেকে খাড়া উপরের দিকে নিক্ষিপ্ত কণার বিচরণকাল- </p>",
+    "options": [
+      "<p>1 sec</p>",
+      "2 scc",
+      "৪ scc",
+      "16 scc"
+    ],
+    "answer": "<p>1 sec</p>",
+    "explanation": "<p>এখানে, $\\mathrm{u}=16$ ফুট/সে. এবং $\\mathrm{y}=32$ ফুট/সে. ${ }^2$</p><p>$\\therefore$ বিচরণকাল, $\\mathrm{T}=\\frac{2 \\mathrm{u}}{\\mathrm{g}}=\\frac{2 \\times 16}{32}$ সে. $=1$ সে. ।</p>"
+  },
+  {
+    "id": 7111,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x+i y=-2+i^7$ হলে $y$ এর মান কত? </p>",
+    "options": [
+      "$-i$",
+      "<p>$-1$</p>",
+      "$i$",
+      "$1$"
+    ],
+    "answer": "<p>$-1$</p>",
+    "explanation": "<p>$x+i y=-2+i^7$</p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2+\\left(i^2\\right)^3 \\cdot i$ </p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2+(-1)^3 \\cdot i$ </p><p>বা, $\\mathrm{x}+i \\mathrm{y}=-2-i$ </p><p>উভয় পক্ষ হতে কাল্পনিক অংশ সমীকৃত করে পাই, $\\mathrm{y}=-1$.</p>"
+  },
+  {
+    "id": 7112,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$z=-3+2 i$ একটি জটিল সংখ্যা হলে $z \\bar{z}$ এর মান- </p><p><br/>i. বাস্তব সংখ্যা</p><p><br/>ii. ধনাত্মক সংখ্যা</p><p><br/>iii. জটিল সংখ্যা</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>$ \\mathrm{z}=-3+2 i \\quad \\therefore \\overline{\\mathrm{z}}=-3-2 i $</p><p>$ \\therefore \\mathrm{z} \\overline{\\mathrm{z}}=(-3+2 i)(-3-2 i) $</p><p>$ \\quad=(-3)^2-(2 i)^2=9-4(-1)=9+4=13$</p><p>যা ধনাত্মক ও বাস্তব সংখ্যা।</p><p>সুতরাং (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 7113,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\sqrt{2 i}$ এর মান নিচের কোনটি?</p><p><br></p>",
+    "options": [
+      "$\\pm \\sqrt{2} i$",
+      "$\\pm \\sqrt{2}(1-i)$",
+      "$\\pm(1+i)$",
+      "$\\pm \\sqrt{2}(1+i)$"
+    ],
+    "answer": "$\\pm(1+i)$",
+    "explanation": "<p>$\\sqrt{2 i}=\\sqrt{1^2+2 \\cdot 1 \\cdot i+i^2}=\\sqrt{(1+i)^2}= \\pm(1+i)$.</p>"
+  },
+  {
+    "id": 7114,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x=\\frac{1-i}{\\sqrt{2}}$ হলে $x^2$ এর মান-</p><p><br></p>",
+    "options": [
+      "$i$",
+      "$-i$",
+      "$2(1+i)$",
+      "$2(1-i)$"
+    ],
+    "answer": "$-i$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{x}=\\frac{1-i}{\\sqrt{2}} \\text { বা, } \\mathrm{x}^2=\\left(\\frac{1-i}{\\sqrt{2}}\\right)^2 \\\\ &amp; \\text { বা, } \\mathrm{x}^2=\\frac{1}{2}(1-i)^2=\\frac{1}{2}\\left(1-2 i+i^2\\right)=\\frac{1}{2} \\times(-2 i)=-i . \\\\ &amp; \\therefore \\mathrm{x}^2=-i .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7115,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$4 x^2+p x-\\pi=0$ সমীকরণের $p=0$ হলে মূলদ্বয়-</p><p><br/>i. বাস্তব ও মূলদ</p><p><br/>ii. অমূলদ</p><p><br/>iii. সমান কিন্তু বিপরীত চিহ্নবিশিষ্ট </p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "<p>প্রদত্ত সমীকরণ, $4 \\mathrm{x}^2+\\mathrm{px}-\\pi=0$</p><p>$\\mathrm{p}=0$ হলে, $4 \\mathrm{x}^2+0 \\cdot \\mathrm{x}-\\pi=0$</p><p>বা, $4 x^2-\\pi=0$</p><p>বা, $4 x^2=\\pi$ বা, $x^2=\\frac{1}{4} \\pi \\therefore x= \\pm \\frac{\\sqrt{\\pi}}{2}$</p><p>$\\therefore$ মূলদ্বয় অমূলদ, সমান কিন্তু বিপরীত চিহ্নবিশিষ্ট। সুতরাং, (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 7116,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$x^2-4 x+k^2=0$ একটি দ্বিঘাত সমীকরণ । </p><p>k = 0 হলে সমীকরণের নিশ্চায়ক- </p>",
+    "options": [
+      "$-16$",
+      "$-4$",
+      "$4$",
+      "$16$"
+    ],
+    "answer": "$16$",
+    "explanation": "<p>প্রদত্ত সমীকরণ, $x^2-4 x+k^2=0$</p><p>সমীকরণটির নিশ্চায়ক, $\\mathrm{D}=\\mathrm{b}^2-4 \\mathrm{ac}=(-4)^2-4 \\cdot 1 \\cdot \\mathrm{k}$</p><p>$=16-4 k$</p><p>$\\mathrm{k}=0$ হলে, নিশ্চায়ক, $\\mathrm{D}=16-4 \\cdot 0=16$.</p>"
+  },
+  {
+    "id": 7117,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$x^2-4 x+k^2=0$ একটি দ্বিঘাত সমীকরণ । </p><p>$k=2$ হলে মূলদ্ধয়ের বিয়োগফল- </p>",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "16"
+    ],
+    "answer": "0",
+    "explanation": "<p>$k=2$ হলে, প্রদত্ত সমীকরণটি হবে $x^2-4 x+4=0$</p><p>ধরি, সমীকরণটির মূলদ্বয় $\\alpha, \\beta \\therefore \\alpha+\\beta=-\\frac{-4}{1}=4$</p><p>এবং $\\alpha \\beta=\\frac{4}{1}=4$</p><p>$\\therefore \\alpha-\\beta=\\sqrt{(\\alpha-\\beta)^2}=\\sqrt{(\\alpha+\\beta)^2-4 \\alpha \\beta}=\\sqrt{4^2-4 \\cdot 4}=0 .$</p>"
+  },
+  {
+    "id": 7118,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$\\frac{2}{1-i}$ মূলবিশিষ্ট দ্বিঘাত সমীকরণ কোনটি? </p>",
+    "options": [
+      "$x^2-2 x+2=0$",
+      "$x^2-2 x-2=0$",
+      "$x^2+2 x-2=0$",
+      "$x^2+2 x+2=0$"
+    ],
+    "answer": "$x^2-2 x+2=0$",
+    "explanation": "<p>ধরি, $\\mathrm{x}=\\frac{2}{1-i}$</p><p>বা, $x-i x=2$ বা, $x-2=i x$</p><p>বা, $(x-2)^2=(i x)^2$ বা, $x^2-4 x+4=-x^2$</p><p>বা, $2 x^2-4 x+4=0 \\therefore x^2-2 x+2=0$</p>"
+  },
+  {
+    "id": 7119,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$z_1=1-2 i$ এবং $z_2=2+3 i$ হলে $\\left(z_1-\\bar{z}_2\\right)$ এর আর্গুমেন্ট কোনটি? </p>",
+    "options": [
+      "$-\\frac{3 \\pi}{7}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$",
+      "$\\pi$"
+    ],
+    "answer": "$\\frac{3 \\pi}{4}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{z}_1=1-2 i, \\mathrm{z}_2=2+3 i \\quad \\therefore \\bar{z}_2=2-3 i \\\\ &amp; \\therefore \\mathrm{z}_1-\\bar{z}_2=1-2 i-(2-3 i)=1-2 i-2+3 i=-1+i \\\\ &amp; \\therefore(-1+i) \\text { এর আর্গুমেন্ট }=\\pi-\\tan ^{-1}\\left(\\frac{1}{1}\\right)=\\pi-\\tan ^{-1} 1=\\pi-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7120,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$3 x^3+2 x^2-7=0$ সমীকরণের মূলত্রয় $\\alpha, \\beta, \\gamma$ হলে $\\Sigma \\alpha \\beta$ এর মান কোনটি? </p>",
+    "options": [
+      "$-7$",
+      "$-\\frac{7}{3}$",
+      "$-\\frac{2}{3}$",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": "<p>প্রদত্ত সমীকরণ, $3 x^3+2 x^2-7=0$ বা, $3 x^3+2 x^2+0 \\cdot x-7=0$ </p><p>সমীকরণটির মূলত্রয় $\\alpha, \\beta, \\gamma$ হলে, $\\Sigma \\alpha \\beta=\\alpha \\beta+\\beta \\gamma+\\gamma \\alpha=\\frac{c}{a}=\\frac{0}{3}=0$.</p>"
+  },
+  {
+    "id": 7121,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও&nbsp;</p><p>$x^2-4 x+4 y-8=0$ একটি কণিকের সমীকরণ।</p><p><br></p><p>Q. কণিকটির শীর্ষবিন্দুর স্থানাঙ্ক- </p>",
+    "options": [
+      "$(2,3)$",
+      "$(-2,3)$",
+      "$(2,-3)$",
+      "$(-2,-4)$"
+    ],
+    "answer": "$(2,3)$",
+    "explanation": "<p>এখানে, $x^2-4 x+4 y-8=0$</p><p>বা, $x^2-2 \\cdot x \\cdot 2+2^2+4 y-8=2^2$</p><p>বা, $(x-2)^2=-4 y+4+8=-4 y+12$</p><p>বা, $(x-2)^2=-4(y-3)$</p><p>বা, $X^2=-4 a Y$ যেখানে, $X=x-2, Y=y-3$</p><p><br></p><p>শীর্ষবিন্দুতে, $X=0$</p><p>বা, $ x-2=0 $</p><p>$ \\therefore x=2 $</p><p><br></p><p>এবং $ \\mathrm{Y}=0 $ </p><p>বা, $\\mathrm{y}-3=0$ </p><p>$ \\therefore \\mathrm{y}=3$</p><p>$\\therefore$ শীর্ষবিন্দুর স্থানাঙ্ক $(2,3)$.</p>"
+  },
+  {
+    "id": 7122,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$x^2-4 x+4 y-8=0$ একটি কণিকের সমীকরণ। </p><p><br></p><p>Q. কণিকটির উপকেন্দ্রিক লম্বের সমীকরণ- </p>",
+    "options": [
+      "$x-2=0$",
+      "$y-2=0$",
+      "$x+2=0$",
+      "$y+2=0$"
+    ],
+    "answer": "$y-2=0$",
+    "explanation": "<p>এখানে, $\\mathrm{Y}=\\mathrm{y}-3, \\mathrm{a}=1$</p><p>$\\therefore$ উপকেন্দ্রিক লম্বের সমীকরণ, $Y=-\\mathrm{a}$</p><p>বা, $y-3=-1$</p><p>বা, $y-3+1=0$</p><p>$\\therefore y-2=0$</p>"
+  },
+  {
+    "id": 7123,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2025",
+    "board": "Rajshahi",
+    "question": "<p>$x^2-4 x+1=0$ সমীকরণের মূলদ্বয় $\\alpha, \\beta$ হলে, $(\\alpha+\\beta)^2$ এর মান কোনটি?</p>",
+    "options": [
+      "$-16$",
+      "$-4$",
+      "4",
+      "16"
+    ],
+    "answer": "16",
+    "explanation": "<p>$x^2-4 x+1=0$ সমীকরণের মূলদ্বয় $\\alpha, \\beta$ হলে,</p><p><br></p><p>$\\alpha+\\beta=-\\frac{-4}{1}=4 \\quad \\therefore(\\alpha+\\beta)^2=4^2=16$</p>"
+  }
+]

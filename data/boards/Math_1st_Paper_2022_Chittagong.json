@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6299,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>$4x - 3y- 51= 0$ সরেখার উপর লম্ব রেখার ঢাল কত?</p>",
+    "options": [
+      "${4\\over 3}$",
+      "$-{4\\over 3}$",
+      "${3\\over 4}$",
+      "$-{3\\over 4}$"
+    ],
+    "answer": "$-{3\\over 4}$",
+    "explanation": "<p>$4 x-3 y-51=0$</p><p>বা, $3 y=4 x-51$</p><p>বা, $y=\\frac{4}{3} x-\\frac{51}{3}, \\therefore y=\\frac{4}{3} x-17$</p><p>উক্ত রেখার লম্ব $=-1+\\frac{4}{3}=-\\frac{3}{4}$.</p>"
+  },
+  {
+    "id": 6300,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>A(3, 2), B(4,6) এবং C(5, 7) কোনো ত্রিভুজের শীর্ষবিন্দু হলে —</p><p><br/>i. ভরকেন্দ্র $(4, {11\\over 3})$</p><p><br/>ii. BC এর মধ্যবিন্দু $({9\\over 2},{13\\over 2})$</p><p><br/>iii. AB এর সমীকরণ 8x - y - 26 = 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6301,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$x^2+y^2 - 4x – 10y+4 = 0$ বৃত্তটি স্পর্শ করে—",
+    "options": [
+      "x-অক্ষকে",
+      "y অক্ষকে",
+      "উভয় অক্ষকে",
+      "মূলবিন্দুকে"
+    ],
+    "answer": "x-অক্ষকে",
+    "explanation": "<p>প্রদত্ত বৃত্ত : $x^2+y^2-4 x-10 y+4=0$</p><p>বা, $x^2+y^2+2 \\cdot(-2) \\cdot x+2 \\cdot(-5) \\cdot y+4=0$</p><p>$\\therefore g=-2, f=-5$,</p><p>$c=4$</p><p>বা, $c=(-2)^2$</p><p>বা, $c=g^2$</p><p>যেহেতু $\\mathrm{c}=\\mathrm{g}^2$</p><p>সেহেতু বৃত্তি x-অক্ষকে স্পর্শ করে ।</p>"
+  },
+  {
+    "id": 6302,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>x+y=4 রেখাটি $x^2 + y^2 - 12x - 8y + 34 = 0$ বৃত্তকে স্পর্শ করে। স্পর্শ বিন্দুর স্থানাংক কোনটি?</p>",
+    "options": [
+      "(1, 3)",
+      "(3, 1)",
+      "(3,2)",
+      "(2,5)"
+    ],
+    "answer": "(3, 1)",
+    "explanation": ""
+  },
+  {
+    "id": 6303,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$x^2+y^2 = 20$ বৃত্তের (2,4) বিন্দুতে স্পর্শকের সমীকরণ কোনটি?",
+    "options": [
+      "x + 2y + 10=0",
+      "x + 2y = 10",
+      "2x+y-10 = 0",
+      "2x - y - 10 = 0"
+    ],
+    "answer": "x + 2y = 10",
+    "explanation": "<p>$ x^{x^2}+y^2=20$ বৃত্তের (2,4) বিন্দুতে স্পর্শকের সমীকরণ, $ \\quad x \\cdot 2+y \\cdot 4-20=0$ </p><p> বা, $x+2 y-10=0$</p><p>$ \\therefore x+2 y=10$</p>"
+  },
+  {
+    "id": 6304,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>A (- 1,0) বিন্দুটি $y= x^3 -3x^2-x+3$ বক্ররেখার উপর হলে-</p><p><br/>i. A বিন্দুতে ঢাল = 8</p><p><br/>ii. A বিন্দুতে স্পর্শকের সমীকরণ 8x – y +8 = 0</p><p><br/>iii. বিন্দুতে অভিলম্বের সমীকরণ x - 8y-1=0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) $\\frac{d y}{d x}=3 x^2-6 x-1$</p><p>$(-1,0)$ বিন্দুতে ঢাল $=3+6-1=8$</p><p>(ii) $(-1,0)$ বিন্দুতে স্পর্শকের সমীকরণ, $y-0=8(x+1)$</p><p>বা, $8 x-y+8=0$</p><p>(iii) $(-1,0)$ বিন্দুতে অবিলম্বের সমীকরণ,</p><p>$\\begin{aligned}&amp; y-0=-\\frac{1}{8}(x+1) \\\\&amp; \\text { বা, } 8 y=-x-1 \\\\&amp; \\therefore x+8 y+1=0 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6305,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\int {x\\over \\sqrt {1-x^2}}dx$ =কত?",
+    "options": [
+      "${x^2\\over 2}+C$",
+      "$-\\sqrt {1-x^2}+C$",
+      "$\\sqrt {1-x^2}+C$",
+      "$\\sqrt {1+x}+C$"
+    ],
+    "answer": "$-\\sqrt {1-x^2}+C$",
+    "explanation": "<p>ধরি, $1-x^2$</p><p>বা, $-2 \\mathrm{xdx}=\\mathrm{dz}$</p><p><br></p><p>$\\begin{aligned} &amp; \\int \\frac{x}{\\sqrt{1-x^2}} d x \\\\ &amp; =-\\frac{1}{2} \\int \\frac{d z}{\\sqrt{z}} \\\\ &amp; =-\\frac{1}{2} \\times 2 \\sqrt{z}+c=-\\sqrt{1-x^2}+c\\end{aligned}$</p>"
+  },
+  {
+    "id": 6306,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\int e^x({1\\over x}+ln x)dx$ =কত?",
+    "options": [
+      "$e^x ln x +C$",
+      "$e^x+ ln x +C$",
+      "$e^x. {1\\over x}+C$",
+      "$e^x +{1\\over x}+C$"
+    ],
+    "answer": "$e^x ln x +C$",
+    "explanation": ""
+  },
+  {
+    "id": 6307,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\int ^{ln 2}_0{e^x\\over 1+e^x}dx$ &nbsp;= কত?",
+    "options": [
+      "$ln {2\\over 3}$",
+      "2",
+      "$ln {3\\over 2}$",
+      "3"
+    ],
+    "answer": "$ln {3\\over 2}$",
+    "explanation": ""
+  },
+  {
+    "id": 6308,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\int^{\\pi \\over 2}_0 cos^2x dx$ = কত?",
+    "options": [
+      "1",
+      "-1",
+      "${\\pi \\over 2}$",
+      "${\\pi \\over 4}$"
+    ],
+    "answer": "${\\pi \\over 4}$",
+    "explanation": ""
+  },
+  {
+    "id": 6309,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "&nbsp;f(x) = 5 হলে $lim_{h\\to 0}{f(x+h)-f(x)\\over h}$ =?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "$\\infty $"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\lim _{h \\rightarrow 0} \\frac{f(x+h)-f(x)}{h}=\\frac{d}{d x} f(x)=\\frac{d}{d x}(5)=0$</p>"
+  },
+  {
+    "id": 6310,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>যদি $A= \\left[\\begin{matrix}2&amp;-3\\\\1&amp;6\\\\\\end{matrix}\\right]$ হয়, তবে -</p><p><br/>i. A একটি বিপ্রতিসম&nbsp;ম্যাট্রিক্স</p><p><br/>ii. $|A|=15$</p><p><br/>iii. A একটি অভেদঘাতী&nbsp;ম্যাট্রিক্স নয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6311,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\left[\\begin{matrix}4&amp;3\\\\3&amp;2\\\\\\end{matrix}\\right]$ ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}2&-3\\\\-3&4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&3\\\\-3&-4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&3\\\\3&-4\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-4&3\\\\3&2\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-2&3\\\\3&-4\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6312,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "যদি $\\left[\\begin{matrix}m-2&amp;6\\\\2&amp;m-3\\\\\\end{matrix}\\right]$ একটি ব্যতিক্রমী ম্যাট্রিক্স হয়, তবে m=?",
+    "options": [
+      "-2,-3",
+      "1,-6",
+      "6,-1",
+      "2,-3"
+    ],
+    "answer": "6,-1",
+    "explanation": ""
+  },
+  {
+    "id": 6313,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$\\left[\\begin{matrix}1&amp;2&amp;3\\\\2&amp;3&amp;4\\\\1&amp;5&amp;7\\\\\\end{matrix}\\right]$ নির্ণায়কের (3, 2) তম সহগুণক কোনটি?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "2",
+    "explanation": "<p>$(3,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}1 &amp; 3 \\\\ 2 &amp; 4\\end{array}\\right|=-(4-6)=2$.</p>"
+  },
+  {
+    "id": 6314,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :</p><p>$x + y + 4 = 0$ এবং $x - y - 2=0$ দুইটি সরলরেখার সমীকরণ।</p><p><br></p><p>Q. রেখা দুইটির ছেদ বিন্দুর স্থানাংক কোনটি?</p>",
+    "options": [
+      "(3,1)",
+      "(1,3)",
+      "(-3,-1)",
+      "(-1,-3)"
+    ],
+    "answer": "(-1,-3)",
+    "explanation": ""
+  },
+  {
+    "id": 6315,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :</p><p>$x + y + 4 = 0$ এবং $x - y - 2=0$ দুইটি সরলরেখার সমীকরণ।</p><p><br></p><p>Q. $x$ - অক্ষের সাথে রেখা দুইটি যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল কত?</p>",
+    "options": [
+      "9 বর্গ একক",
+      "6 বর্গ একক",
+      "4 বর্গ একক",
+      "3 বর্গ একক"
+    ],
+    "answer": "9 বর্গ একক",
+    "explanation": ""
+  },
+  {
+    "id": 6316,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "(-5,10) বিন্দুগামী সরলরেখা x- অক্ষের ধনাত্মক দিকের সাথে $tan^{-1}{3\\over 4}$ কোণ উৎপন্ন করে। সরলরেখার  সমীকরণ  - ",
+    "options": [
+      "$4x +3y + 10 = 0$",
+      "$3x - 4y + 55 = 0$",
+      "$3x + 4y + 55 = 0$",
+      "$4x + 3y + 30 = 0$"
+    ],
+    "answer": "$3x - 4y + 55 = 0$",
+    "explanation": ""
+  },
+  {
+    "id": 6317,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$cos 2A = {3\\over 5}$ হলে , sin A এর মান কত?",
+    "options": [
+      "$\\pm {1\\over \\sqrt {10}}$",
+      "$\\pm {1\\over \\sqrt 5}$",
+      "$\\pm \\sqrt {1\\over 5}$",
+      "$2\\over \\sqrt 5$"
+    ],
+    "answer": "$\\pm {1\\over \\sqrt 5}$",
+    "explanation": "<p>$\\cos 2 A=\\frac{3}{5}$</p><p>বা, $1-2 \\sin ^2 A=\\frac{3}{5}$</p><p>বা, $2 \\sin ^2 A=1-\\frac{3}{5}$</p><p>বা, $2 \\sin ^2 A=\\frac{2}{5}$</p><p>বা, $\\sin ^2 A=\\frac{1}{5}$ বা, $\\sin A= \\pm \\frac{1}{\\sqrt{5}}$.</p>"
+  },
+  {
+    "id": 6318,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $\\triangle ABC$ এর ক্ষেত্রফল কত?</p>",
+    "options": [
+      "$\\sqrt {15}$ বর্গ একক",
+      "$9\\sqrt {15}$ বর্গ একক",
+      "$3\\sqrt {15}$ বর্গ একক",
+      "$2\\sqrt {15}$ বর্গ একক"
+    ],
+    "answer": "$3\\sqrt {15}$ বর্গ একক",
+    "explanation": "<p>$\\begin{aligned} &amp; s=\\frac{4+6+8}{2}=9 \\text { একক } \\\\ &amp; \\begin{aligned} \\triangle \\mathrm{ABC} &amp; =\\sqrt{9(9-4)(9-6)(9-8)} \\\\ &amp; =\\sqrt{9.5 .3 .1} \\\\ &amp; =3 \\sqrt{15} \\text { বর্গ একক।  }\\end{aligned}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6319,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $\\angle C$ এর মান কত?</p>",
+    "options": [
+      "$cos^{-1}({39\\over 12})$",
+      "$cos^{-1}({12\\over 39})$",
+      "$cos^{-1}(-{1\\over 2})$",
+      "$cos^{-1}(-{1\\over 4})$"
+    ],
+    "answer": "$cos^{-1}(-{1\\over 4})$",
+    "explanation": ""
+  },
+  {
+    "id": 6320,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$lim_{x\\to 0}{tan bx\\over sin ax}$ এর মান কত?",
+    "options": [
+      "${a\\over b}$",
+      "$ab$",
+      "$b\\over a$",
+      "$ab^2$"
+    ],
+    "answer": "$b\\over a$",
+    "explanation": "<p>$\\lim _{x \\rightarrow 0} \\frac{\\frac{\\tan b x}{b x} \\times b}{\\frac{\\sin a x}{a x} \\times a}=\\frac{\\lim _{x \\rightarrow 0}\\left(\\frac{\\tan b x}{b x}\\right)}{a \\lim _{x \\rightarrow 0}\\left(\\frac{\\sin a x}{a x}\\right)}=\\frac{b}{a}$</p>"
+  },
+  {
+    "id": 6321,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$sec^{-1}({1+x^2\\over 1-x^2})$ এর অন্তরক সহগ কত?",
+    "options": [
+      "$1\\over (x\\sqrt {x^2-1})$",
+      "$-2\\over (\\sqrt {1-x^2})$",
+      "$1\\over (1+x^2)$",
+      "$2\\over (1+x^2)$"
+    ],
+    "answer": "$2\\over (1+x^2)$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\frac{d}{d x}\\left\\{\\sec ^{-1}\\left(\\frac{1+x^2}{1-x^2}\\right)\\right\\}= \\frac{d}{d x}\\left\\{\\cos ^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)\\right\\} \\\\ &amp;=\\frac{d}{d x}\\left(2 \\tan ^{-1} x\\right)=\\frac{2}{1+x^2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6322,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "$cos (ax +b)$ এর n তম অন্তরগ সহগ কত?",
+    "options": [
+      "$(-1)^na^x sin ({n\\pi \\over 2}+ax+b)$",
+      "$a^x sin ({n\\pi \\over 2}+ax+b)$",
+      "$cos ({n\\pi \\over 2}+ax+b)$",
+      "$a^n cos ({n\\pi \\over 2}+ax+b)$"
+    ],
+    "answer": "$a^n cos ({n\\pi \\over 2}+ax+b)$",
+    "explanation": ""
+  },
+  {
+    "id": 6323,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Chittagong",
+    "question": "<p><span style=\"background-color: transparent;\">$tan({\\pi \\over 8})$ এর মান কত?</span></p>",
+    "options": [
+      "1 - √2",
+      "-1+√2",
+      "1+√2",
+      "-1-√2"
+    ],
+    "answer": "-1+√2",
+    "explanation": ""
+  }
+]

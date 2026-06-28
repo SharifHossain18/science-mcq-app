@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6374,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$\\int{5\\over 1-5x}dx$ এর মান কোনটি? ",
+    "options": [
+      "$ln (1-5x) + c$",
+      "$-ln (1-5x+c)$",
+      "$ln(1-5x)\\over 5$",
+      "$-ln(1-5x)\\over 5$"
+    ],
+    "answer": "$-ln (1-5x+c)$",
+    "explanation": "<p>$\\int \\frac{5}{1-5 x} d x=-\\int \\frac{-5}{1-5 x} d x=-\\ln |1-5 x|+c$</p>"
+  },
+  {
+    "id": 6375,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "${d^n\\over dx^n}(sin 2x)$ = ?",
+    "options": [
+      "$2^nsin({n\\pi \\over 2}+2x)$",
+      "$sin({n\\pi \\over 2}+2x)$",
+      "$2^nsin({n\\pi \\over 2}-2x)$",
+      "$sin({n\\pi \\over 2}-2x)$"
+    ],
+    "answer": "$2^nsin({n\\pi \\over 2}+2x)$",
+    "explanation": ""
+  },
+  {
+    "id": 6376,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$f(x)=x^2+1$  হলে -</p><p><br/>i. (1,2) বিন্দুতে অভিলম্বের ঢাল- $-{1\\over 2}$</p><p><br/>ii. $\\int ^1_0{2x\\over f(x)}dx=ln 2$</p><p><br/>iii. ফাংশনটির চরম বিন্দুর স্থানাংক (0, 1 )</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "ii and iii",
+      "i and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6377,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$cos 15^0$ &nbsp;এর মান কত?",
+    "options": [
+      "$\\sqrt 3-1\\over \\sqrt 2$",
+      "$\\sqrt 3+1\\over 2\\sqrt 2$",
+      "$\\sqrt 3+1\\over \\sqrt 2$",
+      "$\\sqrt 3-1\\over 2\\sqrt 2$"
+    ],
+    "answer": "$\\sqrt 3+1\\over 2\\sqrt 2$",
+    "explanation": "<p>$\\begin{aligned} \\cos 15^{\\circ} &amp; =\\cos \\left(45^{\\circ}-30^{\\circ}\\right) \\\\ &amp; =\\cos 45^{\\circ} \\cdot \\cos 30^{\\circ}+\\sin 45^{\\circ} \\cdot \\sin 30^{\\circ} \\\\ &amp; =\\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}} \\cdot \\frac{1}{2}=\\frac{\\sqrt{3}+1}{2 \\sqrt{2}}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6378,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$lim_{x\\to 0}{tan^{-1}2x\\over 3x}$ এর মান কত?",
+    "options": [
+      "0",
+      "$1\\over 3$",
+      "$2\\over 3$",
+      "1"
+    ],
+    "answer": "$2\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 6379,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "একটি বৃত্তের কেন্দ্র (6, - 4) এবং বৃত্তটি x - অক্ষকে স্পর্শ করে, বৃত্তটির ব্যাসের মান কত?",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "8",
+    "explanation": "<p>$\\because$ বৃওটি x-অক্ষকে স্পর্শ করে</p><p>$\\therefore$ ব্যাসার্ধ, $r=|-4|=4$</p><p>$\\because$ ব্যাস সমীকরণ, $=2 \\pi=2 \\times 4=8$ বর্গ একক।</p>"
+  },
+  {
+    "id": 6380,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$(3, - 4)$ বিন্দুগামী এবং $y$ অক্ষের সমান্তরাল সরলরেখার সমীকরণ কোনটি?</p>",
+    "options": [
+      "x - 3 = 0",
+      "x + 3 = 0",
+      "y -4 = 0",
+      "y +4 = 0"
+    ],
+    "answer": "x - 3 = 0",
+    "explanation": "<p>$(3,-4)$ বিন্দুগামী এবং $y$ অক্ষের সমান্তরাল সরলরেখার সমীকরণ, </p><p>$x=3 \\therefore x-3=0$.</p>"
+  },
+  {
+    "id": 6381,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "${d\\over dx}(cosec^{-1}x)$ এর মান কোনটি?",
+    "options": [
+      "$1\\over x\\sqrt {x^2-1}$",
+      "$-1\\over x\\sqrt {x^2-1}$",
+      "$1\\over x\\sqrt {1-x^2}$",
+      "$-1\\over x\\sqrt {1-x^2}$"
+    ],
+    "answer": "$-1\\over x\\sqrt {x^2-1}$",
+    "explanation": "<p>$\\frac{d}{d x}\\left(\\operatorname{cosec}^{-1} x\\right)=\\frac{-1}{x \\sqrt{x^2-1}}$</p>"
+  },
+  {
+    "id": 6382,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$A=\\left[\\begin{matrix}3&amp;-2&amp;5\\\\4&amp;0&amp;6\\\\-1&amp;7&amp;10\\\\\\end{matrix}\\right]$&nbsp;নির্ণায়কের (2,3) তম ভুক্তির সহগুণক কত?",
+    "options": [
+      "114",
+      "19",
+      "-19",
+      "-114"
+    ],
+    "answer": "-19",
+    "explanation": "<p>$\\begin{aligned}(2,3) \\text { ভুক্তির সহগুণক } &amp; =-\\left|\\begin{array}{rr}3 &amp; -2 \\\\ -1 &amp; 7\\end{array}\\right| \\\\ &amp; =-(21-2)=-19 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6383,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "(-3√3, 3) বিন্দুর পোলার স্থানাংক কোনটি?",
+    "options": [
+      "$(6,{11\\pi \\over 6})$",
+      "$(6,{5\\pi \\over 6})$",
+      "$(6,{5\\pi \\over 3})$",
+      "$(6,{2\\pi \\over 3})$"
+    ],
+    "answer": "$(6,{5\\pi \\over 6})$",
+    "explanation": ""
+  },
+  {
+    "id": 6384,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$f(x)=tan^{-1}({2x\\over 1-x^2})$ এবং $g(x)=sin ^{-1}(sin\\sqrt x)$ হলে -</p><p><br/>i. $f'(x)={2\\over 1+x^2}$</p><p><br/>ii. $g'(x)= {1\\over \\sqrt x}$</p><p><br/>iii. $f(l)={\\pi \\over 2}$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6385,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$\\left[\\begin{matrix}-1&amp;0\\\\-{1\\over 2}&amp;1\\\\\\end{matrix}\\right]$  এর বিপরীত ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}-1&0\\\\-{1\\over 2}&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&0\\\\-{1\\over 2}&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-{1\\over 2}\\\\0&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-{1\\over 2}\\\\0&-1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-1&0\\\\-{1\\over 2}&1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6386,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$f(x)={x\\over 3}$ এবং $g(x)=x^2$ হলে - </p><p><br/>i. $\\int f(x)dx={x^2\\over 6}+c$</p><p><br/>ii. $\\int {-1\\over 1+g(x)}=-cot x +c$</p><p><br/>iii. $g'(0)=2$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "ii and iii",
+      "i and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6387,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "(-2,3) বিন্দুতে কেন্দ্র এবং y অক্ষকে স্পর্শ করে এরুপ বৃত্তের সমীকরণ কোনটি?",
+    "options": [
+      "$x^2+y^2+4x-6y+9=0$",
+      "$x^2+y^2-4x+6y+9=0$",
+      "$ x^2 + y^2 + 4x - 6y+4=0$",
+      "$ x^2 + y^2 - 4x+6+4=0$"
+    ],
+    "answer": "$x^2+y^2+4x-6y+9=0$",
+    "explanation": "<p>$(-2,3)$ কেন্দ্রবিশিষ্ট বৃত্ত $y$ অক্ষকে স্পর্শ করে।</p><p>$\\therefore$ বৃত্তের ব্যাসার্ধ, $r=|-2|=2 \\therefore$ বৃত্তের সমীকরণ, $(x+2)^2+(y-3)^2=2^2$</p><p>বা, $x^2+4 x+4+y^2-6 y+9=4$</p><p>$\\therefore x^2+y^2+4 x-6 y+9=0$.</p>"
+  },
+  {
+    "id": 6388,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যর আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$2x-ky + 1 = 0$ ও $3x + 2y - 60$ দুইটি সরল- রেখার সমীকরণ।</p><p><strong>Q.</strong> দ্বিতীয় রেখাটির লম্ব রেখার ঢাল কত?</p>",
+    "options": [
+      "$3\\over 2$",
+      "$2\\over 3$",
+      "$-{3\\over 2}$",
+      "$-{2\\over 3}$"
+    ],
+    "answer": "$2\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 6389,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যর আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$2x-ky + 1 = 0$ ও $3x + 2y - 60$ দুইটি সরল- রেখার সমীকরণ।</p><p><strong>Q. </strong>রেখাদ্বয় পরস্পর সমান্তরাল হলে K এর মান কত হবে?</p>",
+    "options": [
+      "${4\\over 3}$",
+      "${3\\over 4}$",
+      "$-{3\\over 4}$",
+      "$-{4\\over 3}$"
+    ],
+    "answer": "$-{4\\over 3}$",
+    "explanation": "<p>$\\because$ রেখাদ্বয় পরস্পর সমান্তরাল</p><p>$\\therefore \\frac{2}{3}=-\\frac{k}{2}$</p><p>বা, $k=-\\frac{4}{3}$</p>"
+  },
+  {
+    "id": 6390,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "যদি $\\left[\\begin{matrix}0&amp;5&amp;-3\\\\-5&amp;0&amp;y\\\\x&amp;4&amp;0\\\\\\end{matrix}\\right]$ বিপ্রতিসম ম্যাট্রিক্স হলে (x,y)=?",
+    "options": [
+      "(-3,-4)",
+      "(-3,4)",
+      "(3,-4)",
+      "(3,4)"
+    ],
+    "answer": "(3,-4)",
+    "explanation": "<p>$\\because$ ম্যাট্রিক্সটি বিপ্রতিসম।</p><p>$\\therefore a_{23}=-a_{32}$</p><p>বা, $y=-4$</p><p>এবং $a_{31}=-a_{13}$</p><p>$\\begin{aligned}&amp; \\therefore x=3 \\\\&amp; \\therefore(x, y)=(3,-4)\\end{aligned}$</p>"
+  },
+  {
+    "id": 6391,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$f(x) = 2x^2 - x + 3$ হলে-</p><p><br/>i. (1, 4 ) বিন্দুতে ফাংশনটির স্পর্শকের ঢাল 3</p><p><br/>ii. $x&lt; {1\\over 4}$ এর জন্য ফাংশনটি ক্রমহ্রাসমান</p><p><br/>iii. $x = {1\\over 4}$ এর জন্য ফাংশনটির সর্বোচ্চ মান</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "ii and iii",
+      "i and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6392,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{matrix}1&amp;4&amp;-3\\\\2&amp;-1&amp;x\\\\6&amp;2&amp;8\\\\\\end{matrix}\\right]$ এর (1, 1) তম ভুক্তির অনুরাশি 4 হলে x এর মান কত?</p>",
+    "options": [
+      "6",
+      "2",
+      "-2",
+      "-6"
+    ],
+    "answer": "-2",
+    "explanation": ""
+  },
+  {
+    "id": 6393,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$x^2 + y^2 = 13$ বৃত্তের (-2, 3) বিন্দুতে স্পর্শকের সমীকরণ কোনটি?",
+    "options": [
+      "2x+3y+13=0",
+      "2x+3y-13-0",
+      "2x-3y-13=0",
+      "2x-3y+13=0"
+    ],
+    "answer": "2x-3y+13=0",
+    "explanation": "<p>$x^2+y^2=13$ বৃত্তের (-2,3) বিন্দুতে স্পর্শকের সমীকরণ, </p><p>$ -2 x+3 y-13=0$</p><p>$ \\therefore 2 x-3 y+13=0 $</p>"
+  },
+  {
+    "id": 6394,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$3x^2 + 3y^2 - 6x+4y-1=0$ ও $x^2 + y^2 + 4x-6y-1=0$ দুইটি বৃত্তের সমীকরণ।</p><p><strong>Q.</strong> প্রথম বৃত্তের কেন্দ্র কোনটি?</p>",
+    "options": [
+      "$(1, {2\\over 3})$",
+      "$(-1, {2\\over 3})$",
+      "$(1, -{2\\over 3})$",
+      "$(-1, -{2\\over 3})$"
+    ],
+    "answer": "$(1, -{2\\over 3})$",
+    "explanation": ""
+  },
+  {
+    "id": 6395,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$3x^2 + 3y^2 - 6x+4y-1=0$ ও $x^2 + y^2 + 4x-6y-1=0$ দুইটি বৃত্তের সমীকরণ।</p><p><strong>Q.</strong>  দ্বিতীয় বৃত্ত দ্বারা y - অক্ষের খণ্ডিতাংশের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "$2\\sqrt 3$",
+      "$2\\sqrt 5$",
+      "$2\\sqrt 8$",
+      "$2\\sqrt {10}$"
+    ],
+    "answer": "$2\\sqrt {10}$",
+    "explanation": ""
+  },
+  {
+    "id": 6396,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$\\triangle ABC$ এর a = 5, b = 4 এবং c = 3 হলে -</p><p><br/>i. A কোণের মান 60°</p><p><br/>ii. ত্রিভুজের ক্ষেত্রফল 6 বর্গ একক</p><p><br/>iii. ত্রিভুজটি সমকোণী</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6397,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "<p>$\\cot \\theta=\\frac{3}{4}$ এবং $\\pi&lt;\\theta&lt;\\frac{3 \\pi}{2}$ হলে $\\sec \\theta$ এর মান কত?</p>",
+    "options": [
+      "$-\\frac{5}{3}$",
+      "$\\frac{-5}{4}$",
+      "$\\frac{5}{4}$",
+      "$\\frac{5}{3}$"
+    ],
+    "answer": "$-\\frac{5}{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6398,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Dinajpur",
+    "question": "$\\operatorname{cosec}\\left(-330^{\\circ}\\right)$ এর মান কত?",
+    "options": [
+      "-2",
+      "$\\frac{-2}{\\sqrt{3}}$",
+      "$\\frac{2}{\\sqrt{3}}$",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": "<p>$\\begin{aligned} \\operatorname{cosec}\\left(-330^{\\circ}\\right) &amp; =-\\operatorname{cosec} 330^{\\circ} \\\\ &amp; =-\\operatorname{cosec}\\left(4 \\times 90^{\\circ}-30^{\\circ}\\right) \\\\ &amp; =-\\left(-\\operatorname{cosec} 30^{\\circ}\\right)=\\operatorname{cosec} 30^{\\circ}=2\\end{aligned}$</p>"
+  }
+]

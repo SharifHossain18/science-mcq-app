@@ -1,0 +1,402 @@
+[
+  {
+    "id": 4299,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>নিচের কোন এসিড দ্রবণটির pH মান কম?</p>",
+    "options": [
+      "0.5M",
+      "0.05M",
+      "0.005M",
+      "0.0005M"
+    ],
+    "answer": "0.5M",
+    "explanation": "<p>যে দ্রবণের ঘনমাত্রা যত বেশী সে দ্রবণের pH মান তত কম। সে হিসাবে $0.5 \\mathrm{M}$ দ্রবণটির pH মান সবচেয়ে কম।</p>"
+  },
+  {
+    "id": 4300,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAScAAACbCAMAAAAX+63JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL9UExURf////39/ejo6Nvb29nZ2dbW1tfX19jY2Ofn5/X19Xd3dykpKUdHR1hYWFJSUlFRUVNTUzs7OzExMUtLS1RUVC4uLjAwMFdXV1VVVUFBQRwcHDY2NnNzc/Hx8ff394mJiUhISHt7e9ra2vr6+vDw8PT09J6ennZ2doWFhfz8/Pj4+Ly8vERERPPz85SUlIqKipOTk3R0dG1tbaurq4aGhurq6oGBgZCQkMvLy6GhoYyMjKKionl5eUlJSaenp6qqqoCAgI+Pj8nJyUpKSqCgoJubm/7+/pWVlcDAwNPT0/v7+7GxsaWlpb29vezs7MXFxa2trbm5ud3d3aamptDQ0K+vr7q6unFxcU1NTfLy8o2NjRMTE09PT1paWhQUFB8fH0xMTGFhYaOjo2RkZEBAQF5eXjo6OhISEmlpad/f3zc3N4iIiOvr68rKygAAAMTExAICAu/v7+7u7iYmJhUVFeDg4CIiIg0NDXV1dbe3t29vb1BQUDIyMqmpqRoaGkJCQjQ0NCwsLPn5+eHh4W5ubq6urnBwcHJycj8/Px4eHrW1tbi4uBAQEJ2dnRgYGMzMzE5OTubm5mVlZdHR0bKyspaWlllZWWpqajw8PGtra7S0tF1dXVxcXCsrK4eHh2ZmZhEREYuLi5mZmd7e3nx8fJeXl3h4eNLS0s/Pz8LCwoODgzk5OaSkpM3Nze3t7VZWVmNjY35+fp+fn+np6TU1NbOzsyQkJPb29iMjI1tbW0VFRWBgYCUlJdXV1eTk5BYWFj09PQgICJGRkTMzM39/fyoqKhsbGxkZGWxsbA4ODgMDAyAgIHp6esjIyMfHx8HBwV9fX9TU1Jqamj4+Pjg4OMPDw+Xl5ePj4+Li4i0tLb+/v7a2tqysrENDQ2hoaCcnJwYGBqioqLu7uyEhIS8vL8bGxs7OzpiYmBcXF7CwsI6OjgUFBX19fb6+vtzc3ISEhIKCgpKSkkZGRpycnGJiYgoKCgQEBGdnZygoKAsLCwkJCQwMDB0dHQ8PDwAAAAP0u2EAAAD/dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AGb8ilkAAAAJcEhZcwAAFxEAABcRAcom8z8AAAn/SURBVHhe7Z3dlbMsEIC9pgKKoAd6oA3O4YIL2qAEPLRCJ1TyDYpJNjHOGHjzua5PNGKSZc04f/xEh4uLi4vjYtXFFrbKKTjBRTs8uVpqgzvX53DGWmokhSonLZgCrWpdrIRqXl79YGEanl5e3b1kUb7c04sfLFHDU6kpMh5AUM3IWmErLNZCG36SUzuLnAYdByZk+3eUrJOcdC200UtOy+m3IKchunZl6KVP+lhyisvhxKLnXgQ/7+LImG2WMsJGyegHL3ORkNQ9rPeAcnrQJ9iA7U37GFYbLvg4QpAMMSQRZDKTfzup3d30aZYTbBNJIbxJ3jujVR6sGxWsI5ve6CWng+nTD/80kQUj2J7iIkU5BmG4YkK45EyVUyf/dNR4N/mnCRtotgcJV2JSjH7Ixqk8zplYL/905Hi3ALaHK0UcwfBSFNwOGTyTrRnrSe3uxT9NZDTuKZ/joFziywdBTpOATiunFX0CMQS+aXuWcTAN7u5/ZB28AnTzTwfVp7t/mkFsT5sQghgfvkycBXvS/GnVP01IsdXesyzAH/A5xj3SLX96Pp7P6G13P/3TBGZ7gM+1cOekeeZ7fSqvpf0H28s//Yp4t7Bte6v8jfbdMz7wV9PahGB3jBNkidid1Xw68ii2/RgmJ8XBuUD0Dny7nrfxrlJsb5chEeSUHeTwGJg+5TQq+JYubJ9HVJ+gPT8oA2z/vy3/NBPFLs9M8U/BEfRp+/yWSuzARjTSoHYH7a2spU7bh70R7xb22R7FP3GH6xMa70BOShiBfIwgJ176v/2cJb8F1yd4jyXs5N6h5AWcoE+Y3dngBj8GZrY1CpWTndrvliGKuR3vFqKYG28EviWnSZ+ctrXb6x24Pk3tLSWQo0bi3QLYHqFTqkDxTxQ5YXZnQ7JWcP/QxFyDqE95GZ57BxbvFsi2h/snG0bDUUEh+jRVYiHo8e3TgsnJCwONVNTsSP5pJiZS3CPYnQdq8T1IvLNqqkR5ROCYnGz2pYrbsPg7CPFugWZ7FP9E4Re1754B28PU815hK4drt9QCQU4k2/ub7btnPDoJ4aR2R413C8X2NgXRS04H06c9/mkmbndK9fJPnfoz53k97eyIdwvbttfLP/3ieLegtgZCT2p3++Ldwkan1GnltF+fgDzNUlyjm386qD4R492CDWKa7vTCSfMn1D+9bflAw3jtrW75077z9o7edvfOP8n3Ew3Wbe+keSaiT/FxZPwZiHsr45yd/NOvinfSbTd8mXuxvT/TvvNSqjIpFYhOlA2UZVnXrOzF9g5md/3y8aVQ5SS5SEGm0RnjhDNuNA6KScB2TeNsGSd85KT507N/KlMI/WigDRdGNniX5ehVMHGQ47o9lQ7hR8l0y5/Wzsp+/lW8UzwlkVwZHWWGZSdlGWvjJoK8pg+88tP2/kz7ThquogFdSmOUDnyULwPd8r2cyhj9Pe6dtt1SC3c5BXDjjg0yOa3HHFMeonOamY3O8XC3vdPK6VmfCj6xkh4lYyZ9GhQTxmzZUxSLuXXzTwfVpx/tO19HWfUo4wg2paTf1Cf4i8X2/lT7zurqcKLy5XszCHjI94eG8VRDt/zp8Xg+p7fdbfc/ecpPOeYJQAfLM/+tPn0G2J7v5p862d0/y8dbKIMxB/NPqrs+adsM1CICU3WvDbC7Wmoii1po5HbamGCMhdujLj+ZXlt7lGV6XwuX3n5qz4OltPUPqQ/G3VRN6wOkU/WJBdmDzHgtNcJDrqUmNHiCHoQlPNWfpzST+/iV7fhLp79/6nNc3eLd4fKCWugmp3cDVjs5aJ5J0SddfruJQdGnTMhFD9puoeRPXmy2hWco+ThHJjMXDianPfo0sBGXAUGfFEMmMxcOZne7/BOj6BOej3sl8B8kHK5fpbc+oXZnuRvN68DfE6jdKZGSS9hsbVxOMhXwefZLoZs+YXLyOct6sYMNcP8E9QDIEeFyUlM1mH4vX4ukT+HNmMsjqD7ZMg5Yrg6xza/sf5oJo3GYsuBy0qBLcjQJEfkv7n8ql7OrxfegdlcuiVcuGlh333G4vGAp9NFzSrwj8ZvzJwon7/ft177D7I7IpU80jhbvloHcfvrUxz/94nhH4rR2txQOpk+Xf6JxuHZwLRxNTgfTp8P6p6O2747mn04f785pd5d/otE/3vXyT2fXp3PmTzf/1M+P10Ijnc5bbzkNmk39xM1oPv3koxke5v7vNnxMGeppr4pVt2uneT1lBkvjKsTjfJjPHmVJ8zyj1qXM65mqnPY+X8Uy4qh16dYtHbItq7IxeCg0LrDCCfz52mdLFsuRTc8fr/oW7zrN6zlpPn73T738+JU/kThr/rT0ZxLyAqsJc5u+lT/ZyJhUgSED8LicFAtBo/Pjb/kTQZ+YMehw99f8k9Wj0Qq9njwup5iCMOgF83bk43DynEGF8L3+AmlYRoMPQU5q4Nu/3Sns8E/WDgG/POT3/LjlBv85CSonW26DgVxkFNjXviPoCm53kQt4YK6OEO/UiM3GIflxW64UjLHHPw3eD2iNuD5lXcBu+YXbnfWi3jNmA4KcdKkFM+A9/Zk2iZULOzzxvf6CLL1ANQGXk3IJ6sIsb4c+qWQMxY+jHyGBxTvFxzCk9YsFPIDLCb6VEOi8tR3+yZaLPdTye74W76T01sMh1d034HKS5aZra9ew+EH/fPys7ZZauOS0ya54R6GbfzqaPtWvdc0v2KS/PnWyu8ONB9fCZXebXPGOxj/Qp8s/UbjiHY1Ln2hc8Y5GNzkd0+4O55+OGu+6+adz2t3dP2k7DRG3LVZFVsbNy17DCo8ybr7+JnktFZTrq0yFl3ffrWuLVcu4+cDK/ImyAA3PTKRabFnhKaW1N3asZRMYd2VTSrS1bFae79dX0cxnXxag5VmHeVt3P9xmH9i0B5D+4GkL67wb07RZ/9TzFtZ59+U538LK5cc3ufInGofNxw+WP+3SJ4n9Ch74lt3ZnLOyHhsA6J4/EeQk0bvNAd/SJyWMkQPHbmTa2+4I+mT1wJG7ogJf639SDg5m5cbhP+muT7h/skN2+H/9mpyGaLR9uZz+M/+LfwqjQI0K90/E+QX4eUtuuWzse3A5+VgOBxP4Ld6R8gKJ3teY4J9o81UI8U4aXFlwOeXpcLAbhu7QJwWfKBdF3uZ7dgceCv/M/+CfsgkaF0K3PBOVgQrGdbA7GjviXZnwWYsbfCt/KnIKocO8Qxr9+zOv/nESV/uOxvf8E4nj6tPX/BOJ0/ung+nTjnhH44v5E4Xj6tM55XRY/3T1Z9I4fby7/BOJk+ZP/eNdJ/905U80Th/vetldn+PpbXcd410nOR1Un+brYTSjy/Uw2tFMCF3LLWjuelRT7nMziQkEVW/o0kys20Zip3pY3bby4HVBs5oXeOpR08sLny/Teit8ul5cXPw/DMN/EhYkwt4WQE8AAAAASUVORK5CYII=\"></p><p>Q. উদ্দীপকের মৌলগুলোর তড়িৎ ঋণাত্মকতার ক্রম কোনটি?</p>",
+    "options": [
+      "Z>X>Y>A",
+      "Z>Y>X>A",
+      "Y>A>X>Z",
+      "A>Y>X>Z"
+    ],
+    "answer": "Z>X>Y>A",
+    "explanation": ""
+  },
+  {
+    "id": 4301,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAScAAACbCAMAAAAX+63JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAL9UExURf////39/ejo6Nvb29nZ2dbW1tfX19jY2Ofn5/X19Xd3dykpKUdHR1hYWFJSUlFRUVNTUzs7OzExMUtLS1RUVC4uLjAwMFdXV1VVVUFBQRwcHDY2NnNzc/Hx8ff394mJiUhISHt7e9ra2vr6+vDw8PT09J6ennZ2doWFhfz8/Pj4+Ly8vERERPPz85SUlIqKipOTk3R0dG1tbaurq4aGhurq6oGBgZCQkMvLy6GhoYyMjKKionl5eUlJSaenp6qqqoCAgI+Pj8nJyUpKSqCgoJubm/7+/pWVlcDAwNPT0/v7+7GxsaWlpb29vezs7MXFxa2trbm5ud3d3aamptDQ0K+vr7q6unFxcU1NTfLy8o2NjRMTE09PT1paWhQUFB8fH0xMTGFhYaOjo2RkZEBAQF5eXjo6OhISEmlpad/f3zc3N4iIiOvr68rKygAAAMTExAICAu/v7+7u7iYmJhUVFeDg4CIiIg0NDXV1dbe3t29vb1BQUDIyMqmpqRoaGkJCQjQ0NCwsLPn5+eHh4W5ubq6urnBwcHJycj8/Px4eHrW1tbi4uBAQEJ2dnRgYGMzMzE5OTubm5mVlZdHR0bKyspaWlllZWWpqajw8PGtra7S0tF1dXVxcXCsrK4eHh2ZmZhEREYuLi5mZmd7e3nx8fJeXl3h4eNLS0s/Pz8LCwoODgzk5OaSkpM3Nze3t7VZWVmNjY35+fp+fn+np6TU1NbOzsyQkJPb29iMjI1tbW0VFRWBgYCUlJdXV1eTk5BYWFj09PQgICJGRkTMzM39/fyoqKhsbGxkZGWxsbA4ODgMDAyAgIHp6esjIyMfHx8HBwV9fX9TU1Jqamj4+Pjg4OMPDw+Xl5ePj4+Li4i0tLb+/v7a2tqysrENDQ2hoaCcnJwYGBqioqLu7uyEhIS8vL8bGxs7OzpiYmBcXF7CwsI6OjgUFBX19fb6+vtzc3ISEhIKCgpKSkkZGRpycnGJiYgoKCgQEBGdnZygoKAsLCwkJCQwMDB0dHQ8PDwAAAAP0u2EAAAD/dFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AGb8ilkAAAAJcEhZcwAAFxEAABcRAcom8z8AAAn/SURBVHhe7Z3dlbMsEIC9pgKKoAd6oA3O4YIL2qAEPLRCJ1TyDYpJNjHOGHjzua5PNGKSZc04f/xEh4uLi4vjYtXFFrbKKTjBRTs8uVpqgzvX53DGWmokhSonLZgCrWpdrIRqXl79YGEanl5e3b1kUb7c04sfLFHDU6kpMh5AUM3IWmErLNZCG36SUzuLnAYdByZk+3eUrJOcdC200UtOy+m3IKchunZl6KVP+lhyisvhxKLnXgQ/7+LImG2WMsJGyegHL3ORkNQ9rPeAcnrQJ9iA7U37GFYbLvg4QpAMMSQRZDKTfzup3d30aZYTbBNJIbxJ3jujVR6sGxWsI5ve6CWng+nTD/80kQUj2J7iIkU5BmG4YkK45EyVUyf/dNR4N/mnCRtotgcJV2JSjH7Ixqk8zplYL/905Hi3ALaHK0UcwfBSFNwOGTyTrRnrSe3uxT9NZDTuKZ/joFziywdBTpOATiunFX0CMQS+aXuWcTAN7u5/ZB28AnTzTwfVp7t/mkFsT5sQghgfvkycBXvS/GnVP01IsdXesyzAH/A5xj3SLX96Pp7P6G13P/3TBGZ7gM+1cOekeeZ7fSqvpf0H28s//Yp4t7Bte6v8jfbdMz7wV9PahGB3jBNkidid1Xw68ii2/RgmJ8XBuUD0Dny7nrfxrlJsb5chEeSUHeTwGJg+5TQq+JYubJ9HVJ+gPT8oA2z/vy3/NBPFLs9M8U/BEfRp+/yWSuzARjTSoHYH7a2spU7bh70R7xb22R7FP3GH6xMa70BOShiBfIwgJ176v/2cJb8F1yd4jyXs5N6h5AWcoE+Y3dngBj8GZrY1CpWTndrvliGKuR3vFqKYG28EviWnSZ+ctrXb6x24Pk3tLSWQo0bi3QLYHqFTqkDx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\"></p><p>Q. X, Y ও Z এর সহিত A এর যৌগগুলোর মধ্যে কক্ষ তাপমাত্রায় কোনগুলো কঠিন ও তরল?</p><p><br/>i. AX ও AY</p><p><br/>ii. AX ও AZ</p><p><br/>iii. AY ও AZ</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i",
+      "ii",
+      "iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii",
+    "explanation": ""
+  },
+  {
+    "id": 4302,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>10.5 ml $KMnO_4$ সঠিকভাবে মাপতে কোনটির ব্যবহার উৎকৃষ্ট হবে?</p>",
+    "options": [
+      "আয়তনমিতিক ফ্লাস্ক",
+      "ব্যুরেট",
+      "কনিক্যাল ফ্লাস্ক",
+      "পিপেট"
+    ],
+    "answer": "ব্যুরেট",
+    "explanation": ""
+  },
+  {
+    "id": 4303,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>জাল টাকা সনাক্তকরণে কোনটি ব্যবহৃত হয়?</p>",
+    "options": [
+      "এক্সরে",
+      "আলফা রশ্মি",
+      "অতি বেগুনী রশ্মি",
+      "অবলোহিত রশ্মি"
+    ],
+    "answer": "অতি বেগুনী রশ্মি",
+    "explanation": ""
+  },
+  {
+    "id": 4304,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$Fe^{2+}$ আয়নে d অরবিটালে ইলেকট্রন সংখ্যা কয়টি?</p>",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "<p>$\\mathrm{Fe}^{2+}(26)$ আয়নের ইলেকট্রন বিন্যাস $\\mathrm{Fe}^{2+}(26)=1 \\mathrm{~s}^2 2 \\mathrm{~s}^2 2 \\mathrm{p}^6$</p><p>$3 \\mathrm{~s}^2 3 \\mathrm{p}^6 3 \\mathrm{~d}^6 4 \\mathrm{~s}^0$</p><p>সুতরাং $\\mathrm{g}$ অরবিটালে ইলেকট্রন সংখ্যা 6.</p>"
+  },
+  {
+    "id": 4305,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>শরীরের কোনো স্থানে এসিড পড়লে কোন দ্রবণটি ব্যবহার করা হয়?</p>",
+    "options": [
+      "৫% $Na_2CO_3$",
+      "৫% $KOH$",
+      "৫% $NaOH$",
+      "৫% $NaHCO_3$"
+    ],
+    "answer": "৫% $NaHCO_3$",
+    "explanation": ""
+  },
+  {
+    "id": 4306,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>নিচের কোনটি অপোলার যৌগ?</p>",
+    "options": [
+      "$CCl_4$",
+      "$CHCl_3$",
+      "$CH_3OH$",
+      "$HF$"
+    ],
+    "answer": "$CCl_4$",
+    "explanation": ""
+  },
+  {
+    "id": 4307,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$NH_4^+$ এর সংকরণ কীরূপ?</p>",
+    "options": [
+      "$sp$",
+      "$sp^2$",
+      "$sp^3$",
+      "$sp^3d$"
+    ],
+    "answer": "$sp^3$",
+    "explanation": ""
+  },
+  {
+    "id": 4308,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>সহকারী কোয়ান্টাম সংখ্যার মান যখন 2 তখন m এর মান কতটি?</p>",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "<p>সহকারী কোয়ান্টাম সংখ্যা, $l=2$ হলে চুম্বকীয় কোয়ান্টাম সংখ্যা, $\\mathrm{m}=0, \\pm 1, \\pm 2$ অর্থাৎ $\\mathrm{m}$ এর মান 5 টি।</p>"
+  },
+  {
+    "id": 4309,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>সোডিয়াম আয়ন সনাক্তকরণে কোনটি ব্যবহৃত হয়?</p>",
+    "options": [
+      "$K_2CrO_4$",
+      "$K_2H_2Sb_2O_7$",
+      "$K_2Sb_2O_7$",
+      "$PbCrO_4$"
+    ],
+    "answer": "$K_2H_2Sb_2O_7$",
+    "explanation": ""
+  },
+  {
+    "id": 4310,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>কোনটি অধিক সমযোজী?</p>",
+    "options": [
+      "LiCl",
+      "NaCl",
+      "KCl",
+      "CsCl"
+    ],
+    "answer": "LiCl",
+    "explanation": "<p>ফাজানের নীতি অনুসারে ক্যাটায়নের আকার যত ছোট হয় যৌগটির সমযোজী বৈশিষ্ট্য তত অধিক হয়। $\\mathrm{LiCl}, \\mathrm{NaCl}, \\mathrm{KCl}$ ও $\\mathrm{CsCl}$ এর মধ্যে $\\mathrm{LiCl}$ এর ক্যাটায়ন $\\mathrm{Li}^{+}$এর আকার ক্ষুদ্র হওয়ায় $\\mathrm{LiCl}$ অধিক সমযোজী।</p>"
+  },
+  {
+    "id": 4311,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>ক্রোমাটোগ্রাফির দশা কয়টি?</p>",
+    "options": [
+      "১",
+      "২",
+      "৩",
+      "৪"
+    ],
+    "answer": "২",
+    "explanation": ""
+  },
+  {
+    "id": 4312,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>এক মোল এসিটিলিনকে পোড়াতে কত মোল অক্সিজেন প্রয়োজন?</p>",
+    "options": [
+      "$7\\over2$",
+      "$5\\over2$",
+      "1",
+      "3"
+    ],
+    "answer": "$5\\over2$",
+    "explanation": ""
+  },
+  {
+    "id": 4313,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>প্রিজারভেটিভ হিসেবে ব্যবহৃত হয়-</p><p><br/>i. $CH_3COOH$</p><p><br/>ii. BHA and BHT</p><p><br/>iii. $CH_3OH$</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 4314,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p>V লিটার আয়তনের একটি বদ্ধপাত্রে ১ মোল $N_2O_4$ কে উত্তপ্ত করা হলে সাম্যাবস্থায় $\\alpha$ মোল বিয়োজিত হয়। গ্যাস মিশ্রণের মোট চাপ P ।</p><p>$N_2O_4(g) ⇌ 2NO_2(g)$</p><p>Q. সাম্যাবস্থায় $NO_2$ এর আংশিক চাপ-</p>",
+    "options": [
+      "${2\\alpha p}\\over {1-\\alpha}$",
+      "${2\\alpha p}\\over {1+\\alpha}$",
+      "${\\alpha p}\\over {1+\\alpha}$",
+      "${\\alpha p}\\over {1-\\alpha}$"
+    ],
+    "answer": "${2\\alpha p}\\over {1+\\alpha}$",
+    "explanation": ""
+  },
+  {
+    "id": 4315,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাওঃ</p><p>V লিটার আয়তনের একটি বদ্ধপাত্রে ১ মোল $N_2O_4$ কে উত্তপ্ত করা হলে সাম্যাবস্থায় $\\alpha$ মোল বিয়োজিত হয়। গ্যাস মিশ্রণের মোট চাপ P ।</p><p>$N_2O_4(g) ⇌ 2NO_2(g)$</p><p>Q. উদ্দীপকের বিক্রিয়ার জন্য কোন সম্পর্কটি সঠিক?</p><p><br/>i. $K_c={{4\\alpha^2}\\over{(1-\\alpha)V}}$</p><p><br/>ii. $K_p={{4\\alpha^2p}\\over{1-\\alpha^2}}$</p><p><br/>iii. $K_p={{(1-\\alpha)p}\\over{\\alpha}}$</p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 4316,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?</p>",
+    "options": [
+      "$H_2SO_4$",
+      "$HCl$",
+      "$K_2Cr_2O_7$",
+      "$KMnO_4$"
+    ],
+    "answer": "$K_2Cr_2O_7$",
+    "explanation": "<p>সাধারণভাবে প্রাইমারী ও সেকেন্ডারী স্ট্যান্ডার্ড পদার্থ চেনার উপায় হলো যে সব যৌগে $\\mathrm{C}$ বা $\\mathrm{Cr}$ থাকে তারা প্রাইমারী স্ট্যান্ডার্ড পদার্থ। এজন্য $\\mathrm{k}_2 \\mathrm{Cr}_2 \\mathrm{O}_7$ প্রাইমারী স্ট্যান্ডার্ড পদার্থ।</p>"
+  },
+  {
+    "id": 4317,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>ট্যালকম পাউডারের প্রধান উপাদান কোনটি?</p>",
+    "options": [
+      "ট্যালক",
+      "$ZnO$",
+      "$CaCO_3$",
+      "সুগন্ধি দ্রব্য"
+    ],
+    "answer": "ট্যালক",
+    "explanation": ""
+  },
+  {
+    "id": 4318,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>দুধে কোন ডাইস্যাকারাইড থাকে?</p>",
+    "options": [
+      "সুক্রোজ",
+      "সেলুলোজ",
+      "মল্টোজ",
+      "ল্যাকটোজ"
+    ],
+    "answer": "ল্যাকটোজ",
+    "explanation": ""
+  },
+  {
+    "id": 4319,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>শক্তি বিকিরণ করে ইলেকট্রন যখন ২য় শক্তিস্তরে ফিরে আসে তখন তাকে বলা হয়-</p>",
+    "options": [
+      "লাইমেন",
+      "প্যাশ্চেন",
+      "বামার",
+      "ফুন্ড"
+    ],
+    "answer": "বামার",
+    "explanation": "<p>শক্তি বিকিরণ করে</p><p>১ম শক্তিস্তরে ফিরে আসলে = লাইমেন সিরিজ।</p><p>২য় শক্তিস্তরে ফিরে আসনে = বামার সিরিজ।</p><p>৩য় শক্তিস্তরে ফিরে আসলে = প্যাশ্চেন সিরিজ।</p><p>৪র্থ শক্তিস্তরে ফিরে আসলে = ব্যাকেট সিরিজ।</p><p>৫ম শক্তিস্তরে ফিরে আসলে = ফুন্ড সিরিজ।</p>"
+  },
+  {
+    "id": 4320,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>কোনটি আউফবাউ নীতি মেনে চলে?</p>",
+    "options": [
+      "5s>4p>4f",
+      "3s>3p>3d",
+      "5s>4d>5p",
+      "3s>3p>5s"
+    ],
+    "answer": "5s>4d>5p",
+    "explanation": ""
+  },
+  {
+    "id": 4321,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$H_2O$ অণুর আকৃতি V হওয়ার কারণ-</p><p><br/>i. দুইটি O-H বন্ধন থাকে </p><p><br/>ii. অক্সিজেনের দুইটি মুক্তজোড় ইলেকট্রন থাকে </p><p><br/>iii. তিনটি বন্ধন জোড় ইলেকট্রন থাকে</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i",
+      "ii",
+      "i ও ii",
+      "ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 4322,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>ব্যুরেট রিন্স করতে ক্রোমিক এসিড ব্যবহার করা হয় কেন?</p>",
+    "options": [
+      "এর শক্তিশালী জারণ মান বিদ্যমান",
+      "এটি ক্ষয়কারক",
+      "এর শক্তিশালী বিজারণর ধর্ম বিদ্যমান",
+      "এর নিরুদন ধর্ম বিদ্যমান"
+    ],
+    "answer": "এর শক্তিশালী জারণ মান বিদ্যমান",
+    "explanation": ""
+  },
+  {
+    "id": 4323,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>গ্লাস ক্লিনারের মূল উপাদান কোনটি?</p>",
+    "options": [
+      "ইথাইল অ্যালকোহল",
+      "অ্যামোনিয়া দ্রবণ",
+      "আইসোবিউটাইল অ্যালকোহল",
+      "আইসোপ্রোপাইল অ্যালকোহল"
+    ],
+    "answer": "অ্যামোনিয়া দ্রবণ",
+    "explanation": "<p>প্লাস ক্লিনারের মূল উপাদান অ্যামোনিয়া দ্রবণ $\\left(\\mathrm{NH}_4 \\mathrm{OH}\\right)$ এবং টয়লেট ক্লিনারের মূল উপাদ়ান কস্টিক সোডা (NaOH)।</p>"
+  }
+]

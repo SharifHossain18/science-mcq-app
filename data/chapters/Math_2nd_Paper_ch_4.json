@@ -2654,21 +2654,5 @@
     ],
     "answer": "i ও ii",
     "explanation": "<p>(i) প্রদত্ত জটিল সংখ্যা $=\\sqrt{3}+\\mathrm{i}$</p><p><br></p><p>জটিল সংখ্যাটির মডুলাস $=\\sqrt{(\\sqrt{3})^2+1^2}=\\sqrt{3+1}=\\sqrt{4}=2$</p><p>(ii) $(\\sqrt{3}, 1)$ বিন্দুটি প্রথম চতুর্ভাগে অবস্থিত।</p><p><br></p><p>$\\therefore$ আর্গুমেন্ট $=\\tan ^{-1}\\left|\\frac{y}{x}\\right|=\\tan ^{-1}\\left|\\frac{1}{\\sqrt{3}}\\right|=\\tan ^{-1} \\frac{1}{\\sqrt{3}}=\\frac{\\pi}{6}$</p><p><br></p><p>(iii) অনুবন্ধী জটিল সংখ্যা $=\\sqrt{3}+\\mathrm{i}=\\sqrt{3}-\\mathrm{i}$</p><p><br></p><p>সুতরাং i ও ii সঠিক ।</p>"
-  },
-  {
-    "id": 7124,
-    "subject": "Math 2nd Paper",
-    "chapter": "Chapter 3: জটিল সংখ্যা",
-    "year": "2025",
-    "board": "Comilla",
-    "question": "<p>$\\sqrt[4]{169}$ এর মান কোনটি?</p>",
-    "options": [
-      "$\\pm \\frac{\\sqrt{13}}{2}(1 \\pm i)$",
-      "$\\pm \\sqrt{\\frac{13}{2}}(1 \\pm i)$",
-      "$\\pm \\frac{13}{\\sqrt{2}}(1 \\pm i)$",
-      "$\\pm \\frac{13}{2}(1 \\pm i)$"
-    ],
-    "answer": "কোনটিই নয়",
-    "explanation": "<p>প্রশ্নটি ত্রুটিপূর্ণ। $\\sqrt[4]{169}$ এর পরিবর্তে $\\sqrt[4]{-169}$ ধরে সমাধান নিম্নরূপ :</p><p>$\\sqrt[4]{-169}=\\sqrt[4]{( \\pm 13 i)^2}=\\sqrt{ \\pm 13 i}=\\frac{\\sqrt{13}}{\\sqrt{2}} \\sqrt{ \\pm 2 i}$</p><p>$=\\frac{\\sqrt{13}}{2} \\sqrt{1 \\pm 2 i-1}=\\sqrt{\\frac{13}{2}} \\cdot \\sqrt{1^2 \\pm 2 \\cdot 1 \\cdot i+i^2}$</p><p>$=\\sqrt{\\frac{13}{2}} \\cdot \\sqrt{\\left\\{ \\pm(1 \\pm i)^2\\right.}= \\pm \\sqrt{\\frac{13}{2}}(1 \\pm i)$.</p>"
   }
 ]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8223,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "[1,3) ব্যবধির অসমতা রূপ নিচের কোনটি?",
+    "options": [
+      "$ 1 < x < 3 $",
+      "$1\\leq x<3$",
+      "$ 1 < x \\leq 3 $",
+      "$1\\leq x\\leq 3$"
+    ],
+    "answer": "$1\\leq x<3$",
+    "explanation": ""
+  },
+  {
+    "id": 8224,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$A=3,b=-7$ এবং $c=-9$ হলে,$\\vert \\vert a-b\\vert –c\\vert$ এর মান কোনটি?</p>",
+    "options": [
+      "1",
+      "5",
+      "13",
+      "19"
+    ],
+    "answer": "19",
+    "explanation": ""
+  },
+  {
+    "id": 8225,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "a ও b ধনাত্মক বাস্তবসংখ্যা হলে, নিচের কোনটি সঠিক? ",
+    "options": [
+      "$\\vert a-b\\vert>\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a+b\\vert<\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a+b\\vert=\\vert a\\vert+\\vert b\\vert$",
+      "$\\vert a-b\\vert=\\vert a\\vert+\\vert b\\vert$"
+    ],
+    "answer": "$\\vert a+b\\vert=\\vert a\\vert+\\vert b\\vert$",
+    "explanation": ""
+  },
+  {
+    "id": 8226,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$z=2x-y$ ,শর্ত $x+y\\leq 6,x,y\\geq 0$</p><p><br></p><p>Q. উল্লিখিত শর্তাধীনে সমাধান অঞ্চলটি-</p>",
+    "options": [
+      "আয়তাকার",
+      "বর্গাকার",
+      "ত্রিভূজাকার",
+      "ট্রাপিজিয়াম আকার"
+    ],
+    "answer": "ত্রিভূজাকার",
+    "explanation": ""
+  },
+  {
+    "id": 8227,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$z=2x-y$ ,শর্ত $x+y\\leq 6,x,y\\geq 0$</p><p><br></p><p>Q. z এর সর্বোচ্চ মান কত?</p>",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "12",
+    "explanation": ""
+  },
+  {
+    "id": 8228,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>এককের জটিল ঘনমূল দুইটি a ও b হলে -</p><p><br/>i. 1+a+b=0</p><p><br/>ii. ab=1</p><p><br/>iii. $b=a^2$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8229,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$z={1\\over 1+i}$ এর আর্গুমেন্ট কোনটি?",
+    "options": [
+      "$\\frac{-3 \\pi}{4}$",
+      "$\\frac{-\\pi}{4}$",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{3 \\pi}{4}$"
+    ],
+    "answer": "$\\frac{-\\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8230,
+    "subject": "Math 2nd Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>কাল্পনিক একক i এবং এককের জটিল ঘনমূল $\\omega$ হলে-</p><p><br/>i. $\\omega ^3=-1$</p><p><br/>ii. $i^2=-1$</p><p><br/>iii. $\\omega+\\omega ^2=-1$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8231,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "কোনো পরিবারের তিন জন বালকের বয়স 3,4,5 বছর হলে, বালকদের বয়সের পরিমিত ব্যবধান-",
+    "options": [
+      "$\\sqrt {2\\over 3}$",
+      "${2\\over 3}$",
+      "$\\sqrt {3\\over 2}$",
+      "${3\\over 2}$"
+    ],
+    "answer": "$\\sqrt {2\\over 3}$",
+    "explanation": "<p>$\\bar{x}=\\frac{3+4+5}{3}=\\frac{12}{3}=4 \\text {. }$</p><p><br></p><p>পরিমিত ব্যবধান, $\\sigma=\\sqrt{\\frac{\\Sigma \\cdot\\left(x_i-\\bar{x}\\right)^2}{n}}$ $=\\sqrt{\\frac{(3-4)^2+(4-4)^2+(5-4)^2}{3}}$ $=\\sqrt{\\frac{1+0+1}{3}}=\\sqrt{\\frac{2}{3}}$</p>"
+  },
+  {
+    "id": 8232,
+    "subject": "Math 2nd Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "নিচের কোন সমীকরণের একটি মূল 2+i?",
+    "options": [
+      "$x^2-4x+3=0$",
+      "$x^2+4x+3=0$",
+      "$x^2-4x+5=0$",
+      "$x^2+4x+5=0$"
+    ],
+    "answer": "$x^2-4x+5=0$",
+    "explanation": ""
+  },
+  {
+    "id": 8233,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$x^2-3x-p=0$একটি দ্বিঘাত সমীকরণ।</p><p><br></p><p>Q. সমীকরণের একটি মূল ‘-2’ হলে, pএর মান কত?</p>",
+    "options": [
+      "-10",
+      "-2",
+      "2",
+      "10"
+    ],
+    "answer": "10",
+    "explanation": "<p>$\\alpha=-2\\\\x^2-3x-p=0\\\\\\Rightarrow\\left(-2\\right)^2+3.2-p=0\\\\\\Rightarrow10-p=0\\\\p=10$</p>"
+  },
+  {
+    "id": 8234,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$x^2-3x-p=0$একটি দ্বিঘাত সমীকরণ।</p><p><br></p><p>Q. মূলদ্বয় বাস্তব ও সমান হলে, p এর মান কত?</p>",
+    "options": [
+      "$9\\over 4$",
+      "$-9\\over 4$",
+      "$3\\over 4$",
+      "$-3\\over 4$"
+    ],
+    "answer": "$-9\\over 4$",
+    "explanation": ""
+  },
+  {
+    "id": 8235,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$(x^2+2+{1\\over x^2})^8$ এর বিস্তৃতিতে সধ্যপদটি হলো-",
+    "options": [
+      "চতুর্থ",
+      "পঞ্চম",
+      "অষ্টম",
+      "নবম"
+    ],
+    "answer": "নবম",
+    "explanation": "<p>$ \\left(x^2+2+\\frac{1}{x^2}\\right)^8 $</p><p>$ =\\left\\{\\left(x+\\frac{1}{x}\\right)^2\\right\\}^8=\\left(x+\\frac{1}{x}\\right)^{16}$</p><p><br></p><p>রাশিটির ঘাত, $n=16$ যা জোড় সংখ্যা</p><p>$\\therefore$ মধ্যপদটি হলো $=\\left(\\frac{\\mathrm{n}}{2}+1\\right)$ তম পদ</p><p>$=\\left(\\frac{16}{2}+1\\right)$ তম পদ $=(8+1)$ তম পদ =  9 তম পদ</p>"
+  },
+  {
+    "id": 8236,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$(a+x)^n$এর বিস্তৃতির r- তম পদ হলো-</p>",
+    "options": [
+      "$^nC_{r-1}a^{n-r+1}.x^{r-1}$",
+      "$^nC_{r}a^{n-r}.x^{r}$",
+      "$^nC_{r-1}a^{r-1}.x^{n-r+1}$",
+      "$^nC_{r}a^{r}.x^{n-r}$"
+    ],
+    "answer": "$^nC_{r}a^{n-r}.x^{r}$",
+    "explanation": ""
+  },
+  {
+    "id": 8237,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$(1-x)^{11}$ এর বিস্তৃতিতে-</p><p><br/>i. মোট পদ সংখ্যা 12</p><p><br/>ii. ১ম পদ এর মান 1</p><p><br/>iii. শেষ পদের মান $-x^{11}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8238,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$3x^2=12-4y^2$ সমীকরণটি কী নির্দেশ করে?",
+    "options": [
+      "বৃত্তের সমীকরণ",
+      "উপবৃত্তের সমীকরণ",
+      "পরাবৃত্তের সমীকরণ",
+      "অধিবৃত্তের সমীকরণ"
+    ],
+    "answer": "উপবৃত্তের সমীকরণ",
+    "explanation": "<p>প্রদত্ত সমীকরণ, $3 x^2=12-4 y^2$</p><p>বা, $3 x^2+4 y^2=12$</p><p>বা, $\\frac{x^2}{4}+\\frac{y^2}{3}=1$</p><p>বা, $\\frac{x^2}{2^2}+\\frac{y^2}{(\\sqrt{3})^2}=1$;</p><p>যা একটি উপবৃত্তের সমীকরণ নির্দেশ করে।</p>"
+  },
+  {
+    "id": 8239,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$x^2=4(1-y)$একটি কণিকের সমীকরণ।</p><p><br></p><p>Q. কণিকটির উৎকেন্দ্রিকতা-</p>",
+    "options": [
+      "0",
+      "0 < e < 1",
+      "e=1",
+      "e>1"
+    ],
+    "answer": "e=1",
+    "explanation": ""
+  },
+  {
+    "id": 8240,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$x^2=4(1-y)$একটি কণিকের সমীকরণ।</p><p><br></p><p>Q. কণিকটির উপকেন্দ্রের স্থানাঙ্ক-</p>",
+    "options": [
+      "(0,0)",
+      "(0,-1)",
+      "(0,1)",
+      "(0,2)"
+    ],
+    "answer": "(0,0)",
+    "explanation": "<p>প্রদত্ত কণিক, $x^2=4(1-y)$</p><p>বা, $x^2=4 \\cdot 1 \\cdot(1-y)$</p><p>বা, $x^2=4 a y ;$ যেখানে, $x=x, y=1-y$ এবং $a=1$</p><p>উপকেন্দ্রে $\\mathrm{X}=0 \\quad$ এবং $\\mathrm{Y}=\\mathrm{a}$.</p><p>বা, $x=0$ বা, $1-y=1$ বা, $y=1-1$ বা, $y=0$</p><p>$\\therefore$ উপকেন্দ্রের স্থানাঙ্ক $(0,0)$</p>"
+  },
+  {
+    "id": 8241,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$2(sec^{-1}x+cosec^{-1}x)$এর মান কত?",
+    "options": [
+      "0",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "2$\\pi$"
+    ],
+    "answer": "$\\pi$",
+    "explanation": ""
+  },
+  {
+    "id": 8242,
+    "subject": "Math 2nd Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "$f(x)=cosec(cot^{-1}x)$ একটি ত্রিকোণমিতিক ফাংশন হলে, f(2) এর মান কোনটি?",
+    "options": [
+      "$\\sqrt 5$",
+      "$1\\over \\sqrt 5$",
+      "2",
+      "$1\\over 2$"
+    ],
+    "answer": "$\\sqrt 5$",
+    "explanation": "<p>এখানে,</p><p>$f(x)=\\operatorname{cosec}\\left(\\cot ^{-1} x\\right)$</p><p>$\\begin{aligned} \\therefore f(2)=\\operatorname{cosec}\\left(\\cot ^{-1} 2\\right)= &amp; \\operatorname{cosec}\\left(\\operatorname{cosec}^{-1} \\frac{\\sqrt{2^2+1^2}}{1}\\right) \\\\ &amp; =\\operatorname{cosec}\\left(\\operatorname{cosec}^{-1} \\sqrt{5}\\right)=\\sqrt{5} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 8243,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>$sin\\theta={1\\over \\sqrt 2}$হলে-</p><p><br/>i. $\\theta$ এর মূখ্যমান $\\Pi\\over 4$</p><p><br/>ii. $\\theta=\\{4n+(-1)^n\\}{\\Pi \\over 4}\\forall n\\in Z$</p><p><br/>iii. $\\theta=(4n+1){\\Pi \\over 2}, when n\\in Z$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8244,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "2নিউটন এবং 3নিউটন মানের দুইটি বল পরস্পর বিপরীত দিকে ক্রিয়া করে। এদের লব্ধি কোন দিকে ক্রিয়া করবে?",
+    "options": [
+      "3নিউটন বলের ক্রিয়ারেখার সাথে লম্ব বরাবর",
+      "3 নিউটন বলের ক্রিয়ারেখা বরাবর",
+      "2নিউটন বরের ক্রিয়ারেখা বরাবর",
+      "2নিউটন বলের ক্রিয়ারেখার সাথে লম্ব বরাবর"
+    ],
+    "answer": "3 নিউটন বলের ক্রিয়ারেখা বরাবর",
+    "explanation": ""
+  },
+  {
+    "id": 8245,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "একটি বস্তু ভুমি থেকে $\\alpha$ কোণে নিক্ষেপ করা হলো। আনুভুমিক পাল্লা সর্বাধিক পেতে হলে, $\\alpha$ এর মান কত?",
+    "options": [
+      "0",
+      "$\\frac{\\pi}{4}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "answer": "$\\frac{\\pi}{4}$",
+    "explanation": ""
+  },
+  {
+    "id": 8246,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "<p>একটি ছক্কা একবার নিক্ষেপ করলে 4 পাওয়ার সম্ভাব্যতা কত?</p>",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 6$",
+    "explanation": "<p>$1,2,3,4,5,6\\;\\;\\;n=6\\\\A=\\{4\\}\\\\P\\left(A\\right)=\\frac16\\\\$</p>"
+  },
+  {
+    "id": 8247,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Comilla",
+    "question": "A ও B যে কোনো দুইটি ঘটনা যেখানে $P(A\\cap B)=0$ ।নিচের কোনটি সঠিক?",
+    "options": [
+      "ঘটনা দুইটি পরস্পর স্বাধীন",
+      "ঘটনা দুইটি পরস্পর বর্জনশীল",
+      "ঘটনা দুইটি পরস্পর অধীন",
+      "ঘটনা দুইটি পরস্পর অবর্জনশীল"
+    ],
+    "answer": "ঘটনা দুইটি পরস্পর বর্জনশীল",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6524,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>x-এর সাপেক্ষে In ax এর অন্তরজ-</p>",
+    "options": [
+      "$a\\over x$",
+      "$x\\over a$",
+      "$1\\over x$",
+      "$1\\over ax$"
+    ],
+    "answer": "$1\\over x$",
+    "explanation": ""
+  },
+  {
+    "id": 6525,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>x এর সাপেক্ষে tan<sup>-1</sup>3x এর অন্তরজ-</p>",
+    "options": [
+      "$1\\over 1+3x^2$",
+      "$3\\over 1+3x^2$",
+      "$1\\over 1+9x^2$",
+      "$3\\over 1+9x^2$"
+    ],
+    "answer": "$3\\over 1+9x^2$",
+    "explanation": ""
+  },
+  {
+    "id": 6526,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>$y=e^{-3\\over 2}x$ হলে  $dy\\over dx$ = কত?</p>",
+    "options": [
+      "${-3\\over 2}e^{-3x\\over 2}$",
+      "${3\\over 2}e^{-3x\\over 2}$",
+      "${2\\over 3}e^{-3x\\over 2}$",
+      "${-2\\over 3}e^{-3x\\over 2}$"
+    ],
+    "answer": "${-3\\over 2}e^{-3x\\over 2}$",
+    "explanation": ""
+  },
+  {
+    "id": 6527,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int 7^xdx$ সমান-",
+    "options": [
+      "$7^xln7+c$",
+      "${7^x\\over ln7}+c$",
+      "${7^{x+1}\\over x+1}+c$",
+      "$x7^{x-1}+c$"
+    ],
+    "answer": "${7^x\\over ln7}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6528,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int sinx^0dx$= কত?",
+    "options": [
+      "$-cosx^0+c$",
+      "$cosx^0+c$",
+      "$-{180\\over \\pi}cos{\\pi x\\over 180}+c$",
+      "${180\\over \\pi}cos{\\pi x\\over 180}+c$"
+    ],
+    "answer": "$-{180\\over \\pi}cos{\\pi x\\over 180}+c$",
+    "explanation": "<p>$\\int \\sin x^{\\circ} d x=\\int \\sin \\frac{\\pi x}{180} d x=\\frac{-\\cos \\frac{\\pi x}{180}}{\\frac{\\pi}{180}}+c=\\frac{-180}{\\pi} \\cos \\frac{\\pi x}{180}+c$</p>"
+  },
+  {
+    "id": 6529,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int _0^{\\pi\\over 2}{sinx\\over 5-cosx}dx$ এর মান-",
+    "options": [
+      "ln20",
+      "-ln20",
+      "ln5-ln4",
+      "ln4-ln5"
+    ],
+    "answer": "ln5-ln4",
+    "explanation": "<p>$\\begin{aligned} \\int_0^{\\frac{\\pi}{2}} \\frac{\\sin x}{5-\\cos x} d x &amp; =[\\ln (5-\\cos x)]_0^{\\frac{\\pi}{2}}\\left[\\because \\int \\frac{f^{\\prime}(x)}{f(x)} d x=\\ln |f(x)|+c\\right] \\\\ &amp; =\\ln \\left(5-\\cos \\frac{\\pi}{2}\\right)-\\ln (5-\\cos 0)=\\ln 5-\\ln 4\\end{aligned}$</p>"
+  },
+  {
+    "id": 6530,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>y=x<sup>2</sup>, x অক্ষে, x = 0 এবং x = 3 দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল - </p>",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 6531,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int {dx\\over \\sqrt[3]x}$ সমান-\t\t",
+    "options": [
+      "$-{1\\over 3}x^{4\\over 3}+c$",
+      "${3\\over 2}x^{2\\over 3}+c$",
+      "${3\\over 2}x^{-3\\over 2}+c$",
+      "${2\\over 3}x^{-2\\over 3}+c$"
+    ],
+    "answer": "${3\\over 2}x^{2\\over 3}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6532,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int {dx\\over \\sqrt {9-x^2}}$ সমান-",
+    "options": [
+      "$sin^{-1}{x\\over 3}+c$",
+      "$cos^{-1}{x\\over 3}+c$",
+      "$sin^{-1}{3\\over x}+c$",
+      "$cos^{-1}{3\\over x}+c$"
+    ],
+    "answer": "$sin^{-1}{x\\over 3}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6533,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\int _0^{\\pi\\over 2}cosxdx$ এর মান-",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "$\\pi\\over 2$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 6534,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "P=$\\left(\\begin{matrix}1&amp;-1\\\\0&amp;3\\\\\\end{matrix}\\right)$&nbsp;হলে, $P^2– 2I$ এর মান হয়—",
+    "options": [
+      "$\\left(\\begin{matrix}1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}-1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}1&-4\\\\0&9\\\\\\end{matrix}\\right)$",
+      "$\\left(\\begin{matrix}0&-4\\\\0&8\\\\\\end{matrix}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{matrix}-1&-4\\\\0&7\\\\\\end{matrix}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6535,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "A = {aij]3 x 2 এবং B = [bij]2x4 হলে, AB ম্যাট্রিক্সটির আকার- ",
+    "options": [
+      "3×2",
+      "2×4",
+      "4×3",
+      "3×4"
+    ],
+    "answer": "3×4",
+    "explanation": ""
+  },
+  {
+    "id": 6536,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>C=$\\left(\\begin{matrix}1&amp;3\\\\2&amp;4\\\\\\end{matrix}\\right)$</p><p><br></p><p>Q. C এর ক্ষেত্রে- </p><p><br/>i. (2, 2) তম অনুরাশি</p><p><br/>ii. |C|=2</p><p><br/>iii. 3C=$\\left(\\begin{matrix}3&amp;9\\\\6&amp;12\\\\\\end{matrix}\\right)$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6537,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>C=$\\left(\\begin{matrix}1&amp;3\\\\2&amp;4\\\\\\end{matrix}\\right)$</p><p><br></p><p>Q. C<sup>-1</sup> এর সমান-</p>",
+    "options": [
+      "$\\left(\\begin{array}{cc}-2 & \\frac{3}{2} \\\\ 1 & -\\frac{1}{2}\\end{array}\\right)$",
+      "$\\left(\\begin{matrix}2&-3\\\\-1&1\\\\\\end{matrix}\\right)$",
+      "${1\\over 2}\\left(\\begin{matrix}4&-3\\\\-2&1\\\\\\end{matrix}\\right)$",
+      "-${1\\over 2}\\left(\\begin{matrix}4&3\\\\2&1\\\\\\end{matrix}\\right)$"
+    ],
+    "answer": "$\\left(\\begin{array}{cc}-2 & \\frac{3}{2} \\\\ 1 & -\\frac{1}{2}\\end{array}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6538,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\left|\\begin{matrix}2&amp;5&amp;4\\\\y&amp;6&amp;x\\\\-3&amp;7&amp;-1\\\\\\end{matrix}\\right|$ নির্ণায়কের (3, 2) তম অনুরাশির মান 2 হলে x ও y এর মধ্যে সম্পর্কটি—",
+    "options": [
+      "2x + 5y = 2",
+      "3x + y = 2",
+      "x - 2y =2",
+      "x - 2y = 1"
+    ],
+    "answer": "x - 2y = 1",
+    "explanation": ""
+  },
+  {
+    "id": 6539,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$\\left(\\begin{matrix}k&amp;1\\\\2&amp;4\\\\\\end{matrix}\\right)$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, k এর মান-",
+    "options": [
+      "-2",
+      "$-1\\over 2$",
+      "$1\\over 2$",
+      "2"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6540,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>$3x – 4y + K = 0$ একটি সরলরেখা।</p><p><br/>i. উহার ঢাল =3/4</p><p><br/>ii. উহা y অক্ষ থেকে k/4 একক দৈর্ঘ্য ছেদ করে</p><p><br/>iii. উহা x অক্ষকে (3, 0) বিন্দুতে ছেদ করে </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": "<p>(iii) সঠিক নয়, কারন: $3 x-4.0+k=0$ বা, $3 \\mathbf{x}+k=0$ বা, $x=\\frac{-k}{3}$ </p><p>$\\therefore$ রেখাটি $x$ অক্ষকে $\\left(\\frac{-\\mathrm{k}}{3}, 0\\right)$ বিন্দুতে ছেদ করে।</p>"
+  },
+  {
+    "id": 6541,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>$(\\sqrt{3}, 1)$ বিন্দু হতে $\\sqrt{3} x-y+8=0$ রেখার লম্ব দূরত্ব-</p>",
+    "options": [
+      "2",
+      "5",
+      "6",
+      "$5\\sqrt 2$"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 6542,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>( -1,√3) বিন্দুটির পোলার স্থানাঙ্ক-</p>",
+    "options": [
+      "(2,-60°)",
+      "(2,30°)",
+      "(2, 120°)",
+      "(2,240°)"
+    ],
+    "answer": "(2, 120°)",
+    "explanation": ""
+  },
+  {
+    "id": 6543,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$3\\over 2$ ঢালবিশিষ্ট সরলরেখাটি $\\lambda$x + 3y -7=0 সরলরেখার উপর লম্ব হলে $\\lambda$এর মান-",
+    "options": [
+      "2",
+      "$3^i$",
+      "9/2",
+      "9/4"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6544,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "px + qy = pq সরলরেখাটি x ও y অক্ষদ্বয় হতে যথাক্রমে যে যে অংশ খণ্ডন করে তাদের দৈর্ঘ্য-",
+    "options": [
+      "p, q",
+      "q, p",
+      "${{1\\over p}}, {1\\over q}$",
+      "${{1\\over q}}, {1\\over p}$"
+    ],
+    "answer": "q, p",
+    "explanation": ""
+  },
+  {
+    "id": 6545,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "মূলবিন্দুগামী এবং অক্ষের ধনাত্মক দিকের সাথে 30° কোণ উৎপন্নকারী সরলরেখার সমীকরণ-",
+    "options": [
+      "x+√3y=0",
+      "√3x+y=0",
+      "-√3x+y=0",
+      "x-√3y=0"
+    ],
+    "answer": "x-√3y=0",
+    "explanation": ""
+  },
+  {
+    "id": 6546,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$lim_{x\\to 0}{tan^{-1}4x\\over x}$ এর মান-",
+    "options": [
+      "0",
+      "1/4",
+      "1",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "<p>ধরি, $\\tan ^{-1} 4 x=\\theta \\therefore x=\\frac{\\tan \\theta}{4}$ </p><p>এবং $x \\rightarrow 0$ হলে; $\\theta \\rightarrow 0$</p><p>$\\therefore \\lim _{x \\rightarrow 0} \\frac{\\tan ^{-1} 4 x}{x}=\\lim _{\\theta \\rightarrow 0} \\frac{\\theta}{\\frac{\\tan \\theta}{4}}=4 \\cdot \\frac{1}{\\lim _{\\theta \\rightarrow 0} \\frac{\\tan \\theta}{\\theta}}=4$</p>"
+  },
+  {
+    "id": 6547,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>x<sup>2</sup>+y-2x+10=0 বক্ররেখার (1,-9) বিন্দুতে অঙ্কিত স্পর্শকের ঢাল-</p>",
+    "options": [
+      "-2",
+      "0",
+      "2",
+      "$\\infty$"
+    ],
+    "answer": "0",
+    "explanation": "<p>এখানে প্রশ্নটি সঠিক নয়। কারণ $(1,-1)$ বিন্দুটি $x^2+y-2 x+10=0$ বক্ররেখার উপর অবস্থিত নয়।</p><p>$x=1$ হলে, $(1,-9)$ বিন্দুটি উক্ত বক্ররেখার উপর অবস্থিত হবে। তাহলে, $2 x+\\frac{d y}{d x}-2=0$ বা, $\\frac{d y}{d x}=2-2 x$ </p><p>$x=1$ হলে, $\\frac{d y}{d x}=2-2.1=0$</p>"
+  },
+  {
+    "id": 6548,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>f(x) = ln (x) হলে-</p><p><br/>i. ${d\\over dx}f(x)={1\\over x}$</p><p><br/>ii. $\\int$ f(x) dx = x in (x) -x +c</p><p><br/>iii. $\\int_1^2$ƒ(x) dx = In 2</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": "<p>(iii) সঠিক নয়।</p><p>কারণ,</p><p>$\\begin{aligned}\\int_1^2 f(x) d x &amp; =\\int_1^2 \\ln x d x=[x \\ln x-x]_1^2 \\\\&amp; =(2 \\ln 2-2)-(\\ln 1-1) \\\\&amp; =2 \\ln 2-2+1=2 \\ln 2-1\\end{aligned}$</p>"
+  }
+]

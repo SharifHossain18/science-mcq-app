@@ -184,10 +184,60 @@ function renderBoardGrid(year) {
         card.className = 'bs-board-card';
         if (bd === selectedBoard) card.classList.add('selected');
         card.setAttribute('data-board', bd);
+
+        const cleanSub = subject.replace(/\s+/g, '_');
+        const dlKey = `board_${cleanSub}_${year || 'all'}_${bd.replace(/\s+/g, '_')}`;
+        const isDl = UTILS.isItemDownloaded(dlKey);
+
         card.innerHTML = `
             <div class="bs-board-icon"><i class="fa-solid fa-building-columns"></i></div>
             <span class="bs-board-name">${bd}</span>
+            <button class="bs-dl-btn ${isDl ? 'downloaded' : ''}" data-dl-key="${dlKey}" data-clean-sub="${cleanSub}" data-year="${year || ''}" data-board="${bd}" title="${isDl ? 'ডাউনলোড করা হয়েছে' : 'অফলাইনের জন্য ডাউনলোড'}">
+                <i class="fa-solid ${isDl ? 'fa-circle-check' : 'fa-circle-down'}"></i>
+            </button>
         `;
+
+        const dlBtn = card.querySelector('.bs-dl-btn');
+        dlBtn.addEventListener('click', async (e) => {
+            e.stopPropagation();
+            const yr = dlBtn.dataset.year;
+            const bdName = dlBtn.dataset.board;
+            const cleanBd = bdName.replace(/\s+/g, '_');
+            if (!yr) { UTILS.showToast('প্রথমে বছর নির্বাচন করুন', 'error'); return; }
+            if (dlBtn.classList.contains('downloaded')) {
+                if (confirm('এই বোর্ডের অফলাইন ডাটা মুছে ফেলবেন?')) {
+                    UTILS.unmarkItemDownloaded(dlKey);
+                    const yearBoards = metaData[subject]?.boards?.[yr] || [];
+                    const boardIdx = yearBoards.indexOf(bdName);
+                    const boardId = bdName === 'Combined' ? 'Combined' : String(boardIdx + 1);
+                    await UTILS.removeCachedFile(`data/boards/${cleanSub}_${yr}_${cleanBd}.json`);
+                    await UTILS.removeCachedFile(`data/cq/boards/${cleanSub}_${yr}_${boardId}.json`);
+                    dlBtn.classList.remove('downloaded');
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
+                    dlBtn.title = 'অফলাইনের জন্য ডাউনলোড';
+                    UTILS.showToast('অফলাইন ডাটা মুছে ফেলা হয়েছে', 'info');
+                }
+            } else {
+                dlBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+                const yearBoards = metaData[subject]?.boards?.[yr] || [];
+                const boardIdx = yearBoards.indexOf(bdName);
+                const boardId = bdName === 'Combined' ? 'Combined' : String(boardIdx + 1);
+                const okMcq = await UTILS.downloadAndCache(`data/boards/${cleanSub}_${yr}_${cleanBd}.json`);
+                const okCq  = await UTILS.downloadAndCache(`data/cq/boards/${cleanSub}_${yr}_${boardId}.json`);
+                const ok = okMcq && okCq;
+                if (ok) {
+                    UTILS.markItemDownloaded(dlKey);
+                    dlBtn.classList.add('downloaded');
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+                    dlBtn.title = 'ডাউনলোড করা হয়েছে';
+                    UTILS.showToast('বোর্ড প্রশ্ন অফলাইনের জন্য ডাউনলোড করা হয়েছে', 'success');
+                } else {
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
+                    UTILS.showToast('ডাউনলোড ব্যর্থ!', 'error');
+                }
+            }
+        });
+
         card.addEventListener('click', () => {
             document.querySelectorAll('.bs-board-card').forEach(c => c.classList.remove('selected'));
             card.classList.add('selected');

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6249,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "(-1,-1 ) বিন্দুটির পোলার স্থানাংক কোনটি?",
+    "options": [
+      "(√2,-45°)",
+      "(√2, 45°)",
+      "(√2,135°)",
+      "(√2,225°)"
+    ],
+    "answer": "(√2,225°)",
+    "explanation": "<p>$\\begin{aligned}&amp; r=\\sqrt{(-1)^2+(-1)^2}=\\sqrt{2} \\\\&amp; \\theta=180^{\\circ}+\\tan ^{-1}\\left|\\frac{-1}{-1}\\right|=180^{\\circ}+45^{\\circ}=225^{\\circ}\\end{aligned}$</p><p>$\\therefore$ পোলার স্থানাঙ্ক $\\left(\\sqrt{2}, 225^{\\circ}\\right)$</p>"
+  },
+  {
+    "id": 6250,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>$3x - 3y + 7 = 0$ রেখার উপর লম্ব এবং $(2,1)$ বিন্দুগামী রেখার সমীকরণ কোনটি?</p>",
+    "options": [
+      "5x+3y-13=0",
+      "5x+3y+13=0",
+      "3x+5y-13=0",
+      "5x-3y-13=0"
+    ],
+    "answer": "5x+3y-13=0",
+    "explanation": "<p>$3 x-5 y+7=0$ রেখার উপর লম্বলেখা:</p><p>$5 x+3 y+k=0$</p><p>(2, 1) বিন্দুতে, $5.2+3.1+k=0$</p><p>বা, $k=-13$</p><p>(i) নং $এ$ k-এর মান বসিয়ে পাই, $5 x+3 y-13=0$</p><p>নির্ণেয় সমীকরণ $5 x+3 y-13=0$.</p>"
+  },
+  {
+    "id": 6251,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>$4x- 5y + 9 = 0$ সরলরেখাটির -</p><p><br/>i. ঢাল =$4\\over 5$</p><p><br/>ii. x অক্ষের খণ্ডিতাংশ = $9\\over 4$</p><p><br/>iii. y অক্ষের ছেদবিন্দু $(0, {9\\over 5})$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6252,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>প্রদত্ত উদ্দীপকের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\sqrt 2x - y + 5 = 0$ একটি সরলরেখার সমীকরণ।</p><p><br></p><p>Q. $(\\sqrt 2,1)$ বিন্দু হতে রেখাটির দূরত্ব কত?</p>",
+    "options": [
+      "$2\\sqrt 3$",
+      "$3\\sqrt 2$",
+      "$2\\over 3$",
+      "$3\\over 2$"
+    ],
+    "answer": "$2\\sqrt 3$",
+    "explanation": "<p>$(\\sqrt{2}, 1)$ বিন্দু হতে $\\sqrt{2} x-y+5=0$ রেখার দৃরত্ব</p><p>$=\\frac{|\\sqrt{2} \\cdot \\sqrt{2}+1 \\cdot(-1)+5|}{\\sqrt{(\\sqrt{2})^2+1^2}}=\\frac{6}{\\sqrt{3}}=2 \\sqrt{3} \\text {. }$</p>"
+  },
+  {
+    "id": 6253,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>প্রদত্ত উদ্দীপকের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\sqrt 2x - y + 5 = 0$ একটি সরলরেখার সমীকরণ।</p><p>Q. প্রদত্ত সরলরেখার দ্বারা y অক্ষের খন্ডিতাংশের দৈর্ঘ্য কোনটি?</p>",
+    "options": [
+      "-5",
+      "$-{5\\over \\sqrt 2}$",
+      "${5\\over \\sqrt 2}$",
+      "5"
+    ],
+    "answer": "5",
+    "explanation": ""
+  },
+  {
+    "id": 6254,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$2x^2 + 2y^2 + 4x - 2y + 4= 0$ বৃত্তের কেন্দ্র কোনটি?",
+    "options": [
+      "$(-1,{1\\over 2})$",
+      "$(1,-{1\\over 2})$",
+      "(-2,1)",
+      "$(2,-{1\\over 2})$"
+    ],
+    "answer": "$(-1,{1\\over 2})$",
+    "explanation": ""
+  },
+  {
+    "id": 6255,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$x^2+y^2-4x+8y=0$ বৃত্তের y অক্ষের খন্ডিতাংশের দৈর্ঘ্য কোনটি?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "answer": "8",
+    "explanation": "<p>$\\mathrm{y}$ অক্ষের খণ্ডিতাংশ $=2 \\sqrt{f^2-\\mathrm{c}}=2 \\sqrt{4^2-0}=8$.</p>"
+  },
+  {
+    "id": 6256,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>প্রদত্ত উদ্দীপকের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও: </p><p>$f(\\mathrm{x})=\\ln (1-\\mathrm{x})$ এবং $\\mathrm{g}(\\mathrm{x})=\\tan \\mathrm{x}^2$</p><p><br></p><p>Q. $\\mathbf{g}(\\mathbf{x})$এর অন্তরজ কোনটি?</p>",
+    "options": [
+      "$sec^2x^2$",
+      "$2x sec x^2$",
+      "$2x sec^2 x^2$",
+      "$2tan x sec^2 x$"
+    ],
+    "answer": "$2x sec^2 x^2$",
+    "explanation": ""
+  },
+  {
+    "id": 6257,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>প্রদত্ত উদ্দীপকের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>$f(\\mathrm{x})=\\ln (1-\\mathrm{x})$ এবং $\\mathrm{g}(\\mathrm{x})=\\tan \\mathrm{x}^2$\n\n</p><p>Q. f'(2) এর মান কত?</p>",
+    "options": [
+      "-2",
+      "-1",
+      "1",
+      "2"
+    ],
+    "answer": "-1",
+    "explanation": "<p>$\\begin{aligned} &amp; f(x)=\\ln (1-x) \\\\ &amp; f^{\\prime}(x)=\\frac{-1}{1-x}=-1(1-x)^{-1}=-(1-x)^{-1} \\\\ &amp; f^{\\prime \\prime}(x)=-(1-x)^{-2} \\\\ &amp; \\therefore f^{\\prime \\prime}(2)=-(1-2)^{-2}=\\frac{-1}{(-1)^2}=-1\\end{aligned}$</p>"
+  },
+  {
+    "id": 6258,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "${d\\over dx}(log_a2x)$ = কত?",
+    "options": [
+      "$1\\over x$",
+      "${1\\over x}log_e a$",
+      "${1\\over x}log_a e$",
+      "${1\\over 2x}loga $"
+    ],
+    "answer": "${1\\over x}log_a e$",
+    "explanation": "<p>$\\frac{d}{d x} \\log _d 2 x=\\frac{1}{x} \\log _a e$</p>"
+  },
+  {
+    "id": 6259,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>দুটি ম্যাট্রিক্স A ও B এর মাত্রা যথাক্রমে p×q এবং n×r হলে AB নির্ণয়ের শর্ত কোনটি?</p>",
+    "options": [
+      "p=r",
+      "p=n",
+      "q=r",
+      "q=n"
+    ],
+    "answer": "q=n",
+    "explanation": ""
+  },
+  {
+    "id": 6260,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p> A= $\\left[\\begin{matrix}2&amp;3&amp;4\\\\4&amp;6&amp;8\\\\3&amp;1&amp;2\\\\\\end{matrix}\\right]$ একটি -</p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. ব্যাতিক্রমী ম্যাট্রিক্স</p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and ii",
+    "explanation": ""
+  },
+  {
+    "id": 6261,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "নিচের কোনটি সমঘাতি ম্যাট্রিক্স?",
+    "options": [
+      "$\\left[\\begin{matrix}-2&-1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&1\\\\-2&1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}2&1\\\\-2&-1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6262,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>$\\left[\\begin{matrix}3&amp;2&amp;4\\\\0&amp;3&amp;6\\\\-&amp;-1&amp;-2\\\\\\end{matrix}\\right]$ নির্ণায়কটির—</p><p><br/>i. মান = 0</p><p><br/>ii. (2,3) তম ভুক্তির অনুরাশি = 5 </p><p><br/>iii. (2.1) তম ভুক্তির সহগুণক = 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6263,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\left[\\begin{matrix}1&amp;2\\\\3&amp;-4\\\\\\end{matrix}\\right]$ এর অ্যাডজয়েন্ট ম্যাট্রিক্স কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}-4&2\\\\3&-1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-4&2\\\\3&1\\\\\\end{matrix}\\right]$",
+      "<p>$\\left[\\begin{matrix}-4&amp;-2\\\\-4&amp;1\\\\\\end{matrix}\\right]$</p>",
+      "$\\left[\\begin{matrix}-4&-2\\\\-2&1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "<p>$\\left[\\begin{matrix}-4&amp;-2\\\\-4&amp;1\\\\\\end{matrix}\\right]$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 6264,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$y^2= x$ হলে $y_1$ নিচের কোনটি?",
+    "options": [
+      "2y",
+      "2x",
+      "$2\\sqrt x$",
+      "$1\\over 2\\sqrt x$"
+    ],
+    "answer": "$1\\over 2\\sqrt x$",
+    "explanation": ""
+  },
+  {
+    "id": 6265,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>&nbsp;y = sin x হলে-</p><p><br/>i. $y_1= cos x$</p><p><br/>ii. $y_2=-sin x$</p><p><br/>iii. $y_3+y_1 = 0$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6266,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\int {1\\over 3\\sqrt x}dx$ = কত?",
+    "options": [
+      "$-{2\\over 3}\\sqrt x+c$",
+      "${3\\over 2}\\sqrt x+c$",
+      "${2\\over 3}\\sqrt x+c$",
+      "$-{2\\over \\sqrt 3}\\sqrt x+c$"
+    ],
+    "answer": "${3\\over 2}\\sqrt x+c$",
+    "explanation": "<p>$\\int \\frac{1}{3 \\sqrt{x}} d x=\\frac{1}{3} \\cdot \\frac{x^{-\\frac{1}{2}-1}}{-\\frac{1}{2}+1}+c=\\frac{1}{3} \\cdot \\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}}+c=\\frac{2}{3} \\sqrt{x}+c$</p>"
+  },
+  {
+    "id": 6267,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\int ^{\\sqrt 3}_1{dx\\over 1+x^2}$ = কত?",
+    "options": [
+      "$\\pi \\over 24$",
+      "$\\pi \\over 12$",
+      "$\\pi \\over 4$",
+      "$\\pi \\over 3$"
+    ],
+    "answer": "$\\pi \\over 12$",
+    "explanation": "<p>$\\int_1^{\\sqrt{3}} \\frac{1}{1+x^2} d x=\\left[\\tan ^{-1} x\\right]_1^{\\sqrt{3}}=\\tan ^{-1} \\sqrt{3}-\\tan ^{-1} 1=\\frac{\\pi}{3}-\\frac{\\pi}{4}=\\frac{\\pi}{12}$.</p>"
+  },
+  {
+    "id": 6268,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\int^1_0{ln (x+1)\\over x+1}dx$  = কত?",
+    "options": [
+      "$2ln2$",
+      "${1\\over 2}ln 2$",
+      "$2(ln2)^2$",
+      "${1\\over 2}(ln2)^2$"
+    ],
+    "answer": "${1\\over 2}(ln2)^2$",
+    "explanation": "<p>$\\begin{aligned} \\int_0^1 \\frac{\\ln (x+1)}{(x+1)} d x &amp; =\\int_0^1 \\ln (x+1) d\\{\\ln (x+1)\\} \\\\ &amp; =\\left[\\frac{\\ln (x+1)\\}^2}{2}\\right]_0^1=\\frac{(\\ln 2)^2}{2}-0=\\frac{1}{2}(\\ln 2)^2 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6269,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "sin20° + cox20° এর মান কত?",
+    "options": [
+      "$\\sqrt 2 cos 25^0$",
+      "$\\sqrt 2 sin 25^0$",
+      "${1\\over \\sqrt 2} sin25^0$",
+      "${1\\over \\sqrt 2} cos 25^0$"
+    ],
+    "answer": "$\\sqrt 2 cos 25^0$",
+    "explanation": "<p>$\\begin{aligned} \\sin 20^{\\circ}+\\cos 20^{\\circ} &amp; =\\cos 70^{\\circ}+\\cos 20^{\\circ} \\\\ &amp; =2 \\cos 45^{\\circ} \\cdot \\cos 25^{\\circ}=\\sqrt{2} \\cos 25^{\\circ} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6270,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "$\\triangle ABC$ এর AB=6, AC=8 এবং $\\angle BAC = 60^0$ হলে $\\triangle ABC$ এর ক্ষেত্রফল কত?",
+    "options": [
+      "$12\\sqrt 3$",
+      "24",
+      "48",
+      "$48\\sqrt 3$"
+    ],
+    "answer": "$12\\sqrt 3$",
+    "explanation": "<p>$\\triangle A B C=\\frac{1}{2} b c \\sin 60^{\\circ}=\\frac{1}{2} .6 .8 . \\frac{\\sqrt{3}}{2}=12 \\sqrt{3}$.</p>"
+  },
+  {
+    "id": 6271,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "n একটি পূর্ণসংখ্যা $sin\\{2n\\pi +(-1)^{2n}{\\pi \\over 6}\\}$ এর মান কত?",
+    "options": [
+      "$-{1\\over 2}$",
+      "${1\\over 2}$",
+      "$-{\\sqrt 3\\over 2}$",
+      "${\\sqrt 3\\over 2}$"
+    ],
+    "answer": "${1\\over 2}$",
+    "explanation": "<p>$n=0$ হলে, $\\sin \\frac{\\pi}{6}=\\frac{1}{2}$</p>"
+  },
+  {
+    "id": 6272,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "<p>$sin10^0 = p$ হলে sin20° এর মান কোনটি?</p>",
+    "options": [
+      "2P",
+      "$2p\\sqrt {1-p^2}$",
+      "$2p\\sqrt {p^2-1}$",
+      "$2\\sqrt {1-p^2}$"
+    ],
+    "answer": "$2p\\sqrt {1-p^2}$",
+    "explanation": "<p>দেওয়া আছে, $ \\sin 10^{\\circ}=\\mathrm{p} $</p><p>$ \\sin 20^{\\circ}=\\sin \\left(2.10^{\\circ}\\right)=2 \\sin 10^{\\circ} \\cdot \\cos 10^{\\circ} $</p><p>$ =2 \\sin 10^{\\circ} \\sqrt{1-\\sin ^2 10^{\\circ}}=2 p \\sqrt{1-p^2} . $</p>"
+  },
+  {
+    "id": 6273,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Comilla",
+    "question": "নিচের কোন শর্তে $ax^2 + by^2 =c$ সমীকরণটি একটি বৃত্ত নির্দেশ করে?",
+    "options": [
+      "c=0",
+      "$c=r^2$",
+      "$a\\neq b$",
+      "${a\\over b}=1,b\\neq 0$"
+    ],
+    "answer": "${a\\over b}=1,b\\neq 0$",
+    "explanation": "<p>$x^2$ এবং $y^2$ এর সহগদ্বয় সমান হলে বৃত্ত</p><p>$\\therefore \\frac{a}{b}=1, b \\neq 0$</p>"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 750,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "বল প্রয়োগে যদি কোনো বস্তুর আকারের পরিবর্তন হয় তাকে কী বলে?",
+    "options": [
+      "আকার পীড়ন",
+      "আকার বিকৃতি",
+      "আয়তন পীড়ন",
+      "আয়তন বিকৃতি"
+    ],
+    "answer": "আকার বিকৃতি",
+    "explanation": ""
+  },
+  {
+    "id": 751,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "সময়ের সাপেক্ষে অন্তরকলন করে সরল ছন্দিত গতিসম্পন্ন বস্তুর অন্তরক সমীকরণ থেকে কী পাওয়া যায়?",
+    "options": [
+      "কম্পাঙ্ক",
+      "ত্বরণ",
+      "পর্যায়কাল",
+      "বেগ"
+    ],
+    "answer": "বেগ",
+    "explanation": ""
+  },
+  {
+    "id": 752,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "পীড়নের মাত্রা কোনটি?&nbsp;",
+    "options": [
+      "$\\left[ML^{-1}T^{-2}\\right]$",
+      "$\\left[MLT^{-2}\\right]$",
+      "$\\left[MLT^{-1}\\right]$",
+      "$\\left[M^{-1}L^3T^{-2}\\right]$"
+    ],
+    "answer": "$\\left[ML^{-1}T^{-2}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 753,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "নির্দিষ্ট ভরের একটি বস্তুকে একটি স্প্রিং-এ ঝুলিয়ে দিলে, নিম্নের কোনটি সঠিক হবে?",
+    "options": [
+      "স্প্রিং ধ্রুবক বাড়লে বেগ কমবে",
+      "স্প্রিং ধ্রুবক বাড়লে দোলনকাল কমবে",
+      "স্প্রিং ধ্রুবক বাড়লে ত্বরণ কমবে",
+      "স্প্রিং ধ্রুবক বাড়লে কম্পাঙ্ক কমবে"
+    ],
+    "answer": "স্প্রিং ধ্রুবক বাড়লে দোলনকাল কমবে",
+    "explanation": "$\\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{m}}{\\mathrm{k}}}$ বা, $\\mathrm{T} \\propto \\frac{1}{\\sqrt{\\mathrm{k}}}$ স্প্রিং ধ্রুবক বাড়লে দোলনকাল কমবে।"
+  },
+  {
+    "id": 754,
+    "subject": "Physics 1st Paper",
+    "chapter": "General",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>সরল ছন্দিত স্পন্দনসম্পন্ন কোনো কণার সরণ সর্বোচ্চ হবে যখন–</p><p><br/>i. বেগ সর্বনিম্ন </p><p><br/>ii. ত্বরণ সর্বোচ্চ  </p><p><br/>iii. বল সর্বোচ্চ  </p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p><br></p><p>i) $\\mathrm{x}=\\mathrm{A}$ হলে, $v=\\omega \\sqrt{\\mathrm{A}^2-\\mathrm{x}^2}=\\omega \\sqrt{\\mathrm{A}^2-\\mathrm{A}^2}=\\omega \\times 0=0$\n</p><p><br></p><p>ii) $a=-\\omega^2 x, a_{\\max }=-\\omega^2 A$ যখন $x=A$\n</p><p><br></p><p>iii) $\\mathrm{F}=\\mathrm{ma}$ বা, $\\mathrm{F}_{\\max }=\\mathrm{ma}_{\\max }=-m \\omega^2 \\mathrm{x}=-\\mathrm{m} \\omega^2 \\mathrm{~A}$ যখন, $\\mathrm{x}=\\mathrm{A}$</p>"
+  },
+  {
+    "id": 755,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>1.0 লিটার বায়ুর ক্ষেত্রে—</p><p><br/>i. মোট অণুর সংখ্যা 2.7 x 10<sup>22</sup></p><p><br/>ii. 27 ° C তাপমাত্রায় গড় গতিশক্তি 6.12 x 10<sup>-21</sup></p><p><br/>iii. বায়ুর ঘনত্ব 1.43 kgm<sup>-3</sup> হলে 27° C তাপমাত্রায় মূল গড় বৰ্গবেগ 461.18 ms<sup>-1</sup></p><p><br></p><p><sup><span class=\"ql-cursor\">﻿﻿</span></sup>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p><br></p><p>i) $22.4 \\mathrm{~L}$ বায়ুতে থাকে $6 .-23 \\times 10^{23}$ টি অনু।  তাই IL এ থাকে $\\frac{6.023 \\times 10^{23}}{22.4}=2.7 \\times 10^{22}$ টি অনু\n</p><p><br></p><p>ii) $\\mathrm{E}=\\frac{3}{2} \\mathrm{kT}=\\frac{3}{2} \\times 1.37 \\times 10^{-21} \\times 300=6.15 \\times 1 \\theta^{-21} \\approx 6.12 \\times 10^{-21} \\mathrm{~J}$\n</p><p><br></p><p>iii) $C_{\\mathrm{mns}}=\\sqrt{\\frac{3 \\mathrm{p}}{\\rho}}=\\sqrt{\\frac{3 \\times 101325}{1.43}}=461.05 \\approx 461.18 \\mathrm{~ms}^{-1}$</p>"
+  },
+  {
+    "id": 756,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "যদি $\\varphi\\left(x,y,z\\right)$ একটি ব্যবকলনীয় স্কেলার ক্ষেত্র হয় তবে তাকে কী বলে?",
+    "options": [
+      "অপারেটর",
+      "কার্ল",
+      "গ্র্যাডিয়েন্ট",
+      "ডাইভারজেন্স"
+    ],
+    "answer": "গ্র্যাডিয়েন্ট",
+    "explanation": ""
+  },
+  {
+    "id": 757,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "গড় মুক্তপথের ক্ষেত্রে কোনটি সঠিক? ",
+    "options": [
+      "গড় মুক্তপথ তাপমাত্রার ব্যস্তানুপাতিক",
+      "গড় মুক্তপথ চাপের ব্যস্তানুপাতিক",
+      "গড় মুক্তপথ ঘনত্বের সমানুপাতিক",
+      "গড় মুক্তপথ অণুর সংখ্যার সমানুপাতিক"
+    ],
+    "answer": "গড় মুক্তপথ চাপের ব্যস্তানুপাতিক",
+    "explanation": "কোনো গ্যাসের অণুর গড় মৃত্ত পথ চাপের ব্যস্তানুপাতিক। অর্ধাৎ $\\lambda \\times \\frac{1}{p}$."
+  },
+  {
+    "id": 758,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "তেজস্ক্রিয় ক্ষয়ের বেলায় কোন বল ক্রিয়াশীল?",
+    "options": [
+      "মহাকর্ষ বল",
+      "তড়িৎ চৌম্বক বল",
+      "শক্তিশালী নিউক্লীয় বল",
+      "দুর্বল নিউক্লীয় বল"
+    ],
+    "answer": "দুর্বল নিউক্লীয় বল",
+    "explanation": ""
+  },
+  {
+    "id": 759,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "PV = K সমীকরণ মেনে চলে কোন সূত্র? ",
+    "options": [
+      "গ্যাসের চাপীয় সূত্র",
+      "চার্লসের সূত্র",
+      "বয়েলের সূত্র",
+      "অ্যাভোগ্যাড্রোর সূত্র"
+    ],
+    "answer": "বয়েলের সূত্র",
+    "explanation": ""
+  },
+  {
+    "id": 760,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিউটনের গতির তৃতীয় সূত্রের উদাহরণের ক্ষেত্রে—</p><p><br/>i. ঘোড়ার গাড়ি টানা</p><p><br/>ii. বন্দুকের গুলি ছোড়া</p><p><br/>iii. মহাশূন্যে গতিশীল মহাকাশযান</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 761,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "একটি বস্তু নির্দিষ্ট দিকে যে দূরত্ব অতিক্রম করে তাকে কী বলে? ",
+    "options": [
+      "অবস্থান ভেক্টর",
+      "সরণ ভেক্টর",
+      "একক ভেক্টর",
+      "নাল ভেক্টর"
+    ],
+    "answer": "সরণ ভেক্টর",
+    "explanation": "একটি বস্তু নির্দিষ্ট দিকে যে দূরত্ব অতিক্রম করে তাকে সরণ ভেক্টর বলে।"
+  },
+  {
+    "id": 762,
+    "subject": "Physics 1st Paper",
+    "chapter": "General",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$\\widehat A$ ও $\\widehat B$ - এর যোগ করার ক্ষেত্রে ভেক্টর সাধারণ নিয়মের ক্ষেত্রে- </p><p>i) নতুন অবস্থানে তাদেরকে সমান্তরালভাবে স্থানান্তর করা হয় </p><p>ii) $\\widehat B$ - এর আদি বিন্দুকে $\\widehat A$ - এর শীর্ষ বিন্দুতে স্থাপন করে $\\widehat A$ - এর আদি বিন্দু থেকে $\\widehat B$ - এর শীর্ষ বিন্দুতে সরলরেখা টানা হয় </p><p>iii) $\\widehat B$  এর আদি বিন্দুকে $\\widehat A$ - এর শীর্ষ বিন্দুতে স্থাপন করে $\\widehat B$ - এর শীর্ষ বিন্দু থেকে $\\widehat A$ - এর আদি বিন্দুতে সরলরেখা টানা হয় </p><p><br></p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 763,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>0.1 kg ভরের একটি পাথর খণ্ডকে 0.5m লম্বা একটি সুতার একপ্রান্তে বেঁধে বৃত্তাকার পথে প্রতি মিনিটে 90 বার ঘুরালে সুতার টান কত হবে?</p>",
+    "options": [
+      "0.471 N",
+      "0.21 N",
+      "4.44 N",
+      "41.79 N"
+    ],
+    "answer": "4.44 N",
+    "explanation": "<p>$\\mathrm{F}=\\mathrm{ma}=\\mathrm{m} \\omega^2 \\mathrm{r}=\\mathrm{m}\\left(\\frac{2 \\pi \\mathrm{N}}{\\mathrm{t}}\\right)^2 \\mathrm{r}=0.1 \\times\\left(\\frac{2 \\pi \\times 90}{60}\\right)^2 \\times 0.5=4.44 \\mathrm{~N}$</p>"
+  },
+  {
+    "id": 764,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "কোনো অক্ষ সাপেক্ষে বস্তুতে প্রযুক্ত, বলের মান এবং অক্ষের লম্ব দূরত্বের গুণফলকে কী বলে?",
+    "options": [
+      "জড়তার ভ্রামক",
+      "চক্রগতির ব্যাসার্ধ",
+      "রৈখিক ভরবেগ",
+      "টর্ক"
+    ],
+    "answer": "টর্ক",
+    "explanation": ""
+  },
+  {
+    "id": 765,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "কোনো বস্তু তার অবস্থানের কারণে কী অর্জন করে থাকে?",
+    "options": [
+      "বিভবশক্তি",
+      "গতিশক্তি",
+      "কাজ",
+      "ক্ষমতা"
+    ],
+    "answer": "বিভবশক্তি",
+    "explanation": ""
+  },
+  {
+    "id": 766,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\widehat A=2\\widehat i+3\\widehat j$ এবং $\\widehat B=m\\widehat i-2\\widehat j$ । m- এর মান কত হলে ভেক্টরদ্বয় পরস্পর লম্ব?",
+    "options": [
+      "-3",
+      "-3/2",
+      "3/2",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "<p>$\\vec{A} \\cdot \\vec{B}=0$ </p><p>বা, $(2 \\hat{i}+3 \\hat{j}) \\cdot(m \\hat{i}-2 \\hat{j})=0$ </p><p>বা, $2 m-6=0$ বা, $m=3$</p>"
+  },
+  {
+    "id": 767,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>&nbsp;100 kg ভরের একটি বস্তুর ভরবেগ 200 kgms<sup>-1</sup> হলে এর গতিশক্তি কত হবে?</p>",
+    "options": [
+      "$8\\times10^6J$",
+      "$4\\times10^4J$",
+      "400 J",
+      "200 J"
+    ],
+    "answer": "200 J",
+    "explanation": "$E_k=\\frac{p^2}{2 m}=\\frac{(200)^2}{2 \\times 100}=200 \\mathrm{~J}$"
+  },
+  {
+    "id": 768,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "মৌলিক বলকে কয় ভাগে ভাগ করা যায়?&nbsp;",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 769,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>মহাকর্ষ সূত্র ব্যবহার করে যেসব কাজ করা সম্ভব— </p><p><br/>i. প্রাকৃতিক গ্যাস উত্তোলন </p><p><br/>ii. বিভিন্ন খনিজ পদার্থ উত্তোলন </p><p><br/>iii. ভূ-গর্ভস্থ তাপঘটিত শক্তি উত্তোলন</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 770,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>সংরক্ষণশীল বলের বৈশিষ্ট্য প্রকাশের ক্ষেত্রে-</p><p><br/>i. বল শুধু অবস্থানের ওপর নির্ভরশীল  </p><p><br/>ii. শুধু বস্তুর আদি ও যেকোনো অবস্থানের ওপর নির্ভর করে  </p><p><br/>iii. কৃত কাজ সম্পূর্ণরূপে পুনরুদ্ধার করা যায় </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 771,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "মহাকর্ষ ক্ষেত্র প্রাবল্যের মাত্রার ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "$\\left[LT^{-1}\\right]$",
+      "$\\left[LT^{-2}\\right]$",
+      "$\\left[MLT^{-1}\\right]$",
+      "$\\left[MLT^{-2}\\right]$"
+    ],
+    "answer": "$\\left[LT^{-2}\\right]$",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; E=\\frac{F}{m}=\\frac{M L T^{-2}}{M}=L T^{-2} \\\\ &amp; \\text { অথবা, } \\mathrm{E}=\\frac{G M}{\\mathrm{R}^2}=\\mathrm{g}=\\mathrm{LT}^{-2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 772,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "বস্তুকে যেভাবেই রাখা হোক না কেন তার ওজন যে বিশেষ বিন্দুর মধ্য দিয়ে পৃথিবীর কেন্দ্রের দিকে ক্রিয়া করে তাকে কী বলে? ",
+    "options": [
+      "অভিকর্ষ কেন্দ্ৰ",
+      "অভিকর্ষ ত্বরণ",
+      "মহাকর্ষ বল",
+      "মহাকর্ষ ক্ষেত্র প্রাবল্য"
+    ],
+    "answer": "অভিকর্ষ কেন্দ্ৰ",
+    "explanation": ""
+  },
+  {
+    "id": 773,
+    "subject": "Physics 1st Paper",
+    "chapter": "General",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>কিছু পরিমাণ পানিকে তার মোট আয়তনের 10 % সংকুচিত করতে কত পরিমাণ চাপ প্রয়োগ করতে হবে, যেখানে পানির আয়তন গুণাঙ্ক 2×10<sup>9</sup> Nm<sup>-2</sup>?</p>",
+    "options": [
+      "$2\\times10^{10}\\;Nm^{-2}$",
+      "$2\\times10^{9}\\;Nm^{-2}$",
+      "$0.02\\times10^{10}\\;Nm^{-2}$",
+      "$0.5\\times10^{-10}\\;Nm^{-2}$"
+    ],
+    "answer": "$0.02\\times10^{10}\\;Nm^{-2}$",
+    "explanation": "আয়তন বিকৃতি, $\\frac{v}{V}=10 \\%=0.1$ এবং $B=\\frac{p}{\\frac{v}{V}}$ বা, $P=B \\times \\frac{v}{V}$ $=2 \\times 10^6 \\times 0.1=2 \\times 10^8=0.02 \\times 10^{10} \\mathrm{Nm}^{-2}$"
+  },
+  {
+    "id": 774,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>যদি কোনো গ্রহের ভর 2 × 10<sup>27</sup> kg ও ব্যাসার্ধ 7 × 10<sup>7</sup> m হয় তবে ওই গ্রহের মুক্তিবেগ কত?&nbsp;[G = 6.673 × 10<sup>-11</sup> Nm<sup>2</sup>kg<sup>-2</sup>]&nbsp;</p>",
+    "options": [
+      "$30.8\\;kms^{-1}$",
+      "$43.66\\;kms^{-1}$",
+      "$61.7\\;kms^{-1}$",
+      "$5.17\\times10^6\\;kms^{-1}$"
+    ],
+    "answer": "$61.7\\;kms^{-1}$",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; \\mathrm{v}_{\\mathrm{e}}=\\sqrt{\\frac{2 \\mathrm{GM}}{\\mathrm{R}}}=\\sqrt{\\frac{2 \\times 6.673 \\times 10^{-11} \\times 2 \\times 10^{27}}{7 \\times 10^7}} \\\\ &amp; =61.7 \\mathrm{kms}^{-1}\\end{aligned}$</p>"
+  }
+]

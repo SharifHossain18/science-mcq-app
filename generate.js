@@ -17,6 +17,8 @@ let selectedSubject = '';
 let selectedChapterIds = [];
 let allMCQs = [];
 let allCQs = [];
+let showAnswers = false;
+const letters = ['a', 'b', 'c', 'd'];
 
 function clean(str) {
     return str.replace(/\s+/g, '_');
@@ -34,6 +36,50 @@ function shuffle(arr, n) {
 function stripChapterPrefix(name) {
     const m = name.match(/^(?:Chapter\s*\d+)\s*:\s*(.+)$/i);
     return m ? m[1] : name;
+}
+
+// ── Normalize question HTML (copied from mcq.js) ──
+function normalizeQuestionHtml(rawHtml) {
+    const source = String(rawHtml || '').trim();
+    if (!source) return '<p></p>';
+    const holder = document.createElement('div');
+    holder.innerHTML = source;
+    holder.querySelectorAll('p').forEach(p => {
+        while (p.firstChild && p.firstChild.nodeType === Node.ELEMENT_NODE && p.firstChild.tagName === 'BR') p.firstChild.remove();
+        if (!p.textContent.trim() && !p.querySelector('img')) p.remove();
+    });
+    holder.querySelectorAll('span[style]').forEach(span => span.removeAttribute('style'));
+    const walker = document.createTreeWalker(holder, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent || parent.closest('.katex, script, style')) return NodeFilter.FILTER_REJECT;
+            return /(?:\d+(?:\.\d+)?)\s*[x×]\s*10\s*[+-]?\d+/.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+    });
+    const textNodes = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode);
+    textNodes.forEach(node => {
+        const fragment = document.createDocumentFragment();
+        const pattern = /(\d+(?:\.\d+)?)\s*([x×])\s*10\s*([+-]?\d+)/g;
+        let lastIndex = 0, match;
+        while ((match = pattern.exec(node.nodeValue)) !== null) {
+            fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex, match.index)));
+            fragment.appendChild(document.createTextNode(`${match[1]} × 10`));
+            const sup = document.createElement('sup');
+            sup.textContent = match[3];
+            fragment.appendChild(sup);
+            lastIndex = pattern.lastIndex;
+        }
+        fragment.appendChild(document.createTextNode(node.nodeValue.slice(lastIndex)));
+        node.parentNode.replaceChild(fragment, node);
+    });
+    if (!holder.children.length && holder.textContent.trim()) {
+        const p = document.createElement('p');
+        p.textContent = holder.textContent.trim();
+        holder.textContent = '';
+        holder.appendChild(p);
+    }
+    return holder.innerHTML;
 }
 
 // ── DOM refs ──
@@ -55,6 +101,8 @@ const $printArea = document.getElementById('gen-print-area');
 const $regenerateBtn = document.getElementById('gen-regenerate-btn');
 const $chips = document.getElementById('gen-chips');
 const $selectAll = document.getElementById('gen-select-all');
+const $showAnswerSwitch = document.getElementById('gen-show-answer-switch');
+const $showAnswerToggle = document.getElementById('gen-show-answer-toggle');
 
 // ── Load meta ──
 async function loadMeta() {
@@ -177,27 +225,7 @@ async function generate() {
         return;
     }
 
-    // Re-fetch if not already loaded
-    if (allMCQs.length === 0 && mcqWanted > 0) {
-        const cleanSub = clean(selectedSubject);
-        const fetches = selectedChapterIds.map(chId =>
-            fetch(`data/chapters/${cleanSub}_${chId}.json`)
-                .then(r => r.ok ? r.json() : [])
-                .catch(() => [])
-        );
-        const results = await Promise.all(fetches);
-        allMCQs = results.flat();
-    }
-    if (allCQs.length === 0 && cqWanted > 0) {
-        const cleanSub = clean(selectedSubject);
-        const fetches = selectedChapterIds.map(chId =>
-            fetch(`data/cq/chapters/${cleanSub}_${chId}.json`)
-                .then(r => r.ok ? r.json() : [])
-                .catch(() => [])
-        );
-        const results = await Promise.all(fetches);
-        allCQs = results.flat();
-    }
+    // Data already loaded by checkAvailability — no need to re-fetch
 
     if (mcqWanted > allMCQs.length) {
         showStatus('error', `শুধু ${allMCQs.length}টি MCQ পাওয়া গেছে। সংখ্যা কমিয়ে দিন।`);
@@ -216,34 +244,48 @@ async function generate() {
 
     $mcqSection.style.display = mcqWanted > 0 ? 'block' : 'none';
     $cqSection.style.display = cqWanted > 0 ? 'block' : 'none';
+    $showAnswerToggle.style.display = (mcqWanted > 0 || cqWanted > 0) ? 'flex' : 'none';
     $printArea.style.display = (mcqWanted > 0 || cqWanted > 0) ? 'flex' : 'none';
     $results.style.display = 'block';
     $status.innerHTML = '';
 
+    // Reset show-answers state
+    showAnswers = false;
+    if ($showAnswerSwitch) $showAnswerSwitch.checked = false;
+
     window.scrollTo({ top: $results.offsetTop - 80, behavior: 'smooth' });
 }
 
-// ── Render MCQ ──
+// ── Render MCQ (using same style as mcq.js) ──
 function renderMCQs(questions) {
     $mcqList.innerHTML = '';
     $mcqBadge.textContent = questions.length;
 
     questions.forEach((q, i) => {
         const card = document.createElement('div');
-        card.className = 'gen-mcq-card';
+        card.className = 'mcq-card';
+        card.setAttribute('data-q-idx', i);
+
+        const questionHtml = normalizeQuestionHtml(q.question);
+        let optionsHtml = '';
+        q.options.forEach((opt, optIdx) => {
+            const isCorrect = opt === q.answer;
+            optionsHtml += `<button class="option-btn" data-opt-idx="${optIdx}" data-answer="${isCorrect ? 'correct' : 'incorrect'}"><span class="option-letter">${letters[optIdx]}</span><span class="option-text">${opt}</span></button>`;
+        });
+
         card.innerHTML = `
-            <div class="gen-q-top">
-                <span class="gen-q-num">${i + 1}</span>
-                <span class="gen-q-meta">${q.chapter || ''}</span>
+            <div class="mcq-question-wrapper">
+                <div class="q-number-badge">${i + 1}</div>
+                <div class="q-text-content">${questionHtml}</div>
             </div>
-            <div class="gen-q-text">${q.question}</div>
-            <div class="gen-q-options">
-                ${['ক', 'খ', 'গ', 'ঘ'].map((label, oi) => `
-                    <div class="gen-opt">
-                        <span class="gen-opt-label">${label}</span>
-                        <span class="gen-opt-text">${q.options[oi]}</span>
-                    </div>
-                `).join('')}
+            <div class="mcq-meta-row">
+                <div class="mcq-meta-left">${q.chapter || ''}</div>
+                <div class="mcq-meta-right"><span style="font-weight:600;color:var(--primary-blue);">${q.board} ${q.year}</span></div>
+            </div>
+            <div class="mcq-options">${optionsHtml}</div>
+            <div class="explanation">
+                <div class="explanation-title"><i class="fa-solid fa-circle-info"></i><span>ব্যাখ্যা (Explanation)</span></div>
+                <div>${q.explanation || 'এই প্রশ্নের কোনো ব্যাখ্যা নেই।'}</div>
             </div>
         `;
 
@@ -261,6 +303,9 @@ function renderMCQs(questions) {
 
         $mcqList.appendChild(card);
     });
+
+    // Apply show-answers state
+    applyShowAnswers();
 }
 
 // ── Render CQ ──
@@ -309,6 +354,40 @@ function renderCQs(questions) {
     });
 }
 
+// ── Show Answers toggle ──
+$showAnswerSwitch.addEventListener('change', (e) => {
+    showAnswers = e.target.checked;
+    applyShowAnswers();
+});
+
+function applyShowAnswers() {
+    if (!showAnswers) {
+        // Hide all explanations and reset option styling
+        $mcqList.querySelectorAll('.mcq-card').forEach(card => {
+            const explanation = card.querySelector('.explanation');
+            if (explanation) explanation.classList.remove('show');
+            card.querySelectorAll('.option-btn').forEach(btn => {
+                btn.classList.remove('correct', 'incorrect', 'show-correct');
+            });
+        });
+        return;
+    }
+
+    // Show correct answers and explanations
+    $mcqList.querySelectorAll('.mcq-card').forEach(card => {
+        const explanation = card.querySelector('.explanation');
+        if (explanation) explanation.classList.add('show');
+        card.querySelectorAll('.option-btn').forEach(btn => {
+            btn.classList.remove('correct', 'incorrect');
+            if (btn.getAttribute('data-answer') === 'correct') {
+                btn.classList.add('show-correct');
+            } else {
+                btn.classList.remove('show-correct');
+            }
+        });
+    });
+}
+
 // ── Utilities ──
 function showStatus(type, msg) {
     $status.innerHTML = `<div class="gen-status gen-status-${type}"><i class="fa-solid fa-${type === 'error' ? 'circle-exclamation' : 'circle-info'}"></i> ${msg}</div>`;
@@ -318,6 +397,7 @@ function resetResults() {
     $results.style.display = 'none';
     $mcqSection.style.display = 'none';
     $cqSection.style.display = 'none';
+    $showAnswerToggle.style.display = 'none';
     $printArea.style.display = 'none';
     $mcqList.innerHTML = '';
     $cqList.innerHTML = '';

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1499,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>একটি কণার উপর $\\overrightarrow{\\mathbf{F}}=(2 \\hat{i}+2 \\hat{j}+\\hat{k}) N$ বল প্রয়োগে কণাটির সরণ $\\vec{r}=(6 \\hat{i}-3 \\hat{j}-$ $\\mathbf{2 \\hat { k }} \\mathbf{)} \\mathbf{m}$ হয়। প্রয়োগকৃত বল কর্তৃক সম্পাদিত কাজের\nপরিমাণ হবে-</p>",
+    "options": [
+      "20 জুল",
+      "<p>4 জুল</p>",
+      "<p>(8î - 2ĵ - k) জুল</p>",
+      "<p>$(-4 \\hat{i}+5 \\hat{j}+3 \\hat{k})$ জুল</p>"
+    ],
+    "answer": "<p>4 জুল</p>",
+    "explanation": "<p>$\\begin{aligned} W=\\vec{F} \\cdot \\vec{r} &amp; =(2 \\hat{i}+2 \\hat{j}+\\hat{k}) \\cdot(6 \\hat{i}-3 \\hat{j}-2 \\hat{k}) \\\\ &amp; =12-6-2 \\\\ &amp; =4\\end{aligned}$</p>"
+  },
+  {
+    "id": 1500,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>পৃথিবীর নিজ অক্ষে ঘূর্ণনের জন্য “আইফেল টাওয়ারের কৌণিক বেগ হবে-</p>",
+    "options": [
+      "<p>1.99 x 10<sup>-7</sup>rad s<sup>-1</sup></p>",
+      "<p>7.26 x 10<sup>-5</sup>deg s<sup>-1</sup></p>",
+      "<p>4.167 x 10<sup>-3</sup>deg s<sup>-1</sup></p>",
+      "<p>4.167 x 10<sup>-3</sup>rad s<sup>-1</sup></p>"
+    ],
+    "answer": "<p>7.26 x 10<sup>-5</sup>deg s<sup>-1</sup></p>",
+    "explanation": ""
+  },
+  {
+    "id": 1501,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও: </p><p>\n</p><p>সরল ছন্দিত গতিসম্পন্ন কণার সমীকরণ y = $10 \\sin \\left(\\frac{\\pi t}{T}+\\frac{\\pi}{4}\\right)$ যার পর্যায় কাল 5 sec।</p><p>\n</p><p>Q. 1.25 sec এ কণাটির সরণ কত একক হবে? </p>",
+    "options": [
+      "<p>6 একক</p>",
+      "<p>10 একক</p>",
+      "<p>12 একক</p>",
+      "<p>18 একক</p>"
+    ],
+    "answer": "<p>10 একক</p>",
+    "explanation": ""
+  },
+  {
+    "id": 1502,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও: </p><p><br></p><p>সরল ছন্দিত গতিসম্পন্ন কণার সমীকরণ y = $10 \\sin \\left(\\frac{\\pi t}{T}+\\frac{\\pi}{4}\\right)$ যার পর্যায় কাল 5 sec।</p><p><br></p><p>Q. কণাটির-</p><p><br/>i. আদি দশা $\\frac{\\pi}{4}$\n</p><p><br/>ii. কম্পাংক 0.1Hz</p><p><br/>iii. বিস্তার 7 একক</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "<p>i ও ii</p>",
+      "<p>ii ও iii</p>",
+      "<p>i ও iii</p>",
+      "<p>i, ii ও iii</p>"
+    ],
+    "answer": "<p>i ও ii</p>",
+    "explanation": ""
+  },
+  {
+    "id": 1503,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>অসম্পৃক্ত বাষ্প চাপকে f এবং সম্পৃক্ত বাষ্প চাপকে F দ্বারা সূচিত করলে নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "f > F",
+      "f &ge; F",
+      "f < F",
+      "f &le; F"
+    ],
+    "answer": "f < F",
+    "explanation": "<p><span style=\"color: rgb(96, 98, 104);\">কোনো নির্দিষ্ট তাপমাত্রায় কোনো আবদ্ধ স্থানের বাষ্প সর্বাধিক যে চাপ দিতে পারে তাকে সম্পৃক্তবাষ্প চাপ&nbsp;বলে। আবার কোনো নির্দিষ্ট তাপমাত্রায় কোনো আবদ্ধ স্থানের বাষ্পচাপ যদি সর্বোচ্চ বাষ্পচাপের চেয়ে কম হয় তাহলে সেই চাপকে অসম্পৃক্ত বাষ্পচাপ বলে। অর্থাৎ </span>f &lt; F</p>"
+  },
+  {
+    "id": 1504,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "নির্দিষ্ট তাপমাত্রার সকল গ্যাস অণুর জন্য\nকোন রাশিটি ধুবক?",
+    "options": [
+      "ভর",
+      "ভরবেগ",
+      "আয়তন",
+      "গতিশক্তি"
+    ],
+    "answer": "গতিশক্তি",
+    "explanation": ""
+  },
+  {
+    "id": 1505,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>স্থিরাবস্থা থেকে কোনো বস্তু কণা সুষম ত্বরণে আনুভূমিক সরলরেখা বরাবর যাত্রা শুরু করল। চতুর্থ ও তৃতীয় সেকেন্ডে অতিক্রান্ত দূরত্বের অনুপাত হবে-</p>",
+    "options": [
+      "<p>${{4} \\over 3}$</p>",
+      "<p>${{26} \\over 9}$</p>",
+      "<p>${{7} \\over 5}$</p>",
+      "<p>2</p>"
+    ],
+    "answer": "<p>${{7} \\over 5}$</p>",
+    "explanation": "<p>চতুর্থ সেকেন্ডে অতিক্রান্ত দুরত্ব, S<sub>4th</sub>=$u\\;+\\;\\frac12\\times a(2\\times4-1)\\;=0+\\frac12a(8-1)=\\frac72a$</p><p>তৃতীয় সেকেন্ডে অতিক্রান্ত দুরত্ব , S<sub>3th</sub> ==$u\\;+\\;\\frac12\\times a(2\\times3-1)\\;=0+\\frac12a(6-1)=\\frac52a$</p><p>অর্থাৎ, S<sub>4th</sub> : S<sub>3th</sub> = $\\frac75$</p>"
+  },
+  {
+    "id": 1506,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>সরল দোলকের জন্য L বনাম T<sup>2</sup> লেখচিত্রের প্রকৃতি নিচের কোনটি সঠিক?</p><p><img src=\"data:image/png;base64,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\"></p>",
+    "options": [
+      "ক",
+      "খ",
+      "গ",
+      "ঘ"
+    ],
+    "answer": "খ",
+    "explanation": ""
+  },
+  {
+    "id": 1507,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "বৃত্তাকার পথে সমান সময়ে সমান কৌণিক দূরত্ব\nঅতিক্রমকারী কোনো কণার রৈখিক বেগের-",
+    "options": [
+      "শুধু মানের পরিবর্তন হবে",
+      "ধ্রুবক হবে",
+      "শুধু দিকের পরিবর্তন হবে",
+      "মান ও দিক উভয়ই পরিবর্তন হবে"
+    ],
+    "answer": "শুধু দিকের পরিবর্তন হবে",
+    "explanation": ""
+  },
+  {
+    "id": 1508,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>কৌণিক ভরবেগ হলো-</p>",
+    "options": [
+      "ব্যাসার্ধ ভেক্টর ও রৈখিক ভরবেগের ভেক্টর গুণনের সমান",
+      "জড়তার ভ্রামক ও রৈখিক বেগের গুণনের সমান",
+      "রৈখিক ভরবেগ ও কৌনিক ভরবেগের ভেক্টর গুণনের সমান",
+      "রৈখিক বেগ ও ব্যাসার্ধ ভেক্টরের গুণনের সমান"
+    ],
+    "answer": "ব্যাসার্ধ ভেক্টর ও রৈখিক ভরবেগের ভেক্টর গুণনের সমান",
+    "explanation": ""
+  },
+  {
+    "id": 1509,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "কৌণিক ভরবেগের পরিবর্তনের হার-",
+    "options": [
+      "বলের সমান",
+      "কৌণিক ত্বরণের সমান",
+      "টর্কের সমান",
+      "জড়তার ভ্রামকের সমান"
+    ],
+    "answer": "টর্কের সমান",
+    "explanation": ""
+  },
+  {
+    "id": 1510,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও: </p><p>\n</p><p>A ও B শলাকা দুটিকে একত্রে শব্দায়িত করলে প্রতি সেকেন্ডে 5 টি বীট উৎপন্ন হয়। B এর কম্পাংক 430 Hz |</p><p>\n</p><p>Q. যদি A এর ভর কমানো হয় তাহলে বীট সংখ্যা কমে যায়। A এর কম্পাংক হলো—</p>",
+    "options": [
+      "420 Hz",
+      "425 Hz",
+      "435 Hz",
+      "440 Hz"
+    ],
+    "answer": "425 Hz",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{f}_{\\mathrm{B}}=430 \\mathrm{~Hz} \\\\ &amp; \\therefore \\mathrm{f}_{\\mathrm{A}}=\\mathrm{f}_{\\mathrm{B}} \\pm \\mathrm{N}\\end{aligned}$</p><p><br></p><p>যেহেতু ভর কমালে বীট কমে সেহেতু,</p><p><br></p><p>$f_A=f_B-N=430-5=425 \\mathrm{~Hz}$</p>"
+  },
+  {
+    "id": 1511,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও: </p><p><br></p><p>A ও B শলাকা দুটিকে একত্রে শব্দায়িত করলে প্রতি সেকেন্ডে 5 টি বীট উৎপন্ন হয়। B এর কম্পাংক 430 Hz |</p><p><br></p><p>Q.  A এর ভর কমালে বীট সংখ্যা অপরিবর্তিত থাকে। A এর কম্পাংক হবে-</p>",
+    "options": [
+      "440 Hz",
+      "435 Hz",
+      "430 Hz",
+      "425 Hz"
+    ],
+    "answer": "435 Hz",
+    "explanation": ""
+  },
+  {
+    "id": 1512,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "যে সমস্ত তরল দ্বারা কাঁচ ভিজে না তাদের\nস্পর্শ কোণ হবে-",
+    "options": [
+      "সূক্ষ্মকোণ",
+      "স্থূলকোণ",
+      "শূন্য",
+      "সমকোণ"
+    ],
+    "answer": "স্থূলকোণ",
+    "explanation": "<p><span style=\"color: rgb(33, 37, 41);\">যেসব তরল পদার্থ কাচ ভিজায় না তাদের ক্ষেত্রে স্পর্শ কোণ 90 ডিগ্রি এর চেয়ে বড়। অর্থাৎ, স্থূলকোণ।</span></p>"
+  },
+  {
+    "id": 1513,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি পড় এবং  প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>Q.  AB অংশের ত্বরণ-</p>",
+    "options": [
+      "2 ms<sup>-2</sup>",
+      "5 ms<sup>-2</sup>",
+      "8 ms<sup>-2</sup>",
+      "10 ms<sup>-</sup>"
+    ],
+    "answer": "2 ms<sup>-2</sup>",
+    "explanation": "<p>$\\mathrm{a}=\\frac{30 \\mathrm{~ms}^{-1}-20 \\mathrm{~ms}^{-1}}{5 \\mathrm{~s}}=2 \\mathrm{~ms}^{-2}$.</p>"
+  },
+  {
+    "id": 1514,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি পড় এবং  প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>Q. 5sec এ অতিক্রান্ত দূরত্ব-</p>",
+    "options": [
+      "50 m",
+      "100 m",
+      "125 m",
+      "150 m"
+    ],
+    "answer": "125 m",
+    "explanation": "<p>$\\begin{aligned} \\mathrm{S}=\\mathrm{ut}+\\frac{1}{2} \\mathrm{at}^2 &amp; =20 \\mathrm{~ms}^{-1} \\times 5 \\mathrm{~s}+\\frac{1}{2} \\times 2 \\mathrm{~ms}^{-2} \\times(5 \\mathrm{~s})^2 \\\\ &amp; =125 \\mathrm{~m}\\end{aligned}$</p>"
+  },
+  {
+    "id": 1515,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "পয়েস (Poise) কিসের একক?",
+    "options": [
+      "ইয়ং এর গুণাংক",
+      "পৃষ্ঠটান",
+      "সান্দ্রতা গুণাংক",
+      "সংনম্যতা"
+    ],
+    "answer": "সান্দ্রতা গুণাংক",
+    "explanation": ""
+  },
+  {
+    "id": 1516,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>কোনো তরলের ভিতর দিয়ে পড়ন্ত বস্তুর ক্ষেত্রে বেগ বনাম সময় লেখচিত্র কোনটি?</p><p><img src=\"data:image/png;base64,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\"></p>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 1517,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>একটি গোলকের ব্যাসার্ধ R = (10 ± 0.1) cm হলে এর আয়তনের শতকরা ত্রুটি কত?</p>",
+    "options": [
+      "1 %",
+      "2 %",
+      "3 %",
+      "4 %"
+    ],
+    "answer": "3 %",
+    "explanation": "<p>এখানে, $\\mathrm{R}=10 ; \\Delta \\mathrm{R}=0.1$</p><p><br></p><p>∴ আয়তনের শতকরা ত্রুটি, </p><p>$\\begin{aligned} \\frac{3 \\Delta \\mathrm{R}}{\\mathrm{R}} \\times 100 \\% &amp; =\\frac{3 \\times 0.1}{10} \\times 100 \\% \\\\ &amp; =3 \\%\\end{aligned}$</p>"
+  },
+  {
+    "id": 1518,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>মৌলিক রাশি হলো—</p><p><br/>i. তড়িৎ প্রবাহমাত্রা</p><p><br/>ii. পদার্থের পরিমাণ</p><p><br/>iii. দীপন তীব্রতা</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p><span style=\"color: rgb(32, 33, 36);\">মৌলিক রাশি হল ৭ টি । ভর, দৈর্ঘ্য, সময়, তাপমাত্রা, তড়িৎ প্রবাহ, দীপন তীব্রতা, পদার্থের পরিমাণ ।</span></p>"
+  },
+  {
+    "id": 1519,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>Y- অক্ষের সাথে $\\mathop{\\vec{r}}$ = 4î - $4\\hat k$ ভেক্টরের উৎপন্ন কোণ হবে-</p>",
+    "options": [
+      "0 °",
+      "45 °",
+      "90 °",
+      "180 °"
+    ],
+    "answer": "90 °",
+    "explanation": "<p>$j.\\overrightarrow r=j\\left|\\overrightarrow r\\right|\\cos\\theta\\\\\\cos\\theta=\\frac{j.\\overrightarrow r}{j.\\left|\\overrightarrow r\\right|}\\;\\;=\\frac{j.(4i-4k)}{j.\\left|\\overrightarrow r\\right|}\\;=\\frac0{j.\\left|\\overrightarrow r\\right|}\\\\\\theta=\\cos^{-1}(0)\\;=\\;90^0\\\\$</p>"
+  },
+  {
+    "id": 1520,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$\\mathop{|\\vec{A}}+\\mathop{\\vec{B}|}=\\mathop{|\\vec{A}}-\\mathop{\\vec{B}|}$ হলে $ \\mathop{\\vec{A}} ও \\mathop{\\vec{B}}$ এর\nমধ্যবর্তী কোণ হবে-",
+    "options": [
+      "0 °",
+      "60 °",
+      "90 °",
+      "180 °"
+    ],
+    "answer": "90 °",
+    "explanation": ""
+  },
+  {
+    "id": 1521,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>পৃথিবীর ঘূর্ণন বদ্ধ হলে বিষুব রেখায় g এর মান-</p>",
+    "options": [
+      "বৃদ্ধি পাবে",
+      "হ্রাস পাবে",
+      "একই থাকবে",
+      "শুণ্য হবে"
+    ],
+    "answer": "বৃদ্ধি পাবে",
+    "explanation": "<p>বিষুব রেখায় R এর মান কম তাই g  এর মান বেশি ।</p>"
+  },
+  {
+    "id": 1522,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "একটি আদর্শ দৃঢ় বস্তুর জন্য ইয়ং এর গুনাংক",
+    "options": [
+      "0",
+      "<p>$&nbsp;\\infty&nbsp;$</p>",
+      "1",
+      "-1"
+    ],
+    "answer": "<p>$&nbsp;\\infty&nbsp;$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 1523,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>কোনো বল কর্তৃক কৃত কাজ</p><p><br/>i. বল এবং সরণের ডটগুণন</p><p><br/>ii. ভর X ত্বরণ</p><p><br/>iii. গতিশক্তির পরিবর্তনের সমান</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  }
+]

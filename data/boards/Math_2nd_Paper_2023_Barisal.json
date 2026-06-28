@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7424,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>x<sup>2</sup>+1=0 এর একটি মূল $\\alpha&nbsp;$ হলে |$\\alpha&nbsp;$| এর মান কত ?</p>",
+    "options": [
+      "2",
+      "$\\sqrt{-1}$",
+      "$\\sqrt{2}$",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7425,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>k এর মান কত হলে x<sup>2</sup> − 5x + k = 0 এর মূল দুটি ক্রমিক সংখ্যা হবে?</p>",
+    "options": [
+      "2",
+      "6",
+      "30",
+      "0"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 7426,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>x<sup>2</sup> − y<sup>2</sup> = 18 অধিবৃত্তের ফোকাসদ্বয়ের মধ্যবর্তী দুরত্ব কত ?</p>",
+    "options": [
+      "2$\\sqrt{2}$",
+      "12",
+      "3",
+      "$\\sqrt{2}$"
+    ],
+    "answer": "12",
+    "explanation": "<p>$\\begin{aligned} &amp; \\frac{x^2}{18}-\\frac{y^2}{18}=1 \\\\ &amp; e=\\sqrt{1+\\frac{18}{18}}=\\sqrt{2}\\end{aligned}$</p><p>$\\therefore $ কোকাসদ্বয়ের মধ্যবর্তী দূরত্ব $=2 \\mathrm{ae}$ </p><p>$ =2 \\sqrt{18} \\cdot \\sqrt{2}=2 \\times 6=12 $ একক</p>"
+  },
+  {
+    "id": 7427,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>কোনো বিন্দুর পরামিতিক স্থানাংক (2cosθ,$\\sqrt{3}$sinθ)</p><p><br></p><p>Q. সঞ্চারপথটি কী নির্দেশ করে ?</p>",
+    "options": [
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "<p>$x=2 \\cos \\theta$ বা, $\\cos \\theta=\\frac{x}{2}$............(1)</p><p>এবং $y=\\sqrt{3} \\sin \\theta$ বা, $\\sin \\theta=\\frac{y}{\\sqrt{3}}$..........(2)</p><p>(1) ও (2)নং বর্গ করে যোগ</p><p>$\\frac{x^2}{2^2}+\\frac{y^2}{\\sqrt{3^2}}=\\sin ^2 \\theta+\\cos ^2 \\theta$ বা, $\\frac{x^2}{2^2}+\\frac{b^2}{\\sqrt{3^2}}=1$</p><p>সঞ্চার পথটি উপবৃত্তের সমীকরণ।</p>"
+  },
+  {
+    "id": 7428,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>কোনো বিন্দুর পরামিতিক স্থানাংক (2cosθ,$\\sqrt{3}$sinθ)</p><p><br></p><p>Q. কেন্দ্রের স্থানাংক কত?&nbsp;</p>",
+    "options": [
+      "$\\left ( 2, \\sqrt{3} \\right )$",
+      "(0, 0)",
+      "(2, 0)",
+      "\\left ( 0, \\sqrt{3} \\right )"
+    ],
+    "answer": "(0, 0)",
+    "explanation": ""
+  },
+  {
+    "id": 7429,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>$x^2 − 4x + 12y – 32 = 0$ পরাবৃত্তের-</p><p><br/>i. উপকেন্দ্র (2, -6)</p><p><br/>ii. নিয়ামকের সমীকরণ y = 6 </p><p><br/>iii. শীর্ষ বিন্দু (2, 3)</p><p><br></p><p>নিচের কোনটি সঠিক ?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7430,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "$tan^{-1}x + tan^{-1}y$ = কত? যখন (xy &gt; 1)",
+    "options": [
+      "$tan^{-1} \\frac{x+y}{1-xy}$",
+      "$tan^{-1} \\frac{x+y}{1-xy}$ - x",
+      "<p>$tan^{-1} \\frac{x+y}{1-xy}$ +$\\pi$</p>",
+      "$tan^{-1} \\frac{x+y}{1-xy}\\frac{x}{2}$"
+    ],
+    "answer": "<p>$tan^{-1} \\frac{x+y}{1-xy}$ +$\\pi$</p>",
+    "explanation": "<p>$x y&gt;1$ হলে, $\\tan ^{-1} x+\\tan ^{-1} y=\\tan ^{-1} \\frac{x+y}{1-x y}+\\pi$</p>"
+  },
+  {
+    "id": 7431,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "ভূমির 150 মিটার উঁচু একটি স্থান হতে একটি ভারী বস্তুকে ছেড়ে দেওয়া হল। ভূমিতে পতনের সময় বেগ কত হবে?",
+    "options": [
+      "29.4 মি./সে.",
+      "54.2 মি./সে.",
+      "5.53.মি./সে.",
+      "14.2 মি./সে."
+    ],
+    "answer": "54.2 মি./সে.",
+    "explanation": "<p>উচ্চতা, $h=150 \\mathrm{~m}$</p><p>পতনের সময় বেগ, $\\mathrm{v}=$ ?</p><p>$\\therefore v=\\sqrt{2 \\mathrm{gh}}=\\sqrt{2 \\times 9.8 \\times 150}=54.22 \\mathrm{~m} \\mathrm{~s}^{-1}$</p>"
+  },
+  {
+    "id": 7432,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "কোনো বিন্দুতে ক্রিয়ারত P ও Q বল দুটি তাদের লকি R বলের উভয় দিকে যথাক্রমে 30° ও 60° কোণে আনত। বলদ্বয়ের অনুপাত কত?",
+    "options": [
+      "1 : $\\sqrt{3}$",
+      "$\\sqrt{3}$ : 1",
+      "$\\frac{\\sqrt{3}}{2}$ : 1",
+      "$\\frac{1}{2} : \\sqrt{3}$"
+    ],
+    "answer": "$\\sqrt{3}$ : 1",
+    "explanation": ""
+  },
+  {
+    "id": 7433,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>2N ও 2$\\sqrt{3}$N মানের বলদ্বয় 30° কোণে ক্রিয়ারত। 2N মানের বল বরাবর বলদ্বয়ের লব্ধাংশের সমষ্টি কত?</p>",
+    "options": [
+      "4$\\sqrt{3}$ N",
+      "5N",
+      "7N",
+      "$\\sqrt{3}$ + 2N"
+    ],
+    "answer": "5N",
+    "explanation": "<p><img src=\"data:image/png;base64,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\"></p><p>2N মানের বল বরাবর বলদ্বয়ের লব্ধাংশের সমষ্টি$=2 \\cos 0^{\\circ}+2 \\cdot B \\cos 30^{\\circ}$ </p><p>$=2+2 \\sqrt{3} \\cdot \\frac{\\sqrt{3}}{2}=2+3=5 \\mathrm{~N}$</p>"
+  },
+  {
+    "id": 7434,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}$ = 1 উপবৃত্তের উপকেন্দ্রের স্থানাংক কত? (a &gt; b)",
+    "options": [
+      "$\\left ( \\pm \\sqrt{a^{2}+b^{2}},0 \\right )$",
+      "$\\left ( \\pm \\sqrt{a^{2}-b^{2}},0 \\right )$",
+      "$\\left ( \\pm ale,0 \\right )$",
+      "$\\left ( 0, \\pm ae, \\right )$"
+    ],
+    "answer": "$\\left ( \\pm \\sqrt{a^{2}-b^{2}},0 \\right )$",
+    "explanation": "<p>$e=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{\\frac{a^2-b^2}{a^2}}=\\frac{\\sqrt{a^2-b^2}}{a}$</p><p>$\\therefore$ উপকেন্দ্রদ্বয় $( \\pm \\mathrm{ae}, 0)=\\left( \\pm \\mathrm{a} \\frac{\\sqrt{\\mathrm{a}^2-\\mathrm{b}^2}}{\\mathrm{a}}, 0\\right)=\\left( \\pm \\sqrt{\\mathrm{a}^2-\\mathrm{b}^2}, 0\\right)$</p>"
+  },
+  {
+    "id": 7435,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>P ও Q (P &gt; Q) বলদ্বয়ের মধ্যবর্তী কোণ $\\alpha$ এবং এদের লব্ধি R হলে-</p><p><br/>i. P = Q হলে R = $2 \\mathrm{P} \\cos \\frac{\\alpha}{2}$</p><p><br/>ii.&nbsp;$\\alpha$ = 90° হলে $\\tan \\theta=\\frac{Q}{P}$</p><p><br/>iii. লব্ধি R, Q বলের সাথে সমকোণ উৎপন্ন করলে $\\cos  \\alpha=-\\frac{Q}{P}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7436,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "z = 3 − 4i এবং $\\sqrt{z}$ = x + iy হলে নিচের কোনটি সঠিক ?",
+    "options": [
+      "$x^{2} - y^{2}$ = 5",
+      "$x^{2} + y^{2}$ = 5",
+      "$x^{2} + y^{2}$ = 3",
+      "$x^{2} + y^{2}$ = 4"
+    ],
+    "answer": "$x^{2} + y^{2}$ = 5",
+    "explanation": "<p>$\\begin{aligned}&amp; z=3-4 i=2^2-2 \\cdot 2 \\cdot i+i^2=(2-i)^2 \\\\&amp; \\sqrt{z}= \\pm(2-i)\\end{aligned}$</p><p>বা, $x+i y= \\pm(2-i)$</p><p>$\\begin{aligned}&amp; x= \\pm 2, \\quad y= \\pm(-1) \\\\&amp; x^2+y^2=2^2+1^2 \\\\&amp; \\therefore x^2+y^2=5\\end{aligned}$</p>"
+  },
+  {
+    "id": 7437,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>যদি z = x + iy, z<sub>1</sub> = x<sub>1</sub> + iy<sub>1</sub>, z<sub>2</sub> = x<sub>2</sub> + iy<sub>2</sub>তিনটি জটিল সংখ্যা হয়, তবে-</p><p><br/>i. Re(z) ≤ |z|</p><p><br/>ii. arg(z<sub>1</sub>z<sub>2</sub>) ≤ argz<sub>1</sub> + argz<sub>2</sub></p><p><br/>iii. |z<sub>1</sub>−z<sub>2</sub>| ≥ |z<sub>1</sub>| − |z<sub>2</sub>|</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7438,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><br></p><p>P = $\\frac{1}{2}\\left (-1+\\sqrt{-3} \\right )$ একটি জটিল সংখ্যা।</p><p><br></p><p>Q. $(p = \\bar{p})^{2}$ = কত?</p>",
+    "options": [
+      "1",
+      "p",
+      "-1",
+      "$\\bar{p}$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7439,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><br></p><p>P = $\\frac{1}{2}\\left (-1+\\sqrt{-3} \\right )$ একটি জটিল সংখ্যা।</p><p><br></p><p>Q. $\\sqrt{p^{2}+\\bar{p}^{2}}$ = কত?</p>",
+    "options": [
+      "i",
+      "-i",
+      "-1",
+      "1"
+    ],
+    "answer": "i",
+    "explanation": "<p>$\\sqrt{p^2+p^2}=\\sqrt{-1}=1$</p>"
+  },
+  {
+    "id": 7440,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>x<sup>2</sup> + ax + b = 0 এবং x<sup>2</sup> + bx + a = 0 সমীকরণের একটি সাধারণ মূল থাকলে a+b = কত?</p>",
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "$\\infty $"
+    ],
+    "answer": "-1",
+    "explanation": ""
+  },
+  {
+    "id": 7441,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>একটি দ্বিঘাত সমীকরণের একটি মূল $\\sqrt{-3} + 5i^{2}$</p><p><br></p><p>Q. অপর মূলটি কত?</p>",
+    "options": [
+      "$\\sqrt{-3} - 5i^{2}$",
+      "$\\sqrt{-3} + 5i^{2}$",
+      "$-5-\\sqrt{3}i$",
+      "$5-\\sqrt{3}i$"
+    ],
+    "answer": "$-5-\\sqrt{3}i$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\alpha=-5+\\sqrt{3} i \\\\ &amp; \\beta=-5-\\sqrt{3} i\\end{aligned}$</p>"
+  },
+  {
+    "id": 7442,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>একটি দ্বিঘাত সমীকরণের একটি মূল $\\sqrt{-3} + 5i^{2}$</p><p><br></p><p>Q. দ্বিঘাত সমীকরণ কোনটি?</p>",
+    "options": [
+      "x$^{2}$ − 9 x + 20 = 0",
+      "x$^{2}$ + 9 x − 28 = 0",
+      "x$^{2}$ − 10 x − 28 = 0",
+      "x$^{2}$ + 10 x + 28 = 0"
+    ],
+    "answer": "x$^{2}$ + 10 x + 28 = 0",
+    "explanation": ""
+  },
+  {
+    "id": 7443,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "$cos^{-1}\\left \\{ cos\\left ( -\\frac{\\pi}{3} \\right ) \\right \\}$ = কত?",
+    "options": [
+      "$-\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{2\\pi}{3}$",
+      "$-\\frac{2\\pi}{3}$"
+    ],
+    "answer": "$\\frac{\\pi}{3}$",
+    "explanation": "<p>সঠিক উত্তর ’ক’ ও ’খ’</p>"
+  },
+  {
+    "id": 7444,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>বিপরীত বৃত্তীয় ফাংশনের ক্ষেত্রে—</p><p><br/><br/>i. sin−1(−x) = −sin−1 x(−1 ≤ x ≤ 1)</p><p><br/><br/>ii. sin−1$\\left ( sin\\frac{3\\pi}{4} \\right )=\\frac{3\\pi}{4}$</p><p><br/><br/>iii. sec−1(−x) = $\\pi$ − sec−1 x(|x| ≥ 1)</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7445,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "sinθ = sin$\\alpha$ হলে θ এর মান কত? (যেখানে $\\alpha$ একটি ধ্রুবক কোণ)",
+    "options": [
+      "$n\\pi+(-1)^{n}\\alpha,n\\epsilon\\mathbb{Z}$",
+      "$n\\pi\\pm (-1)^{n}\\alpha,n\\epsilon\\mathbb{Z}$",
+      "$n\\pi\\pm\\alpha,n\\epsilon\\mathbb{Z}$",
+      "$n\\pi-(-1)^{n}\\alpha,n\\epsilon\\mathbb{Z}$"
+    ],
+    "answer": "$n\\pi+(-1)^{n}\\alpha,n\\epsilon\\mathbb{Z}$",
+    "explanation": "<p>$\\sin \\theta=\\sin \\alpha$</p><p>বা, $\\theta=n \\pi+(-1)^n \\alpha, n \\in \\mathbb{Z}$.</p>"
+  },
+  {
+    "id": 7446,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "sinθ + sinθ&nbsp;এর বৃহত্তম মান কত?",
+    "options": [
+      "$+\\sqrt{2}+1$",
+      "$\\sqrt{2}$",
+      "1",
+      "2"
+    ],
+    "answer": "$\\sqrt{2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7447,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "একটি প্রক্ষেপকের বৃহত্তম পাল্লা আনুভূমিক পাল্লার দ্বিগুণ হলে প্রক্ষেপ কোণ কত?",
+    "options": [
+      "30° অথবা 150°",
+      "15° অথবা 75°",
+      "15° অথবা 60°",
+      "30° অথবা 75°"
+    ],
+    "answer": "15° অথবা 75°",
+    "explanation": ""
+  },
+  {
+    "id": 7448,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2023",
+    "board": "Barisal",
+    "question": "<p>একজন খেলোয়াড় পেনাল্টি শট করার জন্য $14ms^{-1}$ বেগে একটি বল শট করলেন এবং তা 10 মিটার দূরে কোনো রকমে বারের উপর দিয়ে আনুভূমিকভাবে অতিক্রম করল। বল শট করার সময় প্রক্ষেপ কোণ কত ছিল?</p>",
+    "options": [
+      "30°",
+      "45°",
+      "40°",
+      "60°"
+    ],
+    "answer": "45°",
+    "explanation": "<p>$\\therefore 10 \\mathrm{~m}$ দূরে বারের উপর আনুভূমিকভাবে অতিক্রম করে</p><p>$\\therefore$ আনুভูমিক পাল্লা = $\\mathbf{2 0}$</p><p>বা. $\\frac{u^2 \\sin 2 \\alpha}{\\mathrm{g}}=20$</p><p>বা, $\\sin 2 \\alpha=\\frac{20 \\mathrm{~g}}{\\mathbf{u}^2}$</p><p>বা, $\\sin 2 \\alpha=\\frac{20 \\times g}{14^2}=\\frac{20 \\times 9.8}{14^2}$</p><p>বা, $\\sin 2 \\alpha=1$</p><p>বা, $2 \\alpha=90^{\\circ}$</p><p>$\\therefore \\alpha=45^{\\circ}$</p>"
+  }
+]

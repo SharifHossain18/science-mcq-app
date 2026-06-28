@@ -2318,37 +2318,5 @@
     ],
     "answer": "$8.67$",
     "explanation": "<p>$ \\triangle \\mathrm{ABC}$ এর ক্ষেত্রফল </p><p>$ =\\frac{1}{2} \\times \\mathrm{AB} \\times \\mathrm{AC} \\times \\sin \\angle \\mathrm{A} $</p><p>$ =\\frac{1}{2} \\times 5 \\times 4 \\times \\sin 120^{\\circ} \\quad\\left[\\because \\angle \\mathrm{A}=120^{\\circ}\\right] $</p><p>$ =10 \\times \\frac{\\sqrt{3}}{2} $</p><p>$ =5 \\sqrt{3}=8.660254=8.67 .$ (প্রায়)</p>"
-  },
-  {
-    "id": 7048,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
-    "year": "2017",
-    "board": "Dinajpur",
-    "question": "<p>নিচের কোনটি সঠিক?</p>",
-    "options": [
-      "$\\sin(-\\theta)=\\sin\\theta$",
-      "$\\cos(-\\theta)=\\cos\\theta$",
-      "$\\tan(-\\theta)=\\tan\\theta$",
-      "$\\cot(-\\theta)=\\cot\\theta$"
-    ],
-    "answer": "$\\cos(-\\theta)=\\cos\\theta$",
-    "explanation": ""
-  },
-  {
-    "id": 6924,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
-    "year": "2017",
-    "board": "Jessore",
-    "question": "<p>$\\triangle ABC$ এ নিচের কোনটি সঠিক নয়?</p>",
-    "options": [
-      "$a\\;=\\;b\\;\\cos\\;B\\;+\\;c\\;\\cos\\;C$",
-      "$a\\;=\\;b\\;\\cos\\;C\\;+\\;c\\;\\cos\\;B$",
-      "$b\\;=\\;c\\;\\cos\\;A\\;+\\;a\\;\\cos\\;C$",
-      "$b^2=c^2+a^2-2\\;ca\\;cosB$"
-    ],
-    "answer": "$a\\;=\\;b\\;\\cos\\;B\\;+\\;c\\;\\cos\\;C$",
-    "explanation": ""
   }
 ]

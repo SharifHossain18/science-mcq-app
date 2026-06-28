@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6274,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$x^2 + y^2 = 25$ বৃত্তের (4,3) বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ কোনটি?",
+    "options": [
+      "3x + 4 y - 25 = 0",
+      "3x + 4y + 25 = 0",
+      "4x + 3y - 25 = 0",
+      "4x + 3y + 25 = 0"
+    ],
+    "answer": "4x + 3y - 25 = 0",
+    "explanation": "<p>$x^2+y^2=r^2$ বৃত্তের $\\left(x_1, y_1\\right)$ বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ, </p><p>$\\mathrm{xx}_1+\\mathrm{yy}_1=\\mathrm{r}^2$</p><p>$\\therefore x^2+y^2=25$ বৃত্তের $(4,3)$বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ, </p><p>$\\begin{aligned} 4 x+3 y &amp; =25 \\\\ \\therefore \\quad 4 x+3 y &amp; -25=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 6275,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$r^2+ 2r sin\\theta = 3$ বৃত্তটির কেন্দ্র -",
+    "options": [
+      "(1,0)",
+      "(0,1)",
+      "(-1, 0)",
+      "(0,-1)"
+    ],
+    "answer": "(0,-1)",
+    "explanation": "<p>$r^2+2 r \\sin \\theta=3$</p><p>বা, $x^2+y^2+2 y=3$</p><p>বা, $x^2+y^2+2 y+1=4$</p><p>বা, $x^2+(y+1)^2=2^2$</p><p>$\\therefore$  ইহার কেন্দ্রের স্থানাঙ্ক $(0,-1)$.</p>"
+  },
+  {
+    "id": 6276,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$y = sin^2x^2$ হলে $dy\\over dx$ এর মান কত?",
+    "options": [
+      "$2sinx^2$",
+      "$2x sin x^2$",
+      "$2x sin 2x^2$",
+      "$2x^2 sin 2x^2$"
+    ],
+    "answer": "$2x sin 2x^2$",
+    "explanation": ""
+  },
+  {
+    "id": 6277,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$y= (x^2 + 1 ) tan^{-1} x - x$ হলে $dy\\over dx$ =?",
+    "options": [
+      "$2 tan^{-1} x$",
+      "$2x tan^{-1} x$",
+      "$x tan^{-1} x$",
+      "$2x\\over 1+x^2$"
+    ],
+    "answer": "$2x tan^{-1} x$",
+    "explanation": "<p>$\\begin{aligned} y= &amp; \\left(x^2+1\\right) \\tan ^{-1} x-x \\\\ \\frac{d y}{d x} &amp; =\\left(x^2+1\\right) \\frac{d}{d x}\\left(\\tan ^{-1} x\\right)+\\tan ^{-1} x \\frac{d}{d x}\\left(x^2+1\\right)-\\frac{d}{d x}(x) \\\\ &amp; =\\frac{x^2+1}{x^2+1}+2 x \\tan ^{-1} x-1=1+2 x \\tan ^{-1} x-1=2 x \\tan ^{-1} x .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6278,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "x=a বিন্দুতে f(x) ফাংশন ক্রমবর্ধমান হবে যদি—",
+    "options": [
+      "f'(a)=0",
+      "f'(a) ",
+      "$f' (a) \\neq 0$",
+      "f'(a)>0"
+    ],
+    "answer": "f'(a)>0",
+    "explanation": "<p>$x=a$ বিন্দুতে $f(x)$ ক্রমবর্ধমান হবে যদি  $f^{\\prime}(a)&gt;0$ হয়।</p>"
+  },
+  {
+    "id": 6279,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "A, B ও C ম্যাট্রিক্সগুলোর মাত্রা যথাক্রমে $4 \\times 3, 3 \\times 4$ এবং $7\\times 4$ হলে, $(B + A^T). C^T$ ম্যাট্রিক্সের মাত্রা কত?",
+    "options": [
+      "$3 \\times 4$",
+      "$4 \\times 3$",
+      "$3 \\times 7$",
+      "$4 \\times 7$"
+    ],
+    "answer": "$3 \\times 7$",
+    "explanation": ""
+  },
+  {
+    "id": 6280,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$y = mx + c$ সরলরেখাটি $x^2 + y^2 = 25$ বৃত্তকে স্পর্শ করার শর্ত -",
+    "options": [
+      "$c= -25\\sqrt {1+m^2}$",
+      "$c= 25\\sqrt {1+m^2}$",
+      "<p>$c= \\pm 5\\sqrt {1+m^2}$</p>",
+      "<p>$c= \\pm 5\\sqrt {1-m^2}$</p>"
+    ],
+    "answer": "<p>$c= \\pm 5\\sqrt {1+m^2}$</p>",
+    "explanation": "<p> y= mx+c সরলরেখাটি x<sup>2</sup>+ y<sup>2</sup>=5<sup>2</sup> বৃত্তকে স্পর্শ করবে যদি</p><p>$c:= \\pm r \\sqrt{m^2+1}= \\pm 5 \\sqrt{m^2+1}$.</p>"
+  },
+  {
+    "id": 6281,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$\\left[\\begin{matrix}2&amp;-4\\\\-4&amp;-8\\\\\\end{matrix}\\right]$ একটি - </p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. ব্যতিক্রমী ম্যাট্রিক্স </p><p><br/>iii. প্রতিসম ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6282,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$y - x = 4$ এবং $y = x$ সরলরেখাদ্বয়ের মধ্যবর্তী লম্ব দূরত্ব কত একক?",
+    "options": [
+      "4",
+      "2",
+      "$4\\sqrt 2$",
+      "$2\\sqrt 2$"
+    ],
+    "answer": "$2\\sqrt 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6283,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$2sin^215°$ এর মান কত?",
+    "options": [
+      "$2-\\sqrt 3\\over 2$",
+      "$\\sqrt 3+1\\over 2$",
+      "$\\sqrt 3+-1\\over 2$",
+      "$2+\\sqrt 3\\over 2$"
+    ],
+    "answer": "$2-\\sqrt 3\\over 2$",
+    "explanation": "<p>$2 \\sin ^2 15^{\\circ}=1-\\cos \\left(2 \\times 15^{\\circ}\\right)=1-\\cos 30^{\\circ}=1-\\frac{\\sqrt{3}}{2}=\\frac{2-\\sqrt{3}}{2}$.</p>"
+  },
+  {
+    "id": 6284,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "x + y - 4 = 0 সরলরেখাটি অক্ষদ্বয়ের সাথে যে ত্রিভুজ তৈরি করে তার ক্ষেত্রফল কত বর্গ একক?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "answer": "8",
+    "explanation": "<p>$\\begin{aligned}&amp; x+y-4=0 \\\\&amp; \\text { বা, } x+y=4 \\\\&amp; \\therefore \\frac{x}{4}+\\frac{y}{4}=1\\end{aligned}$</p><p> অক্ষদ্বয়ের সাথে গঠিত ত্রিভুজের ক্ষেত্রফল $=\\frac{1}{2} \\times 4 \\times 4$ বর্গ একক </p><p> =8 বর্গ একক।</p>"
+  },
+  {
+    "id": 6285,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$f(x) = \\sqrt x$ হলে -</p><p><br/><br/>i. $f'(x)={1\\over 2\\sqrt x}$</p><p><br/><br/>ii. $\\int ^1_0f(x)dx={2\\over 3}$</p><p><br/><br/>iii. $\\int {sec^2x\\over f(tan x)}dx={1\\over 2}\\sqrt {tan x}+c$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) $f^{\\prime}(\\mathrm{x})=\\frac{\\mathrm{d}}{\\mathrm{dx}}(\\sqrt{\\mathrm{x}})=\\frac{1}{2 \\sqrt{\\mathrm{x}}}$</p><p>(ii) $\\int \\sqrt{\\mathrm{x}} \\mathrm{dx}=\\frac{2}{3}\\left[\\mathrm{x}^{\\frac{3}{2}}\\right]_0^1=\\frac{2}{3}$</p><p>(iii) $\\int \\frac{\\sec ^2 x}{\\sqrt{\\tan x}} d x=2 \\sqrt{\\tan x}+c$</p><p>সুতরাং, $\\mathrm{i}$ ও ii সঠিক।</p>"
+  },
+  {
+    "id": 6286,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\int ^{\\pi \\over 2}_0sin ^8\\theta cos \\theta d\\theta $ এর মান-",
+    "options": [
+      "$1\\over 9$",
+      "$1\\over 8$",
+      "$1\\over 7$",
+      "0"
+    ],
+    "answer": "$1\\over 9$",
+    "explanation": ""
+  },
+  {
+    "id": 6287,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "যদি A একটি বর্ণ ম্যাট্রিক্স এবং $A^2=l$ হয়, তবে A কে বলে—",
+    "options": [
+      "শূন্যঘাতি ম্যাট্রিক্স",
+      "অভেদঘাতি ম্যাট্রিক্স",
+      "শূন্য ম্যাট্রিক্স",
+      "বিপ্রতিসম ম্যাট্রিক্স"
+    ],
+    "answer": "অভেদঘাতি ম্যাট্রিক্স",
+    "explanation": ""
+  },
+  {
+    "id": 6288,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\left[\\begin{matrix}1&amp;-2&amp;3\\\\0&amp;1&amp;-2\\\\-1&amp;0&amp;-2\\\\\\end{matrix}\\right]$ নির্ণায়কটির (1, 2) তম ভুক্তির সহগুণক কোনটি?",
+    "options": [
+      "4",
+      "2",
+      "-2",
+      "-4"
+    ],
+    "answer": "2",
+    "explanation": "<p>(1.2) তম ভুক্তির সহগুনক $=-\\left|\\begin{array}{rr}0 &amp; -2 \\\\ -1 &amp; 2\\end{array}\\right|=-(0-2)=2$.</p>"
+  },
+  {
+    "id": 6289,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "কোনো বিন্দুর কার্তেসীয় স্থানাংক (−1,√3) হলে, বিন্দুটির পোলার স্থানাংক কোনটি?",
+    "options": [
+      "$(2, {2\\pi \\over 3})$",
+      "$(2, -{\\pi \\over 3})$",
+      "$(2, {\\pi \\over 3})$",
+      "$(4, {2\\pi \\over 3})$"
+    ],
+    "answer": "$(2, {2\\pi \\over 3})$",
+    "explanation": ""
+  },
+  {
+    "id": 6290,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "যে কোনো ত্রিভুজের বাহু a, b, c এবং এর ক্ষেত্রফল $\\Delta $ হলে, sinA= কত?",
+    "options": [
+      "$2\\Delta\\over ca$",
+      "$2\\Delta\\over bc$",
+      "$2\\Delta\\over ab$",
+      "$2\\Delta\\over abc$"
+    ],
+    "answer": "$2\\Delta\\over bc$",
+    "explanation": "<p>$\\Delta=\\frac{1}{2} b c \\sin A$</p><p>বা, $\\sin A=\\frac{2 \\Delta}{b c}$.</p>"
+  },
+  {
+    "id": 6291,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>$\\triangle ABC$ এ cos A = sin B - cos C হলে, $\\angle A$ এর মান কোনটি?</p>",
+    "options": [
+      "$\\pi \\over 4$",
+      "$\\pi \\over 3$",
+      "$\\pi \\over 5$",
+      "$\\pi \\over 2$"
+    ],
+    "answer": "$\\pi \\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6292,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>$3x -4y-12=0$ সরলরেখাটি x ও y অক্ষকে যথাক্রমে A ও B বিন্দুতে ছেদ করে।</p><p><br></p><p>Q. B বিন্দুর স্থানাংক কত?</p>",
+    "options": [
+      "(4,0)",
+      "(0,3)",
+      "(0,-3)",
+      "(0,4)"
+    ],
+    "answer": "(0,-3)",
+    "explanation": "<p>$3 x-4 y-12=0$</p><p>বা. $\\frac{x}{4}+\\frac{y}{-3}=1$</p><p>$\\therefore$ রেখাটি $\\mathrm{y}$ অক্ষকে $\\mathrm{B}(0,-3)$ বিন্দুতে ছেদ করে ।</p>"
+  },
+  {
+    "id": 6293,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্মোক্ত প্রশ্নের উত্তর দাও:</p><p>$3x -4y-12=0$ সরলরেখাটি x ও y অক্ষকে যথাক্রমে A ও B বিন্দুতে ছেদ করে।</p><p><br></p><p>Q. উদ্দীপকের সরলরেখার উপর লম্ব এবং (1, 2) বিশ্বগামী সরলরেখার সমীকরণ কোনটি?</p>",
+    "options": [
+      "4x+ 3y-10=0",
+      "4x+3y-12=0",
+      "3x-4y+12=0",
+      "4x-3y-10=0"
+    ],
+    "answer": "4x+ 3y-10=0",
+    "explanation": "<p>$3 x-4 y-12=0$ এর লম্বরেখার সমীকরণ,</p><p>$4 \\mathrm{x}+3 \\mathrm{y}+\\mathrm{k}=0$</p><p>যা $(1,2)$ বিন্দুগামী ।</p><p>$\\therefore 4+6+k=0$</p><p>বা, $\\mathrm{k}=-10$</p><p>(i)নং এ $\\mathrm{k}$ এর মান বসিয়ে পাই,</p><p>$4 x+3 y-10=0 .$</p>"
+  },
+  {
+    "id": 6294,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "f(x) = x (2a - x) এর সর্বোচ্চ মান কোনটি?",
+    "options": [
+      "a",
+      "2a",
+      "$a^2$",
+      "$2a^2$"
+    ],
+    "answer": "$a^2$",
+    "explanation": "<p>$\\begin{aligned}&amp; f(x)=2 a x-x^2 \\\\&amp; f^{\\prime}(x)=2 a-2 x \\\\&amp; f^{\\prime \\prime}(x)=-2\\end{aligned}$</p><p>লঘু ও গুরুমানের জন্য, $f^{\\prime}(x)=0$ বা, $2 a-2 x=0$ বা, $x=a$</p><p>$x=a \\text { হলে, } f^{\\prime \\prime}(x)=-2&lt;0 \\text {. }$</p><p>$\\therefore$ সর্বেোচ্চ মান  বিদ্যমান।</p><p>$\\therefore$ সর্বেোচ্চ মান $=2 a \\cdot a-a^2=2 \\mathrm{a}^2-\\mathrm{a}^2=\\mathrm{a}^2$.</p>"
+  },
+  {
+    "id": 6295,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$x^2+y^2 - 2x+ 6y- 6=0$ বৃত্তটি দ্বারা x-অক্ষের খণ্ডিত অংশের দৈর্ঘ্য কত একক?",
+    "options": [
+      "$2\\sqrt 2$",
+      "$2\\sqrt 7$",
+      "$2\\sqrt {10}$",
+      "$2\\sqrt {15}$"
+    ],
+    "answer": "$2\\sqrt 7$",
+    "explanation": "<p>$x^2+y^2-2 x+6 y-6=0$</p><p>বৃত্তটি দ্বারা $x$-অক্ষের খণ্ডিত অংশের দৈর্ঘ্য $=2 \\sqrt{(-1)^2-(-6)}=2 \\sqrt{7}$.</p>"
+  },
+  {
+    "id": 6296,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\int ^1_0{dx\\over \\sqrt {2x-x^2}}$=?",
+    "options": [
+      "$\\pi \\over 2$",
+      "$-{\\pi \\over 2}$",
+      "$\\pi $",
+      "$-\\pi $"
+    ],
+    "answer": "$\\pi \\over 2$",
+    "explanation": "<p>$\\begin{aligned} \\int_0^1 \\frac{d x-}{\\sqrt{1-\\left(1-2 x+x^2\\right)}} &amp; =\\int_0^1 \\frac{d x}{\\sqrt{1^2-(x-1)^2}} \\\\ &amp; =\\left[\\sin ^{-1}(x-1)\\right]_0^1 \\\\ &amp; =\\sin ^{-1} 0-\\sin ^{-1}(-1) \\\\ &amp; =0+\\frac{\\pi}{2}=\\frac{\\pi}{2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6297,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "$\\int^1_0{e^{5x}+e^{3x}\\over e^x+e^{-x}}dx$ এর মান কোনটি?",
+    "options": [
+      "$4(e^4-1)$",
+      "${1\\over 5}(e^5-1)$",
+      "$5(e^5-1)$",
+      "${1\\over 4}(e^4-1)$"
+    ],
+    "answer": "${1\\over 4}(e^4-1)$",
+    "explanation": "<p>$\\int_0^1 \\frac{e^{5 x}+e^{3 x}}{e^x+e^{-x}} d x=\\int_0^1 \\frac{e^{3 x}\\left(e^{2 x}+1\\right)}{e^{-x}\\left(e^{2 x}+1\\right)} d x=\\int_0^1 e^{4 x} d x=\\left[\\frac{e^{4 x}}{4}\\right]_0^1=\\frac{1}{4}\\left(e^4-1\\right)$</p>"
+  },
+  {
+    "id": 6298,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Jessore",
+    "question": "<p>cos2A=</p><p><br/>i. $- 2sin^2A+1$</p><p><br/>ii. $2cos ^2A-1$</p><p><br/>iii. $1-tan^2A\\over sec^2A$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  }
+]

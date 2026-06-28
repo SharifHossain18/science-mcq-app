@@ -2432,6 +2432,22 @@
     "explanation": ""
   },
   {
+    "id": 2051,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>কোষের অভ্যন্তরীণ রোধ- </p><p><br/><br/>i. কোষে ব্যবহৃত তরলের উপর নির্ভর করে </p><p><br/><br/>ii. কম হলে অধিক তড়িৎ প্রবাহ পাওয়া যাবে </p><p><br/><br/>iii. সুপ্ত বিভব সৃষ্টি করে </p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>(i) কোষের অভ্যন্তরীণ রোধ কোষের তরল, মেরুদ্বয়ের দূরত্ব এবং মেরুদ্বয়ের আকারের উপর নির্ভর করে।</p><p>(ii) অভ্যন্তরীণ রোধের মানের উপর তড়িৎপ্রবাহ নির্ভর করে। $I=\\frac{E}{R+r}$</p><p>(iii) সুপ্তবিভব বা হারানো ভোল্ট, $\\mathrm{V}^{\\prime}=\\mathbf{I r}$.</p>"
+  },
+  {
     "id": 2006,
     "subject": "Physics 2nd Paper",
     "chapter": "Chapter 3: চলতড়িৎ",

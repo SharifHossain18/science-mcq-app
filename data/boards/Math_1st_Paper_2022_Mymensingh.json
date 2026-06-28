@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6399,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$tan\\theta ={1\\over 2}$ হলে $sin2\\theta $ এর মান কোনটি?",
+    "options": [
+      "$3\\over 4$",
+      "$4\\over 3$",
+      "$5\\over 4$",
+      "$4\\over 5$"
+    ],
+    "answer": "$4\\over 5$",
+    "explanation": "<p>$\\begin{aligned} \\sin 2 \\theta &amp; =\\frac{2 \\tan \\theta}{1+\\tan ^2 \\theta} \\\\ &amp; =\\frac{2 \\cdot \\frac{1}{2}}{1+\\left(\\frac{1}{2}\\right)^2}\\left[\\because \\tan \\theta=\\frac{1}{2}\\right] \\\\ &amp; =\\frac{1}{1+\\frac{1}{4}}=\\frac{1}{5}=1 \\times \\frac{4}{5}=\\frac{4}{5} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6400,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "y = lnx বক্ররেখাটি x=1 বিন্দুতে ঢাল -",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "explanation": "<p>$ y=\\ln x $</p><p>বা, $ \\frac{d y}{d x}=\\frac{1}{x} $</p><p>$ \\therefore x=1 $ বিন্দুতে ঢাল $=\\frac{1}{1}=1.$ </p>"
+  },
+  {
+    "id": 6401,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$lim_{x\\to 0}{x(sin2x+sin3x)\\over sinx}$ এর মান - ",
+    "options": [
+      "-2",
+      "-1",
+      "0",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\begin{aligned} &amp; \\lim _{x \\rightarrow 0} \\frac{x(\\sin 2 x+\\sin 3 x)}{\\sin x} \\\\ &amp; =\\lim _{x \\rightarrow 0} \\frac{\\sin 2 x+\\sin 3 x}{\\frac{\\sin x}{x}}=\\frac{\\lim _{x \\rightarrow 0}(\\sin 2 x+\\sin 3 x)}{\\lim _{x \\rightarrow 0}\\left(\\frac{\\sin x}{x}\\right)}=\\frac{0+0}{1}=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 6402,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "${d\\over dx}(2^x)$ = কত?",
+    "options": [
+      "$x2^{x-1}$",
+      "$x2^{x+1}$",
+      "2ln x",
+      "$2^xln2$"
+    ],
+    "answer": "$2^xln2$",
+    "explanation": "<p>$\\frac{d}{d x}\\left(2^x\\right)=2^x \\ln 2$</p>"
+  },
+  {
+    "id": 6403,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$lim_{x\\to 0}\\{2ln (1+x)-ln(1-x)\\}$ এর মান -",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "$\\infty $"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6404,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "${d\\over dx}(lnx)$ এর যোগজ - ",
+    "options": [
+      "$-{1\\over x}+c$",
+      "$-lnx+c$",
+      "${1\\over x}+c$",
+      "ln x +c"
+    ],
+    "answer": "ln x +c",
+    "explanation": "<p>$\\int \\frac{d}{d x}(\\ln x) d x=\\ln x+c$</p>"
+  },
+  {
+    "id": 6405,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$\\int {cosx\\over \\sqrt {sin x}}dx$ = কত?",
+    "options": [
+      "$2\\sqrt {cos x}+c$",
+      "$2\\sqrt {sin x}+c$",
+      "${1\\over 2}\\sqrt {cos x}+c$",
+      "${1\\over 2}\\sqrt {sin x}+c$"
+    ],
+    "answer": "$2\\sqrt {sin x}+c$",
+    "explanation": "<p>ধরি, $\\sin x=z$</p><p>বা, $\\cos \\mathrm{xdx}=\\mathrm{dz}$</p><p><br></p><p>$\\begin{aligned} &amp; \\int \\frac{\\cos x}{\\sqrt{\\sin x}} d x \\\\ &amp; =\\int \\frac{d z}{\\sqrt{z}}=2 \\sqrt{z}+c=2 \\sqrt{\\sin x}+c\\end{aligned}$</p>"
+  },
+  {
+    "id": 6406,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$x^2+y^2 =1$ বৃত্ত দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রেফল—",
+    "options": [
+      "$\\pi \\over 3$",
+      "$\\pi \\over 2$",
+      "$\\pi $",
+      "$2\\pi $"
+    ],
+    "answer": "$\\pi $",
+    "explanation": "<p>$x^2+y^2=1^2$</p><p>$\\therefore$ বৃত্তের ব্যাসার্ধ, $r=1$</p><p>$\\therefore$ আবদ্ধ বৃত্তের ক্ষেত্রফল $=\\pi r^2=\\pi \\cdot 1^2=\\pi$.</p>"
+  },
+  {
+    "id": 6407,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$\\int ^1_0{dx\\over x^2+1}$ এর মান -</p>",
+    "options": [
+      "$\\pi \\over 2$",
+      "$\\pi \\over 3$",
+      "$\\pi \\over 4$",
+      "$\\pi \\over 6$"
+    ],
+    "answer": "$\\pi \\over 4$",
+    "explanation": "<p>$\\begin{aligned} \\int_0^1 \\frac{d x}{x^2+1} &amp; =\\left[\\tan ^{-1} x\\right]_0^1 \\\\ &amp; =\\tan ^{-1} 1-\\tan ^{-1} 0=\\frac{\\pi}{4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6408,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$A^2=A$ হলে A ম্যাট্রিক্সটি - ",
+    "options": [
+      "সমঘাতী",
+      "ব্যতিক্রমী",
+      "প্রতিসম",
+      "অব্যতিক্রমী"
+    ],
+    "answer": "সমঘাতী",
+    "explanation": ""
+  },
+  {
+    "id": 6409,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$\\left[\\begin{matrix}3&amp;-3&amp;0\\\\5&amp;4&amp;3\\\\3&amp;-2&amp;-4\\\\\\end{matrix}\\right]$একটি নির্ণায়ক।</p><p>Q. (2,1) তম ভুক্তির অনুরাশি -</p>",
+    "options": [
+      "-41",
+      "-12",
+      "12",
+      "41"
+    ],
+    "answer": "12",
+    "explanation": "<p>$(2,1)$ তম ভুক্তির অনুরাশি $=\\left|\\begin{array}{rr}-3 &amp; 0 \\\\ -2 &amp; -4\\end{array}\\right|=12+0=12$</p>"
+  },
+  {
+    "id": 6410,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$\\left[\\begin{matrix}3&amp;-3&amp;0\\\\5&amp;4&amp;3\\\\3&amp;-2&amp;-4\\\\\\end{matrix}\\right]$একটি নির্ণায়ক।</p><p>Q. (3,2) তম ভুক্তির সহগুণক-</p>",
+    "options": [
+      "-12",
+      "-9",
+      "9",
+      "12"
+    ],
+    "answer": "-9",
+    "explanation": "<p>$(3,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}3 &amp; 0 \\\\ 5 &amp; 3\\end{array}\\right|=-(9-0)=-9$.</p>"
+  },
+  {
+    "id": 6411,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>A,B,C ম্যাট্রিক্সত্রয়ের মাত্রা যথাক্রমে $3\\times 4, 4\\times 5$ ও $5\\times 2$ হলে (AB)C এর মান </p>",
+    "options": [
+      "$4\\times 5$",
+      "$3\\times 2$",
+      "$2\\times 3$",
+      "$3\\times 5$"
+    ],
+    "answer": "$3\\times 2$",
+    "explanation": "<p>A B  এর মাত্রা $=(3 \\times 4) \\cdot(4 \\times 5)=3 \\times 5$</p><p>$ \\quad(A B) C $এর মাত্রা$=(3 \\times 5) \\cdot(5 \\times 2)=3 \\times 2 . $ </p>"
+  },
+  {
+    "id": 6412,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$\\left[\\begin{matrix}2&amp;-1&amp;3\\\\-1&amp;4&amp;5\\\\3&amp;5&amp;1\\\\\\end{matrix}\\right]$  ম্যাট্রিক্সটি - </p><p><br></p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. প্রতিসম ম্যাট্রিক্স</p><p><br/>iii. অব্যাতিক্রমী ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6413,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "(-3, -4) ও (6,2) বিন্দুদ্বয়ের সংযোগ রেখাটিকে y - অক্ষরেখা যে অনুপাতে অন্তর্বিভক্ত করে, তা হলো-",
+    "options": [
+      "2:1",
+      "1:2",
+      "2:3",
+      "3:2"
+    ],
+    "answer": "1:2",
+    "explanation": "<p>$y$ অক্ষ $(-3,-4)$ ও $(6,2)$  বিন্দুদ্বয়ের সংযোগ রেখাকে $m_1: m_2$</p><p>অনুপাতে অন্তর্বিভক্ত করে।</p><p>$\\therefore$ বিন্দুটির ভুজ $=\\frac{m_1 \\times 6+m_2(-3)}{m_1+m_2}=0$</p><p>বা, $6 m_1-3 m_2=0$</p><p>বা, $6 m_1=3 m_2$</p><p>বা, $\\mathrm{m}_1: \\mathrm{m}_2=1: 2$.</p>"
+  },
+  {
+    "id": 6414,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$3x-7y-21=0 $সরলরেখাটি - </p><p><br/>i. $+{3\\over 7}$ঢালবিশিষ্ট</p><p><br/>ii. (-7,-6) বিন্দুগামী</p><p><br/>iii. x অক্ষ হতে 7একক দৈর্ঘ্য খন্ডিত করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6415,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "$x+\\sqrt 3y+2=0$ রেখাটি অক্ষের ঋনাত্মক দিকের সাথে যে কোণ উৎপন্ন করে তা হলো - ",
+    "options": [
+      "$180^0$",
+      "$150^0$",
+      "$60^0$",
+      "$30^0$"
+    ],
+    "answer": "$150^0$",
+    "explanation": ""
+  },
+  {
+    "id": 6416,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$y\\pm x = 0$ রেখাদ্বয়ের মধ্যবর্তী কোণ-</p>",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": "90°",
+    "explanation": "<p>$y+x=0$ </p><p>বা, $y=-x$</p><p>$\\therefore$ ঢাল, $m_1=-1$</p><p><br></p><p>$y-x=0$</p><p>বা, $y=x$</p><p>$\\therefore$ ঢাল, $\\mathrm{m}_2=1$</p><p><br></p><p>রেখাদ্বয়ের মধ্যবর্তী কোণ $\\theta$ হলে,</p><p>$\\tan \\theta= \\pm \\frac{-1-1}{1+1(-1)}$</p><p>বা, $\\tan \\theta= \\pm \\frac{-2}{0}$</p><p>বা, $\\tan \\theta=\\infty=\\tan 90$</p><p>$\\therefore \\theta=90^{\\circ}$</p>"
+  },
+  {
+    "id": 6417,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "r-4=0 পোলার সমীকরণটি নির্দেশ করে—",
+    "options": [
+      "পরাবৃত্ত",
+      "বৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>$r-4=0$</p><p>বা, $r=4$</p><p>বা, $\\sqrt{x^2+y^2}=4$</p><p>$\\therefore x^2+y^2=16$, যা বৃত্তের সমীকরণ।</p>"
+  },
+  {
+    "id": 6418,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের সাহায্যে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$x^2+y^2-2x-2y+1=0$একটি বৃত্তের সমীকরণ।</p><p>Q. বৃত্তটি x অক্ষকে যে বিন্দুতে স্পর্শ করে তা হলো -</p>",
+    "options": [
+      "(1,0)",
+      "(0,1)",
+      "(-1,1)",
+      "(1,1)"
+    ],
+    "answer": "(1,0)",
+    "explanation": "<p>বৃত্তের সমীকরণে $y=0$ বসিয়ে পাই,</p><p>$x^2-2 x+1=0$</p><p>বা, $(x-1)^2=0$ বা, $x-1=0 \\quad \\therefore x=1$</p><p>$\\therefore$ স্পর্শ বিন্দুর স্থানাঙ্ক $(1,0)$.</p>"
+  },
+  {
+    "id": 6419,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের সাহায্যে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$x^2+y^2-2x-2y+1=0$একটি বৃত্তের সমীকরণ।</p><p>Q. বৃত্তটির ব্যাসার্ধ - </p>",
+    "options": [
+      "$1\\over 2$",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": "<p>বৃত্তের ব্যাসার্ধ $=\\sqrt{1^2+1^2-1}=1$.</p>"
+  },
+  {
+    "id": 6420,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$x^2+y^2-4x-6y-7=0$ বৃত্তের (-2,1) &nbsp;বিন্দুতে স্পর্শকের সমীকরণ -</p>",
+    "options": [
+      "x+2y+3=0",
+      "2x-y+3=0",
+      "x-2y+3=0",
+      "2x+y+3=0"
+    ],
+    "answer": "2x+y+3=0",
+    "explanation": ""
+  },
+  {
+    "id": 6421,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "যে কোনো ত্রিভুজ ABC এর ক্ষেত্রে নিচের কোনটি সঠিক?",
+    "options": [
+      "c=a cos B + b cos A",
+      "b = c sin A + a sin C",
+      "$A={1\\over 2}ab cos C$",
+      "$cosA ={b^2+c^2+a^2\\over 2bc}$"
+    ],
+    "answer": "c=a cos B + b cos A",
+    "explanation": ""
+  },
+  {
+    "id": 6422,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$\\triangle \\mathbf{A B C}$ এর ক্ষেত্রে $c^2+a^2-b^2-c a=0$ হলে $\\angle B$ এর পরিমান-</p>",
+    "options": [
+      "$30^{\\circ}$",
+      "$45^{\\circ}$",
+      "$60^{\\circ}$",
+      "$120^{\\circ}$"
+    ],
+    "answer": "$60^{\\circ}$",
+    "explanation": "<p>এখানে, $c^2+a^2-b^2-c a=0$</p><p>বা, $c^2+a^2-b^2=c a$</p><p>বা, $\\frac{c^2+a^2-b^2}{2 c a}=\\frac{1}{2}$</p><p>বা, $\\cos B=\\cos 60^{\\circ}$</p><p>$\\therefore B=60^{\\circ}$.</p>"
+  },
+  {
+    "id": 6423,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Mymensingh",
+    "question": "<p>$\\sin ^4 \\theta-\\cos ^4 \\theta$ সমান-</p>",
+    "options": [
+      "$1+2 \\sin ^2 \\theta$",
+      "$1+2 \\cos ^2 \\theta$",
+      "$2 \\sin ^2 \\theta-1$",
+      "$2 \\cos ^2 \\theta-1$"
+    ],
+    "answer": "$2 \\sin ^2 \\theta-1$",
+    "explanation": "<p>$\\begin{aligned} \\sin ^4 \\theta-\\cos ^4 \\theta &amp; =\\left(\\sin ^2 \\theta+\\cos ^2 \\theta\\right)\\left(\\sin ^2 \\theta-\\cos ^2 \\theta\\right) \\\\ &amp; =1 .\\left(\\sin ^2 \\theta-1+\\sin ^2 \\theta\\right)=2 \\sin ^2 \\theta-1 .\\end{aligned}$</p>"
+  }
+]

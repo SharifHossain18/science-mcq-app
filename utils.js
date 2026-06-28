@@ -178,7 +178,7 @@ const UTILS = {
           <button class="setup-btn setup-btn-secondary" id="settings-close" style="flex:1;">বাতিল</button>
         </div>
         <div style="margin-top:24px;padding-top:16px;border-top:1px solid var(--border-color);text-align:center;display:flex;flex-direction:column;gap:8px;">
-          <button class="setup-btn setup-btn-secondary" id="settings-download" style="padding:10px;font-size:0.85rem;"><i class="fa-solid fa-download"></i> সব ডাটা ডাউনলোড করুন</button>
+          <button class="setup-btn setup-btn-secondary" id="settings-download" style="padding:10px;font-size:0.85rem;"><i class="fa-solid fa-circle-info"></i> অফলাইন ব্যবহার সম্পর্কে</button>
           <button class="setup-btn setup-btn-danger" id="settings-reset" style="padding:10px;font-size:0.85rem;">অ্যাপ রিসেট করুন</button>
         </div>
       </div>
@@ -413,24 +413,7 @@ const UTILS = {
   },
 
   showDataDownloadFlow() {
-    if (this._downloading) return;
-    this._downloading = true;
-    const overlay = this.showDownloadOverlay();
-    this.startDataDownload((progress) => {
-      this.updateDownloadOverlay(progress);
-      if (progress.done) {
-        setTimeout(() => overlay.remove(), 2000);
-        this._downloading = false;
-        const banner = document.getElementById('data-download-banner');
-        if (banner) banner.style.display = 'none';
-        this.showToast('সমস্ত ডাটা ডাউনলোড সম্পন্ন!', 'success', 5000);
-      }
-      if (progress.error) {
-        this._downloading = false;
-      }
-    }).catch(() => {
-      this._downloading = false;
-    });
+    this.showToast('প্রতি অধ্যায়ের পাশে ডাউনলোড বাটন ব্যবহার করুন', 'info');
   },
 
   // ── Install PWA Prompt ──
@@ -474,86 +457,65 @@ const UTILS = {
     window.addEventListener('appinstalled', () => { banner.style.display = 'none'; });
   },
 
-  // ── Offline Data Pre-cache ──
-  DATA_PRECACHE_FLAG: 'lumen_data_precached',
-  DATA_RESUME_KEY: 'lumen_dl_index',
+  // ── Per-Item Download Management ──
+  DOWNLOADED_KEY: 'lumen_downloaded',
 
-  isDataFullyCached() {
-    return localStorage.getItem(this.DATA_PRECACHE_FLAG) === 'true';
+  getDownloadedMap() {
+    try { return JSON.parse(localStorage.getItem(this.DOWNLOADED_KEY) || '{}'); } catch { return {}; }
   },
 
-  markDataCached() {
-    localStorage.setItem(this.DATA_PRECACHE_FLAG, 'true');
-    localStorage.removeItem(this.DATA_RESUME_KEY);
+  saveDownloadedMap(map) {
+    try { localStorage.setItem(this.DOWNLOADED_KEY, JSON.stringify(map)); } catch {}
   },
 
-  clearDataCacheFlag() {
-    localStorage.removeItem(this.DATA_PRECACHE_FLAG);
-    localStorage.removeItem(this.DATA_RESUME_KEY);
+  isItemDownloaded(key) {
+    return !!this.getDownloadedMap()[key];
   },
 
-  async startDataDownload(onProgress) {
-    const resp = await fetch('./data/precache.json');
-    const files = await resp.json();
-    const total = files.length;
-    let startIdx = 0;
-    const saved = localStorage.getItem(this.DATA_RESUME_KEY);
-    if (saved) startIdx = parseInt(saved, 10);
+  markItemDownloaded(key) {
+    const map = this.getDownloadedMap();
+    map[key] = true;
+    this.saveDownloadedMap(map);
+  },
 
-    for (let i = startIdx; i < total; i++) {
-      const file = files[i];
-      try {
-        const r = await fetch(file);
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        localStorage.setItem(this.DATA_RESUME_KEY, String(i + 1));
-        onProgress({ percent: Math.round(((i + 1) / total) * 100), file, current: i + 1, total });
-      } catch (e) {
-        console.warn('Download failed, will retry:', file, e);
-        onProgress({ percent: Math.round((i / total) * 100), file, current: i, total, error: true });
-        await new Promise(r => setTimeout(r, 1000));
-        i--;
-        continue;
+  unmarkItemDownloaded(key) {
+    const map = this.getDownloadedMap();
+    delete map[key];
+    this.saveDownloadedMap(map);
+  },
+
+  async downloadAndCache(url) {
+    const clean = url.split('?')[0];
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      if ('caches' in window) {
+        const cache = await caches.open('lumen-data-v5');
+        await cache.put(clean, resp.clone());
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage({ type: 'CACHE_DATA', urls: [clean] });
+        }
+      }
+      return true;
+    } catch (e) {
+      console.warn('Download failed:', url, e);
+      return false;
+    }
+  },
+
+  async removeCachedFile(url) {
+    const clean = url.split('?')[0];
+    if ('caches' in window) {
+      const cache = await caches.open('lumen-data-v5');
+      await cache.delete(clean);
+      if (navigator.serviceWorker.controller) {
+        navigator.serviceWorker.controller.postMessage({ type: 'DELETE_CACHED_DATA', url: clean });
       }
     }
-    this.markDataCached();
-    onProgress({ percent: 100, file: '', current: total, total, done: true });
   },
 
-  showDownloadOverlay() {
-    const existing = document.getElementById('lumen-dl-overlay');
-    if (existing) return existing;
-
-    const overlay = document.createElement('div');
-    overlay.id = 'lumen-dl-overlay';
-    overlay.innerHTML = `
-      <div class="loading-overlay" style="display:flex;position:fixed;top:0;left:0;right:0;bottom:0;z-index:99999;background:var(--bg-main,#0f172a);flex-direction:column;align-items:center;justify-content:center;padding:24px;">
-        <div class="loading-spinner" style="width:48px;height:48px;border:4px solid var(--border-color,#334155);border-top-color:var(--primary,#3b82f6);border-radius:50%;animation:spin 0.8s linear infinite;margin-bottom:20px;"></div>
-        <div style="font-size:1.2rem;font-weight:700;color:var(--text-main,#f8fafc);margin-bottom:6px;">ডাটা ডাউনলোড হচ্ছে...</div>
-        <div style="font-size:0.85rem;color:var(--text-muted,#94a3b8);margin-bottom:20px;text-align:center;padding:0 16px;" id="dl-subtitle">প্রথমবার ব্যবহারের জন্য সমস্ত ডাটা ডাউনলোড হচ্ছে। এটি কিছু সময় নিতে পারে। অনুগ্রহ করে সংযোগ চালু রাখুন।</div>
-        <div class="loading-progress-bar" style="width:80%;max-width:400px;height:10px;background:var(--border-color,#334155);border-radius:8px;overflow:hidden;margin-bottom:10px;">
-          <div id="dl-progress-fill" style="width:0%;height:100%;background:linear-gradient(90deg,var(--primary,#3b82f6),var(--primary-hover,#2563eb));border-radius:8px;transition:width 0.3s;"></div>
-        </div>
-        <div style="font-size:0.85rem;color:var(--text-muted,#94a3b8);" id="dl-status">০%</div>
-        <div style="font-size:0.75rem;color:var(--text-muted,#94a3b8);margin-top:4px;" id="dl-filename"></div>
-      </div>
-    `;
-    document.body.appendChild(overlay);
-    return overlay;
-  },
-
-  updateDownloadOverlay(progress) {
-    const fill = document.getElementById('dl-progress-fill');
-    const status = document.getElementById('dl-status');
-    const fn = document.getElementById('dl-filename');
-    const sub = document.getElementById('dl-subtitle');
-    if (fill) fill.style.width = progress.percent + '%';
-    if (status) status.textContent = progress.percent + '% (' + progress.current + '/' + progress.total + ')';
-    if (fn) {
-      const parts = progress.file.split('/');
-      fn.textContent = progress.done ? 'সম্পন্ন!' : (parts.pop() || '');
-    }
-    if (sub && progress.done) sub.textContent = 'সমস্ত ডাটা ডাউনলোড সম্পন্ন! আপনি এখন অফলাইনে ব্যবহার করতে পারেন।';
-    if (progress.error && fn) fn.textContent = 'পুনরায় চেষ্টা করা হচ্ছে: ' + (progress.file.split('/').pop() || '');
+  isOnline() {
+    return navigator.onLine;
   },
 
   // ── Install PWA Prompt ──

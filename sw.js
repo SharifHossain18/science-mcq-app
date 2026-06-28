@@ -1,6 +1,5 @@
-const CACHE_NAME = 'lumen-v59';
-const DATA_CACHE = 'lumen-data-v4';
-const GITHUB_RAW = 'https://raw.githubusercontent.com/SharifHossain18/science-mcq-app/main';
+const CACHE_NAME = 'lumen-v60';
+const DATA_CACHE = 'lumen-data-v5';
 
 const APP_SHELL = [
     './',
@@ -63,8 +62,20 @@ function isCDN(url) {
 }
 
 self.addEventListener('message', event => {
-    if (event.data && event.data.type === 'SKIP_WAITING') {
+    if (!event.data) return;
+    const { type, url, urls } = event.data;
+    if (type === 'SKIP_WAITING') {
         self.skipWaiting();
+    }
+    if (type === 'CACHE_DATA' && Array.isArray(urls)) {
+        caches.open(DATA_CACHE).then(cache =>
+            Promise.allSettled(urls.map(u =>
+                fetch(u).then(r => { if (r.ok) cache.put(stripQuery(u), r.clone()); }).catch(() => {})
+            ))
+        );
+    }
+    if (type === 'DELETE_CACHED_DATA' && url) {
+        caches.open(DATA_CACHE).then(cache => cache.delete(stripQuery(url)));
     }
 });
 
@@ -98,27 +109,17 @@ self.addEventListener('fetch', event => {
     const reqUrl = event.request.url;
 
     if (isDataRequest(reqUrl)) {
-        const clean = stripQuery(reqUrl);
         event.respondWith(
             caches.open(DATA_CACHE).then(cache =>
                 fetch(event.request).then(resp => {
-                    if (resp.ok) { cache.put(clean, resp.clone()); return resp; }
+                    if (resp.ok) return resp;
                     throw new Error('HTTP ' + resp.status);
                 }).catch(() =>
-                    cache.match(clean).then(cached => {
+                    cache.match(stripQuery(reqUrl)).then(cached => {
                         if (cached) return cached;
-                        const path = new URL(clean).pathname;
-                        const ghPath = path.replace(/^\/[^\/]+\//, '');
-                        return fetch(GITHUB_RAW + '/' + ghPath).then(ghResp => {
-                            if (ghResp.ok) { cache.put(clean, ghResp.clone()); return ghResp; }
-                            return new Response(JSON.stringify([]), {
-                                headers: { 'Content-Type': 'application/json' }
-                            });
-                        }).catch(() =>
-                            new Response(JSON.stringify([]), {
-                                headers: { 'Content-Type': 'application/json' }
-                            })
-                        );
+                        return new Response(JSON.stringify([]), {
+                            headers: { 'Content-Type': 'application/json' }
+                        });
                     })
                 )
             )

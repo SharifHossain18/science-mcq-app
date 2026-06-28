@@ -1,0 +1,402 @@
+[
+  {
+    "id": 4149,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "বন্ধন কোণের সঠিকক্রম কোনটি?",
+    "options": [
+      "<p>CH<sub>4</sub>&gt;NH<sub>3</sub>&gt; H<sub>2</sub>O &gt; H<sub>2</sub>S</p>",
+      "<p>NH<sub>3</sub>&gt; H<sub>2</sub>O&gt; H<sub>2</sub>S&gt; CH<sub>4</sub></p>",
+      "<p>NH<sub>3</sub>&gt; H<sub>2</sub>O&gt; H<sub>2</sub>S</p>",
+      "<p>H<sub>2</sub>S&gt; H<sub>2</sub>O&gt; NH<sub>3</sub>&gt; CH<sub>4</sub></p>"
+    ],
+    "answer": "<p>CH<sub>4</sub>&gt;NH<sub>3</sub>&gt; H<sub>2</sub>O &gt; H<sub>2</sub>S</p>",
+    "explanation": ""
+  },
+  {
+    "id": 4150,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>বেগ ধ্রুবকের মান-</p><p><br/>i.   বিক্রিয়া ক্রম নির্ভর</p><p><br/>ii.  সক্রিয়ন শক্তি নির্ভর</p><p><br/>iii. তাপমাত্রা নির্ভর</p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 4151,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>2AB<sub>2</sub>(g) + B<sub>2</sub>(g) ⇌ 2AB<sub>3</sub>(g); ΔH = -ve</p><p>Q. সাম্য বিক্রিয়াটিতে-</p><p><br/>i. K<sub>p</sub> এর একক atm</p><p><br/>ii. K<sub>c </sub>= K<sub>p </sub>RT</p><p><br/>iii. তাপমাত্রা পরিবর্তনে K<sub>p </sub>এর মান পরিবর্তিত হয়</p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "<p>$2 \\mathrm{AB}_2+\\mathrm{B}_2 \\rightleftharpoons 2 \\mathrm{AB}_3$</p><p>(i) ভুল। কারণ K<sub>p</sub> এর একক হবে $\\mathrm{atm}^{\\Delta \\mathrm{n}}$। এখানে, $\\Delta \\mathrm{n}=2-3=-1$</p><p>অর্থাৎ, Kp এর একক = atm<sup>-1</sup></p><p>(ii)বিক্রিয়াটির K<sub>p</sub> = K<sub>c</sub>. (RT) <sup>$\\Delta \\mathrm{n}$</sup></p><p>বা, K<sub>p</sub> = K<sub>c</sub>. (RT)<sup>-</sup>¹</p><p>বা, K<sub>C</sub> = K<sub>p</sub>. RT</p><p>(iii) তাপমাত্রার পরিবর্তনে এ বিক্রিয়ার K<sub>p</sub> মানের পরিবর্তন ঘটে।</p>"
+  },
+  {
+    "id": 4152,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>2AB<sub>2</sub>(g) + B<sub>2</sub>(g) ⇌ 2AB<sub>3</sub>(g); ΔH = -ve</p><p>Q. সাম্য বিক্রিয়াটিতে AB<sub>3</sub>(g) এর উৎপাদন বৃদ্ধি পাবে-</p><p><br/>i. তাপমাত্রা বৃদ্ধি করলে</p><p><br/>ii. চাপ বৃদ্ধি করলে</p><p><br/>iii. বিক্রিয়া পাত্র থেকে AB<sub>3</sub>(g) অপসারণ করলে</p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 4153,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "নিচের কোন দ্রবণের pH > 7?",
+    "options": [
+      "<p>FeCl<sub>3</sub></p>",
+      "<p>Na<sub>2</sub>CO<sub>3</sub></p>",
+      "NaCl",
+      "<p>NH<sub>4</sub>Cl</p>"
+    ],
+    "answer": "<p>Na<sub>2</sub>CO<sub>3</sub></p>",
+    "explanation": ""
+  },
+  {
+    "id": 4154,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>একটি বাফার দ্রবণে 0.2 মোল মনোবেসিক এসিড\n(pK<sub>a</sub> = 4.8) এবং 0.02 মোল উক্ত এসিডের\nপটাশিয়াম লবণ আছে। এর pH কোনটি?</p>",
+    "options": [
+      "2.8",
+      "3.8",
+      "4.8",
+      "5.8"
+    ],
+    "answer": "3.8",
+    "explanation": "<p>এখানে, pk<sub>a</sub> = 4.8</p><p>[এসিড] = 0.2</p><p>[লবণ] = 0.02</p><p><br></p><p>$\\begin{aligned} \\mathrm{pH} &amp; =\\mathrm{pk}_{\\mathrm{a}}+\\log \\frac{[\\text { লবণ }]}{\\text { [এসিড] }} \\\\ &amp; =4.8+\\log \\left(\\frac{0.02}{0.2}\\right)=4.8-1=3.8\\end{aligned}$</p>"
+  },
+  {
+    "id": 4155,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>সেমিমাইক্রো পদ্ধতিতে লবণ বিশ্লেষণে H<sub>2</sub>S এর পরিবর্তে নিচের কোনটি ব্যবহৃত হয়?</p>",
+    "options": [
+      "<p>C<sub>2</sub>H<sub>5</sub>CSNH<sub>2</sub></p>",
+      "<p>H<sub>2</sub>SO<sub>4</sub></p>",
+      "<p>CH<sub>3</sub>CSNH<sub>2</sub></p>",
+      "<p>C<sub>6</sub>H<sub>5</sub>CSNH<sub>2</sub></p>"
+    ],
+    "answer": "<p>CH<sub>3</sub>CSNH<sub>2</sub></p>",
+    "explanation": ""
+  },
+  {
+    "id": 4156,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "নিচের কোন সেটটি তরলের আয়তন পরিমাপের জন্য উপযুক্ত নহে?",
+    "options": [
+      "পিপেট ও মিজারিং সিলিন্ডার",
+      "পিপেট ও ব্যুরেট",
+      "পিপেট ও বিকার",
+      "ওয়াশ বোতল ও ফানেল"
+    ],
+    "answer": "ওয়াশ বোতল ও ফানেল",
+    "explanation": ""
+  },
+  {
+    "id": 4157,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "স্প্যাচুলা কোন কাজে ব্যবহৃত হয়?",
+    "options": [
+      "ভর পরিমাপে",
+      "ঘনমাত্রা পরিমাপে",
+      "আয়তন পরিমাপে",
+      "তাপমাত্রা পরিমাপে"
+    ],
+    "answer": "ভর পরিমাপে",
+    "explanation": ""
+  },
+  {
+    "id": 4158,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>আর্দ্র কেলাস শুদ্ধকরণে কোন কাঁচযন্ত্র ব্যবহৃত হয়?</p>",
+    "options": [
+      "পৃথকীকরণ ফানেল",
+      "ফিউম হুড",
+      "ক্যালরিমিটার",
+      "ডেসিকেটর"
+    ],
+    "answer": "ডেসিকেটর",
+    "explanation": ""
+  },
+  {
+    "id": 4159,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "4-ডিজিট ব্যালেন্সের সূক্ষ্মতা কত?",
+    "options": [
+      "&plusmn;0.01",
+      "&plusmn;0.001",
+      "&plusmn;0.0001",
+      "&plusmn;0.00001"
+    ],
+    "answer": "&plusmn;0.0001",
+    "explanation": ""
+  },
+  {
+    "id": 4160,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>মাইক্রো অ্যানালাইসিস পদ্ধতি হলো-</p><p><br/>i. HPLC</p><p><br/>ii. AAS</p><p><br/>iii. NMR</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 4161,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>25°C তাপমাত্রায় Ca(OH)<sub>2</sub> এর K<sub>sp</sub> = 3.2 × 10<sup>-14 </sup>হলে দ্রবণের pH মান কত?</p>",
+    "options": [
+      "4.4",
+      "4.7",
+      "9.6",
+      "13.5"
+    ],
+    "answer": "9.6",
+    "explanation": "<p>$Ca(OH)_2+aq\\underset{S}{\\rightleftharpoons Ca^{2+}}\\underset{2S}{2OH^-}$</p><p>$\\begin{aligned} &amp; \\therefore \\mathrm{K}_{\\mathrm{SP}}=\\mathrm{S} \\times(2 \\mathrm{~S})^2 \\\\ &amp; \\text { বা, } 4 \\mathrm{~S}^3=3.2 \\times 10^{-14}\\end{aligned}$</p><p>বা, $S^3=\\frac{3.2 \\times 10^{-14}}{4}=8 \\times 10^{-15}$</p><p>$\\therefore S=\\sqrt{8 \\times 10^{-15}}=2.0 \\times 10^{-5}$</p><p>$\\therefore \\mathrm{OH}^{-}$আয়নের ঘনমাত্রা</p><p>$\\left[\\mathrm{OH}^{-}\\right]=2 \\times 2.0 \\times 10^{-5}=4 \\times 10^{-5}$</p><p>সুতরাং$\\begin{aligned} \\mathrm{pOH} &amp; =-\\log \\left[\\mathrm{OH}^{-}\\right] \\\\ &amp; =-\\log \\left(4 \\times 10^{-5}\\right)=4.4\\end{aligned}$</p><p>সুতরাং, $\\mathrm{pH}=14-4.4$ = 9.60</p>"
+  },
+  {
+    "id": 4162,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "ডেসিমোলার মিথানয়িক এসিডের বিয়োজন মাত্রা 10 % হলে এর pH মান কত?",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "answer": "2",
+    "explanation": "<p>এখানে, $\\alpha$ = 10% = 0.1</p><p>C = 0.1 M (ডেসিমোলার)</p><p>[H<sup>+</sup>] = $\\alpha$ × C = 0.1 × 0.1 = 0.01 M</p><p>$\\therefore$ pH = -log[H<sup>+</sup>] = -log (0.01) = 2</p>"
+  },
+  {
+    "id": 4163,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>সিরকা হলো-\n</p><p><br/>i. অ্যাসিটিক এসিডের 6- 10 % জলীয় দ্রবণ\n</p><p><br/>ii. খাদ্যের pH এর সমতা বজায় রাখে\n</p><p><br/>iii. ফুড প্রিজারভেটিভ\n</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>সিরকা বা ভিনেগার হলো-</p><p>(i) অ্যাসিটিক এসিড (CH<sub>3</sub>COOH) এর 6 – 10% জলীয় দ্রবণ</p><p>(ii) খাদ্যের pH সমতা বজায় রাখে</p><p>(iii) ফুড প্রিজারভেটিভ বা খাদ্য সংরক্ষক হিসাবে কাজ করে।</p>"
+  },
+  {
+    "id": 4164,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>ট্যালকম পাউডারে পিচ্ছিলকারক হিসাবে ব্যবহৃত হয়—</p><p><br/><br/>i. জিংক স্টিয়ারেট</p><p><br/><br/>ii. ম্যাগনেসিয়াম স্টিয়ারেট</p><p><br/><br/>iii. ম্যাগনেসিয়াম সিলিকেট</p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "<p>i, ii ও iii</p>"
+    ],
+    "answer": "<p>i, ii ও iii</p>",
+    "explanation": ""
+  },
+  {
+    "id": 4165,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "নিচের কোন বাফার দ্রবণ মানবদেহের রক্তের pH নিয়ন্ত্রণ করে না?",
+    "options": [
+      "অ্যাসিটেট বাফার",
+      "প্রোটিন বাফার",
+      "ফসফেট বাফার।",
+      "কার্বোনেট বাফার"
+    ],
+    "answer": "অ্যাসিটেট বাফার",
+    "explanation": ""
+  },
+  {
+    "id": 4166,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>অবিশুদ্ধ বেনজয়িক এসিডকে বিশোধন করার পদ্ধতির নাম কী?</p>",
+    "options": [
+      "আংশিক পাতন",
+      "বাম্প পাতন",
+      "ঊর্ধ্বপাতন",
+      "নিম্ন চাপ পাতন"
+    ],
+    "answer": "ঊর্ধ্বপাতন",
+    "explanation": ""
+  },
+  {
+    "id": 4167,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>আয়নীকরণ বিভব, ইলেকট্রন আসক্তি ও তড়িৎ ঋণাত্মকতার উপর প্রভাব বিস্তারকারী নিয়ামকসমূহ হলো—</p><p><br/>i.    বহিঃস্থ ইলেকট্রন বিন্যাস</p><p><br/>ii.   আচ্ছাদন প্রভাব</p><p><br/>iii.  পারমাণবিক সংখ্যা</p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 4168,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "কোনটি অবস্থান্তর মৌল নহে?",
+    "options": [
+      "V",
+      "Cr",
+      "Fe",
+      "Zn"
+    ],
+    "answer": "Zn",
+    "explanation": ""
+  },
+  {
+    "id": 4169,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>IF<sub>7</sub>এর ক্ষেত্রে বা প্রযোজ্য-\n</p><p><br/>i.   আকৃতি পঞ্চভূজীয় দ্বি-পিরামিড\n</p><p><br/>ii. I -এর জারণমান - 1\n</p><p><br/>iii. Sp<sup>3</sup>d<sup>3</sup> সংকরণ ঘটে\n</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i",
+      "i ও iii",
+      "iii",
+      "ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>IF<sub>7</sub> এর ক্ষেত্রে-</p><p>(i) এটি পঞ্চভুজীয় দ্বি-পিরামিড</p><p>(ii) I এর জারণ মান + 7</p><p>(iii) যৌগটিতে sp³d³ সংকরণ ঘটে।</p>"
+  },
+  {
+    "id": 4170,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>নিচের কোন গ্যাসের জ্বালানী ক্ষমতা সবচেয়ে বেশি?</p>",
+    "options": [
+      "<p>CH<sub>4</sub></p>",
+      "<p>C<sub>2</sub>H<sub>6</sub></p>",
+      "<p>C<sub>3</sub>H<sub>8</sub></p>",
+      "<p>C<sub>4</sub>H<sub>10</sub></p>"
+    ],
+    "answer": "<p>CH<sub>4</sub></p>",
+    "explanation": ""
+  },
+  {
+    "id": 4171,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>এন্টি অক্সিডেন্টের কাজ হলো-</p><p><br/>i. জারণ-ক্রিয়াকে মন্থর করা</p><p><br/>ii. তাপমাত্রা নিয়ন্ত্রণ করা</p><p><br/>iii. পানি শোষণ করা</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "<p>i</p>",
+      "<p>ii</p>",
+      "<p>i ও iii</p>",
+      "<p>ii ও iii</p>"
+    ],
+    "answer": "<p>i</p>",
+    "explanation": ""
+  },
+  {
+    "id": 4172,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>কোনটি অতিরিক্ত NH₃ দ্রবণে দ্রবণীয়?</p>",
+    "options": [
+      "<p>Cu<sup>2+</sup></p>",
+      "<p>Fe<sup>3+ </sup></p>",
+      "<p>Zn<sup>2+</sup></p>",
+      "<p>Ca<sup>2+</sup></p>"
+    ],
+    "answer": "<p>Cu<sup>2+</sup></p>",
+    "explanation": ""
+  },
+  {
+    "id": 4173,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>HNO<sub>3</sub> ও KOH উভয়ের সাথে বিক্রিয়া করে-</p><p><br/><br/>i. BeO</p><p><br/><br/>ii. ZnO</p><p><br/><br/>iii. Na<sub>2</sub>O<sub>2</sub></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "<p>i ও ii</p>",
+      "<p>ii ও iii</p>",
+      "<p>i ও iii</p>",
+      "<p>i, ii ও iii</p>"
+    ],
+    "answer": "<p>i, ii ও iii</p>",
+    "explanation": "<p><br></p>"
+  }
+]

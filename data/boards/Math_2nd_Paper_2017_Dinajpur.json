@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8348,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$3y^2-30y+5x+55=0$ কণিকের উপকেন্দ্রের স্থানাঙ্ক কোনটি?",
+    "options": [
+      "$({-53\\over 12},5)$",
+      "$({-43\\over 12},5)$",
+      "$({43\\over 12},5)$",
+      "$({53\\over 12},5)$"
+    ],
+    "answer": "$({43\\over 12},5)$",
+    "explanation": ""
+  },
+  {
+    "id": 8349,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$({a\\over x}+x)^{13}$ এর বিস্তারে ৬তম ও ৭তম পদের সহগ সমান হলে a এর মান কত?</p>",
+    "options": [
+      "$4\\over 3$",
+      "1",
+      "$\\pm 1$",
+      "$3\\over 4$"
+    ],
+    "answer": "$4\\over 3$",
+    "explanation": "<p>এখানে, 6-তম পদ $={ }^{13} \\mathrm{C}_5 \\cdot\\left(\\frac{\\mathrm{a}}{\\mathrm{x}}\\right)^{13-5} \\cdot \\mathrm{x}^5={ }^{13} \\mathrm{C}_5 \\cdot \\mathrm{a}^8 \\cdot \\mathrm{x}^{-3}$</p><p>7-তম পদ $={ }^{13} \\mathrm{C}_6 \\cdot\\left(\\frac{a}{x}\\right)^{13-6} \\cdot x^6 $</p><p>$ ={ }^{13} C_6 \\cdot a^7 \\cdot x^{-1}$</p><p>শর্তমতে, ${ }^{13} \\mathrm{C}_5 \\mathrm{a}^8={ }^{13} \\mathrm{C}_6 \\mathrm{a}^7$</p><p>বা, $\\frac{a^8}{a^7}={ }^{13} C_6 C_5$ </p><p>বা, $a=\\frac{1716}{1287} $</p><p>$\\therefore a=\\frac{4}{3}$</p><p><br></p>"
+  },
+  {
+    "id": 8350,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$y^2-2(x+3)^2=18$ কণিকের নিয়ামকদ্বয়ের দূরত্ব কোনটি?",
+    "options": [
+      "$4\\sqrt 3$",
+      "$4\\sqrt 2$",
+      "$3\\sqrt 2$",
+      "$2\\sqrt 3$"
+    ],
+    "answer": "$4\\sqrt 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8351,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "${1\\over \\omega ^{2015}}+{1\\over \\omega ^{2016}}+{1\\over \\omega ^{2017}}$ এর মান কত?",
+    "options": [
+      "$-2\\omega^2$",
+      "$-2\\omega$",
+      "0",
+      "3"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\begin{aligned} \\frac{1}{w^{2015}} &amp; +\\frac{1}{w^{2016}}+\\frac{1}{w^{2017}} \\\\ &amp; =\\frac{1}{\\left(w^3\\right)^{678} \\cdot w^3}+\\frac{1}{\\left(w^3\\right)^{672}}+\\frac{1}{\\left(w^3\\right)^{672} \\cdot w} \\\\ &amp; =\\frac{1}{1 \\cdot w^2}+\\frac{1}{1}+\\frac{1}{1 \\cdot w}=\\frac{1+w^2+w}{w^2}=\\frac{0}{w^2}=0\\end{aligned}$</p>"
+  },
+  {
+    "id": 8352,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$ {(x-3)^2\\over 3}+{(y+1)^2\\over 4}=1$ উপবৃত্তের -</p><p><br/>i. র্শীষের একটি স্থানাঙ্ক (3,1)</p><p><br/>ii. ক্ষুদ্রাক্ষের দৈর্ঘ্য 6</p><p><br/>iii. একটি উপকেন্দ্রিক লম্বের সমীকরণ y + 2 = 0</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 8353,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p>$y=sin^{-1}{\\sqrt 3\\over 2}+cos^{-1}x$ সমীকরণের- </p><p><br></p><p>Q. $y=90^0$ হলে, x এর মান কোনটি?</p>",
+    "options": [
+      "$1\\over 2$",
+      "$1\\over \\sqrt 2$",
+      "$\\sqrt 3\\over 2$",
+      "$2\\over \\sqrt 3$"
+    ],
+    "answer": "$\\sqrt 3\\over 2$",
+    "explanation": "<p>$y=sin^{-1}\\frac{\\sqrt3}2+cos^{-1}x\\\\y=90^\\circ\\\\90^\\circ=sin^{-1}\\frac{\\sqrt3}2+cos^{-1}x\\\\\\Rightarrow cos^{-1}x=90^\\circ-sin^{-1}\\frac{\\sqrt3}2\\\\\\Rightarrow x=cos\\left(90^\\circ-sin^{-1}\\frac{\\sqrt3}2\\right)\\\\\\Rightarrow x=\\sin\\left(\\sin^{-1}\\frac{\\sqrt3}2\\right)\\\\x=\\frac{\\sqrt3}2$</p>"
+  },
+  {
+    "id": 8354,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p>$y=sin^{-1}{\\sqrt 3\\over 2}+cos^{-1}x$ সমীকরণের- </p><p><br></p><p>Q. $x={3\\sqrt 3\\over \\sqrt {31}}$ হলে, y -এর মান কােনটি?</p>",
+    "options": [
+      "$tan^{-1}{5\\sqrt 3\\over -7}$",
+      "$tan^{-1}{11\\over\\sqrt 3 }$",
+      "$tan^{-1}{-\\sqrt 3\\over 11}$",
+      "$tan^{-1}{7\\over 5\\sqrt 3}$"
+    ],
+    "answer": "$tan^{-1}{11\\over\\sqrt 3 }$",
+    "explanation": ""
+  },
+  {
+    "id": 8355,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$sin2\\theta +3sin\\theta=0$ হলে, $\\theta$ এর মান কােনটি?",
+    "options": [
+      "$(2 n+1) \\pi$",
+      "$(4 n+1) \\frac{\\pi}{2}$",
+      "$(2 n+1) \\frac{\\pi}{2}$",
+      "$\\mathrm{n} \\pi$"
+    ],
+    "answer": "$\\mathrm{n} \\pi$",
+    "explanation": ""
+  },
+  {
+    "id": 8356,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>কোনো বিন্দুতে ক্রিয়ারত $2+2\\sqrt 2$N মানের দুইটি সমান বলের লব্ধি বল $4+4\\sqrt 2$N হলে, তাদের অর্ন্তভুক্ত কোণ কত?</p>",
+    "options": [
+      "$0^0$",
+      "$45^0$",
+      "$90^0$",
+      "$180^0$"
+    ],
+    "answer": "$0^0$",
+    "explanation": "<p>$R^2=P^2+Q^2+2PQ\\;\\cos\\left(\\alpha\\right)\\\\\\Rightarrow\\left(4+4\\sqrt2\\right)^2=\\left(2+2\\sqrt2\\right)^2+\\left(2+2\\sqrt2\\right)^2+2.\\left(2+2\\sqrt2\\right)^2.\\;\\cos\\left(\\alpha\\right)\\\\\\Rightarrow48+32\\sqrt2=12+8\\sqrt2+12+8\\sqrt2+\\left(24+16\\sqrt2\\right).\\;\\cos\\left(\\alpha\\right)\\\\\\Rightarrow\\left(24+16\\sqrt2\\right).\\;\\cos\\left(\\alpha\\right)=48-24+32\\sqrt2-16\\sqrt2\\\\\\Rightarrow\\;\\cos\\left(\\alpha\\right)=\\frac{24+16\\sqrt2}{24+16\\sqrt2}=1\\\\\\Rightarrow\\;\\cos\\left(\\alpha\\right)=\\cos\\left(0^\\circ\\right)\\\\\\Rightarrow\\alpha=0^\\circ$</p>"
+  },
+  {
+    "id": 8357,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "কোনো জড় বস্তুর উপর A ও B বিন্দুতে যথাক্রমে 42N ও 24N মানের দুইটি অসদৃশ্য সমান্তরাল বল কার্যরত। যদি BA এর \nবর্ধিতাংশের উপর C বিন্দুতে তাদের লব্ধির ক্রিয়াবিন্দু কার্যরত হয়, তবে AC ও BC এর অনুপাত কোনটি?",
+    "options": [
+      "7 : 6",
+      "7 : 4",
+      "6 : 7",
+      "4 : 7"
+    ],
+    "answer": "4 : 7",
+    "explanation": ""
+  },
+  {
+    "id": 8358,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "একটি শূণ্য কূপে একটি পাথর টুকরা ফেলার 4 সেকেন্ড পরে উহার তলদেশে পতনের শব্দ শোনা গেল। শব্দের বেগ 330 মিটার/সেকেন্ড হলে কূপের গভীরতা কত?",
+    "options": [
+      "75.5 মিটার",
+      "76.5 মিটার",
+      "78.4 মিটার",
+      "70.01 মিটার"
+    ],
+    "answer": "70.01 মিটার",
+    "explanation": ""
+  },
+  {
+    "id": 8359,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$4x^3+12x^2-3x+52=0$ সমীকরণের একটি মূল ${1\\over 2}-\\sqrt 3i$ হলে, এর বাস্তব মূল কোনটি?</p>",
+    "options": [
+      "-5",
+      "-4",
+      "4",
+      "5"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$4 x^3+12 x^2-3 x+52=0$</p><p>সমীকরণের একটি মূল $\\frac{1}{2}-\\sqrt{3} \\mathrm{i}$ </p><p>সমীকরণের অপর একটি মূল $\\frac{1}{2}+\\sqrt{3} \\mathrm{i}$</p><p>$\\therefore$ সমীকরণটির বাস্তব মূল $\\gamma$ হলে, </p><p>$\\frac{1}{2}-\\sqrt{3} i+\\frac{1}{2}+\\sqrt{3} i+\\gamma=-\\frac{12}{4}$</p><p>বা, $\\gamma+1=-3$</p><p>বা, $\\gamma=-3-1$</p><p>$\\therefore \\gamma=-4$</p>"
+  },
+  {
+    "id": 8360,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "২.৪৫ কিলোমিটার প্র্রস্থের নদীতে পানির স্রোতের ৭/৩ গুণ বেগে ও স্রোতের সাথে লম্বভাবে একজন সাঁতারু নদী সোজাসুজি পাড়ি দেওয়ার জন্য যাত্রা শুরু করল। সে অপর তীরে যাত্রা বিন্দুর ঠিক বিপরীত স্থান হতে কত দূরত্বে ভাটিতে পৌঁছাবে?",
+    "options": [
+      "0.32 km",
+      "1.05 km",
+      "0.50 km",
+      "5.72 km"
+    ],
+    "answer": "1.05 km",
+    "explanation": ""
+  },
+  {
+    "id": 8361,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$(2x-5)^2\\leq 0$ এর সমাধান কোনটি?",
+    "options": [
+      "x = 2.5",
+      "$x \\leq 2.5$",
+      "$x \\geq 2.5$",
+      "$0 \\leq x \\leq 2.5$"
+    ],
+    "answer": "x = 2.5",
+    "explanation": ""
+  },
+  {
+    "id": 8362,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>একটি বাক্সে ৪টি সাদা, ৩টি কালো ও ৫টি সবুজ র্মাবেল রাখা আছে। নির্বিচারে বাক্স থেকে ৩টি মার্বেল তোলা হলে মার্বেলগুলোর সম্ভাবনা-</p><p><br/>i. 3 টি সবুজ হলে 1/22</p><p><br/>ii. 3 টি ভিন্ন রং হলে 3/11</p><p><br/>iii. সর্বাধিক 2 টি সাদা হলে 9/11</p><p><br></p><p> নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 8363,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p> দুইটি তথ্যের গাণিতিক গড় 7 এবং ভেদাঙ্ক 4</p><p><br></p><p>Q. বিভেদাঙ্ক কোনটি?</p>",
+    "options": [
+      "${200\\over 7}$%",
+      "${4\\over 7}$",
+      "${200\\over 7}$",
+      "${400\\over 7}$%"
+    ],
+    "answer": "${200\\over 7}$%",
+    "explanation": ""
+  },
+  {
+    "id": 8364,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p> দুইটি তথ্যের গাণিতিক গড় 7 এবং ভেদাঙ্ক 4</p><p><br></p><p>Q. মান দুইটি কোনটি?</p>",
+    "options": [
+      "9,5",
+      "8,6",
+      "11,3",
+      "7,7"
+    ],
+    "answer": "9,5",
+    "explanation": ""
+  },
+  {
+    "id": 8365,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$(2x-{1\\over x^2})^{15}$ এর বিস্তারে $x^{12}$ এর সহগ কোনটি?",
+    "options": [
+      "-30",
+      "-24",
+      "24",
+      "$-2^{14}.15$"
+    ],
+    "answer": "$-2^{14}.15$",
+    "explanation": ""
+  },
+  {
+    "id": 8366,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "সরলরেখায় গতিশীল একটি কণা $3ms^{-2}$ সমত্বরণে 20 সেকেন্ড যাবৎ চলে গড়বেগ 50 মিটার/সেকেন্ড প্রাপ্ত হলে তার আদিবেগ কোনটি?",
+    "options": [
+      "40 মিটার/সেকেন্ড",
+      "35 মিটার/সেকেন্ড",
+      "20 মিটার/সেকেন্ড",
+      "10 মিটার/সেকেন্ড"
+    ],
+    "answer": "20 মিটার/সেকেন্ড",
+    "explanation": ""
+  },
+  {
+    "id": 8367,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$-2\\leq x\\leq 3$ এর- </p><p><br/>i. মধ্যে 6 টি পূণ্যসংখ্যা রয়েছে</p><p><br/>ii.  ঊর্ধবসীমা 15</p><p><br/>iii.  পরমআকার $\\vert 2x-1\\vert \\leq 5$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 8368,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$3x+4y \\geq 12,4x+7y\\leq 28, x-2y\\geq 2$ এবং z=4x+y হলে </p><p><br></p><p>Q. ১ম ও ২য় অসমতা দ্বারা আবদ্ধ সম্ভাব্য ক্ষেত্র কোনটি?</p>",
+    "options": [
+      "ষড়ভুজ",
+      "পঞ্চভুজ",
+      "চর্তুভুজ",
+      "ত্রিভুজ"
+    ],
+    "answer": "চর্তুভুজ",
+    "explanation": ""
+  },
+  {
+    "id": 8369,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p><br></p><p>$3x+4y \\geq 12,4x+7y\\leq 28, x-2y\\geq 2$ এবং z=4x+y হলে </p><p><br></p><p>Q. ২য় ও ৩য় অসমতা দ্বারা আবদ্ধ সম্ভাব্য ক্ষেত্রে z এর র্সবোচ্চ মান কোনটি?</p>",
+    "options": [
+      "35",
+      "28",
+      "20",
+      "8"
+    ],
+    "answer": "28",
+    "explanation": ""
+  },
+  {
+    "id": 8370,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>চিত্র প্রর্দশিত বলত্রয় O বিন্দুতে সাম্যাবস্থায় থাকলে, P বলটির মান কোনটি?</p>",
+    "options": [
+      "$4\\sqrt 3$",
+      "2",
+      "$2\\sqrt 3$",
+      "$\\sqrt 3$"
+    ],
+    "answer": "$2\\sqrt 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8371,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "$13x^2-6x-7=0$ এর মূলদ্বয় $\\alpha $ ও $\\beta $ হলে, $\\alpha^{-1}+1$ ও $\\beta^{-1}+1$ মূলবিশিষ্ট সমীকরণ কোনটি?",
+    "options": [
+      "$7x^2-8x-12=0$",
+      "$7x^2-20x=0$",
+      "$7x^2+8x-12=0$",
+      "$7x^2+8x=0$"
+    ],
+    "answer": "$7x^2-8x-12=0$",
+    "explanation": ""
+  },
+  {
+    "id": 8372,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$z=-1+i\\sqrt 3$ হলে, </p><p><br/>i. $z^9=64$</p><p><br/>ii. z এর আর্গুমেন্ট $120^0$</p><p><br/>iii. z এর র্বগমূল $\\pm {1\\over \\sqrt 2}(1-i\\sqrt 3)$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7049,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2018",
+    "board": "Combined",
+    "question": "(-2,1) কেন্দ্রবিশিষ্ট বৃত্ত x-অক্ষকে স্পর্শ করলে বৃত্তের ব্যাস-",
+    "options": [
+      "-2",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "<p>যেহেতু বৃত্তটি x- অক্ষকে স্পর্শ করে। সুতরাং বৃত্তটির কেন্দ্রের কোটি বৃত্তের ব্যাসার্ধের সমান হবে।অর্থাৎ বৃত্তের ব্যাসার্ধ 1 একক এবং ব্যাস = 2 . 1 = 2 একক </p>"
+  },
+  {
+    "id": 7050,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p><br/>i. সকল ফাংশনই অন্বয়</p><p><br/>ii. সকল অন্বয় ফাংশন নয়</p><p><br/>iii. $g(x)=2x+1$একটি এক-এক ফাংশন</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 7051,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$ y = ax(1-x)$ একটি বক্ররেখার সমীকরন।</p><p>Q. বক্ররেখঅটির মূল বিন্দুতে ঢাল কত?</p>",
+    "options": [
+      "-a",
+      "a",
+      "a-2ax",
+      "a+2ax"
+    ],
+    "answer": "a",
+    "explanation": "<p>$\\mathrm y\\;=\\;\\mathrm{ax}(1-\\mathrm x)\\;=\\;\\mathrm{ax}-\\mathrm{ax}^2\\\\\\frac{\\mathrm{dy}}{\\mathrm{dx}}=\\;\\mathrm a-2\\mathrm{ax}\\\\\\mathrm{বক্ররেখাটির}\\;\\mathrm{মুল}\\;\\mathrm{বিন্দুতে}\\;\\mathrm{ঢাল}\\;=\\;\\mathrm a-\\;2\\mathrm a.\\;0\\;=\\;\\mathrm a$</p>"
+  },
+  {
+    "id": 7052,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>$ y = ax(1-x)$ একটি বক্ররেখার সমীকরন।</p><p>Q.মূল বিন্দুতে স্পর্শকের সমীকরণ-</p>",
+    "options": [
+      "ax-y=0",
+      "ax+y=0",
+      "x-ay=0",
+      "x+ay=0"
+    ],
+    "answer": "ax-y=0",
+    "explanation": "<p>$\\;\\mathrm{মুল}\\;\\mathrm{বিন্দুতে}\\;\\mathrm{স্পরর্শকের}\\;\\mathrm{সমীকরণ},\\\\\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\mathrm y-0\\;=\\;\\mathrm a\\;(\\mathrm x-0)\\\\\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\mathrm{বা},\\;\\mathrm y\\;=\\;\\mathrm{ax}\\\\\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\mathrm{বা},\\;\\;\\mathrm{ax}\\;-\\;\\mathrm y=\\;0\\\\\\;\\;\\;\\;\\;\\;\\;\\;\\;$</p>"
+  },
+  {
+    "id": 7053,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$f(x)=lnx$ হলে, f(25) এর মান কত?</p>",
+    "options": [
+      "ln5",
+      "5ln(1/5)",
+      "(1/5)ln5",
+      "2ln5"
+    ],
+    "answer": "2ln5",
+    "explanation": "<p>$\\mathrm f(\\mathrm x)\\;=\\;\\ln\\;\\mathrm x\\;\\;;\\;\\mathrm f(25)\\;=\\;\\ln\\;25\\;=\\ln\\;5=\\;2\\;\\ln\\;5$</p>"
+  },
+  {
+    "id": 7054,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$\\int {dx\\over 1+cosx}=g(x)+c$ হলে, g(x) এর মান-",
+    "options": [
+      "$sec{x\\over 2}$",
+      "$sec^2{x\\over 2}$",
+      "$tan{x\\over 2}$",
+      "2cosx"
+    ],
+    "answer": "$tan{x\\over 2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7055,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$I=\\int_1^e{dx\\over x(1+lnx)}$ হলে, I এর মান-</p>",
+    "options": [
+      "e",
+      "e+1",
+      "lne-1",
+      "ln2"
+    ],
+    "answer": "ln2",
+    "explanation": "<p>$\\mathrm{ধরি},\\;(\\;1+\\;\\ln\\;\\mathrm x\\;)=\\;\\mathrm z\\\\\\Rightarrow\\;\\frac{\\mathrm{dx}}{\\mathrm x}=\\;\\mathrm{dz}\\\\\\mathrm x\\;=\\;\\mathrm e\\;;\\;\\mathrm{তখন}\\;\\;\\;\\mathrm z\\;=\\;2\\\\\\;\\mathrm x=\\;1;\\;\\mathrm{তখন}\\;\\mathrm z=\\;1\\;\\;\\;\\;\\;\\\\\\mathrm{এখানে},\\;\\mathrm I\\;=\\;\\int_1^{\\mathrm e}\\frac{\\mathrm{dx}}{\\mathrm x(\\;1+\\;\\ln\\;\\mathrm x\\;)}\\\\\\;=\\int_1^2\\frac{\\mathrm{dz}}{\\mathrm z}\\;\\\\\\;=\\begin{bmatrix}\\ln\\;\\mathrm z\\end{bmatrix}_1^2=\\;\\ln\\;2\\;-\\;\\ln\\;1\\\\\\;=\\ln\\;2\\;-\\;0\\\\\\;=\\;\\ln\\;2\\\\\\;\\;\\;$</p>"
+  },
+  {
+    "id": 7056,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$lim_{x\\to \\infty}{5^x-5^{-x}\\over 5^x+x^{-x}}$ এর মান কোনটি?",
+    "options": [
+      "-5",
+      "-2",
+      "1",
+      "5"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7057,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$^{12}C_0$এর মান-",
+    "options": [
+      "0",
+      "1",
+      "12",
+      "144"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\mathrm{আমরা}\\;\\mathrm{জানি}\\;,\\;\\;{\\mathrm n}_{{\\mathrm C}_0}=\\;1\\;,\\\\\\mathrm n=\\;12\\;\\mathrm{হলে}\\;,\\;{12}_{{\\mathrm C}_0}=\\frac{12!}{(12-0)!\\;0!}=\\frac{12!}{12!\\;\\times\\;1}=\\frac{12!}{12!}=\\;1$</p>"
+  },
+  {
+    "id": 7058,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$y=e^{-x}$ হলে, $y_5$কোনটি?",
+    "options": [
+      "$-e^{-x}$",
+      "$e^{-x}$",
+      "$-5e^{-x}$",
+      "$5e^{-x}$"
+    ],
+    "answer": "$-e^{-x}$",
+    "explanation": "<p>$\\mathrm y=\\;\\mathrm e^{-\\mathrm x}\\\\{\\mathrm y}_1=-1\\;\\mathrm e^{-\\mathrm x}\\\\{\\mathrm y}_2=-1.-1\\;\\mathrm e^{-\\mathrm x}=\\;\\mathrm e^{-\\mathrm x}\\\\{\\mathrm y}_3=-1\\;\\mathrm e^{-\\mathrm x}\\\\{\\mathrm y}_4=-1.-1\\;\\mathrm e^{-\\mathrm x}=\\;\\mathrm e^{-\\mathrm x}\\\\{\\mathrm y}_5=-1.\\;\\mathrm e^{-\\mathrm x}=\\;-\\;\\mathrm e^{-\\mathrm x}\\\\$</p>"
+  },
+  {
+    "id": 7059,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$\\begin{bmatrix}5&amp;0&amp;0\\\\0&amp;5&amp;0\\\\0&amp;0&amp;5\\end{bmatrix}$ ম্যাট্রিক্সটি একটি-</p><p><br></p><p><br/>i. বর্গ ম্যাট্রিক্স</p><p><br/>ii. অভেদক ম্যাট্রিক্স</p><p><br/>iii. স্কেলার ম্যাট্রিক্স</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 7060,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$\\begin{bmatrix}p+1&amp;6\\\\4&amp;-8\\end{bmatrix}$ ম্যাট্রিক্সটি ব্যতিক্রমী হলে, p এর মান-",
+    "options": [
+      "-8",
+      "-4",
+      "4",
+      "6"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$\\begin{bmatrix}\\mathrm p+1&amp;6\\\\4&amp;-8\\end{bmatrix}\\;\\mathrm{ব্যাতিক্রমী}\\;\\mathrm{হওয়ায়},\\\\\\Rightarrow\\;\\begin{vmatrix}\\mathrm p+1&amp;6\\\\4&amp;-8\\end{vmatrix}=\\;0\\;\\\\\\Rightarrow-8\\mathrm p-8-24=0\\\\\\Rightarrow-8\\mathrm p\\;=\\;32\\\\\\Rightarrow\\mathrm p\\;=\\;-4$</p>"
+  },
+  {
+    "id": 7061,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2018",
+    "board": "Combined",
+    "question": "A=$\\begin{vmatrix}2&amp;3&amp;-1\\\\5&amp;6&amp;0\\\\-2&amp;1&amp;4\\end{vmatrix}$ নির্ণায়কটির (2,3) তম সহগুণক কোনটি?",
+    "options": [
+      "-8",
+      "-3",
+      "8",
+      "17"
+    ],
+    "answer": "-8",
+    "explanation": "<p>$(2,3)\\;\\;\\mathrm{তম}\\;\\mathrm{সহগুনক}\\;=\\;{(-1)}^{2+3}\\left|\\begin{array}{cc}2&amp;3\\\\{-2}&amp;1\\end{array}\\right|=\\;-(2+6)=\\;-8$</p>"
+  },
+  {
+    "id": 7062,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$-2\\hat i+2\\hat j-\\hat k$ ভেক্টরটি y-অক্ষের সাথে যে কোণ উৎপন্ন করে তার মান-",
+    "options": [
+      "$cos^{-1}({-2\\over 3})$",
+      "$cos^{-1}({-1\\over 3})$",
+      "$cos^{-1}({2\\over 3})$",
+      "$cos^{-1}(-1)$"
+    ],
+    "answer": "$cos^{-1}({2\\over 3})$",
+    "explanation": "<p>$\\theta=\\cos^{-1}\\left(\\frac{(-2\\widehat i+2\\widehat j-\\widehat k).\\;\\widehat j}{\\sqrt{{(-2)}^2+2^2+{(-1)}^2}\\sqrt{1^2}}\\right)\\\\\\;\\;=\\cos^{-1}\\left(\\frac2{\\sqrt9\\sqrt1}\\right)=\\cos^{-1}\\left(\\frac23\\right)$</p>"
+  },
+  {
+    "id": 7063,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$\\vec A=2\\hat i-\\hat j+\\hat k$ ভেক্টরের উপর $\\vec B=\\hat i+2\\hat j+\\hat k$ ভেক্টরের অভিক্ষেপ কোনটি?",
+    "options": [
+      "$-1\\over 6$",
+      "$-1\\over \\sqrt 6$",
+      "$1\\over 6$",
+      "$1\\over \\sqrt 6$"
+    ],
+    "answer": "$1\\over \\sqrt 6$",
+    "explanation": ""
+  },
+  {
+    "id": 7064,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$(-1,\\sqrt 3)$ বিন্দুর পেলার স্থানাঙ্ক-",
+    "options": [
+      "$\\left(-2,-\\frac{\\pi}{3}\\right)$",
+      "$\\left(-2, \\frac{\\pi}{3}\\right)$",
+      "$\\left(2, \\frac{\\pi}{3}\\right)$",
+      "$\\left(2, \\frac{2 \\pi}{3}\\right)$"
+    ],
+    "answer": "$\\left(2, \\frac{2 \\pi}{3}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 7065,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$x+2y-6=0$ এবং $x+2y+8=0$ দুইটি সরলরেখার সমীকরণ।</p><p>Q. নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "রেখাদ্বয় মূল বিন্দু দিয়ে যায়",
+      "রেখাদ্বয় পরস্পরকে ছেদ করে",
+      "রেখাদ্বয় পরস্পর লম্ব",
+      "রেখাদ্বয় পরস্পর সমান্তরাল"
+    ],
+    "answer": "রেখাদ্বয় পরস্পর সমান্তরাল",
+    "explanation": "<p>যেহেতু $x+2y-6=0$ ও $x+2y+8=0$ রেখাদ্বয়ের x ও y এর সহগ একই;সুতরাং রেখাদ্বয় পরস্পর সমান্তরাল।</p>"
+  },
+  {
+    "id": 7066,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$x+2y-6=0$ এবং $x+2y+8=0$ দুইটি সরলরেখার সমীকরণ।</p><p>Q. রেখাদ্বয়ের মধ্যবর্তী লম্ব দূরত্ব-</p>",
+    "options": [
+      "$-14\\over \\sqrt 5$",
+      "$-4\\over \\sqrt 5$",
+      "$4\\over \\sqrt 5$",
+      "$14\\over \\sqrt 5$"
+    ],
+    "answer": "$14\\over \\sqrt 5$",
+    "explanation": "<p>$\\mathrm{মধ্যবর্তী}\\;\\mathrm{লম্ব}\\;\\mathrm{দুরত্ব}\\;=\\;\\frac{\\begin{vmatrix}8-(-6)\\end{vmatrix}}{\\sqrt{1^2+2^2}}=\\frac{14}{\\sqrt5}$</p>"
+  },
+  {
+    "id": 7067,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>A(-2,3), B(-4,2) এবং C(8,6)শীর্ষবিন্দু বিশিষ্ট ত্রিভুজরে-</p><p><br/>i. ভরকন্দ্রের স্থানাঙ্ক (2/3,11/3)</p><p><br/>ii. AB বাহুর মধ্যবিন্দুর স্থানাঙ্ক (-3,5/2)</p><p><br/>iii. $\\triangle ABC$ এর ক্ষেত্রফল 4 বর্গ একক</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 7068,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$x+y=5$ এবং $y-x=3$ সরলরেখাদ্বয়ের ছেদ বিন্দুগামী y-অক্ষের সমান্তরাল রেখার সমীকরণ-</p>",
+    "options": [
+      "2y+1=0",
+      "y+1=0",
+      "x-1=0",
+      "2x+y=0"
+    ],
+    "answer": "x-1=0",
+    "explanation": ""
+  },
+  {
+    "id": 7069,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>$2x^2+2y^2-4x+2y-6=0$ বৃত্তের কেন্দ্রের স্থানাঙ্ক-</p>",
+    "options": [
+      "(-4,2)",
+      "(-2,1)",
+      "(2,-1)",
+      "(1,-1/2)"
+    ],
+    "answer": "(1,-1/2)",
+    "explanation": "<p>$\\;\\;\\;\\;2\\mathrm x^2+2\\mathrm y^2-4\\mathrm x+2\\mathrm y-6=0\\\\\\Rightarrow\\mathrm x^2+\\mathrm y^2-2\\mathrm x+\\mathrm y-3=0\\\\\\Rightarrow\\mathrm x^2+\\mathrm y^2+2(-1)\\mathrm x+2\\;(\\frac12)\\mathrm y+(-3)=0\\\\\\mathrm{এখানে}\\;\\mathrm g=-1\\;\\mathrm{এবং}\\;\\mathrm f=\\frac12\\\\\\mathrm{কেন্দ্র}\\;=\\;(-\\mathrm g,-\\mathrm f)=\\left(1,-\\frac12\\right)$</p>"
+  },
+  {
+    "id": 7070,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "0! এর মান-",
+    "options": [
+      "$-\\infty$",
+      "0",
+      "1",
+      "$\\infty$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7071,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$cosec \\theta=\\frac{13}{5}$ এবং $\\frac{\\pi}{2}<\\theta<\\pi$ হলে $\\tan \\theta$ এর মান-",
+    "options": [
+      "$-12\\over 13$",
+      "-$5\\over 12$",
+      "$12\\over 13$",
+      "$13\\over 12$"
+    ],
+    "answer": "$-5\\over 12$",
+    "explanation": ""
+  },
+  {
+    "id": 7072,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "কোসাইন ফাংশন এর রেঞ্জ কোনটি?",
+    "options": [
+      "{-1,1}",
+      "(-1,1)",
+      "(-1,1]",
+      "[-1,1]"
+    ],
+    "answer": "[-1,1]",
+    "explanation": ""
+  },
+  {
+    "id": 7073,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2018",
+    "board": "Combined",
+    "question": "বিন্দু বৃত্তের সমীকরণ-",
+    "options": [
+      "$x^2-y^2=0$",
+      "$x^2+y^2=0$",
+      "$x^2+y^2=r^2$",
+      "$x^2+y^2+x+y+1=0$"
+    ],
+    "answer": "$x^2+y^2=0$",
+    "explanation": "<p>$\\mathrm{যে}\\;\\mathrm{বৃত্তের}\\;\\mathrm{ব্যাসার্ধ্য}\\;0\\;\\;\\mathrm{তাকে}\\;\\mathrm{বিন্দু}\\;\\mathrm{বিন্দু}\\;\\mathrm{বৃত্ত}\\;\\mathrm{বলে}\\;\\mathrm ।\\\\\\mathrm x^2+\\mathrm y^2=0^2\\;\\;\\mathrm{বৃত্তের}\\;\\mathrm{ব্যাসার্ধ}\\;\\mathrm ও\\;0\\;\\;,\\;\\mathrm{সুতরাং}\\;\\mathrm{এটিও}\\;\\mathrm{একটি}\\;\\mathrm{বিন্দু}\\;\\mathrm{বৃত্ত}\\;\\mathrm ।$</p>"
+  }
+]

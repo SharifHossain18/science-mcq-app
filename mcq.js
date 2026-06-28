@@ -9,6 +9,41 @@ let state = {
     showAnswers: false
 };
 let userProgress = {};
+
+async function fetchWithCacheFallback(url) {
+    const resp = await fetch(url);
+    if (resp.ok) return resp;
+    throw new Error('HTTP ' + resp.status);
+}
+
+function showOfflineDownloadPrompt(dataUrl, dlKey) {
+    const container = document.getElementById('mcq-container');
+    container.innerHTML = `
+        <div class="loading-state">
+            <i class="fa-solid fa-wifi-slash" style="font-size:2.5rem;color:var(--text-muted);margin-bottom:15px;"></i>
+            <p style="font-weight:600;">আপনি অফলাইনে আছেন</p>
+            <p style="font-size:0.85rem;color:var(--text-muted);margin-top:5px;">এই অধ্যায়টি অফলাইনে পড়ার জন্য আগে ডাউনলোড করুন।</p>
+            <button class="gen-btn gen-btn-primary" style="margin-top:16px;" id="offline-dl-btn">
+                <i class="fa-solid fa-circle-down"></i> এখনই ডাউনলোড করুন
+            </button>
+        </div>`;
+    document.getElementById('offline-dl-btn').addEventListener('click', async () => {
+        const btn = document.getElementById('offline-dl-btn');
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> ডাউনলোড হচ্ছে...';
+        btn.disabled = true;
+        const ok = await UTILS.downloadAndCache(dataUrl);
+        if (ok) {
+            UTILS.markItemDownloaded(dlKey);
+            UTILS.showToast('ডাউনলোড সম্পন্ন! আবার চেষ্টা করুন।', 'success');
+            setTimeout(() => window.location.reload(), 1500);
+        } else {
+            btn.innerHTML = '<i class="fa-solid fa-circle-down"></i> এখনই ডাউনলোড করুন';
+            btn.disabled = false;
+            UTILS.showToast('ডাউনলোড ব্যর্থ! ইন্টারনেট সংযোগ চেক করুন।', 'error');
+        }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     if (!state.subject || (state.mode === 'chapter' && !state.chapter) || (state.mode === 'board' && (!state.year || !state.board))) {
         window.location.href = state.subject ? 'subject.html' : 'index.html';
@@ -18,16 +53,58 @@ document.addEventListener('DOMContentLoaded', () => {
     renderBreadcrumbs();
     showSkeletons();
 
-    let fetchPromise;
     const cleanSubject = state.subject.replace(/\s+/g, '_');
+
+    function getDataUrl() {
+        if (state.mode === 'board') {
+            const cleanBoard = state.board.replace(/\s+/g, '_');
+            return `data/boards/${cleanSubject}_${state.year}_${cleanBoard}.json`;
+        }
+        return `data/chapters/${cleanSubject}_${state.chapterId}.json`;
+    }
+
+    function getDlKey() {
+        if (state.mode === 'board') {
+            const cleanBoard = state.board.replace(/\s+/g, '_');
+            return `board_${cleanSubject}_${state.year}_${cleanBoard}`;
+        }
+        return `chapter_${cleanSubject}_${state.chapterId}`;
+    }
+
+    async function loadData() {
+        const url = getDataUrl();
+        const dlKey = getDlKey();
+        try {
+            const response = await fetchWithCacheFallback(url + '?t=' + Date.now());
+            allData = await response.json();
+            renderMCQs();
+        } catch (err) {
+            console.warn('Network failed, checking cache:', err);
+            try {
+                const cache = await caches.open('lumen-data-v5');
+                const cachedResp = await cache.match(url);
+                if (cachedResp) {
+                    allData = await cachedResp.json();
+                    renderMCQs();
+                    return;
+                }
+            } catch {}
+            if (!UTILS.isOnline()) {
+                showOfflineDownloadPrompt(url, dlKey);
+            } else {
+                const container = document.getElementById('mcq-container');
+                container.innerHTML = `<div class="loading-state"><i class="fa-solid fa-circle-exclamation" style="font-size:2.5rem;color:#ef4444;margin-bottom:15px;"></i><p style="font-weight:600;">দুঃখিত! প্রশ্ন লোড করতে ব্যর্থ।</p><p style="font-size:0.85rem;color:var(--text-muted);margin-top:5px;">${err.message} — ইন্টারনেট কানেকশন চেক করে আবার চেষ্টা করুন।</p></div>`;
+            }
+        }
+    }
+
     if (state.mode === 'board') {
-        const cleanBoard = state.board.replace(/\s+/g, '_');
-        fetchPromise = fetch(`data/boards/${cleanSubject}_${state.year}_${cleanBoard}.json?t=` + Date.now());
+        loadData();
     } else {
         if (state.chapterId) {
-            fetchPromise = fetch(`data/chapters/${cleanSubject}_${state.chapterId}.json?t=` + Date.now());
+            loadData();
         } else {
-            fetchPromise = fetch('data/meta.json?t=' + Date.now())
+            fetch('data/meta.json?t=' + Date.now())
                 .then(res => { if (!res.ok) throw new Error('মেটাডাটা লোড ব্যর্থ'); return res.json(); })
                 .then(meta => {
                     const subjectMeta = meta[state.subject];
@@ -35,19 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (!chapterObj) throw new Error('অধ্যায় পাওয়া যায়নি');
                     state.chapterId = chapterObj.id;
                     localStorage.setItem('selectedChapterId', chapterObj.id);
-                    return fetch(`data/chapters/${cleanSubject}_${state.chapterId}.json?t=` + Date.now());
+                    loadData();
+                })
+                .catch(err => {
+                    const container = document.getElementById('mcq-container');
+                    container.innerHTML = `<div class="loading-state"><i class="fa-solid fa-circle-exclamation" style="font-size:2.5rem;color:#ef4444;margin-bottom:15px;"></i><p style="font-weight:600;">${err.message}</p></div>`;
                 });
         }
     }
-
-    fetchPromise
-        .then(response => { if (!response.ok) throw new Error('HTTP ' + response.status); return response.json(); })
-        .then(data => { allData = data; renderMCQs(); })
-        .catch(err => {
-            console.error('Error:', err);
-            const container = document.getElementById('mcq-container');
-            container.innerHTML = `<div class="loading-state"><i class="fa-solid fa-circle-exclamation" style="font-size:2.5rem;color:#ef4444;margin-bottom:15px;"></i><p style="font-weight:600;">দুঃখিত! প্রশ্ন লোড করতে ব্যর্থ।</p><p style="font-size:0.85rem;color:var(--text-muted);margin-top:5px;">${err.message} — ইন্টারনেট কানেকশন চেক করে আবার চেষ্টা করুন।</p></div>`;
-        });
 
     document.getElementById('back-btn').addEventListener('click', () => {
         if (state.mode === 'board') window.location.href = 'board-select.html';

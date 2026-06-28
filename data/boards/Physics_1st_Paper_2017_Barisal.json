@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1449,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "বলের ঘাতের একক নিম্নের কোন রাশির\nএককের অনুরূপ?",
+    "options": [
+      "বল",
+      "ভরবেগ",
+      "কাজ",
+      "টর্ক"
+    ],
+    "answer": "ভরবেগ",
+    "explanation": "<p>বলের ঘাত হচ্ছে ভরবেগের পরিবর্তনের সমান। অর্থাৎ, J = Ft = m(v-u)</p>"
+  },
+  {
+    "id": 1450,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "ভূমির সাথে 30 ° কোণে আনত 5m দীর্ঘ\nএকটি ঢালুপথে 100gm ভরবিশিষ্ট একটি বস্তু\nযে গতিশক্তি প্রাপ্ত হবে-",
+    "options": [
+      "0.49J",
+      "0.848J",
+      "1.225J",
+      "2.45J"
+    ],
+    "answer": "2.45J",
+    "explanation": "<p>$\\begin{aligned} \\mathrm{E}_{\\mathrm{k}} &amp; =\\mathrm{mgs} \\sin 30^{\\circ} \\\\ &amp; =0.1 \\mathrm{~kg} \\times 9.8 \\mathrm{~ms}^{-2} \\times 5 \\mathrm{~m} \\times \\sin 30^{\\circ}=2.45 \\mathrm{~J}\\end{aligned}$</p>"
+  },
+  {
+    "id": 1451,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "অসংরক্ষণশীল বলের বৈশিষ্ট্য নয় কোনটি?",
+    "options": [
+      "কৃত কাজ শূন্য",
+      "পথের ওপর নির্ভর করে না",
+      "যান্ত্রিক শক্তির নিত্যতার সূত্র খাটে না",
+      "কৃতকাজ পুনরুদ্ধার সম্ভব"
+    ],
+    "answer": "যান্ত্রিক শক্তির নিত্যতার সূত্র খাটে না",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 1452,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "কেপলারের ৩ য় সূত্রের নাম কোনটি?",
+    "options": [
+      "কক্ষপথের সূত্র",
+      "ক্ষেত্রফলের সূত্র",
+      "পর্যায়কালের সূত্র",
+      "হারমোনিক সূত্র"
+    ],
+    "answer": "পর্যায়কালের সূত্র",
+    "explanation": "<p>কেপলারের ৩ য় সূত্রটি হল পর্যায়কালের।</p><p>সূত্রটি হল-'' প্রতিটি গ্রহের পর্যায়কালের বর্গ সূর্য হতে তার গড় দুরত্বের ঘনফলের সমানুপাতিক।</p>"
+  },
+  {
+    "id": 1453,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p> কোনো বস্তুকে মুক্তিবেগের কতগুণ বেগে নিক্ষেপ করলে কৃত্রিম উপগ্রহে পরিণত হবে?</p>",
+    "options": [
+      "<p>$ {{1} \\over \\sqrt2}ve$</p>",
+      "<p>$ {{1} \\over 2}ve$</p>",
+      "<p>$ {\\sqrt2}ve$</p>",
+      "2 ve"
+    ],
+    "answer": "<p>$ {{1} \\over \\sqrt2}ve$</p>",
+    "explanation": "<p>যদি $V^2=\\frac{V_e^2}2$ অর্থাৎ উৎক্ষেপন বেগ 7.88 m/s হয়, তবে সেটি বৃত্তাকার পথে পৃথিবীকে প্রদক্ষিণ করবে মানে কৃত্রিম উপগ্রহে পরিণত হবে।</p>"
+  },
+  {
+    "id": 1454,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "সান্দ্রতা গুণাঙ্কের মাত্রা কোনটি?",
+    "options": [
+      "[ML<sup>-1</sup>T<sup>-1</sup>]",
+      "[ML<sup>-1</sup>T<sup>-2</sup>]",
+      "[ML<sup>2</sup>T<sup>-2</sup>]",
+      "[ML<sup>2</sup>T<sup>-3</sup>]"
+    ],
+    "answer": "[ML<sup>-1</sup>T<sup>-1</sup>]",
+    "explanation": ""
+  },
+  {
+    "id": 1455,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>সরল ছন্দিত স্পন্দনের বৈশিষ্ট্য নয় কোনটি?</p>",
+    "options": [
+      "কণার সরণ সাইনের বা কোসাইনের অপেক্ষক",
+      "বলের দিক সাম্যবিন্দু অভিমুখী",
+      "সাম্যবিন্দুতে গতিশক্তি সবচেয়ে কম",
+      "ত্বরণের মান সরণের বিপরীতমুখী"
+    ],
+    "answer": "সাম্যবিন্দুতে গতিশক্তি সবচেয়ে কম",
+    "explanation": "<p>সরল ছন্দিত স্পন্দনের সাম্যবিন্দুতে কোন কণার বেগ হয় সর্বোচ্চ, তাই গতিশক্তি ও হবে সর্বোচ্চ।</p>"
+  },
+  {
+    "id": 1456,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "100gm ভরের একটি বস্তু পানির মধ্যে\nপড়ায় তার উপর ক্রিয়ারত প্লবতা 0.981N\nহলে সান্দ্র বল হবে",
+    "options": [
+      "9.81N",
+      "0.981N",
+      "0N",
+      "1.962N"
+    ],
+    "answer": "0N",
+    "explanation": ""
+  },
+  {
+    "id": 1457,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<style>.MJXc-display {display: inline;}</style>\n12 স্বাধীনতা মাত্রা সম্পন্ন কোনো অণুর মোট শক্তি হবে-",
+    "options": [
+      "<p>$ {{1} \\over 2}KT$</p>",
+      "<p>$ {{3} \\over 2}KT$</p>",
+      "6 KT",
+      "12 KT"
+    ],
+    "answer": "6 KT",
+    "explanation": "<p> 12 স্বাধীনতা মাত্রা সম্পন্ন কোনো অণুর মোট শক্তি $E=12\\times\\frac12\\times kT\\\\\\\\E=6\\;KT$</p>"
+  },
+  {
+    "id": 1458,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>নিম্নের কোনটি ত্রয়ী হবে?</p>",
+    "options": [
+      "120: 240: 360",
+      "80: 100: 120",
+      "100: 150: 125",
+      "180: 240: 300"
+    ],
+    "answer": "80: 100: 120",
+    "explanation": "<p>৩টি শব্দের কম্পাংকের অনুপাত 4:5:6 হলে তাদেরকে একসাথে ত্রয়ী বলে।</p><p>$\\frac{80}{20}\\;:\\;\\frac{100}{20}\\;:\\;\\frac{120}{20}\\\\\\\\=4\\;:\\;5\\;:\\;6\\\\$</p><p><br></p>"
+  },
+  {
+    "id": 1459,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>স্থির PV তাপমাত্রায় P বনাম Pv লেখচিত্র কোনটি?</p><p><img src=\"data:image/png;base64,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\"></p>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": 1460,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>একটি সরল দোলকের সুতার দৈর্ঘ্য 79.2 cm এবং ববের ব্যাসার্ধ 0.8 cm। (অভিকর্ষজ ত্বরণ 9.8ms<sup>-2</sup>)</p><p><br></p><p>Q. উক্ত দোলকটির দোলনকাল কত?</p>",
+    "options": [
+      "0.5077 s",
+      "0.5129 s",
+      "0.8976 s",
+      "1.7952 s"
+    ],
+    "answer": "1.7952 s",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{L}=l+\\mathrm{r}=79.2+0.8 \\mathrm{~cm}=80 \\mathrm{~cm}=0.8 \\mathrm{~m} \\\\ &amp; \\mathrm{~T}=2 \\pi \\sqrt{\\frac{\\mathrm{L}}{\\mathrm{g}}}=2 \\pi \\sqrt{\\frac{0.8}{9.8}}=1.7952 \\mathrm{~s} .\\end{aligned}$</p>"
+  },
+  {
+    "id": 1461,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>একটি সরল দোলকের সুতার দৈর্ঘ্য 79.2 cm এবং ববের ব্যাসার্ধ 0.8 cm। (অভিকর্ষজ ত্বরণ 9.8ms-2)</p><p><br></p><p>Q. উক্ত দোলককে সেকেন্ড দোলকে পরিণত করলে</p><p><br/>i. দোলকটি দ্রুত চলবে</p><p><br/>ii. দোলনকাল 2 sec হবে</p><p><br/>iii. সুতার দৈর্ঘ্য 19.29 cm বৃদ্ধি করতে হবে</p><p><br></p><p>নিচের কোনটি সঠিক? </p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1462,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>তরলের পৃষ্ঠ টান নির্ভর করে</p><p><br/>i. কৈশিক নলের ব্যাসার্ধ</p><p><br/>ii. সংশক্তি বল</p><p><br/>iii. তরলের ঘনত্ব</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1463,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>শব্দ তরঙ্গের ক্ষেত্রে নিম্নের কোন ঘটনাটি ঘটে না?</p>",
+    "options": [
+      "প্রতিফলন",
+      "প্রতিসরণ",
+      "ব্যতিচার",
+      "সমবর্তন"
+    ],
+    "answer": "সমবর্তন",
+    "explanation": "<p>শব্দ তরঙ্গের ক্ষেত্রে প্রতিফলন,প্রতিসরণ এবং ব্যতিচার ঘটে কিন্তু  সমবর্তন ঘটে না।</p>"
+  },
+  {
+    "id": 1464,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি তরঙ্গ 200 টি পূর্ণ কম্পন সম্পন্ন করে 8m দূরত্ব 0.25s এ অতিক্রম করলে তরঙ্গ দৈর্ঘ্য হবে-</p>",
+    "options": [
+      "8 cm",
+      "4 cm",
+      "32 cm",
+      "25 cm"
+    ],
+    "answer": "4 cm",
+    "explanation": "<p>$\\lambda=\\frac{8 \\mathrm{~m}}{200}=\\frac{1}{25} \\mathrm{~m}=\\frac{1 \\times 100}{25} \\mathrm{~cm}=4 \\mathrm{~cm}$.</p><p><br></p>"
+  },
+  {
+    "id": 1465,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>তীব্রতা লেভেল 1 dB পরিবর্তিত হলে শব্দের তীব্রতার পরিবর্তন কত হবে?</p>",
+    "options": [
+      "10 %",
+      "26 %",
+      "50 %",
+      "100 %"
+    ],
+    "answer": "26 %",
+    "explanation": "<p>$\\triangle\\beta=10\\;\\log\\;\\frac{I_2}{I_1}\\\\\\\\1=10\\;\\log\\;\\frac{I_2}{I_1}\\\\I_2=1.26\\;I_1$</p><p>এখন, $\\triangle I_2=\\left(1.26-1\\right)\\times100\\%\\\\\\;\\;\\;\\;\\;=\\;26\\%$</p>"
+  },
+  {
+    "id": 1466,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "সবল নিউক্লিয় বল কোন কণার বিনিময়ে\nউৎপন্ন হয়?",
+    "options": [
+      "গ্রাভিটন",
+      "বোসন",
+      "ফোটন",
+      "মেসন"
+    ],
+    "answer": "মেসন",
+    "explanation": ""
+  },
+  {
+    "id": 1467,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 1: ভৌতজগত ও পরিমাপ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>কোনো গোলকের ব্যাসার্ধের প্রকৃত মান 3cm এবং পরিমাপ্য মান 2.98 cm। গোলকটির আয়তন পরিমাপে শতকরা ত্রুটি কত?</p>",
+    "options": [
+      "0.02 %",
+      "0.066 %",
+      "0.66 %",
+      "2 %"
+    ],
+    "answer": "2 %",
+    "explanation": "<p>শতকরা ত্রুটি $=\\frac{3 \\Delta \\mathrm{R}}{\\mathrm{R}} \\times 100 \\%=\\frac{3(3-2.98)}{3} \\times 100 \\%=2 \\%$. </p>"
+  },
+  {
+    "id": 1468,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<style>.MJXc-display {display: inline;}</style>\n$\\mathop{\\vec{A}}= (px + y)\\hat i + (y-2z)\\hat j + (x+3z)\\hat k$ ভেক্টরটি সলিনয়ডাল হবে যদি p =",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "-4"
+    ],
+    "answer": "-4",
+    "explanation": "<p>$\\vec{\\nabla} \\cdot \\vec{A}=0$</p><p><br></p><p>বা, $\\left(\\frac{\\delta}{\\delta x} \\hat{i}+\\frac{\\delta}{\\delta y} \\hat{j}+\\frac{\\delta}{d z} \\hat{k}\\right) \\cdot[(p x+y) \\hat{i}$ $+(y-2 z) \\hat{j}+(x+3 z) \\hat{k}]=0$</p><p>বা, $\\frac{\\delta}{\\delta x}(p x+y)+\\frac{\\delta}{\\delta y}(y-2 z)+\\frac{\\delta}{d z}(x+3 z)=0$</p><p>বা, $P+1+3=0$ বা, $P=-4$.</p>"
+  },
+  {
+    "id": 1469,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<style>.MJXc-display {display: inline;}</style>\n${(\\hat i \\times \\hat k)} \\times {(\\hat j \\times \\hat k)}=$",
+    "options": [
+      "$\\hat 0$",
+      "$\\hat i$",
+      "$\\hat j$",
+      "$\\hat k$"
+    ],
+    "answer": "$\\hat k$",
+    "explanation": "<p>$(\\hat{i} \\times \\hat{k}) \\times(\\hat{j} \\times \\hat{k})=-\\hat{j} \\times \\hat{i}=\\hat{k}$</p>"
+  },
+  {
+    "id": 1470,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একই পাদবিন্দু বিশিষ্ট ভেক্টরসমূহকে কি বলে?</p>",
+    "options": [
+      "সমতলীয় ভেক্টর উটার",
+      "সমরেখ ভেক্টর",
+      "সম-প্রারম্ভিক ভেক্টর",
+      "সীমাবদ্ধ ভেক্টর"
+    ],
+    "answer": "সম-প্রারম্ভিক ভেক্টর",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 1471,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "সমমানের দুটি বলের লন্ধির মান তাদের যে কোনো একটির অর্ধেক হলে বল দুটির মধ্যবর্তী কোণ কত?",
+    "options": [
+      "28.90°",
+      "41.40°",
+      "138.6°",
+      "151.04°"
+    ],
+    "answer": "151.04°",
+    "explanation": "<p>$\\left(\\frac{P}{2}\\right)^2=P^2+P^2+\\text { 2.P.P. } \\cos \\alpha$</p><p><br></p><p>বা, $\\frac{\\mathrm{P}^2}{4}=2 \\mathrm{P}^2+2 \\mathrm{P}^2 \\cos \\alpha$</p><p>বা, $P^2=8 \\mathrm{P}^2+8 \\mathrm{P}^2 \\cos \\alpha$</p><p>বা, $P^2=8 \\mathrm{P}^2(1+\\cos \\alpha)$</p><p>বা, $1+\\cos \\alpha=\\frac{\\mathrm{P}^2}{8 \\mathrm{P}^2}$</p><p>বা, $\\cos \\alpha=\\frac{1}{8}-1$</p><p>दा, $\\cos \\alpha=-\\frac{7}{8}$</p><p>$\\therefore \\quad \\alpha=\\cos ^{-1}\\left(-\\frac{7}{8}\\right)=151.04^{\\circ}$.</p>"
+  },
+  {
+    "id": 1472,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি রাইফেল $ 300 ms^{-1} $ নিক্ষেপণ বেগে এবং 40 ° ও 50 ° নিক্ষেপণ কোণে গুলি ছুড়তে পারে। গুলি দুটির ক্ষেত্রে-</p><p><br/>i. বিচরণকাল অসমান হবে</p><p><br/>ii. পাল্লা সমান হবে</p><p><br/>iii. তাদের নিজ নিজ বেগের অনুভূমিক উপাংশের পরিবর্তন হবে না</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1473,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি বস্তুর বেগ v(t) = (6t<sup>2</sup> + 2t) ms<sup>-1</sup> । 2 sec পর বস্তুটির সরণ কত?</p>",
+    "options": [
+      "20m",
+      "26m",
+      "28m",
+      "56m"
+    ],
+    "answer": "26m",
+    "explanation": "<p>$v(t)=6 t^2+2 t$</p><p>$S=\\frac{d v}{d t}=\\frac{d}{d t}\\left(6 t^2+2 t\\right)=12 t+2$</p><p>$\\therefore 2 \\mathrm{sec}$ পর সরণ, $S=12 \\times 2+2=26 \\mathrm{~m}$.</p>"
+  }
+]

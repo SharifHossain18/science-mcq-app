@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1025,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "একটি নাল ভেক্টরের মান কত হবে?&nbsp;",
+    "options": [
+      "1",
+      "-1",
+      "$\\pm1$",
+      "0"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 1026,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "$\\widehat i\\times\\widehat j=?$",
+    "options": [
+      "0",
+      "$\\widehat k$",
+      "$\\widehat j\\times\\widehat k$",
+      "$\\widehat i\\times\\widehat k$"
+    ],
+    "answer": "$\\widehat k$",
+    "explanation": ""
+  },
+  {
+    "id": 1027,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$\\left|\\overrightarrow A+\\overrightarrow B\\right|=\\left|\\overrightarrow A-\\overrightarrow B\\right|$ হলে $\\overrightarrow A$ ও $\\overrightarrow B$এর মধ্যবর্তী কোণ হবে-</p>",
+    "options": [
+      "0⁰",
+      "30 °",
+      "90 °",
+      "180 °"
+    ],
+    "answer": "90 °",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; |\\vec{A}+\\vec{B}=| \\vec{A}-\\vec{B} \\mid \\text { হলে, } \\\\ &amp; \\sqrt{A^2+B^2+2 A B \\cos \\theta}=\\sqrt{A^2+B^2+2 A B \\cos \\left(180^{\\circ}-\\theta\\right)} \\\\ &amp; \\text { বা, } A^2+B^2+2 A B \\cos \\theta=A^2+B^2-2 A B \\cos \\theta \\\\ &amp; \\text { বা, } 4 A B \\cos \\theta=0 \\text { বা, } \\cos \\theta=0 \\text { বা, } \\theta=90^{\\circ}\\end{aligned}$</p>"
+  },
+  {
+    "id": 1028,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "কৌণিক ভরবেগের একক-",
+    "options": [
+      "$kg\\;m^2\\;s^{-2}$",
+      "$kg\\;m^2\\;s^{-1}$",
+      "$kg\\;m^2\\;s^{-3}$",
+      "$kg\\;m\\;s^{-1}$"
+    ],
+    "answer": "$kg\\;m^2\\;s^{-1}$",
+    "explanation": ""
+  },
+  {
+    "id": 1029,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>একটি চাকার জড়তার ভ্রামক 5 × 10<sup>-3</sup> kg m<sup>2</sup> এবং এটি প্রতি সেকেন্ডে 20 বার আবর্তন করছে। চাকাটিকে 20 সেকেন্ডে থামানো হলে ইহার কৌণিক ত্বরণ হবে-</p>",
+    "options": [
+      "$\\mathrm\\pi\\;\\mathrm{rad}\\;\\mathrm s^{-2}$",
+      "$2\\mathrm\\pi\\;\\mathrm{rad}\\;\\mathrm s^{-2}$",
+      "$4\\mathrm\\pi\\;\\mathrm{rad}\\;\\mathrm s^{-2}$",
+      "$8\\mathrm\\pi\\;\\mathrm{rad}\\;\\mathrm s^{-2}$"
+    ],
+    "answer": "$2\\mathrm\\pi\\;\\mathrm{rad}\\;\\mathrm s^{-2}$",
+    "explanation": "<p>প্রতি সেকেন্ডে 20 বার আবর্তন করায় $\\omega_0=-2 \\pi \\times 20=40 \\pi \\mathrm{rads}^{-1} . \\omega=$ $0, \\mathrm{t}=20 \\mathrm{~s}, \\alpha=\\frac{0-40 \\pi}{20}=-2 \\pi \\mathrm{rads}^{-2}$\n</p><p><br></p><p>$\\therefore$ কৌণিক ত্বরণের মান $2 \\pi \\mathrm{rads}^{-2}$</p>"
+  },
+  {
+    "id": 1030,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "ব্যাংকিং কোণ পরিমাপ করা হয় কোনটির সাপেক্ষে?",
+    "options": [
+      "অনুভূমিক দিকের সাপেক্ষে",
+      "উল্লম্ব দিকের সাপেক্ষে",
+      "বৃত্তের কেন্দ্র হতে বাইরের দিকের সাপেক্ষে",
+      "বৃত্তের কেন্দ্রের দিকের সাপেক্ষে"
+    ],
+    "answer": "অনুভূমিক দিকের সাপেক্ষে",
+    "explanation": ""
+  },
+  {
+    "id": 1031,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "বিভবশক্তির মাত্রা কোনটি?",
+    "options": [
+      "$ML^2T^{-2}$",
+      "$ML^2T^{-1}$",
+      "$MLT^{-2}$",
+      "$ML^2T^{-3}$"
+    ],
+    "answer": "$ML^2T^{-2}$",
+    "explanation": ""
+  },
+  {
+    "id": 1032,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "ভর এবং বেগ উভয়কে বৃদ্ধি করে যথাক্রমে তিনগুণ করা হলে গতিশক্তির বৃদ্ধির পরিমাণ কতগুণ হবে?",
+    "options": [
+      "27",
+      "21",
+      "18",
+      "8"
+    ],
+    "answer": "27",
+    "explanation": "<p>গতিশক্তি $E_{k_1}=\\frac{1}{2} m_1 v^2$ পরিবর্তিত ভর $\\mathrm{m}_2=3 \\mathrm{~m}_1$ এবং\nবেগ $v_2=3 v_1$\n</p><p><br></p><p>$\\begin{aligned} &amp; \\therefore E_{k_2}=\\frac{1}{2} m_2 v_2{ }^2=\\frac{1}{2} 3 m_1\\left(3 v_1\\right)^2=\\frac{1}{2} \\times m_1 \\times v_1{ }^2 \\times 27 \\\\ &amp; \\text { বা, } E_{k_2}=E_{k_1} \\times 27\\end{aligned}$</p>"
+  },
+  {
+    "id": 1033,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>85 % দক্ষতা সম্পন্ন 2.5 kW ক্ষমতার একটি মোটরচালিত পাম্প দ্বারা একটি কূপ হতে গড়ে 6.30m উচ্চতায় পানি উঠানো হয়। প্রতি মিনিটে মোটরটি কত কিলোগ্রাম পানি উঠাতে পারবে?</p>",
+    "options": [
+      "2075",
+      "2065",
+      "2045",
+      "2025"
+    ],
+    "answer": "2065",
+    "explanation": ""
+  },
+  {
+    "id": 1034,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "দশা বলতে বুঝায়- ",
+    "options": [
+      "বেগ",
+      "ত্বরণ",
+      "অবস্থান",
+      "সবগুলো"
+    ],
+    "answer": "সবগুলো",
+    "explanation": ""
+  },
+  {
+    "id": 1035,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "সরল ছন্দিত স্পন্দন গতির ত্বরণ ও সরণের সম্পর্কটি হলো-",
+    "options": [
+      "সমমুখী",
+      "বিপরীত মুখী",
+      "স্থির",
+      "ব্যস্তানুপাতিক"
+    ],
+    "answer": "বিপরীত মুখী",
+    "explanation": ""
+  },
+  {
+    "id": 1036,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "t = 0 সময়ে সরল দোলনগতিসম্পন্ন কোনো বস্তুর দশাকে বলা হয়- ",
+    "options": [
+      "কৌণিক দশা",
+      "রৈখিক দশা",
+      "আদি দশা",
+      "তাৎক্ষণিক দশা"
+    ],
+    "answer": "আদি দশা",
+    "explanation": ""
+  },
+  {
+    "id": 1037,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও: </p><p>0.01 kg ভরের একটি বস্তুকণা সরলরেখা বরাবর সরল দোলনগতি অর্জন করে। এর দোলনকাল 2 sec, বিস্তার 0.1 m এবং সরণ 0.02m. </p><p><br></p><p>Q. বল ধ্রুবকের মান কত?</p>",
+    "options": [
+      "$0.0314\\;Nm^{-1}$",
+      "$0.09865;Nm^{-1}$",
+      "$0.02465\\;Nm^{-1}$",
+      "$0.3944\\;Nm^{-1}$"
+    ],
+    "answer": "$0.09865;Nm^{-1}$",
+    "explanation": "<p>সরল দোলনগতির ক্ষেত্রে, $ \\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{m}}{\\mathrm{k}}} $  বা, $ \\mathrm{k}=\\frac{4 \\pi^2 \\mathrm{~m}}{\\mathrm{~T}^2} $ </p><p><br></p><p>$ \\therefore \\mathrm{k}=\\frac{4 \\pi^2 \\times 0.01}{(2)^2}=0.098 \\mathrm{Nm}^{-1} $</p>"
+  },
+  {
+    "id": 1038,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও: </p><p>0.01 kg ভরের একটি বস্তুকণা সরলরেখা বরাবর সরল দোলনগতি অর্জন করে। এর দোলনকাল 2 sec, বিস্তার 0.1 m এবং সরণ 0.02m. </p><p><br></p><p>Q. উদ্দীপকে উল্লিখিত সরণকালে গতিশক্তি বিভবশক্তির কতগুণ?</p>",
+    "options": [
+      "0.42",
+      "2.4",
+      "4.2",
+      "24"
+    ],
+    "answer": "24",
+    "explanation": "<p>গতিশক্তি $\\mathrm{K}=\\frac{1}{2} \\mathrm{~m} \\omega^2\\left(\\sqrt{\\mathrm{A}^2-\\mathrm{x}^2}\\right)^2$, বিভবশক্তি $\\mathrm{U}=\\frac{1}{2} m \\omega^2 x^2$\n</p><p><br></p><p>$\\frac{K}{U}=\\frac{A^2-x^2}{x^2}=\\frac{(0.1)^2-(0.02)^2}{(0.02)^2}=24 \\text { বা, } K=24 \\times U$</p>"
+  },
+  {
+    "id": 1039,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "শিশিরাঙ্ক বলতে বুঝা যায়-",
+    "options": [
+      "তাপ",
+      "তাপমাত্রা",
+      "আপেক্ষিক আর্দ্রতা",
+      "পরম আর্দ্রতা"
+    ],
+    "answer": "তাপমাত্রা",
+    "explanation": ""
+  },
+  {
+    "id": 1040,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>গ্যাস কর্তৃক প্রদত্ত চাপ নির্ভর করে গ্যাসের- </p><p><br/>i. ঘনত্বের উপর </p><p><br/>ii. আণবিক বেগের উপর </p><p><br/>iii. প্রকৃতির উপর </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1041,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "30 ° C তাপমাত্রায় একটি গ্যাসকে স্থির চাপে উত্তপ্ত করা হলে আয়তন তিনগুণ হয়। গ্যাসটির চূড়ান্ত তাপমাত্রা কত হবে?",
+    "options": [
+      "+ 909 ° C",
+      "+ 636 ° C",
+      "+ 276 °",
+      "-170 ° C"
+    ],
+    "answer": "+ 636 ° C",
+    "explanation": "চার্লসের সূত্রানুসারে: $\\frac{T_2}{T_1}=\\frac{V_2}{V_1} \\quad$ বা, $T_2=\\frac{V_2}{V_1} \\times T_1$ বা, $\\mathrm{T}_2=\\frac{3 \\mathrm{~V}}{\\mathrm{~V}} \\times(273+30)=909 \\mathrm{~K}=636^{\\circ} \\mathrm{C}$ ।"
+  },
+  {
+    "id": 1042,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "বায়ুর আপেক্ষিক আর্দ্রতা কম হলে-",
+    "options": [
+      "বাষ্পায়ন ধীর গতিতে হবে",
+      "বৃষ্টি হওয়ার সম্ভাবনা আছে",
+      "বাষ্পায়ন দ্রুত গতিতে হবে",
+      "দিনটি কষ্টদায়ক হবে"
+    ],
+    "answer": "বাষ্পায়ন দ্রুত গতিতে হবে",
+    "explanation": ""
+  },
+  {
+    "id": 1043,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "নিম্নের কোনটি মৌলিক এককের উদাহরণ?",
+    "options": [
+      "সরণের একক",
+      "বেগের একক",
+      "ত্বরণের একক",
+      "বলের একক"
+    ],
+    "answer": "সরণের একক",
+    "explanation": ""
+  },
+  {
+    "id": 1044,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "দুটি ভেক্টর রাশির স্কেলার গুণফল √18 এবং ভেক্টর গুণফল √6। ভেক্টরদ্বয়ের মধ্যবর্তী কোণ- ",
+    "options": [
+      "120 °",
+      "90 °",
+      "60 °",
+      "30 °"
+    ],
+    "answer": "30 °",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; A B \\cos \\theta=\\sqrt{18} \\text { এবং } A B \\sin \\theta=\\sqrt{6} \\text { হলে,, } \\frac{A B \\sin \\theta}{A B \\cos \\theta}=\\frac{\\sqrt{6}}{\\sqrt{18}} \\\\ &amp; \\text { বা, } \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan 30^{\\circ} \\text { বা, } \\theta=30^{\\circ}\\end{aligned}$</p>"
+  },
+  {
+    "id": 1045,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "নিচের কোনটির দিক নির্দিষ্ট নয়?",
+    "options": [
+      "সমান ভেক্টর",
+      "বিপরীত ভেক্টর",
+      "সমান্তরাল ভেক্টর",
+      "শূন্য ভেক্টর"
+    ],
+    "answer": "শূন্য ভেক্টর",
+    "explanation": ""
+  },
+  {
+    "id": 1046,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "সাঁতার কাটার ভিত্তি হলো নিউটনের- ",
+    "options": [
+      "১ ম সূত্র",
+      "২ য় সূত্র",
+      "৩ য় সূত্র",
+      "৪ র্থ সূত্র"
+    ],
+    "answer": "৩ য় সূত্র",
+    "explanation": ""
+  },
+  {
+    "id": 1047,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>1kg-watt ঘণ্টা সমান—</p>",
+    "options": [
+      "1000 J",
+      "3600 J",
+      "600 J",
+      "3600000 J"
+    ],
+    "answer": "3600000 J",
+    "explanation": ""
+  },
+  {
+    "id": 1048,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "K বল ধ্রুবকের একটি স্প্রিং এ T পরিমাণ টান প্রয়োগ করা হলো। ফলে দৈর্ঘ্য বৃদ্ধি হয় x পরিমাণ। এ অবস্থায় স্প্রিংটিতে সঞ্চিত বিভবশক্তি হবে—",
+    "options": [
+      "$\\frac{2T^2}k$",
+      "$\\frac{T^2}{2k}$",
+      "$\\frac{T^2}{2x}$",
+      "$\\frac{2k}{T^2}$"
+    ],
+    "answer": "$\\frac{T^2}{2k}$",
+    "explanation": ""
+  },
+  {
+    "id": 1049,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "আয়তন স্থির রেখে গ্যাসের তাপমাত্রা বৃদ্ধি করা হলে- ",
+    "options": [
+      "চাপ হ্রাস পাবে",
+      "চাপ বৃদ্ধি পাবে",
+      "চাপ ধ্রুব থাকবে",
+      "কোনোটিই নয়"
+    ],
+    "answer": "চাপ বৃদ্ধি পাবে",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 409,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>চিত্রটি লক্ষ্য কর :</p><p><img src=\"data:image/png;base64,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\"></p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>টর্ক কাকে বলে?</p>",
+        "answer": "<p>কোনো দৃঢ় বস্তুর উপর বল প্রযুক্ত হলে বস্তুটির মধ্যে কোনো নির্দিষ্ট বিন্দু বা অক্ষের সাপেক্ষে ঘুরবার যে প্রবণতা সৃষ্টি হয় তাকে বলের ভ্রামক বা টর্ক বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>পরিমাপের এককের আন্তর্জাতিক পদ্ধতির প্রয়োজন হয়েছিল কেন?</p>",
+        "answer": "<p>একই রাশি ভিন্ন ভিন্ন এককে পরিমাপ করলে মান ভিন্ন হয়। যেমন যে দণ্ডটির দৈর্ঘ্য মিটার এককে 1 m. সেন্টিমিটার এককে তার মান &nbsp;100 cm । এভাবে একই রাশি বিভিন্ন জায়গায় বিভিন্ন এককে পরিমাপ করলে বুঝতে সমস্যার সৃষ্টি হয়। এজন্য ইউনিফর্ম পরিমাপ ব্যবস্থা চালু করার লক্ষ্যে পরিমাপের এককের আন্তর্জাতিক পদ্ধতির প্রয়োজন হয়েছিল ।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের আলোকে $\\theta$ এর মান নির্ণয় কর।</p>",
+        "answer": "<p>দেওয়া আছে, $\\vec{P}=4 \\hat{\\imath}+3 \\hat{\\jmath}$</p><p>এবং $\\vec{Q}=2 \\hat{\\jmath}+5 \\hat{k}$</p><p>$\\begin{aligned} &amp; \\therefore \\overrightarrow{\\mathrm{R}}=\\overrightarrow{\\mathrm{P}}+\\overrightarrow{\\mathrm{Q}}=4 \\hat{\\imath}+3 \\hat{\\jmath}+2 \\hat{\\jmath}+5 \\hat{\\mathrm{k}} \\\\ &amp; \\quad \\quad=4 \\hat{\\imath}+5 \\hat{\\jmath}+5 \\hat{\\mathrm{k}} \\\\ &amp; \\therefore \\overrightarrow{\\mathrm{P}} \\cdot \\overrightarrow{\\mathrm{R}}=16+15+0\\end{aligned}$</p><p>বা, PR $\\cos \\theta=31$</p><p>বা, $\\cos \\theta=\\frac{31}{P R}$</p><p>বা, $\\cos \\theta=\\frac{31}{\\sqrt{4^2+3^2} \\times \\sqrt{4^2+5^2+5^2}}$</p><p>বা, $\\cos \\theta=0.76$</p><p>$\\therefore \\theta=40.26^{\\circ}$</p><p>অতএব, উদ্দীপকের আলোকে θ =40.26° ।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>△OAB ও ΔOBC এর ক্ষেত্রফলের সমষ্টি সামান্তরিক OABC এর ক্ষেত্রফলের সমান কি না? গাণিতিকভাবে বিশ্লেষণ কর ।</p>",
+        "answer": "<p>$\\begin{gathered}\\vec{P}=4 \\hat{\\imath}+3 \\hat{\\jmath} \\\\ \\vec{Q}=2 \\hat{\\jmath}+5 \\hat{k}\\end{gathered}$</p>\n<p>'গ' হতে পাই,</p>\n<p>$\\overrightarrow{\\mathrm{R}}=4 \\hat{\\imath}+5 \\hat{\\jmath}+5 \\hat{\\mathrm{k}}$</p>\n<p>এবং&nbsp;&theta;=40.26<sup>∘</sup></p>\n<p>এখন, $\\begin{aligned} \\cos \\alpha &amp; =\\frac{\\overrightarrow{\\mathrm{P}} \\cdot \\overrightarrow{\\mathrm{Q}}}{\\mathrm{PQ}}=\\frac{0+6+0}{\\sqrt{4^2+3^2} \\times \\sqrt{2^2+5^2}} \\end{aligned}$</p>\n<p>বা, $\\alpha=77.12^{\\circ}$</p>\n<p>&nbsp;</p>\n<p>$\\triangle \\mathrm{OAB}$ -এর ক্ষেত্রফল}</p>\n<p>$=\\frac{1}{2}|\\overrightarrow{\\mathrm{P}} \\times \\overrightarrow{\\mathrm{R}}|=\\frac{1}{2} \\mathrm{PR} \\sin \\theta$&nbsp; $=\\frac{1}{2} \\sqrt{4^2+3^2} \\times \\sqrt{4^2+5^2+5^2} \\times \\sin 40.26^{\\circ}$</p>\n<p>$=\\frac{1}{2} \\times 26.25$</p>\n<p>=13.1 .3 বর্গ একক</p>\n<p>&nbsp;</p>\n<p>$\\triangle \\mathrm{OBC}$ - এর ক্ষেত্রফল</p>\n<p>$=\\frac{1}{2}|\\overrightarrow{\\mathrm{Q}} \\times \\overrightarrow{\\mathrm{R}}|$</p>\n<p>$=\\frac{1}{2} \\mathrm{QR} \\sin (\\alpha-\\theta)$</p>\n<p>$=\\frac{1}{2} \\sqrt{2^2+5^2} \\times \\sqrt{4^2+5^2+5^2}$</p>\n<p>$\\times \\sin \\left(77.12^{\\circ}-40.26^{\\circ}\\right)$</p>\n<p>=13.12 বর্গ একক</p>\n<p>$\\therefore \\triangle \\mathrm{OAB}+\\triangle \\mathrm{OBC}=13.13+13.12$&nbsp;</p>\n<p>=26.254 বর্গ একক&nbsp;</p>\n<p>OABC সামান্তরিকের ক্ষেত্রফল&nbsp;</p>\n<p>$=|\\vec{P} \\times \\vec{Q}|=P Q \\sin \\alpha$</p>\n<p>$=\\sqrt{4^2+3^2} \\times \\sqrt{2^2+5^2} \\sin 77.12^{\\circ}$</p>\n<p>=26.25 বর্গ একক&nbsp;$=\\triangle \\mathrm{OAB}+\\Delta \\mathrm{OBC}$</p>\n<p>অতএব, △OAB ও &Delta;OBC -এর ক্ষেত্রফলের সমষ্টি সামান্তরিক OABC-এর ক্ষেত্রফলের সমান।</p>"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>একদিন এক প্রীতি ম্যাচ খেলার সময় প্রিতম ব্যাট নিয়ে আঘাত করায় বলটি পার্শ্ববর্তী একটি উঁচু ভবনের ছাদে পড়ল। ডাক্তারের নিষেধ থাকায় প্রিতম <strong>96 m </strong>এর বেশি উঁচুতে উঠতে অস্বীকৃতি জানিয়ে ছাদে বল আনতে গেল না। প্লাবন ছাদে উঠে বলটিকে উল্লম্বের সাথে <strong>60°</strong> কোণে <strong>5ms</strong><sup><strong>-1</strong></sup><strong> </strong>বেগে নিচে ফেলে দিল। বলটি ছুঁড়ে মারার <strong>3 sec </strong>পরে ভূমি থেকে <strong>2 m </strong>উঁচুতে প্রিতম বলটি ধরে ফেলল।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>নিট বল কী?</p>",
+        "answer": "<p>বস্তুর উপর প্রযুক্ত সবগুলো ভরের মান ও দিক বিবেচনা করে যে লব্ধি বল পাওয়া যায় তাই নিট বল।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>ভরকে জাড্যভর বলা হয় কেন? ব্যাখ্যা কর।</p>",
+        "answer": "<p>কোনো বস্তুর তার অবস্থা অক্ষুন্ন রাখার ধর্মকে জড়তা বা জাড্য বলে। ভর হচ্ছে বস্তুর জড়তা তথা জাড্যের পরিমাপ। অর্থাৎ যার ভর যত বেশি তার জাড্য তত বেশি। এ কারণে ভরকে জাড্যভর বলা হয়।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>বলটি কত বেগে প্রিতমের হাতে আঘাত করেছিল?</p>",
+        "answer": "<p>নিক্ষেপণ বেগ,v<sub>0</sub>= m s-1</p><p>অনুভূমিকের সাথে নিক্ষেপণ কোণ,θ<sub>0</sub>=(90-60)<sup>∘</sup>=30<sup>∘</sup></p><p>সময়, t=3s</p><p>অভিকর্ষজ ত্বরণ, g=9.8ms<sup>-2</sup></p><p>আমরা জানি, $\\begin{aligned} \\mathrm{v}_{\\mathrm{y}}= &amp; \\mathrm{v}_0 \\sin \\theta_0+\\mathrm{gt} \\\\ &amp; =\\left(5 \\times \\sin 30^{\\circ}+9.8 \\times 3\\right) \\mathrm{ms}^{-1} \\\\ &amp; =31.9 \\mathrm{~m} \\mathrm{~s}^{-1}\\end{aligned}$</p><p>আবার, </p><p>$\\begin{gathered}\\mathrm{v}_{\\mathrm{x}}=\\mathrm{v}_0 \\cos \\theta_0+\\mathrm{a}_{\\mathrm{x}} \\mathrm{t}=5 \\times \\cos 30^{\\circ}+0 \\\\ \\text { বা, } \\mathrm{v}_{\\mathrm{x}}=4.3 \\mathrm{~m} \\mathrm{~s}^{-1}\\end{gathered}$</p><p>$\\begin{aligned} \\therefore \\mathrm{v}=\\sqrt{\\mathrm{v}_{\\mathrm{x}}^2+\\mathrm{v}_{\\mathrm{y}}^2} &amp; =\\sqrt{4.3^2+31.9^2} \\mathrm{~ms}^{-1} \\\\ &amp; =32.19 \\mathrm{~m} \\mathrm{~s}^{-1}\\end{aligned}$</p><p>অতএব, বলটি 32.19m s<sup>-1</sup>বেগে প্রিতমের হাতে আঘাত করেছিল।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের তথ্য অনুসারে প্রিতম ছাদে উঠতে পারত কি না? গাণিতিক বিশ্লেষণের মাধ্যমে মতামত দাও।&nbsp;</p>",
+        "answer": "<p>এখানে, নিক্ষেপণ বেগ,v<sub>0</sub>=5m s<sup>-1</sup></p><p>অনুভূমিকের সাথে নিক্ষেপণ কোণ, θ<sub>0</sub>=30<sup>∘</sup></p><p>সময়, t=3s</p><p>ধরি, ভবনটির উচ্চতা h</p><p>∴ উদ্দীপক অনুসারে,</p><p>$\\begin{aligned} &amp; \\mathrm{h}-2=\\mathrm{v}_0 \\sin \\theta_0 \\mathrm{t}+\\frac{1}{2} \\mathrm{gt}^2 \\\\ &amp; \\text { বা, } \\mathrm{h}=\\left(5 \\times \\sin 30^{\\circ} \\times 3+\\frac{1}{2} \\times 9.8 \\times 3^2+2\\right) \\mathrm{m} \\\\ &amp; \\therefore \\mathrm{h}=53.6 \\mathrm{~m}\\end{aligned}$</p><p>উপরোক্ত গাণিতিক বিশ্লেষণ হতে দেখা যাচ্ছে ভবনটির উচ্চতা 53.6 m যা 96 m অপেক্ষা কম। অতএব, উদ্দীপকের তথ্য অনুসারে প্রিতম ছাদে উঠতে পারত।</p>"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>6.4 × 10<sup>6</sup> m ব্যাসার্ধের একটি গ্রহ নিজ অক্ষে 24 ঘণ্টায় একবার ঘুরে। একজন বিজ্ঞানী গ্রহটির সাথে অভিকর্ষীয় ত্বরণ g-এর সম্পর্ক স্থাপনের জন্য 58° উত্তর অক্ষাংশের সাথে একটি স্থানে 80 kg ভরের একটি বস্তু রাখলেন । অভিকর্ষীয় ত্বরণ g = 9.80ms<sup>-2</sup>।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>মুক্তিবেগ কী?</p>",
+        "answer": "<p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সর্বাপেক্ষা কম যে বেগে কোনো বস্তুকে নিক্ষেপ করলে তা আর সেখানে ফিরে আসে না সেই বেগকে উক্ত গ্রহের মুক্তিবেগ বলে।</span></p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>পৃথিবীর অভ্যন্তরে কোনো স্থানের অভিকর্ষজ ত্বরণ পৃথিবীর কেন্দ্র হতে দূরত্বের সমানুপাতিক–ব্যাখ্যা কর।</p>",
+        "answer": "<p>পৃথিবীর অভ্যন্তরে কোনো স্থানের অভিকর্ষজ ত্বরণ পৃথিবীর কেন্দ্র হতে দূরত্বের সমানুপাতিক–ব্যাখ্যা কর।</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">ধরা যাক, পৃথিবীর অভ্যন্তরে A বিন্দুতে অভিকর্ষজ ত্বরণের মান g' এবং পৃথিবীর কেন্দ্র হতে A বিন্দুর দূরত্ব x। এ বিন্দুতে অবস্থিত কোনো বস্তুর ওপর পৃথিবীর কেন্দ্রের দিকে বল = সমকেন্দ্রিক x ব্যাসার্ধের গোলকের আকর্ষণ বল। এ গোলকের বাইরের অংশ বস্তুর ওপর কার্যকর কোনো বল প্রয়োগ করে না। সুতরাং, A বিন্দুতে অভিকর্ষজ ত্বরণ শুধুমাত্র x ব্যাসার্ধের গোলকের মধ্যাকর্ষণের জন্য সৃষ্টি হবে। </span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">এখানে, x ব্যাসার্ধের গোলকের ভর,</span></p><p>$\\begin{aligned} &amp; M^{\\prime}=\\frac{4}{3} \\pi x^3 \\rho \\\\ &amp; \\text { বা, } g=G \\frac{M^{\\prime}}{x^2}=G \\frac{G^{\\frac{4}{3} \\pi x^3 \\rho}}{x^2}=\\frac{4}{3} G \\pi x \\rho \\\\ &amp; \\text { বা, } g^{\\prime} \\propto x\\end{aligned}$</p><p>অর্থাৎ পৃথিবীর অভ্যন্তরে কোনো স্থানে অভিকর্ষজ ত্বরণ পৃথিবীর কেন্দ্র হতে দূরত্বের সমানুপাতিক।&nbsp;</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উক্ত স্থানে গ্রহটির ঘূর্ণনের জন্য বস্তুটির রৈখিক বেগ কত<strong>?</strong></p>",
+        "answer": "<p>দেওয়া আছে, গ্রহের ব্যাসার্ধ, R=6.4×10<sup>6</sup>m&nbsp;</p><p>অক্ষাংশ, λ=58<sup>∘</sup></p><p>58° উত্তর অক্ষাংশে থাকা বস্তুটি গ্রহটির ঘূর্ণনের সময় যে বৃত্ত তৈরি করে তার পরিধি,</p><p>$\\begin{aligned} 2 \\pi r &amp; =2 \\pi \\times R \\cos \\lambda \\\\ &amp; =2 \\pi \\times R \\cos \\lambda \\\\ &amp; =2 \\pi \\times 6.4 \\times 10^6 \\times \\cos 58^{\\circ} \\mathrm{m} \\\\ = &amp; 21309368 \\mathrm{~m}\\end{aligned}$</p><p>এখন, বস্তুটি পরিধির সমান দূরত্ব অতিক্রম করে 24 ঘণ্টায়</p><p>∴বস্তুর রৈখিক বেগ&nbsp; $\\begin{aligned} &amp; =\\frac{21309368}{24 \\times 3600} \\mathrm{~ms}^{-1} \\\\ &amp; =246.63 \\mathrm{~ms}^{-1}\\end{aligned}$</p><p><br></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উক্ত স্থানে বস্তুটির ওজন গ্রহটির পৃষ্ঠে বস্তুর ওজনের চেয়ে বেশি না কম হবে<strong>? </strong>গাণিতিক বিশ্লেষণের মাধ্যমে<strong> </strong>মতামত দাও।</p>",
+        "answer": "<p>উদ্দীপকে অভিকর্ষজ ত্বরণের যে মান (9.80ms<sup>2</sup>) দেওয়া আছে, তা হলো g-এর আদর্শ মান যা 45° অক্ষাংশের কাছাকাছি অঞ্চলে কার্যকর।</p><p>মেরু অঞ্চলে অভিকর্ষজ ত্বরণের মান, $\\mathrm{g}=9.83 \\mathrm{~ms}^{-2}$</p><p>পৃথিবীর ঘূর্ণনের কৌণিক বেগ,&nbsp; $\\omega=\\frac{2 \\pi}{24 \\times 3600} \\mathrm{rads}^{-1}$</p><p>পথিবীর ব্যাসার্ধ,R=6.4×10<sup>6</sup> m</p><p>উল্লিখিত স্থানের অক্ষাংশ, ⁡λ = 58°</p><p>ঐ স্থানের অভিকর্ষজ ত্বরণ gλ=?</p><p>আমরা জানি,</p><p>$\\begin{aligned} \\mathrm{g}_\\lambda &amp; =\\mathrm{g}-\\omega^2 \\mathrm{Rcos}^2 \\lambda \\\\ &amp; =9.83-\\left(\\frac{2 \\pi}{24 \\times 3600}\\right)^2 \\times 6.4 \\times 10^6 \\times \\cos ^2 58^{\\circ} \\\\ &amp; =9.8205 \\mathrm{~ms}^{-2}&lt;9.83 \\mathrm{~ms}^{-2}\\end{aligned}$</p><p>অর্থাৎ উক্ত স্থানের অভিকর্ষজ ত্বরণের মান মেরু অঞ্চল অপেক্ষা কম। আবার, বিষুবীয় অঞ্চলে অভিকর্ষজ ত্বরণ,</p><p>$\\mathrm{g}^{\\prime}=9.78 \\mathrm{~ms}^{-2} \\mathrm{~s}-2$ </p><p>লক্ষ্য করি, 9.8205ms-2 &gt; 9.78 ms অভিকর্ষজ ত্বরণের মান বিষুবীয় অঞ্চল অপেক্ষা বেশি।</p><p>আবার, যেহেতু বস্তুর ওজন = ভর x অভিকর্ষজ ত্বরণ</p><p>উক্ত অক্ষাংশের স্থানে বস্তুর ওজন মেরু অঞ্চল অপেক্ষা কম হবে এবং বিষুবীয় অঞ্চল অপেক্ষা বেশি হবে।</p>"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>4 kg ভরের একটি শক্ত পাথর খণ্ড একই ভরের মাটিতে পোঁতা একটি লোহার রডের উপর 5m উঁচু কোনো স্থান থেকে খাড়াভাবে পড়ল। ফলে লোহার রডটি মাটির ভেতরে আরও 10 cm প্রবেশ করল।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>কর্মদক্ষতা কী?</p>",
+        "answer": "<p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">কোনো যন্ত্র হতে প্রাপ্ত লভ্য কার্যকর ক্ষমতা এবং ঐ যন্ত্রে প্রদত্ত মোট ক্ষমতার অনুপাতকে ঐ যন্ত্রের কর্মদক্ষতা বলে।</span></p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>পরম শূন্য তাপমাত্রার নিচে গ্যাসের তাপমাত্রা থাকতে পারে কি না? ব্যাখ্যা কর।</p>",
+        "answer": "<p><span style=\"color: rgb(51, 51, 63); background-color: rgb(248, 248, 248);\">−273°C তাপমাত্রায় পরম তাপমাত্রা হয় (−273°C + 273°C) = 0 K । যেখানে আয়তন শূন্য হয়। এ তাপমাত্রার নিচে গ্যাসের আয়তনের মান ঋণাত্মক হয়, যা বাস্তবে অসম্ভব। তাই – 273°C তথা পরমশূন্য তাপমাত্রা এর নিচে গ্যাসের তাপমাত্রা থাকতে পারে না।</span></p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>মাটির গড় প্রতিরোধ বল কত?</p>",
+        "answer": "<p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">এখানে, বস্তুর ভর, m = 4kg</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">&nbsp;উচ্চতা, h = 5m </span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">অভিকর্ষজ ত্বরণ, g = 9.8 ms</span><sup style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">-2</sup></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">&nbsp;মাটির ভেতর সরণ, s = 10 cm = 0.1m </span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটির গড় প্রতিরোধকারী বল, F = ?</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সর্বোচ্চ উচ্চতায় গতিবেগ, u = 0 ms</span><sup style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">-1</sup></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">&nbsp;মাটিতে আঘাত করার মুহূর্তে গতিবেগ v হলে,</span></p><p>$\\begin{aligned} &amp; \\mathrm{v}^2=\\mathrm{u}^2+2 \\mathrm{gh}=\\left(0 \\mathrm{~ms}^{-1}\\right)^2+2 \\times 9.8 \\mathrm{~ms}^{-2} \\times 5 \\mathrm{~m} \\\\ &amp; \\therefore \\mathrm{v}=\\sqrt{98 \\mathrm{~m}^2 \\mathrm{~s}^{-2}}=9.9 \\mathrm{~ms}^{-1}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটিতে প্রবেশের ক্ষেত্রে, আদিবেগ, u = 9.9 ms</span><sup style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">-1</sup><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\"> </span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">শেষবেগ, v = 0 ms</span><sup style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">-1</sup></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সরণ, s = &nbsp;0.1 m</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">এক্ষেত্রে মন্দন a হলে,</span></p><p>$\\begin{aligned} &amp; \\mathrm{v}^2=\\mathrm{u}^2-2 \\mathrm{as} \\\\ &amp; \\text { বা, 2as }=\\mathrm{u}^2-\\mathrm{v}^2 \\\\ &amp; \\begin{aligned} \\therefore \\mathrm{a} \\quad &amp; =\\frac{\\mathrm{u}^2-\\mathrm{v}^2}{2 \\mathrm{~s}}=\\frac{\\left(9.9 \\mathrm{~ms}^{-1}\\right)^2-\\left(0 \\mathrm{~ms}^{-1}\\right)^2}{2 \\times 0.1 \\mathrm{~m}} \\\\ &amp; =490.05 \\mathrm{~ms}^{-2}\\end{aligned}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটির গড় প্রতিরোধকারী বল, F = ma = 4 x 490</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">= 1960.2 N</span></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের বর্ণিত ঘটনাটি কাজ-শক্তির উপপাদ্য সমর্থন করে<strong> </strong>কি<strong>? </strong>গাণিতিকভাবে যাচাই কর।</p>",
+        "answer": "<p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">কাজ শক্তি উপপাদ্যটি হলোঃ কোনো বস্তুর ওপর প্রযুক্ত বল দ্বারা কৃতকাজ বস্তুটির গতিশক্তির পরিবর্তনের সমান।</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">বস্তুটি যখন সর্বোচ্চ উচ্চতা হতে মাটি পর্যন্ত নেমে আসে,</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">তখন অভিকর্ষ বল দ্বারা কৃতকাজ ,</span></p><p>$\\begin{aligned} &amp; =\\mathrm{mg} \\times \\mathrm{h} \\\\ &amp; =4 \\mathrm{~kg} \\times 9.8 \\mathrm{~ms}^{-2} \\times 5 \\mathrm{~m} \\\\ &amp; =196 \\mathrm{~J}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটিতে আঘাত করার মুহূর্তে বস্তুটির গতিশক্তি ,&nbsp;</span></p><p>$\\begin{aligned} &amp; =\\frac{1}{2} \\mathrm{mv}^2 \\\\ &amp; =\\frac{1}{2} \\times 4 \\mathrm{~kg} \\times\\left(9.9 \\mathrm{~ms}^{-1}\\right)^2 \\\\ &amp; =196 \\mathrm{~J}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সর্বোচ্চ বিন্দুতে বস্তুর গতিশক্তি = 0; </span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সুতরাং ভূমি পর্যন্ত নেমে আসতে বস্তুর গতিশক্তির পরিবর্তন = 196 - 0 = 196 J</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সুতরাং অভিকর্ষ বল দ্বারা কৃতকাজ = বস্তুর গতিশক্তির পরিবর্তন</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটিতে প্রবেশের ক্ষেত্রে,</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">বাধাদানকারী বলের বিরুদ্ধে কৃতকাজ = Fs</span></p><p>$\\begin{aligned} &amp; =1960.2 \\mathrm{~N} \\times 0.1 \\mathrm{~m} \\\\ &amp; =196 \\mathrm{~J}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">মাটিতে প্রবেশের শুরুতে বস্তুটির গতিশক্তি = 196 J এবং থেমে যাবার পর বস্তুটির গতিশক্তি O J</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সুতরাং গতিশক্তির পরিবর্তন = 196- 0 = 196J</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">&nbsp;মাটির অভ্যন্তরে, বাধাদানকারী বলের বিরুদ্ধে কৃতকাজ = বন্ধুর গতিশক্তির পরিবর্তন।</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">সুতরাং উদ্দীপকের ঘটনাটি কাজ-শক্তি উপপাদ্যকে সমর্থন করে।</span></p>"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>একটি সেকেন্ড দোলক ভূ-পৃষ্ঠে সঠিক সময় দেয়। একে পাহাড়ের উপর নিয়ে গেলে তা প্রতিদিন 10 sec সময় হারায়। [পৃথিবীর ব্যাসার্ধ, R = 6400 km এবং ভূপৃষ্ঠের অভিকর্ষীয় ত্বরণ g=9.8 ms<sup>-2</sup>]</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>পার্কিং কক্ষপথ কী?</p>",
+        "answer": "<p>ভূ-স্থির উপগ্রহের কক্ষপথ হলো পার্কিং কক্ষপথ।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>সূর্যকে কেন্দ্র করে ঘূর্ণায়মান গ্রহগুলোর আবর্তনকাল ভিন্ন হয়- ব্যাখ্যা কর।</p>",
+        "answer": "<p>কেপলারের তৃতীয় সূত্রানুসারে, সূর্যের প্রতিটি গ্রহের আবর্তনকালের বর্গ সূর্য থেকে ঐ গ্রহের গড় দূরত্বের ঘনফলের সমানুপাতিক। কিন্তু সূর্য থেকে গ্রহগুলোর দূরত্ব সমান নয়। এ কারণে, সূর্যের চারদিকে সম্পূর্ণ পথ ঘুরে আসতে গ্রহগুলোর ভিন্ন সময় লাগে। তাই, গ্রহগুলোর সমান সংখ্যক দিনে বছর হয় না । অর্থাৎ তাদের আবর্তনকাল ভিন্ন হয়।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের পাহাড়ের উচ্চতা কত?</p>",
+        "answer": "<p>উদ্দীপকের পাহাড়ের উচ্চতা কত?</p><p>ভূপৃষ্ঠে দোলকটির দোলনকাল, T=2 s</p><p>পাহাড়ের চূড়ায় দোলনকাল,</p><p>$\\begin{aligned} &amp; \\mathrm{T}^{\\prime}=\\frac{24 \\times 60 \\times 60+10}{43200} \\mathrm{~s} \\\\ &amp; \\therefore \\mathrm{T}^{\\prime}=2,0002315 \\mathrm{~s}\\end{aligned}$</p><p>পৃথিবীর ব্যাসার্ধ, $\\mathrm{R}=6400 \\mathrm{~km}=6.4 \\times 10^6 \\mathrm{~m}$</p><p>পাহাড়ের উচ্চতা, h= ?</p><p>আমরা জানি,</p><p>$\\begin{aligned} &amp; \\frac{\\mathrm{T}^{\\prime}}{\\mathrm{T}}=\\sqrt{\\frac{\\mathrm{g}}{\\mathrm{g}^{\\prime}}} \\\\ &amp; \\text { বা, } \\frac{\\mathrm{T}^{\\prime}}{\\mathrm{T}}=\\sqrt{\\left(\\frac{\\mathrm{R}+\\mathrm{h}}{\\mathrm{R}}\\right)^2} \\\\ &amp; \\text { বা, } \\frac{\\mathrm{T}^*}{\\mathrm{~T}}=\\frac{\\mathrm{R}+\\mathrm{h}}{\\mathrm{R}} \\\\ &amp; \\text { বা, } \\mathrm{h}=\\left(\\frac{\\mathrm{T}^{\\prime}}{\\mathrm{T}}-1\\right) \\mathrm{R} \\\\ &amp; \\text { বা, } \\mathrm{h}=\\left(\\frac{2.0002315}{2}-1\\right) \\times 6.4 \\times 10^6 \\mathrm{~m} \\\\ &amp; \\therefore \\mathrm{h}=740.74 \\mathrm{~m}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">অতএব, উদ্দীপকের পাহাড়টির উচ্চতা 740.74m</span></p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>কী যান্ত্রিক ব্যবস্থা গ্রহণ করলে পাহাড়ে দোলকটির দোলনকাল<strong> </strong>অপরিবর্তিত থাকবে<strong>? </strong>গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>এখানে, ভূপৃষ্ঠে অভিকর্ষজ ত্বরণ, g =9.8ms<sup>-2</sup></p><p>পাহাড়ের চূড়ায় অভিকর্ষজ ত্বরণ,</p><p>$\\begin{aligned} &amp; \\mathrm{g}^{\\prime}=\\left(\\frac{\\mathrm{R}}{\\mathrm{R}+\\mathrm{h}}\\right)^2 \\mathrm{~g} \\\\ &amp; \\text { বা, } \\mathrm{g}^{\\prime}=\\left(\\frac{6.4 \\times 10^6}{6.4 \\times 10^6+740.74}\\right)^2 \\times 9.8 \\mathrm{~m} \\mathrm{~s}^{-2} \\\\ &amp; \\therefore \\mathrm{g}^{\\prime}=9.79 \\mathrm{~m} \\mathrm{~s}^{-2}\\end{aligned}$</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">ধরি, ভূপৃষ্ঠে দোলকটির কার্যকরী দৈর্ঘ্য L ছিল</span></p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">এখন, দোলকটির পাহাড়ের চূড়ায় দোলনকাল অপরিবর্তিত থাকলে,</span></p><p>$\\begin{gathered}\\frac{\\mathrm{L}}{\\mathrm{g}}=\\frac{\\mathrm{L}^{\\prime}}{\\mathrm{g}^{\\prime}} \\\\ \\text { বা, } \\mathrm{L}^{\\prime}=\\frac{\\mathrm{g}^{\\prime}}{\\mathrm{g}} \\mathrm{L}=\\frac{9.79}{9.8} \\times \\mathrm{L} \\\\ \\therefore \\mathrm{L}^{\\prime}=0.99 \\mathrm{~L}\\end{gathered}$</p><p>কার্যকরী দৈর্ঘ্যের হ্রাস, ΔL=L-L'=L-0.99L</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0.01L</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=1%</p><p><span style=\"background-color: rgb(248, 248, 248); color: rgb(51, 51, 63);\">অতএব, দোলকটির কার্যকরী দৈর্ঘ্য 1% হ্রাস করলে এর দোলনকাল অপরিবর্তিত থাকবে।</span></p>"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>সীমা 18 kg ভরের একটি ব্যাগ নিয়ে 50m উঁচু একটি বিল্ডিং এ উঠার পর ছাদ থেকে ব্যাগটি পড়ে গেলে সেটি 'h' উচ্চতায় পাশের বিল্ডিং এর ছাদে 24.25ms <sup>-1</sup> বেগে পড়ল ।</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>স্প্রিং বল কী?</p>",
+        "answer": "<p><span style=\"color: rgb(91, 105, 111);\">কোনো স্প্রিং-এর মুক্ত প্রান্তের সরণ ঘটালে স্প্রিংটি সরণের বিপরীত দিকে যে বল প্রয়োগ করে তাকে স্প্রিং বল বলে।</span></p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>সরল দোলকের কৌণিক বিস্তার <strong>4°</strong> এর মধ্যে রাখা হয় কেন<strong>? </strong>ব্যাখ্যা কর।</p>",
+        "answer": "<p><span style=\"color: rgb(4, 12, 40);\">সরল দোলকের কৌণিক বিস্তার</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;সর্বোচ্চ চার ডিগ্রীর&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">মধ্যে রাখা হয়</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;কারণ&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">এর</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;রাশিমালা প্রতিপাদনের সময় বাতাসের বাধা ও ঘর্ষণ উপেক্ষা করা&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">হয়</span><span style=\"color: rgb(32, 33, 36);\">।&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">কৌণিক বিস্তার</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;চার ডিগ্রীর বেশি&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">হয়ে</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;গেলে এই ব্যাপারগুলো আগ্রাহ্য করা যায় না। অপর একটি কারণ হল, গাণিতিক সুবিধা। গাণিতিক হিসাবকে সহজ করার জন্য&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">কৌণিক বিস্তার 4</span><span style=\"color: rgb(32, 33, 36);\">&nbsp;ডিগ্রির&nbsp;</span><span style=\"color: rgb(4, 12, 40);\">মধ্যে রাখা হয়</span><span style=\"color: rgb(32, 33, 36);\">।</span></p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের <strong>'h' </strong>এর মান নির্ণয় কর।</p>",
+        "answer": "<p>দেওয়া আছে,</p><p>\"আদিবেগ, u=0</p><p>শেষবেগ\",  v=24.25ms<sup>-1</sup></p><p>\"অতিক্রান্ত সরণ, g=9.8ms<sup>-2</sup></p><p>\"অতিক্রান্ত সরণ , s=?&nbsp;</p><p>আমরা জানি,</p><p>$\\begin{gathered}\\mathrm{v}^2=\\mathrm{u}^2+2 \\mathrm{gs} \\\\ \\text { বা, } 2 \\mathrm{gs}=\\mathrm{v}^2-\\mathrm{u}^2 \\\\ \\text { বা, } \\mathrm{s}=\\frac{\\mathrm{v}^2-\\mathrm{u}^2}{2 \\mathrm{~g}} \\\\ \\text { বা, } \\mathrm{s}=\\frac{24.25^2-0^2}{2 \\times 9.8} \\\\ =30 \\mathrm{~m}\\end{gathered}$</p><p>$\\begin{aligned} &amp; \\text { শর্তমতে, } 50 \\mathrm{~m}-\\mathrm{h} \\\\ &amp; \\begin{aligned} \\text {বা, } \\mathrm{h}=50 \\mathrm{~m}-\\mathrm{s} &amp; =50 \\mathrm{~m}-30 \\mathrm{~m} \\\\ &amp; =20 \\mathrm{~m}\\end{aligned}\\end{aligned}$</p><p>অতএব&nbsp;নির্ণেয় মান = 20 m</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p><strong>'h' </strong>উচ্চতায় বিভব শক্তি গতি শক্তির সমান হবে কি-না<strong>?</strong></p>",
+        "answer": "<p>'গ' হতে পাই উচ্চতা, h = 20m</p><p>অভিকর্ষজ ত্বরণ, g=9.8 ms<sup>-2</sup></p><p>&nbsp;20 m উচ্চতায় বিভবশক্তি E<sub>p </sub>ও গতিশক্তি E<sub>k</sub> হলে,</p><p>$\\begin{aligned} \\frac{\\mathrm{E}_{\\mathrm{P}}}{\\mathrm{E}_{\\mathrm{K}}} &amp; =\\frac{\\mathrm{mgh}}{\\frac{1}{2} \\mathrm{mv}^2}=\\frac{2 \\mathrm{gh}}{\\mathrm{v}^2} \\\\ &amp; =\\frac{2 \\times 9.8 \\times 20}{24.25^2} \\\\ &amp; =0.667 \\\\ \\frac{\\mathrm{E}_{\\mathrm{P}}}{\\mathrm{E}_{\\mathrm{K}}} &amp; &lt;1\\end{aligned}$</p><p>অতএব, E<sub>P </sub>≠ E<sub>K</sub></p><p>সুতরাং h উচ্চতায় বিভব শক্তি গতি শক্তির সমান হবে না।</p>"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 9: তরঙ্গ ℹ️",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>একটি পোল্ট্রিফার্মে 400 মুরগি আছে। পোল্ট্রিফার্মের বর্তমান শব্দের তীব্রতা 3.2 x 10<sup>-4</sup> Wm । পোল্ট্রিফার্মের মালিক মুরগির সংখ্যা বাড়িয়ে 2400টি করলেন। (শব্দের প্রমাণ তীব্রতা 10<sup>-12</sup> Wm<sup>-2</sup>)</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>শব্দ কাকে বলে?</p>",
+        "answer": "<p>শব্দ এক প্রকার শক্তি যা কানে শ্রবণের অনুভূতি জাগায়।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>তীক্ষ্ণতা ও কম্পাঙ্ক একই কি না? ব্যাখ্যা কর।</p>",
+        "answer": "<p>শব্দের যে বৈশিষ্ট্যের দ্বারা কোন সুর চড়া কোন সুর মোটা সেটি বুঝা যায় তাকে তীক্ষ্ণতা বলে। অপর দিকে এক সেকেন্ডে শব্দ তরঙ্গ যতগুলো পূর্ণ দোলন দেয় তাকে উক্ত শব্দের কম্পাঙ্ক বলে। তীক্ষ্ণতা শব্দের কম্পাঙ্কের উপর নির্ভর করে, কিন্তু তীক্ষ্ণতা ও কম্পাঙ্ক এক নয়।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>উদ্দীপকের পোল্ট্রিফার্মের তীব্রতা লেভেল কত বেল ছিল নির্ণয় কর।&nbsp;</p>",
+        "answer": "<p>এখানে, পোল্ট্রি ফার্মের শব্দের তীব্রতা,</p><p>$\\mathrm{I}=3.2 \\times 10^{-4} \\mathrm{Wm}^{-2}$</p><p>শব্দের প্রমাণ তীব্রতা,&nbsp; $\\mathrm{I}_0=10^{-12} \\mathrm{Wm}^{-2}$</p><p>তীব্রতা লেভেল, β= ?</p><p>আমরা জানি,&nbsp;</p><p>$\\begin{aligned} &amp; \\beta=\\log \\frac{I}{I_0} B \\\\ &amp; \\text { বা, } \\beta=\\log \\frac{3.2 \\times 10^{-4}}{10^{-12}} \\\\ &amp; \\quad \\beta=8.5\\end{aligned}$</p><p>পোল্ট্রিফার্মের তীব্রতা লেভেল 8.5 বেল ।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>. মুরগির সংখ্যা বাড়ানোর ফলে উদ্দীপকের ফার্মটিতে কী ধরনের সমস্যার সৃষ্টি হতে পারে? গাণিতিকভাবে ব্যাখ্যা কর।</p>",
+        "answer": "<p>মুরগির সংখ্যা বাড়ানোর পর ফার্মের নতুন শব্দের</p><p>তীব্রতা,</p><p>$\\begin{aligned} \\mathrm{I}^{\\prime}= &amp; \\frac{2400}{400} \\times 3.2 \\times 10^{-4} \\mathrm{Wm}^{-2} \\\\ = &amp; 1.92 \\times 10^{-3} \\mathrm{Wm}^{-2}\\end{aligned}$</p><p>শব্দের প্রমাণ তীব্রতা, I<sub>0</sub>=10<sup>-12</sup>Wm<sup>-2</sup></p><p>নতুন শব্দের তীব্রতা লেভেল</p><p>$\\begin{aligned} \\beta^{\\prime}= &amp; 10 \\log \\frac{\\mathrm{I}^{\\prime}}{\\mathrm{I}_0} \\mathrm{~dB} \\\\ = &amp; 10 \\log \\frac{1.92 \\times 10^{-3}}{10^{-12}} \\mathrm{~dB} \\\\ = &amp; 92.83 \\mathrm{~dB}\\end{aligned}$</p><p>অতএব, মুরগির সংখ্যা বাড়ানোর ফলে উদ্দীপকের ফার্মটিতে শব্দের তীব্রতা লেভেল বেড়ে গিয়ে 92.83 dB হয়েছিল যা রীতিমতো শব্দ দূষণের পর্যায়ে পড়ে।</p>"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2019",
+    "board": "7",
+    "context": "<p>দীপ গবেষণাগারে 6m দৈর্ঘ্যের এবং 0.6 mm ব্যাসের একটি ইস্পাতের এবং আরেকটি সীসার তারের শেষ প্রান্তে পর্যায়ক্রমে 25 kg ভর ঝুলিয়ে দেওয়ার পর উভয় তারের দৈর্ঘ্য প্রসারণ পেল যথাক্রমে 0.026 m এবং 0.325m [Y<sub>s</sub> = 2 x 10<sup>11</sup> Nm<sup>-2</sup>]</p>",
+    "questions": [
+      {
+        "type": "a",
+        "question": "<p>বন্ধন শক্তি কাকে বলে?</p>",
+        "answer": "<p>যে শক্তির দরুণ অণুতে পরমাণুসমূহ আবদ্ধ থাকে তাকে বন্ধন শক্তি বলে।</p>"
+      },
+      {
+        "type": "b",
+        "question": "<p>আন্তঃআণবিক বলের সাথে আন্তঃআণবিক দূরত্বের সম্পর্ক কীরূপ? ব্যাখ্যা কর।</p>",
+        "answer": "<p>পদার্থের উপাদানসমূহ যে বিশেষ ধরনের আকর্ষণ শক্তি দ্বারা পরস্পরের সাথে যুক্ত থাকে তাকে আন্তঃআণবিক বল বলে। আর অণুগুলো প্রায় 10 m থেকে 10-10m দূরত্বে থেকে পরস্পরকে আকর্ষণ করে। এই দূরত্বের পরিবর্তন হলে আকর্ষণ বলের মানও পরিবর্তন হবে। দূরত্ব বৃদ্ধি পেলে আন্তঃআণবিক বলের মান কমে। এ কারণেই কঠিন পদার্থের আন্তঃআণবিক বলের মান সবচেয়ে বেশি এবং গ্যাসের সবচেয়ে কম।</p>"
+      },
+      {
+        "type": "c",
+        "question": "<p>প্রসারিত অবস্থায় ইস্পাত তারটির মধ্যে স্থিতিস্থাপক বিভবশক্তি নির্ণয় কর।</p>",
+        "answer": "<p>এখানে, তারের দৈর্ঘ্য,L=6m</p><p>ব্যাসার্ধ,$\\begin{aligned} &amp; \\mathrm{r}=\\frac{0.6}{2} \\mathrm{~mm}=0.3 \\times 10^{-3} \\mathrm{~m} \\\\ &amp; =3.1416 \\times\\left(0.3 \\times 10^{-3}\\right)^2 \\mathrm{~m}^2 \\\\ &amp; =2.83 \\times 10^{-7} \\mathrm{~m}^2\\end{aligned}$</p><p>ইস্পাতের ইয়ং গুণাঙ্ক,&nbsp;$Y_s=2 \\times 10^{11} \\mathrm{Nm}^{-2}$</p><p>দৈর্ঘ্য প্রসারণ, l<sub>1</sub>=0.026m</p><p>আমরা জানি, স্থিতিস্থাপক বিভব শক্তি,</p><p>$\\begin{aligned} &amp; \\mathrm{U}=\\frac{1}{2} \\frac{\\mathrm{Y}_5 \\mathrm{Al}_1^2}{\\mathrm{~L}}=\\frac{1}{2} \\times \\frac{2 \\times 10^{11} \\times 2.83 \\times 10^{-7} \\times 0.026^2}{6} \\mathrm{~J} \\\\ &amp; \\therefore \\mathrm{U}=3.19 \\mathrm{~J}\\end{aligned}$</p><p>অতএব, প্রসারিত অবস্থায় ইস্পাত তারটির মধ্যে স্থিতিস্থাপক বিভবশক্তি 3.19 J ।</p>"
+      },
+      {
+        "type": "d",
+        "question": "<p>উদ্দীপকের কোন তারটির ভার নেওয়ার সামর্থ্য বেশি? গাণিতিকভাবে বিশ্লেষণ কর।</p>",
+        "answer": "<p>সীসার তারের দৈর্ঘ্য, L= 6 m&nbsp;</p><p>সীসার তারের প্রস্থচ্ছেদের ক্ষেত্রফল, A = ইস্পাতের তারের প্রস্থচ্ছেদের ক্ষেত্রফল,</p><p>$\\begin{aligned} &amp; =2.83 \\times 10^{-7} \\mathrm{~m}^2 \\\\ &amp; \\text { বল, } \\mathrm{F}=\\mathrm{mg}=25 \\times 9.8 \\mathrm{~N}=245 \\mathrm{~N}\\end{aligned}$</p><p>সীসার তারের দৈর্ঘ্য প্রসারণ, $\\mathrm{l}_2=0.325 \\mathrm{~m}$</p><p>ইস্পাতের ইয়ং গুণাঙ্ক $Y_s=2 \\times 10^{11} \\mathrm{Nm}^{-2}$</p><p>ধরি, সীসার তারের উপাদানের ইয়াং গুণাঙ্ক,                     </p><p>আমরা জানি,</p><p>$\\begin{aligned} &amp; \\mathrm{Y}_{\\mathrm{L}}=\\frac{\\frac{\\mathrm{F}}{\\mathrm{A}}}{\\frac{1}{\\mathrm{~L}}}=\\frac{\\mathrm{FL}}{\\mathrm{Al}_2}=\\frac{245 \\times 6}{2.83 \\times 10^{-7} \\times 0.325} \\mathrm{Nm}^{-2} \\\\ &amp; \\therefore \\mathrm{Y}_{\\mathrm{L}}=1.6 \\times 10^{10} \\mathrm{Nm}^{-2}\\end{aligned}$</p><p>দেখা যাচ্ছে, Y<sub>s </sub>&gt; Y<sub>L</sub> অর্থাৎ ইস্পাতের ইয়ং গুণাঙ্কের মান সীসা অপেক্ষা বেশি। অতএব, উদ্দীপকের ইস্পাতের তারটির ভার নেওয়ার সামর্থ্য বেশি।</p>"
+      }
+    ]
+  }
+]

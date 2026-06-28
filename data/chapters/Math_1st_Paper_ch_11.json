@@ -1,5 +1,21 @@
 [
   {
+    "id": 6989,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\int\\ln x\\;dx$ = ?</p>",
+    "options": [
+      "$1 \\over x$",
+      "x ln x - x",
+      "x ln x + x",
+      "$1 \\over x^2$"
+    ],
+    "answer": "x ln x - x",
+    "explanation": ""
+  },
+  {
     "id": 6990,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -96,6 +112,38 @@
     "explanation": ""
   },
   {
+    "id": 6870,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$f(x)=4x$ হলে-</p><p><br/>i. $\\int\\frac{dx}{f(x)}=\\frac14\\ln x+c$</p><p><br/>ii. $\\int e^{f(x)}dx=\\frac14e^{4x}+c$</p><p><br/>iii. $\\int_0^2f(x)dx=8$</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6871,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Dhaka",
+    "question": "<p>$\\int\\sin x^odx$ = কত?</p>",
+    "options": [
+      "$\\cos x^o+c$",
+      "$-\\cos x^o+c$",
+      "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+      "$\\frac{180}{\\mathrm\\pi}\\cos x^o$"
+    ],
+    "answer": "$-\\frac{180}{\\mathrm\\pi}\\cos x^o$",
+    "explanation": ""
+  },
+  {
     "id": 7033,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -125,6 +173,22 @@
       "i, ii ও iii"
     ],
     "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6934,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Jessore",
+    "question": "<p>$f(x)$ ধ্রুবক না হলে, $\\int\\frac{f'(x)}{f(x)}dx$ এর সমান কোনটি?</p>",
+    "options": [
+      "$f'(x)+C$",
+      "$f(x)+C$",
+      "$ln|x|+C$",
+      "$ln|f(x)|+C$"
+    ],
+    "answer": "$ln|f(x)|+C$",
     "explanation": ""
   },
   {
@@ -160,6 +224,22 @@
     "explanation": ""
   },
   {
+    "id": 6884,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Rajshahi",
+    "question": "<p>$\\int_2^3\\frac x{x^2-1}dx$ এর মান কত?</p>",
+    "options": [
+      "$\\ln\\frac83$",
+      "$\\frac12\\ln\\frac83$",
+      "$\\frac12\\ln24$",
+      "$\\ln24$"
+    ],
+    "answer": "$\\frac12\\ln\\frac83$",
+    "explanation": ""
+  },
+  {
     "id": 7002,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -173,6 +253,22 @@
       "$16\\pi$"
     ],
     "answer": "$12\\pi$",
+    "explanation": ""
+  },
+  {
+    "id": 7020,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Sylhet",
+    "question": "<p>$\\int\\cos ec\\;x\\;dx$ এর মান কোনটি?</p>",
+    "options": [
+      "ln |sin x| + c",
+      "ln |sec x| + c",
+      "$\\ln\\;\\left|\\tan\\frac x2\\right|\\;+\\;c$",
+      "$\\ln\\;\\left|\\tan\\left(\\frac{\\mathrm\\pi}4+\\frac x2\\right)\\right|\\;+\\;c$"
+    ],
+    "answer": "$\\ln\\;\\left|\\tan\\frac x2\\right|\\;+\\;c$",
     "explanation": ""
   },
   {
@@ -1152,6 +1248,22 @@
     "explanation": ""
   },
   {
+    "id": 6630,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$\\int_0^1\\frac{1-x}{1+x}dx=?$",
+    "options": [
+      "ln2-2",
+      "1-2ln2",
+      "2ln2-1",
+      "2ln2+2"
+    ],
+    "answer": "2ln2-1",
+    "explanation": ""
+  },
+  {
     "id": 6639,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -1776,6 +1888,22 @@
     "explanation": "<p>$\\begin{aligned} \\int_0^1 \\frac{d x}{x^2+1} &amp; =\\left[\\tan ^{-1} x\\right]_0^1 \\\\ &amp; =\\tan ^{-1} 1-\\tan ^{-1} 0=\\frac{\\pi}{4}\\end{aligned}$</p>"
   },
   {
+    "id": 6226,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Rajshahi",
+    "question": "$\\int ^1_0{e^{\\sqrt x}\\over \\sqrt x}dx$ এর মান কোনটি?",
+    "options": [
+      "$2e^{-1}$",
+      "2(e-1)",
+      "${2\\over e}-1$",
+      "$1-{1\\over e}$"
+    ],
+    "answer": "2(e-1)",
+    "explanation": "<p>$\\int_0^1 \\frac{e^{\\sqrt{x}}}{\\sqrt{x}} d x=2 \\int_0^1 e^{\\sqrt{x}} d(\\sqrt{x})=2\\left[e^{\\sqrt{x}}\\right]_0^1=2(e-1)$</p>"
+  },
+  {
     "id": 6227,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -2192,6 +2320,22 @@
     "explanation": ""
   },
   {
+    "id": 6064,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Jessore",
+    "question": "$\\int e^{-10x}$dx = কত?",
+    "options": [
+      "$e^{-10x}$ + c",
+      "$-10e^{-10x}$ + c",
+      "-$\\frac{e^{-10x}}{10}+c$",
+      "-e$^{-10x}$ + c"
+    ],
+    "answer": "-$\\frac{e^{-10x}}{10}+c$",
+    "explanation": ""
+  },
+  {
     "id": 6065,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 10: যোগজীকরণ",
@@ -2334,6 +2478,22 @@
     ],
     "answer": "sin$^{-1}\\frac{x}{\\sqrt{5}} + C$",
     "explanation": ""
+  },
+  {
+    "id": 6007,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\int e^{-5x}dx = ?$",
+    "options": [
+      "$\\frac{e^{-5x}}{5}+c$",
+      "$-\\frac{e^{-5x}}{5}+c$",
+      "$5e^{-5x}+c$",
+      "$-5e^{-5x}+c$"
+    ],
+    "answer": "$-\\frac{e^{-5x}}{5}+c$",
+    "explanation": "<p><br></p>"
   },
   {
     "id": 6008,

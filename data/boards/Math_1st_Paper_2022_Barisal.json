@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6324,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "${d\\over dx}(cos {x\\over 5})$ =কত?",
+    "options": [
+      "$-sin {x\\over 5}$",
+      "$sin {x\\over 5}$",
+      "$-{1\\over 5}sin {x\\over 5}$",
+      "${1\\over 5}sin {x\\over 5}$"
+    ],
+    "answer": "$-{1\\over 5}sin {x\\over 5}$",
+    "explanation": "<p>$\\frac{d}{d x}\\left(\\cos \\frac{x}{5}\\right)=-\\sin \\frac{x}{5} \\frac{d}{d x}\\left(\\frac{x}{5}\\right)=-\\frac{1}{5} \\sin \\frac{x}{5}$.</p>"
+  },
+  {
+    "id": 6325,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\int e^{10x}[10ln x +{1\\over x}]$ =কত?",
+    "options": [
+      "$e^{10x} ln |x|+C$",
+      "$e^{10x}.10 ln |x|+C$",
+      "$10e^x ln |x|+C$",
+      "${1\\over 10}e^{10x} ln |x|+C$"
+    ],
+    "answer": "$e^{10x}.10 ln |x|+C$",
+    "explanation": ""
+  },
+  {
+    "id": 6326,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\int 10^{5x}dx$ = কত?",
+    "options": [
+      "${10^{5x}\\over ln 10}+C$",
+      "${10^{5x}\\over 5ln 10}+C$",
+      "$5.10^{5x}ln 10 +C$",
+      "$10^{5x}ln 10 +C$"
+    ],
+    "answer": "${10^{5x}\\over 5ln 10}+C$",
+    "explanation": "<p>$\\int 10^{5 x} d x=\\frac{10^{5 x}}{\\ln 10 \\frac{d}{d x}(5 x)}=\\frac{10^{5 x}}{5 \\ln 10}+c$</p>"
+  },
+  {
+    "id": 6327,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\int x^{-9} dx$ &nbsp;= কত?",
+    "options": [
+      "$-9x^{-8}+C$",
+      "$-9x^{-10}+C$",
+      "$-{1\\over 10}x^{-10}+C$",
+      "$-{x^{-8}\\over 8}+C$"
+    ],
+    "answer": "$-{x^{-8}\\over 8}+C$",
+    "explanation": "<p>$\\int x^{-9} d x=\\frac{x^{-9+1}}{-9+1}+c=-\\frac{x^{-8}}{8}+c$.</p>"
+  },
+  {
+    "id": 6328,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$y ={2\\over 3x}$ হলে $y_3$= কত?",
+    "options": [
+      "$-{4\\over x^4}$",
+      "${4\\over x^4}$",
+      "$4x^4$",
+      "$-4x^4$"
+    ],
+    "answer": "$-{4\\over x^4}$",
+    "explanation": "<p>$y=\\frac{2}{3 x}=\\frac{2}{3} \\cdot \\frac{1}{x} \\therefore y_1=\\frac{2}{3}\\left(\\frac{-1}{x^2}\\right)=\\frac{-2}{3} \\cdot \\frac{1}{x^2}$</p><p>$\\begin{aligned} &amp; \\therefore y_2=\\frac{-2}{3}\\left(\\frac{-2}{x^3}\\right)=\\frac{4}{3} \\cdot \\frac{1}{x^3} \\\\ &amp; \\therefore y_3=\\frac{4}{3}\\left(\\frac{-3}{x^4}\\right)=\\frac{-4}{x^4}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6329,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\int {1\\over \\sqrt {8-2x^2}}$ = কত?",
+    "options": [
+      "${1\\over \\sqrt 2}sin^{-1}{x\\over 3} +C$",
+      "${1\\over 3\\sqrt 2}tan^{-1}{x\\over 3} +C$",
+      "${1\\over 6\\sqrt 2}ln|{3+x\\over 3-x}| +C$",
+      "${1\\over 6\\sqrt 2}ln|{x-3\\over x+3}| +C$"
+    ],
+    "answer": "${1\\over \\sqrt 2}sin^{-1}{x\\over 3} +C$",
+    "explanation": "<p>$\\begin{aligned} \\int \\frac{1}{\\sqrt{18-2 x^2}} d x &amp; =\\int \\frac{1}{\\sqrt{2\\left(9-x^2\\right)}} d x \\\\ &amp; =\\frac{1}{\\sqrt{2}} \\int \\frac{1}{\\sqrt{3^2-x^2}} d x=\\frac{1}{\\sqrt{2}} \\sin ^{-1} \\frac{x}{3}+c\\end{aligned}$</p>"
+  },
+  {
+    "id": 6330,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}8&amp;-5\\\\7&amp;2\\\\\\end{matrix}\\right]$ হলে, adj A= কোনটি?",
+    "options": [
+      "$\\left[\\begin{matrix}2&5\\\\-7&-8\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-2&5\\\\-7&8\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}8&7\\\\-5&2\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&5\\\\-7&8\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}2&5\\\\-7&8\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>8 এর সহগুণক =2 </p><p>-5 এর সহগুণক =-7 </p><p>7 এর সহগুণক =5 </p><p>2  এর সহগুণক =8 </p><p>$\\begin{aligned}\\therefore \\text { Adj } A=\\left[\\begin{array}{rr}2 &amp; -7 \\\\ 5 &amp; 8\\end{array}\\right]^{\\prime}=\\left[\\begin{array}{rr}2 &amp; 5 \\\\ -7 &amp; 8\\end{array}\\right] .\\end{aligned}$</p>"
+  },
+  {
+    "id": 6331,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\left[\\begin{matrix}2&amp;3&amp;5\\\\5&amp;0&amp;1\\\\2&amp;0&amp;4\\\\\\end{matrix}\\right]$ নির্ণায়কটির (1, 2) তম ভুক্তির সহগুণক কোনটি?",
+    "options": [
+      "-18",
+      "-12",
+      "12",
+      "18"
+    ],
+    "answer": "-18",
+    "explanation": "<p>$(1,2)$ তম ভুক্তির সহগুণক $=-\\left|\\begin{array}{ll}5 &amp; 1 \\\\ 2 &amp; 4\\end{array}\\right|=-(20-2)=-18$.</p>"
+  },
+  {
+    "id": 6332,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\\\end{matrix}\\right]$ ,$B= \\left[\\begin{matrix}7\\\\8\\\\9\\\\\\end{matrix}\\right]$ হলে, AB এর ক্রম কত?",
+    "options": [
+      "$2\\times 1$",
+      "$1\\times 2$",
+      "$3\\times 1$",
+      "$2\\times 3$"
+    ],
+    "answer": "$2\\times 1$",
+    "explanation": ""
+  },
+  {
+    "id": 6333,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$lim_{x\\to 0}{e^{2x}-1\\over 2x}$ = কত?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "$1\\over 2$"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\begin{aligned} &amp; \\lim _{x \\rightarrow 0} \\frac{e^x-1}{x}=1 \\\\ &amp; \\therefore \\lim _{x \\rightarrow 0} \\frac{e^x-1}{2 x}=\\lim _{2 x \\rightarrow 0} \\frac{e^{2 x}-1}{2 x}=1\\end{aligned}$</p>"
+  },
+  {
+    "id": 6334,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A= \\left[\\begin{matrix}1&amp;2&amp;3\\\\4&amp;5&amp;-6\\\\2&amp;4&amp;6\\\\\\end{matrix}\\right]$ হলে, Det(A) এর মান কত?",
+    "options": [
+      "-48",
+      "0",
+      "48",
+      "60"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6335,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$y=\\sqrt {sec 2x}$ হলে $dy\\over dx$ কোনটি?",
+    "options": [
+      "y tan 2x",
+      "2 tan 2x",
+      "$tan 2x\\over 2$",
+      "y cot 2x"
+    ],
+    "answer": "y tan 2x",
+    "explanation": "<p>$\\begin{aligned} &amp; y=\\sqrt{\\sec 2 x} \\\\ &amp; \\begin{aligned} \\therefore \\frac{d y}{d x} &amp; =\\frac{1}{2 \\sqrt{\\sec 2 x}} \\cdot \\frac{d}{d x}(\\sec 2 x) \\\\ &amp; =\\frac{1}{2 \\sqrt{\\sec 2 x}} \\cdot 2 \\sec 2 x \\tan 2 x=\\sqrt{\\sec 2 x} \\tan 2 x=y \\tan 2 x .\\end{aligned}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6336,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "( - 4, 4√3 ) বিন্দুর পোলার স্থানাঙ্ক কোনটি?",
+    "options": [
+      "$(4\\sqrt 2,{\\pi \\over 3})$",
+      "$(4\\sqrt 2,-{\\pi \\over 3})$",
+      "$(8,{2\\pi \\over 3})$",
+      "$(8,{4\\pi \\over 3})$"
+    ],
+    "answer": "$(8,{2\\pi \\over 3})$",
+    "explanation": "<p>$\\begin{aligned}r &amp; =\\sqrt{(-4)^2+(4 \\sqrt{3})^2} \\\\&amp; =\\sqrt{16+48}=\\sqrt{64}=8\\end{aligned}$</p><p>$(-4,4 \\sqrt{3})$ বিন্দুটি দ্বিতীয় চতুর্ভাগে অবস্থিত হওয়ায়</p><p>$\\theta=\\pi-\\tan ^{-1}\\left|\\frac{4 \\sqrt{3}}{-4}\\right|=\\pi-\\tan ^{-1} \\sqrt{3}=\\pi-\\frac{\\pi}{3}=\\frac{2 \\pi}{3}$</p><p>পোলার স্থানাঙ্ক , $(r, \\theta)=\\left(8, \\frac{2 \\pi}{3}\\right)$.</p>"
+  },
+  {
+    "id": 6337,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>$4x - 8y + 23 = 0$ রেখার ঢাল কত?</p>",
+    "options": [
+      "$-{1\\over 2}$",
+      "${1\\over 2}$",
+      "-2",
+      "2"
+    ],
+    "answer": "${1\\over 2}$",
+    "explanation": "<p>$ -8 y=-4 x-23 $</p><p>$ \\therefore y=\\frac{1}{2} x+\\frac{23}{8} $</p><p>$ \\therefore $ রেখাটির ঢাল $=\\frac{1}{2} $</p>"
+  },
+  {
+    "id": 6338,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "3x - 4y + 5 = 0 রেখার উপর লম্ব এবং মূল বিন্দুগামী সরলরেখার সমীকরণ কোনটি?",
+    "options": [
+      "4x - 3y = 0",
+      "4x + 3y = 0",
+      "3x + 4y = 0",
+      "3x-4y=0"
+    ],
+    "answer": "4x + 3y = 0",
+    "explanation": "<p>$3 x-4 y+5=0$ রেখার লম্বরেখার সমীকরণ, </p><p>$4 \\mathrm{x}+3 \\mathrm{y}+\\mathrm{k}=0$; যা মূলবিন্দুগামী</p><p>$\\therefore 0+0+\\mathrm{k}=0$</p><p>বা, $k=0$</p><p>$\\therefore$ সমীকরণ, $4 x+3 y=0$.</p>"
+  },
+  {
+    "id": 6339,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>যে সরলরেখা $x$ অক্ষের ধনাত্মক দিকের সাথে 60° কোণ উৎপন্ন করে এবং মূলবিন্দু নিয়ে যায় তার সমীকরণ কোনটি?</p>",
+    "options": [
+      "$x= \\sqrt 3y$",
+      "$y= \\sqrt 3x$",
+      "$y+\\sqrt 3x = 0$",
+      "$\\sqrt 3y + x= 0$"
+    ],
+    "answer": "$y= \\sqrt 3x$",
+    "explanation": "<p>মূলবিন্দুগামী সরলরেখার সমীকরণ,</p><p>y=m x..........(i)</p><p>$\\therefore \\mathrm{m}=\\tan 60^{\\circ}=\\sqrt{3}$</p><p>(i)নং সমীকরণে $m$ এর মান বসিয়ে পাই,</p><p>$\\therefore y=\\sqrt{3} x \\text {. }$</p>"
+  },
+  {
+    "id": 6340,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$3x + \\sqrt 3y - 10 = 0$ রেখাটি x - অক্ষের ধনাত্মক দিকের সাথে কত কোণ উৎপন্ন করে?",
+    "options": [
+      "$\\pi \\over 3$",
+      "$2\\pi \\over 3$",
+      "$\\pi \\over 6$",
+      "$5\\pi \\over 6$"
+    ],
+    "answer": "$2\\pi \\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 6341,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "(3,1 ) বিন্দু হতে $2x^2 + 2y^2 = 18$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?",
+    "options": [
+      "1",
+      "$\\sqrt 2$",
+      "$\\sqrt {19}$",
+      "$\\sqrt {38}$"
+    ],
+    "answer": "1",
+    "explanation": "<p>প্রদত্ত বৃত্ত,</p><p>$2 x^2+2 y^2=18$</p><p>বা, $x^2+y^2=9$</p><p>বা, $x^2+y^2-9=0$</p><p>$\\therefore(3,1)$ বিন্দু হতে স্পর্শকের দৈর্ঘ্য $=\\sqrt{3^2+1^2-9}=1$ একক।</p>"
+  },
+  {
+    "id": 6342,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "( 8,-10 ) বিন্দুতে কেন্দ্রবিশিষ্ট বৃত্ত x-অক্ষকে স্পর্ণ করলে বৃত্তের ব্যাস কত একক?",
+    "options": [
+      "8",
+      "10",
+      "16",
+      "20"
+    ],
+    "answer": "20",
+    "explanation": ""
+  },
+  {
+    "id": 6343,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$x^2+y^2 + 10x - 12y + 20 = 0$ বৃত্ত দ্বারা y অক্ষের খণ্ডিতাংশের দৈর্ঘ্য কত একক?",
+    "options": [
+      "$2\\sqrt 5$",
+      "$6\\sqrt 5$",
+      "8",
+      "$4\\sqrt {14}$"
+    ],
+    "answer": "8",
+    "explanation": "<p>$x^2+y^2+2(-5) x+2(-6) y+20=0$</p><p>$\\therefore \\mathrm{y}$- অক্ষের খন্ডিতাংশের দৈর্ঘ্য</p><p>$=2 \\sqrt{(-6)^2-20}=2 \\sqrt{16}=8$ একক।</p>"
+  },
+  {
+    "id": 6344,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>$x^2 + y^2 = 12x + 8y + c = 0$ বৃত্তটি x - অক্ষকে স্পর্শ  করে।</p><p><br></p><p>Q. C এর মান ?</p>",
+    "options": [
+      "-6",
+      "4",
+      "16",
+      "36"
+    ],
+    "answer": "36",
+    "explanation": "<p>$x^2+y^2+2(-6) x+2 \\cdot 4 \\cdot y+c=0$</p><p>বৃত্তটি $x$- অক্ষকে স্পর্শ করে</p><p>$\\therefore \\mathrm{g}^2=\\mathrm{c}$</p><p>বা, $c=(-6)^2=36$.</p>"
+  },
+  {
+    "id": 6345,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>$x^2 + y^2 = 12x + 8y + c = 0$ বৃত্তটি x - অক্ষকে স্পর্শ  করে।</p><p><br></p><p>Q. স্পর্শ বিন্দুর স্থানাঙ্ক কত?</p>",
+    "options": [
+      "(0, -4 )",
+      "(0,4)",
+      "(6,0)",
+      "(-6, 0)"
+    ],
+    "answer": "(6,0)",
+    "explanation": ""
+  },
+  {
+    "id": 6346,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$sin(45^0+A)+sin(45° -A) \\over cos(45°-A)-cos(45^0+A)$ = কত?",
+    "options": [
+      "cot A",
+      "-1",
+      "1",
+      "tan A"
+    ],
+    "answer": "cot A",
+    "explanation": "<p>$\\frac{\\sin \\left(45^{\\circ}+\\mathrm{A}\\right)+\\sin \\left(45^{\\circ}-\\mathrm{A}\\right)}{\\cos \\left(45^{\\circ}-\\mathrm{A}\\right)-\\cos \\left(45^{\\circ}+\\mathrm{A}\\right)}=\\frac{2 \\sin 45^{\\circ} \\cos \\mathrm{A}}{2 \\sin 45^{\\circ} \\sin \\mathrm{A}}=\\frac{\\cos \\mathrm{A}}{\\sin \\mathrm{A}}=\\cot \\mathrm{A}$.</p>"
+  },
+  {
+    "id": 6347,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$A + B ={\\pi \\over 2}$ হলে $cos^2A - cos^2B$ = কত?",
+    "options": [
+      "sin ( A - B)",
+      "sin (B - A )",
+      "cos (A-B)",
+      "0"
+    ],
+    "answer": "sin (B - A )",
+    "explanation": "<p>$\\begin{aligned} &amp; \\text { দেওয়া আছে, } A+B=\\frac{\\pi}{2} \\\\ &amp; \\begin{aligned} \\cos ^2 A-\\cos ^2 B &amp; =\\sin (A+B) \\sin (B-A) \\\\ &amp; =\\sin \\frac{\\pi}{2} \\sin (B-A)=\\sin (B-A) .\\end{aligned}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6348,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>ত্রিকোণমিতিক ফাংশনের ক্ষেত্রে—</p><p><br/>i. $cos4A = {1-tan^22A\\over 1+ tan^22A}$</p><p><br/>ii. $sin6A=2sin3A cos3A$</p><p><br/>iii. $tan 8 \\alpha ={2tan 4\\alpha \\over 1-tan^24\\alpha }$\n</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": "<p>(i) $\\cos 4 A=\\cos (2.2 A)=\\frac{1-\\tan ^2 2 A}{1+\\tan ^2 2 A}$</p><p>(ii) $\\sin 6 A=\\sin (2.3 A)=2 \\sin 3 A \\cos 3 A$</p><p>(iii) $\\tan 8 \\alpha=\\tan (2.4 \\alpha)=\\frac{2 \\tan 4 \\alpha}{1-\\tan ^2 4 \\alpha^{\\circ}}$.</p>"
+  }
+]

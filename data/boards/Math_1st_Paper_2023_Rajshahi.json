@@ -1,0 +1,402 @@
+[
+  {
+    "id": 5999,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>x<sup>2</sup> + y<sup>2</sup> -2x -6y + 6 = 0 বৃত্তের ক্ষেত্রে-</p><p><br/>i. বৃত্তটির ব্যাসার্ধ 2 একক</p><p><br/>ii. বৃত্তটির একটি স্পর্শক y = 1</p><p><br/>iii. বৃত্তটি y-অক্ষকে স্পর্শ করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 6000,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\frac{1-tan25^{\\circ}}{1+tan25^{\\circ}}$ এর মান নিম্নের কোনটি?",
+    "options": [
+      "cot20$^{\\circ}$",
+      "tan20$^{\\circ}$",
+      "tan70$^{\\circ}$",
+      "cot70$^{\\circ}$"
+    ],
+    "answer": "tan20$^{\\circ}$",
+    "explanation": "<p>$\\frac{1-\\tan 25^{\\circ}}{1+\\tan 25^{\\circ}}=\\frac{\\tan 45^{\\circ}-\\tan 25^{\\circ}}{1+\\tan 45^{\\circ} \\cdot \\tan 25^{\\circ}}=\\tan \\left(45^{\\circ}-25^{\\circ}\\right)=\\tan 20^{\\circ}$.</p>"
+  },
+  {
+    "id": 6001,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "tan$\\left ( 19\\frac{\\pi }{2}-\\frac{\\pi }{6} \\right )$ এর মান কত?",
+    "options": [
+      "$\\sqrt{3}$",
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "$\\sqrt{3}$",
+    "explanation": "<p>$\\tan \\left(19 \\frac{\\pi}{2}-\\frac{\\pi}{6}\\right)=\\cot \\frac{\\pi}{6}=\\sqrt{3}$</p>"
+  },
+  {
+    "id": 6002,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "y = Ine$^{x^{2}}$ হলে $y_{2}$ = ?",
+    "options": [
+      "2x",
+      "e$^{x^{2}}$ Ine$^{x^{2}}$",
+      "2",
+      "e$^{x^{2}}$"
+    ],
+    "answer": "2",
+    "explanation": "<p>$y=\\ln e x^2=x^2$ </p><p>বা, $y_1=2 x$ </p><p>বা, $y_2=2$</p>"
+  },
+  {
+    "id": 6003,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>3x<sup>2</sup> + y -7 = 0 একটি বক্ররেখা।\n\n</p><p>Q. বক্ররেখাটির (2,-5) বিন্দুতে অঙ্কিত স্পর্শকের ঢাল কত?</p>",
+    "options": [
+      "12",
+      "0",
+      "-10",
+      "-12"
+    ],
+    "answer": "-12",
+    "explanation": "<p>$3 x^2+y-7=0$</p><p>বা, $6 x+y_1^2=0$</p><p>বা, $y_1=-6 x$</p><p>$(2,-5)$ বিন্দুতে $y_1=-6.2=-12$</p>"
+  },
+  {
+    "id": 6004,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p><strong>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </strong></p><p>3x<sup>2</sup> + y -7 = 0 একটি বক্ররেখা।</p><p>Q. বক্ররেখার কোন বিন্দুতে স্পর্শকের x-অক্ষের সমান্তরাল হবে?</p>",
+    "options": [
+      "(0,7)",
+      "(0,-7)",
+      "(6,0)",
+      "(-6,0)"
+    ],
+    "answer": "(0,7)",
+    "explanation": "<p>স্পর্শক $x$ অক্ষের সমান্তরাল হলে, $y_1=0$</p><p>বা,$ -6 x=0$ </p><p> $\\quad \\therefore x=0 $</p><p> x=0 হলে, y=7</p><p>$(0,7)$ বিন্দুতে স্পশর্কটি  x অক্ষের সমান্তরাল।</p>"
+  },
+  {
+    "id": 6005,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\lim_{x\\rightarrow \\infty } \\frac{x^{2}-7x}{5x^{^{2}}-3x}$ এর মান কত?",
+    "options": [
+      "-$\\frac{7}{5}$",
+      "$\\frac{7}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{5}$"
+    ],
+    "answer": "$\\frac{1}{5}$",
+    "explanation": "<p>$\\lim _{x \\rightarrow \\infty} \\frac{x^2-7 x}{5 x^2-3 x}=\\lim _{x \\rightarrow \\infty} \\frac{x^2\\left(1-\\frac{7}{x}\\right)}{x^2\\left(5-\\frac{3}{x}\\right)}=\\frac{1-0}{5-0}=\\frac{1}{5}$</p>"
+  },
+  {
+    "id": 6006,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\int \\frac{1}{\\sqrt{5}-x^{2}}dx = ?$",
+    "options": [
+      "sin$^{-1}\\frac{x}{\\sqrt{5}} + C$",
+      "$\\frac{1}{\\sqrt{5}}sin^{-1}\\frac{x}{\\sqrt{5}}+C$",
+      "tan$^{-1}\\frac{x}{\\sqrt{5}} + C$",
+      "$\\frac{1}{\\sqrt{5}}tan^{-1}\\frac{x}{\\sqrt{5}}+C$"
+    ],
+    "answer": "sin$^{-1}\\frac{x}{\\sqrt{5}} + C$",
+    "explanation": ""
+  },
+  {
+    "id": 6007,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\int e^{-5x}dx = ?$",
+    "options": [
+      "$\\frac{e^{-5x}}{5}+c$",
+      "$-\\frac{e^{-5x}}{5}+c$",
+      "$5e^{-5x}+c$",
+      "$-5e^{-5x}+c$"
+    ],
+    "answer": "$-\\frac{e^{-5x}}{5}+c$",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 6008,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>$\\int_{1}^{2}e^{2x+5}dx = ?$</p>",
+    "options": [
+      "$\\frac{1}{2}\\left ( e^{7}-e^{9} \\right )$",
+      "$2\\left ( e^{9}-e^{7} \\right )$",
+      "$\\frac{1}{2}\\left ( e^{9}-e^{7} \\right )$",
+      "$2\\left ( e^{9}+e^{7} \\right )$"
+    ],
+    "answer": "$\\frac{1}{2}\\left ( e^{9}-e^{7} \\right )$",
+    "explanation": "<p>$\\int_1^2 e^{2 x+5} d x=\\left[\\frac{e^{2 x+5}}{2}\\right]_1^2=\\frac{1}{2}\\left(e^9-e^7\\right)$</p>"
+  },
+  {
+    "id": 6009,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "$\\int_{0}^{\\frac{\\pi }{2}}cosx dx = ?$",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "$\\infty $"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\int_0^{\\frac{\\pi}{2}} \\cos x d x=(\\sin x)_0^{\\frac{\\pi}{2}}=\\sin \\frac{\\pi}{2}-\\sin 0=1$</p>"
+  },
+  {
+    "id": 6010,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "বক্র প্রতিসম ম্যাট্রিক্সের ক্ষেত্রে কোনটি সত্য?",
+    "options": [
+      "a$_{ij}$ = a$_{ji}$",
+      "a$_{ij}$",
+      "a$_{ij}$ = -a$_{ji}$",
+      "a$_{ij}$ $\\neq $ a$_{ji}$"
+    ],
+    "answer": "a$_{ij}$ = -a$_{ji}$",
+    "explanation": ""
+  },
+  {
+    "id": 6011,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "3$\\times&nbsp;$3 মাত্রার একটি অভেদ ম্যাট্রিক্স $I_{3}$ হলে $(I_{3})^{-1}$ কত?",
+    "options": [
+      "$3I_{3}$",
+      "0",
+      "$\\frac{I_{3}}{3}$",
+      "I$_{3}$"
+    ],
+    "answer": "I$_{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6012,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "K এর কোন মানের জন্য $\\begin{bmatrix}k+1 &amp;3 \\\\&nbsp;3&amp;k-1 \\end{bmatrix}$ ম্যাট্রিক্সটি বিপরীতযোগ্য নয়?",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "$\\pm \\sqrt{10}$"
+    ],
+    "answer": "$\\pm \\sqrt{10}$",
+    "explanation": "<p>$\\left|\\begin{array}{cc}k+1 &amp; 3 \\\\3 &amp; k-1\\end{array}\\right|=k^2-1-9=0$</p><p>বা, $k^2=10$ </p><p>বা, $k= \\pm \\sqrt{10}$</p>"
+  },
+  {
+    "id": 6013,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "A = $\\begin{bmatrix}5 &amp; 0 &amp; 0\\\\&nbsp;0&amp; 6 &amp; 0\\\\&nbsp;0&amp; 0 &amp; 7\\end{bmatrix}$ হলে A$^{-1}$ = ?",
+    "options": [
+      "$\\begin{bmatrix}\\frac{1}{7} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{5}\\end{bmatrix} $",
+      "$\\frac{1}{210}\\begin{bmatrix}5 & 0 & 0\\\\  0& 6 & 0\\\\  0& 0 & 7\\end{bmatrix} $",
+      "$\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $",
+      "$\\frac{1}{210}\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $"
+    ],
+    "answer": "$\\begin{bmatrix}\\frac{1}{5} & 0 & 0\\\\  0& \\frac{1}{6} & 0\\\\  0& 0 & \\frac{1}{7}\\end{bmatrix} $",
+    "explanation": ""
+  },
+  {
+    "id": 6014,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "r(1+cos$\\theta&nbsp;$) = 2 সমীকরণটি কী প্রকাশ করে?",
+    "options": [
+      "সরলরেখা",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "পরাবৃত্ত",
+    "explanation": "<p>$r(1+\\cos \\theta)=2$  বা, $r+r \\cos \\theta=2 $</p><p>বা, $r=2-r \\cos \\theta$ বা, $r^2=(2-r \\cos \\theta)^2$</p><p>বা, $x^2+y^2=(2-x)^2=x^2-4 x+4$</p><p>$\\therefore y^2=-4(x-1)$; যা একটি পরাবৃত্তের সমীকরণ।</p>"
+  },
+  {
+    "id": 6015,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "(3,-2) বিন্দু হতে 3x + 4y + 14 = 0 রেখার লম্ব দূরত্ব কত?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "<p>$d=\\frac{|3.3+4(-2)+| 14 \\mid}{\\sqrt{3^2+4^2}}=\\frac{|1+14|}{5}=3$</p>"
+  },
+  {
+    "id": 6016,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "(a,b), (1,1), (a-1, b-1) বিন্দুত্রয় সমরেখা হলে-",
+    "options": [
+      "ab = 1",
+      "a = b",
+      "$\\frac{1}{a}+\\frac{1}{b}=0$",
+      "$\\frac{1}{a}+\\frac{1}{b}=1$"
+    ],
+    "answer": "a = b",
+    "explanation": "<p>$(\\mathrm{a}, \\mathrm{b}),(1,1),(\\mathrm{a}-1, \\mathrm{~b}-1)$ বিন্দুত্রয় সমরেখ হলে,</p><p>$\\frac{b-1}{a-1}=\\frac{b-(b-1)}{a-(a-1)} \\Rightarrow b-1=a-1 \\therefore a=b$</p>"
+  },
+  {
+    "id": 6017,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>4x + 8y + 17 = 0 রেখাটির-</p><p><br/>i. সমান্তরাল রেখার সমীকরণ 2x + 4y + 17 = 0</p><p><br/>ii. লম্ব রেখার সমীকরণ 2x -y + 5 = 0 </p><p><br/>iii. x-অক্ষের ধনাত্মক দিকের সাথে স্থুল কোন উৎপন্ন করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6018,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:  </p><p>4(x<sup>2</sup> + y<sup>2</sup>) = 16x +12y -5 একটি বৃত্ত</p><p>Q. বৃত্তটির কেন্দ্রের স্থানাঙ্ক কত?</p>",
+    "options": [
+      "$\\left ( 2,-\\frac{3}{2} \\right )$",
+      "$\\left ( 2,\\frac{3}{2} \\right )$",
+      "(2,3)",
+      "$\\left ( -2,-\\frac{3}{2} \\right )$"
+    ],
+    "answer": "$\\left ( 2,\\frac{3}{2} \\right )$",
+    "explanation": "<p>$4\\left(x^2+y^2\\right)=16 x+12 y-5$</p><p>বা, $x^2+y^2-4 x-3 y+\\frac{5}{4}=0$</p><p>বা, $x^2+y^2+2(-2) x+2\\left(-\\frac{3}{2}\\right) y+\\frac{5}{4}=0$</p><p>$\\therefore$ কেন্দ্র $(-g,-f)=\\left(2, \\frac{3}{2}\\right)$</p>"
+  },
+  {
+    "id": 6019,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:  </p><p>4(x<sup>2 </sup>+ y<sup>2</sup>) = 16x +12y -5 একটি বৃত্ত</p><p>Q. বৃত্তটি দ্বারা x-অক্ষের খণ্ডিত অংশের পরিমাণ কত একক?</p>",
+    "options": [
+      "$\\sqrt{11}$",
+      "$2\\sqrt{11}$",
+      "$\\frac{\\sqrt{11}}{2}$",
+      "$\\frac{\\sqrt{11}}{4}$"
+    ],
+    "answer": "$\\sqrt{11}$",
+    "explanation": "<p>$x$ অক্ষের খন্ডিতাংশ $=2 \\sqrt{g^2-c}=2 \\sqrt{2^2-\\frac{5}{4}}=\\sqrt{11}$.</p>"
+  },
+  {
+    "id": 6020,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>x<sup>2</sup> + y<sup>2</sup> + 12x -4y + 31 = 0 সমীকরণবিশিষ্ট বৃত্তের ক্ষেত্রফল কত বর্গ একক?</p>",
+    "options": [
+      "2$\\pi $",
+      "3$\\pi $",
+      "9$\\pi $",
+      "6$\\pi $"
+    ],
+    "answer": "9$\\pi $",
+    "explanation": ""
+  },
+  {
+    "id": 6021,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "sin($-\\theta $) = sin$\\theta $",
+      "tan($-\\theta $) = tan$\\theta $",
+      "sec($-\\theta $) = sec$\\theta $",
+      "cosec($-\\theta $) = cosec$\\theta $"
+    ],
+    "answer": "sec($-\\theta $) = sec$\\theta $",
+    "explanation": ""
+  },
+  {
+    "id": 6022,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>$\\Delta $ABC এ AB = 12 সে.মি. BC = 5 সে.মি. AC = 13 সে.মি.</p><p><br/>i. $\\angle B = \\frac{\\pi }{2}$</p><p><br/>ii. ত্রিভুজটির ক্ষেত্রফল 30 বর্গ সে.মি.</p><p><br/>iii. ত্রিভুজটির পরিবৃত্তের ব্যাস 13 সে.মি.</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6023,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2023",
+    "board": "Rajshahi",
+    "question": "<p>2sin<sup>2</sup>75$^{\\circ}$ এর মান কত?</p>",
+    "options": [
+      "$\\frac{-1-\\sqrt{3}}{2}$",
+      "$\\frac{2-\\sqrt{3}}{2}$",
+      "$\\frac{1+\\sqrt{3}}{2}$",
+      "$\\frac{2+\\sqrt{3}}{2}$"
+    ],
+    "answer": "$\\frac{2+\\sqrt{3}}{2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; 2 \\sin ^2 75^{\\circ}=1-\\cos 150^{\\circ}=1-\\cos \\left(90^{\\circ}+60^{\\circ}\\right) \\\\ &amp; =1+\\sin 60^{\\circ}=1+\\frac{\\sqrt{3}}{2}=\\frac{2+\\sqrt{3}}{2}\\end{aligned}$</p>"
+  }
+]

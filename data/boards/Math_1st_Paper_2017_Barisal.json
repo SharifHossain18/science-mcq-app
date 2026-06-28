@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6974,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>x-অক্ষের উপর লম্ব এবং মূলবিন্দুগামী রেখার সমীকরণ-</p>",
+    "options": [
+      "y=0",
+      "x=0",
+      "y=mx",
+      "y+k=0"
+    ],
+    "answer": "x=0",
+    "explanation": ""
+  },
+  {
+    "id": 6975,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$x^2+y^2-12x+4y+6=0$ বৃত্তের ব্যাসের সমীকরণ-</p>",
+    "options": [
+      "x+y=0",
+      "x=y",
+      "x+3y=0",
+      "3x+2y=0"
+    ],
+    "answer": "x+3y=0",
+    "explanation": ""
+  },
+  {
+    "id": 6976,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>ফাংশন $f(x)=\\frac{\\sin^{-1}(x-3)}{\\sqrt{9-x^2}}$ ডোমেন হলো-</p>",
+    "options": [
+      "[2, 3]",
+      "[2, 3)",
+      "[1, 2]",
+      "[1, 2)"
+    ],
+    "answer": "[2, 3)",
+    "explanation": ""
+  },
+  {
+    "id": 6977,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\overline a=\\widehat i+\\widehat j$ এবং $\\overline b=\\widehat j+\\widehat k$ হলে $\\left|\\overline a\\times\\overline b\\right|$ -</p>",
+    "options": [
+      "1",
+      "$\\sqrt{-1}$",
+      "$\\sqrt{3}$",
+      "$\\sqrt{-3}$"
+    ],
+    "answer": "$\\sqrt{3}$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\bar{a} \\times \\bar{b}=\\left|\\begin{array}{ccc}\\hat{i} &amp; \\widehat{j} &amp; \\widehat{k} \\\\ 1 &amp; 1 &amp; 0 \\\\ 0 &amp; 1 &amp; 1\\end{array}\\right|=\\hat{i}(1-0)+\\widehat{j}(0-1)+\\widehat{k}(1-0)=\\hat{i}-\\widehat{j}+\\widehat{k} \\\\ &amp; |\\bar{a} \\times \\bar{b}|=\\sqrt{1^2+(-1)^2+1^2}=\\sqrt{1+1+1}=\\sqrt{3}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6978,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\overline a=a_1\\widehat i+a_2\\widehat j+a_3\\widehat k$ এর একক ভেক্টরের জন্য-</p><p><br/>i. $\\widehat a=\\frac{\\overline a}{\\left|\\overline a\\right|}$</p><p><br/>ii. $\\widehat a=1$</p><p><br/>iii. $\\left|\\overline a\\right|\\neq0$</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "i",
+      "ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6979,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>নিচের কোন নির্ণায়কের মান শূন্য?</p>",
+    "options": [
+      "$\\begin{vmatrix}1&0&2\\\\2&0&1\\\\1&3&0\\end{vmatrix}$",
+      "$\\begin{vmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{vmatrix}$",
+      "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+      "$\\begin{vmatrix}0&0&1\\\\1&2&3\\\\0&6&0\\end{vmatrix}$"
+    ],
+    "answer": "$\\begin{vmatrix}4&0&8\\\\2&3&4\\\\1&5&2\\end{vmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6980,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$x^2+y^2-2x-4y+4=0$ বৃত্তের (0, 2) বিন্দুতে স্পর্শকের সমীকরণ-</p>",
+    "options": [
+      "x=0",
+      "x=2",
+      "y=0",
+      "y=2"
+    ],
+    "answer": "x=0",
+    "explanation": "<p>স্পর্শকের সমীকরণ ,</p><p>$\\mathrm{xx}_1+\\mathrm{y} \\mathrm{y}_1+\\mathrm{g} \\cdot\\left(\\mathrm{x}+\\mathrm{x}_1\\right)+\\mathrm{f} \\cdot\\left(\\mathrm{y}+\\mathrm{y}_1\\right)+\\mathrm{c}=0$</p><p>বা, x. $0_1+\\mathrm{y} .2+\\mathrm{g} .(\\mathrm{x}+0)+\\mathrm{f} .(\\mathrm{y}+2)+4=0$</p><p>বা, $2 \\mathrm{y}-\\mathrm{x}-2 \\mathrm{y}-4+4=0$</p><p>বা, $x=0$</p>"
+  },
+  {
+    "id": 6981,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি ফানশনকে অনটু বা সার্বিক বলা হয় যদি-</p><p><br/>i. ডোমেন = রেঞ্জ</p><p><br/>ii. ডোমেন = কোডোমেন</p><p><br/>iii. কোডোমেন = রেঞ্জ</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i",
+      "ii",
+      "iii",
+      "i, ii ও iii"
+    ],
+    "answer": "iii",
+    "explanation": ""
+  },
+  {
+    "id": 6982,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$cosec(-660^o)$ এর মান-</p>",
+    "options": [
+      "$-\\frac2{\\sqrt3}$",
+      "$-\\frac{\\sqrt3}2$",
+      "$\\frac2{\\sqrt3}$",
+      "$\\frac{\\sqrt3}2$"
+    ],
+    "answer": "$\\frac2{\\sqrt3}$",
+    "explanation": "<p>$\\begin{aligned} \\operatorname{cosec}\\left(-660^{\\circ}\\right) &amp; =-\\operatorname{cosec} 660^{\\circ} \\\\ &amp; \\left.=-\\operatorname{cosec}\\left(7 \\times 90^{\\circ}+30^{\\circ}\\right)=\\sec 30^{\\circ}=\\frac{2}{\\sqrt{3}}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6983,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$2sin^215^o$ এর মান-</p>",
+    "options": [
+      "$\\frac{2-\\sqrt3}2$",
+      "$\\frac{2+\\sqrt3}2$",
+      "$\\frac{\\sqrt3+1}2$",
+      "$\\frac{\\sqrt3-1}2$"
+    ],
+    "answer": "$\\frac{2-\\sqrt3}2$",
+    "explanation": "<p>$2\\;\\sin^215^\\circ=1-\\;\\cos\\;(2\\times15^\\circ)=1-\\;\\cos\\;30^\\circ\\\\=1-\\frac{\\sqrt3}2=\\frac{2-\\sqrt3}2$</p>"
+  },
+  {
+    "id": 6984,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\theta$ কোণ $0^o$ থেকে বেড়ে $90^o$ হলে $sin\\theta$ এর মান নিচের কোনটি?</p>",
+    "options": [
+      "1 থেকে কমে 0 হয়",
+      "0 থেকে কমে -1 হয়",
+      "-1 থেকে বৃদ্ধি পেয়ে 0 হয়",
+      "0 থেকে বৃদ্ধি পেয়ে 1 হয়"
+    ],
+    "answer": "0 থেকে বৃদ্ধি পেয়ে 1 হয়",
+    "explanation": ""
+  },
+  {
+    "id": 6985,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>নিচের কোনটি অসীম লিমিট?</p>",
+    "options": [
+      "$\\lim_{x\\rightarrow0}\\frac1{x^3}$",
+      "$\\lim_{x\\rightarrow\\infty}\\frac1{x^3}$",
+      "$\\lim_{x\\rightarrow0}e^x$",
+      "$\\lim_{x\\rightarrow0}e^{-x}$"
+    ],
+    "answer": "$\\lim_{x\\rightarrow0}\\frac1{x^3}$",
+    "explanation": ""
+  },
+  {
+    "id": 6986,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\frac d{dx}\\left(\\frac{\\sqrt{1+\\sin2x}}{\\sin x+\\cos x}\\right)$ = ?</p>",
+    "options": [
+      "1",
+      "0",
+      "2 sin 2x",
+      "2 cos 2x"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 6987,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>ABC ত্রিভুজে BC = 3, CA = 4 এবং AB = 5 হলে-</p><p><br/>i. C=$\\pi \\over 2$</p><p><br/>ii. $\\triangle ABC$ এর পরিসীমা 24</p><p><br/>iii. $\\triangle ABC$ এর ক্ষেত্রফল = 6 বর্গ একক</p><p><br></p><p><strong>নিচের কোনটি সঠিক ? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6988,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$x^3+x^2y+xy^2=0$ একটি-</p>",
+    "options": [
+      "ব্যক্ত ফাংশন",
+      "অব্যক্ত ফাংশন",
+      "পরামিতিক ফাংশন",
+      "সংযোজিত ফাংশন"
+    ],
+    "answer": "অব্যক্ত ফাংশন",
+    "explanation": ""
+  },
+  {
+    "id": 6989,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\int\\ln x\\;dx$ = ?</p>",
+    "options": [
+      "$1 \\over x$",
+      "x ln x - x",
+      "x ln x + x",
+      "$1 \\over x^2$"
+    ],
+    "answer": "x ln x - x",
+    "explanation": ""
+  },
+  {
+    "id": 6990,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\int_0^1\\frac{3\\;dx}{1+x^2}$ = ?</p>",
+    "options": [
+      "$\\frac{3\\mathrm\\pi}4$",
+      "$-\\frac{3\\mathrm\\pi}4$",
+      "$\\frac{\\mathrm\\pi}4$",
+      "$-\\frac{\\mathrm\\pi}4$"
+    ],
+    "answer": "$\\frac{3\\mathrm\\pi}4$",
+    "explanation": ""
+  },
+  {
+    "id": 6991,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$\\int\\frac{e^\\theta d\\theta}{1+e^\\theta}$ = ?</p>",
+    "options": [
+      "$\\ln(1+e^\\theta)+c$",
+      "$1+e^\\theta+c$",
+      "$\\ln e^\\theta+c$",
+      "$\\theta +c$"
+    ],
+    "answer": "$\\ln(1+e^\\theta)+c$",
+    "explanation": "<p>$\\int \\frac{e^\\theta d \\theta}{1+e^\\theta}=\\ln \\left(1+e^\\theta\\right)+c\\left[\\because \\frac{f(x)}{f(x)} d x=\\ln f(x)+c\\right]$</p>"
+  },
+  {
+    "id": 6992,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>যদি $I_3$ একটি তিন ক্রমের ম্যাট্রিক্স হয় তবে $(I_3)^{-1}$ = ?</p>",
+    "options": [
+      "0",
+      "$I_3$",
+      "${1 \\over 3}I_3$",
+      "$3I_3$"
+    ],
+    "answer": "$I_3$",
+    "explanation": ""
+  },
+  {
+    "id": 6993,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>A ও B দুটো $3 \\times 3$ ক্রমের ম্যাট্রিক্স হলে-</p><p>|A-B|=0 এর সমার্থক-</p>",
+    "options": [
+      "$A=0_{mat}$ বা $B=0_{mat}$",
+      "|A|=0 বা |B|=0",
+      "|A|=0 এবং |B|=0",
+      "$A=0_{mat}$ এবং $B=0_{mat}$"
+    ],
+    "answer": "$A=0_{mat}$ এবং $B=0_{mat}$",
+    "explanation": ""
+  },
+  {
+    "id": 6994,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>একটি ঘনকের পৃষ্ঠতলগুলোকে ছয়টি ভিন্ন ভিন্ন রং দিয়ে রং করার উপায় সংখ্যা-</p><p><br/>i. $^6C_0$</p><p><br/>ii. 6!</p><p><br/>iii. $^6C_6$</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 6995,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>8টি ভিন্ন রং এর পতাকা হতে 5টি পতাকা নিয়ে ভিন্ন সিগনাল গঠনের উপায় সংখ্যা-</p>",
+    "options": [
+      "$^8P_5$",
+      "5!",
+      "8!",
+      "$^8C_5$"
+    ],
+    "answer": "$^8P_5$",
+    "explanation": ""
+  },
+  {
+    "id": 6996,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$x-y-2=0$ এবং $2x-2y+4=0$ রেখাদ্বয়ের মধ্যবর্তী দূরত্ব-</p>",
+    "options": [
+      "$3\\sqrt2$",
+      "$\\frac3{\\sqrt2}$",
+      "$2\\sqrt2$",
+      "$\\sqrt2$"
+    ],
+    "answer": "$2\\sqrt2$",
+    "explanation": "<p>প্রদত্ত রেখাদ্বয়, $x-y-2=0$</p><p>এবং $2 \\mathrm{x}-2 \\mathrm{y}+4=0$</p><p>$\\Rightarrow \\mathrm{x}-\\mathrm{y}+2=0$</p><p>$ \\therefore$ রেখাদ্বয়ের মধ্যবত্তী দূরত্ব </p><p>$\\begin{aligned} &amp; =\\left|\\frac{-2-2}{\\sqrt{1^2+(-1)^2}}\\right| \\\\ &amp; =\\left|\\frac{-4}{\\sqrt{2}}\\right|=|-2 \\sqrt{2}|=2 \\sqrt{2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6997,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$y=-2x$ এবং $2y=x$ রেখাদ্বয়ের মধ্যবর্তী কোণ-</p>",
+    "options": [
+      "$90^o$",
+      "$\\tan^{-1}\\left(\\frac54\\right)$",
+      "$\\tan^{-1}\\left(\\frac{-5}4\\right)$",
+      "$0^o$"
+    ],
+    "answer": "$90^o$",
+    "explanation": "<p>প্রদও প্রথম রেখা, $\\mathrm{y}=-2 \\mathrm{x}$</p><p>রেখাটির ঢাল $=-2$</p><p>দ্বিতীয় রেখা, $2 \\mathrm{y}=\\mathrm{x} \\quad \\Rightarrow \\mathrm{y}=\\frac{\\mathrm{x}}{2}$</p><p>রেখাটির ঢাল $=\\frac{1}{2}$</p><p>রেখাদ্বয়ের অন্তর্ভূক কোণ $\\theta$ হলে ,</p><p>$ \\Rightarrow \\tan \\theta=\\frac{-2-\\frac{1}{2}}{1-2 \\cdot \\frac{1}{2}}=\\frac{-\\frac{5}{2}}{0}=\\infty $</p><p>$ \\Rightarrow \\theta=\\tan ^{-1}(\\infty)=90^{\\circ}$</p>"
+  },
+  {
+    "id": 6998,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>কোনো বিন্দুর পোলার স্থানাঙ্কের কোটি $90^o$ হলে ঐ কার্তেসীয় স্থানাঙ্কের ভূজ-</p>",
+    "options": [
+      "x=r",
+      "x=0",
+      "y=r",
+      "y=0"
+    ],
+    "answer": "x=0",
+    "explanation": ""
+  }
+]

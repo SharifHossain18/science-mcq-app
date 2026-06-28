@@ -32,22 +32,6 @@
     "explanation": ""
   },
   {
-    "id": 6989,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2017",
-    "board": "Barisal",
-    "question": "<p>$\\int\\ln x\\;dx$ = ?</p>",
-    "options": [
-      "$1 \\over x$",
-      "x ln x - x",
-      "x ln x + x",
-      "$1 \\over x^2$"
-    ],
-    "answer": "x ln x - x",
-    "explanation": ""
-  },
-  {
     "id": 6955,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -160,22 +144,6 @@
     "explanation": "<p>$\\frac{d}{d x}(\\cos \\sqrt{x})=-\\sin \\sqrt{x} \\cdot \\frac{1}{2 \\sqrt{x}}=-\\frac{\\sin \\sqrt{x}}{2 \\sqrt{x}}$</p>"
   },
   {
-    "id": 6870,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2017",
-    "board": "Dhaka",
-    "question": "<p>$f(x)=4x$ হলে-</p><p><br/>i. $\\int\\frac{dx}{f(x)}=\\frac14\\ln x+c$</p><p><br/>ii. $\\int e^{f(x)}dx=\\frac14e^{4x}+c$</p><p><br/>iii. $\\int_0^2f(x)dx=8$</p>",
-    "options": [
-      "i ও ii",
-      "i ও iii",
-      "ii ও iii",
-      "i, ii ও iii"
-    ],
-    "answer": "i, ii ও iii",
-    "explanation": ""
-  },
-  {
     "id": 7024,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -240,22 +208,6 @@
     "explanation": ""
   },
   {
-    "id": 6934,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2017",
-    "board": "Jessore",
-    "question": "<p>$f(x)$ ধ্রুবক না হলে, $\\int\\frac{f'(x)}{f(x)}dx$ এর সমান কোনটি?</p>",
-    "options": [
-      "$f'(x)+C$",
-      "$f(x)+C$",
-      "$ln|x|+C$",
-      "$ln|f(x)|+C$"
-    ],
-    "answer": "$ln|f(x)|+C$",
-    "explanation": ""
-  },
-  {
     "id": 6880,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -270,22 +222,6 @@
     ],
     "answer": "$e^{\\sqrt x} \\over {2 \\sqrt x}$",
     "explanation": "<p>এখানে, $ y=e^{\\sqrt{x}} $ </p><p>$\\left.\\therefore y_1=e^{\\sqrt{x}} \\cdot \\frac{d}{d x}(\\sqrt{x})=\\frac{e^{\\sqrt{x}}}{2 \\sqrt{x}}\\right]$</p>"
-  },
-  {
-    "id": 6884,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2017",
-    "board": "Rajshahi",
-    "question": "<p>$\\int_2^3\\frac x{x^2-1}dx$ এর মান কত?</p>",
-    "options": [
-      "$\\ln\\frac83$",
-      "$\\frac12\\ln\\frac83$",
-      "$\\frac12\\ln24$",
-      "$\\ln24$"
-    ],
-    "answer": "$\\frac12\\ln\\frac83$",
-    "explanation": ""
   },
   {
     "id": 6887,
@@ -1440,22 +1376,6 @@
     "explanation": "<p>ধরি, $\\frac{2}{x}=y$</p><p>$\\therefore \\lim _{x \\rightarrow \\infty} x \\sin \\left(\\frac{2}{x}\\right)=\\lim _{y \\rightarrow 0} \\frac{2}{y} \\sin y=2 . \\lim _{y \\rightarrow 0} \\frac{\\sin y}{y}=2$</p>"
   },
   {
-    "id": 6630,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2021",
-    "board": "Mymensingh",
-    "question": "$\\int_0^1\\frac{1-x}{1+x}dx=?$",
-    "options": [
-      "ln2-2",
-      "1-2ln2",
-      "2ln2-1",
-      "2ln2+2"
-    ],
-    "answer": "2ln2-1",
-    "explanation": ""
-  },
-  {
     "id": 6635,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -2160,22 +2080,6 @@
     "explanation": "<p>$\\begin{array}{rlrl}y &amp; =\\tan ^{-1} \\frac{2 t}{1-t^2}, &amp; x &amp; =\\sin ^{-1} \\frac{2 t}{1+t^2} \\\\&amp; =2 \\tan ^{-1} t &amp; &amp; =2 \\tan ^{-1} t \\\\ \\therefore &amp; y &amp;\\end{array}$</p><p>বা, $y=x$</p><p>বা, $\\frac{d y}{d x}=1$.</p>"
   },
   {
-    "id": 6226,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2022",
-    "board": "Rajshahi",
-    "question": "$\\int ^1_0{e^{\\sqrt x}\\over \\sqrt x}dx$ এর মান কোনটি?",
-    "options": [
-      "$2e^{-1}$",
-      "2(e-1)",
-      "${2\\over e}-1$",
-      "$1-{1\\over e}$"
-    ],
-    "answer": "2(e-1)",
-    "explanation": "<p>$\\int_0^1 \\frac{e^{\\sqrt{x}}}{\\sqrt{x}} d x=2 \\int_0^1 e^{\\sqrt{x}} d(\\sqrt{x})=2\\left[e^{\\sqrt{x}}\\right]_0^1=2(e-1)$</p>"
-  },
-  {
     "id": 6240,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -2640,22 +2544,6 @@
     "explanation": "<p>ধরি, $y=x^{2 x}$</p><p>বা, $\\ln y=2 x \\ln x$</p><p>বা, $\\frac{d}{d x}(\\ln y)=\\frac{d}{d x}(2 x \\cdot \\ln x)$</p><p>বা, $\\frac{1}{y} \\frac{d y}{d x}=2\\left(x \\cdot \\frac{1}{x}+\\ln x \\cdot 1\\right)=2+2 \\ln x$</p><p>$\\therefore \\frac{d y}{d x}=y(2+2 \\ln x)=x^{2 x}(2+2 \\ln \\mathrm{x})$</p>"
   },
   {
-    "id": 6064,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2023",
-    "board": "Jessore",
-    "question": "$\\int e^{-10x}$dx = কত?",
-    "options": [
-      "$e^{-10x}$ + c",
-      "$-10e^{-10x}$ + c",
-      "-$\\frac{e^{-10x}}{10}+c$",
-      "-e$^{-10x}$ + c"
-    ],
-    "answer": "-$\\frac{e^{-10x}}{10}+c$",
-    "explanation": ""
-  },
-  {
     "id": 6182,
     "subject": "Math 1st Paper",
     "chapter": "Chapter 9: অন্তরীকরণ",
@@ -2782,22 +2670,6 @@
     ],
     "answer": "$\\frac{1}{5}$",
     "explanation": "<p>$\\lim _{x \\rightarrow \\infty} \\frac{x^2-7 x}{5 x^2-3 x}=\\lim _{x \\rightarrow \\infty} \\frac{x^2\\left(1-\\frac{7}{x}\\right)}{x^2\\left(5-\\frac{3}{x}\\right)}=\\frac{1-0}{5-0}=\\frac{1}{5}$</p>"
-  },
-  {
-    "id": 6007,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 9: অন্তরীকরণ",
-    "year": "2023",
-    "board": "Rajshahi",
-    "question": "$\\int e^{-5x}dx = ?$",
-    "options": [
-      "$\\frac{e^{-5x}}{5}+c$",
-      "$-\\frac{e^{-5x}}{5}+c$",
-      "$5e^{-5x}+c$",
-      "$-5e^{-5x}+c$"
-    ],
-    "answer": "$-\\frac{e^{-5x}}{5}+c$",
-    "explanation": "<p><br></p>"
   },
   {
     "id": 6124,

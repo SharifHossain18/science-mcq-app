@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6549,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>${d\\over dx}(7^x)$ = কত?</p>",
+    "options": [
+      "$x. 7^{x-1}$",
+      "$7^xln7^x$",
+      "$7^xln7$",
+      "xln $7^x$"
+    ],
+    "answer": "$7^xln7$",
+    "explanation": ""
+  },
+  {
+    "id": 6550,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$f(x)=sin{x\\over 2}$ হলে, f''$({\\pi\\over 2})$ = কত?</p>",
+    "options": [
+      "$-1\\over 2\\sqrt 2$",
+      "$-1\\over 4\\sqrt 2$",
+      "$1\\over 2\\sqrt 2$",
+      "$1\\over \\sqrt 2$"
+    ],
+    "answer": "$-1\\over 4\\sqrt 2$",
+    "explanation": ""
+  },
+  {
+    "id": 6551,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "যদি $x = a (\\theta - sin\\theta) $ এবং $y = a (1 + cos\\theta) $ হয়, তবে x এর মান কোনটি?",
+    "options": [
+      "$-cot{\\theta\\over 2}$",
+      "$-sin\\theta$",
+      "$1-cos\\theta$",
+      "$-tan{\\theta\\over 2}$"
+    ],
+    "answer": "$-cot{\\theta\\over 2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; x=a(\\theta-\\sin \\theta) \\therefore \\frac{d x}{d \\theta}=a(1-\\cos \\theta) \\\\ &amp; y=a(1+\\cos \\theta) \\therefore \\frac{d y}{d \\theta}=-a \\sin \\theta \\\\ &amp; \\therefore \\frac{d y}{d x}=\\frac{-a \\sin \\theta}{a(1-\\cos \\theta)}=\\frac{-2 \\sin \\frac{\\theta}{2} \\cos \\frac{\\theta}{2}}{2 \\sin ^2 \\frac{\\theta}{2}}=-\\cot \\frac{\\theta}{2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 6552,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>f(x) ফাংশন x = b বিন্দুতে অবিচ্ছিন্ন হলে— </p><p><br/>i. f(b) সংজ্ঞায়িত হয় </p><p><br/>ii. $lim_{x\\to b}$ f(x) বিদ্যমান থাকে না x-b</p><p><br/>iii. $lim_{x\\to b}$ f(x) =f(b) হয়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6553,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$f(x)=2 x^3-15 x^2+36 x+10$ ফাংশনটি কোন ব্যবধিতে হ্রাস পায়?</p>",
+    "options": [
+      "x>1",
+      "$x<2$",
+      "x>3",
+      "$2<x<3$"
+    ],
+    "answer": "$2<x<3$",
+    "explanation": "<p>$ f(x)=2 x^3-15 x^2+36 x+10$ </p><p>$ f^{\\prime}(\\mathrm{x})=6 \\mathrm{x}^2-30 \\mathrm{x}+36=6\\left(\\mathrm{x}^2-5 \\mathrm{x}+6\\right) $</p><p>$=6(x-2)(x-3) ; 2&lt;x&lt;3 $ ব্যবধিতে $x-2&gt;0$</p><p>এবং $\\mathrm{x}-3&lt;0$ । সুতরাং $f^{\\prime}(\\mathrm{x})&lt;0 \\therefore 2&lt;\\mathrm{x}&lt;3$ ব্যবধিতে ফাংশনটি হ্রাস পায়।</p>"
+  },
+  {
+    "id": 6554,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>x<sup>2</sup> - y<sup>2</sup> = 5 বক্ররেখার (-3, 2) বিন্দুতে ঢাল কত ?</p>",
+    "options": [
+      "-$3\\over 2$",
+      "$-2\\over 3$",
+      "$2\\over 3$",
+      "$3\\over 2$"
+    ],
+    "answer": "-$3\\over 2$",
+    "explanation": "<p>$x^2-y^2=5 \\Rightarrow 2 x-2 y \\frac{d y}{d x}=0 \\Rightarrow \\frac{d y}{d x}=\\frac{x}{y} \\therefore\\left(\\frac{d y}{d x}\\right)_{(-3,2)}=\\frac{-3}{2}$</p>"
+  },
+  {
+    "id": 6555,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}1&amp;-2&amp;3\\\\\\end{matrix}\\right]$ , B=$\\left[\\begin{matrix}2\\\\-4\\\\-1\\\\\\end{matrix}\\right]$ হলে 3AB = কত?",
+    "options": [
+      "[-27]",
+      "[-7]",
+      "[7]",
+      "[21]"
+    ],
+    "answer": "[21]",
+    "explanation": ""
+  },
+  {
+    "id": 6556,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "কোনটি ব্যতিক্রমী ম্যাট্রিক্স?",
+    "options": [
+      "$\\left[\\begin{matrix}1&1\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}2&6\\\\3&7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&-3\\\\3&9\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}1&3\\\\3&9\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}1&3\\\\3&9\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6557,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}x&amp;0&amp;1\\\\0&amp;1&amp;2\\\\2&amp;1&amp;3\\\\\\end{matrix}\\right]$, |A|= 0 হলে x এর মান কত?",
+    "options": [
+      "-2",
+      "0",
+      "${2\\over 5}$",
+      "2"
+    ],
+    "answer": "2",
+    "explanation": ""
+  },
+  {
+    "id": 6558,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$\\left|\\begin{matrix}1&amp;0&amp;0\\\\2&amp;3&amp;5\\\\1&amp;2&amp;3\\\\\\end{matrix}\\right|$ নির্ণায়কের</p><p><br/>i. (2, 3) তম ভুক্তির অনুরাশি +2 </p><p><br/>ii. (2, 2) তম ভুক্তির সহগুণক 3 </p><p><br/>iii. নির্ণায়কটির মান - 1</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6559,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "A=$\\left[\\begin{matrix}a&amp;b\\\\c&amp;-d\\\\\\end{matrix}\\right]$ এর অনুবন্ধী (Adjoint) ম্যাট্রিক্স কোনটি ?",
+    "options": [
+      "$\\left[\\begin{matrix}d&-c\\\\-b&-a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}d&c\\\\b&a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-d&-b\\\\-c&a\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-d&b\\\\c&a\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-d&-b\\\\-c&a\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>$\\begin{aligned} &amp; A_{11}=-d, A_{12}=-c, A_{21}=-b, A_{22}=a \\\\ &amp; \\therefore \\operatorname{adj} A=\\left[\\begin{array}{ll}A_{11} &amp; A_{21} \\\\ A_{12} &amp; A_{22}\\end{array}\\right]=\\left[\\begin{array}{rr}-d &amp; -b \\\\ -c &amp; a\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6560,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\left[\\begin{matrix}1&amp;2\\\\0&amp;-3\\\\\\end{matrix}\\right]$, B=$\\left[\\begin{matrix}-2&amp;3\\\\-1&amp;4\\\\\\end{matrix}\\right]$</p><p><br></p><p>Q. A + B = কত?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}-1&5\\\\1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&-5\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&5\\\\-1&1\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-1&5\\\\-1&-1\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}-1&5\\\\-1&1\\\\\\end{matrix}\\right]$",
+    "explanation": ""
+  },
+  {
+    "id": 6561,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও:</p><p>A=$\\left[\\begin{matrix}1&amp;2\\\\0&amp;-3\\\\\\end{matrix}\\right]$, B=$\\left[\\begin{matrix}-2&amp;3\\\\-1&amp;4\\\\\\end{matrix}\\right]$</p><p><br></p><p>Q. A<sup>t</sup>- B<sup>t</sup> = কত?</p>",
+    "options": [
+      "$\\left[\\begin{matrix}3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}-3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&-1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+      "$\\left[\\begin{matrix}3&1\\\\1&-7\\\\\\end{matrix}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{matrix}3&1\\\\-1&-7\\\\\\end{matrix}\\right]$",
+    "explanation": "<p>$\\begin{aligned} &amp; A^t-B^t=\\left[\\begin{array}{rr}1 &amp; 2 \\\\ 0 &amp; -3\\end{array}\\right]^t-\\left[\\begin{array}{rr}-2 &amp; 3 \\\\ -1 &amp; 4\\end{array}\\right]^t \\\\ &amp; =\\left[\\begin{array}{rr}1 &amp; 0 \\\\ 2 &amp; -3\\end{array}\\right]-\\left[\\begin{array}{rr}-2 &amp; -1 \\\\ -3 &amp; 4\\end{array}\\right]=\\left[\\begin{array}{rr}3 &amp; 1 \\\\ -1 &amp; -7\\end{array}\\right]\\end{aligned}$</p>"
+  },
+  {
+    "id": 6562,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "x এর একটি ফাংশন f(x) হলে, $\\int {f^{'}(x)\\over f(x)}$dx = কত?",
+    "options": [
+      "f'(x)+c",
+      "f(x)+c",
+      "ln|f'(x)|+c",
+      "ln|f(x)|+c"
+    ],
+    "answer": "ln|f(x)|+c",
+    "explanation": ""
+  },
+  {
+    "id": 6563,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>যোগজীকরণের ক্ষেত্রে প্রযোজ্য— </p><p><br/>i. $\\int$f(x)dx = F (x) + c, যেখানে হল যোগজীকরণ ধ্রুবক</p><p><br/>ii. f(x) কে যোজ্য ফাংশন (Integrand) বলে</p><p><br/>iii. $d\\over dx$ও $\\int$dx পরস্পর বিপরীত প্রক্রিয়া</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6564,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "$\\int \\sqrt {2-3x}dx$ = কত?",
+    "options": [
+      "$-{2\\over 9}(2-3x)^{3\\over 2}+c$",
+      "$-{1\\over 6}(2-3x)^{-1\\over 2}+c$",
+      "$-(2-3x)^{3\\over 2}+c$",
+      "$-3(2-3x)^{-1\\over 2}+c$"
+    ],
+    "answer": "$-{2\\over 9}(2-3x)^{3\\over 2}+c$",
+    "explanation": ""
+  },
+  {
+    "id": 6565,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$\\int \\frac{d x}{x^2+a^2}=K \\cot ^{-1} \\frac{a}{x}+c$ হলে K = ?</p>",
+    "options": [
+      "-a",
+      "$-\\frac{1}{\\mathrm{a}}$",
+      "$\\frac{1}{\\mathrm{a}}$",
+      "a"
+    ],
+    "answer": "$\\frac{1}{\\mathrm{a}}$",
+    "explanation": ""
+  },
+  {
+    "id": 6566,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "$\\int_1^e log_exdx=?$",
+    "options": [
+      "-e",
+      "-1",
+      "1",
+      "e"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 6567,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>y<sup>2 </sup>= 4ax ও x<sup>2</sup> = 4ay পরাবৃত্ত দুটি দ্বারা সীমাবদ্ধ সমতল ক্ষেত্রের ক্ষেত্রফল নির্ণয়ের জন্য কোন যোগজটি সঠিক?</p>",
+    "options": [
+      "$\\int_0^{4a}(2\\sqrt {ax}-{x^2\\over 4a})dx$",
+      "$\\int_0^{4 a}\\left(2 \\sqrt{a x}-\\frac{4 a}{x^2}\\right) d x$",
+      "$\\int_0^{4a}({x^2\\over 4a}-2\\sqrt {ax})dx$",
+      "$\\int_0^{4a}(\\sqrt {ax}-{x^2\\over 2a})dx$"
+    ],
+    "answer": "$\\int_0^{4a}(2\\sqrt {ax}-{x^2\\over 4a})dx$",
+    "explanation": ""
+  },
+  {
+    "id": 6568,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "একটি সরলরেখা (5, 5) ও (3, 7 ) বিন্দুগামী হলে রেখাটির ঢাল কত?",
+    "options": [
+      "-2",
+      "-1",
+      "3",
+      "10"
+    ],
+    "answer": "-1",
+    "explanation": ""
+  },
+  {
+    "id": 6569,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>$3x + 7y - 2 = 0$ সরলরেখার উপর লম্ব এবং (2, 1) বিন্দুগামী রেখার সমীকরণ নিচের কোনটি?</p>",
+    "options": [
+      "<p>$3x + 7y - 13 = 0$</p>",
+      "<p>$7x-3y-11=0$</p>",
+      "<p>$7x+3y-11=0$</p>",
+      "<p>$7x-3y-17=0$</p>"
+    ],
+    "answer": "<p>$7x-3y-11=0$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 6570,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>মূলবিন্দু হতে 4 একক দূরবর্তী এবং $-1$ ঢালবিশিষ্ট সরলরেখার সমীকরণ নিচের কোনটি?</p>",
+    "options": [
+      "$x+y\\pm4\\sqrt 2=0$",
+      "$y-x\\pm 4\\sqrt 2=0$",
+      "$y+4\\sqrt 2x=0$",
+      "$4\\sqrt 2x-y=0$"
+    ],
+    "answer": "$x+y\\pm4\\sqrt 2=0$",
+    "explanation": "<p>- 1 ঢাল বিশিষ্ট রেখার সমীকরণ</p><p>$\\mathrm{y}=-\\mathrm{x}+\\mathrm{c} \\therefore \\mathrm{x}+\\mathrm{y}-\\mathrm{c}=0$</p><p>$(0,0)$ বিন্দু থেকে উক্ত রেখার দূরত্ব, $\\frac{|0+0-c|}{\\sqrt{1^2+1^2}}=4 \\Rightarrow c= \\pm 4 \\sqrt{2}$</p><p>$\\therefore$ निর্ণেয় সমীকরণ, $x+y \\pm 4 \\sqrt{2}=0$</p>"
+  },
+  {
+    "id": 6571,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>3x + 4y - 12 = 0 সরলরেখাটি অক্ষদ্বয়ের সাথে একটি ত্রিভুজ গঠন করলে- </p><p><br/>i. ত্রিভুজটির ক্ষেত্রফল 6 বর্গ একক</p><p><br/>ii. ত্রিভুজটি ১ম চতুর্ভাগে অবস্থিত </p><p><br/>iii. অক্ষদ্বয় কর্তৃক রেখাটির খণ্ডিত অংশের পরিমাণ 5 একক</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "ii and iii",
+      "i and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 6572,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>2x + 2y – $\\sqrt 5$ = 0 একটি সরলরেখার সমীকরণ।  </p><p><br></p><p>Q. উদ্দীপকে প্রদত্ত সরলরেখাটি অক্ষের ধনাত্মক দিকের সাথে কত ডিগ্রি কোণ উৎপন্ন করে?</p>",
+    "options": [
+      "-135°",
+      "-45°",
+      "45°",
+      "135°"
+    ],
+    "answer": "135°",
+    "explanation": ""
+  },
+  {
+    "id": 6573,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2021",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>2x + 2y – $\\sqrt 5$ = 0 একটি সরলরেখার সমীকরণ।  </p><p><br></p><p>Q. উদ্দীপকের সরলরেখাটি দ্বারা স্থানাঙ্কের অক্ষদ্বয়ের সহিত উৎপন্ন ত্রিভুজের ক্ষেত্রফল নিচের কোনটি?</p>",
+    "options": [
+      "5/8 বর্গ একক",
+      "5/4 বর্গ একক",
+      "5/2 বর্গ একক",
+      "$4\\sqrt 5$ বর্গ একক"
+    ],
+    "answer": "5/8 বর্গ একক",
+    "explanation": ""
+  }
+]

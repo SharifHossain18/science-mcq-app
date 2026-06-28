@@ -1,0 +1,402 @@
+[
+  {
+    "id": 6774,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$y+x=0$ সরলরেখাটি  x-অক্ষের ধনাত্মক দিকের সাথে কত কোণ উৎপন্ন করে?</p>",
+    "options": [
+      "$45^0$",
+      "$135^0$",
+      "$225^0$",
+      "$315^0$"
+    ],
+    "answer": "$135^0$",
+    "explanation": "<p>$\\mathrm y+\\mathrm x\\;=\\;0\\;\\mathrm{এর}\\;\\mathrm{ঢাল}\\;=\\;-1\\\\\\tan\\;\\mathrm\\theta=\\;-1\\;\\mathrm{বা},\\;\\;\\mathrm\\theta\\;=135^{\\mathrm o}$</p>"
+  },
+  {
+    "id": 6775,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$x+y=2$ এবং $y-x=0$ রেখাদ্বয়ের ছেদবিন্দুগামী এবং x-অক্ষের সমান্তরাল রেখার সমীকরণ নিচের কোনটি?</p>",
+    "options": [
+      "x=2",
+      "y=2",
+      "y-1=0",
+      "x-1=0"
+    ],
+    "answer": "y-1=0",
+    "explanation": ""
+  },
+  {
+    "id": 6776,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$x-3y-8=0$ এবং $3x-y+7=0$ সরলরেখাদ্বয়ের অন্তর্ভূক্ত সূক্ষ্মকোণের মান কত?</p>",
+    "options": [
+      "$tan^{-1}({-4\\over 3})$",
+      "$tan^{-1}({4\\over 3})$",
+      "$tan^{-1}({3\\over 4})$",
+      "$tan^{-1}(\\infty)$"
+    ],
+    "answer": "$tan^{-1}({4\\over 3})$",
+    "explanation": "<p>$m_1=\\frac13\\;,\\;m_2=3\\;\\\\\\Rightarrow\\tan\\;\\theta=\\frac{3-{\\displaystyle\\frac13}}{1+3{\\displaystyle\\frac13}}\\\\\\Rightarrow\\theta\\;=\\;\\tan^{-1}\\left(\\frac43\\right)$</p>"
+  },
+  {
+    "id": 6777,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$2x^2+2y^2-4x+8y-8=0 $ একটি বৃত্তের সমীকরণ।</p><p>Q. বৃত্তটির কেন্দ্রের স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "(-2,4)",
+      "(2,-4)",
+      "(1,-2)",
+      "(-1,2)"
+    ],
+    "answer": "(1,-2)",
+    "explanation": "ব্যাখ্যাঃ$\\Rightarrow2\\mathrm x^2+\\;2\\mathrm y^2-\\;4\\mathrm x\\;+\\;8\\mathrm y-8=0\\\\\\Rightarrow\\mathrm x^2+\\mathrm y^2-2\\mathrm x+4\\mathrm y-4=0\\\\\\Rightarrow\\mathrm x^2+\\mathrm y^2+2(-1)\\mathrm x\\;+\\;2(2)\\mathrm y\\;-4\\;=0\\\\\\mathrm{বৃত্তের}\\;\\mathrm{কেন্দ্র}\\;=(-\\mathrm g,-\\mathrm f)=(1,-2)$"
+  },
+  {
+    "id": 6778,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$2x^2+2y^2-4x+8y-8=0 $ একটি বৃত্তের সমীকরণ।</p><p>Q. বৃত্তটি দ্বারা x-অক্ষের খন্ডিত অংশ কত?</p>",
+    "options": [
+      "$4\\sqrt 6$",
+      "$4\\sqrt 3$",
+      "$4\\sqrt 2$",
+      "$2\\sqrt 5$"
+    ],
+    "answer": "$2\\sqrt 5$",
+    "explanation": ""
+  },
+  {
+    "id": 6779,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>10 বাহুবিশিষ্ট সমতলিক ক্ষেত্রের কৌণিক বিন্দুর সংযোগে গঠিত কর্ণের সংখ্যা কত?</p>",
+    "options": [
+      "35",
+      "45",
+      "80",
+      "90"
+    ],
+    "answer": "35",
+    "explanation": "<p>$\\mathrm n\\;\\mathrm{ভূজের}\\;\\mathrm{কর্ণ}\\;\\mathrm{সংখ্যা}\\;=^{\\mathrm n}{\\mathrm C}_2-\\mathrm n$</p>"
+  },
+  {
+    "id": 6780,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "‘COMBINATION’ শব্দটির স্বরবর্ণের অবস্থন পরিবর্তণ না করে পুনর্বিন্যাস সংখা কত?",
+    "options": [
+      "720",
+      "719",
+      "360",
+      "359"
+    ],
+    "answer": "359",
+    "explanation": "ব্যাখ্যাঃ$\\mathrm{COMBINATION}\\;;\\;\\mathrm{স্বরবর্ণ}\\;\\;\\mathrm{স্থির}\\;\\mathrm{রাখলে}\\;\\mathrm{বাকি}\\;\\mathrm{বর্ণ}\\;\\;6\\;\\mathrm{টি}\\;\\mathrm{যেখানে}\\;\\;2\\mathrm{টি}\\;\\mathrm T\\;\\\\\\mathrm{স্বরবর্ণ}\\;\\;\\mathrm{স্থির}\\;\\mathrm{রেখে}\\;\\mathrm{পূনর্বিণ্যাস}\\;=\\frac{6!}{2!}-1\\;=\\;359$"
+  },
+  {
+    "id": 6781,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$x-\\sqrt 3y-\\sqrt 3=0$ সরলরেখাটির-</p><p><br/>i. ঢাল, $-1\\over \\sqrt 3$</p><p><br/>ii. লম্ব রেখার ঢাল, $- \\sqrt 3$</p><p><br/>iii. x-অক্ষের খন্ডিতাংশ, $\\sqrt 3$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6782,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$f(x)=3cosx$ ফাংশনটির- </p><p><br/>i. রেঞ্জ, $R_f=[-3,3]$</p><p><br/>ii. পর্যায়কাল,$2 \\pi$$</p><p><br/>iii. লেখচিত্র y-অক্ষের সাপেক্ষে প্রতিসম </p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6783,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$cot\\theta={12\\over 5}$এবং $\\mathrm\\pi&lt;\\theta&lt;\\frac{3\\mathrm\\pi}2$ </p><p> Q. $sin\\theta$ এর মান কত?</p>",
+    "options": [
+      "$5\\over 13$",
+      "$-5\\over 13$",
+      "$12\\over 13$",
+      "$-12\\over 13$"
+    ],
+    "answer": "$-5\\over 13$",
+    "explanation": "<p>$\\cot\\;\\mathrm\\theta\\;=\\;\\frac{12}5\\;\\\\\\mathrm{ভূমি}=\\;12\\;,\\;\\mathrm{লম্ব}\\;=\\;5\\;,\\;\\mathrm{অতিভূজ}\\;=\\;\\sqrt{12^2+5^2}=13\\\\\\mathrm{যেহেতু}\\;\\mathrm{তৃতীয়}\\;\\mathrm{চতুর্ভাগে}\\;\\mathrm{তাই}\\;\\sin\\;\\mathrm{নেগেটিভ}\\;\\mathrm{হবে}...\\\\\\sin\\;\\mathrm\\theta=\\frac{-5}{13}\\;$</p>"
+  },
+  {
+    "id": 6784,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$cot\\theta={12\\over 5}$এবং $\\mathrm\\pi&lt;\\theta&lt;\\frac{3\\mathrm\\pi}2$ </p><p> Q. $tan2\\theta$ এর মান কত?</p>",
+    "options": [
+      "$120\\over 119$",
+      "$120\\over 169$",
+      "$60\\over 119$",
+      "$60\\over 169$"
+    ],
+    "answer": "$120\\over 119$",
+    "explanation": "<p>$\\tan\\;2\\theta\\;=\\;\\frac{2\\;\\tan\\theta}{1-\\;\\tan^2\\theta}=\\frac{2{\\displaystyle\\frac5{12}}}{1-{\\displaystyle\\frac{25}{144}}}=\\frac{120}{119}$</p>"
+  },
+  {
+    "id": 6785,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$lim_{x\\to 0}{sinax\\over x}$=?",
+    "options": [
+      "a",
+      "0",
+      "1",
+      "1/a"
+    ],
+    "answer": "a",
+    "explanation": ""
+  },
+  {
+    "id": 6786,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "যদি f(x)=sinx হয় ,তবে $f(cos^{-1}x)$এর অন্তরজ কোনটি?",
+    "options": [
+      "$1\\over 2\\sqrt {1-x^2}$",
+      "$-1\\over 2\\sqrt {1-x^2}$",
+      "$x\\over \\sqrt {1-x^2}$",
+      "$-x\\over \\sqrt {1-x^2}$"
+    ],
+    "answer": "$-x\\over \\sqrt {1-x^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 6787,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$y={1\\over x^2}$ হলে, (-1,0) বিন্দুতে $y_1$ এর মান কত?",
+    "options": [
+      "2",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "answer": "2",
+    "explanation": "<p>$\\;\\;\\;\\;\\;\\mathrm y=\\mathrm x^{-2\\;}\\\\\\Rightarrow\\;{\\mathrm y}_1=-2\\;.\\;\\mathrm x^{-3}\\\\\\\\(-1,0)\\;\\mathrm{বিন্দুতে}\\;,{\\mathrm y}_1=\\;\\frac{-2}{-1}=\\;2$</p>"
+  },
+  {
+    "id": 6788,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$f(x)=x-x^2$ ফাংশনটির কোন বিন্দুতে অঙ্কিত স্পর্শক x-অক্ষের সমান্তরাল?",
+    "options": [
+      "$\\left(\\frac12,\\frac34\\right)$",
+      "$\\left(\\frac12,\\frac14\\right)$",
+      "$\\left(-\\frac12,-\\frac14\\right)$",
+      "$\\left(-\\frac12,-\\frac34\\right)$"
+    ],
+    "answer": "$\\left(\\frac12,\\frac14\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6789,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$\\int {sin2x\\over cos^22x}dx=?$",
+    "options": [
+      "${1\\over 2}sec 2x+c$",
+      "$2sec2x+c$",
+      "${1\\over 2}cosec 2x+c$",
+      "$2cosec2x+c$"
+    ],
+    "answer": "${1\\over 2}sec 2x+c$",
+    "explanation": "<p>$\\int\\frac{\\sin\\;2\\mathrm x}{\\cos^2\\;2\\mathrm x}dx=\\int\\frac{\\sin\\;2\\mathrm x}{\\cos\\;2\\mathrm x\\;.\\;\\cos\\;2\\mathrm x}\\mathrm{dx}=\\int\\sec\\;2\\mathrm x\\;.\\;\\tan\\;2\\mathrm x\\;\\mathrm{dx}\\;\\\\=\\frac12\\sec\\;2\\mathrm x\\;+\\;\\mathrm c$</p>"
+  },
+  {
+    "id": 6790,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$y=x+3$ হলে, $f^{-1}(-9)$=?</p>",
+    "options": [
+      "12",
+      "6",
+      "-6",
+      "-12"
+    ],
+    "answer": "-12",
+    "explanation": ""
+  },
+  {
+    "id": 6791,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "$f(x)=ln(ln2x)$হলে, $f'{(x)}^{}$=?",
+    "options": [
+      "$1\\over ln2x$",
+      "$1\\over 2x$",
+      "$1\\over xln2x$",
+      "$1\\over 2xln2x$"
+    ],
+    "answer": "$1\\over xln2x$",
+    "explanation": ""
+  },
+  {
+    "id": 6792,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>(-1,-1) বিন্দুটির পোলার স্থানাঙ্ক-</p>",
+    "options": [
+      "$\\left(\\sqrt{2}, \\frac{\\pi}{4}\\right)$",
+      "$\\left(\\sqrt{2}, \\frac{5 \\pi}{4}\\right)$",
+      "$\\left(2, \\frac{\\pi}{4}\\right)$",
+      "$\\left(2, \\frac{5 \\pi}{4}\\right)$"
+    ],
+    "answer": "$\\left(\\sqrt{2}, \\frac{5 \\pi}{4}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 6793,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "A,B এবং C ম্যাট্রিক্সগুলির মাত্রা যথাক্রমে $4\\times 3$, $3\\times 4$ এবং $7\\times 4$ হলে, $(B+A^T).C^T$ ম্যাট্রিক্স এর মাত্রা কত?",
+    "options": [
+      "$3\\times 4$",
+      "$3\\times 7$",
+      "$4\\times 3$",
+      "$4\\times 7$"
+    ],
+    "answer": "$3\\times 7$",
+    "explanation": "<p>$\\mathrm B+\\;\\mathrm A^{\\mathrm t}\\;\\mathrm{এর}\\;\\mathrm{মাত্রা}\\;=(3\\times4)\\\\(3\\times4).(4\\times7)\\;\\mathrm{এর}\\;\\mathrm{গুনফলের}\\;\\mathrm{মাত্রা}\\;=(3\\times7)\\;$</p>"
+  },
+  {
+    "id": 6794,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$\\bar A=\\hat i-\\hat j+\\hat k$ এবং $\\bar B=3\\hat i-2\\hat j+3\\hat k$ দুইটি ভেক্টর হলে,-</p><p><br/>i. $\\bar A$ভেক্টরের মান $\\sqrt 3$</p><p><br/>ii. $\\bar A$ ভেক্টরের উপর $\\bar B$ভেক্টরের অভিক্ষেপ $8\\over \\sqrt 3$</p><p><br/>iii. ভেক্টর দুইটির অন্তর্গত কোণ $cos^{-1}{8\\over \\sqrt {66}}$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 6795,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=\\hat i+2\\hat j$, $\\bar b=-\\hat i+3\\hat j+\\hat k$ ভেক্টর দুইটি কোনো সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে। </p><p>Q. সমান্তবিকটির ক্ষেত্রফল কত বর্গ একক?</p>",
+    "options": [
+      "30",
+      "15",
+      "${1\\over 2}\\sqrt {30}$",
+      "$\\sqrt {30}$"
+    ],
+    "answer": "$\\sqrt {30}$",
+    "explanation": "<p>$\\begin{vmatrix}\\widehat{\\mathrm i}&amp;\\widehat{\\mathrm j}&amp;\\widehat{\\mathrm k}\\\\1&amp;2&amp;0\\\\-1&amp;3&amp;1\\end{vmatrix}=\\widehat{\\mathrm i}\\;.\\;(2-0)\\;-\\widehat{\\mathrm j}\\;.\\;(1-0)\\;+\\;\\widehat{\\mathrm k}\\;.\\;(3+2)=2\\widehat{\\mathrm i}-\\widehat{\\mathrm j}+5\\widehat{\\mathrm k}\\\\\\mathrm{ক্ষেত্রফল}\\;=\\;\\sqrt{4+1+25}=\\sqrt{30}$</p>"
+  },
+  {
+    "id": 6796,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p>$\\bar a=\\hat i+2\\hat j$, $\\bar b=-\\hat i+3\\hat j+\\hat k$ ভেক্টর দুইটি কোনো সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে। </p><p>Q. সামান্তনিকটির কর্ণের সমান্তরাল একক ভেক্টর কোনটি?</p>",
+    "options": [
+      "${1 \\over 26}(5\\hat j+\\hat k)$",
+      "${1 \\over \\sqrt 26}(5\\hat j+\\hat k)$",
+      "${1 \\over \\sqrt 3}(\\hat i+2\\hat j)$",
+      "${1 \\over \\sqrt {11}}(-\\hat i+3\\hat j+\\hat k)$"
+    ],
+    "answer": "${1 \\over \\sqrt 26}(5\\hat j+\\hat k)$",
+    "explanation": "<p>$\\mathrm{কর্ণ}\\;\\mathrm{ভেক্টর}\\;\\;\\overline{\\mathrm a}+\\overline{\\mathrm b}\\;=\\;5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}\\\\\\mathrm{কর্ণের}\\;\\mathrm{একক}\\;\\mathrm{ভেক্টর}\\;=\\;\\frac{\\;5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}}{\\sqrt{25+1}}=\\frac{5\\widehat{\\mathrm j}+\\widehat{\\mathrm k}}{\\sqrt{26}}$</p>"
+  },
+  {
+    "id": 6797,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>A+B=$\\begin{bmatrix}2&amp;-3\\\\4&amp;-1\\end{bmatrix}$ এবং A-B=$\\begin{bmatrix}4&amp;5\\\\-2&amp;7\\end{bmatrix}$ হলে, নিচের কোনটি B ম্যাট্রিক্স?</p>",
+    "options": [
+      "$\\begin{bmatrix}-1&-4\\\\3&-4\\end{bmatrix}$",
+      "$\\begin{bmatrix}-1&1\\\\3&3\\end{bmatrix}$",
+      "$\\begin{bmatrix}6&2\\\\2&6\\end{bmatrix}$",
+      "$\\begin{bmatrix}3&1\\\\1&3\\end{bmatrix}$"
+    ],
+    "answer": "$\\begin{bmatrix}-1&-4\\\\3&-4\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 6798,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2019",
+    "board": "Barisal",
+    "question": "<p>$g(x)=\\log _e(\\cos x)$ হলে, $e^{2 g(x)}$ এর মান হবে-</p>",
+    "options": [
+      "$1+\\cos 2 x$",
+      "$1-\\cos 2 x$",
+      "$\\frac{1}{2}(1+\\cos 2 x)$",
+      "$\\frac{1}{2}(1-\\cos 2 x)$"
+    ],
+    "answer": "$\\frac{1}{2}(1+\\cos 2 x)$",
+    "explanation": ""
+  }
+]

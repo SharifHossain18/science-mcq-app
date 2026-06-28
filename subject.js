@@ -152,6 +152,8 @@ function initDashboard() {
         window.location.href = 'board-select.html';
     });
 
+    initDownloadButton();
+
     fetch('data/meta.json?t=' + Date.now())
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(data => { metaData = data; renderChapterList(); })
@@ -199,6 +201,10 @@ function renderChapterList() {
             chapterName = parts.slice(1).join(':').trim();
         }
 
+        const cleanSub = subject.replace(/\s+/g, '_');
+        const dlKey = `chapter_${cleanSub}_${ch.id}`;
+        const isDl = UTILS.isItemDownloaded(dlKey);
+
         const item = document.createElement('div');
         item.className = 'subj-chapter-item';
         item.dataset.chapterId = ch.id;
@@ -208,8 +214,52 @@ function renderChapterList() {
                 <span class="subj-chapter-name">${chapterName}</span>
             </div>
             <div class="subj-chapter-item-right">
-                <i class="fa-solid fa-chevron-right"></i>
+                <button class="subj-dl-btn ${isDl ? 'downloaded' : ''}" data-dl-key="${dlKey}" data-clean-sub="${cleanSub}" data-ch-id="${ch.id}" title="${isDl ? 'ডাউনলোড করা হয়েছে' : 'অফলাইনের জন্য ডাউনলোড'}">
+                    <i class="fa-solid ${isDl ? 'fa-circle-check' : 'fa-circle-down'}"></i>
+                </button>
+                <i class="fa-solid fa-chevron-right" style="margin-left:8px;"></i>
             </div>`;
+
+        const dlBtn = item.querySelector('.subj-dl-btn');
+        dlBtn.addEventListener('click', async (e) => {
+            e.stopPropagation();
+            if (dlBtn.classList.contains('downloaded')) {
+                if (confirm('এই অধ্যায়ের অফলাইন ডাটা মুছে ফেলবেন?')) {
+                    UTILS.unmarkItemDownloaded(dlKey);
+                    const urls = [
+                        `data/chapters/${cleanSub}_${ch.id}.json`,
+                        `data/cq/chapters/${cleanSub}_${ch.id}.json`
+                    ];
+                    for (const u of urls) await UTILS.removeCachedFile(u);
+                    dlBtn.classList.remove('downloaded');
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
+                    dlBtn.title = 'অফলাইনের জন্য ডাউনলোড';
+                    UTILS.showToast('অফলাইন ডাটা মুছে ফেলা হয়েছে', 'info');
+                }
+            } else {
+                dlBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+                const urls = [
+                    `data/chapters/${cleanSub}_${ch.id}.json`,
+                    `data/cq/chapters/${cleanSub}_${ch.id}.json`
+                ];
+                let success = true;
+                for (const u of urls) {
+                    const ok = await UTILS.downloadAndCache(u);
+                    if (!ok) success = false;
+                }
+                if (success) {
+                    UTILS.markItemDownloaded(dlKey);
+                    dlBtn.classList.add('downloaded');
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+                    dlBtn.title = 'ডাউনলোড করা হয়েছে';
+                    UTILS.showToast('অধ্যায়টি অফলাইনে পড়ার জন্য ডাউনলোড করা হয়েছে', 'success');
+                } else {
+                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
+                    UTILS.showToast('ডাউনলোড ব্যর্থ! ইন্টারনেট সংযোগ চেক করুন।', 'error');
+                }
+            }
+        });
+
         item.addEventListener('click', () => {
             localStorage.setItem('selectedSubject', subject);
             localStorage.setItem('selectedChapter', ch.name);
@@ -230,6 +280,170 @@ function renderChapterList() {
         listEl.appendChild(item);
     });
     setTimeout(() => loadChapterCounts(), 100);
+}
+
+// ── Download entire subject (all chapters + all boards, MCQ + CQ) ──
+function initDownloadButton() {
+    const btn = document.getElementById('subj-dl-all-btn');
+    const titleEl = document.getElementById('subj-dl-title');
+    const subEl = document.getElementById('subj-dl-sub');
+    const iconEl = document.getElementById('subj-dl-icon');
+    if (!btn) return;
+
+    const cleanSub = (subject || '').replace(/\s+/g, '_');
+    const subjectKey = `subject_${cleanSub}`;
+
+    if (UTILS.isItemDownloaded(subjectKey)) {
+        btn.classList.add('downloaded');
+        btn.innerHTML = '<i class="fa-solid fa-circle-check"></i> ডাউনলোড হয়েছে';
+        titleEl.textContent = 'অফলাইন ডেটা সেভ আছে';
+        subEl.textContent = 'এই বিষয়টি অফলাইনে পড়তে পারবেন';
+        iconEl.className = 'fa-solid fa-circle-check';
+    }
+
+    btn.addEventListener('click', async () => {
+        if (btn.classList.contains('downloaded')) {
+            if (!confirm('এই বিষয়ের সব অফলাইন ডেটা মুছে ফেলবেন?')) return;
+            await deleteSubjectData();
+        } else {
+            await downloadSubject();
+        }
+    });
+}
+
+async function downloadSubject() {
+    const btn = document.getElementById('subj-dl-all-btn');
+    const titleEl = document.getElementById('subj-dl-title');
+    const subEl = document.getElementById('subj-dl-sub');
+    const iconEl = document.getElementById('subj-dl-icon');
+    const cleanSub = (subject || '').replace(/\s+/g, '_');
+    const subjectKey = `subject_${cleanSub}`;
+
+    // Build URL list from already-loaded metaData
+    const urls = [];
+    const chapterKeys = [];
+    const boardKeys = [];
+
+    const chapters = (metaData[subject]?.chapters || []).filter(c => c && c.name);
+    for (const ch of chapters) {
+        urls.push(`data/chapters/${cleanSub}_${ch.id}.json`);
+        urls.push(`data/cq/chapters/${cleanSub}_${ch.id}.json`);
+        chapterKeys.push(`chapter_${cleanSub}_${ch.id}`);
+    }
+
+    const boards = metaData[subject]?.boards || {};
+    for (const [year, boardList] of Object.entries(boards)) {
+        boardList.forEach((boardName, idx) => {
+            const cleanBd = boardName.replace(/\s+/g, '_');
+            const boardId = boardName === 'Combined' ? 'Combined' : String(idx + 1);
+            urls.push(`data/boards/${cleanSub}_${year}_${cleanBd}.json`);
+            urls.push(`data/cq/boards/${cleanSub}_${year}_${boardId}.json`);
+            boardKeys.push(`board_${cleanSub}_${year}_${cleanBd}`);
+        });
+    }
+
+    if (urls.length === 0) {
+        UTILS.showToast('মেটাডেটা লোড হয়নি — আবার চেষ্টা করুন', 'error');
+        return;
+    }
+
+    // Downloading state
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+    iconEl.className = 'fa-solid fa-spinner fa-spin';
+    titleEl.textContent = 'ডাউনলোড হচ্ছে...';
+
+    let completed = 0;
+    let failed = 0;
+    const total = urls.length;
+
+    const batchSize = 6;
+    for (let i = 0; i < urls.length; i += batchSize) {
+        const batch = urls.slice(i, i + batchSize);
+        const results = await Promise.allSettled(batch.map(u => UTILS.downloadAndCache(u)));
+        completed += batch.length;
+        results.forEach(r => { if (r.status === 'rejected' || r.value === false) failed++; });
+        const pct = Math.round((completed / total) * 100);
+        subEl.textContent = `${completed}/${total} ফাইল (${pct}%)`;
+        btn.innerHTML = `<span style="font-weight:800;font-size:0.85rem">${pct}%</span>`;
+    }
+
+    // Mark individual chapter & board keys so their icons update too
+    chapterKeys.forEach(k => UTILS.markItemDownloaded(k));
+    boardKeys.forEach(k => UTILS.markItemDownloaded(k));
+
+    // Update per-chapter download icons in the list
+    document.querySelectorAll('.subj-dl-btn').forEach(b => {
+        b.classList.add('downloaded');
+        b.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+        b.title = 'ডাউনলোড করা হয়েছে';
+    });
+
+    btn.disabled = false;
+    if (failed === 0) {
+        UTILS.markItemDownloaded(subjectKey);
+        btn.classList.add('downloaded');
+        btn.innerHTML = '<i class="fa-solid fa-circle-check"></i> সম্পন্ন';
+        iconEl.className = 'fa-solid fa-circle-check';
+        titleEl.textContent = 'অফলাইন ডেটা সেভ আছে';
+        subEl.textContent = 'এই বিষয়টি অফলাইনে পড়তে পারবেন';
+        UTILS.showToast('সব ডেটা সফলভাবে ডাউনলোড হয়েছে! ✅', 'success');
+    } else {
+        btn.innerHTML = '<i class="fa-solid fa-rotate-right"></i> আবার চেষ্টা';
+        iconEl.className = 'fa-solid fa-triangle-exclamation';
+        titleEl.textContent = 'আংশিক ডাউনলোড';
+        subEl.textContent = `${failed}টি ফাইল ব্যর্থ — আবার চেষ্টা করুন`;
+        UTILS.showToast(`${failed}টি ফাইল ডাউনলোড ব্যর্থ হয়েছে`, 'error');
+    }
+}
+
+async function deleteSubjectData() {
+    const btn = document.getElementById('subj-dl-all-btn');
+    const titleEl = document.getElementById('subj-dl-title');
+    const subEl = document.getElementById('subj-dl-sub');
+    const iconEl = document.getElementById('subj-dl-icon');
+    const cleanSub = (subject || '').replace(/\s+/g, '_');
+    const subjectKey = `subject_${cleanSub}`;
+
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+
+    const chapters = (metaData[subject]?.chapters || []).filter(c => c && c.name);
+    const boards = metaData[subject]?.boards || {};
+    const removeUrls = [];
+
+    chapters.forEach(ch => {
+        removeUrls.push(`data/chapters/${cleanSub}_${ch.id}.json`);
+        removeUrls.push(`data/cq/chapters/${cleanSub}_${ch.id}.json`);
+        UTILS.unmarkItemDownloaded(`chapter_${cleanSub}_${ch.id}`);
+    });
+    Object.entries(boards).forEach(([year, boardList]) => {
+        boardList.forEach((boardName, idx) => {
+            const cleanBd = boardName.replace(/\s+/g, '_');
+            const boardId = boardName === 'Combined' ? 'Combined' : String(idx + 1);
+            removeUrls.push(`data/boards/${cleanSub}_${year}_${cleanBd}.json`);
+            removeUrls.push(`data/cq/boards/${cleanSub}_${year}_${boardId}.json`);
+            UTILS.unmarkItemDownloaded(`board_${cleanSub}_${year}_${cleanBd}`);
+        });
+    });
+
+    for (const u of removeUrls) await UTILS.removeCachedFile(u);
+    UTILS.unmarkItemDownloaded(subjectKey);
+
+    // Reset per-chapter icons
+    document.querySelectorAll('.subj-dl-btn').forEach(b => {
+        b.classList.remove('downloaded');
+        b.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
+        b.title = 'অফলাইনের জন্য ডাউনলোড';
+    });
+
+    btn.disabled = false;
+    btn.classList.remove('downloaded');
+    btn.innerHTML = '<i class="fa-solid fa-circle-down"></i> ডাউনলোড';
+    iconEl.className = 'fa-solid fa-circle-down';
+    titleEl.textContent = 'অফলাইনে সেভ করুন';
+    subEl.textContent = 'সব অধ্যায় ও বোর্ড প্রশ্ন ডাউনলোড করুন';
+    UTILS.showToast('অফলাইন ডেটা মুছে ফেলা হয়েছে', 'info');
 }
 
 async function loadChapterCounts() {

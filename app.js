@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     UTILS.initSwipeGestures();
     UTILS.initInstallPrompt();
     initDarkMode();
-    initDataDownloadBanner();
 
     document.querySelectorAll('.sidebar-nav-item').forEach(item => {
         item.addEventListener('click', (e) => {
@@ -62,13 +61,4 @@ function initDarkMode() {
     });
 }
 
-function initDataDownloadBanner() {
-    const banner = document.getElementById('data-download-banner');
-    if (!banner) return;
-    if (UTILS.isDataFullyCached()) return;
-    banner.style.display = 'block';
-    document.getElementById('start-dl-btn').addEventListener('click', () => {
-        banner.style.display = 'none';
-        UTILS.showDataDownloadFlow();
-    });
-}
+

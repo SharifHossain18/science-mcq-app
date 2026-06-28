@@ -1,0 +1,402 @@
+[
+  {
+    "id": 5899,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$A=\\left[\\begin{array}{ll}a &amp; -a \\\\ a &amp; -a\\end{array}\\right]$ হলে, $A^2$ একটি-</p>",
+    "options": [
+      "অভেদঘাতি ম্যাট্রিক্স",
+      "সমঘাতি ম্যাট্রিক্স",
+      "শূন্যঘাতি ম্যাট্রিক্স",
+      "অভেদক ম্যাট্রিক্স"
+    ],
+    "answer": "শূন্যঘাতি ম্যাট্রিক্স",
+    "explanation": "<p>কোনো ম্যাট্রিক্সের সকল ভুক্তি শূন্য হলে তাকে শূন্য ম্যাট্রিক্স বলে।</p><p>এখানে, $A^2=A \\cdot A =\\left[\\begin{array}{ll}a &amp; -a \\\\ a &amp; -a\\end{array}\\right]\\left[\\begin{array}{cc}a &amp; -a \\\\ a &amp; -a\\end{array}\\right] $</p><p>$=\\left[\\begin{array}{cc}a^2-a^2 &amp; -a^2+a^2 \\\\ a^2-a^2 &amp; -a^2+a^2\\end{array}\\right]$</p><p>$ =\\left[\\begin{array}{lr}0 &amp; 0 \\\\ 0 &amp; 0\\end{array}\\right]$</p><p>$\\therefore \\mathrm{A}^2$ একটি শূন্যঘাতী ম্যাট্রিক্স।</p>"
+  },
+  {
+    "id": 5900,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$A^{-1}=\\left[\\begin{array}{cc}3 &amp; -5 \\\\ -1 &amp; 2\\end{array}\\right]$ হলে, $A$ হলো-</p>",
+    "options": [
+      "$\\left[\\begin{array}{cc}-2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{ll}2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}2 & -5 \\\\ 1 & 3\\end{array}\\right]$",
+      "$\\left[\\begin{array}{cc}-2 & 5 \\\\ 1 & -3\\end{array}\\right]$"
+    ],
+    "answer": "$\\left[\\begin{array}{ll}2 & 5 \\\\ 1 & 3\\end{array}\\right]$",
+    "explanation": "<p>$A^{-1}=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right] $ হলে, $ A=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right] $</p><p>$ A^{-1}=\\left[\\begin{array}{rr}3 &amp; -5 \\\\ -1 &amp; 2\\end{array}\\right]$</p><p>$ \\therefore A=\\frac{1}{6-(-1)(-5)}\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right] $</p><p>$=\\frac{1}{6-5}\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right] $</p><p>$=\\left[\\begin{array}{ll}2 &amp; 5 \\\\ 1 &amp; 3\\end{array}\\right]$</p>"
+  },
+  {
+    "id": 5901,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\left|\\begin{array}{lll}1 &amp; 1 &amp; 1 \\\\ 3 &amp; 2 &amp; 1 \\\\ a &amp; 2 &amp; 1\\end{array}\\right|=\\mathbf{2}$ হলে, $\\boldsymbol{a}$ এর মান কত?</p>",
+    "options": [
+      "$-2$",
+      "$-1$",
+      "2",
+      "1"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\left|\\begin{array}{lll}1 &amp; 1 &amp; 1 \\\\ 3 &amp; 2 &amp; 1 \\\\ a &amp; 2 &amp; 1\\end{array}\\right|=1(2-2)-1(3-a)+1(6-2 a)$</p><p>$ =0-3+a+6-2 a=3-a$</p><p>শর্তমতে, $3-a=2$</p><p>বা, $-a=2-3$ </p><p>বা, $-a=-1 $</p><p>$ \\therefore a=1$</p>"
+  },
+  {
+    "id": 5902,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\left|\\begin{array}{ccc}l+m &amp; 1 &amp; n \\\\ m+n &amp; 1 &amp; l \\\\ n+l &amp; 1 &amp; m\\end{array}\\right|$ এর মান কত?</p>",
+    "options": [
+      "$(l+m)(m+n)$",
+      "$(I+m)(m+n)(n+I)$",
+      "1",
+      "O"
+    ],
+    "answer": "O",
+    "explanation": "<p>$ \\left|\\begin{array}{ccc}l+m &amp; 1 &amp; n \\\\ m+n &amp; 1 &amp; l \\\\ n+l &amp; 1 &amp; m\\end{array}\\right|=\\left|\\begin{array}{ccc}l+m+n &amp; 1 &amp; n \\\\ l+m+n &amp; 1 &amp; l \\\\ l+m+n &amp; 1 &amp; m\\end{array}\\right|$</p><p>$\\left[c_1^{\\prime}=c_1+c_3\\right] $</p><p>$=(l+m+n)\\left|\\begin{array}{ccc}1 &amp; 1 &amp; n \\\\ 1 &amp; 1 &amp; l \\\\ 1 &amp; 1 &amp; m\\end{array}\\right| $</p><p>$ =(l+m+n) \\cdot 0 $ [১ম দুই কলামের মান একই] </p><p>$= 0.$</p>"
+  },
+  {
+    "id": 5903,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\left(\\frac{3}{2}, \\frac{3 \\sqrt{3}}{2}\\right)$ বিন্দুর পোলার স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "$\\left(-3, \\frac{\\pi}{3}\\right)$",
+      "$\\left(3, \\frac{-\\pi}{3}\\right)$",
+      "$\\quad\\left(-3, \\frac{-\\pi}{3}\\right)$",
+      "$\\left(3, \\frac{\\pi}{3}\\right)$"
+    ],
+    "answer": "$\\left(3, \\frac{\\pi}{3}\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 5904,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>চিত্রে C বিন্দুটির স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "(3, 1)",
+      "$(-3, 1)$",
+      "$(1, -3)$",
+      "$(-1, -3)$"
+    ],
+    "answer": "(3, 1)",
+    "explanation": "<p>$\\left(x_1, y_1\\right)$ ও ( $x_2, y_2$ ) বিন্দুদ্বয়ের সংযোগ রেখা কোনো বিন্দুতে $m: n$ অনুপাতে অন্তর্বিভক্ত হলে, অন্তবির্ভক্তকারী বিন্দুর স্থানাঙ্ক,</p><p>$ \\left(\\frac{m x_2+n x_1}{m+n}, \\frac{m y_2+n y_1}{m+n}\\right) $</p><p>$ \\therefore C=\\left(\\frac{2 \\times 6+3 \\times 1}{2+3}, \\frac{2 \\times 7+3 \\times(-3)}{2+3}\\right)$ $=\\left(\\frac{12+3}{5}, \\frac{14-9}{5}\\right)=(3,1)$</p>"
+  },
+  {
+    "id": 5905,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$A(-1,1), B(1,2), C(3,1)$ তিনটি বিন্দু হলে, $\\triangle A B C$ এর ক্ষেত্রফল কত?</p>",
+    "options": [
+      "$-2$ বর্গ একক",
+      "1 বর্গ একক",
+      "2 বর্গ একক",
+      "3 বর্গ একক"
+    ],
+    "answer": "2 বর্গ একক",
+    "explanation": "<p>$A(-1,1), B(1,2)$ এবং $C(3,1)$ বিন্দুত্রয় দ্বারা গঠিত $\\triangle A B C$ এর ক্ষেত্রফল </p><p>$=\\frac{1}{2}\\left|\\begin{array}{cccc}1 &amp; -1 &amp; 3 &amp; 1 \\\\2 &amp; 1 &amp; 1 &amp; 2\\end{array}\\right| $ বর্গ একক</p><p>$ =\\frac{1}{2}\\{(1-1+6)-(-2+3+1)\\} $ বর্গ একক</p><p>$ =\\frac{1}{2}(6-2)=\\frac{1}{2} \\times 4=2 $ বর্গ একক।</p>"
+  },
+  {
+    "id": 5906,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>$x-\\sqrt{3} y=6$ একটি সরলরেখা।</p><p>Q রেখাটি $x$-অক্ষের ধনাত্মক দিকের সাথে কত ডিগ্রি কোণ উৎপন্ন করে?</p>",
+    "options": [
+      "$30^{\\circ}$",
+      "$45^{\\circ}$",
+      "$60^{\\circ}$",
+      "$120^{\\mathrm{c}}$"
+    ],
+    "answer": "$30^{\\circ}$",
+    "explanation": "<p>$x-\\sqrt{3} y=6 $</p><p>বা, $ \\sqrt{3} y=x-6 $</p><p>বা, $ y=\\frac{1}{\\sqrt{3}} x-2 \\sqrt{3} $</p><p>রেখার ঢাল, $ m=\\frac{1}{\\sqrt{3}} $</p><p>$ \\therefore m=\\tan \\theta $</p><p>$ \\therefore \\theta=\\tan ^{-1} m=\\tan ^{-1} \\frac{1}{\\sqrt{3}}$ $=\\tan ^{-1} \\tan 30^{\\circ}=30^{\\circ}$</p>"
+  },
+  {
+    "id": 5907,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>নিচের উদ্দীপকের আলোকে প্রশ্নের উত্তর দাও:</p><p>$x-\\sqrt{3} y=6$ একটি সরলরেখা।</p><p>Q রেখাটির উপর $(\\sqrt{3}, 2)$ বিন্দুগামী লম্বরেখার সমীকরণ কোনটি?</p>",
+    "options": [
+      "$\\sqrt{3} x+y+5=0$",
+      "$ \\sqrt{3} x+y=5 $",
+      "$x+\\sqrt{3} y=5$",
+      "$x+\\sqrt{3} y+5=0$"
+    ],
+    "answer": "$ \\sqrt{3} x+y=5 $",
+    "explanation": "<p>$x-\\sqrt{3} y=6 $ রেখার লমরেখার ঢাল $=-\\frac{1}{m}=-\\frac{1}{\\frac{1}{\\sqrt{3}}}=-\\sqrt{3}\\left[m=\\frac{1}{\\sqrt{3}}\\right]$</p><p>$\\therefore(\\sqrt{3}, 2)$ বিন্দুগামী ও $-\\sqrt{3}$ ঢালবিশিষ্ট রেখার সমীকরণ,</p><p>$y-2=-\\sqrt{3}(x-\\sqrt{3})$</p><p>বা, $y-2=-\\sqrt{3} x+3$</p><p>$\\therefore \\sqrt{3} x+y=5 \\text {. }$</p>"
+  },
+  {
+    "id": 5908,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$x^2+y^2+2 g x+2 f y+c=0$ বৃত্তের ক্ষেত্রে-</p><p><br/>i. $f=0$ হলে, বৃত্তটির কেন্দ্র $x$-অক্ষের উপর অবস্থিত</p><p><br/>ii. $g^2=c$ হলে, বৃত্তটি $y$-অক্ষকে স্পর্শ করে</p><p><br/>iii. $c=0$ হলে, বৃত্তটি মূলবিন্দুগামী</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>(i) $f=0$ হলে কেন্দ্র $=(-g, 0)$. অর্থাৎ বৃত্তটির কেন্দ্র $x$-অক্ষের উপর অবস্থিত। কারণ $x$-অক্ষের উপর কোনো বিন্দুর কোটি শূন্য।</p><p>(ii) $y$-অক্ষকে স্পর্শ করলে, $f^2=c$ এবং বৃত্তের ব্যাসার্ধ $=|g|$</p><p>(iii) কোনো বৃত্ত মূলবিন্দুগামী হলে, $0^2+0^2+2 . \\mathrm{g} .0+2 . f .0+\\mathrm{c}=0$</p><p>$\\therefore c=0$</p><p>$\\therefore$ (i) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 5909,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$(-5,1)$ বিন্দু থেকে $x^2+y^2-6 x=0$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?</p>",
+    "options": [
+      "2",
+      "$\\sqrt{14}$",
+      "$2 \\sqrt{14}$",
+      "14"
+    ],
+    "answer": "$2 \\sqrt{14}$",
+    "explanation": "<p>$ \\left(x_1, y_1\\right)$ বিন্দু হতে $ x^2+y^2+2 g x+2 f y+c=0$ বৃত্তের স্পর্শকের দৈর্ঘ্য $=\\sqrt{x_1^2+y_1^2+2 g x_1+2 f y_1+c} $</p><p>প্রদত্ত বৃত্ত : $ x^2+y^2-6 x=0 $</p><p>বা, $ x^2+y^2+2 .(-3) x+2.0 . y+0=0 $</p><p>$ \\therefore g=-3, f=0 $ এবং $ c=0 $</p><p>$ \\therefore(-5,1) $ বিন্দু হতে $ x^2+y^2-6 x=0 $ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য</p><p>$ =\\sqrt{(-5)^2+(1)^2+2 \\times(-3) \\times(-5)+2 \\times 0 \\times 1+0} $</p><p>$=\\sqrt{25+1+30+0+0}=\\sqrt{56}=2 \\sqrt{14} $ একক</p>"
+  },
+  {
+    "id": 5910,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$y^2+y^2-9$ বৃত্তের কোন স্পর্শক $x$-অক্ষের ধনাত্মক দিকের সাথে 30° কোণ উৎপন্ন করে?</p>",
+    "options": [
+      "$\\sqrt{3} x-y \\pm 3=0$",
+      "$\\sqrt{3} x+y \\pm 6=0$",
+      "$x-\\sqrt{3} y+6=0$",
+      "$x-\\sqrt{3} y+3=0$"
+    ],
+    "answer": "$x-\\sqrt{3} y+6=0$",
+    "explanation": ""
+  },
+  {
+    "id": 5911,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$x^2+y^2-4 x-6 y+4=0$ বৃত্তটি $x-$অক্ষকে স্পর্শ করলে স্পর্শ বিন্দুর স্থানাঙ্ক কোনটি ?</p>",
+    "options": [
+      "$(-4,0)$",
+      "$(-2,0)$",
+      "$(2,0)$",
+      "$(4,0)$"
+    ],
+    "answer": "$(2,0)$",
+    "explanation": "<p>$x$-অক্ষকে স্পর্শ করলে, $y=0$</p><p>$\\therefore x^2+0^2-4 x-6.0+4=0$</p><p>বা, $x^2-4 x+4=0$</p><p>বা, $x^2-2 \\cdot x \\cdot 2+2^2=0$</p><p>বা, $(x-2)^2=0$</p><p>$\\therefore x=2,2$</p><p>$\\therefore$ স্পর্শবিন্দু $(2,0)$.</p>"
+  },
+  {
+    "id": 5912,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\sec ^2 \\frac{14 \\pi}{17}-\\cot ^2 \\frac{23 \\pi}{34}=$ কত?</p>",
+    "options": [
+      "$-2$",
+      "$-1$",
+      "1",
+      "2"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\sec \\frac{14 \\pi}{17}-\\cot \\frac{23 \\pi}{34} $</p><p>$=\\sec ^{2 \\frac{14 \\pi}{17}}-\\left\\{\\cot \\left(3 \\frac{\\pi}{2}-\\frac{14 \\pi}{17}\\right)\\right\\}^2$</p><p>$=\\sec ^2 \\frac{14 \\pi}{17}-\\tan \\frac{14 \\pi}{17} $</p><p>$=1\\left[\\because \\sec ^2 \\theta-\\tan ^2 \\theta=1\\right]$</p>"
+  },
+  {
+    "id": 5913,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$m=\\sin 20^{\\circ}$ হলে, $\\sin 40^{\\circ}$ এর মান কোনটি?</p>",
+    "options": [
+      "$2 m \\sqrt{1-m^2}$",
+      "$2 m$",
+      "$2 m \\sqrt{m^2-1}$",
+      "$2 \\sqrt{1-m^2}$"
+    ],
+    "answer": "$2 m \\sqrt{1-m^2}$",
+    "explanation": "<p>$\\sin 40^{\\circ}=\\sin \\left(2 \\times 20^{\\circ}\\right) $</p><p>$=2 \\sin 20^{\\circ} \\cdot \\cos 20^{\\circ} $</p><p>$ =2 \\sin 20^{\\circ} \\cdot \\sqrt{1-\\sin ^2 20^{\\circ}} $</p><p>$ {\\left[\\because \\cos \\theta=\\sqrt{1-\\sin ^2 \\theta}\\right.}$</p><p>$ =2 \\mathrm{~m} \\sqrt{1-\\mathrm{m}^2}$</p>"
+  },
+  {
+    "id": 5914,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. $\\angle A$ এর মান কত?</p>",
+    "options": [
+      "$95^{\\circ}$",
+      "$100^{\\circ}$",
+      "$110^{\\circ}$",
+      "${120 }^{\\circ}$"
+    ],
+    "answer": "${120 }^{\\circ}$",
+    "explanation": "<p>$\\sqrt{61}$ একক দৈর্ঘ্যবিশিষ্ট বাহু এর বিপরীত কোণ $\\angle \\mathrm{A}$</p><p>এখন, $\\cos A=\\frac{5^2+4^2-(\\sqrt{61})^2}{2 \\times 5 \\times 4}=\\frac{25+16-61}{40}=\\frac{-20}{40}=-\\frac{1}{2}$</p><p>$\\therefore \\angle A=\\cos ^{-1}\\left(-\\frac{1}{2}\\right)=\\cos ^{-1} \\cos 120^{\\circ}=120^{\\circ}$</p>"
+  },
+  {
+    "id": 5915,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/png;base64,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\"></p><p>Q. △ABC এর ক্ষেত্রফল কত বর্গ একক (প্রায়)?</p>",
+    "options": [
+      "$8.68$",
+      "$8.86$",
+      "$8.76$",
+      "$8.67$"
+    ],
+    "answer": "$8.67$",
+    "explanation": "<p>$ \\triangle \\mathrm{ABC}$ এর ক্ষেত্রফল </p><p>$ =\\frac{1}{2} \\times \\mathrm{AB} \\times \\mathrm{AC} \\times \\sin \\angle \\mathrm{A} $</p><p>$ =\\frac{1}{2} \\times 5 \\times 4 \\times \\sin 120^{\\circ} \\quad\\left[\\because \\angle \\mathrm{A}=120^{\\circ}\\right] $</p><p>$ =10 \\times \\frac{\\sqrt{3}}{2} $</p><p>$ =5 \\sqrt{3}=8.660254=8.67 .$ (প্রায়)</p>"
+  },
+  {
+    "id": 5916,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ \\lim _{x \\rightarrow 0} \\frac{\\sin 2 x}{5 x}=$ কত?</p>",
+    "options": [
+      "2",
+      "5",
+      "$\\frac{5}{2}$",
+      "$\\frac{2}{5}$"
+    ],
+    "answer": "$\\frac{2}{5}$",
+    "explanation": "<p>$\\lim _{x \\rightarrow 0} \\frac{\\sin 2 x}{5 x} =\\lim _{x \\rightarrow 0} \\frac{\\sin 2 x}{2 x} \\cdot \\frac{2}{5}$</p><p>$ =\\frac{2}{5} \\lim _{x \\rightarrow 0} \\frac{\\sin 2 x}{2 x} $</p><p>$=\\frac{2}{5} \\times 1\\left[\\because \\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}=\\lim _{x \\rightarrow 0} \\frac{x}{\\sin x}=1\\right] $</p><p>$ =\\frac{2}{5}$</p>"
+  },
+  {
+    "id": 5917,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ \\frac{d}{d x}\\left(e^{\\ln x}\\right)=$ কত?</p>",
+    "options": [
+      "$e^x$",
+      "1",
+      "$e^{\\ln x}$",
+      "$0$"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\begin{aligned} \\frac{d}{d x}\\left(e^{\\ln x}\\right) &amp; =\\frac{d}{d x}(x) \\quad\\left[\\because e^{\\ln a}=a\\right] \\\\ &amp; =1\\end{aligned}$</p>"
+  },
+  {
+    "id": 5918,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ \\frac{d}{d x}\\left(x e^x\\right)=$ কত?</p>",
+    "options": [
+      "$e^x$",
+      "$(1+x) e^x$",
+      "$x e^x$",
+      "$(1-x) e^x$"
+    ],
+    "answer": "$(1+x) e^x$",
+    "explanation": "<p>$ \\frac{d}{d x}\\left(x e^x\\right) =\\frac{d}{d x}\\left(e^x\\right)+e^x \\frac{d}{d x}(x) $</p><p>$=x e^x+e^x=e^x(x+1)=(1+x) e^x$</p>"
+  },
+  {
+    "id": 5919,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ y=\\frac{1}{x} \\text { হলে, } y_3=$ কত?</p>",
+    "options": [
+      "$-\\frac{3!}{x^4}$",
+      "$\\frac{3!}{x^4}$",
+      "$-\\frac{1}{x^4}$",
+      "$\\frac{1}{x^4}$"
+    ],
+    "answer": "$-\\frac{3!}{x^4}$",
+    "explanation": "<p>$y=\\frac{1}{x}=x^{-1} $</p><p>$ \\therefore y_1=(-1) \\cdot x^{-1-1}=-x^{-2} $</p><p>$ \\therefore y_2=-(-2) \\cdot x^{-2-1}=2 x^{-3}$</p><p>$ \\therefore y_3=2 \\times(-3) \\cdot x^{-3-1}$</p><p>$=-6 x^{-4}=-\\frac{6}{x^4}=-\\frac{3!}{x^4}$</p>"
+  },
+  {
+    "id": 5920,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ \\int \\frac{5 x^4}{\\sqrt[3]{x}} d x=$ কত?</p>",
+    "options": [
+      "$-\\frac{14}{15} x^{\\frac{14}{3}}+c$",
+      "$\\frac{15}{14} x^{\\frac{14}{3}}+c$",
+      "$\\frac{14}{15} x^{\\frac{14}{3}}+c$",
+      "$-\\frac{15}{14} x^{\\frac{14}{3}}+c$"
+    ],
+    "answer": "$\\frac{15}{14} x^{\\frac{14}{3}}+c$",
+    "explanation": "<p>$\\frac{5 x^4}{\\sqrt[3]{x}}=\\frac{5 x^4}{x^{\\frac{1}{3}}}=5 x^{4-\\frac{1}{3}}=5 x^{\\frac{12-1}{3}}=5 x^{\\frac{11}{3}} $</p><p><br></p><p>$ \\therefore \\int \\frac{5 x^4}{\\sqrt[3]{x}} d x=\\int 5 x^{\\frac{11}{3}} d x =5 \\int x^{\\frac{11}{3}} d x $</p><p><br></p><p>$=5 \\cdot \\frac{x^{\\frac{11}{3}}+1}{\\frac{11}{3}+1}=5 \\cdot \\frac{x^{\\frac{11+3}{3}}}{\\frac{11+3}{3}}=5 \\cdot \\frac{x^{\\frac{14}{3}}}{\\frac{14}{3}}=\\frac{15}{14} x^{\\frac{14}{3}}+c .$</p>"
+  },
+  {
+    "id": 5921,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\int \\tan x d x$ এর মান-</p><p><br/>i. $-\\ln |\\cos x|+c$</p><p><br/>ii. $ \\ln |\\sec x|+c$</p><p><br/>iii. $\\ln |\\cot x|+c$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(i) $\\int \\tan x d x=\\int \\frac{\\sin x}{\\cos x} d x=-\\ln |\\cos x|+c$</p><p>ধরি, $\\cos x=u$</p><p>$-\\sin x d x=d u$</p><p>(ii) $\\int \\tan x d x=-\\ln |\\cos x|+c=\\ln |\\sec x|+c$</p><p>(iii) $\\int \\tan x d x \\neq \\ln |\\cot x|+c$</p><p>$\\therefore$ (i) ও (ii) সঠিক।</p>"
+  },
+  {
+    "id": 5922,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$ \\int_0^1 \\frac{e^x}{2+e^x} d x=$ কত?</p>",
+    "options": [
+      "$\\ln \\left(2+e^x\\right)$",
+      "$\\ln \\left(e^x\\right)$",
+      "$\\ln (2+e)$",
+      "$\\ln \\left(\\frac{2+e}{3}\\right)$"
+    ],
+    "answer": "$\\ln \\left(\\frac{2+e}{3}\\right)$",
+    "explanation": "<p>$ \\int_0^1 \\frac{\\mathrm{e}^{\\mathrm{x}}}{2+\\mathrm{e}^{\\mathrm{x}}} \\mathrm{dx} =\\left[\\ln \\left(2+\\mathrm{e}^{\\mathrm{x}}\\right)\\right]_0^1$</p><p><br></p><p>$=\\ln (2+\\mathrm{e})-\\ln (2+1)=\\ln \\left(\\frac{2+\\mathrm{e}}{3}\\right)$</p>"
+  },
+  {
+    "id": 5923,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Sylhet",
+    "question": "<p>$\\int_2^4 \\ln x d x$ কত?</p>",
+    "options": [
+      "$6 \\ln 2-2$",
+      "$2-6 \\ln 2$",
+      "$2+6 \\ln 2$",
+      "$4 \\ln 2-2$"
+    ],
+    "answer": "$6 \\ln 2-2$",
+    "explanation": "<p>$\\int_2^4 \\ln x =[x \\ln x-x]_2^4 $</p><p>$=(4 \\ln 4-4)-(2 \\ln 2-2) $</p><p>$ =4 \\ln 4-4-2 \\ln 2+2 $</p><p>$ =4 \\cdot \\ln 2^2-2 \\ln 2-2=8 \\ln 2-2 \\ln 2-2=6 \\ln 2-2$</p>"
+  }
+]

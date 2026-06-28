@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7024,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\frac{d^n}{dx^n}(x^n)$ এর মান কোনটি?</p>",
+    "options": [
+      "n!",
+      "x",
+      "1",
+      "0"
+    ],
+    "answer": "n!",
+    "explanation": ""
+  },
+  {
+    "id": 7025,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$f:R\\rightarrow R$ ফাংশনটি $f(x)=x^3+3$ দ্বারা সংজ্ঞায়িত হলে $f^{-1}(11)$ এর মান কোনটি?</p>",
+    "options": [
+      "2",
+      "$2\\sqrt2$",
+      "3",
+      "$2\\sqrt3$"
+    ],
+    "answer": "2",
+    "explanation": "<p>ধরি, $y=f(x)=x^3+3$</p><p>এখন, $y=x^3+3$</p><p>বা, $ x^3=y-3 $ বা, $ x=\\sqrt[3]{x-3} $</p><p>বা, $ f^{-1}(y)=\\sqrt[3]{y-3}[\\because y=f(x) $ বা, $ f^{-1}(y)=x $]</p><p>বা, $ f^{-1}(x)=\\sqrt[3]{11-3} $</p><p>$\\therefore f^{-1}(11)=\\sqrt[3]{11-3}=\\sqrt[3]{8}=2$</p>"
+  },
+  {
+    "id": 7026,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. প্রত্যেক অব্যতিক্রমী ম্যাট্রিক্সের বিপরীত ম্যাট্রিক্স বিদ্যমান</p><p><br/>ii. A ও B বর্গাকার অব্যতিক্রমী ম্যাট্রিক্স হলে, $(AB)^{-1}=B^{-1}A^{-1}$</p><p><br/>iii. কোনো নির্ণায়কের অনুরূপ সারি এবং কলামসমূহ পরস্পর অবস্থান বিনিময় করলে নির্ণায়কের মানের পরিবর্তন হয় </p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 7027,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$A=\\begin{bmatrix}2&amp;1\\\\4&amp;3\\end{bmatrix}$ এর বিপরীত ম্যাট্রিক্স কোনটি?</p>",
+    "options": [
+      "$\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}3&-1\\\\-4&2\\end{bmatrix}$",
+      "$\\frac12\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$",
+      "$-\\frac12\\begin{bmatrix}3&-4\\\\-1&2\\end{bmatrix}$"
+    ],
+    "answer": "$\\frac12\\begin{bmatrix}3&-1\\\\-4&2\\end{bmatrix}$",
+    "explanation": ""
+  },
+  {
+    "id": 7028,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>$4x-2y=6$</p><p><br></p><p>Q. উদ্দীপকের সরলরেখাটি x অক্ষকে কোন বিন্দুতে ছেদ করে?</p>",
+    "options": [
+      "$\\left(\\frac32,0\\right)$",
+      "(0, -3)",
+      "(-3, 0)",
+      "$\\left(0,\\frac32\\right)$"
+    ],
+    "answer": "$\\left(\\frac32,0\\right)$",
+    "explanation": "<p>$x$- অক্ষে $y=0$</p><p>এক্ষেত্রে,</p><p>$ \\Rightarrow 4 \\mathrm{x}-0=6 $</p><p>$ \\Rightarrow \\mathrm{x}=\\frac{3}{2}$</p><p>সরলরেখাটি x - অক্ষকে $\\left(\\frac{3}{2}, 0\\right)$ বিন্দুতে ছেদ করে</p>"
+  },
+  {
+    "id": 7029,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>$4x-2y=6$</p><p><br></p><p>Q. উদ্দীপকের সরলরেখাটির ঢাল কত?</p>",
+    "options": [
+      "2",
+      "$-{1 \\over 2}$",
+      "-2",
+      "${1 \\over 2}$"
+    ],
+    "answer": "2",
+    "explanation": "<p>প্রদত্ত সরলরেখা ,</p><p>$4x - 2y = 6$</p><p>বা, $2y = 4x- 6$</p><p>বা, $y = 2x- 3$</p><p>সরলরেখাটির ঢাল = 2</p>"
+  },
+  {
+    "id": 7030,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>16 ভূজবিশিষ্ট একটি সমতলিক ক্ষেত্রের কর্ণের সংখ্যা-</p>",
+    "options": [
+      "240",
+      "224",
+      "120",
+      "104"
+    ],
+    "answer": "104",
+    "explanation": "<p>কর্ণের সংখ্যা $={ }^{16} \\mathrm{C}_2-16=120-16=104$</p>"
+  },
+  {
+    "id": 7031,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$2\\widehat i+3\\widehat j-6\\widehat k$ ভেক্টরটির সাথে y অক্ষরেখার উৎপন্ন কোণের মান কোনটি?</p>",
+    "options": [
+      "$\\cos^{-1}\\left(\\frac27\\right)$",
+      "$\\cos^{-1}\\left(-\\frac27\\right)$",
+      "$\\cos^{-1}\\left(\\frac37\\right)$",
+      "$\\cos^{-1}\\left(-\\frac67\\right)$"
+    ],
+    "answer": "$\\cos^{-1}\\left(\\frac37\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 7032,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. $^nP_n=n!$</p><p><br/>ii. $^nC_r=^nC_{n-r}$</p><p><br/>iii. $^nP_r=^nC_r \\times r!$</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7033,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$4x^2+25y^2=100$ উপবৃত্ত দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কোনটি?</p>",
+    "options": [
+      "$4\\pi$ বর্গ একক",
+      "$25\\pi$ বর্গ একক",
+      "$10\\pi$ বর্গ একক",
+      "$100\\pi$ বর্গ একক"
+    ],
+    "answer": "$10\\pi$ বর্গ একক",
+    "explanation": ""
+  },
+  {
+    "id": 7034,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\triangle ABC$ এ $\\angle A=90^o$, $\\angle B=60^o$ এবং c = 3cm হলে b এর দৈর্ঘ্য কত?</p>",
+    "options": [
+      "6 cm",
+      "4 cm",
+      "$3\\sqrt3$ cm",
+      "$2\\sqrt3$ cm"
+    ],
+    "answer": "$3\\sqrt3$ cm",
+    "explanation": ""
+  },
+  {
+    "id": 7035,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. $x^2+y^2=a^2$ বৃত্তের কেন্দ্র মূল বিন্দুতে অবস্থিত</p><p><br/>ii. $x^2+2y^2=4$ একটি বৃত্তের সমীকরণ</p><p><br/>iii. $(x+3)^2+(y-2)^2=9$ বৃত্তটি y অক্ষকে স্পর্শ করে</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7036,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\begin{vmatrix}p&amp;2&amp;q+r\\\\q&amp;2&amp;r+p\\\\r&amp;2&amp;p+q\\end{vmatrix}$ নির্ণায়কটির মান-</p>",
+    "options": [
+      "0",
+      "1",
+      "pqr",
+      "p+q+r"
+    ],
+    "answer": "0",
+    "explanation": "<p>$\\left|\\begin{array}{lll}\\mathrm{p} &amp; 2 &amp; \\mathrm{q}+\\mathrm{r} \\\\ \\mathrm{q} &amp; 2 &amp; \\mathrm{r}+\\mathrm{p} \\\\ \\mathrm{r} &amp; 2 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right|=\\left|\\begin{array}{lll}\\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{q}+\\mathrm{r} \\\\ \\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{r}+\\mathrm{p} \\\\ \\mathrm{p}+\\mathrm{q}+\\mathrm{r} &amp; 2 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right| \\quad\\left[c_1^{\\prime}=c_1+c_2\\right]$</p><p>$=2(\\mathrm{p}+\\mathrm{q}+\\mathrm{r})\\left|\\begin{array}{lll}1 &amp; 1 &amp; \\mathrm{q}+\\mathrm{r} \\\\ 1 &amp; 1 &amp; \\mathrm{r}+\\mathrm{p} \\\\ 1 &amp; 1 &amp; \\mathrm{p}+\\mathrm{q}\\end{array}\\right|=0 \\quad$ [যেহেতু দুটি কলাম একই]</p>"
+  },
+  {
+    "id": 7037,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$y=x^2-x+1$ বক্ররেখার (2, 3) বিন্দুতে অঙ্কিত অভিলম্বের ঢাল কোনটি?</p>",
+    "options": [
+      "3",
+      "-3",
+      "$1 \\over 3$",
+      "-$1 \\over 3$"
+    ],
+    "answer": "-$1 \\over 3$",
+    "explanation": "<p>এখানে, $y=x^2-x+1$</p><p>বা, $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=2 \\mathrm{x}-1$</p><p>$(2,3)$ বিন্দুতে $\\frac{\\mathrm{dy}}{\\mathrm{dx}}=2.2-1=3$</p><p>সুতরাং অভিলম্বের ঢাল $=\\frac{-1}{3}$</p>"
+  },
+  {
+    "id": 7038,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p><br/>i. $\\frac d{dx}\\left(\\log_ax\\right)=\\frac1x\\log_ae$</p><p><br/>ii. $\\int sec^2\\frac12x\\;dx=\\frac12\\tan\\frac12x+C$</p><p><br/>iii. $\\int_a^b\\frac{dx}x=\\ln\\left(\\frac ba\\right)$</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7039,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\left(-1,\\;\\sqrt3\\right)$ বিন্দুর পোলার স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "$\\left(2,\\;\\frac{\\mathrm\\pi}6\\right)$",
+      "$\\left(2,\\;\\frac{\\mathrm\\pi}4\\right)$",
+      "$\\left(2,\\;\\frac{\\mathrm\\pi}3\\right)$",
+      "$\\left(2,\\;\\frac{2\\mathrm\\pi}3\\right)$"
+    ],
+    "answer": "$\\left(2,\\;\\frac{2\\mathrm\\pi}3\\right)$",
+    "explanation": ""
+  },
+  {
+    "id": 7040,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>m এর মান কত হলে $\\overset\\rightharpoonup P=4\\widehat i+m\\widehat j$ এবং $\\overset\\rightharpoonup Q=6\\widehat i-4\\widehat j+3\\widehat k$ ভেক্টর দুইটি পরস্পর লম্ব হবে?</p>",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "-6"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 7041,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 5: বিন্যাস ও সমাবেশ ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>স্বরবর্ণগুলোর স্থান পরিবর্তন না করে 'DIFFERENT' শব্দটির বর্ণগুলি দ্বারা পূনর্বিন্যাসের সঠিক সংখ্যা নিচের কোনটি?</p>",
+    "options": [
+      "720",
+      "719",
+      "360",
+      "359"
+    ],
+    "answer": "359",
+    "explanation": ""
+  },
+  {
+    "id": 7042,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>$x^2+y^2+4x-6y+1=0$</p><p><br></p><p>Q. বৃত্তটির y অক্ষের ছেদকৃত অংশের পরিমাণ-</p>",
+    "options": [
+      "6",
+      "$2\\sqrt2$",
+      "$4\\sqrt2$",
+      "0"
+    ],
+    "answer": "$4\\sqrt2$",
+    "explanation": "<p>প্রদত্ত বৃত্ত, $x^2+y^2+4 x-6 y+1=0$</p><p>বৃত্তটিকে $x^2+y^2+2 g x+2 f y+c=0$ এর সাথে তুলনা করে পায় , </p><p>$\\mathrm{g}=2, \\mathrm{f}=-3, \\mathrm{c}=1$</p><p>$\\mathrm{y}$ অক্ষের ছেদকৃত অংশের পরিমাণ $=2 \\sqrt{\\mathrm{f}^2-\\mathrm{c}}$</p><p>$=2 \\sqrt{(-3)^2-1}=2 \\sqrt{8}=2.2 \\sqrt{2}=4 \\sqrt{2}$</p>"
+  },
+  {
+    "id": 7043,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>$x^2+y^2+4x-6y+1=0$</p><p><br></p><p>Q. উদ্দীপকের বৃত্তটির ব্যাসার্ধ কোনটি?</p>",
+    "options": [
+      "2",
+      "3",
+      "$2\\sqrt3$",
+      "$\\sqrt{14}$"
+    ],
+    "answer": "$2\\sqrt3$",
+    "explanation": "<p>বৃত্তটির ব্যাসার্ধ </p><p>$\\begin{aligned} &amp; =\\sqrt{g^2+f^2-c} \\\\ &amp; =\\sqrt{2^2+(-3)^2-1} \\\\ &amp; =\\sqrt{4+9-1}=\\sqrt{12}=2 \\sqrt{3}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7044,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\overset\\rightharpoonup A$ ও $\\overset\\rightharpoonup B$ দুইটি ভেক্টরের ক্ষেত্রে-</p><p><br/>i. $\\overset\\rightharpoonup A+\\overset\\rightharpoonup B=\\overset\\rightharpoonup B+\\overset\\rightharpoonup A$</p><p><br/>ii. $\\overset\\rightharpoonup A.\\overset\\rightharpoonup B=\\overset\\rightharpoonup B.\\overset\\rightharpoonup A$</p><p><br/>iii. $\\overset\\rightharpoonup A\\times\\overset\\rightharpoonup B=\\overset\\rightharpoonup B\\times\\overset\\rightharpoonup A$</p><p><br></p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 7045,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 8: ফাংশন ও ফাংশনের লেখচিত্র ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>y = cos x ফাংশনের পর্যায়কাল নিচের কোনটি?</p>",
+    "options": [
+      "$\\pi \\over 2$",
+      "$\\pi$",
+      "$-\\pi$",
+      "$2\\pi$"
+    ],
+    "answer": "$2\\pi$",
+    "explanation": ""
+  },
+  {
+    "id": 7046,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত ℹ️",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>যদি $\\frac{\\mathrm\\pi}2&lt;\\theta&lt;\\mathrm\\pi$ এবং $\\sin\\theta=\\frac35$ হয়, তবে $cos\\theta$ এর মান কত?</p>",
+    "options": [
+      "$3 \\over 4$",
+      "$4 \\over 5$",
+      "-$3 \\over 4$",
+      "-$4 \\over 5$"
+    ],
+    "answer": "-$4 \\over 5$",
+    "explanation": ""
+  },
+  {
+    "id": 7047,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>$\\lim_{x\\rightarrow\\infty}\\frac{4+3x-x^2}{7+2x+3x^2}$ এর সঠিক মান কোনটি?</p>",
+    "options": [
+      "$4 \\over 7$",
+      "$3 \\over 2$",
+      "-$1 \\over 3$",
+      "$1 \\over 3$"
+    ],
+    "answer": "-$1 \\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 7048,
+    "subject": "Math 1st Paper",
+    "chapter": "General",
+    "year": "2017",
+    "board": "Dinajpur",
+    "question": "<p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "$\\sin(-\\theta)=\\sin\\theta$",
+      "$\\cos(-\\theta)=\\cos\\theta$",
+      "$\\tan(-\\theta)=\\tan\\theta$",
+      "$\\cot(-\\theta)=\\cot\\theta$"
+    ],
+    "answer": "$\\cos(-\\theta)=\\cos\\theta$",
+    "explanation": ""
+  }
+]

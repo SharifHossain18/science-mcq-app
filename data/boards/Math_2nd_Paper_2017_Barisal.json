@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8298,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "30 থেকে 40 পর্যন্ত সংখ্যা গুলো হতে যে কোনো একটিকে দৈবভাবে নিলে তা মৌলিক হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$2\\over 11$",
+      "$1\\over 5$",
+      "$3\\over 11$",
+      "$3\\over 10$"
+    ],
+    "answer": "$2\\over 11$",
+    "explanation": "<p>30 থেকে 40 পর্যন্ত মোট সংখ্যা 11টি </p><p>সংখ্যাগুলোর মধ্যে মৌলিক সংখ্যা 31 ও 37 অর্থাৎ 2 টি</p><p>$\\therefore$ সংখ্যাটি মৌলিক হওয়ার সম্ভাবনা $=\\frac{2}{11}$</p>"
+  },
+  {
+    "id": 8299,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "একটি বাক্সে 7টি লাল ও 3টি নীল বল আছে। প্রতিস্থাপন না করে নিরপেক্ষভাবে পর পর তিনটি বল তুললে সেগুলো নীল হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "$233\\over 360$",
+      "$3\\over 5$",
+      "$1\\over 120$",
+      "$3\\over 500$"
+    ],
+    "answer": "$1\\over 120$",
+    "explanation": ""
+  },
+  {
+    "id": 8300,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$\\{ {1\\over 2},{1\\over 4},{1\\over 6},{1\\over 8},……\\}$এর ইনফিমাম কত?",
+    "options": [
+      "0",
+      "$1\\over 8$",
+      "$1\\over 2$",
+      "$\\infty$"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 8301,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$({1\\over x^2}-x^2)^4$ এর বিস্তৃতিতে কততম পদটি x-বর্জিত?",
+    "options": [
+      "2",
+      "3",
+      "8",
+      "9"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 8302,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$x+y\\leq 2, x+4y\\leq 4, x,y&gt;0$ শর্ত সাপেক্ষে $z=3x+6y$ এর সর্বোনিম্ন মান কোনটি?</p>",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "18"
+    ],
+    "answer": "8",
+    "explanation": ""
+  },
+  {
+    "id": 8303,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$(1-2x)^{-1}$এর বিস্তৃতিতে $x^n$ এর সহগ কোনটি?",
+    "options": [
+      "$(-2)^n$",
+      "$(-1)^n$",
+      "$(2)^n$",
+      "1"
+    ],
+    "answer": "$(2)^n$",
+    "explanation": ""
+  },
+  {
+    "id": 8304,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$\\vert x-3 \\vert \\leq 1$ অসমাতার সমাধান কোনটি?",
+    "options": [
+      "$-4\\leq x\\leq 4$",
+      "-4<x<4",
+      "2<x<4",
+      "$2\\leq x \\leq 4$"
+    ],
+    "answer": "$2\\leq x \\leq 4$",
+    "explanation": ""
+  },
+  {
+    "id": 8305,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$2cos\\theta-1=0\\ , \\theta=?$</p>",
+    "options": [
+      "$2 \\mathrm{n} \\pi \\pm \\frac{\\pi}{6}$",
+      "$\\mathrm{n} \\pi \\pm \\frac{\\pi}{6}$",
+      "$\\mathrm{n} \\pi \\pm \\frac{\\pi}{3}$",
+      "$2 \\mathrm{n} \\pi \\pm \\frac{\\pi}{3}$"
+    ],
+    "answer": "$2 \\mathrm{n} \\pi \\pm \\frac{\\pi}{3}$",
+    "explanation": "<p>$2 \\cos \\theta-1=0$</p><p>বা, $2 \\cos \\theta=1$</p><p>বা, $\\cos \\theta=\\frac{1}{2}$ বা, $\\cos \\theta=\\cos \\frac{\\pi}{3}$</p><p>$\\therefore \\theta=2 \\mathrm{n} \\pi \\pm \\frac{\\pi}{3}$ যেখানে $n \\in z$.</p>"
+  },
+  {
+    "id": 8306,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "2,4,6 এর ভেদাঙ্ক কোনটি?",
+    "options": [
+      "$8\\over 3$",
+      "8",
+      "136",
+      "$136\\over 3$"
+    ],
+    "answer": "$8\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8307,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$9x^3+45x^2+60x-27=0$ সমীকরণের মূলত্রয় এর সমষ্টি কত?",
+    "options": [
+      "45",
+      "5",
+      "-5",
+      "-45"
+    ],
+    "answer": "-5",
+    "explanation": ""
+  },
+  {
+    "id": 8308,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$x^2-4x-2y+1=0$ সমীকরণের প্রকৃতি-",
+    "options": [
+      "বৃত্ত",
+      "অধিবৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "পরাবৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 8309,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>z=-4-3i হলে,$\\left|\\overline z\\right|$ =?</p>",
+    "options": [
+      "$\\sqrt 7$",
+      "5",
+      "7",
+      "25"
+    ],
+    "answer": "5",
+    "explanation": "<p>$z=-4-3i\\\\\\overline z=-4+3i\\\\\\left|\\overline z\\right|=\\sqrt{\\left(-4\\right)^2+3^2}=5$</p>"
+  },
+  {
+    "id": 8310,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "এককের একটি জটিল ঘনমূল $\\omega\\ হলে,\\ \\omega^{6n+3}=?$",
+    "options": [
+      "-1",
+      "1",
+      "$\\omega$",
+      "$\\omega^2$"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 8311,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$6x^2-5x+3=0$ সমীকরণের মূলদ্বয়  $\\alpha\\ ও\\ \\beta \\ হলে,\\ {1\\over \\alpha}+{1\\over \\beta}=?$",
+    "options": [
+      "$-5\\over 3$",
+      "$-5\\over 12$",
+      "$5\\over 12$",
+      "$5\\over 3$"
+    ],
+    "answer": "$5\\over 3$",
+    "explanation": "<p>এখানে, $ \\alpha+\\beta=-\\frac{-5}{6}=\\frac{5}{6} $</p><p>এবং $ \\alpha \\beta=\\frac{3}{6}=\\frac{1}{2} $</p><p>$\\therefore \\frac{1}{\\alpha}+\\frac{1}{\\beta}=\\frac{\\alpha+\\beta}{\\alpha \\beta}=\\frac{\\frac{5}{6}}{\\frac{1}{2}}=\\frac{5}{3}$</p>"
+  },
+  {
+    "id": 8312,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "k এর কোন মানের জন্য $x^2-6x+k=0$সমীকরণের মূলদ্বয় সমান হবে?",
+    "options": [
+      "-36",
+      "-9",
+      "9",
+      "36"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 8313,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "$x^2+8y=0$ কণিকের নিয়ামকের সমীকরণ কোনটি?",
+    "options": [
+      "x-2=0",
+      "y-2=0",
+      "x+2=0",
+      "y+2=0"
+    ],
+    "answer": "y-2=0",
+    "explanation": ""
+  },
+  {
+    "id": 8314,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং নিম্নোক্ত ও পরবর্তী নং প্রশ্নের উত্তর দাও:</p><p><br></p><p> $9x^2+4y^2=324$একটি কণিকের সমীকরণ।</p><p><br></p><p>Q. উপকেন্দ্রিক লম্বের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "$4\\over 3$",
+      "3",
+      "8",
+      "27"
+    ],
+    "answer": "8",
+    "explanation": ""
+  },
+  {
+    "id": 8315,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "উপকেন্দ্রের স্থানাঙ্ক কোনটি?",
+    "options": [
+      "$(\\pm 3\\sqrt 5,0)$",
+      "$(0,\\pm 3\\sqrt 5)$",
+      "$(\\pm 2\\sqrt 5,0)$",
+      "$(0,\\pm 2\\sqrt 5)$"
+    ],
+    "answer": "$(0,\\pm 3\\sqrt 5)$",
+    "explanation": ""
+  },
+  {
+    "id": 8316,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$f(x)=tan^{-1}x$ হলে,-</p><p><br/>i. $f(1)={\\Pi\\over 4}$</p><p><br/>ii. $ f({1\\over 2})+ f({1\\over 3})={\\Pi \\over 4}$</p><p><br/>iii. $f(2x)=cos^{-1}{1-x^2\\over 1+x^2}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8317,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>$cot^{-1}p=cosec^{-1}{3\\over 2}$ হলে, p=?</p>",
+    "options": [
+      "$2\\over \\sqrt 5$",
+      "$ \\sqrt 5\\over 3$",
+      "$ \\sqrt 5\\over 2$",
+      "$3\\over \\sqrt 5$"
+    ],
+    "answer": "$ \\sqrt 5\\over 2$",
+    "explanation": "<p>$cot^{-1}p=cosec^{-1}\\frac32\\\\\\Rightarrow p=cot^{-1}\\left(cosec^{-1}\\frac32\\right)\\\\\\Rightarrow p=cot^{-1}\\left(cot^{-1}\\frac{\\sqrt{3^2-2^2}}2\\right)\\\\\\Rightarrow p=cot^{-1}\\left(cot^{-1}\\frac{\\sqrt5}2\\right)\\\\p=\\frac{\\sqrt5}2\\\\\\Rightarrow\\\\\\Rightarrow\\\\$</p>"
+  },
+  {
+    "id": 8318,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "10নিউটন ও 8 নিউটন মানের দুইটি বল এক বিন্দুতে পরস্পর বিপরীত দিকে ক্রিয়া করলে তাদের লব্ধির মান কোনটি?",
+    "options": [
+      "164নিউটন",
+      "18নিউটন",
+      "$\\sqrt {164}$নিউটন",
+      "2নিউটন"
+    ],
+    "answer": "2নিউটন",
+    "explanation": ""
+  },
+  {
+    "id": 8319,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "${2-i\\over 2+i}=A+iB$ হলে, A=?",
+    "options": [
+      "1",
+      "$4\\over 5$",
+      "$3\\over 5$",
+      "$-4\\over 5$"
+    ],
+    "answer": "$3\\over 5$",
+    "explanation": ""
+  },
+  {
+    "id": 8320,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "${x^2\\over a^2}-{y^2\\over 9}=1$ সমীকরণ (-5,-4)বিন্দুগামী, $a^2$ এর মান কত?",
+    "options": [
+      "9",
+      "3",
+      "$1\\over 3$",
+      "$1\\over 9$"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 8321,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং প্রশ্নের উত্তর দাও:</p><p><br></p><p>u আদিবেগে ভূমির সাথে $60^0$ কোণে একটি বস্তুকণা নিক্ষেপ করা হলে, t সময় পর তা ভূমিতে ফিরে আসে।</p><p><br></p><p>Q. উল্লম্ব দিকে u এর উপাংশ কোনটি?</p>",
+    "options": [
+      "$2u\\over \\sqrt 3$",
+      "$\\sqrt 3u\\over 2$",
+      "$u\\over \\sqrt 2$",
+      "$u\\over 2$"
+    ],
+    "answer": "$\\sqrt 3u\\over 2$",
+    "explanation": "<p>উলম্ব দিকে u এর উপাংশ = u sin $\\alpha$ $=u \\sin 60^{\\circ}=u \\cdot \\frac{\\sqrt{3}}{2}=\\frac{\\sqrt{3} u}{2}$</p>"
+  },
+  {
+    "id": 8322,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Barisal",
+    "question": "<p>উদ্দীপকটি লক্ষ কর এবং প্রশ্নের উত্তর দাও:</p><p><br></p><p>u আদিবেগে ভূমির সাথে $60^0$ কোণে একটি বস্তুকণা নিক্ষেপ করা হলে, t সময় পর তা ভূমিতে ফিরে আসে।</p><p><br></p><p>Q. অনুভূমিক পাল্লা কত?</p>",
+    "options": [
+      "$u^2\\over 2g$",
+      "$u^2\\over \\sqrt 2g$",
+      "$\\sqrt 3u^2\\over 2g$",
+      "$2u^2\\over \\sqrt 3g$"
+    ],
+    "answer": "$\\sqrt 3u^2\\over 2g$",
+    "explanation": "<p>$R=\\frac{u^2}g\\sin\\left(2\\alpha\\right)\\\\\\;\\;\\;=\\frac{u^2}g\\sin\\left(2\\times60\\right)\\\\\\;\\;\\;=\\frac{u^2}g\\sin\\left(120\\right)\\\\\\;\\;\\;=\\frac{u^2}g\\;\\times\\frac{\\sqrt3}2\\\\\\;\\;\\;=\\frac{\\sqrt3u^2}{2g}$</p>"
+  }
+]

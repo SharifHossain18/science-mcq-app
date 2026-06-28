@@ -1,0 +1,402 @@
+[
+  {
+    "id": 4399,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "নিচের কোনটির জ্যামিতিক গঠন সরলরৈখিক?",
+    "options": [
+      "$BCl_3$",
+      "$H_2O$",
+      "$CH_3-CH_3$",
+      "$CO_2$"
+    ],
+    "answer": "$CO_2$",
+    "explanation": "<p>BCI₃ এর জ্যামিতিক গঠন ত্রিভুজীয়, H₂O এর জ্যামিতিক গঠন V-আকৃতির, CH<sub>3</sub>-CH₃ এর জ্যামিতিক গঠন চতুস্তলকীয় এবং CO₂ এর জ্যামিতিক গঠন সরলরৈখিক।</p>"
+  },
+  {
+    "id": 4400,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$CaF_2$ এর দ্রাব্যতা 0.0002 mol/L হলে দ্রাব্যতা গুণফল কত?",
+    "options": [
+      "$2.3\\times10^{-11}$",
+      "$3.2\\times10^{-11}$",
+      "$2.3\\times10^{-10}$",
+      "$3.2\\times10^{-10}$"
+    ],
+    "answer": "$3.2\\times10^{-11}$",
+    "explanation": "<p>জলীয় দ্রবণে CaF₂-এর সাম্যাবস্থা : </p><p>CaF<sub>2</sub> (অদ্রবীভূত) $\\rightleftharpoons$ Ca<sup>2+</sup> + 2F<sup>-</sup> </p><p>প্রশ্নানুসারে, CaF₂-এর দ্রাব্যতা = 0.0002 mol L<sup>-</sup>¹ </p><p>সুতরাং, [Ca²<sup>+</sup>] = 0-0002 g ion L<sup>-1</sup> </p><p>এবং [F<sup>-</sup>] = 2 × 0.0002 = 0.0004 g ion L<sup>-</sup>¹ [যেহেতু 1 অণু CaF<sub>2</sub>-এর বিয়োজনে 1টি Ca²<sup>+</sup> আয়ন ও 2টি F<sup>- </sup>আয়ন উৎপন্ন হয়।] </p><p>এখন, CaF<sub>2</sub>-এর দ্রাব্যতা গুণফল, K<sub>sp</sub> = [Ca<sup>2+</sup>] [F<sup>-</sup>]<sup>2</sup> </p><p>$\\therefore$ K<sub>sp </sub>= (0.0002) × (0.0004)² = 3.2 × 10<sup>-11</sup> mol³ L<sup>-3</sup> </p><p>$\\therefore$&nbsp;CaF₂ এর দ্রাব্যতা গুণফল 3.2 × 10<sup>-11</sup> |</p>"
+  },
+  {
+    "id": 4401,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$PCl_5$ এ কোন ধরনের হাইব্রিডাইজেশন বিদ্যমান?",
+    "options": [
+      "$sp$",
+      "$sp^2$",
+      "$sp^3$",
+      "$sp^3d$"
+    ],
+    "answer": "$sp^3d$",
+    "explanation": "<p>PCl<sub>5</sub> অণুর গঠনে sp<sup>3</sup>d হাইব্রিডাইজেশন বিদ্যমান। তাছাড়া C₂H₂ অণুতে sp, C₂H₄ অণুতে sp² এবং CH₄ অণুতে sp³ হাইব্রিডাইজেশন বিদ্যমান।</p>"
+  },
+  {
+    "id": 4402,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "$[Cu(NH_3)_4]Cl_2$ যৌগে মোট কয়টি বন্ধন বিদ্যমান?",
+    "options": [
+      "6",
+      "8",
+      "14",
+      "18"
+    ],
+    "answer": "18",
+    "explanation": "<p>এখানে Cu এর সাথে অ্যামোনিয়ার ৪টি সন্নিবেশ সমযোজী বন্ধন, [Cu(NH<sub>3</sub>)]<sub>2</sub>+ আয়নের সাথে Cl এর দুটি আয়নিক বন্ধন এবং N ও H এর মধ্যে ৩&nbsp;× ৪=১২টি সমযোজী বন্ধন বিদ্যমান।</p>"
+  },
+  {
+    "id": 4403,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "অষ্টক অসম্পূর্ণ যৌগগুলো হলো-<br/>i. $NH_3$<br/>ii. $BF_3$<br/>iii. $AlCl_3$",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "আমোনিয়ার ক্ষেত্রে N এর সর্বশেষ কক্ষপথে ৫ টি এবং H এর ৩ টি ইলেকট্রন মিলে অষ্টক পূর্ন করে"
+  },
+  {
+    "id": 4404,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "খাদ্যদ্রব্য পচনের কারণ-<br/>i. চর্বির উপস্থিতি<br/>ii. খাদ্যের জারণ<br/>iii. অ্যান্টিঅক্সিডেন্টের অভাব",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "চর্বি এবং জারনের জন্য  খাদ্যে পচন ঘটে, অ্যান্টি-অক্সিডেন্ট খাদ্যের জারন ক্রিয়া রোধ করে"
+  },
+  {
+    "id": 4405,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "কক্ষ তাপমাত্রায় বিশুদ্ধ পানির আয়নিক গুণফল কত?",
+    "options": [
+      "$1\\times10^{-14}$",
+      "$1\\times10^{14}$",
+      "$1\\times10^{-7}$",
+      "$1\\times10^{7}$"
+    ],
+    "answer": "$1\\times10^{-14}$",
+    "explanation": "বিশুদ্ধ পানিতে H+ &amp; OH- সমান অনুপাতে থাকে"
+  },
+  {
+    "id": 4406,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>$A^{n+}+K_4[Fe(CN)_6]\\to$ অধঃক্ষেপ</p><p>Q. অধঃক্ষেপটি লাল বর্ণের হলে-</p><p><br/>i. $A^{n+}$ আয়নের মৌলটি অবস্থান্তর</p><p><br/>ii. চার সন্নিবেশ সংখ্যার জটিল যৌগ গঠন করে</p><p><br/>iii. ডায়াম্যাগনেটিক ধর্ম দেখায়</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "মৌলটি হল Zn."
+  },
+  {
+    "id": 4407,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>$A^{n+}+K_4[Fe(CN)_6]\\to$ অধঃক্ষেপ</p><p>Q. অধঃক্ষেপটি সাদা বর্ণের হলে $A^{n+}$ আয়নটি হবে-</p>",
+    "options": [
+      "$Ca^{2+}$",
+      "$Zn^{2+}$",
+      "$Cu^{2+}$",
+      "$Fe^{2+}$"
+    ],
+    "answer": "$Zn^{2+}$",
+    "explanation": "Zn সাদা বর্নের অধক্ষেপ দেয়"
+  },
+  {
+    "id": 4408,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>সক্রিয় ভর বলতে বুঝায়-</p><p><br/>i. মোলার ঘনমাত্রা</p><p><br/>ii. আংশিক চাপ</p><p><br/>iii. আণবিক ভর</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "সক্রিয় ভর এর সাথে Kp , Kc সম্পর্কিত"
+  },
+  {
+    "id": 4409,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "1% HCl দ্রবণের pH কত?",
+    "options": [
+      "0.56",
+      "1.0",
+      "2.6",
+      "5.6"
+    ],
+    "answer": "0.56",
+    "explanation": "<p>$pH=-\\log(\\frac{10&nbsp;× 1}{36.5})$</p>"
+  },
+  {
+    "id": 4410,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 4: রাসায়নিক পরিবর্তন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "সোডিয়াম হাইড্রোক্সাইডের সাথে নিচের কোন এসিডটির প্রশমন তাপ সর্বাধিক?",
+    "options": [
+      "$HNO_3$",
+      "$HF$",
+      "$HCl$",
+      "$H_2SO_4$"
+    ],
+    "answer": "$HF$",
+    "explanation": "কারন, HF এর মৌলগুলোর মধ্যে তড়িৎ ঋণাত্মকতার পার্থক্য সবচেয়ে বেশি"
+  },
+  {
+    "id": 4411,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>X একটি ধাতু যা শিখা পরীক্ষায় সোনালী হলুদ বর্ণ প্রদর্শন করে।</p><p>Q. ধাতুটি কোন প্রকৃতির?</p>",
+    "options": [
+      "অপধাতু",
+      "মুদ্রা ধাতু",
+      "মৃৎক্ষার ধাতু",
+      "ক্ষার ধাতু"
+    ],
+    "answer": "ক্ষার ধাতু",
+    "explanation": " Na শিখা পরীক্ষায় সোনালী হলুদ বর্ণ প্রদর্শন করে।"
+  },
+  {
+    "id": 4412,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>উদ্দীপকটি লক্ষ্য কর এবং প্রশ্নের উত্তর দাওঃ</p><p>X একটি ধাতু যা শিখা পরীক্ষায় সোনালী হলুদ বর্ণ প্রদর্শন করে।</p><p>Q. X ধাতুর আয়নের শনাক্তকারী বিকারক হলো-</p>",
+    "options": [
+      "$K_2H_2Sb_2O_7$",
+      "$(NH_4)_2C_2O_4$",
+      "K_4[Fe(CN)_6]",
+      "$NH_4CNS$"
+    ],
+    "answer": "$K_2H_2Sb_2O_7$",
+    "explanation": "Na সনাক্তকরনে এটি ব্যবহার করা হয়"
+  },
+  {
+    "id": 4413,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "আম কৌটাজাতকরণে কোন যৌগ ব্যবহৃত হয়?",
+    "options": [
+      "এসকরবিক এসিড",
+      "সাইট্রিক এসিড",
+      "ভিনেগার",
+      "ফরমালিন"
+    ],
+    "answer": "সাইট্রিক এসিড",
+    "explanation": "<p>আম কৌটাজাতকরণের ক্ষেত্রে 40% চিনির দ্রবণের সাথে 0.2% সাইট্রিক এসিড দ্রবণ যোগ করতে হয়।</p>"
+  },
+  {
+    "id": 4414,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "দ্রবণের আয়তন সঠিকভাবে পরিমাপের জন্য নিচের কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "পিপেট ও মেজারিং সিলিন্ডার",
+      "ব্যুরেট ও পিপেট",
+      "ব্যুরেট ও দাগকাটা বিকার",
+      "দাগকাটা বিকার ও মেজারিং সিলিন্ডার"
+    ],
+    "answer": "পিপেট ও মেজারিং সিলিন্ডার",
+    "explanation": ""
+  },
+  {
+    "id": 4415,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "প্রিজারভেটিভ কোনটি?",
+    "options": [
+      "$Na_2SO_4$",
+      "$NaNO_3$",
+      "$CH_3COONa$",
+      "$C_6H_5COONa$"
+    ],
+    "answer": "$C_6H_5COONa$",
+    "explanation": "সোডিয়াম বেনজোয়েট ভালো মানের প্রিজারভেটিভস"
+  },
+  {
+    "id": 4416,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "General",
+    "year": "2018",
+    "board": "Combined",
+    "question": "নিচের কোন এসিডের তীব্রতা বেশি?",
+    "options": [
+      "$H_2SO_4$",
+      "$HClO_4$",
+      "$H_3PO_4$",
+      "$HNO_3$"
+    ],
+    "answer": "$HClO_4$",
+    "explanation": "কারন, পারক্লোরিক এসিডে কেন্দ্রীয় মৌলের জারন মান সবচেয়ে বেশি"
+  },
+  {
+    "id": 4417,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>কোল্ড ক্রিমে লুব্রিকেটিং এজেন্ট হিসাবে ব্যবহৃত হয় কোনটি?</p>",
+    "options": [
+      "তরল প্যারাফিন",
+      "প্রোপাইল প্যারাবেন",
+      "গ্লিসারিন",
+      "মোম"
+    ],
+    "answer": "তরল প্যারাফিন",
+    "explanation": "কোল্ড ক্রিমের লুব্রিকেটিং এজেন্ট হিসেবে তরল প্যারাফিন ব্যবহৃত হয়।"
+  },
+  {
+    "id": 4418,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>ল্যাবরেটরিতে কাচের যন্ত্রপাতি পরিষ্কার করার জন্য ব্যবহার করা হয়-</p><p><br/>i. $H_2SO_4$</p><p><br/>ii. $K_2Cr_2O_7$</p><p><br/>iii. $CHCl_3$</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>ল্যাবরেটরিতে কাচের যন্ত্রপাতি পরিষ্কার করার ক্ষেত্রে প্রথমে ট্যাপের পানি দ্বারা ভালোভাবে ধুয়ে পরিষ্কার করে নিতে হয়। অতঃপর ক্রোমিক এসিড (K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> ও গাঢ় H<sub>2</sub>SO<sub>4</sub> এর দ্রবণ) দ্বারা ভালোভাবে রিন্স করে নিতে হয়।</p>"
+  },
+  {
+    "id": 4419,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>উদ্দীপকের সতর্ক চিহ্ন দ্বারা কি বুঝানো হয়?</p>",
+    "options": [
+      "উত্তেজক",
+      "ক্ষয়কারী",
+      "ক্ষতিকারক",
+      "বৈদ্যুতিক ঝুঁকি"
+    ],
+    "answer": "উত্তেজক",
+    "explanation": "উত্তেজক বা Irritant"
+  },
+  {
+    "id": 4420,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 5: কর্মমূখী রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "কোনটি শুষ্ককারক হিসাবে কাজ করে?",
+    "options": [
+      "$N_2O_5$",
+      "$P_2O_5$",
+      "$Cl_2O_5$",
+      "$V_2O_5$"
+    ],
+    "answer": "$P_2O_5$",
+    "explanation": ""
+  },
+  {
+    "id": 4421,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "সমআয়তন প্রভাব বিদ্যমান কোনটিতে?",
+    "options": [
+      "$H_2S, HCl$",
+      "$NaCl,CH_3Cl$",
+      "$CH_4,HCl$",
+      "$CaCl_2,C_6H_5Cl$"
+    ],
+    "answer": "$H_2S, HCl$",
+    "explanation": "সমআয়ন হতে হলে একটিকে দুর্বল এসিড  হতে হয়"
+  },
+  {
+    "id": 4422,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 2: গুণগত রসায়ন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "<p>p উপশক্তিস্তরের জন্য-</p><p><br/>i. l = 1</p><p><br/>ii. m = -1, 0, +1</p><p><br/>iii. অরবিটাল সংখ্যা 2</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "অরবিটাল সংখ্যা ৩টি"
+  },
+  {
+    "id": 4423,
+    "subject": "Chemistry 1st Paper",
+    "chapter": "Chapter 3: মৌলের পর্যাবৃত্তিক ধর্ম ও রাসায়নিক বন্ধন",
+    "year": "2018",
+    "board": "Combined",
+    "question": "নিচের কোন আয়নটি রঙিন যৌগ গঠন করে?",
+    "options": [
+      "$Cu^{+}$",
+      "$Sc^{3+}$",
+      "$Ni^{3+}$",
+      "$Zn^{2+}$"
+    ],
+    "answer": "$Ni^{3+}$",
+    "explanation": "<p><br></p>"
+  }
+]

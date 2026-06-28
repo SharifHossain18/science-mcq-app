@@ -33,52 +33,96 @@ document.addEventListener('DOMContentLoaded', () => {
     const label = document.getElementById('loading-filename');
     const loadingLabel = document.getElementById('loading-label');
 
-    (async () => {
-        try {
-            let cqUrl = '';
-
-            if (state.cqSubMode === 'board') {
-                // Need meta.json to resolve board index
+    async function resolveCqUrl() {
+        let cqUrl = '';
+        if (state.cqSubMode === 'board') {
+            loadingLabel.textContent = 'মেটাডাটা লোড হচ্ছে...';
+            const metaRes = await fetch('data/meta.json');
+            if (!metaRes.ok) throw new Error("Metadata request failed");
+            metaData = await metaRes.json();
+            const subjectMeta = metaData[state.subject];
+            if (!subjectMeta || !subjectMeta.boards || !subjectMeta.boards[state.year]) {
+                throw new Error("Subject/Year not found in metadata");
+            }
+            const yearBoards = subjectMeta.boards[state.year];
+            const boardIndex = yearBoards.indexOf(state.board);
+            if (boardIndex === -1) {
+                throw new Error(`Board ${state.board} not found in metadata for year ${state.year}`);
+            }
+            state.boardId = state.board === 'Combined' ? 'Combined' : String(boardIndex + 1);
+            cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${state.boardId}.json`;
+        } else {
+            if (state.chapterId) {
+                cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
+            } else {
                 loadingLabel.textContent = 'মেটাডাটা লোড হচ্ছে...';
                 const metaRes = await fetch('data/meta.json');
                 if (!metaRes.ok) throw new Error("Metadata request failed");
                 metaData = await metaRes.json();
-
                 const subjectMeta = metaData[state.subject];
-                if (!subjectMeta || !subjectMeta.boards || !subjectMeta.boards[state.year]) {
-                    throw new Error("Subject/Year not found in metadata");
-                }
-                const yearBoards = subjectMeta.boards[state.year];
-                const boardIndex = yearBoards.indexOf(state.board);
-                if (boardIndex === -1) {
-                    throw new Error(`Board ${state.board} not found in metadata for year ${state.year}`);
-                }
-                state.boardId = state.board === 'Combined' ? 'Combined' : String(boardIndex + 1);
-                cqUrl = `data/cq/boards/${cleanSubject}_${state.year}_${state.boardId}.json`;
-            } else {
-                // Chapter mode — skip meta.json if chapterId already known
-                if (state.chapterId) {
-                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
-                } else {
-                    loadingLabel.textContent = 'মেটাডাটা লোড হচ্ছে...';
-                    const metaRes = await fetch('data/meta.json');
-                    if (!metaRes.ok) throw new Error("Metadata request failed");
-                    metaData = await metaRes.json();
-
-                    const subjectMeta = metaData[state.subject];
-                    const normChapterName = (state.chapter || 'General').replace(/\s+/g, ' ').trim().toLowerCase();
-                    const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
-                    if (!chapterObj) throw new Error("Chapter not found in metadata");
-                    state.chapterId = chapterObj.id;
-                    localStorage.setItem('selectedChapterId', chapterObj.id);
-                    cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
-                }
+                const normChapterName = (state.chapter || 'General').replace(/\s+/g, ' ').trim().toLowerCase();
+                const chapterObj = subjectMeta ? subjectMeta.chapters.find(c => c.name.replace(/\s+/g, ' ').trim().toLowerCase() === normChapterName) : null;
+                if (!chapterObj) throw new Error("Chapter not found in metadata");
+                state.chapterId = chapterObj.id;
+                localStorage.setItem('selectedChapterId', chapterObj.id);
+                cqUrl = `data/cq/chapters/${cleanSubject}_${state.chapterId}.json`;
             }
+        }
+        return cqUrl;
+    }
+
+    function getDlKey(cqUrl) {
+        const parts = cqUrl.replace(/^data\//, '').replace(/\.json$/, '').replace(/\//g, '_');
+        return `cq_${parts}`;
+    }
+
+    async function loadCqData() {
+        try {
+            let cqUrl = await resolveCqUrl();
+            const dlKey = getDlKey(cqUrl);
 
             if (label) label.textContent = cqUrl.split('/').pop();
             loadingLabel.textContent = 'ডাউনলোড হচ্ছে...';
 
-            allCQs = await fetchWithProgress(cqUrl);
+            let resp;
+            try {
+                resp = await fetch(cqUrl);
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+            } catch (e) {
+                const cached = await caches.open('lumen-data-v5').then(c => c.match(cqUrl));
+                if (cached) {
+                    resp = cached;
+                } else if (!navigator.onLine) {
+                    container.innerHTML = `
+                        <div class="loading-state">
+                            <i class="fa-solid fa-wifi-slash" style="font-size:2.5rem;color:var(--text-muted);margin-bottom:15px;"></i>
+                            <p style="font-weight:600;">আপনি অফলাইনে আছেন</p>
+                            <p style="font-size:0.85rem;color:var(--text-muted);margin-top:5px;">এই অধ্যায়ের CQ অফলাইনে পড়ার জন্য আগে ডাউনলোড করুন।</p>
+                            <button class="gen-btn gen-btn-primary" style="margin-top:16px;" id="offline-cq-dl-btn">
+                                <i class="fa-solid fa-circle-down"></i> এখনই ডাউনলোড করুন
+                            </button>
+                        </div>`;
+                    document.getElementById('offline-cq-dl-btn').addEventListener('click', async () => {
+                        const btn = document.getElementById('offline-cq-dl-btn');
+                        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> ডাউনলোড হচ্ছে...';
+                        btn.disabled = true;
+                        const ok = await UTILS.downloadAndCache(cqUrl);
+                        if (ok) {
+                            UTILS.markItemDownloaded(dlKey);
+                            UTILS.showToast('ডাউনলোড সম্পন্ন! আবার চেষ্টা করুন।', 'success');
+                            setTimeout(() => window.location.reload(), 1500);
+                        } else {
+                            btn.innerHTML = '<i class="fa-solid fa-circle-down"></i> এখনই ডাউনলোড করুন';
+                            btn.disabled = false;
+                            UTILS.showToast('ডাউনলোড ব্যর্থ!', 'error');
+                        }
+                    });
+                    return;
+                }
+                throw e;
+            }
+
+            allCQs = await resp.json();
 
             loadingLabel.textContent = 'রেন্ডার হচ্ছে...';
             document.getElementById('loading-progress-wrapper').style.display = 'none';
@@ -94,7 +138,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         }
-    })();
+    }
+
+    loadCqData();
 
     // Back Button click
     document.getElementById('back-btn').addEventListener('click', () => {
@@ -201,29 +247,6 @@ function updateLoadingProgress(current, total) {
     const loadedMb = (current / (1024 * 1024)).toFixed(1);
     const totalMb = (total / (1024 * 1024)).toFixed(1);
     label.textContent = `ডাউনলোড হচ্ছে... ${loadedMb}MB / ${totalMb}MB (${pct}%)`;
-}
-
-async function fetchWithProgress(url) {
-    const response = await fetch(url);
-    const contentLength = response.headers.get('Content-Length');
-    const total = contentLength ? parseInt(contentLength, 10) : 0;
-    const reader = response.body.getReader();
-    const chunks = [];
-    let loaded = 0;
-    while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        chunks.push(value);
-        loaded += value.length;
-        if (total) updateLoadingProgress(loaded, total);
-    }
-    const decoder = new TextDecoder();
-    let text = '';
-    for (const chunk of chunks) {
-        text += decoder.decode(chunk, { stream: true });
-    }
-    text += decoder.decode();
-    return JSON.parse(text);
 }
 
 function normalizeQuestionHtml(rawHtml) {

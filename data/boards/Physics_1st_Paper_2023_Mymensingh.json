@@ -1,0 +1,402 @@
+[
+  {
+    "id": 651,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "মহাকর্ষীয় ধ্রুবকের মাত্রা কোনটি?",
+    "options": [
+      "[M$^{-1}L^{3}T^{-2}$]",
+      "[M$^{-1}L^{-3}T^{-1}$]",
+      "[M$^{-1}L^{-2}T^{-3}$]",
+      "[M$^{-1}L^{-3}T^{-2}$]"
+    ],
+    "answer": "[M$^{-1}L^{3}T^{-2}$]",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; F=\\frac{G M_1 M_2}{r^2} \\\\ &amp; {[G]=\\frac{[F]\\left[r^2\\right]}{\\left[m_1\\right]\\left[m_2\\right]}=\\left[\\frac{\\mathrm{MLT}^{-2} \\times \\mathrm{L}^2}{\\mathrm{M}^2}\\right]=\\left[\\mathrm{M}^{-1} \\mathrm{~L}^3 \\mathrm{~T}^{-2}\\right]}\\end{aligned}$</p>"
+  },
+  {
+    "id": 652,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "পার্কিং কক্ষপথ হলো-",
+    "options": [
+      "গ্রহের চলার পথ",
+      "ভূ-স্থির উপগ্রহের কক্ষপথ",
+      "পোলার উপগ্রহের কক্ষপথ",
+      "পৃথিবীর কক্ষপথ"
+    ],
+    "answer": "ভূ-স্থির উপগ্রহের কক্ষপথ",
+    "explanation": ""
+  },
+  {
+    "id": 653,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>সংনম্যতা হলো—</p><p><br/>i. স্কেলার রাশি</p><p><br/>ii. আয়তন পীড়ন ও আয়তন বিকৃতির অনুপাত</p><p><br/>iii. আয়তন গুণাংকের বিপরীত রাশি</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 654,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "তারের দৈর্ঘ্য বিকৃতি 0.02, পার্শ্ব বিকৃতি 0.002 হলে, পরসনের অনুপাত কত?",
+    "options": [
+      "0.00004",
+      "0.04",
+      "0.1",
+      "1.0"
+    ],
+    "answer": "0.1",
+    "explanation": "পয়সনের অনুপাত, $\\sigma=\\frac{\\text { পার্শ্ব বিকৃতি }}{\\text { দৈর্ঘ্য বিকৃতি }}=\\frac{0.002}{0.02}=0.1$."
+  },
+  {
+    "id": 655,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "একটি সরল দোলকের বিস্তার ও কম্পাংক যথাক্রমে 0.01m এবং 12Hz । 0.005m সরণের ক্ষেত্রে দোলকটির বেগ কত হবে?",
+    "options": [
+      "0.030ms$^{-1}$",
+      "0.06ms$^{-1}$",
+      "0.12ms$^{-1}$",
+      "0.653ms$^{-1}$"
+    ],
+    "answer": "0.653ms$^{-1}$",
+    "explanation": "<p><br></p><p>$\\begin{aligned} v=\\omega \\sqrt{A^2-x^2}=2 \\pi f \\sqrt{A^2-x^2} &amp; =2 \\pi \\times 12 \\sqrt{(0.01)^2-(0.005)^2} \\\\ &amp; =0.653 \\mathrm{~ms}^{-1}\\end{aligned}$</p>"
+  },
+  {
+    "id": 656,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "$\\vec{A}= 5j$ এবং $\\vec{B}$ ভেক্টর $\\vec{A}$ ভেক্টরের বিপ্রতীপ হলে—",
+    "options": [
+      "$\\vec{B}= \\frac{1}{5}i$",
+      "$\\vec{B}= \\frac{1}{5}j$",
+      "$\\vec{B}= 5j$",
+      "$\\vec{B}= 5i$"
+    ],
+    "answer": "$\\vec{B}= \\frac{1}{5}j$",
+    "explanation": ""
+  },
+  {
+    "id": 657,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "এক অশ্ব ক্ষমতা কত ওয়াটের সমান?",
+    "options": [
+      "746",
+      "550",
+      "946",
+      "750"
+    ],
+    "answer": "746",
+    "explanation": ""
+  },
+  {
+    "id": 658,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>মহাকর্ষীয় বিভব-</p><p><br/>i. স্কেলার রাশি </p><p><br/>ii. এর সর্বোচ্চ মান অসীম </p><p><br/>iii. এর মান মহাকর্ষীয় ক্ষেত্রের যে কোনো বিন্দুতে ঋণাত্মক হতে পারে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 659,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "27°C তাপমাত্রায় 2gm নাইট্রোজেনের মোট গতিশক্তি কত?",
+    "options": [
+      "0.267 J",
+      "2.67J",
+      "26.7 J",
+      "267 J"
+    ],
+    "answer": "267 J",
+    "explanation": "$\\mathrm{E}=\\frac{3}{2} n \\cdot R . T=\\frac{3}{2} \\times \\frac{2}{28} \\times 8.314 \\times(27+273) \\mathrm{J}=267 \\mathrm{~J}$"
+  },
+  {
+    "id": 660,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>আদর্শ গ্যাসের ক্ষেত্রে চাপের সমীকরণ কোনটি?</p><p><br/>i.&nbsp;PV =$\\frac{1}{3}$mNC<sup>−2</sup></p><p><br/>ii.P= $\\frac{1}{3}$ pC<sup>−2</sup></p><p><br/>iii.P = $\\frac{2}{3}$ RT</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i",
+      "i",
+      "iii",
+      "কোনোটিই নয়"
+    ],
+    "answer": "কোনোটিই নয়",
+    "explanation": "<p>আদর্শ গ্যাসে সূত্র ,  $\\mathrm{PV}=\\frac{1}{3} \\mathrm{mNC}_{\\mathrm{rms}}{ }^2$\n</p><p>\nবা, $\\mathrm{P}=\\frac{1}{3}\\left(\\frac{M}{V}\\right) \\mathrm{C}_{\\mathrm{ms}}{ }^2=\\frac{1}{3}, \\mathrm{P} \\mathrm{C}_{\\mathrm{rms}}{ }^2$\n</p><p>\nআবার, $\\mathrm{PV}=\\mathrm{nRT}^{\\mathrm{n}}$\n</p><p>\nসুতরাং, সঠিক উত্তর নেই। </p>"
+  },
+  {
+    "id": 661,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "সরল দোলকের সাম্যাবস্থায় সর্বোচ্চ হয়-",
+    "options": [
+      "ত্বরণ",
+      "সরণ",
+      "বেগ",
+      "প্রত্যায়নী বল"
+    ],
+    "answer": "বেগ",
+    "explanation": ""
+  },
+  {
+    "id": 662,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 7: পদার্থের গাঠনিক ধর্ম",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "SI পদ্ধতিতে আয়তন গুণাংকের একক-",
+    "options": [
+      "Nm$^{-2}$",
+      "Nm",
+      "Nm$^{-1}$",
+      "N$^{-1}$m"
+    ],
+    "answer": "Nm$^{-2}$",
+    "explanation": ""
+  },
+  {
+    "id": 663,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>1,000 kg ভরের একটি গাড়ী 300N ঘর্ষণ বলযুক্ত সোজা রাস্তায় 4m<sup>-2</sup> সমত্বরণে চলে। গাড়ীর ইঞ্জিন কর্তৃক প্রযুক্ত বল-</p>",
+    "options": [
+      "3,700 N",
+      "4,300 N",
+      "4,000 N",
+      "10,100 N"
+    ],
+    "answer": "4,300 N",
+    "explanation": "$\\mathrm{F}=\\mathrm{Fs}+\\mathrm{Ma}=300+1000 \\times 4=4300 \\mathrm{~N}$"
+  },
+  {
+    "id": 664,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 6: মহাকর্ষ ও অভিকর্ষ",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>R ও 2R ব্যাসার্ধবিশিষ্ট বৃত্তাকার কক্ষপথে প্রদক্ষিণরত দুটি কৃত্রিম উপগ্রহের পর্যায়কালের অনুপাত হবে—</p>",
+    "options": [
+      "1 : 2 $\\sqrt{2}$",
+      "2$\\sqrt{2}$ : 1",
+      "1 : 8",
+      "8 : 1"
+    ],
+    "answer": "1 : 2 $\\sqrt{2}$",
+    "explanation": "<p><br></p><p>$\\frac{\\mathrm{F}_1^2}{\\mathrm{~T}_2{ }^2}=\\frac{\\mathrm{r}^3}{\\mathrm{r}_2{ }^3}$ বা, $\\frac{\\mathrm{T}_1}{\\mathrm{~T}_2}=\\sqrt{\\frac{\\mathrm{R}^3}{(2 \\mathrm{R})^3}}$ বা; $\\mathrm{T}_1: \\mathrm{T}_2=1: 2 \\sqrt{2}$</p>"
+  },
+  {
+    "id": 665,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যটি পড়ে নিচের  প্রশ্নের উত্তর দাও </p><p>$&nbsp;\\vec{A}+\\vec{B}=12\\widehat{i}-4\\widehat{j}+8\\widehat{k}$</p><p>$\\vec{A}-\\vec{B}=-6\\widehat{i}+12\\widehat{j}+10\\widehat{k}$</p><p><br></p><p>Q. $\\vec{B}$ ভেক্টরটি হবে-</p>",
+    "options": [
+      "$6\\widehat{i}-8\\widehat{j}+9\\widehat{k}$",
+      "$9\\widehat{i}+8\\widehat{j}-2\\widehat{k}$",
+      "<p>$9\\widehat{i}-8\\widehat{j}-\\widehat{k}$</p>",
+      "$6\\widehat{i}+8\\widehat{j}+18\\widehat{k}$"
+    ],
+    "answer": "<p>$9\\widehat{i}-8\\widehat{j}-\\widehat{k}$</p>",
+    "explanation": "$2 \\vec{B}=18 \\hat{i}-16 \\hat{j}-2 \\hat{k} ; \\vec{B}=9 i-8 \\hat{j}-\\hat{k}$"
+  },
+  {
+    "id": 666,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের তথ্যটি পড়ে নিচের  প্রশ্নের উত্তর দাও </p><p>$&nbsp;\\vec{A}+\\vec{B}=12\\widehat{i}-4\\widehat{j}+8\\widehat{k}$</p><p>$\\vec{A}-\\vec{B}=-6\\widehat{i}+12\\widehat{j}+10\\widehat{k}$</p><p><br></p><p>$\\vec{A}.\\vec{B}$ এর মান কত?</p>",
+    "options": [
+      "16",
+      "14",
+      "-12",
+      "-14"
+    ],
+    "answer": "-14",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; 2 \\vec{A}=6 \\hat{i}+8 \\hat{j}+18 \\hat{k} ; \\\\ &amp; \\text { বা, } \\vec{A}=3 \\hat{i}+4 \\hat{j}+9 \\hat{k} ; \\vec{A} \\cdot \\vec{B}=9 \\times 3+(-8) \\times 4+(-1) \\times 9=-14\\end{aligned}$</p>"
+  },
+  {
+    "id": 667,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>একটি সরল ছন্দিত কণার গতির সমীকরণ, x = 10 sin(6$\\pi$t + 2$\\pi$) ।কণাটির কম্পাংক কত?</p>",
+    "options": [
+      "1.5 Hz",
+      "3 Hz",
+      "6 Hz",
+      "40 Hz"
+    ],
+    "answer": "3 Hz",
+    "explanation": "<p><br></p><p>$\\begin{aligned} &amp; \\mathrm{x}=10 \\sin (6 \\pi \\mathrm{t}+2 \\pi) \\\\ &amp; \\therefore \\omega=6 \\pi \\\\ &amp; \\text { বা, } 2 \\pi f=6 \\pi \\quad \\text { বা, } f=3 \\mathrm{~Hz}\\end{aligned}$</p>"
+  },
+  {
+    "id": 668,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের অনুচ্ছেদটি পড়ে নিম্নোক্ত  প্রশ্নের উত্তর দাও</p><p><br></p><p>3kg ভরের একটি বন্দুক থেকে 5gm ভরের একটি বুলেট 150ms<sup>-1</sup> বেগে বের হয়ে গেল। বুলেটটি বের হওয়ার সময় একটি বল পেছনের দিকে ধাক্কা দিল।&nbsp;</p><p><br></p><p>Q. বন্দুকের আদি ভরবেগ কত?</p>",
+    "options": [
+      "0.75kgms$^{-1}$",
+      "-0.75kgms$^{-1}$",
+      "3kgms$^{-1}$",
+      "0 kgms$^{-1}$"
+    ],
+    "answer": "0 kgms$^{-1}$",
+    "explanation": ""
+  },
+  {
+    "id": 669,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 4: নিউটনীয় বলবিদ্যা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের অনুচ্ছেদটি পড়ে নিম্নোক্ত  প্রশ্নের উত্তর দাও:</p><p>3kg ভরের একটি বন্দুক থেকে 5gm ভরের একটি বুলেট 150ms<sup>-1</sup> বেগে বের হয়ে গেল। বুলেটটি বের হওয়ার সময় একটি বল পেছনের দিকে ধাক্কা দিল।&nbsp;</p><p><br></p><p>Q. বন্দুকটি কত বেগে পেছনে সরে আসবে?</p>",
+    "options": [
+      "0 ms$^{-1}$",
+      "0.25 ms$^{-1}$",
+      "2.5 ms$^{-1}$",
+      "150 ms$^{-1}$"
+    ],
+    "answer": "0.25 ms$^{-1}$",
+    "explanation": "<p>$ \\mathrm{MV}+\\mathrm{mv}=0 $ বা, $ \\mathrm{v}=-\\frac{0.005 \\times 150}{3}=-0.25 \\mathrm{~ms}^{-1} $</p><p> সুতরাং,  পশ্চাৎবেগ $ \\mathrm{v}=0.25 \\mathrm{~ms}^{-1}$</p>"
+  },
+  {
+    "id": 670,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের কোনটি অসংরক্ষণশীল বল?</p><p><br/>i. মহাকর্ষীয় বল </p><p><br/>ii. সান্দ্র বল </p><p><br/>iii. ঘর্ষণ বল </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 671,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 10: আদর্শ গ্যাস ও গ্যাসের গতিতত্ত্ব",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নির্দিষ্ট স্তরের আদর্শ গ্যাসের জন্য গতিশক্তি (E) vs তাপমাত্রা (T) লেখচিত্র কীরূপ হবে?</p><p><img src=\"data:image/jpeg;base64,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\"></p>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": 672,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 8: পর্যাবৃত্ত গতি",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "সেকেন্ড দোলকের কম্পাঙ্ক-",
+    "options": [
+      "0.5 Hz",
+      "1 Hz",
+      "2 Hz",
+      "4 Hz"
+    ],
+    "answer": "0.5 Hz",
+    "explanation": ""
+  },
+  {
+    "id": 673,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>একটি 1.5m দীর্ঘ ও 2kg ভরের রডকে আনুভূমিক হতে উল্লম্ব অবস্থায় নিতে কাজের পরিমাণ কত?</p>",
+    "options": [
+      "0J",
+      "14J",
+      "29J",
+      "44J"
+    ],
+    "answer": "14J",
+    "explanation": "$\\mathrm{W}=\\mathrm{mg} \\frac{\\mathrm{h}}{2}=2 \\times 9.8 \\times \\frac{1.5}{2}=14.7 \\mathrm{~J} \\approx 14 \\mathrm{~J}$"
+  },
+  {
+    "id": 674,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 2: ভেক্টর",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>$\\widehat{i}\\times\\left ( \\widehat{i}\\times \\widehat{j} \\right )$ = ?</p>",
+    "options": [
+      "$\\widehat{i}$",
+      "$\\widehat{j}$",
+      "$\\widehat{k}$",
+      "$\\widehat{-j}$"
+    ],
+    "answer": "$\\widehat{-j}$",
+    "explanation": "<p><br></p>"
+  },
+  {
+    "id": 675,
+    "subject": "Physics 1st Paper",
+    "chapter": "Chapter 5: কাজ-শক্তি-ক্ষমতা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>আনুভূমিকের সাথে 30° কোণে আনত রাস্তার উপরের দিকে চলমান 100gm ভরের একটি বস্তু 5m পথ চলতে কত শক্তি প্রয়োজন হবে?</p>",
+    "options": [
+      "0.048 J",
+      "0.439 J",
+      "1.225 J",
+      "2.45 J"
+    ],
+    "answer": "2.45 J",
+    "explanation": ""
+  }
+]

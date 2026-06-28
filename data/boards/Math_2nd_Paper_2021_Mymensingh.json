@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7949,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>(y - 2)<sup>2</sup> = 4x কণিকটির শীর্ষবিন্দু-</p>",
+    "options": [
+      "(0, 2)",
+      "(2, 0)",
+      "(1, 0)",
+      "(0, 1)"
+    ],
+    "answer": "(0, 2)",
+    "explanation": "<p>$\\begin{aligned}&amp; (y-2)^2=4 x \\Rightarrow(y-2)^2=4.1 .(x-0) \\\\&amp; \\alpha=0, \\beta=2\\end{aligned}$</p><p>$\\therefore$ শীর্ষবিন্দু, $(\\alpha, \\beta) \\equiv(0,2)$</p>"
+  },
+  {
+    "id": 7950,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>(x - 3 )<sup>2</sup> = 4(y - 4 ) পরাবৃত্তটির উপকেন্দ্রিক লম্বের সমীকরণ-</p>",
+    "options": [
+      "y+3=0",
+      "y-3=0",
+      "x+3=0",
+      "x-3=0"
+    ],
+    "answer": "y-3=0",
+    "explanation": "<p>$\\begin{aligned}&amp; (x-3)^2=-4(y-4) \\Rightarrow(x-3)^2=4(-1)(y-4) \\\\&amp; \\alpha=3, \\beta=4, a=-1\\end{aligned}$</p><p>$\\therefore$ উপকেন্দ্রিক লম্বের সমীকরণ, $\\mathrm{y}-\\beta=\\mathrm{a}$</p><p>$\\Rightarrow y-4=-1 \\Rightarrow y-4+1=0 \\therefore y-3=0$</p>"
+  },
+  {
+    "id": 7951,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "${x^2\\over a^2}+{y^2\\over b^2}=1$ কণিকটির উৎকেন্দ্রিকতা শূন্য হলে বক্ররেখাটির নাম—",
+    "options": [
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 7952,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>u ও a ধ্রুবক হলে v<sup>2</sup>=u<sup>2</sup> + 2as এর লেখচিত্র হবে-</p>",
+    "options": [
+      "সরলরেখা",
+      "পরাবৃত্ত",
+      "অধিবৃত্ত",
+      "উপবৃত্ত"
+    ],
+    "answer": "পরাবৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 7953,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>$3x^2 + 2y^2 = 12$ কণিকটির নিয়ামকরেখার সমীকরণ-</p>",
+    "options": [
+      "<p>$2 x= \\pm \\sqrt{3}$</p>",
+      "<p>$x= \\pm 2 \\sqrt{3}$</p>",
+      "<p>$\\mathrm{y}= \\pm 2 \\sqrt{3}$</p>",
+      "<p>$\\mathrm{y}= \\pm 3 \\sqrt{2}$</p>"
+    ],
+    "answer": "<p>$\\mathrm{y}= \\pm 3 \\sqrt{2}$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 7954,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$x^2-8y^2=2$&nbsp;কণিকটির উপকেন্দ্রিক লম্বের দৈর্ঘ্য-",
+    "options": [
+      "$\\sqrt 3\\over 2$",
+      "$\\sqrt {3\\over 2}$",
+      "$1\\over 2\\sqrt 2$",
+      "$1\\over 2$"
+    ],
+    "answer": "$1\\over 2\\sqrt 2$",
+    "explanation": ""
+  },
+  {
+    "id": 7955,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p>$px^{2}-16y^{2}=144$ কণিকটি $(\\pm 4,0)$ বিন্দুগামী।</p><p><br></p><p>Q. p এর মান-</p>",
+    "options": [
+      "-9",
+      "-4",
+      "4",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": "<p>$p x^2-16 y^2=144$</p><p>$( \\pm 4,0)$ বিন্দুগামী হলে, $p( \\pm 4)^2-16(0)^2=144 \\Rightarrow 16 p=144 \\therefore p=9$</p>"
+  },
+  {
+    "id": 7956,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও: </p><p><br></p><p>$px^2 - 16y^2 = 144$ কণিকটি $(\\pm 4,0)$ বিন্দুগামী।</p><p><br></p><p>Q. উপকেন্দ্রের স্থানাঙ্ক-</p>",
+    "options": [
+      "$(0,\\ \\pm 4)$",
+      "$(\\pm 4, \\ 0)$",
+      "$(0,\\ \\pm 5)$",
+      "$(\\pm 5, \\ 0)$"
+    ],
+    "answer": "$(\\pm 5, \\ 0)$",
+    "explanation": "<p>p=9 হলে,$ 9 x^2-16 y^2=144$ </p><p>$ \\Rightarrow \\frac{9 x^2}{144}-\\frac{16 y^2}{144}=1 \\Rightarrow \\frac{x^2}{16}-\\frac{y^2}{9}=1 \\Rightarrow \\frac{x^2}{(4)^2}-\\frac{y^2}{(3)^2}=1 ; a=4, b=3 $ </p><p>$ \\therefore$  উপকেন্দ্রদ্বয়ের স্থানাঙ্ক  $ \\equiv\\left( \\pm \\sqrt{\\mathrm{a}^2+\\mathrm{b}^2}, 0\\right) $ </p><p>$ \\equiv\\left( \\pm \\sqrt{4^2+3^2}, 0\\right) \\equiv( \\pm \\sqrt{25}, 0) \\equiv( \\pm 5,0) $</p>"
+  },
+  {
+    "id": 7957,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "120° কোণে ক্রিয়ারত P মানের সমান দুইটি বলের লব্ধির মান-",
+    "options": [
+      "P",
+      "2P",
+      "3P",
+      "4P"
+    ],
+    "answer": "P",
+    "explanation": ""
+  },
+  {
+    "id": 7958,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "2$\\alpha$ কোণে ক্রিয়ারত 3N ও 4N বলের লঙ্ঘির মান √37 N হলে বলদ্বয়ের মধ্যবর্তী কোণের পরিমাণ-",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "120°"
+    ],
+    "answer": "60°",
+    "explanation": "<p>শর্তমতে,$\\sqrt{37}=\\sqrt{3^2+4^2+2 \\cdot 3 \\cdot 4 \\cdot \\cos 2 \\alpha} $</p><p>$ \\Rightarrow 37=9+16+24 \\cos 2 \\alpha \\Rightarrow 12=24 \\cos 2 \\alpha$</p><p>$ \\Rightarrow \\cos 2 \\alpha=\\frac{1}{2} \\therefore 2 \\alpha=\\cos ^{-1} \\frac{1}{2}=60^{\\circ}$</p>"
+  },
+  {
+    "id": 7959,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "5N ও 7N মানের বিসদৃশ সমান্তরাল বল কোনো জড়বস্তুর উপর একই সরলরেখায় দুইটি বিন্দুতে ক্রিয়া করলে উহাদের লব্ধির মান-",
+    "options": [
+      "1N",
+      "2N",
+      "3N",
+      "5N"
+    ],
+    "answer": "2N",
+    "explanation": ""
+  },
+  {
+    "id": 7960,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "5N, 7N এবং 8N মানের তিনটি বল একটি বস্তুর উপর ক্রিয়া করে ভারসাম্য বজার রাখে। 5N ও 8N বলদ্বয়ের মধ্যবর্তী কোণ–",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "210°"
+    ],
+    "answer": "120°",
+    "explanation": "<p>ধরি, $5 \\mathrm{~N}$ ও $8 \\mathrm{~N}$ বলদ্বয়ের মধ্যবর্তী কোণ $\\alpha$.</p><p>$\\begin{aligned}&amp; \\therefore 7=\\sqrt{5^2+8^2+2.5 .8} \\cos \\alpha \\Rightarrow 49=25+64+80 \\cos \\alpha \\\\&amp; \\Rightarrow-40=80 \\cos \\alpha \\Rightarrow \\cos \\alpha=-\\frac{1}{2} \\quad \\therefore \\alpha=120^{\\circ}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7961,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>P ও Q (P&gt;Q) মানের দুইটি সমান্তরাল বল -</p><p><br/>i. সদৃশ হলে বলদ্বয়ের লঘি P+Q </p><p><br/>ii. বিসদৃশ হলে বলদ্বয়ের লখি P-Q</p><p><br/>iii. বলদ্বয়ের লম্বি P এর দিকের সাথে সমান্তরাল</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7962,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>k এর মান কত হলে x<sup>2</sup>+ (2k + 4) x + 8k + 1 = 0 সমীকরণের মূলদ্বয় সমান হয়?</p>",
+    "options": [
+      "-3, -1",
+      "0, 3",
+      "-1, 3",
+      "1, 3"
+    ],
+    "answer": "1, 3",
+    "explanation": ""
+  },
+  {
+    "id": 7963,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>x<sup>2</sup> - 5x + c = 0 সমীকরণের মূলদ্বয় ক্রমিক পূর্ণসংখ্যা হলে c এর মান—</p>",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": ""
+  },
+  {
+    "id": 7964,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>x<sup>2</sup> – 3x + 5 = 0 সমীকরণের মূলদ্বয় $\\alpha,\\ \\beta$ হলে $1\\over \\alpha$ ও $1\\over \\beta$ মূলবিশিষ্ট সমীকরণটি—</p>",
+    "options": [
+      "$6x^2-3x+1=0$",
+      "$5x^2+3x-1=0$",
+      "$5x^2-3x+1=0$",
+      "$3x^2-5x+1=0$"
+    ],
+    "answer": "$5x^2-3x+1=0$",
+    "explanation": ""
+  },
+  {
+    "id": 7965,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$1-\\sqrt {-1}$ &nbsp;মূলবিশিষ্ট দ্বিঘাত সমীকরণটি—",
+    "options": [
+      "$x^2-2x+2=0$",
+      "$x^2+2x-2=0$",
+      "$x^2-2x-2=0$",
+      "$x^2+2x+2=0$"
+    ],
+    "answer": "$x^2-2x+2=0$",
+    "explanation": ""
+  },
+  {
+    "id": 7966,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$x^3+2x+3=0$ সমীকরণের মূলত্রয় a, b, c হলে $\\sum a$ এর মান—",
+    "options": [
+      "-2",
+      "0",
+      "1",
+      "3"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7967,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>x<sup>2</sup>+ 4x+16 = 0 সমীকরণের-</p><p><br/>i. মূলদ্বয় জটিল</p><p><br/>ii. মূলদ্বয়ের যোগফল – 4</p><p><br/>iii. মূলদ্বয়ের গুণফল 16 </p><p><br></p><p>﻿নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7968,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$f(\\theta)=cos\\theta, \\ f(\\theta)=f(\\alpha)$ এবং $n\\in \\mathbb{Z}$ হলে, $\\theta$ এর মান-",
+    "options": [
+      "$2n\\pi \\pm \\alpha$",
+      "$n\\pi \\pm \\alpha$",
+      "$n\\pi+(-1)^n\\alpha$",
+      "$n\\pi-(-1)^n\\alpha$"
+    ],
+    "answer": "$2n\\pi \\pm \\alpha$",
+    "explanation": ""
+  },
+  {
+    "id": 7969,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$2sin2\\theta=1$ সমীকরণটির সাধারণ সমাধান—",
+    "options": [
+      "$n\\pi -(-1)^n{\\pi\\over 6}, \\ n\\in \\mathbb{z}$",
+      "$n\\pi +(-1)^n{\\pi\\over 6}, \\ n\\in \\mathbb{z}$",
+      "${n\\pi\\over 2} -(-1)^n{\\pi\\over 12}, \\ n\\in \\mathbb{z}$",
+      "<p>${n\\pi\\over 2} +(-1)^n{\\pi\\over 12}, \\ n\\in \\mathbb{z}$</p>"
+    ],
+    "answer": "<p>${n\\pi\\over 2} +(-1)^n{\\pi\\over 12}, \\ n\\in \\mathbb{z}$</p>",
+    "explanation": "<p>$\\begin{aligned} &amp; 2 \\sin 2 \\theta=1 \\Rightarrow \\sin 2 \\theta=\\frac{1}{2}=\\sin \\frac{\\pi}{6} \\\\ &amp; \\Rightarrow 2 \\theta=n \\pi+(-1)^n \\frac{\\pi}{6} \\quad \\therefore \\theta=\\frac{n \\pi}{2}+(-1)^n \\frac{\\pi}{12}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7970,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "$sin ( 2 tan^{-1}{1\\over 2})$ এর মান—",
+    "options": [
+      "$\\sqrt 3\\over 5$",
+      "$\\sqrt 3\\over 4$",
+      "$4\\over 5$",
+      "$5\\over 4$"
+    ],
+    "answer": "$4\\over 5$",
+    "explanation": "<p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAACUCAYAAACqcnrLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFxEAABcRAcom8z8AAB2pSURBVHhe7Z0JWJTl9sCr2723ul0rFWaG2WcYmJVZYdhmYBj2gWFnAFkVBBRFQBAFJETBFBRcUbRMTS/+NTVNrTS3XDLIXBK3cmu5ds3MpTKV739e+uLWTQsNlBne3/O8zzDnfMB875zvvOe862MYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBhMH4EgiGehPEW+xWC6BxjNX4YMGVIdERGxfOPGjTxSjMH8MS0tLY5SqfSsnZ0d4evr+/bq1avZpAqD+X2WLVvm7OTkdGbAgAEEaUCbtm7dSifVGMy9WbNmDUMkEp1AhsPlcm9RKBRCp9O9+8EHH9DISzCYuzNjxgyJE1/wFY/L+09RQVGem1qzk8NiE3qdfsPChQudyMswmN/S2Fjv7sTn/eDs5HgQvV+3bp2zl6fH+zSqPSGXST+qra7267wQg/lfwDj0PC77Fp/HPnTx4sVnkWzevHnOrhrlroEvDCBkEnH7pEmTQjsvxmB+SWNjo7uTgH/Zkc85t337JgYpfmz27HqZUiE//Pxz/yRkMsnHixbNU5IqDOYnDh/+hCKTids5HPa5Y8d+HSTX1NRoXTXqXYMHDySUSpcDYEBSUoXBPPbY0qVLuQIB/wtHR377t99+O4gUd7FuXYuzTue5lAoxEBjQwbFjC4IJgnicVGP6M3V1tUoWi/kdGFD7559/PpgU/wo0dOHn57sYGZBYLLxcVFQ0mlRh+jMVFRNCGAyHDmdnwam2tjYHUvwbNm3axPD19XndwYFKSCSiS2lpKUVoaINUY/oj48YVhdPptA4nJ8HZd95553fHto4ebWX5+ureplDsCA6HdSc9PXVcR0fH30k1pr8xa1a9nMdjXxGJnC41NDS4kOJ7Amm82sPDbfOgQS+AATFvQAs2DDzQE6Qa059oaJjuCjHPDYhlLqxcuZJPin+XvXv3DvT396u3pwzs4HAZ14ekWF7EHqgfMn36dD+IY27K5S7HDx3a39XP80eAsTwdGOg7Y7Dd8wSdQbmTljakFMlINaY/MHv2bBmXy74ql8taofl5nhR3izNnzjxvMOibaQ6DCQaTQsTGR07FHqgfUV9fCzEP56ZCIW8D43mBFHcb+J1nQkyB0xhM6h0Gi0rEWaJqcAzUT1iyZIkEMq3LarWiFbzGbzoJuwMYy1OWxLhxLDb9Jp1OvZ2QEDsJGRWpxtgqM2fO9IC0+7pGozp4/vz5B54EhporiyVmgr39IAL1BSUnJ08GA/orqcbYImPGjMqk02mERCL+8OrVq3ftYe4unU1YSMBMKtXuDovFuJWenjoBG5ANM21arT/6oiUS0fvgPf5Jih8YZECJidETGUzaLTabcTstI60MG5CNMmvWLDdotn6QSsWHb9y4cc/hifsBGWFMbNQ0SOGvMlm0aykplgowoL+RaoytMHlypYLJpP8oFovOtLe3c0jxnwaM5cn4hNgiCmUgQXOwuz10aMoIUoWxFWpry5UMhsNtsdj5xMWLF6mkuEe4fPnyc8HBAUtREM1i0W9YLJaxYFR4caGtMGVKlQ8KmGUyKYp5/kGKe4zDh/dRwsNN9XZ2gwgKxe6OwWBYvn9/93uyMX2Y6upqT2Q8Li6yD3oiYL4bKIiOjDRPdHCg3ba3tydMJtPLx48f/1OZHaYPMHXqlAA+n0s4OQmOgPEMIMU9DhjQX8BoJtBotJtQCH9//8Xw//BYmDUzs64uiMfhdgh4/H3wBfdqSg1///FES2Iei0m/RqXYEYGBxmUtLUu5pBpjbVRXVns6UKHZkrocgC/3OVLcq6SlJQ9hMR2+ptgPJHx8vJb3RqyFeQhUjK/wolGohMjZ+VjHtQ57UtzrJFksw+l06k0KdSDhH2hYYu0xEDwAfz948CB9y5Ytjufa2x3gQXwBTevdvXs3a+PGjWw0jRddQ15uG1SWVfqj5cUapXrXw/QAqCLj46NGcDj0r6m0wRAD+S1BlUyqrQoUz0VGRta5u7t/7OXl1e7upj3ipnFtUytVJ5VyxWm5i/yCm5vb2dzcXDRgbDu97Q11Dd58Lv+Wh5v2nUfxZIwcmWOWyUSnaDR7aMJ08ID+d+GhtTB16lSRUCi8jDaLYLHZBJfDJSCOJJwEgh9FzsLvnAVO1xRy+dfDhw9H01Vsp5+rYkJFkAPN4Y5KoXz/ypUr9z2fpycoLS0IdRbyP7W3G0R4e3tumTVrlpBUWQVms9nEBqNxdXXdljd6dEFhfmHZ+HHj8xsaGoxz5851hVfpihUrJDZlOIicYVmZKObRurm9f/369R7tYb4fKsvKvKUS4Sk7u4GEu1b7FlqMSKr6PBEREWNR94PJZJqK3oORPImask6lLVNaWhrGcKB3aFSq9h1v7xCQ4kfCmLwcP7lM3G5nN5hQKpXv19XVqUlVn0av1y9zcHAg0tLS0klRJyi+OXTokOrcuXO8trb3HFpaWuxIlXUBN/LEhAkT3MaMGTPk6NGjnbthICoqKmLoVFqHVCw5cvjwYQopfmSMzR/pIRA4nnNyciIgyGybPHmyO6nqk+zbt48iEomOQ7PVMWPGDC9S3Al8do2vr/6Qq1r1iU7n9UlhYWE+qbIekAstKSlJEwgEl+Ryeesv16RDzBPFZDAIN1fXt/tKKglZSaqHu/ZzJp1OyOXSwzU1VR6kqs9RWVmm5/N5P4pEwm8XLlzYZeio6bLExMxyd9Mc0nt77gkNDtpQVVXxK+OyCpDxNDU1eUBTcBCe6GO/nDFYVlYWyGDQIdjTbIfrujzSowR5ybJxRX5qhXwXjTqYUKlkBydNnSQh1X2K0NCAEXQ6Fbyk+sjZs2e7dhnJzsyIMui9P928eUMQ3M8zUKx3PhN4lad1Ot3bUqn0I7iRrp5kiHn80QYGMpmkR2YS9iTNzc0uYDgf29m/QKhc5TtWr1790GMyZMjjxo3z9vLyennEiBGJpLgLb2+vZjRjIDQ0+DW4tjNI3r5q1bNaN/UOHodFqNXKI9nZ2eOhbntkot0jAT78AHd3910SieTEsWPHup6QnJycpJ+MR3qwp+fz9AQ1NTUeKrXLXiaLioYytr322ssPzYDWr1/vAmn4Uh6P9z2VSgVDUJ+HOCaKVHei1WrWoQn/GRmpqaTosXnzptubw8Jq/Pz088B4zkskIiI5echrra3brbMXHYznHz4++m1isejIpUuXukbPk5OTR9rbD0Y7X5zYteudPrmB5QbwOBq1Yh+TSSO0bqo9FeOLfUhVrzJx4sRcsVhMQED8NcSLN5lMJuHp6Xno5/o7f/780+CxW3k87p0pU6YYOn8JqKys7Fq3tmzZMleDwXefi1x6e/LUyUGk2LoAl/qUTue5HQLQXfDzk6T4saysrDS0aYFY7HwEYqE+m0ouW7ZY7OvjtZ5NpxByqfDsmDG5gaSq12hoaHCFJudFSLF9wsPD/48BiYVQ6Hxjzpw5CqSfNGmSmsPh3IBY8viJEyfuuWxpyZIlbi4K2ZXo2MiJpMi6AIN5BoLiXZAVoMV9XWNYBQWjQ+3sB0KzJdrb12Ke/2XdunUO4cGBTU5cFiEVO10sLi54aBttggGowQN9xWYzifz8/DFIFhcXl4Y6B41GY8vP8c7duHLlykCNq/qCyWyyvlQdgTyPi4u0TaWSf9zRca1r9Ly4ON9MoQ0ipFJnNDDa5ydnIcNPjIuq4UMwKpaIz0LAbyZVvU54eNirqIn38zPsh/r8q16vL+NyeUR6enoeeUknb7311j9Onz5tD9d0br8H6bx3QID/iTIIvDsvsDbWrFljD17nM7VadfLChZNdg4/5hXlxDnR7MB7hVlQhpLhPA5/zicjIsEWoVxeyx3Njx471J1W9Sl1dXaRQ6PQdg+Hw4+zZs+NcXBQtHA7vdm1t7a/+f1VVRYQ5zPReXEz0y7ExUfVJSZYVleXjk+FzW+eQBQRxSa6u6q98fHSHmpvnd3VW5eVmD0PGo1DJ3vj5SbEGXnnlFQ7cy+ssFotwcXH5sri42EKqeg20Z2NISNC7KEaEJuwilUq7zuc7Xpk//7/1iVgIMVFKQsIrMZGRK4empi4Az9Pr8VmvgZ7UpqYmFcoImppmq+rrmweSKrTcOJZCGQxpqGKVNRkP4qOPPrKPiYlYgDo5IZD9aujQ9F5fG1ZTU2OGDOzywIEDieeeew7qzfXAnj17fjWJDtUjlKeg2PbgKAR/kTQahXB3d1tpbcaD+OyzzwYFBQUugaaE4PN5P0D22OsGBDHOfOTxULAcHR05nRT3P0aPHp2AKt7PT4c8j1XOcrt0qWOAyRTShObUCASCa6NGjRxJqnoFyPogO1d+5ejoiDKv3/Q69xtSUoaMYTLphMHgs9qa3SxkYfZhYWHzfmrCnK4PGZJY01vzopGHTktLq4iKinpt7dq1PbZE2+oIDzdVo/TTy8tzC1SKVW/IhNJ4o9F3Ldrql8tlE4lDLHPgnnrLgP5iDV0bvUpYWOhEdLaETuf1pi1URnPzHEej0bAWeVNnoeOt1NREtLgQL+3pDSD4K0SjwgaDbjNUcp/uYe4u4BVeCAkJWYx6g1EJD49ohHvDG232NNnZWWPRqLDBoF8GlW4zG1G2trY+FxMTVcPjca+hQDopKQnt1GoTD0efYejQoYUsFgMte5lLimwGeBgez83NzRAKhd+KRCI0jND4xRdfWOc84r5IbGzseBRg6vW6haTIpkDetKCgIIOcVkFAc7bmlzP+MH+C0NDQejqdfsdoNKKZcDZ7jtbo0aOjZDLZedSEgQG9uWnTpm4dlYD5HRISEkq8vb0v5efnN/9ykpgtUl5engAG9AWa1OXn57dx/fr1jqQK8yBkZ2ePlcvltwICAt4Ez2Pzm04WFxebJRLJ52howcvLa/+//vUvOanC3C/x8fFT+Xw+ml65hBTZPBUVFSa1Wn0SGRB43QMLFiywquXNfQaLxVINMQ9aKltLivoFaB25RqP5FM0JCgwMfP3f//73I1/waHWkpaWNQXNzzWbzTFLUbygqKjKJxeLz6P6DgoLeXbFixR8eVof5BRAwj0eeJyIiYgYp6ldUVVV5QRr/mb29HRocfre1tZVFqjB/RGxsbBUyHnDdSyFgtu3JS/dg4sSJcUKh0+doKCMwMACSsC04C+sOsRZLGVrQFhISsqMvLvp7WEycWJYik0m+QAsgjUbD221te6xyl7KHSlRU5EsONAcU87R8+eWX/Xb0GXWQVldXB8vlLudQEO3u7r7zpZdeUpFqzN2IiYiod+TxiYjwiHpS1K9BW86oVKpPKRQKoVAojjQ2NlrFHkGPBHNYWB0ynsgwcx0p6veAAQVJpdJPyI7EjR988AEeC7sbkGXVMxzoRGhw8HxShAHQUmOtVruHw+FAFmbYXldX50mqMD+j9/SeTYeYJzK8f6bqvwc6iwyarqODBg1Cm1V+CDFQ12YGGCDIGDAP7cOcmpRcRYowv6CystIFDGcHioGUSmX7ypUrRaQKA81WNWq2gvwD/w8yDnwW1l1oaWlxhiasFfWHQQy0BwzKeleA9iThpvBaJp1BRJkjluB5vvdmypQpRkjfD3G5XEKj0XxeVVVlJFX9F/A8DXwuj0iwJMwFz2Pzh+nDPaL9AR/Iw86ZM0ei0+m2owllYEhHX375ZRmp6p+EhoQuYDGYRHBg4BqoVJs9hRita09PT58QFRW1Lj4+fsW0adOi4H7ve+bkzp07uUFBQRt4PB7a6vd4SUlJCKnqfwQHBS9E2VaEKbyRFNkcEKOwwGPs9vPzO1xYWJgZHR29ysfH5xO0YRN5yX2xZcsWoc5bdwCtV4dg+mx5eflD22SqT2EODZuNzttKiI+fTIpsjsjIyHKJREKUlpbGofc7duwQqNXqzy0Wy0LwPl1b7N0P8+fPl3t7e+9Fh5XIZLKL4IES4G/1r4Hl8LCwBhQwZ6RmFJAimwI1xSqVaiuUE/Bz58Es8PoE6vhDxxht27btgSfCh4SENKEzU9F2KyKx+GpKWsp09P9Ite1j9DN2NltgPBmkyKZAB6gJBIIL0GSh5dT/gC8XHSryN39//+UikegHtFspeel9gZoqSN0vU6nUDjDMz2gONIIvcOwYlp1VBv+nf6xhNxoMzXwunxg2bNhoUmRTLFq0SArG87VYLL4IzdTy5OTk5uDg4A2Qcl+GoPfKq6++qiEv7TaN9fUGuVzeOXgaGBhYuWrVKoXBaFxLBQPi8LgExFQL0Zny5OW2S0xMTAObwSKGJA6xzm1e/4Dq6mo9GM8PGo3moxEjRmTl5OSY0dkWEPPscHR0/ObNN9+8r72nZ8+YrVEqFKfR1FXI2rp65a9du2YfEmZaRWPQCZTKZ2RkNCAPR6ptk+jIyBlsSNXhZm0y5pk7d64nBMvXAwIC1pKiTvR6/SLwHqfuZ+9p1NMMMeIeNJzjqtGg/ax/dVbH6S9P24dHhM9hMBkdjnz+rbS0tFJSZXvAzT8eFBCwWKNSE1VVVb2+HdujAMUfWq12B6TUX7S3t3duxIS+dNRbHBoa2gw/d6tjFK77q8lk+hc6/lGtVB6fNGnSXdd7wXV/S01NnQRerQPKTbRWvrv/w6rorJDQ0De0rm5EzvCcl0ixzZGZmTkOmqkfioqKUtCXGxsbmwdp9mczZsyIIC/5QwqLiy1MJvOOWCi6MnP6TF9SfFfQ/0hISJiKOhKlUul1iCerwYhtazUueiLADa8UOTkRMdHRNrv05ptvvnk+PT29DtLzQ2FhYWvAC12ELxSdRNOtsTwIutmQmR1DA6NpKSndaopQZpeSkvIiGgtDJSIi/FVrPb35roDxPGX0M2ykUe2I7MzMXx1xaGugJ7+kpCQ6Kysrr6ysLA55B1L1h0BG1YhmFfr4+Lx+P78H1z7r5eW1Hv0uj8chgoODNmzebCN7GMLNPWPw9XmbyXAg8vPzOntfMb+mvLw0lMPhXIWM7WpjY2MwKe424LUcLBZLKZfLvooOdfP399sGgbfVHL57T5Br9fb02M5mMYjsrCybzLb+DMgza7VuW1FanpHRGbc88JSVpCRLiqMj7xLaSCs8POx1+FtdG6lbJXADT4PneZfDZhBD01MrSTGGpKysNI5Go3ZIpeLzO3bs+9OHxEGTORQ82DdoY4mIiIglra2t1nl4GwKerMfB82zisJmQbWV2HgOE+Qnkdfz8DOvQZp9BQUGd56X3BMnJyelgQJfQBuAxMTFLz507Z53HR0IFPanVaraimGfUyBxsPL9g7txGA5vNvC4Q8P+zYMGCBxr/uhcQA+UKhaKvnZ2dIYgOXv/aa6/xSJX1AM2WvbtWc5DuQCVyR+aOIsUYICQkaAadTiNCQ0MWw0PW41Mthg/PTVYqlZ8gD2Qymba1tbVZVxoPxkPxcHdtpTvQiDF5eX5QSU+gpoxU91vQ2aEKhctOJpPeUVAwOokU9ziFhYVBHh4eB6VSKRhp6LY1a9ZISVXfBwXM7lq3ncjzjB9fEg3v0Vr1fm88kydPVvD53GuoyZo/f76YFPcK8+bNk3p6eh5BTZi3t/cH9xr26HMgY1GpFPvRqTejRo2cCF6n/0xk+h1SU1Nj0QxBhUJ+5NSpU0xS3GuAB4pzd3c/gaa1enh4H509u8mDVPVdwHgGuLu77eVwWASarkCK+z2xsbGVaNsZvV6/BB6ohzKtYtq0aS5qtWYfnc5AO7UebWp6uW/v0AHG83eVSrmbRqMSOTk5OlLc7wkPD29Aa9SjoqIe6kyD2tpqvUqluoDmA3l5eR+rra01kaq+BzxVT7q6qt4Cz3NnwoQSN1Lcr0Gexs3dbT2Px7tdWlr60FeGVlZWBru6qo9zOGzC11d/CtL4vtmEgef5p97HcyuDSbuZmZkpIcX9mgMHDjAFjo5nwPP8B764P92r/CCsX7/ay9dX9yGLRQcD8jkOQXvfW9qDYh5vvfs2DpdxddKk8kdSUX0NSJflPA73Wz6Xdxw166S4E9SNgTwTlCfQg4cK8t7vvdf+z7179w5E5f3336du37598Pr16ynoFMCdmzfTli9fzl66dCEXxTUQHAeUFJYEjB07NjArKycmJSVlhNFobIBUfXF0dPTwqChzRmJibLFSKT9sTxlEsFhMwsfH9yg6GJf8GH0HvY/Xcg6Hcae8cnwkVMRgKM+igqZnbt68mbN//34GMjJSjk7sfRZVKryiSrzvNU/od1ClnzlzlIrm/aIpCig9RWX69OliMGJ5WnJycExkTGBSUlJIWlqa0WyOMkHlDosyR2Wkp6ZmD0tPz0Td/FDChw4dOiQ+Pn6IxWIZnpubGw1NjTorK9cAv+sPsUuE2WwaGhkZmZOQEBefmJgYlJGREZaWlpxgNpvL4uJiCiA4HhUdHVESFxMzIdwUXuGr069FK2i5LM43IUFBU00hphcjTOEzAvz8F7tqXN9002i2erp7bHJVaXa7qV13eHt6viGXyj6US10OK1zkh1yV6iNyF5djSrniOJTTKrniFMgvSMTif4uFousiZyEBr4REJL4jk8kIsVhEiERCKM4En88lHB15ULgEOjQYFWQ8Qrge7jOfrMK+AXyJT2vdNe/aUwYSIongS5lcfEIqEx4UCp0Ows20u7hILmjUyk8lYuFhlVLe5iIVtykV8g/lctkejVq1VaNSvOXhoV1lMPjODAw0lMbFRcZbYqPzzObQyrCwwEkR5tAaX1/v+Z4ebmv03u6rtW6qN9w0qq0e7tp98DdOyl1kp9AmkhKx6IZY5Py9UCi4yudxvmMxGASbySLQlE+oZALtXIZkXDan82c0hxgVPp/XOU/mp0PZ4Hoe545AwL8Kn/97iUT8HXwZd9AoNsomIYboAP1tkN1C16IzxpAOfVno93kQILMg02HQ6ARaioQWQiIjQgW9R58FFfhcHfB6k8vh/Mhhsr/jgpeCz/Q1m8VC3upr0J1yFjidhvINGMplqVhyQSaVHZGKJLtFTsI9IqFwt0Ku2Ort6f26RqPcoNW6rQLPs8jPz2ducHDgJCjjTKagCWZzWAEYfFZioqUQjH4ceK2+tdko8iDRsebpQpHjJ1DOiSWCszw+80uozG8pFLsfodKvoz4gDovxPZNJ/4bHZX0JX+5nfB77CoNOuwrvv2ezGD+wmPRbDDqV4HHhieUw4JVBCBzhy2DSOlgshxvg2W6yWfB32GAAHNZNJyfHM2CQx7kc5qcCR+5J+PmQTCo6qFErtoGR7oYn94Bc5nJIJpF+DE/3EY1KfdLby2unXqdfofPSrYDXtQa97wZvb4+39DrPtX5+vgv8/X1n6XSecz083Jr9/Q31UVERL4aGBk8MCDDWBQYaG4KCAqb7+OgX6fW6eXBtpU7n1QipeA18ceXBwUF1AUZjYbAxMDfAGFDg7++fGRoUmh4QEJAWEhKSBV6qPCwsLAWKBTIwU2pSkiE5ISEAvIFx1KhRnpMrK1UlBQVulRMqFZvXrKFtaGmhl48bp6yqqHBtbm52ROeuI0+N6pv02s+Qr9a9ugLdCJpm2dTURGtpWWzX0NBAqampch0/vtinoqJCPXr06NDJkyvdIQvgQVPwQmHh8MHl5eXO8F5aUlLinp+fr83KyPBPTkzMjQgLHRsREQ6tSko0tNup2dnDAsaPHy8sKipSjxg+PHjkyJwwaFa09fX1AyG2sEevM2fOfH7Tpk0Djh49iprFzgref/LkgHfeeec5iBmeh9dBELgOBnnXTq1w3c+H3qNi8zt7YDCYRwXKZFJTU5MhOyl+8cUXLf1iRSbmz7N48WKxTqfbq1QqO1CGIpfLb0KmNQ43WZjfZfv27U9mZ2fXQuC6IicnJwS8Tx2fz78tlUovzZ0714e8DIP5LRBM/x1twgRepjMzgddng4OD16EpDFVVVX137AfTN4EUudxgMBxDW7yRIgzmj0FxDhhPY15eXjn83C+PeMI8IAUFBXmZmZlz9+/fb9MnMWN6GIvFUmY2m/dUV1fjM9Ex3ae4uDglOjp6//z58wPQexRAr1q1qt8eLofpBmAkj0OME6PRaK6B59kMpUav19d6eHi8Bal7EXkZBvNbmpqaVEaj8aBMJruqVCovS6XSW/B6VavVtkH8g0+hwdybV155hVpRUeGFzruCWMe3pqYmuKGhwQU8Uue2uBgMBoPBYDAYDAaDwWAwGAwGg8FgepfHHvt/IIpk7ZU/POUAAAAASUVORK5CYII=\"></p><p>$\\begin{aligned} &amp; \\sin \\left(2 \\tan ^{-1} \\frac{1}{2}\\right) \\\\ &amp; =2 \\sin \\left(\\tan ^{-1} \\frac{1}{2}\\right) \\cos \\left(\\tan ^{-1} \\frac{1}{2}\\right) \\\\ &amp; =2 \\sin \\left(\\sin ^{-1} \\frac{1}{\\sqrt{5}}\\right) \\cos \\left(\\cos ^{-1} \\frac{2}{\\sqrt{5}}\\right) \\\\ &amp; =2 \\cdot \\frac{1}{\\sqrt{5}} \\cdot \\frac{2}{\\sqrt{5}}=\\frac{4}{5}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7971,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "${x^2\\over a^2}+{y^2\\over b^2}=1$ উপবৃত্তটির পরামিতিক স্থানাঙ্ক-",
+    "options": [
+      "$(asec\\theta , \\ b cosec \\theta)$",
+      "$(bsec\\theta , \\ a cosec \\theta)$",
+      "$(a cos\\theta , \\ b sin\\theta)$",
+      "$(a sin\\theta , \\ b cos\\theta)$"
+    ],
+    "answer": "$(a cos\\theta , \\ b sin\\theta)$",
+    "explanation": ""
+  },
+  {
+    "id": 7972,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>f(x) = cos<sup>-1</sup> x এর ডোমেন-</p>",
+    "options": [
+      "[-1, 1]",
+      "(-1, 1]",
+      "(-1, 1)",
+      "[-1, 1)"
+    ],
+    "answer": "[-1, 1]",
+    "explanation": ""
+  },
+  {
+    "id": 7973,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Mymensingh",
+    "question": "<p>বিপরীত বৃত্তীয় ফাংশনের ক্ষেত্রে-</p><p><br/>i. $cos^{-1}x+cos^{-1}y=cos^{-1}\\{xy-\\sqrt {(1-x^2)(1-y^2)}\\}$</p><p><br/>ii. $2tan^{-1}x=cos^{-1}{2x\\over 1-x^2}$</p><p><br/>iii. $sin^{-1}x+cos^{-1}x={\\pi\\over 2}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8073,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(4x^2-2+{1\\over 4x^2})^5$ এর বিস্তৃতিতে x বর্জিত পদটি কততম?",
+    "options": [
+      "৫ম",
+      "৬ষ্ঠ",
+      "১০ম",
+      "১১তম"
+    ],
+    "answer": "৬ষ্ঠ",
+    "explanation": "$\\left(4x^2-2+\\frac1{4x^2}\\right)^5=\\left(2x-\\frac1{2x}\\right)^{10}\\\\r=\\frac{10}2=5\\\\\\left(5+1\\right)\\;তম\\;পদ$"
+  },
+  {
+    "id": 8074,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(2a+x)^5$ এর বিস্তৃতিতে $x^4$ এর সহগ 40 হলে a এর মান-",
+    "options": [
+      "1",
+      "$ \\sqrt 2 $",
+      "2",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "$5_{C_4}\\;\\left(2a\\right)^{5-4}=40\\\\\\Rightarrow5.2.a=40\\\\\\Rightarrow a=4$"
+  },
+  {
+    "id": 8075,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>3x&lt;-1 হলে নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "3x>-3",
+      "3x>3",
+      "3x",
+      "-3x>3"
+    ],
+    "answer": "-3x>3",
+    "explanation": ""
+  },
+  {
+    "id": 8076,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "2m/s বেগে ও $30^0$ কোণে ভুমি হতে নিক্ষিপ্ত প্রক্ষেপকের সর্বাধিক উচ্চতা-",
+    "options": [
+      "$1\\over 2g$",
+      "$1\\over g$",
+      "$2\\over g$",
+      "$2\\sqrt 3\\over g$"
+    ],
+    "answer": "$1\\over 2g$",
+    "explanation": "$H=\\frac{u^2\\sin^2\\alpha}{2g}=\\frac{2^2\\left(\\sin30^\\circ\\right)^2}{2g}=\\frac1{2g}$"
+  },
+  {
+    "id": 8077,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\omega$ এককের কাল্পনিক ঘনমূল হলে, $(1-\\omega^4)(1-\\omega^8)(1-\\omega^{10}) (1-\\omega^{14})$এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "3",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": ""
+  },
+  {
+    "id": 8078,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p><img src=\"data:image/png;base64,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\"></p><p>8N বলের অংশকদ্বয় $P_1$ও $P_2$হলে , $P_1$এর মান নিচের কোনটি?</p>",
+    "options": [
+      "$4\\sqrt 3$",
+      "$8\\sqrt 3$",
+      "$16\\sqrt 3 \\over 3$",
+      "$\\frac{8 \\sqrt{3}}{3}$"
+    ],
+    "answer": "$\\frac{8 \\sqrt{3}}{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 8079,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$2\\sqrt 3+2i$ জটিল সংখ্যার আর্গুমেন্ট-",
+    "options": [
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{2 \\pi}{3}$",
+      "$\\frac{\\pi}{3}$",
+      "$\\frac{\\pi}{4}$"
+    ],
+    "answer": "$\\frac{\\pi}{6}$",
+    "explanation": ""
+  },
+  {
+    "id": 8080,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "y=4x+c সরলরেখাটি $y^2=32x$ বক্ররেখাকে স্পর্শ করলে C এর মান কত?",
+    "options": [
+      "-128",
+      "0.5",
+      "2",
+      "128"
+    ],
+    "answer": "2",
+    "explanation": "$x=\\frac{y-c}4\\\\y^2=32\\times\\frac{y-c}4\\\\y^2-8y+8c=0\\\\D=0\\\\64-4.1.8c=0\\\\c=2\\\\$"
+  },
+  {
+    "id": 8081,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p> $f(x)=2x^2-5x+1; g(x)=x$</p><p><br></p><p>Q. f(x)=0 সমীকরণের মূলদ্বয়-</p>",
+    "options": [
+      "মূলদ ও অসমান",
+      "অমূলদ",
+      "অবাস্তব",
+      "বাস্তব ও সমান"
+    ],
+    "answer": "অমূলদ",
+    "explanation": ""
+  },
+  {
+    "id": 8082,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও:</p><p><br></p><p> $f(x)=2x^2-5x+1; g(x)=x$</p><p><br></p><p>Q. $F(x)g(x)=0$ সমীকরণের মূলত্রয় $\\alpha ,\\beta,\\gamma $ হলে, $\\sum \\alpha \\beta $ এর মান -</p>",
+    "options": [
+      "$-5\\over 2$",
+      "$-1\\over 2$",
+      "$1\\over 2$",
+      "$5\\over 2$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8083,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "একটি তাসের প্যাকেট হতে দৈবভাবে একটি তাস টানলে তা টেক্কা হওয়ার সম্ভাবনা-",
+    "options": [
+      "$4\\over 13$",
+      "$1\\over 4$",
+      "$1\\over 13$",
+      "$1\\over 52$"
+    ],
+    "answer": "$1\\over 13$",
+    "explanation": "মোট তাস ৫২ টিটেককা ৪ টিprobability =4/52=1/13"
+  },
+  {
+    "id": 8084,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>প্রক্ষেপক কোণ $45^0$ হলে -</p><p><br/>i. $R={u^2\\over g}$</p><p><br/>ii. $H={u^2\\over 4g}$</p><p><br/>iii. $T={u\\over g}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii",
+    "explanation": ""
+  },
+  {
+    "id": 8085,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$sintan^{-1}{a\\over b}$ এর মান-",
+    "options": [
+      "$a\\over \\sqrt {a^2+b^2}$",
+      "$\\sqrt {a^2+b^2}\\over a$",
+      "$b\\over \\sqrt {a^2+b^2}$",
+      "$\\sqrt {a^2+b^2}\\over b$"
+    ],
+    "answer": "$a\\over \\sqrt {a^2+b^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 8086,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>${x^2\\over 256}-{y^2\\over 225}=1$ একটি অধিবৃত্তের সমীকরণ। </p><p><br></p><p>Q. শীর্ষবিন্দুর স্থানাঙ্ক-</p>",
+    "options": [
+      "$(\\pm 16,0)$",
+      "$(\\pm 15,0)$",
+      "$(0,\\pm 16)$",
+      "$(0,\\pm 15)$"
+    ],
+    "answer": "$(\\pm 16,0)$",
+    "explanation": "$\\left(\\pm a,0\\right)=\\left(\\pm\\sqrt{256},0\\right)=\\left(\\pm16,0\\right)$"
+  },
+  {
+    "id": 8087,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>নিচের উদ্দীপকের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>${x^2\\over 256}-{y^2\\over 225}=1$ একটি অধিবৃত্তের সমীকরণ। </p><p><br></p><p>Q. উৎকেন্দ্রিকতার মান-</p>",
+    "options": [
+      "$\\sqrt {481}\\over 16$",
+      "$\\sqrt {481}\\over 15$",
+      "$\\sqrt {31}\\over 16$",
+      "$31\\over 16$"
+    ],
+    "answer": "$\\sqrt {481}\\over 16$",
+    "explanation": "$e=\\sqrt{\\frac{a^2+b^2}{a^2}}=\\sqrt{\\frac{256+225}{256}}=\\frac{\\sqrt{481}}{16}$"
+  },
+  {
+    "id": 8088,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>যোগাশ্রয়ী প্রোগ্রামের উদ্দেশ্য -</p><p><br/><br/>i. উৎপাদনের কাঙ্খিত মান নির্ণয় </p><p><br/><br/>ii. প্রতিবন্ধকতাসমূহ নির্ণয়</p><p><br/><br/>iii. সর্বোচ্চ মুনাফা অর্জন</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8089,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$\\{1, {1\\over 2},{1\\over 3},…,{1\\over n}…\\}$ সেটের একটি নিম্নসীমা-",
+    "options": [
+      "$1\\over n$",
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 8090,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$x^2-8x+k=0$ সমীকরণের একটি মূল 4হলে অন্য ‍মূলটি-",
+    "options": [
+      "k-4",
+      "-4",
+      "4",
+      "4-k"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 8091,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$z=x-2iy$ হলে,$z\\overline z\\;=7$এর সঞ্চারপথ একটি-",
+    "options": [
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "উপবৃত্ত",
+    "explanation": "$\\left(x+2iy\\right)\\left(x-2iy\\right)=7\\\\\\Rightarrow x^2+4y^2=7\\;\\;যা\\;উপবৃও$"
+  },
+  {
+    "id": 8092,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$(3-x^2)^7$- এর বিস্তৃতিতে ৪র্থ পদ-",
+    "options": [
+      "$-2835x^6$",
+      "$-35x^6$",
+      "$35x^6$",
+      "$2835x^6$"
+    ],
+    "answer": "$-2835x^6$",
+    "explanation": ""
+  },
+  {
+    "id": 8093,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "$sin^{-1}x$ এর ডোমেন -",
+    "options": [
+      "$[-\\pi, \\pi]$",
+      "$[-{\\Pi \\over 2},{\\Pi\\over 2}]$",
+      "[-1,1]",
+      "$-\\infty,\\infty$"
+    ],
+    "answer": "[-1,1]",
+    "explanation": ""
+  },
+  {
+    "id": 8094,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "দুইটি সমান বলের লব্ধির বর্গ তাদের গুণফলের দ্বিগুন হলে বলদ্বয়ের অন্তর্গত কোণ-",
+    "options": [
+      "$0^0$",
+      "$90^0$",
+      "$135^0$",
+      "$180^0$"
+    ],
+    "answer": "$90^0$",
+    "explanation": "$R^2=P^2+Q^2+2PQ\\;\\cos\\alpha\\\\2.P.P=P^2+P^2+2.P.P\\;\\cos\\alpha\\\\\\cos\\alpha\\;=0\\\\\\alpha=90^\\circ$"
+  },
+  {
+    "id": 8095,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>u ও v (u&lt;v) বেগদ্বয়ের-</p><p><br/>i. বৃহত্তম লব্ধি= u+v</p><p><br/>ii. ক্ষুদ্রতম লব্ধি= u-v</p><p><br/>iii. তাদের মধ্যবর্তী কোণ $90^0$ হলে লব্ধি=$\\sqrt {u^2+v^2}$ </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8096,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "<p>একটি ছক্কার গুটি নিক্ষেপ করা হলো-</p><p><br/>i. জোড় সংখ্যা উঠার সম্ভরনা= 1/2</p><p><br/>ii. 4 অপেক্ষা বৃহত্তর সংখ্যা পাওয়ার সম্ভবনা=1/3</p><p><br/>iii. 5অপেক্ষা ক্ষুদ্রতম সংখ্যা পাওয়ার সম্ভাবনা=2/3</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i,ii",
+      "i,iii",
+      "ii,iii",
+      "i,ii,iii"
+    ],
+    "answer": "i,ii,iii",
+    "explanation": ""
+  },
+  {
+    "id": 8097,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2019",
+    "board": "Chittagong",
+    "question": "12 নিউটন ও 16 নিউটন সদৃশ সমান্তরাল বলদ্বয় A ও B বিন্দুতে এবং লব্ধি C বিন্দুতে ক্রিয়াশীল যেখানে AB=14 মিটার। BC এর মান কত মিটার?",
+    "options": [
+      "42",
+      "$49\\over 2$",
+      "8",
+      "6"
+    ],
+    "answer": "6",
+    "explanation": ""
+  }
+]

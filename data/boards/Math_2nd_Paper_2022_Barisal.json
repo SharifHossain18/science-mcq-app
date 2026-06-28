@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7649,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "- 1 + i এর আর্গুমেন্ট কত?",
+    "options": [
+      "${\\pi \\over 4}$",
+      "$-{\\pi \\over 4}$",
+      "${3\\pi \\over 4}$",
+      "${5\\pi \\over 4}$"
+    ],
+    "answer": "${3\\pi \\over 4}$",
+    "explanation": "<p>$-1+\\mathrm{i}$ এর আর্গুমেন্ট, $\\theta=\\pi-\\tan ^{-1}\\left|\\frac{1}{-1}\\right|=\\pi-\\tan ^{-1} 1=\\pi-\\frac{\\pi}{4}=\\frac{3 \\pi}{4}$</p>"
+  },
+  {
+    "id": 7650,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>$x ={1\\over 2}(-1+ \\sqrt {-3})$ এবং $y = {1\\over 2} (-1-\\sqrt {-3})$ হলে $1 - x - y + xy$ এর মান কত?</p>",
+    "options": [
+      "-2",
+      "2",
+      "3",
+      "-3"
+    ],
+    "answer": "3",
+    "explanation": "<p>ধরি, $x=\\frac{1}{2}(-1+\\sqrt{-3})=\\omega$ এবং $y=\\frac{1}{2}(-1-\\sqrt{-3})=\\omega^2$.</p><p>প্রদত্ত রাশি $=1-x-y+x y=1-\\omega-\\omega^2+\\omega \\cdot \\omega^2 $</p><p>$ =1-\\left(\\omega+\\omega^2\\right)+\\omega^3=1-(-1)+1=1+1+1=3$</p>"
+  },
+  {
+    "id": 7651,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$8+ 4\\sqrt 5i$ এর বর্গমূল কোনটি?",
+    "options": [
+      "$\\pm (3-2i)$",
+      "$\\pm (\\sqrt {10}-\\sqrt 2i)$",
+      "$\\pm (\\sqrt {10}+\\sqrt 2i)$",
+      "$\\pm (3+2i)$"
+    ],
+    "answer": "$\\pm (\\sqrt {10}+\\sqrt 2i)$",
+    "explanation": "<p>$\\begin{aligned} &amp; 8+4 \\sqrt{5} i=10+2 \\cdot \\sqrt{10} \\cdot \\sqrt{2} i-2 \\\\ &amp; =(\\sqrt{10})^2+2 \\cdot \\sqrt{10} \\cdot \\sqrt{2} i+(\\sqrt{2} i)^2=(\\sqrt{10}+\\sqrt{2} i)^2 \\\\ &amp; \\therefore \\sqrt{8+4 \\sqrt{5} i}= \\pm(\\sqrt{10}+\\sqrt{2} i)\\end{aligned}$</p>"
+  },
+  {
+    "id": 7652,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$\\sqrt {-5}-1$ মূলবিশিষ্ট দ্বিঘাত সমীকরণ নিচের কোনটি?",
+    "options": [
+      "$x^2 + 2x + 6 = 0$",
+      "$x^2 + x + 3 = 0$",
+      "$x^2 + 2x - 6 = 0$",
+      "$x^2 + x - 3 = 0$"
+    ],
+    "answer": "$x^2 + 2x + 6 = 0$",
+    "explanation": ""
+  },
+  {
+    "id": 7653,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "p এর কীরূপ মানের জন্য $x^2 + px + 1 = 0$ সমীকরণের মূলদ্বয় জটিল হবে?",
+    "options": [
+      "$-2 \\leq p \\leq 2$",
+      "$-4<P<4$",
+      "$-2<P<2$",
+      "$-4 \\leq p \\leq 4$"
+    ],
+    "answer": "$-2<P<2$",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{b}^2-4 \\mathrm{ac}&lt;0 \\\\ &amp; \\mathrm{P}^2-4.1 .1&lt;0 \\text { या, } \\mathrm{P}^2-4&lt;0 \\therefore-2&lt;\\mathrm{P}&lt;2 .\\end{aligned}$</p>"
+  },
+  {
+    "id": 7654,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$3x^2 -1 = 0$ সমীকরণের মূলগুলো $\\alpha , \\beta , \\gamma $ হলে $\\alpha ^3 + \\beta ^3 + \\gamma ^3$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-3",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": ""
+  },
+  {
+    "id": 7655,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>$x^2&nbsp;- 2x +4 = 0$ সমীকরণটির—</p><p><br/>i. মূলদ্বয়ের যোগফল = 3 ﻿</p><p><br/>ii. মূলদ্বয়ের গুণফল = 4</p><p><br/>iii. মূলগুলো জটিল সংখ্যা</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7656,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$tan (tan^{-1}{1\\over 3}+ tan^{-1}{1\\over 2})$ এর মান কত?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "5"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\begin{aligned} &amp; \\tan \\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{2}\\right) \\\\ &amp; =\\tan \\left(\\tan ^{-1} \\frac{\\frac{1}{3}+\\frac{1}{2}}{1-\\frac{1}{3} \\cdot \\frac{1}{2}}\\right) \\\\ &amp; =\\tan \\left(\\tan ^{-1} \\frac{\\frac{5}{6}}{\\frac{5}{6}}\\right)=\\tan \\left(\\tan ^{-1} 1\\right)=1\\end{aligned}$</p>"
+  },
+  {
+    "id": 7657,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$tan (cos^{-1}x) = sin (tan^{-1}2)$ হলে x এর মান কত?",
+    "options": [
+      "$\\sqrt 5\\over 3$",
+      "$\\sqrt 3\\over 2$",
+      "$1\\over \\sqrt 3$",
+      "$3\\over \\sqrt 5$"
+    ],
+    "answer": "$\\sqrt 5\\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 7658,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$arc tan \\{(arc cos {\\sqrt 2\\over \\sqrt 3})\\}$ এর মান কত?",
+    "options": [
+      "$\\pi \\over 2$",
+      "$\\pi \\over 3$",
+      "$\\pi \\over 4$",
+      "$\\pi \\over 6$"
+    ],
+    "answer": "$\\pi \\over 6$",
+    "explanation": ""
+  },
+  {
+    "id": 7659,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "n একটি পূর্ণসংখ্যা হলে $cos3\\theta = {1\\over 2}$ সমীকরণের সাধারণ সমাধান কোনটি?",
+    "options": [
+      "${2\\over 3}n\\pi -{\\pi \\over 9}$",
+      "${2\\over 3}n\\pi +{\\pi \\over 9}$",
+      "$n\\pi \\pm {\\pi \\over 9}$",
+      "${2\\over 3}n\\pi \\pm {\\pi \\over 9}$"
+    ],
+    "answer": "${2\\over 3}n\\pi \\pm {\\pi \\over 9}$",
+    "explanation": ""
+  },
+  {
+    "id": 7660,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$cosec \\theta + cot \\theta = \\sqrt 3$ হলে $\\theta $ এর মান কত?$(0< \\theta< 2\\pi)$",
+    "options": [
+      "$\\pi \\over 2$",
+      "$\\pi \\over 4$",
+      "$\\pi \\over 3$",
+      "$\\pi \\over 6$"
+    ],
+    "answer": "$\\pi \\over 3$",
+    "explanation": ""
+  },
+  {
+    "id": 7661,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$f(x) = tan x$ এবং $g(x) = sin^{-1}x$.</p><p><br></p><p>Q. $g(y) + g (\\sqrt {1-y^2})$ এর মান নিচের কোনটি?</p>",
+    "options": [
+      "$\\pi $",
+      "$2\\pi $",
+      "$\\pi \\over 2$",
+      "$\\pi \\over 3$"
+    ],
+    "answer": "$\\pi \\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 7662,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$f(x) = tan x$ এবং $g(x) = sin^{-1}x$.</p><p><br></p><p>Q. $f(x) f(2x) = 1$ হলে x এর মান কত?</p>",
+    "options": [
+      "$n\\pi \\pm {\\pi \\over 6}, n \\epsilon z$",
+      "$n\\pi \\pm {\\pi \\over 3}, n \\epsilon z$",
+      "$2n\\pi \\pm {\\pi \\over 3}, n \\epsilon z$",
+      "$2n\\pi \\pm {\\pi \\over 6}, n \\epsilon z$"
+    ],
+    "answer": "$n\\pi \\pm {\\pi \\over 6}, n \\epsilon z$",
+    "explanation": "<p>তথ্য-ব্যাখ্যা : $\\tan x \\tan 2 x=1$</p><p>বা, $\\tan x \\cdot \\frac{2 \\tan x}{1-\\tan ^2 x}=1$</p><p>বা, $2 \\tan ^2 x=1-\\tan ^2 x$ বা, $3 \\tan ^2 x=1$</p><p>বা. $\\tan x= \\pm \\frac{1}{\\sqrt{3}}=\\tan \\left( \\pm \\frac{\\pi}{6}\\right) \\therefore x=n \\pi \\pm \\frac{\\pi}{6}, n \\in Z$</p>"
+  },
+  {
+    "id": 7663,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$(x - 4)^2 = - 4(y - 5)$ পরাবৃত্তের নিয়ামকের সমীকরণ নিচের কোনটি?",
+    "options": [
+      "x = 4",
+      "y=6",
+      "x = 5",
+      "y=5"
+    ],
+    "answer": "y=6",
+    "explanation": ""
+  },
+  {
+    "id": 7664,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>$y^2 = - 12x$ পরাবৃত্তের - </p><p><br/>i. উপকেন্দ্রিক লম্বের দৈর্ঘ্য 16 একক </p><p><br/>ii. অক্ষের সমীকরণ y = 0</p><p><br/>iii. নিয়ামকের সমীকরণ x = 3</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7665,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$8x^2 + 3y^2 = 1$ একটি উপবৃত্তের সমীকরণ। </p><p><br></p><p>Q. উপবৃত্তটির উপকেন্দ্রিক লম্বের দৈর্ঘ্য নিচের কোনটি?</p>",
+    "options": [
+      "$\\sqrt 2\\over 3$",
+      "$\\sqrt 3\\over 2$",
+      "$2\\sqrt 2\\over 3$",
+      "$\\sqrt 3\\over 4$"
+    ],
+    "answer": "$\\sqrt 3\\over 4$",
+    "explanation": ""
+  },
+  {
+    "id": 7666,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$8x^2 + 3y^2 = 1$ একটি উপবৃত্তের সমীকরণ। </p><p><br></p><p>Q. উপবৃত্তটির শীর্ষ বিন্দুর স্থানাঙ্ক নিচের কোনটি?</p>",
+    "options": [
+      "$(0, \\pm {1\\over \\sqrt 3})$",
+      "$(\\pm {1\\over \\sqrt 3}, 0)$",
+      "$(0, \\pm {2\\over \\sqrt 3})$",
+      "$(\\pm {2\\over \\sqrt 3}, 0)$"
+    ],
+    "answer": "$(0, \\pm {1\\over \\sqrt 3})$",
+    "explanation": "<p>শীর্ষ $(0, \\pm b)=\\left(0, \\pm \\frac{1}{\\sqrt{3}}\\right)$</p>"
+  },
+  {
+    "id": 7667,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$x^2 – y^2 = 18$ অধিবৃত্তের ফোকাসদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+    "options": [
+      "6",
+      "12",
+      "16",
+      "18"
+    ],
+    "answer": "12",
+    "explanation": "<p>$\\begin{aligned} &amp; \\mathrm{x}^2-\\mathrm{y}^2=18 \\text { বা, } \\frac{\\mathrm{x}^2}{18}-\\frac{\\mathrm{y}^2}{18}=1 \\\\ &amp; \\therefore \\mathrm{a}^2=18, \\mathrm{~b}^2=18 \\\\ &amp; \\therefore \\mathrm{e}=\\sqrt{1+\\frac{\\mathrm{b}^2}{\\mathrm{a}^2}}=\\sqrt{1+\\frac{18}{18}}=\\sqrt{2}\\end{aligned}$</p><p>$\\therefore$ ফোকাসদ্বয়ের মধ্যবর্তী দূরত্ব $=2 \\mathrm{ae}=2 \\times 3 \\sqrt{2} \\times \\sqrt{2}=12$.</p>"
+  },
+  {
+    "id": 7668,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>3P ও 5P মানের দুইটি বল পরস্পর লম্বভাবে ক্রিয়া করে। তাদের লব্ধির মান কত?</p>",
+    "options": [
+      "3P",
+      "$2\\sqrt 2P$",
+      "$\\sqrt {34}P$",
+      "$\\sqrt {43}P$"
+    ],
+    "answer": "$\\sqrt {34}P$",
+    "explanation": "<p> লব্ধি R $=\\sqrt{(3 \\mathrm{P})^2+(5 \\mathrm{P})^2}$ </p><p>$=\\sqrt{9 \\mathrm{P}^2+25 \\mathrm{P}^2}=\\sqrt{34 \\mathrm{P}^2}=\\sqrt{34} \\mathrm{P}$</p>"
+  },
+  {
+    "id": 7669,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>যদি √5 এককের দুইটি সমান বল 120° কোণে এক বিন্দুতে কাজ করে, তাহলে- </p><p><br/>i. তাদের লব্ধি √5 একক</p><p><br/>ii. √5 একক বলের সাথে লব্ধি 60° কোণ উৎপন্ন করে</p><p><br/>iii. লব্ধি বলদ্বয়ের যোগফল অপেক্ষা ছোট</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 7670,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "$P, \\sqrt 3P, P$ বল তিনটি সাম্যাবস্থায় আছে | Pও $\\sqrt 3 P$ বলের মধ্যবর্তী কোণ কত?",
+    "options": [
+      "90°",
+      "120°",
+      "130°",
+      "150°"
+    ],
+    "answer": "150°",
+    "explanation": ""
+  },
+  {
+    "id": 7671,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "একজন ক্রিকেটার একটি ক্রিকেট বলকে আনুভূমিকের সাথে 60° কোণে 20 মিটার/সে. বেগে আঘাত করলে বলটির বিচরণকাল কত?",
+    "options": [
+      "$10\\over g$ সে.",
+      "$10\\sqrt 3\\over g$ সে.",
+      "$20\\over g$ সে.",
+      "$20\\sqrt 3\\over g$ সে."
+    ],
+    "answer": "$20\\sqrt 3\\over g$ সে.",
+    "explanation": "<p>বিচরণকাল, $T=\\frac{2 u \\sin \\alpha}{g}=\\frac{2 \\times 20 \\times \\sin 60^{\\circ}}{g}=\\frac{20 \\sqrt{3}}{g}$</p>"
+  },
+  {
+    "id": 7672,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "<p>19.6 মিটার / সে. আদিবেগে ভূমির সাথে 45° কোণে একটি বস্তুকণা শূন্যে নিক্ষেপ করা হলে সর্বাধিক কত মিটার উচ্চতায় উঠবে? </p>",
+    "options": [
+      "9.8 মিটার",
+      "11.025 মিটার",
+      "10 মিটার",
+      "12 মিটার"
+    ],
+    "answer": "9.8 মিটার",
+    "explanation": "<p>সর্বাধিক উচ্চতা, $\\mathrm{H}=\\frac{u^2 \\sin ^2 \\alpha}{2 \\mathrm{~g}}=\\frac{(19.6)^2 \\cdot \\sin ^2 45^{\\circ}}{2 \\times 9.8}=9.8$ মিটার</p>"
+  },
+  {
+    "id": 7673,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2022",
+    "board": "Barisal",
+    "question": "30 মিটার/সেকেন্ড বেগে নিক্ষিপ্ত প্রক্ষেপকের পাল্লা 60 মিটার হলে নিক্ষেপণ কোণ কত হবে?",
+    "options": [
+      "20.39°",
+      "25°",
+      "30°",
+      "32.35°"
+    ],
+    "answer": "20.39°",
+    "explanation": ""
+  }
+]

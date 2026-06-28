@@ -3502,21 +3502,5 @@
     ],
     "answer": "O",
     "explanation": "<p>$ \\left|\\begin{array}{ccc}l+m &amp; 1 &amp; n \\\\ m+n &amp; 1 &amp; l \\\\ n+l &amp; 1 &amp; m\\end{array}\\right|=\\left|\\begin{array}{ccc}l+m+n &amp; 1 &amp; n \\\\ l+m+n &amp; 1 &amp; l \\\\ l+m+n &amp; 1 &amp; m\\end{array}\\right|$</p><p>$\\left[c_1^{\\prime}=c_1+c_3\\right] $</p><p>$=(l+m+n)\\left|\\begin{array}{ccc}1 &amp; 1 &amp; n \\\\ 1 &amp; 1 &amp; l \\\\ 1 &amp; 1 &amp; m\\end{array}\\right| $</p><p>$ =(l+m+n) \\cdot 0 $ [১ম দুই কলামের মান একই] </p><p>$= 0.$</p>"
-  },
-  {
-    "id": 6911,
-    "subject": "Math 1st Paper",
-    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
-    "year": "2017",
-    "board": "Comilla",
-    "question": "<p>$A=\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\end{vmatrix}$ এর মান-</p><p><br/>i. $A=\\begin{vmatrix}\\alpha_1&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>ii. $A=\\begin{vmatrix}\\alpha_1+c\\alpha_2&amp;\\alpha_2&amp;-\\alpha_3\\\\\\beta_1-c\\beta_2&amp;-\\beta_2&amp;\\beta_3\\\\\\gamma_1+c\\gamma_2&amp;\\gamma_2&amp;-\\gamma_3\\end{vmatrix}$ এর মানের সমান</p><p><br/>iii. $A=-\\begin{vmatrix}\\alpha_1&amp;\\beta_1&amp;\\gamma_1\\\\-\\alpha_3&amp;\\beta_3&amp;-\\gamma_3\\\\\\alpha_2&amp;-\\beta_2&amp;\\gamma_2\\end{vmatrix}$ এর মানের সমান</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
-    "options": [
-      "i",
-      "ii",
-      "i ও ii",
-      "i, ii ও iii"
-    ],
-    "answer": "i ও ii",
-    "explanation": ""
   }
 ]

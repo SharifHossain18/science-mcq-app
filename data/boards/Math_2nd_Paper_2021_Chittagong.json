@@ -1,0 +1,402 @@
+[
+  {
+    "id": 7849,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>4 একক দূরত্বে P ও Q বিন্দুতে ক্রিয়ারত 3 ও 6 একক সমান্তরাল বলদ্বয় -</p><p><br/>i. সদৃশ হলে লব্ধি 9 একক</p><p><br/>ii. অসদৃশ হলে লব্ধি 3 একক</p><p><br/>iii. অসদৃশ এবং লব্ধি R বিন্দুগামী হলে QR = 4</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i, ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7850,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$f( x ) = 1 + 3x - 2x^2$ </p><p><br></p><p>Q. f এর গরিষ্ঠ মান কত?</p>",
+    "options": [
+      "$-{17\\over 8}$",
+      "$-{1\\over 8}$",
+      "${1\\over 8}$",
+      "${17\\over 8}$"
+    ],
+    "answer": "${17\\over 8}$",
+    "explanation": ""
+  },
+  {
+    "id": 7851,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও:</p><p><br></p><p>$f( x ) = 1 + 3x - 2x^2$ </p><p><br></p><p>Q. $f(x) = 0$ এর মূলঘর $\\alpha $ ও $\\beta $ হলে $-\\alpha $ ও $-\\beta $ মূলবিশিষ্ট সমীকরণ নিচের কোনটি?</p>",
+    "options": [
+      "$2x^2-3x+1=0$",
+      "$2x^2+3x-1=0$",
+      "$2x^2-3x-1=0$",
+      "$2x^2+3x+1=0$"
+    ],
+    "answer": "$2x^2+3x-1=0$",
+    "explanation": ""
+  },
+  {
+    "id": 7852,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$4x^2+y^2=1$ দ্বারা নির্দেশিত কণিকটির উৎকেন্দ্রিকতা কত?",
+    "options": [
+      "$2\\over \\sqrt 5$",
+      "$2\\over \\sqrt 3$",
+      "$\\sqrt 3\\over 2$",
+      "$\\sqrt 5\\over 2$"
+    ],
+    "answer": "$\\sqrt 3\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 7853,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$2x^2-kx + 2 =0$ সমীকরণের মূলদ্বয় বাস্তব ও অসমান হলে k এর মান কত?",
+    "options": [
+      "(-4,4)",
+      "(-4,4]",
+      "$(-\\infty, -4)\\cup (4, \\infty)$",
+      "$(-\\infty, -4]\\cup ]4, \\infty)$"
+    ],
+    "answer": "$(-\\infty, -4)\\cup (4, \\infty)$",
+    "explanation": ""
+  },
+  {
+    "id": 7854,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "একটি অধিবৃত্তের উপর যে কোনো বিন্দুর পরামিতিক স্থানাঙ্ক $( 4sec\\theta , 6tan\\theta )$, অধিবৃত্তটির সমীকরণ-",
+    "options": [
+      "$16x^2 + 25y^2 = 400$",
+      "$16x^2 - 25y^2 = 400$",
+      "$9x^2 - 4y^2 = 144$",
+      "$4x^2 - 9y^2 = 144$"
+    ],
+    "answer": "$9x^2 - 4y^2 = 144$",
+    "explanation": "<p>$(\\mathrm{a} \\sec \\theta, \\mathrm{b} \\tan \\theta) \\equiv(4 \\sec \\theta, 6 \\tan \\theta) ;$ </p><p>$\\therefore \\mathrm{a}=4$  এবং $\\mathrm{b}=6$</p><p>অধিবৃত্তের সমীকরণ, $\\frac{x^2}{4^2}-\\frac{y^2}{6^2}=1 \\Rightarrow \\frac{x^2}{16}-\\frac{y^2}{36}=1 \\Rightarrow 9 x^2-4 y^2=144$</p>"
+  },
+  {
+    "id": 7855,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$f(x) = cosec (cot^{-1}x)$ হলে f(2) এর মান কত?",
+    "options": [
+      "$1\\over \\sqrt 5$",
+      "$1\\over 3$",
+      "$\\sqrt 5$",
+      "3"
+    ],
+    "answer": "$\\sqrt 5$",
+    "explanation": ""
+  },
+  {
+    "id": 7856,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও: </p><p><br></p><p>10N SN মানের বলদ্বয় একটি বিন্দুতে পরস্পর 120° কোণে ক্রিয়া।</p><p><br></p><p>Q. বলদ্বয়ের লব্ধির মান কত?</p>",
+    "options": [
+      "3√5 N",
+      "5√3N",
+      "5√7N",
+      "7√5N"
+    ],
+    "answer": "5√3N",
+    "explanation": ""
+  },
+  {
+    "id": 7857,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও: </p><p><br></p><p>10N SN মানের <span style=\"background-color: rgb(243, 244, 246);\">বলদ্বয</span>় একটি বিন্দুতে পরস্পর 120° কোণে ক্রিয়া।</p><p><br></p><p>Q. লব্ধিবলের ক্রিয়ারেখা বৃহত্তর বলটির সাথে কত কোণে অবস্থান করে?</p>",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "30°",
+    "explanation": "<p>$\\begin{aligned} &amp; \\tan \\theta=\\frac{5 \\sin 120^{\\circ}}{10+5 \\cos 120^{\\circ}}=\\frac{\\frac{5 \\sqrt{3}}{2}}{10-\\frac{5}{2}}=\\frac{5 \\sqrt{3}}{20-5}=\\frac{\\sqrt{3}}{3}=\\frac{1}{\\sqrt{3}} \\\\ &amp; \\therefore \\theta=30^{\\circ}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7858,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>$x^2=1- y$ পরাবৃত্তটির-</p><p><br/>i. শীর্ষবিন্দু (1, 0)</p><p><br/>ii. উপকেন্দ্র $0, {3\\over 4}$</p><p><br/>iii. নিয়ামক রেখার সমীকরণ 4y = 5</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "ii and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7859,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "এক বিন্দুতে ক্রিয়ারত তিনটি বল P, $\\sqrt 3$P, P সাম্যাবস্থায় থাকলে প্রথমোক্ত বল দুইটির মধ্যবর্তী কোণ কত?",
+    "options": [
+      "30°",
+      "60°",
+      "120°",
+      "150°"
+    ],
+    "answer": "150°",
+    "explanation": "<p>$\\begin{aligned} &amp; P=\\sqrt{P^2+3 P^2+2 \\cdot P \\cdot \\sqrt{3} P \\cos \\alpha} \\\\ &amp; \\Rightarrow P^2=4 P^2+2 \\sqrt{3} P^2 \\cos \\alpha \\Rightarrow 2 \\sqrt{3} P^2 \\cos \\alpha=-3 P^2\\end{aligned}$</p><p>$\\Rightarrow \\cos \\alpha=-\\frac{\\sqrt{3}}{2}=\\cos 150^{\\circ} \\quad \\therefore \\alpha=150^{\\circ}$</p>"
+  },
+  {
+    "id": 7860,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "নিচের কোনটি $sin (2sin^{-1}x)$ এর মান?",
+    "options": [
+      "$2x\\sqrt {x^2-1}$",
+      "$2x\\sqrt {1-x^2}$",
+      "$2x\\over 1-x^2$",
+      "$2x\\over 1+x^2$"
+    ],
+    "answer": "$2x\\sqrt {1-x^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7861,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$x^2-kx-6=0$ সমীকরণের একটি মূল - 6 হলে অপর মূলটি কত?",
+    "options": [
+      "-5",
+      "-1",
+      "1",
+      "5"
+    ],
+    "answer": "1",
+    "explanation": "<p>$x^2-k x-6=0 \\Rightarrow x^2-k x+(-6) .1=0$</p><p>$\\therefore$ অপর মূলটি 1</p>"
+  },
+  {
+    "id": 7862,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$9x^2-4y^2 + 36=0$ একটি অধিবৃত্তের সমীকরণ।</p><p><br></p><p>Q. অধিবৃত্তটির আড় অক্ষের দৈর্ঘ্য কত?</p>",
+    "options": [
+      "4",
+      "<p>6</p>",
+      "18",
+      "12"
+    ],
+    "answer": "<p>6</p>",
+    "explanation": ""
+  },
+  {
+    "id": 7863,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>নিচের তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত </strong>প্রশ্নের উত্তর দাও: </p><p><br></p><p>$9x^2-4y^2 + 36=0$ একটি অধিবৃত্তের সমীকরণ।</p><p><br></p><p>Q. অধিবৃত্তটির উপকেন্দ্রের স্থনাঙ্ক কত?</p>",
+    "options": [
+      "$(\\pm \\sqrt {13} ,\\ 0)$",
+      "$(\\pm \\sqrt {5} ,\\ 0)$",
+      "$(0, \\ \\pm 5)$",
+      "$(0,\\pm \\sqrt {13} $"
+    ],
+    "answer": "$(0,\\pm \\sqrt {13} $",
+    "explanation": ""
+  },
+  {
+    "id": 7864,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$2cos\\theta + 1 = 0$ এর সাধারণ সমাধান কোনটি?",
+    "options": [
+      "$2n\\pi\\pm {\\pi\\over 6,\\ n\\in \\mathbb{Z}}$",
+      "$2n\\pi\\pm {\\pi\\over 3,\\ n\\in \\mathbb{Z}}$",
+      "<p>$2n\\pi\\pm {2\\pi\\over 3,\\ n\\in \\mathbb{Z}}$</p>",
+      "$2n\\pi\\pm {5\\pi\\over 6,\\ n\\in \\mathbb{Z}}$"
+    ],
+    "answer": "<p>$2n\\pi\\pm {2\\pi\\over 3,\\ n\\in \\mathbb{Z}}$</p>",
+    "explanation": ""
+  },
+  {
+    "id": 7865,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$x^3- 4x + 3 = 0$ সমীকরণের মূলগুলো a, b, c হলে $\\sum a$ এর মান কত?",
+    "options": [
+      "-4",
+      "-3",
+      "0",
+      "4"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 7866,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "যদি $x^2+x+2=0$ সমীকরণের মূলদ্বয় $\\alpha$ ও $\\beta$ হয় তবে ${1\\over \\alpha}+{1\\over \\beta}$ এর মান কত?",
+    "options": [
+      "-1",
+      "-1/2",
+      "1/2",
+      "2"
+    ],
+    "answer": "-1/2",
+    "explanation": ""
+  },
+  {
+    "id": 7867,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও: </p><p><br></p><p>p = cos$\\theta$, q=sin$\\theta$</p><p><br></p><p>Q. sec$\\theta$ এর মান কোনটি?</p>",
+    "options": [
+      "$1\\over \\sqrt {1-q^2}$",
+      "$\\sqrt {1-q^2}$",
+      "$1\\over \\sqrt {q^2-1}$",
+      "$\\sqrt {q^2-1}$"
+    ],
+    "answer": "$1\\over \\sqrt {1-q^2}$",
+    "explanation": ""
+  },
+  {
+    "id": 7868,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>তথ্যের আলোকে <strong style=\"background-color: rgb(243, 244, 246);\">নিম্নোক্ত</strong> প্রশ্নের উত্তর দাও: </p><p><br></p><p>p = cos$\\theta$, q=sin$\\theta$</p><p><br></p><p>Q. $p-\\sqrt 3q=0$ এর সাধারণ সমাধান কোনটি?</p>",
+    "options": [
+      "$n\\pi-{\\pi\\over 6},\\ n\\in \\mathbb{Z}$",
+      "$n\\pi-{\\pi\\over 2},\\ n\\in \\mathbb{Z}$",
+      "$n\\pi+{\\pi\\over 6},\\ n\\in \\mathbb{Z}$",
+      "$n\\pi+{\\pi\\over 2},\\ n\\in \\mathbb{Z}$"
+    ],
+    "answer": "$n\\pi+{\\pi\\over 6},\\ n\\in \\mathbb{Z}$",
+    "explanation": "<p>$\\begin{aligned} &amp; p-\\sqrt{3} q=0 \\Rightarrow \\cos \\theta-\\sqrt{3} \\sin \\theta=0 \\Rightarrow \\sqrt{3} \\sin \\theta=\\cos \\theta \\\\ &amp; \\Rightarrow \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan \\frac{\\pi}{6} \\therefore \\theta=n \\pi+\\frac{\\pi}{6}\\end{aligned}$</p>"
+  },
+  {
+    "id": 7869,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "$3x^2 - px+4 = 0$ সমীকরণের একটি মূল অপরটির তিনগুণ হলে p এর মান কত?",
+    "options": [
+      "$\\pm 3$",
+      "$\\pm 2 \\sqrt 2$",
+      "$\\pm 6$",
+      "$\\pm 8$"
+    ],
+    "answer": "$\\pm 8$",
+    "explanation": ""
+  },
+  {
+    "id": 7870,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>${(x-1)^2\\over 9}+{y^2\\over 16}=1$ উপবৃত্তটির -</p><p><br/>i. কেন্দ্রের স্থানাঙ্ক ( 1, 0 ) </p><p><br/>ii. উপকেন্দ্রের স্থানাঙ্ক (0, $\\pm$7)</p><p><br/>iii. বৃহৎ অক্ষের দৈর্ঘ্য ৪</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i and ii",
+      "i and iii",
+      "ii and iii",
+      "i, ii and iii"
+    ],
+    "answer": "i and iii",
+    "explanation": ""
+  },
+  {
+    "id": 7871,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "একই বিন্দুতে ক্রিয়ারত 7N মানের দুইটি সমান বলের লব্ধি 7N, বলদ্বয়ের অন্তর্ভুক্ত কোণ কত?",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "answer": "120°",
+    "explanation": ""
+  },
+  {
+    "id": 7872,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>কোনো জড় বস্তুর উপর A ও B বিন্দুতে যথাক্রমে 12 N এবং 24 N মানের দুইটি অসদৃশ সমান্তরাল বল ক্রিয়ারত আছে। যদি তাদের লব্ধির ক্রিয়াবিন্দু BA এর বর্ধিতাংশকে C বিন্দুতে ছেদ করে তবে AB : BC = কত?&nbsp;</p>",
+    "options": [
+      "$3: 7$",
+      "$4: 7$",
+      "$7: 3$",
+      "$7: 4$"
+    ],
+    "answer": "$3: 7$",
+    "explanation": ""
+  },
+  {
+    "id": 7873,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2021",
+    "board": "Chittagong",
+    "question": "<p>$2 x^2-p x+8$ রাশিটি একটি পূর্ণবর্গ হলে p এর মান কত?</p>",
+    "options": [
+      "$\\pm 2 \\sqrt{2}$",
+      "$\\pm 4$",
+      "$\\pm 4 \\sqrt{2}$",
+      "$\\pm 8$"
+    ],
+    "answer": "$\\pm 8$",
+    "explanation": ""
+  }
+]

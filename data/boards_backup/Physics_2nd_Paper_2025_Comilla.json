@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1599,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটির ক্ষেত্রে যোজন ব্যান্ড এবং পরিবহন ব্যান্ডের ইলেকট্রনের শক্তির উপরিপাতন ঘটে?</p>",
+    "options": [
+      "পরিবাহী",
+      "অর্ধপরিবাহী",
+      "অন্তরক",
+      "কুপরিবাহী"
+    ],
+    "answer": "পরিবাহী",
+    "explanation": "<p>পরিবাহী পদার্থে যোজন ব্যান্ডের উপরাংশ ও পরিবহন ব্যান্ডের নিম্নাংশের উপরিপাতন হয়। অর্থাৎ পরিবহন ব্যান্ড ও যোজন ব্যান্ডের মধ্যে কোনো শক্তি ব্যবধান থাকে না। ফলে যোজ্যতা ইলেক্ট্রনগুলো অনায়াসেই পরিবহন ইলেক্ট্রনে পরিণত হতে পারে।</p>"
+  },
+  {
+    "id": 1600,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিম্নলিখিত উদ্দীপক অনুসারে প্রশ্নের উত্তর দাও:</p><p>কমন বেস ট্রানজিস্টরের বিবর্ধকের ইনপুট ও আউটপুটের রোধ যথাক্রমে $300 \\Omega$ এবং $300 \\mathrm{k} \\Omega$। নিঃসারক প্রবাহমাত্রা 2 mA এবং $\\alpha=0.98$ </p><p>Q. ভোল্টেজ বিবর্ধন কত?</p>",
+    "options": [
+      "98000",
+      "88000",
+      "70000",
+      "980"
+    ],
+    "answer": "980",
+    "explanation": "<p>কমন বেজ ট্রানজিস্টরের জন্য ইনপুট প্রবাহ হচ্ছে নিঃসারক প্রবাহ $\\left(I_E\\right)$ এবং আউটপুট প্রবাহ হচ্ছে সংগ্রাহক প্রবাহ $\\left(I_c\\right)$।</p><p>অর্থাৎ, ভোল্টেজ গেইন,</p><p>এখানে, $\\mathrm{R}_{\\mathrm{in}}=300 \\Omega$</p><p>$\\begin{aligned} \\mathrm{R}_{\\mathrm{L}} &amp; =300 \\mathrm{k} \\Omega \\\\ &amp; =300 \\times 10^3 \\Omega \\\\ &amp; =3 \\times 10^5 \\Omega \\end{aligned}$</p><p><br></p><p>$\\begin{aligned} &amp; A_v=\\frac{V_{\\text {out }}}{V_{\\text {in }}}=\\frac{I_c \\times R_L}{I_E \\times R_{\\text {in }}}=\\frac{I_c}{I_E} \\times \\frac{R_L}{R_{\\text {in }}} \\\\ &amp; =\\alpha \\times \\frac{R_L}{R_{\\text {in }}}=0.98 \\times \\frac{3 \\times 10^5}{300}=980\\end{aligned}$</p>"
+  },
+  {
+    "id": 1601,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিম্নলিখিত উদ্দীপক অনুসারে প্রশ্নের উত্তর দাও:</p><p>কমন বেস ট্রানজিস্টরের বিবর্ধকের ইনপুট ও আউটপুটের রোধ যথাক্রমে $300 \\Omega$ এবং $300 \\mathrm{k} \\Omega$। নিঃসারক প্রবাহমাত্রা 2mA এবং $\\alpha=0.98$ </p><p>Q. বেস প্রবাহমাত্রা কত?</p>",
+    "options": [
+      "0.01 mA",
+      "0.04 mA",
+      "0.02 mA",
+      "0.06 mA"
+    ],
+    "answer": "0.04 mA",
+    "explanation": "<p>এখানে,</p><p>$\\begin{aligned} &amp; I_C=2 \\mathrm{~mA} \\\\ &amp; \\beta=49\\end{aligned}$</p><p>$\\begin{aligned} &amp; \\beta=\\frac{I_C}{I_B} \\\\ &amp; \\therefore I_B=\\frac{I_C}{\\beta}=\\frac{2}{49}=0.04 \\mathrm{~mA}\\end{aligned}$</p>"
+  },
+  {
+    "id": 1602,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 1: তাপগতিবিদ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>একটি রেফ্রিজারেটরের কর্মসম্পাদন সহগ 2.5। এটি শীতল তাপাধার হতে প্রতি চক্রে 300J তাপ গ্রহণ করে। রেফ্রিজারেটর চালানোর জন্য প্রতি চক্রে বাইরে থেকে কী পরিমাণ কাজ সম্পাদন করতে হবে?</p>",
+    "options": [
+      "120 J",
+      "240 J",
+      "2190 J",
+      "375 J"
+    ],
+    "answer": "120 J",
+    "explanation": "<p>কার্যসম্পাদন সহগ, $\\mathrm{K}=2.5, \\mathrm{Q}_2=300 \\mathrm{~J}$</p><p><br></p><p>আমরা জানি, $K=\\frac{Q_2}{W}$</p><p><br></p><p>বা, $\\mathrm{W}=\\frac{\\mathrm{Q}_2}{\\mathrm{~K}}=\\frac{300}{2.5}=120 \\mathrm{~J}$</p>"
+  },
+  {
+    "id": 1603,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 1: তাপগতিবিদ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>এনট্রপির মাত্রা কোনটি?</p>",
+    "options": [
+      "$\\left[\\mathrm{ML}^2 \\mathrm{~T}^3 \\theta^{-1}\\right]$",
+      "$\\left[\\mathrm{MLT}^{-2} \\theta^{-1}\\right]$",
+      "$\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-2} \\theta^{-1}\\right]$",
+      "$\\left[\\mathrm{ML}^2 \\mathrm{~T}^2 \\theta^{-2}\\right]$"
+    ],
+    "answer": "$\\left[\\mathrm{ML}^2 \\mathrm{~T}^{-2} \\theta^{-1}\\right]$",
+    "explanation": "<p>এনট্রপি, $\\mathrm{dS}=\\frac{\\mathrm{dQ}}{\\mathrm{T}}$</p><p>এনট্রপির মাত্রা</p><p>$=\\frac{\\mathrm{ML}^2 \\mathrm{~T}^{-2}}{\\theta}=\\mathrm{ML}^2 \\mathrm{~T}^{-2} \\theta^{-1}$</p>"
+  },
+  {
+    "id": 1604,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 1: তাপগতিবিদ্যা",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>একটি ইঞ্জিনের দক্ষতা যদি $\\eta$ হয়, তবে নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "$\\eta \\leq 1$",
+      "$\\eta<1$",
+      "$\\eta>1$",
+      "$\\eta \\geq 1$"
+    ],
+    "answer": "$\\eta<1$",
+    "explanation": "<p>আমরা জানি, $\\eta=1-\\frac{Q_2}{Q_1}$; কোনো ইঞ্জিন যদি তাপ বর্জন না করে অর্থাৎ $Q_2=0$ হলে, গৃহিত তাপ সম্পূর্ণরূপে কাজে পরিণত হবে অর্থাৎ $W=Q_1$ হবে। সেক্ষেত্রে $\\eta=1$ বা $100 \\%$ হবে যা বাস্তবে সম্ভব নয়। একারণে ইঞ্জিনের দক্ষতা সবসময় $\\eta&lt;1$ হয়।</p>"
+  },
+  {
+    "id": 1605,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p class=\"ql-align-justify\">একটি ইলেকট্রনকে $V_0$ বিভব পার্থক্যের মধ্যে রাখলে ইলেকট্রনের বেগ এবং প্রযুক্ত বিভব পার্থক্যের মধ্যে সম্পর্ক কোনটি?</p>",
+    "options": [
+      "$V=\\sqrt{\\frac{e V_0}{m}}$",
+      "$\\mathrm{V}=\\sqrt{\\frac{2 \\mathrm{eV}_0}{\\mathrm{~m}}}$",
+      "$\\mathrm{V}=\\frac{\\mathrm{eV}_{\\mathrm{o}}{ }^2}{\\mathrm{~m}}$",
+      "$\\mathrm{V}=\\frac{1}{2} \\mathrm{mV}_0^2$"
+    ],
+    "answer": "$\\mathrm{V}=\\sqrt{\\frac{2 \\mathrm{eV}_0}{\\mathrm{~m}}}$",
+    "explanation": "<p>আমরা জানি, $\\frac{1}{2} m v^2=e V_0$</p><p>বা, $\\mathrm{v}^2=\\frac{2 \\mathrm{eV}_0}{\\mathrm{~m}}$</p><p>$\\therefore v=\\sqrt{\\frac{2 e V_0}{m}}$</p><p>ইহাই ইলেক্ট্রনের বেগ ও প্রযুক্ত বিভব পার্থক্য $V_0$ এর মধ্যে সম্পর্ক।</p>"
+  },
+  {
+    "id": 1606,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>ফোটনের বৈশিষ্ট্য হলো-</p><p><br/>i.এর ডি-ব্রগলি তরঙ্গদৈর্ঘ্য আছে</p><p><br/>ii.এর চলমান ভর শূন্য</p><p><br/>iii.এটি শূন্য স্থানে আলোর বেগে চলে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 1607,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 2: স্থির তড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটি আধান ঘনত্বের একক?</p>",
+    "options": [
+      "$\\mathrm{~cm}^{-2}$",
+      "$\\mathrm{cm}^{-3}$",
+      "$\\mathrm{cm}^2$",
+      "$\\mathrm{cm}^3$"
+    ],
+    "answer": "$\\mathrm{~cm}^{-2}$",
+    "explanation": "<p>চার্জের তলমাত্রিক ঘনত্ব বা আধান ঘনত্বের $SI$ একক হলো :</p><p>কুলম্ব/মিটার${}^2$ $\\left(\\mathrm{Cm}^{-2}\\right)$</p>"
+  },
+  {
+    "id": 1608,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 10: অর্ধ-পরিবাহী ও ইলেকট্রনিক্স",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটি অন্তরক?</p>",
+    "options": [
+      "জার্মেনিয়াম",
+      "রুপা",
+      "তামা",
+      "হীরক"
+    ],
+    "answer": "হীরক",
+    "explanation": "<p>তড়িৎ সুপরিবাহী পদার্থ : তামা, রূপা, অ্যালুমিনিয়াম।</p><p>তড়িৎ অপরিবাহী পদার্থ : প্লাস্টিক, রাবার, কাঠ, কাচ, হীরক ইত্যাদি।</p><p>তড়িৎ অর্ধপরিবাহী বা অন্তরক পদার্থ: জার্মোনিয়াম, সিলিকন ইত্যাদি।</p>"
+  },
+  {
+    "id": 1609,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিচের কোনটির পরমাণুর নিউট্রন সংখ্যা সমান থাকে?</p>",
+    "options": [
+      "আইসোটোপ",
+      "আইসোবার",
+      "আইসোটোন",
+      "আইসোমার"
+    ],
+    "answer": "আইসোটোন",
+    "explanation": "<p>ভিন্ন পারমাণবিক সংখ্যার যেসব পরমাণুতে সমান সংখ্যক নিউট্রন থাকে তাদের আইসোটোন বলে।</p>"
+  },
+  {
+    "id": 1610,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>কোয়ান্টাম তত্ত্বের জনক কে?</p>",
+    "options": [
+      "আইনস্টাইন",
+      "স্টিফেন হকিং",
+      "ম্যাক্স প্ল্যাংক",
+      "ম্যাক্সওয়েল"
+    ],
+    "answer": "ম্যাক্স প্ল্যাংক",
+    "explanation": "<p><img src=\"data:image/png;base64,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\"></p>"
+  },
+  {
+    "id": 1611,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>ফটোতড়িৎ ক্রিয়ার বৈশিষ্ট্য-</p><p><br/>i. এটি একটি তাৎক্ষণিক ঘটনা</p><p><br/>ii. ফটোপ্রবাহ আপতিত আলোর কম্পাঙ্কের উপর নির্ভর করে</p><p><br/>iii. ফটো ইলেকট্রনের গতিশক্তি আপতিত আলোর তীব্রতার উপর নির্ভর করে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i",
+    "explanation": "<p>(i) আলোক তড়িৎ ক্রিয়া একটি তাৎক্ষণিক ঘটনা।</p><p>(ii) ফটো ইলেকট্রন নিঃসরণের হার আপতিত আলোর কম্পাঙ্কের সমানুপাতিক।</p><p>(iii) ফটো তড়িৎ প্রবাহমাত্রা আলোর তীব্রতার উপর নির্ভর করে।</p><p>শুধুমাত্র (i) সঠ<strong>(i)</strong></p>"
+  },
+  {
+    "id": 1612,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 7: ভৌত আলোকবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>$4000 \\AA$ তরঙ্গদৈর্ঘ্যের দুইটি একই বর্ণের আলোক তরঙ্গের মধ্যে পথ পার্থক্য $2 \\times 10^{-7} \\mathrm{~m}$ হলে, তাদের মধ্যে দশা পার্থক্য হবে-</p>",
+    "options": [
+      "$\\pi$",
+      "$2 \\pi$",
+      "$\\frac{3 \\pi}{2}$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "answer": "$\\pi$",
+    "explanation": "<p>এখানে,</p><p>পথ পার্থক্য, $\\sigma=2 \\times 10^{-7} \\mathrm{~m}$</p><p><br></p><p>তরঙ্গদৈর্ঘ্য, $\\lambda=4000 \\AA$</p><p><br></p><p>$\\begin{aligned} &amp; =4000 \\times 10^{-10} \\mathrm{~m} \\\\ &amp; =4 \\times 10^{-7} \\mathrm{~m} \\end{aligned}$</p><p><br></p><p>দশা পার্থক্য,</p><p>$\\begin{aligned} \\delta &amp; =\\frac{2 \\pi}{\\lambda} \\sigma \\\\ &amp; =\\frac{2 \\pi}{4 \\times 10^{-7}} \\times 2 \\times 10^{-7} \\\\ &amp; =\\pi\\end{aligned}$</p>"
+  },
+  {
+    "id": 1613,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>চলন্ত অবস্থায় রকেটের দৈর্ঘ্য এর স্থির অবস্থায় দৈর্ঘ্যের অর্ধেক হলে, এটি আলোর বেগের কত শতাংশে গতিশীল থাকে?</p>",
+    "options": [
+      "85.6%",
+      "86.6%",
+      "95.6%",
+      "97.6%"
+    ],
+    "answer": "86.6%",
+    "explanation": ""
+  },
+  {
+    "id": 1614,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিরাপত্তা ফিউজ এর বৈশিষ্ট্য কোনটি?</p>",
+    "options": [
+      "কম রোধ এবং উচ্চ গলনাঙ্ক",
+      "উচ্চ রোধ এবং উচ্চ গলনাঙ্ক",
+      "উচ্চ রোধ এবং কম গলনাঙ্ক",
+      "কম রোধ এবং কম গলনাঙ্ক"
+    ],
+    "answer": "উচ্চ রোধ এবং কম গলনাঙ্ক",
+    "explanation": "<p>নিরাপত্তা ফিউজের বৈশিষ্ট্য হলো- রোধ কম, গলনাঙ্ক কম, নির্দিষ্ট রেটিং, বৈদ্যুতিক সুরক্ষা, সহজ ব্যবহার ইত্যাদি।</p>"
+  },
+  {
+    "id": 1615,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p class=\"ql-align-justify\">$20 \\Omega$ রোধের একটি তামার তারকে টেনে এমনভাবে লম্বা করা হলো যে তারের দৈর্ঘ্য 3 গুণ এবং প্রস্থচ্ছেদের  ক্ষেত্রফল $\\frac{1}{3}$ গুণ হয়। তারের পরিবর্তিত রোধ কত?</p>",
+    "options": [
+      "$20 \\Omega$",
+      "$60 \\Omega$",
+      "$180 \\Omega$",
+      "$540 \\Omega$"
+    ],
+    "answer": "$180 \\Omega$",
+    "explanation": "<p>এখানে, $\\mathrm{R}_1=20 \\Omega, \\mathrm{~L}_2=3 \\mathrm{~L}_1, \\mathrm{~A}_2=\\frac{1}{3} \\mathrm{~A}_1$</p><p><br></p><p>$\\therefore \\frac{R_2}{R_1}=\\frac{\\frac{L_2}{A_2}}{\\frac{\\rho L_1}{A_1}}=\\frac{L_2}{A_2} \\times \\frac{A_1}{L_1}$</p><p>বা, $R_2=\\frac{L_2}{A_2} \\times \\frac{A_1}{L_1} \\times R_1=\\frac{3 L_1}{\\frac{1}{3} A_1} \\times \\frac{A_1}{L_1} \\times 20=180 \\Omega$</p>"
+  },
+  {
+    "id": 1616,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 3: চলতড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>ক্ষমতার একক-.</p><p><br/>i. $\\quad \\mathrm{A}^2 \\Omega$</p><p><br/>ii. $\\quad \\mathrm{V}^2 \\Omega^{-1}$</p><p><br/>iii. $\\quad \\mathrm{VA}^{-1}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>আমরা জানি, $\\mathrm{P}=\\mathrm{VI}=\\frac{\\mathrm{V}^2}{\\mathrm{R}}=\\mathrm{I}^2 \\mathrm{R}$</p><p>অর্থাৎ, ক্ষমতার একক VA বা, $\\mathrm{V}^2 \\Omega^{-1}$ বা, $\\mathrm{A}^2 \\Omega$</p><p>সুতরাং, (i) ও (ii) সঠিক ।</p>"
+  },
+  {
+    "id": 1617,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 2: স্থির তড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>একটি নির্দিষ্ট ধারকের সঞ্চিত শক্তি 36 গুণ করতে হলে এর আধান কত গুণ করতে হবে?</p>",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "6",
+    "explanation": "<p>$\\therefore \\frac{U_2}{U_1}=\\frac{\\frac{1}{2} \\frac{Q_2^2}{C}}{\\frac{1}{2} \\frac{Q_1^2}{C}}=\\frac{Q_2^2}{Q_1^2}$</p><p>বা, $\\frac{Q_2}{Q_1}=\\sqrt{\\frac{U_2}{U_1}}=\\sqrt{\\frac{36 U_1}{U_1}}=6$</p><p>$\\therefore Q_2=6 Q_1$</p>"
+  },
+  {
+    "id": 1618,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 8: আধুনিক পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>1 ইলেকট্রন ভোল্ট (1 eV) হলো-</p><p><br/>i. 1 Volt বিভব পার্থক্যে একটি ইলেকট্রন সরাতে কাজ</p><p><br/>ii. কোয়ান্টাম বলবিদ্যায় ব্যবহৃত শক্তির একক</p><p><br/>iii. $1 \\mathrm{eV}=1.6 \\times 10^{-19} \\mathrm{~J}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii, ও iii"
+    ],
+    "answer": "i, ii, ও iii",
+    "explanation": "<p>(i) 1 V বিভব পার্থক্যে একটি ইলেক্ট্রন সরাতে কৃতকাজই হলো 1 ইলেক্ট্রন ভোল্ট।</p><p>(ii) eV হলো শক্তির একটি একক যা অত্যন্ত ক্ষুদ্র মান বোঝাতে ব্যবহৃত হয়।</p><p>(iii) $1 \\mathrm{eV}=1 \\mathrm{e} \\times 1 \\mathrm{~V}=1.6 \\times 10^{-19} \\mathrm{C} \\times 1 \\mathrm{~V}=1.6 \\times 10^{-19} \\mathrm{~J}$</p><p>অর্থাৎ (i), (ii) ও (iii) সঠিক।</p>"
+  },
+  {
+    "id": 1619,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 2: স্থির তড়িৎ",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>তড়িৎ প্রাবল্য $E=b y^2$ ,যেখানে $b$ ধ্রুবক। তড়িৎ বিভব, $V=$ কত?</p>",
+    "options": [
+      "$-\\frac{b y^3}{3}$",
+      "$2 b y$",
+      "$-2 b y$",
+      "$\\frac{b y^3}{3}$"
+    ],
+    "answer": "$-\\frac{b y^3}{3}$",
+    "explanation": ""
+  },
+  {
+    "id": 1620,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>কোনো একটি তেজস্ক্রিয় পদার্থের অর্ধায় 10 দিন। কত দিনে ঐ পদার্থের 75% ক্ষয়প্রাপ্ত হবে?</p>",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": "20",
+    "explanation": "<p>$T_{\\frac{1}{2}}=10 d ; N=(100-75) \\% \\times N_0=25 \\% N_0=\\frac{1}{4} N_0$</p><p><br></p><p>আমরা জানি, $N=N_0 e^{-\\lambda t}$ বা, $N_0 e^{-\\lambda t}=\\frac{1}{4} N_0$ বা, $\\lambda t=\\ln 4$</p><p>বা, $t=\\frac{1}{\\lambda} \\ln 4=\\frac{1}{\\frac{\\ln 2}{T_{\\frac{1}{2}}}} \\ln 4=\\frac{\\ln 4}{\\ln 2} \\times T_{\\frac{1}{2}}=\\frac{\\ln 4}{\\ln 2} \\times 10 d=20 d$</p>"
+  },
+  {
+    "id": 1621,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিম্নলিখিত উদ্দীপক অনুসারে প্রশ্নের উত্তর দাও:</p><p>1.0 gm ভরের একটি তেজস্ক্রিয় বস্তু 55 দিনে 0.9 gm ভর হারায়।</p><p>Q. বস্তুটির অর্ধায় কত দিন?</p>",
+    "options": [
+      "12.30",
+      "16.55",
+      "14.05",
+      "18.50"
+    ],
+    "answer": "16.55",
+    "explanation": "<p>আমরা জানি, $\\mathrm{M}=\\mathrm{M}_0 \\mathrm{e}^{-\\lambda \\mathrm{t}}$</p><p>বা, $0.1=1 \\times \\mathrm{e}^{-\\lambda \\times 55}$ বা, $\\lambda=0.041865$</p><p>বা, $\\frac{\\ln 2}{\\mathrm{~T}_{\\frac{1}{2}}}=0,041865 \\therefore \\mathrm{~T}_{1 / 2}=\\frac{\\ln 2}{0.041865}=16.55 \\mathrm{~d}$</p>"
+  },
+  {
+    "id": 1622,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 9: পরমাণুর মডেল ও নিউক্লিয়ার পদার্থবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>নিম্নলিখিত উদ্দীপক অনুসারে প্রশ্নের উত্তর দাও:</p><p>1.0 gm ভরের একটি তেজস্ক্রিয় বস্তু 55 দিনে 0.9 gm ভর হারায়।</p><p>Q. বস্তুটির সম্পূর্ণ ক্ষয় হতে কত দিন লাগবে?</p>",
+    "options": [
+      "0",
+      "50",
+      "100",
+      "<p>$\\infty$</p>"
+    ],
+    "answer": "<p>$\\infty$</p>",
+    "explanation": "<p>কোনো তেজস্ক্রিয় পদার্থের নিঃশেষকাল অসীম। অর্থাৎ, $t=\\infty$ </p>"
+  },
+  {
+    "id": 1623,
+    "subject": "Physics 2nd Paper",
+    "chapter": "Chapter 7: ভৌত আলোকবিজ্ঞান",
+    "year": "2025",
+    "board": "Comilla",
+    "question": "<p>টাকার জল ছাপ এর সঠিকতা নিরূপণে কোন রশ্মি ব্যবহার হয়?</p>",
+    "options": [
+      "এক্স রশ্মি",
+      "অতিবেগুনি রশ্মি",
+      "গামা রশ্মি",
+      "বিটা রশ্মি"
+    ],
+    "answer": "অতিবেগুনি রশ্মি",
+    "explanation": ""
+  }
+]

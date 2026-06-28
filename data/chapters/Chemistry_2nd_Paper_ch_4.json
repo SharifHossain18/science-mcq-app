@@ -320,22 +320,6 @@
     "explanation": "<p>Cr এর জারন মানের পরিবর্তন হয় +৬</p>"
   },
   {
-    "id": 5598,
-    "subject": "Chemistry 2nd Paper",
-    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
-    "year": "2017",
-    "board": "Comilla",
-    "question": "<p>পানির বিশুদ্ধতা নির্ণয়ের মানদন্ড হলো-</p><p><br/>i. BDO</p><p><br/>ii. TDS</p><p><br/>iii. ETP</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
-    "options": [
-      "i ও ii",
-      "ii ও iii",
-      "i ও iii",
-      "i, ii ও iii"
-    ],
-    "answer": "i ও ii",
-    "explanation": "<p>ETP হল পানি দূষনমুক্ত করার প্রক্রিয়া</p>"
-  },
-  {
     "id": 5526,
     "subject": "Chemistry 2nd Paper",
     "chapter": "Chapter 3: পরিমাণগত রসায়ন",
@@ -1456,6 +1440,22 @@
     "explanation": "<p>(i) নির্দেশক বিক্রিয়ার শেষ বিন্দু নির্দেশ করে।</p><p>(ii) অপশন ভুল। কারণ নির্দেশক বিক্রিয়াকে প্রভাবিত করতে পারে না।</p><p>(iii) নিজের বর্ণ পরিবর্তন করে কোনো যৌগ অম্ল, ক্ষার বা নিরপেক্ষ হবে তা নির্দেশ করে।</p>"
   },
   {
+    "id": 5474,
+    "subject": "Chemistry 2nd Paper",
+    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
+    "year": "2019",
+    "board": "Sylhet",
+    "question": "<p>পেপার শিল্পে বিজারক হিসাবে ব্যবহার হয় কোনটি?</p>",
+    "options": [
+      "<p>H<sub>2</sub>O<sub>2</sub></p>",
+      "<p>NaHSO<sub>3</sub></p>",
+      "<p>Cl<sub>2</sub>O<sub>7</sub></p>",
+      "<p>KMnO<sub>4</sub></p>"
+    ],
+    "answer": "<p>H<sub>2</sub>O<sub>2</sub></p>",
+    "explanation": ""
+  },
+  {
     "id": 5477,
     "subject": "Chemistry 2nd Paper",
     "chapter": "Chapter 3: পরিমাণগত রসায়ন",
@@ -1501,22 +1501,6 @@
       "980 ppm"
     ],
     "answer": "980 ppm",
-    "explanation": ""
-  },
-  {
-    "id": 5490,
-    "subject": "Chemistry 2nd Paper",
-    "chapter": "Chapter 3: পরিমাণগত রসায়ন",
-    "year": "2019",
-    "board": "Sylhet",
-    "question": "পানীয় জলে WHO কর্তৃক অনুমোদিত pH মান কত?",
-    "options": [
-      "3.5 হতে 6.4",
-      "6.5 হতে 8.5",
-      "7.5 হতে 12.0",
-      "9.5 হতে 12.0"
-    ],
-    "answer": "6.5 হতে 8.5",
     "explanation": ""
   },
   {

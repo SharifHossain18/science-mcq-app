@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8273,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "২,৫,৮ তথ্য সারির পরিসর কত?",
+    "options": [
+      "৩",
+      "৬",
+      "৭",
+      "১০"
+    ],
+    "answer": "৬",
+    "explanation": ""
+  },
+  {
+    "id": 8274,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "সমবিন্দু দুইটি বলের লব্ধি বৃহত্তম হয় যখন বলদ্বয়ের অর্ন্তগত কোণ-",
+    "options": [
+      "$০^০$",
+      "$৪৫^০$",
+      "$৯০^০$",
+      "$১৮০^০$"
+    ],
+    "answer": "$০^০$",
+    "explanation": ""
+  },
+  {
+    "id": 8275,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "একটি কণা স্থিরবস্থা হতে  2$ms^{-2}$ সমত্বরণে ১ম সেকেন্ডে 1m দূরত্ব অতিক্রম করে। পরর্বতী 1 সেকেন্ডে কণাটির অতিক্রান্ত দূরত্ব কত?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": ""
+  },
+  {
+    "id": 8276,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>কেন্দ্রবিহীন কণিক কোনটি?</p>",
+    "options": [
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "উপবৃত্ত",
+      "অধিবৃত্ত"
+    ],
+    "answer": "পরাবৃত্ত",
+    "explanation": ""
+  },
+  {
+    "id": 8277,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$\\theta=(2n+1)\\Pi,n\\in Z$ হবে যখন-",
+    "options": [
+      "$sin\\theta =1$",
+      "$cos\\theta =1$",
+      "$sin\\theta =-1$",
+      "$cos\\theta =-1$"
+    ],
+    "answer": "$cos\\theta =-1$",
+    "explanation": ""
+  },
+  {
+    "id": 8278,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$(1+{x\\over 3})^{-1}$ এর বিস্তৃতি অভিসারী হলে, নিচের কোনটি সঠিক?",
+    "options": [
+      "$\\vert x\\vert < 3$",
+      "$\\vert x\\vert \\leq 3$",
+      "$\\vert x\\vert > 3$",
+      "$\\vert x\\vert \\geq 3$"
+    ],
+    "answer": "$\\vert x\\vert < 3$",
+    "explanation": ""
+  },
+  {
+    "id": 8279,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 7: বিপরীত ত্রিকোনমিতিক ফাংশন ও ত্রিকোণমিতিক সমীকরণ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>বিপরীত বৃত্তীয় ফাংশনরে ক্ষেত্রে </p><p><br/>i. $sin^{-1}x+cos^{-1}x={\\Pi\\over 2}$</p><p><br/>ii. $tan^{-1}x+tan^{-1}y=tan^{-1}{x-y\\over 1+xy}$</p><p><br/>iii. $3sin^{-1}x=sin^{-1}(3x-4x^3)$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 8280,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$x^2=0$  সমীকরণের পৃথায়ক কত?",
+    "options": [
+      "-4",
+      "0",
+      "1",
+      "4"
+    ],
+    "answer": "0",
+    "explanation": ""
+  },
+  {
+    "id": 8281,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "অভীষ্ট ফাংশনঃ z=x+2y শর্তঃ $2x+3y\\leq 6,x,y \\geq 0$ নিচের কোনটি অভীষ্ঠ ফাংশনের সর্বোচ্চ মান?",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "4",
+    "explanation": ""
+  },
+  {
+    "id": 8282,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$i^{4n+3},n\\in N$ এর মান কত?",
+    "options": [
+      "-1",
+      "1",
+      "-i",
+      "i"
+    ],
+    "answer": "-i",
+    "explanation": "<p>$i^{4n+3}=i^{4n\\;}.i^3=\\left(i^4\\right)^n.i^3=1.\\left(-i\\right)=-i$</p>"
+  },
+  {
+    "id": 8283,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "নিচের কোনটি সঠিক?",
+    "options": [
+      "$N\\subset Z\\subset Q\\subset C\\subset R$",
+      "$N\\subset Q\\subset Z\\subset R\\subset C$",
+      "$N\\subset Z\\subset Q\\subset R\\subset C$",
+      "$N\\subset Q\\subset Z\\subset C\\subset R$"
+    ],
+    "answer": "$N\\subset Z\\subset Q\\subset R\\subset C$",
+    "explanation": ""
+  },
+  {
+    "id": 8284,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>z=x+iy; x ও y বাস্তব সংখ্যা হলে, $\\vert z\\vert ^2=1$ দ্বারা কি নির্দেশিত হয়?</p>",
+    "options": [
+      "উপবৃত্ত",
+      "বৃত্ত",
+      "পরাবৃত্ত",
+      "অধবিৃত্ত"
+    ],
+    "answer": "বৃত্ত",
+    "explanation": "<p>$z=x+iy\\\\\\vert z\\vert^2=1\\\\\\Rightarrow\\left|x+iy\\right|^2=1\\\\\\Rightarrow\\left(\\sqrt{x^2+y^2}\\right)^2=1\\\\so\\;x^2+y^2=1\\;\\;\\;\\;which\\;is\\;a\\;circle$</p>"
+  },
+  {
+    "id": 8285,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 9: সমতলে বস্তুকনার গতি",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>u বেগে খাড়া উপরের দিকে নিক্ষিপ্ত প্রক্ষেপকের - </p><p><br/>i. র্সবাধকি উচ্চতা = $u^2\\over 2g$</p><p><br/>ii. বিচরণকাল = $2u\\over g$</p><p><br/>iii. উথ্থানকাল = $u\\over g$</p><p><br></p><p> নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 8286,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$(1+{1\\over x})^{33}$ এর বিস্তৃতিতে কোন পদটি মধ্যপদ?</p>",
+    "options": [
+      "১৬তম",
+      "১৭তম",
+      "১৬তম এবং ১৭ তম",
+      "১৭তম এবং ১৮ তম"
+    ],
+    "answer": "১৭তম এবং ১৮ তম",
+    "explanation": "<p>এখানে, ঘাত, n= 33 যা বিজোড় সংখ্যা</p><p>$\\therefore$ রাশিটির বিস্তৃতিতে মধ্যপদ হতে দুইটি। </p><p>মধ্যপদ দুইটি হচ্ছে $\\left(\\frac{\\mathrm{n}+1}{2}\\right)$ তম পদ </p><p>বা $\\left(\\frac{33+1}{2}\\right)$ তম পদ</p><p>বা 17 তম পদ এবং $\\left(\\frac{\\mathrm{n}+3}{2}\\right)$ তম পদ </p><p>বা $\\left(\\frac{33+3}{2}\\right)$ তম পদ বা, 18 তম পদ </p>"
+  },
+  {
+    "id": 8287,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 6: কনিক",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$x^2=-4y$ পরাবৃত্তের উপকেন্দ্রের স্থানাঙ্ক-",
+    "options": [
+      "(0,1)",
+      "(0,-1)",
+      "(1,0)",
+      "(-1,0)"
+    ],
+    "answer": "(0,-1)",
+    "explanation": "<p>প্রদত্ত পরাবৃত্ত, $x^2=-4 y$</p><p>$\\therefore$ পরাবৃত্তটির উপকেন্দ্রের স্থানাঙ্ক</p><p>$ =\\left(0, \\frac{1}{4} \\times y \\text {-এর সহগ }\\right) $</p><p>$ =\\left(0,-\\frac{1}{4} \\times 4\\right)=(0,-1)$</p>"
+  },
+  {
+    "id": 8288,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 8: স্থিতিবিদ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "ত্রিভুজের বাহুত্রয়ের লম্ব সমদ্বিখন্ডক তিনটির ছেদবিন্দু হলো-",
+    "options": [
+      "অন্তঃকেন্দ্র",
+      "পরিকেন্দ্র",
+      "ভরকেন্দ্র",
+      "লম্বকেন্দ্র"
+    ],
+    "answer": "পরিকেন্দ্র",
+    "explanation": ""
+  },
+  {
+    "id": 8289,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "একটি ছক্কা নিক্ষেপে 2 দ্বারা বিভাজ্য সংখ্যা উঠার সম্ভাবনা কত?",
+    "options": [
+      "$1\\over 6$",
+      "$1\\over 3$",
+      "$1\\over 2$",
+      "$2\\over 3$"
+    ],
+    "answer": "$1\\over 2$",
+    "explanation": ""
+  },
+  {
+    "id": 8290,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "$\\vert 2x-1\\vert$ এর ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "1-2x যখন, $x<\\frac12$",
+      "2x-1 যখন, $x<\\frac12$",
+      "1+2x যখন, $x>\\frac12$",
+      "2x+1 যখন, $x<\\frac12$"
+    ],
+    "answer": "1-2x যখন, $x<\\frac12$",
+    "explanation": ""
+  },
+  {
+    "id": 8291,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 2: যোগাশ্রয়ী প্রোগ্রাম ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>যোগাশ্রয়ী প্রোগ্রাম সমস্যা গঠনে - </p><p><br/>i. সিদ্ধান্ত চলক অবশ্যই থাকতে হবে</p><p><br/>ii. অসীম সম্পদ থাকতে হবে </p><p><br/>iii. সীমাবদ্ধতা সমীকরণ আকারেও থাকতে পারে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 8292,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 3: জটিল সংখ্যা",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$-\\sqrt 3+i$ এর আর্গুমেন্ট কত?</p>",
+    "options": [
+      "$\\frac{-\\pi}{6}$",
+      "$\\frac{-5 \\pi}{6}$",
+      "$\\frac{\\pi}{6}$",
+      "$\\frac{5 \\pi}{6}$"
+    ],
+    "answer": "$\\frac{5 \\pi}{6}$",
+    "explanation": ""
+  },
+  {
+    "id": 8293,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 10: বিস্তার পরিমাপ ও সম্ভাবনা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "A ও B দুইটি ঘটনা এবং $P(A\\cap B)=0$ হলে ঘটনাদ্বয়-",
+    "options": [
+      "র্বজনশীল",
+      "অর্বজনশীল",
+      "স্বাধীন",
+      "র্শতাধীন"
+    ],
+    "answer": "র্বজনশীল",
+    "explanation": ""
+  },
+  {
+    "id": 8294,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 5: দ্বিপদী বিস্তৃতি ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$(1+x)^n$- এর বিস্তৃতিতে-</p><p><br/>i. পদসংখ্যা সসীম হয় যখন n ধনাত্মক র্পূণসংখ্যা</p><p><br/>ii. পদসংখ্যা অসীম হয় যখন n ঋনাত্মক র্পূণসংখ্যা</p><p><br/>iii. পদসংখ্যা সসীম হয় যখন n ভগ্নাংশ</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 8295,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$ax^2+bx+c=0,(a\\neq 0)$ সমীকরণের পৃথায়ক D হলে -</p><p><br/>i. মূলদ্বয় বাস্তব যখন $D\\geq 0$</p><p><br/>ii. মূলদ্বয় সমান যখন $D=0$</p><p><br/>iii. মূলদ্বয় মূলদ যখন D&lt;0 </p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 8296,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 1: বাস্তব সংখ্যা ও অসমতা ℹ️",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "নিচের কােনটি মূলদ সংখ্যা?",
+    "options": [
+      "$\\Pi$",
+      "e",
+      "$1\\over \\sqrt 5$",
+      "$\\sqrt 5\\over \\sqrt {125}$"
+    ],
+    "answer": "$\\sqrt 5\\over \\sqrt {125}$",
+    "explanation": ""
+  },
+  {
+    "id": 8297,
+    "subject": "Math 2nd Paper",
+    "chapter": "Chapter 4: বহুপদী ও বহুপদী সমীকরণ",
+    "year": "2017",
+    "board": "Chittagong",
+    "question": "<p>$2x^3-3x-5=0$ সমীকরণরে মূলত্রয় $\\alpha, \\beta , \\gamma$ হলে, $ \\sum\\alpha \\beta$ এর মান কত?</p>",
+    "options": [
+      "$-3\\over 2$",
+      "0",
+      "$3\\over 2$",
+      "$5\\over 2$"
+    ],
+    "answer": "$-3\\over 2$",
+    "explanation": "<p>$\\sum\\alpha\\beta\\;=\\frac{x\\;এর\\;সহগ\\;}{x^3\\;এর\\;সহগ}=\\frac{-3}2$</p>"
+  }
+]

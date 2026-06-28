@@ -1,0 +1,402 @@
+[
+  {
+    "id": 5924,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$A=\\left[\\begin{array}{ll}1 &amp; 2 \\\\ 3 &amp; 4\\end{array}\\right]$ হলে, $A^{-1}=?$</p>",
+    "options": [
+      "$-\\frac{1}{2}\\left[\\begin{array}{ll}4 & 1 \\\\ 2 & 3\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -3 \\\\ -2 & 1\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right]$",
+      "$-\\frac{1}{2}\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]$"
+    ],
+    "answer": "$-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right]$",
+    "explanation": "<p>এখানে, $A=\\left[\\begin{array}{ll}1 &amp; 2 \\\\ 3 &amp; 4\\end{array}\\right]$</p><p><br></p><p>আমরা জানি, $A=\\left[\\begin{array}{ll}a &amp; b \\\\ c &amp; d\\end{array}\\right]$ হলে, $A^{-1}=\\frac{1}{a d-b c}\\left[\\begin{array}{rr}d &amp; -b \\\\ -c &amp; a\\end{array}\\right]$</p><p><br></p><p>$\\therefore \\quad A^{-1}=\\frac{1}{4-6}\\left[\\begin{array}{rr}4 &amp; -2 \\\\-3 &amp; 1\\end{array}\\right]=-\\frac{1}{2}\\left[\\begin{array}{rr}4 &amp; -2 \\\\-3 &amp; 1\\end{array}\\right] .$</p>"
+  },
+  {
+    "id": 5925,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$(1,-\\sqrt{3})$ বিন্দুর পোলার স্থানাঙ্ক কত?</p>",
+    "options": [
+      "$\\left(-2, \\frac{2 \\pi}{3}\\right)$",
+      "$\\left(2, \\frac{\\pi}{3}\\right)$",
+      "$\\left(2,-\\frac{2 \\pi}{3}\\right)$",
+      "$\\left(2, \\frac{5 \\pi}{3}\\right)$"
+    ],
+    "answer": "$\\left(2, \\frac{5 \\pi}{3}\\right)$",
+    "explanation": "<p>$(1,-\\sqrt{3})$ বিন্দুর ক্ষেত্রে,</p><p><br></p><p>$r=\\sqrt{1^2+(-\\sqrt{3})^2}=\\sqrt{1+3}=\\sqrt{4}=2$</p><p><br></p><p>$(1,-\\sqrt{3})$ বিন্দুটি চতুর্থ চতুর্ভাগে অবস্থিত হওয়ায়,</p><p><br></p><p>$\\theta=2 \\pi-\\tan ^{-1}\\left|\\frac{-\\sqrt{3}}{1}\\right|=2 \\pi-\\tan ^{-1} \\sqrt{3}=2 \\pi-\\frac{\\pi}{3}=\\frac{5 \\pi}{3}$</p><p><br></p><p>$\\therefore$ পোলার স্থানাঙ্ক $(\\mathrm{r}, \\theta)=\\left(2, \\frac{5 \\pi}{3}\\right)$</p>"
+  },
+  {
+    "id": 5926,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$(1,1)$ বিন্দু হতে $x^2+y^2+2 x+y=0$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কোনটি?</p>",
+    "options": [
+      "$\\sqrt{3}$",
+      "$\\sqrt{5}$",
+      "$\\sqrt{6}$",
+      "$\\sqrt{7}$"
+    ],
+    "answer": "$\\sqrt{5}$",
+    "explanation": "<p>$(1,1)$ বিন্দু হতে $x^2+y^2+2 x+y=0$ বা, $x^2+y^2+2.1 . x+2 . \\frac{1}{2} \\cdot y +0=0$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য</p><p><br></p><p>$=\\sqrt{\\mathrm{x}_1{ }^2+\\mathrm{y}_1{ }^2+2 \\mathrm{gx}_1+2 f \\mathrm{y}_1+\\mathrm{c}}$ একক</p><p><br></p><p>$=\\sqrt{1^2+1^2+2 \\cdot 1 \\cdot 1+2 \\cdot \\frac{1}{2} \\cdot 1+0}$ একক</p><p><br></p><p>$=\\sqrt{1+1+2+1}$ একক $=\\sqrt{5}$ একক।</p>"
+  },
+  {
+    "id": 5927,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\tan \\beta=\\frac{b}{a}$ হলে $\\cos 2 \\beta$ এর মান কত?</p>",
+    "options": [
+      "$\\frac{2 a b}{a^2+b^2}$",
+      "$\\frac{2 a b}{a^2-b^2}$",
+      "$\\frac{a^2+b^2}{a^2-b^2}$",
+      "$\\frac{a^2-b^2}{a^2+b^2}$"
+    ],
+    "answer": "$\\frac{a^2-b^2}{a^2+b^2}$",
+    "explanation": "<p>এখানে, $\\tan \\beta=\\frac{b}{a}$</p><p><br></p><p>$\\therefore \\cos 2 \\beta=\\frac{1-\\tan ^2 \\beta}{1+\\tan ^2 \\beta}$</p><p><br></p><p>$=\\frac{1-\\left(\\frac{b}{a}\\right)^2}{1+\\left(\\frac{b}{a}\\right)^2}$</p><p><br></p><p>$=\\frac{1-\\frac{b^2}{a^2}}{1+\\frac{b^2}{a^2}}=\\frac{a^2-b^2}{a^2+b^2}$</p>"
+  },
+  {
+    "id": 5928,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\lim _{x \\rightarrow \\infty} \\frac{4 x^2}{4 x^2-3}=?$</p>",
+    "options": [
+      "-1",
+      "$-\\frac{1}{3}$",
+      "1",
+      "16"
+    ],
+    "answer": "1",
+    "explanation": "<p>$\\lim _{x \\rightarrow \\infty} \\frac{4 x^2}{4 x^2-3} $</p><p><br></p><p>$ =\\lim _{x \\rightarrow \\infty} \\frac{4 x^2}{x^2\\left(4-\\frac{3}{x^2}\\right)} $</p><p><br></p><p>$ =\\lim _{x \\rightarrow \\infty} \\frac{4}{4-\\frac{3}{x^2}}$</p><p><br></p><p>$=\\frac{4}{4-\\frac{3}{\\infty}}=\\frac{4}{4-0}=\\frac{4}{4}=1$</p>"
+  },
+  {
+    "id": 5929,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\int 5^{a x} d x=?$</p>",
+    "options": [
+      "$a 5^{a x} \\ln 5+c$",
+      "$\\frac{a 5^{a x}}{\\ln 5}+c$",
+      "$\\frac{a 5^{a x}}{5}+c$",
+      "$\\frac{5^{a x}}{a \\ln 5}+c$"
+    ],
+    "answer": "$\\frac{5^{a x}}{a \\ln 5}+c$",
+    "explanation": "<p>$\\int 5^{\\mathrm{ax}} \\mathrm{dx}=\\frac{5^{\\mathrm{ax}}}{\\mathrm{a} \\cdot \\ln 5}+\\mathrm{c}$</p><p><br></p><p>$\\left[\\because \\int \\mathrm{a}^{\\mathrm{px}} \\mathrm{dx}=\\frac{\\mathrm{a}^{\\mathrm{px}}}{\\mathrm{p} \\cdot \\ln \\mathrm{a}}+\\mathrm{c}\\right]$.</p>"
+  },
+  {
+    "id": 5930,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{array}{cc}2 x-y &amp; 5 \\\\ 3 &amp; y\\end{array}\\right]=\\left[\\begin{array}{cc}6 &amp; 5 \\\\ 3 &amp; -2\\end{array}\\right]$ হলে $x$-এর মান কত?</p>",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "0"
+    ],
+    "answer": "2",
+    "explanation": "<p>এখানে, $\\left[\\begin{array}{cc}2 x-y &amp; 5 \\\\ 3 &amp; y\\end{array}\\right]=\\left[\\begin{array}{rr}6 &amp; 5 \\\\ 3 &amp; -2\\end{array}\\right]$</p><p>উভয়পক্ষের অনুরূপ ভুক্তি হতে পাই, $2 \\mathrm{x}-\\mathrm{y}=6$ ....... (i)</p><p>$y=-2$ ....... (ii)</p><p>এখন, $y$ এর মান (i)নং এ বসিয়ে পাই,</p><p>$2 x-(-2)=6$</p><p>বা, $2 x+2=6$</p><p>বা, $2 x=6-2=4$</p><p>$\\therefore \\mathbf{x}=\\mathbf{2} .$</p>"
+  },
+  {
+    "id": 5931,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\int_0^2 2 d x=?$</p>",
+    "options": [
+      "0",
+      "$\\frac{1}{2}$",
+      "2",
+      "4"
+    ],
+    "answer": "4",
+    "explanation": "<p>$\\int_0^2 2 \\mathrm{dx}=[2 \\mathrm{x}]_0^2=(2 \\times 2-2 \\times 0)=(4-0)=4$</p>"
+  },
+  {
+    "id": 5932,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$3 x-4 y+1=0$ এবং $k x+3 y+5=0$ রেখাদ্বয় পরস্পর লম্ব হলে $k$ এর মান কত?</p>",
+    "options": [
+      "4",
+      "$\\frac{4}{3}$",
+      "$-\\frac{3}{4}$",
+      "-1"
+    ],
+    "answer": "4",
+    "explanation": "<p>$3 x-4 y+1=0$ বা, $y=\\frac{3}{4} x+\\frac{1}{4}$ রেখার ঢাল, $m_1=\\frac{3}{4} \\mathrm{kx}+3 \\mathrm{y}+5=0$ বা, $\\mathrm{y}=-\\frac{\\mathrm{k}}{3} \\mathrm{x}-\\frac{5}{3}$ রেখার ঢাল, $\\mathrm{m}_2=-\\frac{\\mathrm{k}}{3}$ রেখাদ্বয় পরস্পর লম্ব হলে, $m_1 \\times m_2=-1$</p><p>বা, $\\frac{3}{4} \\times\\left(-\\frac{k}{3}\\right)=1$</p><p>বা, $\\frac{\\mathrm{k}}{4}=1$</p><p>$\\therefore \\mathrm{k}=4$.</p>"
+  },
+  {
+    "id": 5933,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\sin 13^{\\circ}=a$ হলে, $\\sin 26^{\\circ}$ এর মান কত?</p>",
+    "options": [
+      "$a$",
+      "$2 a^3$",
+      "$2 a \\sqrt{1-a^2}$",
+      "$2 \\sqrt{1-a^2}$"
+    ],
+    "answer": "$2 a \\sqrt{1-a^2}$",
+    "explanation": "<p>এখানে, $\\sin 13^{\\circ}=\\mathbf{a}$</p><p>$\\therefore \\sin 26^{\\circ} =\\sin \\left(2 \\cdot 13^{\\circ}\\right) $</p><p>$ =2 \\sin 13^{\\circ} \\cdot \\cos 13^{\\circ}=2, a \\sqrt{\\cos ^2 13^{\\circ}} $</p><p>$ =2 a \\sqrt{1-\\sin ^2 13^{\\circ}}=2 a \\sqrt{1-a^2}$</p>"
+  },
+  {
+    "id": 5934,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$y=\\tan ^{-1} \\frac{1+x}{1-x} $ হলে $ \\frac{d y}{d x}=$ কত? </p>",
+    "options": [
+      "$\\frac{1}{1+x}$",
+      "$-\\frac{1}{1+x}$",
+      "$-\\frac{1}{1+x^2}$",
+      "$\\frac{1}{1+x^2}$"
+    ],
+    "answer": "$\\frac{1}{1+x^2}$",
+    "explanation": "<p>$\\begin{aligned} &amp; y=\\tan ^{-1} \\frac{1+x}{1-x}=\\tan ^{-1} \\frac{1+x}{1-1 \\cdot x}=\\tan ^{-1} 1+\\tan ^{-1} x \\\\ &amp; \\therefore \\frac{d y}{d x}=\\frac{1}{1+x^2}\\end{aligned}$</p>"
+  },
+  {
+    "id": 5935,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$x^2+y^2-6 x+4 y+c=0$ বৃত্তটি $y$- অক্ষকে স্পর্শ করে।</p><p>Q. C এর মান কত?</p>",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "-2"
+    ],
+    "answer": "4",
+    "explanation": "<p>$x^2+y^2-6 x+4 y+c=0 $</p><p>বা, $ x^2+y^2+2 \\cdot(-3) \\cdot x+2 \\cdot 2 \\cdot y+c=0 $</p><p>বৃত্তটির কেন্দ্র $(-g,-f)=(3,-2) $</p><p>বৃত্তটি $y$ অক্ষকে স্পর্শ করলে, $f^2=c$</p><p>বা, $(-2)^2=c \\therefore c=4$</p>"
+  },
+  {
+    "id": 5936,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>নিচের তথ্যের আলোকে প্রশ্নের উত্তর দাও:</p><p>$x^2+y^2-6 x+4 y+c=0$ বৃত্তটি $y$- অক্ষকে স্পর্শ করে।</p><p>Q. স্পর্শ বিন্দুর স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "$(0,2)$",
+      "$(0,-2)$",
+      "$(0,3-\\sqrt{5})$",
+      "$(0,3+\\sqrt{5})$"
+    ],
+    "answer": "$(0,-2)$",
+    "explanation": "<p>আমরা পাই, বৃত্তটির সমীকরণ, $x^2+y^2-6 x+4 y+4=0$ বৃত্তটি $y$ -অক্ষকে স্পর্শ করে বলে, স্পর্শবিন্দুতে $\\mathrm{x}=0$</p><p>$\\therefore 0^2+y^2-6 \\cdot 0+4 \\cdot y+4=0$</p><p>বা, $y^2+4 y+4=0$</p><p>বা, $(y+2)^2=0$</p><p>বা, $y+2=0$</p><p>$\\therefore \\mathrm{y}=-2$</p><p>$\\therefore$ স্পর্শবিন্দুর স্থানাঙ্ক $(0,-2)$.</p>"
+  },
+  {
+    "id": 5937,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>A, B ও C ম্যাট্রিক্স গুলোর মাত্রা যথাক্রমে $4×3, 3×4$ ও $4×7$ হলে (AB)C এর মাত্রা কত?</p>",
+    "options": [
+      "$4×7$",
+      "$3×7$",
+      "$4×4$",
+      "$3×3$"
+    ],
+    "answer": "$4×7$",
+    "explanation": "<p>AB এর মাত্রা $=\\mathrm{A}$ এর সারি $\\times \\mathrm{B}$ এর কলাম $=4 \\times 4$</p><p>$(\\mathrm{AB}) \\mathrm{C}$ এর মাত্রা $=\\mathrm{AB}$ এর সারি $\\times \\mathrm{C}$ এর কলাম $=4 \\times 7$.</p>"
+  },
+  {
+    "id": 5938,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>∆ABC এর AB, BC ও CA বাহুর মধ্যবিন্দুর স্থানাঙ্ক যথাক্রমে (2, 7), (4,-2) ও (3,1) হলে ত্রিভুজটির ভরকেন্দ্রের স্থানাঙ্ক কোনটি?</p>",
+    "options": [
+      "(2,3)",
+      "(6,4)",
+      "(4,6)",
+      "(3, 2)"
+    ],
+    "answer": "(3, 2)",
+    "explanation": "<p>ধরি, $\\mathrm{A}\\left(\\mathrm{x}_1, \\mathrm{y}_1\\right), \\mathrm{B}\\left(\\mathrm{x}_2, \\mathrm{y}_2\\right)$ এবং $\\mathrm{C}\\left(\\mathrm{x}_3, \\mathrm{y}_3\\right)$</p><p><br></p><p>$\\therefore$ ভরকেন্দ্র $=\\left(\\frac{\\mathrm{x}_1+\\mathrm{x}_2+\\mathrm{x}_3}{3}, \\frac{\\mathrm{y}_1+\\mathrm{y}_2+\\mathrm{y}_3}{3}\\right)$</p><p>$ \\therefore \\frac{x_1+x_2}{2}=2 $</p><p>বা, $x_1+x_2=4$ ......... (i)</p><p><br></p><p>$ \\frac{x_2+x_3}{2}=4 $</p><p>বা, $ x_2+x_3=8 $......... (ii)</p><p><br></p><p>এবং $\\frac{y_1+y_2}{2}=7$</p><p>$\\therefore y_1+y_2=14$ ......... (iii)</p><p><br></p><p>$ \\frac{y_2+y_3}{2}=-2 $</p><p>$ \\therefore y_2+y_3=-4 . $ ......... (iv)</p><p><br></p><p>আবার, $\\frac{x_1+x_3}{2}=3$</p><p>$\\therefore \\mathrm{x}_1+\\mathrm{x}_3=6$ ......... (v)</p><p><br></p><p>$ \\frac{y_1+y_3}{2}=1 $</p><p>$ \\therefore y_1+y_3=2 $  ......... (vi)</p><p><br></p><p>(i) + (ii) + (v) নং হতে পাই,</p><p>$ x_1+x_2+x_3=\\frac{4+8+6}{2}=\\frac{18}{2}=9 \\ldots \\ldots . . . . . . . . . . . \\text { (vii) } $</p><p><br></p><p>(iii) + (iv) + (vi) নং হতে পাই,</p><p>$ y_1+y_2+y_3=\\frac{14-4+2}{2}=\\frac{12}{2}=6 \\ldots \\ldots \\ldots . . \\text { (viii) } $</p><p><br></p><p>$ \\therefore $ ভরকেন্দ্র $ \\equiv\\left(\\frac{9}{3}, \\frac{6}{3}\\right) \\equiv(3,2) .$</p>"
+  },
+  {
+    "id": 5939,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 6: ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\lim _{x \\rightarrow 0} \\frac{\\sin b x}{x}= $ কত? </p>",
+    "options": [
+      "$\\frac{1}{b}$",
+      "$b$",
+      "0",
+      "$\\propto$"
+    ],
+    "answer": "$b$",
+    "explanation": "<p>$\\lim _{x \\rightarrow 0} \\frac{\\sin b x}{x}=\\lim _{x \\rightarrow 0} \\frac{\\sin b x}{b x} \\cdot b=1 \\times b=b$.</p>"
+  },
+  {
+    "id": 5940,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\int_0^{\\pi / 4} \\tan ^2 x \\sec ^2 x d x= $ কত? </p>",
+    "options": [
+      "3",
+      "2",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{4}$"
+    ],
+    "answer": "$\\frac{1}{3}$",
+    "explanation": "<p>ধরি, $ \\tan x=z $</p><p>$\\therefore \\sec ^2 x d x=d z$</p><p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>$\\int_0^{\\frac{\\pi}{4}} \\tan ^2 x \\sec ^2 x d x $</p><p>$ =\\int_0^1 z^2 d z $</p><p>$=\\left[\\frac{1}{3} z^3\\right]_0^1=\\frac{1}{3} \\cdot 1-0=\\frac{1}{3}$</p>"
+  },
+  {
+    "id": 5941,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 1: ম্যাট্রিকস ও নির্ণায়ক",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\left[\\begin{array}{ccc}1 &amp; 1 &amp; 2 \\\\ 4 &amp; a &amp; -1 \\\\ 3 &amp; 2 &amp; 2 a\\end{array}\\right]$ ম্যাট্রিক্সটির ট্রেস 7 হলে $a$ এর মান কত?</p>",
+    "options": [
+      "$-1$",
+      "$\\frac{1}{3}$",
+      "$2$",
+      "$\\frac{7}{3}$"
+    ],
+    "answer": "$-1$",
+    "explanation": "<p>প্রদত্ত ম্যাট্রিক্স $=\\left[\\begin{array}{rrr}1 &amp; 1 &amp; 2 \\\\ 4 &amp; a &amp; -1 \\\\ 3 &amp; 2 &amp; 2 a\\end{array}\\right]$</p><p>প্রশ্নমতে, $1+a+2 a=7$</p><p>বা, $3 a-7-1=6$</p><p>$\\therefore a=2$.</p>"
+  },
+  {
+    "id": 5942,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\tan \\theta+2 \\cot 2 \\theta=$ কত?</p>",
+    "options": [
+      "$\\cot \\theta$",
+      "$\\tan \\theta$",
+      "$2 \\cot \\theta$",
+      "$2 \\tan \\theta$"
+    ],
+    "answer": "$\\cot \\theta$",
+    "explanation": "<p>$\\tan \\theta+2 \\cot 2 \\theta =\\frac{1}{\\cot \\theta}+2 \\frac{\\cot ^2 \\theta-1}{2 \\cot \\theta} $</p><p><br></p><p>$ =\\frac{1+\\cot ^2 \\theta-1}{\\cot \\theta}=\\frac{\\cot ^2 \\theta}{\\cot \\theta}=\\cot \\theta .$</p>"
+  },
+  {
+    "id": 5943,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 9: অন্তরীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$y=x^2-x+1$ বক্ররেখার (2,3) বিন্দুতে অঙ্কিত অভিলম্বের ঢাল কত?</p>",
+    "options": [
+      "-3",
+      "$-\\frac{1}{3}$",
+      "$\\frac{1}{3}$",
+      "3"
+    ],
+    "answer": "$-\\frac{1}{3}$",
+    "explanation": "<p>এখানে, $y=x^2-x+1$</p><p><br></p><p>$\\therefore \\frac{d y}{d x}=2 x-1$</p><p><br></p><p>$(2,3)$ বিন্দুতে $\\frac{d y}{d x}=2.2-1=3$</p><p><br></p><p>$\\therefore(2,3)$ বিন্দুতে অভিলম্বের ঢাল $=-\\frac{1}{\\frac{d y}{d x}}=-\\frac{1}{3}$.</p>"
+  },
+  {
+    "id": 5944,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$3x + 7y - 2 = 0$ এর উপর লম্ব এবং $(2, 1)$ বিন্দুগামী সরলরেখার সমীকরণ-</p>",
+    "options": [
+      "$3 x-7 y+13=0$",
+      "$7 x-3 y-11=0$",
+      "$7 x+3 y-17=0$",
+      "$7 x-3 y-2=0$"
+    ],
+    "answer": "$7 x-3 y-11=0$",
+    "explanation": "<p>$3 x+7 y-2=0$ রেখার লম্বের সমীকরণ,</p><p>$7 x-3 y+k=0$ ..... (i) রেখাটি (2, 1) বিন্দুগামী।</p><p>$\\therefore 7 \\times 2-3 \\times 1+k=0$</p><p>বা, $14-3+\\mathrm{k}=0$</p><p>$\\therefore k=-11$</p><p>k-এর মান (i) নং সমীকরণে বসিয়ে পাই,</p><p>$7 x-3 y-11=0 .$</p>"
+  },
+  {
+    "id": 5945,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 10: যোগজীকরণ",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$\\int x e^{x^2} d x=$ কত?</p><p><br></p>",
+    "options": [
+      "$2 e^{x^2}+c$",
+      "$e^{x^2}+c$",
+      "$x e^{x^2}+c$",
+      "$\\frac{1}{2} e^{x^2}+c$"
+    ],
+    "answer": "$\\frac{1}{2} e^{x^2}+c$",
+    "explanation": "<p>ধরি, $ x^2=z $</p><p>$\\therefore 2 x d x=d z $</p><p>$ \\therefore x d x=\\frac{1}{2} d z$</p><p><br></p><p>$\\begin{aligned} &amp; \\int x e^{x^2} d x \\\\ &amp; =\\int \\frac{1}{2} \\cdot e^x d z \\\\ &amp; =\\frac{1}{2} e^x+c=\\frac{1}{2} e^{x^2}+c .\\end{aligned}$</p>"
+  },
+  {
+    "id": 5946,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 3: সরলরেখা",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>a এর মান কত হলে $3 x+2 y-5=0, a x+4 y-9=0$ এবং $x+2 y-7=0$ সরল রেখাত্রয় সমবিন্দু হবে?</p>",
+    "options": [
+      "$7$",
+      "$5$",
+      "$3$",
+      "$-7$"
+    ],
+    "answer": "$7$",
+    "explanation": "<p>প্রদত্ত রেখাত্রয় সমবিন্দু হওয়ার শর্ত: </p><p><br></p><p>$\\left|\\begin{array}{lll}3 &amp; 2 &amp; -5 \\\\ a &amp; 4 &amp; -9 \\\\ 1 &amp; 2 &amp; -7\\end{array}\\right|=0$</p><p><br></p><p>বা, $3(-28+18)+2(-9+7 a)-5(2 a-4)=0$</p><p>বা, $-30-18+14 a-10 a+20=0$</p><p>বা, $4 a-28=0$</p><p>বা, $4 a=28$</p><p>$\\therefore a=7 .$</p>"
+  },
+  {
+    "id": 5947,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 4: বৃত্ত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>$2 x^2+2 y^2-5 x+7 y-6=0$ বৃত্তটির কেন্দ্রের স্থানাঙ্ক-</p>",
+    "options": [
+      "$\\left(\\frac{5}{2},-\\frac{7}{2}\\right)$",
+      "$\\left(\\frac{5}{2}, \\frac{7}{2}\\right)$",
+      "$\\left(\\frac{5}{4},-\\frac{7}{4}\\right)$",
+      "$\\left(\\frac{5}{4}, \\frac{7}{4}\\right)$"
+    ],
+    "answer": "$\\left(\\frac{5}{4},-\\frac{7}{4}\\right)$",
+    "explanation": "<p>$2 x^2+2 y^2-5 x+7 y-6=0$</p><p><br></p><p>বা, $x^2+y^2-\\frac{5}{2} x+\\frac{7}{2} y-3=0$</p><p><br></p><p>বা, $x^2+y^2+2 \\cdot\\left(-\\frac{5}{4}\\right) x+2\\left(\\frac{7}{4}\\right) y+(-3)=0$</p><p><br></p><p>যেখানে, $\\mathrm{g}=-\\frac{5}{4}, \\mathrm{f}=\\frac{7}{4}, \\mathrm{c}=-3$</p><p><br></p><p>$\\therefore$ বৃত্তটির কেন্দ্র $=(-g,-f)=\\left(\\frac{5}{4},-\\frac{7}{4}\\right)$.</p>"
+  },
+  {
+    "id": 5948,
+    "subject": "Math 1st Paper",
+    "chapter": "Chapter 7: সংযুক্ত কোনের ত্রিকোনমিতিক অনুপাত",
+    "year": "2025",
+    "board": "Dinajpur",
+    "question": "<p>∆ABC এ, BC = ৪ সে.মি. AB = 6 সে.মি. এবং AC = 10 সে.মি. হলে-</p><p><br/>i. $\\angle C=\\frac{\\pi}{2}$</p><p><br/>ii. পরিসীমা 24 সে.মি.</p><p><br/>iii. ক্ষেত্রফল = 24 বর্গ সে.মি.</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": "<p>$ \\mathrm{AB}=6 $ সে. মি., $ \\mathrm{BC}=8 $ সে.মি., $ \\mathrm{AC}=10 $ সে.মি.</p><p>$\\triangle A B C-\\triangle, A B^2+B C^2 =6^2+8^2 $</p><p>$ =36+64=100=(10)^2=A C^2$</p><p>$\\therefore \\triangle \\mathrm{ABC}$ সমকোণী ত্রিভুজ।</p><p><br></p><p>i. $\\triangle \\mathrm{ABC}-9, \\tan \\mathrm{C}=\\frac{\\mathrm{AB}}{\\mathrm{BC}}=\\frac{6}{8}=\\frac{3}{4}$</p><p>$\\therefore \\quad \\angle \\mathrm{C}=\\tan ^{-1}\\left(\\frac{3}{4}\\right)=36.87^{\\circ} $ (প্রায়)</p><p><br></p><p>ii. পরিসীমা $=(6+8+10)$ সে.মি. $=24$ সে.মি.</p><p>iii. ক্ষেত্রফল $=\\frac{1}{2} \\mathrm{BC} \\times \\mathrm{AB}=\\frac{1}{2} \\times 8 \\times 6=24$ বর্গ সে.মি.</p><p><br></p><p>সুতরাৎ, (ii) ও (iii)নং সঠিক।</p>"
+  }
+]
