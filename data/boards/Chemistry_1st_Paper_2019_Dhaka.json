@@ -34,7 +34,7 @@
   {
     "id": 4001,
     "subject": "Chemistry 1st Paper",
-    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ",
     "year": "2019",
     "board": "Dhaka",
     "question": "<p>$0.212$g Na<sub>2</sub>CO<sub>3 </sub>এর $20$ cm<sup>3 </sup>দ্রবণের শক্তিমাত্রা কত হবে?</p>",
@@ -386,7 +386,7 @@
   {
     "id": 4023,
     "subject": "Chemistry 1st Paper",
-    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ℹ️",
+    "chapter": "Chapter 1: ল্যাবরেটরির নিরাপদ ব্যবহার ",
     "year": "2019",
     "board": "Dhaka",
     "question": "<p><img src=\"data:image/png;base64,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\"></p><p>এ সতর্কতা চিহ্ন দ্বারা কী বুঝানো হয়?</p>",

@@ -146,7 +146,7 @@
   {
     "id": 1358,
     "subject": "Physics 1st Paper",
-    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "chapter": "Chapter 3: গতিবিদ্যা ",
     "year": "2017",
     "board": "Rajshahi",
     "question": "<p>একটি গতিশীল বস্তুকণার বেগ v = (10 + 4t<sup>2</sup>) সমীকরণ দ্বারা প্রকাশ করা হয়। 3 সেকেন্ড পরে বস্তুটির ত্বরণ কত?</p>",
@@ -178,7 +178,7 @@
   {
     "id": 1360,
     "subject": "Physics 1st Paper",
-    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "chapter": "Chapter 3: গতিবিদ্যা ",
     "year": "2017",
     "board": "Rajshahi",
     "question": "<p><img src=\"data:image/png;base64,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\"></p><p>লেখচিত্র নির্দেশ করে। চিত্রে –</p><p>\n</p><p><br/>i. বস্তুটির বেগ OP অঞ্চলে ধ্রুব এবং সরণ বৃদ্ধি পাচ্ছে</p><p>\n</p><p><br/>ii. বস্তুটির বেগ PQ অঞ্চলে শূন্য এবং সরণ ধ্রুবক</p><p>\n</p><p><br/>iii. বস্তুটির বেগ QR অঞ্চলে ধ্রুব এবং সরণ হ্রাস পাচ্ছে</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
@@ -258,7 +258,7 @@
   {
     "id": 1365,
     "subject": "Physics 1st Paper",
-    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "chapter": "Chapter 3: গতিবিদ্যা ",
     "year": "2017",
     "board": "Rajshahi",
     "question": "<p>4kg ভরের একটি পাথরকে 100m উঁচু বিল্ডিংয়ের উপর থেকে ছেড়ে দেয়া হলে ভূমিতে পতিত হতে কত সময় লাগবে?</p>",
@@ -274,7 +274,7 @@
   {
     "id": 1366,
     "subject": "Physics 1st Paper",
-    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "chapter": "Chapter 3: গতিবিদ্যা ",
     "year": "2017",
     "board": "Rajshahi",
     "question": "<p>প্রক্ষেপকের বিচরণকালের সমীকরণ-</p>",
@@ -290,7 +290,7 @@
   {
     "id": 1367,
     "subject": "Physics 1st Paper",
-    "chapter": "Chapter 3: গতিবিদ্যা ℹ️",
+    "chapter": "Chapter 3: গতিবিদ্যা ",
     "year": "2017",
     "board": "Rajshahi",
     "question": "<p>স্থিরাবস্থা থেকে যাত্রা শুরু করে একটি বস্তু প্রথম সেকেন্ডে 2m দূরত্ব অতিক্রম করে, পরবর্তী 2m দূরত্ব অতিক্রম করতে কত সময় লাগবে?</p>",
