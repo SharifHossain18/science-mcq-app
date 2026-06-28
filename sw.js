@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lumen-v60';
+const CACHE_NAME = 'lumen-v61';
 const DATA_CACHE = 'lumen-data-v5';
 
 const APP_SHELL = [

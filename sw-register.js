@@ -1,43 +1,37 @@
-const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-
 if ('serviceWorker' in navigator) {
-    let refreshing = false;
 
+    // ── Register the service worker ──
+    navigator.serviceWorker.register('./sw.js').then(reg => {
+
+        // Check for updates every time the page loads
+        reg.update();
+
+        // When a new SW finishes installing, tell it to skip waiting immediately
+        reg.addEventListener('updatefound', () => {
+            const newSW = reg.installing;
+            if (!newSW) return;
+
+            newSW.addEventListener('statechange', () => {
+                if (newSW.state === 'installed') {
+                    // New version ready — activate it right away
+                    newSW.postMessage({ type: 'SKIP_WAITING' });
+                }
+            });
+        });
+
+    }).catch(err => console.error('SW registration failed:', err));
+
+    // When a new SW takes control, reload the page to load fresh files
+    // This works for both browser tabs AND installed PWA (standalone mode)
+    let reloading = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-        if (refreshing) return;
-        refreshing = true;
-        if (!isStandalone) {
-            window.location.reload();
-        }
-    });
-
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-            .then(reg => {
-                console.log('SW registered:', reg.scope);
-                reg.onupdatefound = () => {
-                    const installing = reg.installing;
-                    if (installing) {
-                        installing.onstatechange = () => {
-                            if (installing.state === 'installed' && navigator.serviceWorker.controller) {
-                                reg.update().then(() => {
-                                    reg.waiting?.postMessage({ type: 'SKIP_WAITING' });
-                                });
-                            }
-                        };
-                    }
-                };
-            })
-            .catch(err => console.error('SW registration failed:', err));
-    });
-
-    navigator.serviceWorker.addEventListener('message', (event) => {
-        if (event.data && event.data.type === 'SW_UPDATED') {
-            window.location.reload();
-        }
+        if (reloading) return;
+        reloading = true;
+        window.location.reload();
     });
 }
 
+// ── PWA Install Prompt ──
 let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
