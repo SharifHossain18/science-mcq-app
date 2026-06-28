@@ -201,10 +201,6 @@ function renderChapterList() {
             chapterName = parts.slice(1).join(':').trim();
         }
 
-        const cleanSub = subject.replace(/\s+/g, '_');
-        const dlKey = `chapter_${cleanSub}_${ch.id}`;
-        const isDl = UTILS.isItemDownloaded(dlKey);
-
         const item = document.createElement('div');
         item.className = 'subj-chapter-item';
         item.dataset.chapterId = ch.id;
@@ -214,51 +210,8 @@ function renderChapterList() {
                 <span class="subj-chapter-name">${chapterName}</span>
             </div>
             <div class="subj-chapter-item-right">
-                <button class="subj-dl-btn ${isDl ? 'downloaded' : ''}" data-dl-key="${dlKey}" data-clean-sub="${cleanSub}" data-ch-id="${ch.id}" title="${isDl ? 'ডাউনলোড করা হয়েছে' : 'অফলাইনের জন্য ডাউনলোড'}">
-                    <i class="fa-solid ${isDl ? 'fa-circle-check' : 'fa-circle-down'}"></i>
-                </button>
-                <i class="fa-solid fa-chevron-right" style="margin-left:8px;"></i>
+                <i class="fa-solid fa-chevron-right"></i>
             </div>`;
-
-        const dlBtn = item.querySelector('.subj-dl-btn');
-        dlBtn.addEventListener('click', async (e) => {
-            e.stopPropagation();
-            if (dlBtn.classList.contains('downloaded')) {
-                if (confirm('এই অধ্যায়ের অফলাইন ডাটা মুছে ফেলবেন?')) {
-                    UTILS.unmarkItemDownloaded(dlKey);
-                    const urls = [
-                        `data/chapters/${cleanSub}_${ch.id}.json`,
-                        `data/cq/chapters/${cleanSub}_${ch.id}.json`
-                    ];
-                    for (const u of urls) await UTILS.removeCachedFile(u);
-                    dlBtn.classList.remove('downloaded');
-                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
-                    dlBtn.title = 'অফলাইনের জন্য ডাউনলোড';
-                    UTILS.showToast('অফলাইন ডাটা মুছে ফেলা হয়েছে', 'info');
-                }
-            } else {
-                dlBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
-                const urls = [
-                    `data/chapters/${cleanSub}_${ch.id}.json`,
-                    `data/cq/chapters/${cleanSub}_${ch.id}.json`
-                ];
-                let success = true;
-                for (const u of urls) {
-                    const ok = await UTILS.downloadAndCache(u);
-                    if (!ok) success = false;
-                }
-                if (success) {
-                    UTILS.markItemDownloaded(dlKey);
-                    dlBtn.classList.add('downloaded');
-                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
-                    dlBtn.title = 'ডাউনলোড করা হয়েছে';
-                    UTILS.showToast('অধ্যায়টি অফলাইনে পড়ার জন্য ডাউনলোড করা হয়েছে', 'success');
-                } else {
-                    dlBtn.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
-                    UTILS.showToast('ডাউনলোড ব্যর্থ! ইন্টারনেট সংযোগ চেক করুন।', 'error');
-                }
-            }
-        });
 
         item.addEventListener('click', () => {
             localStorage.setItem('selectedSubject', subject);
@@ -321,14 +274,11 @@ async function downloadSubject() {
 
     // Build URL list from already-loaded metaData
     const urls = [];
-    const chapterKeys = [];
-    const boardKeys = [];
 
     const chapters = (metaData[subject]?.chapters || []).filter(c => c && c.name);
     for (const ch of chapters) {
         urls.push(`data/chapters/${cleanSub}_${ch.id}.json`);
         urls.push(`data/cq/chapters/${cleanSub}_${ch.id}.json`);
-        chapterKeys.push(`chapter_${cleanSub}_${ch.id}`);
     }
 
     const boards = metaData[subject]?.boards || {};
@@ -368,17 +318,6 @@ async function downloadSubject() {
         btn.innerHTML = `<span style="font-weight:800;font-size:0.85rem">${pct}%</span>`;
     }
 
-    // Mark individual chapter & board keys so their icons update too
-    chapterKeys.forEach(k => UTILS.markItemDownloaded(k));
-    boardKeys.forEach(k => UTILS.markItemDownloaded(k));
-
-    // Update per-chapter download icons in the list
-    document.querySelectorAll('.subj-dl-btn').forEach(b => {
-        b.classList.add('downloaded');
-        b.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
-        b.title = 'ডাউনলোড করা হয়েছে';
-    });
-
     btn.disabled = false;
     if (failed === 0) {
         UTILS.markItemDownloaded(subjectKey);
@@ -415,7 +354,6 @@ async function deleteSubjectData() {
     chapters.forEach(ch => {
         removeUrls.push(`data/chapters/${cleanSub}_${ch.id}.json`);
         removeUrls.push(`data/cq/chapters/${cleanSub}_${ch.id}.json`);
-        UTILS.unmarkItemDownloaded(`chapter_${cleanSub}_${ch.id}`);
     });
     Object.entries(boards).forEach(([year, boardList]) => {
         boardList.forEach((boardName, idx) => {
@@ -423,19 +361,11 @@ async function deleteSubjectData() {
             const boardId = boardName === 'Combined' ? 'Combined' : String(idx + 1);
             removeUrls.push(`data/boards/${cleanSub}_${year}_${cleanBd}.json`);
             removeUrls.push(`data/cq/boards/${cleanSub}_${year}_${boardId}.json`);
-            UTILS.unmarkItemDownloaded(`board_${cleanSub}_${year}_${cleanBd}`);
         });
     });
 
     for (const u of removeUrls) await UTILS.removeCachedFile(u);
     UTILS.unmarkItemDownloaded(subjectKey);
-
-    // Reset per-chapter icons
-    document.querySelectorAll('.subj-dl-btn').forEach(b => {
-        b.classList.remove('downloaded');
-        b.innerHTML = '<i class="fa-solid fa-circle-down"></i>';
-        b.title = 'অফলাইনের জন্য ডাউনলোড';
-    });
 
     btn.disabled = false;
     btn.classList.remove('downloaded');
