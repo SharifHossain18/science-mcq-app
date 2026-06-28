@@ -154,8 +154,8 @@ async function startExam() {
     }
 
     const count = parseInt($count.value) || 10;
-    if (count < 1 || count > 50) {
-        showSetupStatus('error', 'প্রশ্ন সংখ্যা ১ থেকে ৫০ এর মধ্যে দিন!');
+    if (count < 1) {
+        showSetupStatus('error', 'অন্তত ১টি প্রশ্ন নির্বাচন করুন!');
         return;
     }
 
