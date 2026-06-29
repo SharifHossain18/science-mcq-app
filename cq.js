@@ -185,15 +185,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    document.getElementById('side-chapter').addEventListener('click', (e) => {
-        e.preventDefault();
-        handleSidebarNavigation('chapter');
-    });
+    const sideChapter = document.getElementById('side-chapter');
+    if (sideChapter) {
+        sideChapter.addEventListener('click', (e) => {
+            e.preventDefault();
+            handleSidebarNavigation('chapter');
+        });
+    }
 
-    document.getElementById('side-board').addEventListener('click', (e) => {
-        e.preventDefault();
-        handleSidebarNavigation('board');
-    });
+    const sideBoard = document.getElementById('side-board');
+    if (sideBoard) {
+        sideBoard.addEventListener('click', (e) => {
+            e.preventDefault();
+            handleSidebarNavigation('board');
+        });
+    }
 
     const sideCq = document.getElementById('side-cq');
     if (sideCq) {
@@ -476,7 +482,7 @@ function renderCQs() {
                     const answerHtml = answerStore.get(key) || '<em>উত্তর পাওয়া যায়নি।</em>';
                     answerContentEl.innerHTML = answerHtml;
                     item.dataset.answerLoaded = '1';
-                    UTILS.recordAnswer(state.subject, state.chapter, true, 1);
+                    UTILS.recordAnswer(state.subject, state.chapter || state.board || 'General', true, 1);
                     // Re-render any LaTeX inside this answer
                     if (window.renderMathInElement) {
                         renderMathInElement(answerContentEl, {

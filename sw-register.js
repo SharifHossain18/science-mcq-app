@@ -31,9 +31,3 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-// ── PWA Install Prompt ──
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-});

@@ -240,6 +240,10 @@ function renderBoardGrid(year) {
         });
 
         card.addEventListener('click', () => {
+            if (!selectedYear) {
+                UTILS.showToast('প্রথমে বছর নির্বাচন করুন', 'error');
+                return;
+            }
             document.querySelectorAll('.bs-board-card').forEach(c => c.classList.remove('selected'));
             card.classList.add('selected');
             selectedBoard = bd;

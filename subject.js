@@ -135,15 +135,18 @@ function initDashboard() {
         }
     });
 
-    document.querySelectorAll('.subj-toggle-card').forEach(card => {
-        card.addEventListener('click', () => {
-            selectedMode = card.getAttribute('data-mode');
-            document.querySelectorAll('.subj-toggle-card').forEach(c => c.classList.remove('active'));
-            card.classList.add('active');
-            localStorage.setItem('boardSelectMode', selectedMode);
-            localStorage.setItem('practiceMode', selectedMode === 'cq' ? 'cq' : 'chapter');
+    if (!document.querySelector('.subj-toggle-card._bound')) {
+        document.querySelectorAll('.subj-toggle-card').forEach(card => {
+            card.classList.add('_bound');
+            card.addEventListener('click', () => {
+                selectedMode = card.getAttribute('data-mode');
+                document.querySelectorAll('.subj-toggle-card').forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+                localStorage.setItem('boardSelectMode', selectedMode);
+                localStorage.setItem('practiceMode', selectedMode === 'cq' ? 'cq' : 'chapter');
+            });
         });
-    });
+    }
 
     document.getElementById('card-board').addEventListener('click', () => {
         localStorage.setItem('selectedSubject', subject);
@@ -392,10 +395,11 @@ async function loadChapterCounts() {
         const cqCount = chMeta?.cq || 0;
 
         const parts = [];
+        let badge = null;
         if (mcqCount > 0) parts.push(`${mcqCount} MCQ`);
         if (cqCount > 0) parts.push(`${cqCount} CQ`);
         if (parts.length) {
-            const badge = document.createElement('span');
+            badge = document.createElement('span');
             badge.className = 'subj-chapter-count';
             badge.textContent = parts.join(' | ');
             nameEl.appendChild(badge);

@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const showAnswerSwitch = document.getElementById('show-answer-switch');
-    showAnswerSwitch.addEventListener('change', (e) => { state.showAnswers = e.target.checked; applyShowAnswersToggle(); });
+    if (showAnswerSwitch) showAnswerSwitch.addEventListener('change', (e) => { state.showAnswers = e.target.checked; applyShowAnswersToggle(); });
 });
 
 function showSkeletons() {
