@@ -378,23 +378,19 @@ async function deleteSubjectData() {
 async function loadChapterCounts() {
     const items = document.querySelectorAll('.subj-chapter-item');
     if (!items.length) return;
-    const cleanSub = subject.replace(/\s+/g, '_');
-    const fetches = Array.from(items).map(async (item) => {
+    const subjectMeta = metaData[subject];
+    if (!subjectMeta) return;
+
+    items.forEach(item => {
         const chId = item.dataset.chapterId;
         if (!chId) return;
         const nameEl = item.querySelector('.subj-chapter-name');
         if (!nameEl) return;
-        const [mcqRes, cqRes] = await Promise.allSettled([
-            fetch(`data/chapters/${cleanSub}_${chId}.json`),
-            fetch(`data/cq/chapters/${cleanSub}_${chId}.json`)
-        ]);
-        let mcqCount = 0, cqCount = 0;
-        if (mcqRes.status === 'fulfilled' && mcqRes.value.ok) {
-            try { mcqCount = (await mcqRes.value.json()).length; } catch {}
-        }
-        if (cqRes.status === 'fulfilled' && cqRes.value.ok) {
-            try { cqCount = (await cqRes.value.json()).length; } catch {}
-        }
+
+        const chMeta = (subjectMeta.chapters || []).find(c => c.id === chId);
+        const mcqCount = chMeta?.mcq || 0;
+        const cqCount = chMeta?.cq || 0;
+
         const parts = [];
         if (mcqCount > 0) parts.push(`${mcqCount} MCQ`);
         if (cqCount > 0) parts.push(`${cqCount} CQ`);
@@ -414,5 +410,4 @@ async function loadChapterCounts() {
             }
         }
     });
-    await Promise.allSettled(fetches);
 }
