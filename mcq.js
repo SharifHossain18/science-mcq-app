@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const url = getDataUrl();
         const dlKey = getDlKey();
         try {
-            const response = await fetchWithCacheFallback(url + '?t=' + Date.now());
+            const response = await fetchWithCacheFallback(url);
             allData = await response.json();
             renderMCQs();
         } catch (err) {
