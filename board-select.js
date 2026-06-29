@@ -146,7 +146,8 @@ function renderYearSlider() {
             chip.classList.add('selected');
             selectedYear = yr;
             selectedBoard = null; // reset board on new year
-            renderBoardGrid(yr);
+                renderBoardGrid(yr);
+                preloadBoardData(yr);
         });
         slider.appendChild(chip);
     });
@@ -245,6 +246,29 @@ function renderBoardGrid(year) {
             startPractice();
         });
         grid.appendChild(card);
+    });
+}
+
+// Preload board data files in the background so MCQ page loads instantly
+function preloadBoardData(year) {
+    if (!year) return;
+    const boards = metaData[subject]?.boards?.[year];
+    if (!boards) return;
+    const cleanSub = subject.replace(/\s+/g, '_');
+    boards.forEach(bd => {
+        const cleanBd = bd.replace(/\s+/g, '_');
+        const url = `data/boards/${cleanSub}_${year}_${cleanBd}.json`;
+        if ('caches' in window) {
+            caches.open('lumen-data-v6').then(cache => {
+                cache.match(url).then(existing => {
+                    if (!existing) {
+                        fetch(url).then(r => {
+                            if (r.ok) cache.put(url, r);
+                        }).catch(() => {});
+                    }
+                });
+            });
+        }
     });
 }
 
