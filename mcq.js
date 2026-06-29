@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (err) {
             console.warn('Network failed, checking cache:', err);
             try {
-                const cache = await caches.open('lumen-data-v6');
+                const cache = await caches.open('lumen-data-v7');
                 const cachedResp = await cache.match(url);
                 if (cachedResp) {
                     allData = await cachedResp.json();

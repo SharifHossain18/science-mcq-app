@@ -490,7 +490,7 @@ const UTILS = {
       const resp = await fetch(url);
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
       if ('caches' in window) {
-        const cache = await caches.open('lumen-data-v6');
+        const cache = await caches.open('lumen-data-v7');
         await cache.put(clean, resp.clone());
         if (navigator.serviceWorker.controller) {
           navigator.serviceWorker.controller.postMessage({ type: 'CACHE_DATA', urls: [clean] });
@@ -506,7 +506,7 @@ const UTILS = {
   async removeCachedFile(url) {
     const clean = url.split('?')[0];
     if ('caches' in window) {
-      const cache = await caches.open('lumen-data-v6');
+      const cache = await caches.open('lumen-data-v7');
       await cache.delete(clean);
       if (navigator.serviceWorker.controller) {
         navigator.serviceWorker.controller.postMessage({ type: 'DELETE_CACHED_DATA', url: clean });

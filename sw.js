@@ -1,5 +1,5 @@
-const CACHE_NAME = 'lumen-v62';
-const DATA_CACHE = 'lumen-data-v6';
+const CACHE_NAME = 'lumen-v63';
+const DATA_CACHE = 'lumen-data-v7';
 
 const APP_SHELL = [
     './',
@@ -26,7 +26,8 @@ const APP_SHELL = [
     './app-icon.jpeg',
     './icon-192.png',
     './icon-512.png',
-    './utils.js'
+    './utils.js',
+    './data/meta.json'
 ];
 
 const CDN_URLS = [
@@ -111,20 +112,21 @@ self.addEventListener('fetch', event => {
     if (isDataRequest(reqUrl)) {
         event.respondWith(
             caches.open(DATA_CACHE).then(cache =>
-                fetch(event.request).then(resp => {
-                    if (resp.ok) {
-                        cache.put(stripQuery(reqUrl), resp.clone());
+                cache.match(stripQuery(reqUrl)).then(cached => {
+                    const fetchPromise = fetch(event.request).then(resp => {
+                        if (resp.ok) {
+                            cache.put(stripQuery(reqUrl), resp.clone());
+                        }
                         return resp;
+                    }).catch(() => cached || new Response(JSON.stringify([]), {
+                        headers: { 'Content-Type': 'application/json' }
+                    }));
+                    if (cached) {
+                        fetchPromise.catch(() => {});
+                        return cached;
                     }
-                    throw new Error('HTTP ' + resp.status);
-                }).catch(() =>
-                    cache.match(stripQuery(reqUrl)).then(cached => {
-                        if (cached) return cached;
-                        return new Response(JSON.stringify([]), {
-                            headers: { 'Content-Type': 'application/json' }
-                        });
-                    })
-                )
+                    return fetchPromise;
+                })
             )
         );
         return;

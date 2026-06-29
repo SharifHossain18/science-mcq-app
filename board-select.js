@@ -263,7 +263,7 @@ function preloadBoardData(year) {
         const cleanBd = bd.replace(/\s+/g, '_');
         const url = `data/boards/${cleanSub}_${year}_${cleanBd}.json`;
         if ('caches' in window) {
-            caches.open('lumen-data-v6').then(cache => {
+            caches.open('lumen-data-v7').then(cache => {
                 cache.match(url).then(existing => {
                     if (!existing) {
                         fetch(url).then(r => {
