@@ -1,0 +1,402 @@
+[
+  {
+    "id": 501,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>মিনা তার ল্যাপটপে নতুন কোনো সফট্ওয়্যার ব্যবহার করতে পারে না। যার ফলে সে এমন একটি সার্ভিস গ্রহন করল যার মাধ্যমে সফট্ওয়্যার স্বয়ংক্রিয়ভাবে আপডেট হয়, উচ্চ গতি সম্পন্ন কম্পিউটারের সুবিধা পাওয়া যায় এবং খরচও কম।</p><p><br></p><p>Q. উদ্দীপকের সার্ভিসটির নাম কী?</p>",
+    "options": [
+      "Wi-Fi",
+      "Wi-Max",
+      "BluetoothCloud computing",
+      "Cloud computing"
+    ],
+    "answer": "Cloud computing",
+    "explanation": ""
+  },
+  {
+    "id": 502,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p>মিনা তার ল্যাপটপে নতুন কোনো সফট্ওয়্যার ব্যবহার করতে পারে না। যার ফলে সে এমন একটি সার্ভিস গ্রহন করল যার মাধ্যমে সফট্ওয়্যার স্বয়ংক্রিয়ভাবে আপডেট হয়, উচ্চ গতি সম্পন্ন কম্পিউটারের সুবিধা পাওয়া যায় এবং খরচও কম। </p><p><br></p><p>Q. উদ্দীপকের ব্যবহৃত সার্ভিসটির—</p><p><br/>i. লাইসেন্স ফি প্রয়োজন হয় না</p><p><br/>ii. রক্ষণাবেক্ষণ খরচ নাই</p><p><br/>iii. ব্যবহারের অতিরিক্ত মূল্য দিতে হয় না</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 503,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>শিক্ষক করিমকে জিজ্ঞেস করলেন, তোমার ক্লাস রোল কত? </p><p>করিম উত্তর দিল 3D.</p><p><br></p><p>Q. উদ্দীপকের সংখ্যাটির সমকক্ষ দশমিক সংখ্যা কত?</p>",
+    "options": [
+      "৬১",
+      "৭১",
+      "৮১",
+      "৯১"
+    ],
+    "answer": "৬১",
+    "explanation": "<p>$\\begin{aligned}(3 D)_{16} &amp; =(?)_{10} \\\\ (3 D)_{16} &amp; =3 \\times 16^1+D \\times 16^0 \\\\ &amp; =48+13 \\times 1=48+13=61 \\\\ \\therefore(3 D)_{16} &amp; =(61)_{10}\\end{aligned}$</p>"
+  },
+  {
+    "id": 504,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাও : </p><p>শিক্ষক করিমকে জিজ্ঞেস করলেন, তোমার ক্লাস রোল কত? </p><p>করিম উত্তর দিল 3D.</p><p><br></p><p>Q. উদ্দীপকে করিমের রোগের সাথে (৫)<sub>১০</sub> যোগ করলে সংখ্যাটি কত হবে?</p>",
+    "options": [
+      "$(২৮)_{৮}$",
+      "$(৬৬)_{১০}$",
+      "$(১০০০০১১)_{২}$",
+      "$(২৪)_{১৬}$"
+    ],
+    "answer": "$(৬৬)_{১০}$",
+    "explanation": "<p>করিমের রোল (3D)<sub>16 </sub>= (61)<sub>10</sub></p><p>(61)<sub>10</sub> এর সাথে (5)<sub>10</sub> যোগ করলে সংখ্যাটি হবে (66)<sub>10</sub>।</p>"
+  },
+  {
+    "id": 505,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>( 110110)<sub>2 </sub>এর সমকক্ষ মান—</p><p><br/><br/>i. (66)<sub>8</sub></p><p><br/><br/>ii. (54)<sub>10</sub></p><p><br/><br/>iii. (36)<sub>16</sub></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>(110110)<sub>2</sub> = (?)<sub>8</sub></p><p>(110110)<sub>2&nbsp;</sub>= $\\underset{6}{110}$  $\\underset{6}{110}$   = 66</p><p><br></p><p>$\\begin{aligned} \\therefore(110110)_2 &amp; =(66)_8 \\\\ (110110)_2 &amp; =(?)_{10} \\\\ (110110)_2 &amp; =1 \\times 2^5+1 \\times 2^4+0 \\times 2^3+1 \\times 2^2+1 \\times 2^1+0 \\times 2^0 \\\\ &amp; =32+16+0+4+2+0 \\\\ &amp; =54\\end{aligned}$</p><p>$\\begin{aligned} &amp; \\therefore(110110)_2=(54)_{10} \\\\ &amp; (110110)_2=(?)_{16}\\end{aligned}$</p><p>(110110)<sub>2</sub> =&nbsp;$\\underset{3}{0011}$   $\\underset{6}{0110}$  = 36</p><p>$\\therefore(110110)_2=(36)_{16}$</p><p>অর্থাৎ, সঠিক উত্তর (i), (ii) ও (iii)।</p>"
+  },
+  {
+    "id": 506,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>২ এর পরিপূরক পদ্ধতিতে কোনটি ব্যবহার করা হয়?</p>",
+    "options": [
+      "যোগ করে",
+      "বিয়োগ করে",
+      "ভাগ করে",
+      "গুন করে"
+    ],
+    "answer": "যোগ করে",
+    "explanation": ""
+  },
+  {
+    "id": 507,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>ডোমেইন নাম (Domain name) হলো—</p>",
+    "options": [
+      "ওয়েব ফাইলের নাম",
+      "সার্ভারের নাম",
+      "ওয়েবসাইটের একটি স্বতন্ত্র নাম",
+      "ফোল্ডারের নাম"
+    ],
+    "answer": "ওয়েবসাইটের একটি স্বতন্ত্র নাম",
+    "explanation": ""
+  },
+  {
+    "id": 508,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>মীম একটি কম্পিউটার প্রোগ্রাম  SQL ব্যবহার করে ইংরেজিতে ডেভেলোপ করল যা মানুষ সহজে বুঝতে পারে এবং তা কোনো কম্পিউটারের উপর নির্ভরশীল নয়।</p><p><br></p><p>Q. উদ্দীপকে উল্লিখিত প্রোগ্রামটি কোন ভাষায় রচিত?</p>",
+    "options": [
+      "হাই লেভেল ভাষা",
+      "চতুর্থ প্রজন্মের ভাষা",
+      "মেশিন ভাষা",
+      "অ্যাসেম্বলি ভাষা"
+    ],
+    "answer": "চতুর্থ প্রজন্মের ভাষা",
+    "explanation": ""
+  },
+  {
+    "id": 509,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে নিম্নোক্ত প্রশ্নের উত্তর দাওঃ</p><p>মীম একটি কম্পিউটার প্রোগ্রাম SQL ব্যবহার করে ইংরেজিতে ডেভেলোপ করল যা মানুষ সহজে বুঝতে পারে এবং তা কোনো কম্পিউটারের উপর নির্ভরশীল নয়।</p><p><br></p><p>Q. প্রোগ্রামটি অনুবাদ করার জন্য যে অনুবাদক প্রোগ্রামের প্রয়োজন—</p><p><br/>i. অ্যাসেম্বলার</p><p><br/>ii. কম্পাইলার</p><p><br/>iii. ইন্টারপ্রেটার</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 510,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>প্রোগ্রামিং এর ক্ষেত্রে ইনপুট বা আউটপুট চিহ্ন হিসেবে ব্যবহৃত হয় কোনটি?</p>",
+    "options": [
+      "<p>⚪</p>",
+      "<p>◻</p>",
+      "<p>◇</p>",
+      "<p>▱</p>"
+    ],
+    "answer": "<p>▱</p>",
+    "explanation": "<p><span style=\"background-color: rgb(249, 250, 251);\">⚪ = </span>কানেক্টর হিসেবে ব্যবহৃত হয়।</p><p><span style=\"background-color: rgb(249, 250, 251);\">▱ = </span>ইনপুট বা আউটপুট চিহ্ন হিসেবে ব্যবহৃত হয়।</p><p><span style=\"background-color: rgb(249, 250, 251);\">◇ = </span>শর্ত পরীক্ষার জন্য ব্যবহৃত হয়।</p><p><span style=\"background-color: rgb(249, 250, 251);\">◻ = </span>প্রক্রিয়াকরণের জন্য ব্যবহৃত হয়।</p><p><br></p><p><br></p><p><br></p>"
+  },
+  {
+    "id": 511,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>C ভাষায় লাইব্রেরি ফাংশন কোনটি—</p>",
+    "options": [
+      "printf( )",
+      "sum ( )",
+      "average ( )",
+      "if ( )"
+    ],
+    "answer": "printf( )",
+    "explanation": "<p>'সি' প্রোগ্রামের লাইব্রেরি ফাংশন হচ্ছে বিল্ট-ইন ফাংশন, যেগুলোর পূর্বে থেকে ডিফাইন করা থাকে। printf(), sqrt(), scanf(), pow(), ceil(), strlen(), strcmp(), strcat(), strcpy(), gets(), putchar(), puts() ইত্যাদি হচ্ছে লাইব্রেরি ফাংশন।</p>"
+  },
+  {
+    "id": 512,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>প্রোগ্রামিং ভাষার সর্বনিম্ন স্তর কোনটি?</p>",
+    "options": [
+      "হাই লেভেল ভাষা",
+      "অ্যাসেম্বলি ভাষা",
+      "মেশিন ভাষা",
+      "ভেরি হাই লেভেল ভাষা"
+    ],
+    "answer": "মেশিন ভাষা",
+    "explanation": ""
+  },
+  {
+    "id": 513,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>শীতল তাপমাত্রায় অস্বাভাবিক রোগাক্রান্ত টিস্যু ধ্বংস করার চিকিৎসা পদ্ধতিকে কী বলে?</p><p><br></p>",
+    "options": [
+      "ক্রায়োবলেশন",
+      "ক্রায়োপ্রব",
+      "ক্রায়োসার্জারি",
+      "ক্রায়োজেনিক"
+    ],
+    "answer": "ক্রায়োসার্জারি",
+    "explanation": ""
+  },
+  {
+    "id": 514,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</p><p>কম্পিউটার বিজ্ঞানের শিক্ষার্থী কামাল একটি যন্ত্র তৈরি করে। যেটি উঁচু নিচু স্থানে চলাফেরা করতে পারে এবং ভিডিও ধারণ করে অন্যদের নিকট পাঠাতে পারে।</p><p><br></p><p>Q. কামাল যন্ত্রটিকে কোন প্রযুক্তি ব্যবহার করে তৈরি করে?</p>",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "ন্যানোটেকনোলজি",
+      "রোবটিক্স",
+      "বায়োইনফরমেটিক্স"
+    ],
+    "answer": "রোবটিক্স",
+    "explanation": ""
+  },
+  {
+    "id": 515,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাও :</p><p>কম্পিউটার বিজ্ঞানের শিক্ষার্থী কামাল একটি যন্ত্র তৈরি করে। যেটি উঁচু নিচু স্থানে চলাফেরা করতে পারে এবং ভিডিও ধারণ করে অন্যদের নিকট পাঠাতে পারে।</p><p><br></p><p>Q. কামালের যন্ত্রটি ব্যবহার করা যায়—</p><p><br/>i. চিকিৎসা ক্ষেত্রে</p><p><br/>ii. গৃহব্যবস্থাপনায় </p><p><br/>iii. শিল্প কারখানায়</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 516,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>bps এর পূর্ণরূপ কী?</p>",
+    "options": [
+      "bit per second",
+      "byte per second",
+      "binary per second",
+      "bit per system"
+    ],
+    "answer": "bit per second",
+    "explanation": ""
+  },
+  {
+    "id": 517,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>ব্যান্ডউইথের অন্য নাম হলো—</p><p><br/>i. ডেটা ট্রান্সমিশন স্পিড</p><p><br/>ii. ব্যান্ড স্পিড</p><p><br/>iii. মোবাইল স্পিড</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 518,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>টেক্সট ও ছবি পাঠানোর প্রযুক্তি কোনটি?</p>",
+    "options": [
+      "ফ্যাক্স",
+      "এমএমএস",
+      "এসএমএস",
+      "টেলিগ্রাফ"
+    ],
+    "answer": "এমএমএস",
+    "explanation": ""
+  },
+  {
+    "id": 519,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>শিক্ষা প্রতিষ্ঠানে ল্যানের ক্ষেত্রে সাধারণত কোন ধরনের ক্যাবল ব্যবহার করা হয়?</p>",
+    "options": [
+      "টুইস্টেড",
+      "কো-এক্সিয়াল",
+      "থিকনেট",
+      "অপটিক ফাইবার"
+    ],
+    "answer": "টুইস্টেড",
+    "explanation": "<p class=\"ql-align-justify\">সাধারণত ছোট অফিস-আদালত, ব্যবসা ও শিক্ষা প্রতিষ্ঠানের ল্যান নেটওয়ার্কে তার মাধ্যম হিসেবে টুইস্টেড পেয়ার, কো-এক্সিয়াল বা ফাইবার অপটিক ক্যাবল এবং তারবিহীন মাধ্যম হিসেবে রেডিও ওয়েভ ব্যবহৃত হয়। তাই সঠিক উত্তর হবে-ক, খ ও ঘ নং অপশন।</p>"
+  },
+  {
+    "id": 520,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>মৌলিক লজিক গেইট কয়টি?</p>",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "answer": "৩",
+    "explanation": "<p>মৌলিক লজিক গেইট ৩টি। যথা-</p><p>১। AND গেইট</p><p>২। OR গেইট</p><p>৩। NOT গেইট</p>"
+  },
+  {
+    "id": 521,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p><img src=\"data:image/jpeg;base64,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\"></p>",
+    "options": [
+      "AB",
+      "$\\overline{A}B$",
+      "$\\overline{A} \\overline{B}$",
+      "$A\\overline{B}$"
+    ],
+    "answer": "$\\overline{A}B$",
+    "explanation": ""
+  },
+  {
+    "id": 522,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>$\\overline{(a+\\overline{b})(\\overline{a}+b)}$ এই সমীকরণটি সরল করতে হলে যে সূত্র ব্যবহার করতে হবে—</p><p><br/>i. $A\\bigoplus B$</p><p><br/>ii. $\\overline{A}B+A\\overline{B}$</p><p><br/>iii. $\\overline{A\\bigoplus B}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>$\\begin{aligned} &amp; \\overline{(a+\\bar{b})(\\bar{a}+b)} \\\\ &amp; =\\overline{a+\\bar{b}}+\\overline{\\bar{a}+b} \\\\ &amp; =\\bar{a} \\cdot \\overline{\\bar{b}}+\\overline{\\bar{a}} \\cdot \\bar{b}=\\bar{a} b+a \\bar{b}=a \\oplus b\\end{aligned}$</p><p>অর্থাৎ&nbsp;$\\overline{(a+\\bar{b})(\\bar{a}+b)}$ এই সমীকরণটি সরল করতে হলে $\\mathrm{a} \\oplus \\mathrm{b}$ এবং&nbsp;$\\bar{a} b+a \\bar{b}$ সূত্র ব্যবহার করতে হবে।</p>"
+  },
+  {
+    "id": 523,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>ওয়েবসাইটের একক ঠিকানা—</p>",
+    "options": [
+      "IP Address",
+      "HTTP",
+      "URL",
+      "HTML"
+    ],
+    "answer": "URL",
+    "explanation": ""
+  },
+  {
+    "id": 524,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "<p>একটি HTML ফাইলে —</p><p><br/><br/><br/>i. শুরু ট্যাগ হিসেবে &lt; html&gt; থাকে</p><p><br/><br/><br/>ii. প্রতি জোড়া শুরু ও শেষ ট্যাগ থাকে</p><p><br/><br/><br/>iii. অ্যাট্রিবিউট শুরু ট্যাগে থাকে</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 525,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Comilla",
+    "question": "দিপু তার ওয়েবসাইটে লেখার সাথে ছবিও যুক্ত করেছে। এতে করে তার সাইটটি সুন্দর ও আকর্ষণীয় হয়েছে। উদ্দীপকের দিপু কোন ট্যাগটি ব্যবহার করে ছবিটি যুক্ত করেছে?",
+    "options": [
+      "< caption >",
+      "< img >",
+      "< head >",
+      "< html >"
+    ],
+    "answer": "< img >",
+    "explanation": ""
+  }
+]

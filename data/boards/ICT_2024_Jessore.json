@@ -1,0 +1,402 @@
+[
+  {
+    "id": 301,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>&lt; P &gt; &lt; U  &gt;&lt; d e l &gt; HSC Exam &lt;  / d e l &gt;&lt;/ U &gt; &lt;/ P&gt;</p><p><br></p><p>Q. উদ্দীপকের আউটপুট কোনটি?</p>",
+    "options": [
+      "HSC Exam",
+      "<p><s>HSC Exam</s></p>",
+      "<p><s><u>HSC Exam</u></s></p>",
+      "<p>HSC <sup>Exam</sup></p>"
+    ],
+    "answer": "<p><s><u>HSC Exam</u></s></p>",
+    "explanation": ""
+  },
+  {
+    "id": 302,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>&lt; P &gt; &lt; U  &gt;&lt; d e l &gt; HSC Exam &lt;  / d e l &gt;&lt;/ U &gt; &lt;/ P&gt;</p><p><br></p><p>Q . কোডটিতে HSC Exam এর, স্থলে Pen.jpg ছবিকে Link Text আকারে উপস্থাপন করতে নিচের কোন কোডটি ব্যবহৃত হবে?</p>",
+    "options": [
+      "<a href=\"www.Pen.Com\"> Pen.Jpg</a>",
+      "<a href=\"www.Pen.Com\"> img src= \"Pen.Jpg\" </a>",
+      "<  a href = \"www.Pen.Com\"  > <  img src= \"Pen.Jpg\"> </a  >",
+      "< a href=\"www.Pen.Com\" img src= \"Pen.Jpg\" > </a >"
+    ],
+    "answer": "<  a href = \"www.Pen.Com\"  > <  img src= \"Pen.Jpg\"> </a  >",
+    "explanation": ""
+  },
+  {
+    "id": 303,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>নিচের কোনটি অস্থায়ী মেমরি?</p>",
+    "options": [
+      "ROM",
+      "RAM",
+      "USB Drive",
+      "Hard disk"
+    ],
+    "answer": "RAM",
+    "explanation": ""
+  },
+  {
+    "id": 304,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>নিচের কোনটি সঠিক চলক?</p>",
+    "options": [
+      "Inum",
+      "2_num",
+      "char",
+      "num2"
+    ],
+    "answer": "num2",
+    "explanation": ""
+  },
+  {
+    "id": 305,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>int i;</p><p>for (i = 3; i&lt;=20; i = i + 3)</p><p>Printf (\"ICT\");</p><p>প্রশ্ন : প্রোগামটি রান করলে ICT লেখাটি কতবার প্রদর্শিত হবে?</p>",
+    "options": [
+      "৩",
+      "৬",
+      "১০",
+      "১৫"
+    ],
+    "answer": "৬",
+    "explanation": ""
+  },
+  {
+    "id": 306,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>int i;</p><p>for (i = 3; i&lt;=20; i = i + 3)</p><p>Printf (\"ICT\");</p><p><br></p><p>প্রশ্ন : উদ্দীপকে Printf (\"ICT\") স্ট্যাটম্যান্ট এর পূর্বে if(i ==12 || i == 18) continue: ব্যবহার করা হলে ICT লেখাটি কতবার প্রদর্শিত হবে?</p>",
+    "options": [
+      "4",
+      "5",
+      "12",
+      "18"
+    ],
+    "answer": "4",
+    "explanation": "<p>i = 3; ICT লিখাটি প্রদর্শিত হবে </p><p>i = 6; ICT লিখাটি প্রদর্শিত হবে</p><p>i = 9; ICT লিখাটি প্রদর্শিত হবে </p><p>i = 12; এক্ষেত্রে if (i == 12 || i == 18) continue; থাকার ফলে i = 12 ধাপটি এড়িয়ে যাবে </p><p>i = 15 ; ICT লিখাটি প্রদর্শিত হবে </p><p>i = 18; এক্ষেত্রে if (i == 12 || i == 18) continue; থাকার ফলে i = 18 ধাপটি এড়িয়ে যাবে </p><p>i = 21 ; যেহেতু i &lt; 20 রয়েছে তাই i = 21 এর ক্ষেত্রে লুপ থেকে বের হয়ে যাবে এবং ICT লিখাটি 4 বার প্রদর্শিত হবে।</p>"
+  },
+  {
+    "id": 307,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>5, D, 15 ........ ধারাটির পরবর্তী সংখ্যা কোনটি?</p>",
+    "options": [
+      "20",
+      "29",
+      "1C",
+      "1D"
+    ],
+    "answer": "1D",
+    "explanation": ""
+  },
+  {
+    "id": 308,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/jpeg;base64,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\"></p><p>প্রশ্ন : উদ্দীপকে F এর সরলীকৃত মান হচ্ছে-</p>",
+    "options": [
+      "AB",
+      "$\\bar{A} B$",
+      "$A \\bar{B}$",
+      "$\\overline{\\mathrm{A}} \\quad \\overline{\\mathrm{B}}$"
+    ],
+    "answer": "$A \\bar{B}$",
+    "explanation": "<p>$\\begin{aligned} F &amp; =\\overline{A \\oplus \\overline{A B}} \\\\ &amp; =A \\cdot \\overline{A B}+\\bar{A} \\cdot \\overline{\\overline{A B}} \\\\ &amp; =A(\\bar{A}+\\bar{B})+\\bar{A} \\cdot A B \\\\ &amp; =A \\bar{A}+A \\bar{B}+0[\\because A \\cdot \\bar{A}=0] \\\\ &amp; =0+A \\bar{B}=A \\bar{B}\\end{aligned}$</p>"
+  },
+  {
+    "id": 309,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p><img src=\"data:image/jpeg;base64,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\"></p><p>প্রশ্ন : উদ্দীপকে 'F' এর মান 'O' পেতে হলে 'P' এর স্থলে কোন গেইট হবে?</p>",
+    "options": [
+      "AND",
+      "OR",
+      "NAND",
+      "NOR"
+    ],
+    "answer": "NOR",
+    "explanation": "<p><img src=\"data:image/png;base64,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\"></p><p>চিত্রটিতে P এর স্থলে AND গেইট বসিয়ে পাই-</p><p>$F=A \\cdot \\overline{A B}=A(\\bar{A}+\\bar{B})=A \\bar{A}+A \\bar{B}=0+A \\bar{B}=A \\bar{B}$</p><p>চিত্রটিতে P এর স্থলে OR গেইট বসিয়ে পাই-</p><p>$\\mathrm{F}=\\mathrm{A}+\\overline{\\mathrm{AB}}=\\mathrm{A}+\\overline{\\mathrm{A}}+\\overline{\\mathrm{B}}=1+\\overline{\\mathrm{B}}=1$</p><p>চিত্রটিতে P এর স্থলে NAND গেইট বসিয়ে পাই-</p><p>$\\begin{aligned} F &amp; =\\overline{A \\cdot \\overline{A B}} \\\\ &amp; =\\bar{A}+\\overline{\\overline{A B}} \\\\ &amp; =\\bar{A}+A B \\\\ &amp; =\\bar{A}(1+B)+A B \\\\ &amp; =\\bar{A}+\\bar{A} B+A B=\\bar{A}+B(\\bar{A}+A)=\\bar{A}+B\\end{aligned}$</p><p>চিত্রটিতে P. এর স্থলে NOR গেইট বসিয়ে পাই-</p><p>$\\begin{aligned} F=\\overline{A+\\overline{A B}}=\\bar{A} \\cdot \\overline{\\overline{A B}} &amp; =\\bar{A} \\cdot A B \\\\ &amp; =0 \\cdot B[\\because A \\cdot \\bar{A}=0] \\\\ &amp; =0\\end{aligned}$</p>"
+  },
+  {
+    "id": 310,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>নিচের কোনটি Empty Tag?</p>",
+    "options": [
+      "< b >",
+      "< d e l >",
+      "< h r >",
+      "< s u p >"
+    ],
+    "answer": "< h r >",
+    "explanation": ""
+  },
+  {
+    "id": 311,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>নতুন ট্যাবে ওয়েবপেইজ খুলতে ব্যবহৃত অ্যাট্রিবিউট কোনটি?</p>",
+    "options": [
+      "Blank",
+      "Href",
+      "Target",
+      "Title"
+    ],
+    "answer": "Target",
+    "explanation": ""
+  },
+  {
+    "id": 312,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>টেবিল Cell এর বর্ডার থেকে টেবিলের ডেটা 50Px দূরত্বে রাখার জন্য নিচের সঠিক html কোড কোনটি?</p>",
+    "options": [
+      "<  t a b l e border = \" 1 \" cell padding = \" 50 \"  >",
+      "<  table border $=$ \" 1 \" cellspacing =\"50\"   >",
+      "< ta ble border = \" 0 \" cellspacing = \" 50 \">",
+      "< ta ble border =1 cellpadding =50>"
+    ],
+    "answer": "<  t a b l e border = \" 1 \" cell padding = \" 50 \"  >",
+    "explanation": ""
+  },
+  {
+    "id": 313,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>একটি কক্ষে ১০টি কম্পিউটার চক্রাকারে পরস্পরের সাথে এমনভাবে যুক্ত আছে যাতে একটি কম্পিউটার নষ্ট হলে পুরো নেটওয়ার্ক অচল হয়ে পড়ে।</p><p><br></p><p>প্রশ্ন : কক্ষের নেটওয়ার্কে কোন টপোলজি ব্যবহৃত হয়েছে?</p>",
+    "options": [
+      "বাস",
+      "রিং",
+      "স্টার",
+      "মেশ"
+    ],
+    "answer": "রিং",
+    "explanation": ""
+  },
+  {
+    "id": 314,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>একটি কক্ষে ১০টি কম্পিউটার চক্রাকারে পরস্পরের সাথে এমনভাবে যুক্ত আছে যাতে একটি কম্পিউটার নষ্ট হলে পুরো নেটওয়ার্ক অচল হয়ে পড়ে।</p><p><br></p><p>Q. আরো কম্পিউটার সংযুক্ত ও পূর্বের ত্রুটি মুক্ত করতে ব্যবহার টপোলজি হতে পারে-</p><p><br/>i. মেশ</p><p><br/>ii. স্টার</p><p><br/>iii. ট্রি</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 315,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>UTF-8 নিম্নের কোন কোড?</p>",
+    "options": [
+      "BCD",
+      "EBCDIC",
+      "ASCII-8",
+      "Uni"
+    ],
+    "answer": "Uni",
+    "explanation": ""
+  },
+  {
+    "id": 316,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>কোন বর্তনী বাইনারি সংখ্যা যোগ করতে পারে?</p>",
+    "options": [
+      "এনকোডার",
+      "ডিকোডার",
+      "ফ্লিপ-ফুপ",
+      "এডার"
+    ],
+    "answer": "এডার",
+    "explanation": ""
+  },
+  {
+    "id": 317,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>321 সংখ্যাটি হতে পারে-</p><p><br/><br/>i. অক্টাল</p><p><br/><br/>ii. ডেসিমাল</p><p><br/><br/>iii. হেক্সাডেসিমাল</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": "<p>অক্টাল সংখ্যা পদ্ধতিতে ব্যবহৃত অঙ্কগুলো হলো-</p><p>0, 1, 2, 3, 4, 5, 6, 7। তাই 321 অক্টাল সংখ্যা পদ্ধতি হতে পারে। </p><p>ডেসিমাল সংখ্যা পদ্ধতিতে ব্যবহৃত অঙ্কগুলো হলো-</p><p>0, 1, 2, 3, 4, 5, 6, 7, 8, 9। তাই 321 সংখ্যাটি ডেসিমাল সংখ্যা পদ্ধতি হতে পারে।</p><p>হেক্সাডেসিমাল সংখ্যা পদ্ধতিতে ব্যবহৃত অঙ্কগুলো হলো-</p><p>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F তাই 321 সংখ্যাটি হেক্সাডেসিমাল সংখ্যা পদ্ধতি হতে পারে।</p>"
+  },
+  {
+    "id": 318,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>স্মার্ট ওষুধ তৈরিতে ব্যবহৃত প্রযুক্তি কোনটি?</p>",
+    "options": [
+      "ন্যানোটেকনোলজি",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "বায়োমেট্রিক্স",
+      "আর্টিফিসিয়াল ইনটেলিজেন্স"
+    ],
+    "answer": "ন্যানোটেকনোলজি",
+    "explanation": ""
+  },
+  {
+    "id": 319,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>নিম্নের কোনটি বায়োইনফরমেটিক্স এর ব্যবহার ক্ষেত্র?</p>",
+    "options": [
+      "ডি.এন.এ ম্যাপিং ও অ্যানালাইসিস",
+      "ডি.এন.এ খণ্ড পৃথকীকরণ",
+      "ডি.এন.এ খণ্ড প্রতিস্থাপন",
+      "ডি.এন. এ তৈরি"
+    ],
+    "answer": "ডি.এন.এ ম্যাপিং ও অ্যানালাইসিস",
+    "explanation": ""
+  },
+  {
+    "id": 320,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>ইউনিক আইডেন্টিটি তৈরিতে ফিংগার প্রিন্ট মেশিনে আঙ্গুলের ছাপ তৈরি হয়-</p><p><br/>i. আঙ্গুলের রেখার বিন্যাসের উপর ভিত্তি করে</p><p><br/>ii. ত্বকের টিস্যুর উপর ভিত্তি করে</p><p><br/>iii. ত্বকের নিচের রক্ত সঞ্চালনের শিরার উপর ভিত্তি করে</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i, ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 321,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>ভার্চুয়াল রিয়েলিটির মাধ্যমে নিরাপদে কোন কাজটি করা সম্ভব?</p><p><br/>i. মহাশূন্য অভিযান</p><p><br/>ii. সেনা বাহিনীতে যুদ্ধ প্রশিক্ষণ</p><p><br/>iii. পরিবেশ সুরক্ষা</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 322,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>কোন চ্যানেলের ভেতর দিয়ে 4 সেকেন্ডে 32kb ডেটা স্থানান্তরিত হলে তার ব্যান্ড উইথ কত?</p>",
+    "options": [
+      "8 bps",
+      "8 kbps",
+      "192 kbps",
+      "1 mbps"
+    ],
+    "answer": "8 kbps",
+    "explanation": ""
+  },
+  {
+    "id": 323,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>কোন প্রজন্মের মোবাইল ফোনে প্রি-পেইড প্রথা চালু হয়েছে?</p>",
+    "options": [
+      "প্রথম",
+      "দ্বিতীয়",
+      "তৃতীয়",
+      "চতুর্থ"
+    ],
+    "answer": "দ্বিতীয়",
+    "explanation": ""
+  },
+  {
+    "id": 324,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>HD ভিডিও কনফারেন্সিং সার্ভিসের প্রয়োজনীয় ব্যান্ড উইথ কোনটি?</p>",
+    "options": [
+      "0-5 Mbps",
+      "0-7 Mbps",
+      "1 Mbps",
+      "4 Mbps"
+    ],
+    "answer": "4 Mbps",
+    "explanation": ""
+  },
+  {
+    "id": 325,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2024",
+    "board": "Jessore",
+    "question": "<p>কি বোর্ড ও কম্পিউটারের মধ্যে ডেটা সঞ্চালনের মোড কোনটি?</p>",
+    "options": [
+      "সিমপ্লেক্স",
+      "হাফ ডুপ্লেক্স",
+      "ফুল ডুপ্লেক্স",
+      "মাল্টিকাস্ট"
+    ],
+    "answer": "সিমপ্লেক্স",
+    "explanation": ""
+  }
+]

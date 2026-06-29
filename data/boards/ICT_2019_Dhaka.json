@@ -1,0 +1,402 @@
+[
+  {
+    "id": 676,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "WiMax এর স্ট্যান্ডার্ড কত?",
+    "options": [
+      "802.15 GHz",
+      "802.16 GHz",
+      "802.15 GHz",
+      "802.11a GHz"
+    ],
+    "answer": "802.16 GHz",
+    "explanation": ""
+  },
+  {
+    "id": 677,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>$(১১১০.১১)$<sub>২</sub> এর সমকক্ষ হেক্সাডেসিমেল সংখ্যা কোনটি? </p>",
+    "options": [
+      "E.A",
+      "E.C",
+      "C.E",
+      "E.J"
+    ],
+    "answer": "E.C",
+    "explanation": "<p>(1110.11) <sub>2</sub> = (?)<sub>16</sub></p><p>$\\underset{\\underset{\\underset{14(E)}{\\mid }}{\\leftarrow }}{1110}$ . $\\underset{\\underset{\\underset{12(C)}{\\mid }}{\\rightarrow }}{1100}$</p><p>$\\therefore(1110.11)_2=(\\mathrm{E} . C)_{16}$</p>"
+  },
+  {
+    "id": 678,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদীপকটি পড়ে প্রশ্নের উত্তর দাও :&nbsp;</strong></p><p>'X' তার ডিজিটাল ডিভাইসে নতুন সফটওয়্যার ব্যবহার করতে পারে না। বর্তমানে এক নতুন সার্ভিস গ্রহণ করায় অটো আপডেট, উচ্চ গতিসম্পন্ন ডিজিটাল সুবিধা পায়।&nbsp;</p><p><br></p><p><strong>Q. উদ্দীপকের সার্ভিসটির নাম কী?</strong></p>",
+    "options": [
+      "ব্লুটুথ",
+      "ওয়াইফাই",
+      "ওয়াইম্যাক্স",
+      "ক্লাউড কম্পিউটিং"
+    ],
+    "answer": "ক্লাউড কম্পিউটিং",
+    "explanation": ""
+  },
+  {
+    "id": 679,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদীপকটি পড়ে প্রশ্নের উত্তর দাও :&nbsp;</strong></p><p>'X' তার ডিজিটাল ডিভাইসে নতুন সফটওয়্যার ব্যবহার করতে পারে না। বর্তমানে এক নতুন সার্ভিস গ্রহণ করায় অটো আপডেট, উচ্চ গতিসম্পন্ন ডিজিটাল সুবিধা পায়।&nbsp;</p><p><br></p><p>Q. সার্ভিসের ক্ষেত্রে প্রযোজ্য-</p><p><br/>i. কেন্দ্রীয় রিমোট সার্ভারের মাধ্যমে ডাটা নিয়ন্ত্রণ</p><p><br/>ii. ব্যবহারে অতিরিক্ত মূল্য দিতে হয়&nbsp;</p><p><br/>iii. রক্ষণাবেক্ষণ খরচ নেই&nbsp;</p><p><br></p><p><strong>নিচের কোনটি সঠিক</strong></p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 680,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>&nbsp;NOR এর আউটপুট ০ (শূন্য) হবে যখন-</p><p><br/><br/>i. সবগুলো ইনপুটে 1</p><p><br/><br/>ii. সবগুলো ইনপুটে 0</p><p><br/><br/>iii. যে কোনো একটি ইনপুটে 1</p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii এবং iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 681,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "ওয়েব সাইটের একক ঠিকানা-",
+    "options": [
+      "IP Address",
+      "URL",
+      "HTTP",
+      "HTML"
+    ],
+    "answer": "URL",
+    "explanation": ""
+  },
+  {
+    "id": 682,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>বিট, বাইট, মেমরি অ্যাড্রেস নিয়ে কাজ করে-</p><p><br/>i. মেশিন ভাষা</p><p><br/>ii. মধ্যন্তরের ভাষা</p><p><br/>iii. উচ্চস্তরের ভাষা</p><p><strong>নিচের কোনটি সঠিক? </strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii। এবং iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 683,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "নির্দিষ্ট ডাটা খুঁজতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "সর্টিং",
+      "সার্চিং",
+      "কুয়েরি",
+      "ইন্ডেক্সিং"
+    ],
+    "answer": "কুয়েরি",
+    "explanation": ""
+  },
+  {
+    "id": 684,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>C ভাষার লাইব্রেরি ফাংশন হলো:</p><p><br/><br/>i. print()</p><p><br/><br/>ii. scanf()</p><p><br/><br/>iii. add ()</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii এবং iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 685,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ&nbsp;</strong></p><p>'X' কলেজের অধ্যক্ষ ছাত্রদের নির্বাচনি পরীক্ষা ফলাফলের ডেটাকে উধ্বক্রমে ও নিম্নক্রমে সাজাচ্ছিলেন। এর ফলে তিনি ডেটাকে সহজেই খুঁজে বের করতে পেরেছিলেন।</p><p><br></p><p><strong>Q. অধ্যক্ষ সাহেবের ডেটা সাজানোর পদ্ধতিকে কি বলা হয়?</strong></p>",
+    "options": [
+      "সর্টিং",
+      "সাচিং",
+      "ইন্ডেক্সিং",
+      "কুয়েরি"
+    ],
+    "answer": "সর্টিং",
+    "explanation": ""
+  },
+  {
+    "id": 686,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ&nbsp;</strong></p><p>'X' কলেজের অধ্যক্ষ ছাত্রদের নির্বাচনি পরীক্ষা ফলাফলের ডেটাকে উধ্বক্রমে ও নিম্নক্রমে সাজাচ্ছিলেন। এর ফলে তিনি ডেটাকে সহজেই খুঁজে বের করতে পেরেছিলেন।</p><p><br></p><p>Q. উক্ত পদ্ধতির সুবিধা-</p><p><br/>i. স্বয়ংক্রিয়ভাবে ফাইল আপডেট হয়&nbsp;</p><p><br/>ii. কাজের গতি বৃদ্ধি পায়&nbsp;</p><p><br/>iii. বেশি জায়গার প্রয়োজন হয়</p><p><br></p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii এবং iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 687,
+    "subject": "ICT",
+    "chapter": "Chapter 6: ডেটাবেজ ম্যানেজমেন্ট সিস্টেম ",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "ডেটাবেজে SQL টেবিলে নতুন রেকর্ড সংযোজনে কোন স্টেটমেন্ট ব্যবহার করা যায়?",
+    "options": [
+      "SELECT",
+      "UPDATE",
+      "CREATE",
+      "INSERT"
+    ],
+    "answer": "INSERT",
+    "explanation": ""
+  },
+  {
+    "id": 688,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "বিভিন্ন জটিল রোগের কারণ আবিষ্কারে কোন প্রযুক্তি কাজ করছে?",
+    "options": [
+      "বায়োইনফরমেটিক্স",
+      "ন্যানোটেকনোলজি",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ক্রায়োসার্জারি"
+    ],
+    "answer": "বায়োইনফরমেটিক্স",
+    "explanation": "<p class=\"ql-align-justify\">বায়োইনফরম্যাটিক্স আধুনিক জীববিজ্ঞান ও ওষুধ বিজ্ঞানের ডেটা ব্যবস্থাপনার জন্য একটি বিশেষ পদ্ধতি। এটির মাধ্যমে যেকোনো জটিল রোগের কারণ ও ভ্যাক্সিন আবিষ্কার করে।</p>"
+  },
+  {
+    "id": 689,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>বায়োইনফরমেটিক্সের ব্যবহারের ক্ষেত্রগুলো হলো-&nbsp;</p><p><br/>i. জৈব প্রযুক্তি</p><p><br/>ii. জীবাণু অস্ত্র তৈরি</p><p><br/>iii. মহাকাশ গবেষণা</p><p><strong>নিচের কোনটি সঠিক?</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii এবং iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": ""
+  },
+  {
+    "id": 690,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "পাঁচটি ইনপুটবিশিষ্ট ডিকোডারের আউটপুট লাইন কতটি?",
+    "options": [
+      "৮",
+      "১৬",
+      "৩২",
+      "৬৪"
+    ],
+    "answer": "৩২",
+    "explanation": "<p>ডিকোডারের ক্ষেত্রে ইনপুট nটি হলে আউটপুট হয় 2<sup>n</sup> টি। তাই পাঁচ ইনপুট বিশিষ্ট ডিকোডারের আউটপুট লাইন হবে 2<sup>5</sup> = 32টি।</p>"
+  },
+  {
+    "id": 691,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>(17)<sub>8</sub> এর পরের সংখ্যা কোনটি?</p>",
+    "options": [
+      "14",
+      "15",
+      "20",
+      "32"
+    ],
+    "answer": "20",
+    "explanation": "<p>(17)<sub>8</sub> একটি অক্ট্যাল সংখ্যা পদ্ধতি। এটিকে বাইনারিতে রূপান্তর করে, তার সাথে 1 যোগ করলে (17)<sub>8</sub> এর পরের সংখ্যাটি পাওয়া যাবে। অর্থাৎ (17)<sub>8  </sub>= (1111)<sub>2</sub> এবং 1111+1 (10000)<sub>2</sub> কে অষ্ট্যাপে রূপান্তর করতে (20)<sub>8</sub> হবে ।</p>"
+  },
+  {
+    "id": 692,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>#include &lt; stdio.h &gt;</p><p>main ()</p><p>{</p><p>Int a=3, b;&nbsp;</p><p>b=2*a;</p><p>Print f(\"%d\", b);</p><p>}</p><p><strong>উদ্দীপকের প্রোগ্রামটি রান করলে b এর মানকত হবে?</strong></p>",
+    "options": [
+      "৩",
+      "৪",
+      "৫",
+      "৬"
+    ],
+    "answer": "৬",
+    "explanation": ""
+  },
+  {
+    "id": 693,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>ক্লাউড কম্পিউটিং এর সুবিধাজনক কারণ-</p><p><br/><br/>i. শুধুমাত্র নিজস্ব হার্ডওয়্যার প্রয়োজন</p><p><br/><br/>ii. সফটওয়্যার স্বয়ংক্রিয়ভাবে আপডেট হয়</p><p><br/><br/>iii. সার্বক্ষণিক ব্যবহার করা যায়&nbsp;</p><p><strong>নিচের কোনটি সঠিক</strong></p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii এবং iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 694,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "তারগুলো পেঁচানো ও জোড়া জোড়া থাকে বলে ঐ তারকে বলা হয়-",
+    "options": [
+      "টেলিফোন ক্যাবল",
+      "কো-এক্সিয়াল ক্যাবল",
+      "টুইস্টেড পেয়ার ক্যাবল",
+      "ফাইবার অপটিক"
+    ],
+    "answer": "টুইস্টেড পেয়ার ক্যাবল",
+    "explanation": ""
+  },
+  {
+    "id": 695,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ</strong></p><p><img src=\"data:image/png;base64,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\"></p><p>Q. Y এর মান কোনটি?</p>",
+    "options": [
+      "$\\overline{A B}$",
+      "$\\overline{\\overline{\\mathrm{AB}}}$",
+      "$\\overline{\\mathrm{A}+\\mathrm{B}}$",
+      "AB"
+    ],
+    "answer": "AB",
+    "explanation": "<p>$\\begin{aligned} &amp; y=A B \\cdot A B \\\\ &amp; =A B[\\because A \\cdot A=A]\\end{aligned}$</p>"
+  },
+  {
+    "id": 696,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p><strong>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ</strong></p><p><img src=\"data:image/png;base64,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\"></p><p><br></p><p>Q. উদ্দীপকের বর্তনীটির আউটপুট Y=1 পেতে হলে A ও B এর কত ইনপুট নিতে হবে?</p>",
+    "options": [
+      "A=0 ও B-0",
+      "A=0 ও B=1",
+      "A=1 ও B=0",
+      "A=1ও B=1"
+    ],
+    "answer": "A=1ও B=1",
+    "explanation": "<p>উদ্দীপকের বর্তনীটির আউটপুট y = 1 পেতে হলে A ও B ইনপুট A = 1 এবং B = 1 দিতে হবে। </p><p>y = AB = 1.1 = 1</p>"
+  },
+  {
+    "id": 697,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ</p><p>তমালের তৈরিকৃত ওয়েবপেজটি লোডিং করার পরও ডেটার মান পরিবর্তন করতে পারছে না। এ সমস্যা সমাধানের জন্য&nbsp;তার শিক্ষক তাকে কয়েকটি ভাষা ব্যবহার পরামর্শ দিলেন।</p><p><br></p><p>Q. তমালের তৈরিকৃত ওয়েবপেজটি কোন ধরনের?</p>",
+    "options": [
+      "ডায়নামিক ওয়েবপেজ",
+      "স্ট্যাটিক ওয়েবপেজ",
+      "লোকাল ওয়েবপেজ",
+      "রিমোট ওয়েবপেজ"
+    ],
+    "answer": "স্ট্যাটিক ওয়েবপেজ",
+    "explanation": "<p class=\"ql-align-justify\">যে সকল ওয়েবপেইজ লোডিং করার সময় ডেটার মানের কোনো পরিবর্তন হয় না সেগুলোকে স্ট্যাটিক ওয়েবসাইট বলে। আর যেগুলোর ডেটার মান রান টাইমে পরিবর্তন হয় সেগুলোকে ডাইনামিক ওয়েবসাইট বলে।</p>"
+  },
+  {
+    "id": 698,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>উদ্দীপকটি পড়ে প্রশ্নের উত্তর দাওঃ</p><p>তমালের তৈরিকৃত ওয়েবপেজটি লোডিং করার পরও ডেটার মান পরিবর্তন করতে পারছে না। এ সমস্যা সমাধানের জন্য&nbsp;তার শিক্ষক তাকে কয়েকটি ভাষা ব্যবহার পরামর্শ দিলেন।</p><p><br></p><p>Q. ওয়েবপেজের সমস্যা সমাধানের উপযোগী ভাষা হলো-</p><p><br/>i.ASP&nbsp;</p><p><br/>ii.PHP </p><p><br/>iii. JSP</p><p><br></p><p>নিচের কোনটি সঠিক</p>",
+    "options": [
+      "i ও ii",
+      "i ও iii",
+      "ii ও iii",
+      "i, ii। এবং iii"
+    ],
+    "answer": "i, ii। এবং iii",
+    "explanation": ""
+  },
+  {
+    "id": 699,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "&nbsp;সি ভাষার ইন্টিজার ডেটা টাইপ কত বিটের?",
+    "options": [
+      "৮",
+      "১৬",
+      "৩২",
+      "৬৪"
+    ],
+    "answer": "৩২",
+    "explanation": "<p>'সি' ভাষায় Character ডেটা টাইপ ৮ বিটের</p><p>'সি' ভাষায় Integer ডেটা টাইপ ৩২ বিটের</p><p><br></p><p>'সি' ভাষায় float ডেটা টাইপ ৩২ বিটের</p><p>'সি' ভাষায় double ডেটা টাইপ ৬৪ বিটের</p>"
+  },
+  {
+    "id": 700,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2019",
+    "board": "Dhaka",
+    "question": "<p>ব্রাউজারকারীর সময় বাঁচে কোন ট্যাগে?</p>",
+    "options": [
+      "< br >",
+      "< a >",
+      "< li >",
+      "< i >"
+    ],
+    "answer": "< a >",
+    "explanation": "<p><br></p>"
+  }
+]

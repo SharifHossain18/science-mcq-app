@@ -1,0 +1,402 @@
+[
+  {
+    "id": 651,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>লিস্টে আইটেম যুক্ত করার ট্যাগ কোনটি?</p>",
+    "options": [
+      "< ol >",
+      "< li >",
+      "< ul >",
+      "< dl >"
+    ],
+    "answer": "< li >",
+    "explanation": ""
+  },
+  {
+    "id": 652,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>$(AB)_{16}$ এর সমতুল্য —</p><p><br/>i. $(10101011)_{2}$</p><p><br/>ii. $(253)_{8}$</p><p><br/>iii. $(73)_{10}$</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও ii",
+    "explanation": "<p>(AB)<sub>16</sub> = (?)<sub>2</sub></p><p>(AB)<sub>16 </sub>= $\\underset{A}{1010}$    $\\underset{B}{1011}$   =   10101011</p><p>(AB)<sub>16</sub> (10101011)<sub>2</sub></p><p>(AB)<sub>16</sub> = (?)<sub>8</sub></p><p>(AB)<sub>16</sub>= $\\underset{A}{1010}$     $\\underset{B}{1011}$   =   $\\underset{2}{010}$   $\\underset{5}{101}$   $\\underset{3}{011}$   =  253</p><p>$\\begin{aligned} &amp; \\therefore(\\mathrm{AB})_{16}=(253)_8 \\\\ &amp; (\\mathrm{AB})_{16}=(?)_2 \\\\ &amp; (\\mathrm{AB})_{16}=\\mathrm{A} \\times 16^1+\\mathrm{B} \\times 16^0 \\\\ &amp; =10 \\times 16+11 \\times 1=160+11=171 \\\\ &amp; \\therefore(\\mathrm{AB})_{16}=(171)_{10}\\end{aligned}$</p><p>অর্থাৎ সঠিক উত্তর (i), (ii)</p>"
+  },
+  {
+    "id": 653,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>(1000.11100)<sub>2</sub> - (101.01001)<sub>2 </sub> =?</p>",
+    "options": [
+      "0011.10011",
+      "1010.10011",
+      "1011.10011",
+      "1011.11011"
+    ],
+    "answer": "0011.10011",
+    "explanation": ""
+  },
+  {
+    "id": 654,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>(100)<sub>2 </sub>এবং<sub> </sub>(1A)<sub>16</sub> এর যোগফল কত?</p>",
+    "options": [
+      "1AA",
+      "1B",
+      "AF",
+      "1E"
+    ],
+    "answer": "1E",
+    "explanation": "<p>(100)<sub>2</sub> = (?)<sub>16</sub></p><p>(100)<sub>2</sub> =&nbsp;$\\underset{4}{0100}$</p><p>$\\begin{aligned} &amp; \\therefore(100)_2=(4)_{16} \\\\ &amp; (1 \\mathrm{~A})_{16}+(4)_{16}=(1 \\mathrm{E})_{16}\\end{aligned}$</p>"
+  },
+  {
+    "id": 655,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>&lt; span style=\"color: red\" &gt; Text&lt; /span &gt;</p><p><br></p><p>Q. উদ্দীপকে এলিমেন্ট কন্টেন্ট কোনটি?</p>",
+    "options": [
+      "Style",
+      "Color: red",
+      "Span",
+      "Text"
+    ],
+    "answer": "Text",
+    "explanation": ""
+  },
+  {
+    "id": 656,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>&lt; span style=\"color: red\" &gt; Text&lt; /span &gt;</p><p><br></p><p>Q. উদ্দীপকে এট্রিবিউট কোনটি?</p>",
+    "options": [
+      "Style",
+      "Color: red",
+      "Span",
+      "Text"
+    ],
+    "answer": "Style",
+    "explanation": ""
+  },
+  {
+    "id": 657,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAE8BiQMBIgACEQEDEQH/xAAsAAEAAgMBAAAAAAAAAAAAAAAABAUBAwYCAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAALqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPPqqIHSclbFs50dE5z0dDii8ErEC+IVlHozqUaSAAAAAAAAAAAAAAAAAIU2oK6+4vrjajezd514Nsf3EPN/RXo17NJyt5SdEaEjyRsShX099WHT7NW0AAAAAAAAAAAAAVtlRkOwj3hSL3JRZvcFHE6byUVvEwb6O6nmvcAAAAAAAAAAAAAAAAADGQAAAAAAAAAAAAAAAAB//xAAC/9oADAMBAAIAAwAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQyxTTTAgAAAAAAAAAAAAAAAABSghRwgAgABSgAAAAAAAAAAAAABzwAQAwAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAD/8QAAv/aAAwDAQACAAMAAAAQ888888888888888888888888888888888osUwQA088888888888888888sYEoQU8AEoUU88888888888888w8Qw00c88888888888888888888888888888888888//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQIBAT8Ae//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQMBAT8Ae//EAD4QAAECBAIFBwgJBQAAAAAAAAECAwAEBRESVBMVIVGSFBYxQVJTkRAiMlBhcYGiBiAzNEBEYKGxQmOD0fD/2gAIAQEAAT8C/WZhisFdS0VxoSbJPluIv9RVbp6VEaQ/ARr2ndtXDCa3TlH7Uj3iG3EOJxIUFDePU1WW+mUKGUKUpfm7PbE7TFtSUqWUEuIPnWG+JmSVPyrGkUptdrn3mObyM05HNxrNLjm63ml+Ec3m805AoDWZeh6iMJZcPKHjZJNid0UGXYdl3VONIUcfWLxyCUyzXCIcp8k4POl2/gLfxE1Jv01XKZRRwf1oiWmETLKHUdfqWefXLyrjqACU74Nbm0NMuKlkYV9d+mOVMJbbWtxKMYuMRtHL5LNNcYjl8lmmuMRy6SzTXGINRkc03xRrGRzLfFE1PyZlnwmYbJwGwvH0d+5LP93yuYMCsdsNje+6KVUZeWU+0pR0RVdBtGuaaPzHyqjXVM7/AOVUa5pmY+Uwa3Te+PCY17Tu8PDD1Rl5xJYYfUhxXom0NzM+8lMjiIcDm1WLd1QgEISCq5A6d/42tKw05322EO8nclZRLWJT4G0W2b45G3My7Amm7rCf3jU1N7j9zGqqflkxqmnZZP7xqim5YeJjU9Nyo8TE5S5BuVfWhgBQQSDc9UfR/wC4f5D5XlNpaWV+hh2xRqfLzAeddRdOKyRAp0gPyrXDGr5DKtcMatkMs34Rq6QyzfhGrJDKt+ETcnombyTDYc39YHsh2jPIYYWz9uk+fthvSaNGltit5342pTiJVi6hiKvRSeuMdaYbS+EtW62ko27YfqzEtow6heNScVgOj+I5xSPYe8B/uOcMl2HvARzhkew74Rzikew74Rzhkey6fhE5W5Z6WdbS26CpNtsUV+WakgFvtpJUTYqjlsnmWuMQ7UpFsXMwj4G8OOzVXXo2klDAO0wyyhhpLaBsHqWtSrrzTTjW1TRJt74aq7z+FDMqrSHf0CMIUBiSLwAB0DyWiw3RhT2RCm0LSUqSCD0iNS03uPmMakpvcfMYFKp6TcSyf+98AACwFv13/8QAKRABAAIBAQYGAgMAAAAAAAAAAQARITFBUWFxwfAQgZGx0fFQoUBg4f/aAAgBAQABPyH+5qhVANrF119bN7G+LLAziXOOSm+WS4oF6c4s3pq1Rn36VJ5nIOWdFs/DKZPI3Rq/WJbsvlK5LjclSgMEAsCyJMNP6Y/5pPoXzANfLqF1fkhMZ3AaaXuh0dUTQUb5390lP5oX6xqg2TIHUjyYN1tHafhTmgNaNamcsjgtaNkaBlA3pxnanWdqdZ3L1gNfRT69FoEwKrTBW/L2PH2s1jm4TsxVqzWa3kdcfJOks07nKO49vCC0Tu3TR91MJ8rQLuvZcFD7bRC1rkxtQIrarX+b23ZJpnsaQW5cb3RCIKwaqhenKBbPfxhXXux/0/lOxes7T6zToDrRziz4dPxpfos9KqK1C6UN+zWE0eYH3j8SJ9HmKv1/BCsttVA2xbtl+rcW0ucXunDzw0us/wA1cHGBYuPCNybTghosC4MVGtubMvgjd4dZ9a+Zhr9D5iOnKD5jnCBAGfOIfDAE8md+9YvU4XfQmvUf28/iVRDoOr+FELCktSmnKoorAtwba3umU0a4umaEHIlSu4l+p9JVp6EKUVIYSYK7PnMmrs4wlcbLtPRQ8AGgFfhq/qv/xAAgEAABAwIHAAAAAAAAAAAAAAABESBQADAQMVFgcHGh/9oACAEBAAE/EOLRiA/jh9hH8g0zp3fBk/MTwwY4STzT+BDumPoGS+ghxxhYtWOFS4zcYIJFFsPocId+OXQ8t+fT8Prv3h7dvQRXUq+5tg4Od+lhbedH2UDxKgVXaW/vxJX63mQiS9/0QhXFHuhTr/HtUQLRDFzNfn0GcFrGxBU/ZRs+emnUORpUiOnll+ZxO1Rwxz+bGSN91nVxD3Pw6ObJi1vtKa92BjhwGI7P91i8LYAsPZyu62dsVENFpLB5KsvS9pXvfj5wYB//2Q==\"></p><p>Q. X এর মান হবে-</p>",
+    "options": [
+      "$\\overline{A}+\\overline{B}+\\overline{C}$",
+      "A+B+C",
+      "A+BC",
+      "AB+C"
+    ],
+    "answer": "$\\overline{A}+\\overline{B}+\\overline{C}$",
+    "explanation": "<p>$\\mathrm{X}=\\overline{\\mathrm{ABC}}=\\overline{\\mathrm{A}}+\\overline{\\mathrm{B}}+\\overline{\\mathrm{C}}$</p>"
+  },
+  {
+    "id": 658,
+    "subject": "ICT",
+    "chapter": "Chapter 3: সংখ্যা পদ্ধতি ও ডিজিটাল ডিভাইস",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত প্রশ্নের উত্তর দাও :</p><p><img src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRUiHiQeHB4kHjYqJiYqNj40MjQ+TERETF9aX3x8p//CABEIAE8BiQMBIgACEQEDEQH/xAAsAAEAAgMBAAAAAAAAAAAAAAAABAUBAwYCAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAALqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPPqqIHSclbFs50dE5z0dDii8ErEC+IVlHozqUaSAAAAAAAAAAAAAAAAAIU2oK6+4vrjajezd514Nsf3EPN/RXo17NJyt5SdEaEjyRsShX099WHT7NW0AAAAAAAAAAAAAVtlRkOwj3hSL3JRZvcFHE6byUVvEwb6O6nmvcAAAAAAAAAAAAAAAAADGQAAAAAAAAAAAAAAAAB//xAAC/9oADAMBAAIAAwAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQyxTTTAgAAAAAAAAAAAAAAAABSghRwgAgABSgAAAAAAAAAAAAABzwAQAwAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAD/8QAAv/aAAwDAQACAAMAAAAQ888888888888888888888888888888888osUwQA088888888888888888sYEoQU8AEoUU88888888888888w8Qw00c88888888888888888888888888888888888//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQIBAT8Ae//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQMBAT8Ae//EAD4QAAECBAIFBwgJBQAAAAAAAAECAwAEBRESVBMVIVGSFBYxQVJTkRAiMlBhcYGiBiAzNEBEYKGxQmOD0fD/2gAIAQEAAT8C/WZhisFdS0VxoSbJPluIv9RVbp6VEaQ/ARr2ndtXDCa3TlH7Uj3iG3EOJxIUFDePU1WW+mUKGUKUpfm7PbE7TFtSUqWUEuIPnWG+JmSVPyrGkUptdrn3mObyM05HNxrNLjm63ml+Ec3m805AoDWZeh6iMJZcPKHjZJNid0UGXYdl3VONIUcfWLxyCUyzXCIcp8k4POl2/gLfxE1Jv01XKZRRwf1oiWmETLKHUdfqWefXLyrjqACU74Nbm0NMuKlkYV9d+mOVMJbbWtxKMYuMRtHL5LNNcYjl8lmmuMRy6SzTXGINRkc03xRrGRzLfFE1PyZlnwmYbJwGwvH0d+5LP93yuYMCsdsNje+6KVUZeWU+0pR0RVdBtGuaaPzHyqjXVM7/AOVUa5pmY+Uwa3Te+PCY17Tu8PDD1Rl5xJYYfUhxXom0NzM+8lMjiIcDm1WLd1QgEISCq5A6d/42tKw05322EO8nclZRLWJT4G0W2b45G3My7Amm7rCf3jU1N7j9zGqqflkxqmnZZP7xqim5YeJjU9Nyo8TE5S5BuVfWhgBQQSDc9UfR/wC4f5D5XlNpaWV+hh2xRqfLzAeddRdOKyRAp0gPyrXDGr5DKtcMatkMs34Rq6QyzfhGrJDKt+ETcnombyTDYc39YHsh2jPIYYWz9uk+fthvSaNGltit5342pTiJVi6hiKvRSeuMdaYbS+EtW62ko27YfqzEtow6heNScVgOj+I5xSPYe8B/uOcMl2HvARzhkew74Rzikew74Rzhkey6fhE5W5Z6WdbS26CpNtsUV+WakgFvtpJUTYqjlsnmWuMQ7UpFsXMwj4G8OOzVXXo2klDAO0wyyhhpLaBsHqWtSrrzTTjW1TRJt74aq7z+FDMqrSHf0CMIUBiSLwAB0DyWiw3RhT2RCm0LSUqSCD0iNS03uPmMakpvcfMYFKp6TcSyf+98AACwFv13/8QAKRABAAIBAQYGAgMAAAAAAAAAAQARITFBUWFxwfAQgZGx0fFQoUBg4f/aAAgBAQABPyH+5qhVANrF119bN7G+LLAziXOOSm+WS4oF6c4s3pq1Rn36VJ5nIOWdFs/DKZPI3Rq/WJbsvlK5LjclSgMEAsCyJMNP6Y/5pPoXzANfLqF1fkhMZ3AaaXuh0dUTQUb5390lP5oX6xqg2TIHUjyYN1tHafhTmgNaNamcsjgtaNkaBlA3pxnanWdqdZ3L1gNfRT69FoEwKrTBW/L2PH2s1jm4TsxVqzWa3kdcfJOks07nKO49vCC0Tu3TR91MJ8rQLuvZcFD7bRC1rkxtQIrarX+b23ZJpnsaQW5cb3RCIKwaqhenKBbPfxhXXux/0/lOxes7T6zToDrRziz4dPxpfos9KqK1C6UN+zWE0eYH3j8SJ9HmKv1/BCsttVA2xbtl+rcW0ucXunDzw0us/wA1cHGBYuPCNybTghosC4MVGtubMvgjd4dZ9a+Zhr9D5iOnKD5jnCBAGfOIfDAE8md+9YvU4XfQmvUf28/iVRDoOr+FELCktSmnKoorAtwba3umU0a4umaEHIlSu4l+p9JVp6EKUVIYSYK7PnMmrs4wlcbLtPRQ8AGgFfhq/qv/xAAgEAABAwIHAAAAAAAAAAAAAAABESBQADAQMVFgcHGh/9oACAEBAAE/EOLRiA/jh9hH8g0zp3fBk/MTwwY4STzT+BDumPoGS+ghxxhYtWOFS4zcYIJFFsPocId+OXQ8t+fT8Prv3h7dvQRXUq+5tg4Od+lhbedH2UDxKgVXaW/vxJX63mQiS9/0QhXFHuhTr/HtUQLRDFzNfn0GcFrGxBU/ZRs+emnUORpUiOnll+ZxO1Rwxz+bGSN91nVxD3Pw6ObJi1vtKa92BjhwGI7P91i8LYAsPZyu62dsVENFpLB5KsvS9pXvfj5wYB//2Q==\"></p><p>Q. A=0,B=1,C=1 হলে আউটপুট কত?</p>",
+    "options": [
+      "O",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "explanation": "<p>A = 0, B = 1, C = 1 হলে— X = $\\overline{\\mathrm{ABC}}=\\overline{0 \\cdot 1 \\cdot 1}=\\overline{0}=1$&nbsp;</p>"
+  },
+  {
+    "id": 659,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>টেলিপ্রেজেন্স এর প্রয়োগ ক্ষেত্র কোনটি?</p>",
+    "options": [
+      "ক্রারোসার্জারি",
+      "বারোমেট্রিক্স",
+      "ভার্চুয়াল রিয়েলিটি",
+      "আর্টিফিশিয়াল ইন্টেলিজেন্স"
+    ],
+    "answer": "ভার্চুয়াল রিয়েলিটি",
+    "explanation": ""
+  },
+  {
+    "id": 660,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>কোনটি রিলেশনাল অপারেটর?</p>",
+    "options": [
+      "OR",
+      "AND",
+      "+",
+      "=="
+    ],
+    "answer": "==",
+    "explanation": ""
+  },
+  {
+    "id": 661,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>x = 10;</p><p>y=x * 5;</p><p>y=y%3;</p><p>উদ্দীপকে উল্লিখিত y চলকের সর্বশেষ মান কত?</p>",
+    "options": [
+      "O",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2",
+    "explanation": "<p>x = 10;</p><p>y=x * 5= 10 * 5 = 50</p><p>y = 50% 3 = 2</p>"
+  },
+  {
+    "id": 662,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত ও পরবর্তী প্রশ্নের উত্তর দাও :</p><p># include &lt; stdio.h &gt;</p><p>main ( )</p><p>{</p><p>int n,i,s;</p><p>scanf(\"%d\",&amp;n);</p><p>s = 0;</p><p>for (i=1;i= &lt;n; i = i+1)</p><p>s = s+i;</p><p>printf (\"%d\",s);</p><p>}</p><p><br></p><p>Q. প্রোগ্রামটি রান করালে এবং কী বোর্ডে 5 টাইপ করলে কত ফলাফল পাওয়া যাবে?</p>",
+    "options": [
+      "6",
+      "10",
+      "15",
+      "21"
+    ],
+    "answer": "15",
+    "explanation": "<p>n = 5 হলে-&nbsp;</p><p>$\\begin{aligned} &amp; s=s+i=0+1=1 \\\\ &amp; s=1+1=2 \\\\ &amp; s=2+1=3 \\\\ &amp; s=3+1=4 \\\\ &amp; s=4+1=5\\end{aligned}$</p><p>$\\therefore 5+4+3+2+1=15$</p>"
+  },
+  {
+    "id": 663,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>উদ্দীপকের আলোকে নিম্নোক্ত ও পরবর্তী প্রশ্নের উত্তর দাও :</p><p># include &lt; stdio.h &gt;</p><p>main ( )</p><p>{</p><p>int n,i,s;</p><p>scanf(\"%d\",&amp;n);</p><p>s = 0;</p><p>for (i=1;i= &lt;n; i = i+1)</p><p>s = s+i;</p><p>printf (\"%d\",s);</p><p>}</p><p><br></p><p>Q. কী বোর্ডে  টাইপ করে ফলাফল 55 পেতে লুপ স্টেটমেন্টে কী ধরনের পরিবর্তন করতে হবে?</p>",
+    "options": [
+      "s=s * i;",
+      "s=s+i * i;",
+      "s=s+i*i*i;",
+      "s=s+i*i*i*i;"
+    ],
+    "answer": "s=s+i * i;",
+    "explanation": ""
+  },
+  {
+    "id": 664,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>অনাকাঙ্খিত বা অবাঞ্ছিত ই-মেইল বা মেসেজ পাঠানোকে কী বলা হয়?</p>",
+    "options": [
+      "স্প্যামিং",
+      "ফিশিং",
+      "হ্যাকিং",
+      "ভাইরাস"
+    ],
+    "answer": "স্প্যামিং",
+    "explanation": ""
+  },
+  {
+    "id": 665,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>সাহিনা তার কম্পিউটারে অনেক নতুন সফটওয়্যার ব্যবহার করতে পারে না। পরে সে এমন একটি সার্ভিস গ্রহণ করল, যা দ্বারা সফটওয়্যার স্বয়ংক্রিয়ভাবে আপডেট হয়। উচ্চগতি সম্পন্ন কম্পিউটারের সুবিধা পাওয়া যায় এবং খরচও কম হয়।</p><p><br></p><p>Q. উদ্দীপকের সার্ভিসটি কী নামে পরিচিত?</p>",
+    "options": [
+      "Bluetooth",
+      "Wi-fi",
+      "Wimax",
+      "Cloud computing"
+    ],
+    "answer": "Cloud computing",
+    "explanation": ""
+  },
+  {
+    "id": 666,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>নিচের উদ্দীপকটি পড় এবং প্রশ্নের উত্তর দাও:</p><p>সাহিনা তার কম্পিউটারে অনেক নতুন সফটওয়্যার ব্যবহার করতে পারে না। পরে সে এমন একটি সার্ভিস গ্রহণ করল, যা দ্বারা সফটওয়্যার স্বয়ংক্রিয়ভাবে আপডেট হয়। উচ্চগতি সম্পন্ন কম্পিউটারের সুবিধা পাওয়া যায় এবং খরচও কম হয়।</p><p><br></p><p>Q. উদ্দীপকে ব্যবহৃত সার্ভিসটির ক্ষেত্রে প্রযোজ্য—</p><p><br/>i. নিরাপত্তা ঝুঁকি নাই।</p><p><br/>ii. ব্যবহারের অতিরিক্ত মূল্য নিতে হয় না </p><p><br/>iii. রক্ষণাবেক্ষণের খরচ নাই।</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "ii ও iii",
+    "explanation": ""
+  },
+  {
+    "id": 667,
+    "subject": "ICT",
+    "chapter": "Chapter 1: তথ্য ও যোগাযোগ প্রযুক্তি: - বিশ্ব ও বাংলাদেশ প্রেক্ষিত",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>ক্যাপচার, এক্সট্রাকশন, কমপারিজন ও ম্যাচিং কোন প্রযুক্তির ক্ষেত্রে ব্যবহৃত হয়?</p>",
+    "options": [
+      "রোবটিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "কৃত্রিম বুদ্ধিমত্তা",
+      "বায়োমেট্রিক্স"
+    ],
+    "answer": "বায়োমেট্রিক্স",
+    "explanation": ""
+  },
+  {
+    "id": 668,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>মেশিন লার্নিং অ্যাপ্লিকেশন তৈরিতে কোন প্রোগ্রামিং ভাষা ব্যবহৃত হয়?</p>",
+    "options": [
+      "C",
+      "Python",
+      "Java",
+      "Algol"
+    ],
+    "answer": "Python",
+    "explanation": ""
+  },
+  {
+    "id": 669,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>একটি চ্যানেল দিয়ে 5 সেকেন্ডে 9000 bit স্থানান্তরিত হলে তার ব্যান্ডউইথ কত?</p>",
+    "options": [
+      "1800 gbps",
+      "1800 mbps",
+      "1800 kbps",
+      "1800 bps"
+    ],
+    "answer": "1800 bps",
+    "explanation": "<p>5 সেকেন্ডে স্থানান্তরিত হয় 9000 bit</p><p>1 সেকেন্ডে স্থানান্তরিত হয় =$\\frac{9000}{5}$ bps = 1800 bps</p><p><br></p><p>সুতরাং ব্যান্ডউইডথ = 1800 bps</p>"
+  },
+  {
+    "id": 670,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>একই প্রটোকলবিশিষ্ট দুই বা ততোধিক নেটওয়ার্ককে সংযুক্ত করে কোন ডিভাইস?</p>",
+    "options": [
+      "গেটওয়ে",
+      "রাউটার",
+      "রিপিটার",
+      "হাব"
+    ],
+    "answer": "রাউটার",
+    "explanation": ""
+  },
+  {
+    "id": 671,
+    "subject": "ICT",
+    "chapter": "Chapter 2: কমিউনিকেশন সিস্টেমস ও নেটওয়ার্কিং",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>কোন প্রজন্মের মোবাইলে ভিডিও কলের শুরু হয়?</p>",
+    "options": [
+      "প্রথম",
+      "তৃতীয়",
+      "দ্বিতীয়",
+      "চতুর্থ"
+    ],
+    "answer": "তৃতীয়",
+    "explanation": ""
+  },
+  {
+    "id": 672,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>সার্চ ইঞ্জিন হলো—</p><p><br/>i. google</p><p><br/>ii. mozilla</p><p><br/>iii. yahoo</p><p><br></p><p>নিচের কোনটি সঠিক?</p>",
+    "options": [
+      "i ও ii",
+      "ii ও iii",
+      "i ও iii",
+      "i, ii ও iii"
+    ],
+    "answer": "i ও iii",
+    "explanation": "<p>সার্চ ইঞ্জিন হলো google, yahoo</p><p>ব্রাউজার হলো mozilla</p>"
+  },
+  {
+    "id": 673,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>HTML ফাইলের এক্সটেনশন হলো—</p>",
+    "options": [
+      ".html",
+      ".c",
+      ".tex",
+      ".doc"
+    ],
+    "answer": ".html",
+    "explanation": ""
+  },
+  {
+    "id": 674,
+    "subject": "ICT",
+    "chapter": "Chapter 4: ওয়েব ডিজাইন পরিচিতি এবং HTML",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>ওয়েবসাইট হোস্টিং করে কোথায় রাখা হয়?</p>",
+    "options": [
+      "র‍্যামে",
+      "হোমপেজে",
+      "হার্ডডিস্কে",
+      "সার্ভারে"
+    ],
+    "answer": "সার্ভারে",
+    "explanation": ""
+  },
+  {
+    "id": 675,
+    "subject": "ICT",
+    "chapter": "Chapter 5: প্রোগ্রামিং ভাষা",
+    "year": "2023",
+    "board": "Mymensingh",
+    "question": "<p>'float' ডেটা টাইপ কত বাইট জায়গা দখল করে?</p>",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৮"
+    ],
+    "answer": "৪",
+    "explanation": ""
+  }
+]
