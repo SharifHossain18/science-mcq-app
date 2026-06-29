@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (state.chapterId) {
             loadData();
         } else {
-            fetch('data/meta.json?t=' + Date.now())
+            fetch('data/meta.json')
                 .then(res => { if (!res.ok) throw new Error('মেটাডাটা লোড ব্যর্থ'); return res.json(); })
                 .then(meta => {
                     const subjectMeta = meta[state.subject];

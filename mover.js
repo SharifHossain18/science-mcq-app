@@ -57,7 +57,7 @@
     // Load metadata from static meta.json
     async function loadMetadata() {
         try {
-            const res = await fetch('./data/meta.json?t=' + Date.now());
+            const res = await fetch('./data/meta.json');
             if (!res.ok) throw new Error("Failed to load metadata");
             metadata = await res.json();
             

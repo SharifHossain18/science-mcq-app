@@ -93,12 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
     renderStrip();
 
     // Load meta + render year/board
-    fetch('data/meta.json?t=' + Date.now())
+    fetch('data/meta.json')
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(data => {
             metaData = data;
             renderYearSlider();
-            renderBoardGrid(null); // show all boards initially
+            renderBoardGrid(null);
         })
         .catch(err => {
             console.error('meta.json error:', err);

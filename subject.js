@@ -154,7 +154,7 @@ function initDashboard() {
 
     initDownloadButton();
 
-    fetch('data/meta.json?t=' + Date.now())
+    fetch('data/meta.json')
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(data => { metaData = data; renderChapterList(); })
         .catch(err => {
